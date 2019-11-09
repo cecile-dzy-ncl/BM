@@ -69,3 +69,13 @@ section#header-header {
 .bg-secondary-color-blurred {
 /*  background-color: rgba(240,240,240); */
 }
+
+/* BANNER */
+
+.banner-homepage {
+  background-size: cover;
+  height: 631px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}
