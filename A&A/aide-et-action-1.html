@@ -1,0 +1,3861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr_FR" lang="fr_FR">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<title>Soutenir Aide et Action</title>
+<meta name="description" content="Faites un don pour soutenir nos actions en faveur d'une éducation de qualité pour tous à travers le monde !" />
+<meta name="keywords" content="Don, Association, Education, Aide et Action, Ecole, Parrainage, Solidarité " />
+<link rel="stylesheet" href="style-aa.css" />
+<link type="text/css" href="https://soutenir.aide-et-action.org/themes/default/css/style.css?v=7.5.8a" rel="stylesheet" />
+
+<link type="text/css" href="https://soutenir.aide-et-action.org/libs.iraiser.eu/libs/intl-tel-input/css/intlTelInput.css" rel="stylesheet" />
+
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/libs.iraiser.eu/libs/intl-tel-input/js/intlTelInput.js" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/jquery.cookie-1.0.min.js" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/dnterrors.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/step1.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/step2.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/step3.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/steps.js?v=7.5.8a" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/jquery.ir-priceinput.js" ></script>
+<script type="text/javascript" src="https://soutenir.aide-et-action.org/themes/default/js/common.js" ></script>
+<script type="text/javascript">
+// <![CDATA[
+ var ira_form_version = 'b';
+Steps.version="b";
+Step1.tax_reduction_rates =    {"ir":[66],"isf":[75,0],"corp":[60],"custom1":[],"custom2":[]};
+Step1.tax_reduction_ceils =    {"ir":[],"isf":[66666.67],"corp":[],"custom1":[],"custom2":[]};
+Step1.tax_reduction_notices =  {"ir":"\u00e0 hauteur de 20% du revenu imposable","isf":"","corp":"dans la limite de 5\u2030 du chiffre d'affaires annuel","custom1":"","custom2":""};
+Step1.tax_reduction_triggers = {"ir":"0","isf":"0","corp":"0","custom1":"0","custom2":"0"};
+Step1.active_tax_reduction = 1;
+Step1.adapt_tax_bloc = false;
+Step1.tax_info = "Soit <span class='price'>%s \u20ac<\/span><span id=\"parMois\"> \/mois <\/span> apr\u00e8s d\u00e9duction fiscale *";
+Step1.is_french_isf = 0;
+
+Step1.decimal_sep = ",";
+Step1.min_once_amount = 5;
+Step1.max_once_amount = 10000;
+Step1.min_regular_amount = 7;
+Step1.max_regular_amount = 10000;
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.choose_amount = "Vous devez choisir un montant pour votre don";
+DntErrors.errorMsg.min_once_amount = "En raison de frais de traitement, le montant minimum accept\u00e9 pour un don est de 5 \u20ac ";
+DntErrors.errorMsg.max_once_amount = "Votre don ne peut pas \u00eatre sup\u00e9rieur \u00e0 10000 \u20ac ";
+DntErrors.errorMsg.min_regular_amount = "En raison de frais de traitement, le montant minimum accept\u00e9 pour un don est de 7 \u20ac ";
+DntErrors.errorMsg.max_regular_amount = "Votre don ne peut pas \u00eatre sup\u00e9rieur \u00e0 10000 \u20ac ";
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.qualification = "Le champ \u00ab %s \u00bb est obligatoire";
+DntErrors.errorMsg.firstname = "Vous devez saisir votre Pr\u00e9nom";
+DntErrors.errorMsg.lastname = "Vous devez saisir votre Nom";
+DntErrors.errorMsg.email = "Vous devez saisir une adresse Email valide";
+DntErrors.errorMsg.company = "La raison sociale ne doit pas d\u00e9passer 35 caract\u00e8res";
+DntErrors.errorMsg.address1 = "Vous devez saisir votre Adresse";
+DntErrors.errorMsg.postcode = "Vous devez saisir votre Code postal (10 caract\u00e8res maximum)";
+DntErrors.errorMsg.city = "Vous devez saisir votre Ville";
+DntErrors.errorMsg.civility = "Vous devez s\u00e9lectionner votre Civilit\u00e9";
+DntErrors.errorMsg.errors = "%s erreurs ont \u00e9t\u00e9 trouv\u00e9es dans le formulaire";
+DntErrors.errorMsg.error = "1 erreur a \u00e9t\u00e9 trouv\u00e9e dans le formulaire";
+DntErrors.errorMsg.cardtype = "S\u00e9lectionnez votre type de carte bancaire";
+DntErrors.errorMsg.cardnumber = "Saisissez correctement les chiffres de votre carte bancaire";
+DntErrors.errorMsg.cardscode = "Saisissez correctement les chiffres du code de s\u00e9curit\u00e9 situ\u00e9s au dos de votre carte bancaire";
+DntErrors.errorMsg.cardmonth = "S\u00e9lectionnez le mois d'expiration de votre carte bancaire";
+DntErrors.errorMsg.cardyear = "S\u00e9lectionnez l'ann\u00e9e d'expiration de votre carte bancaire";
+DntErrors.errorMsg.gocardless = "Ce mode de paiement implique un montant inf\u00e9rieur \u00e0 5000\u20ac. Merci de diminuer le montant ou de s\u00e9lectionner un autre moyen de paiement";
+
+Step2.failed_dnt_url = "/index.php?module=donations&action=xhr:attemptSave";
+form_context_lang = "fr_FR";
+form_context_cid = "140";
+
+Step3.alert_msg = "";
+Step3.modal_qualif = "0";
+Step3.modal_qualif_url = "/index.php?module=donations&action=default:modalQualification";
+Step3.modal_save_card = "0";
+Step3.modal_save_card_url = "/index.php?module=donations&action=default:modalSaveCard";
+Step3.modal_save_card_set_url = "/index.php?context_form_id=form_85.68.182.4_5cacff8a5128f0.33352747&module=donations&action=default:setSaveCard";
+
+Step3.cards_mastercard_length=16;
+Step3.cards_mastercard_cvvlength=3;
+Step3.cards_mastercard_hasalias=1;
+Step3.cards_visa_length=16;
+Step3.cards_visa_cvvlength=3;
+Step3.cards_visa_hasalias=1;
+Step3.cards_cartebleue_length=16;
+Step3.cards_cartebleue_cvvlength=3;
+Step3.cards_cartebleue_hasalias=1;
+
+
+$(document).ready(function() {
+    Step1.init();
+    Step2.init();
+    Steps.init();
+    Steps.submit();
+
+});
+
+try{ var ira_context_infos = {"form_id":"form_85.68.182.4_5cacff8a5128f0.33352747","campaign":"140","version":"b","lang":"fr_FR","reserved":"[]","_cpn_name_":null}; console.log(ira_context_infos); }catch(err){}
+// ]]>
+</script><meta name="viewport" content="width=device-width" />
+<style type="text/css">
+    .regularblock {
+        display:none;
+    }
+
+
+a {
+        }
+
+body, html {
+        }
+
+body {
+    background:  url(/medias/app/back-body.png);
+            }
+
+#container {
+
+    }
+
+#header {
+        }
+
+#main {
+    }
+
+#footer {
+    }
+
+#lang p {
+        }
+
+
+#copyright p {
+        }
+#copyright span {
+        }
+#copyright a {
+        }
+#copyright a.current {
+        }
+
+    .step-title {
+        background:  repeat-x top center;    }
+
+    .step-title h2 {
+                                                    }
+
+    .step-title span {
+                                                    }
+
+
+.step-info {
+                }
+
+.step-info h4 {
+                    }
+
+.help {
+            }
+
+
+#or {
+                    }
+
+
+.bloc-content h3 {
+                    }
+
+.content-desc {
+        }
+
+.radio-inline {
+                }
+
+.radio-desc {
+                }
+
+.radio-desc span {
+            }
+
+
+#once {
+            }
+
+
+
+
+
+
+
+
+#regular {
+            }
+
+
+
+
+
+
+
+
+#cb-bloc h4, .payment h4 {
+                    }
+
+
+#contact-info {
+            }
+
+
+#cb-bloc {
+            }
+
+
+
+#other-payment-bloc {
+        }
+
+#other-payment-bloc h4 {
+                    }
+
+
+    .step-content {
+            }
+
+    .step-container .step-info {
+                    }
+
+
+#greetings, #postmail-content {
+            }
+
+#postmail h2 {
+                        }
+
+#greetings h2, #postmail h3 {
+                        }
+
+#greetings a, #postmail a {
+        }
+
+.renew-info {
+                    }
+
+#greetings-comp {
+            }
+
+
+
+#greetings #social-share {
+        }
+
+</style>
+
+<script type="text/javascript">
+var dataLayer = [{
+
+
+  'campaign_id': '140',
+  'campaign_name': 'Design #3 Don ponctuel',
+  'campaign_type': 'donation',
+  'donation_status': ''
+}];
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7SP2VJ');</script>
+<!-- End Google Tag Manager -->
+
+<style type="text/css">
+@import url(//fonts.googleapis.com/css?family=Arimo:400,700);
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #efefe1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+
+}
+
+body, input, button {
+    -webkit-font-smoothing: antialiased;
+}
+
+h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+}
+
+a {
+    color: #409635;
+    transition: color 0.2s linear 0s;
+}
+
+a:hover {
+    color: #367E2C;
+}
+
+#step-1 .step-container {
+    margin-right: 5px;
+}
+
+#step-2 .step-container {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#step-3 .step-container {
+    margin-left: 5px;
+}
+
+input[type=text], select {
+    font-size: 13px;
+    padding: 7px 9px;
+    outline: 0 none;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+
+input[type=text].error, select.error {
+    outline: 0 none;
+    background-color: #FFF;
+    border: 1px solid #E61937;
+}
+
+input[type=text].valid, select.valid {
+    outline: 0 none;
+    background-color: #FFF;
+    border: 1px solid #409634;
+}
+
+input[type=text]:focus, select:focus {
+    outline: 0 none;
+    background-color: #FAFAFA;
+    border: 1px solid #999;
+}
+
+optgroup {
+    font-weight: 700;
+}
+
+optgroup option {
+    font-weight: 400;
+}
+
+label, #card-expiry span {
+    margin-bottom: .1rem;
+}
+
+.required {
+    color: #E61937;
+}
+
+.help {
+    color: #acacae;
+}
+
+.renew-info {
+    color #E61937;
+    font-weight: 700;
+}
+
+/* Header */
+
+#header { margin-bottom: 10px; }
+#logo h1 {
+    margin-left: 4px;
+    margin-top: 9px;
+}
+
+/* Version A */
+
+#main, #main-container, .step-content {
+    background-color: #FFF;
+}
+
+#type-a #main {
+    background: none;
+}
+
+/* Version B */
+
+.step-container {
+    overflow: hidden;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#container { overflow: visible; }
+
+#type-b #main,
+#type-c #main {
+    background: none;
+    overflow: visible;
+    box-shadow: none;
+}
+
+.step-title {
+    position: relative;
+    overflow: visible;
+    background-color: #fbae16;
+    color: #FFF;
+}
+
+.step-title > h2 {
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+}
+
+.step-title:after {
+        display: inline-block;
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 44%;
+        width: 0;
+        border: 15px solid;
+        border-color: #fbae16 transparent transparent;
+}
+
+.step-content, #step-3 .step-content { padding-top: 30px; }
+
+.step-info {
+    color: #4c4b4c;
+    background-color: #e3e3d6;
+}
+
+/* Step 1 */
+
+#or p {
+    margin: 10px auto;
+    padding: 10px 0 9px;
+    width: 36px;
+    border-radius: 30px;
+    font-size: 93%;
+    font-weight: 700;
+    color: #4C4B4C;
+    background: #E3E3D6;
+}
+
+#once.bloc, #regular.bloc {
+    border: 2px solid #FBAE16;
+}
+
+#once .bloc-content, #regular .bloc-content {
+    padding: 0;
+}
+
+#once.bloc h3, #regular.bloc h3 {
+    padding: 10px 13px;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    background-color: #FBAE16;
+}
+
+#once .content-desc, #regular .content-desc {
+    background-color: #FCF3D4;
+}
+
+.radio-inline, .radio-desc {
+    padding: 22px 10px 4px;
+}
+
+.radio-inline li { white-space: nowrap; /* Fix Chrome MacOSX */ }
+
+.radio-inline span {
+    padding-bottom: 6px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.radio-desc span {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.amount, .free-amount {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.tax-info {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.free-amount {
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.free-amount p { font-size: 13px; }
+
+.free-amount span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.free-amount input {
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.tax-info {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 14px;
+    background-color: #fcf3d4;
+    border-top: 1px solid #fcf3d4;
+}
+
+.tax-info:after {
+    display: inline-block;
+    content:"";
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 0;
+    border: 10px solid;
+    border-color: transparent transparent #fcf3d4;
+
+}
+
+.price { color: #fbae16; }
+
+/* Step 2 */
+
+#contact-info { border-color: #E3E4D6; }
+
+/* Step 3 */
+
+#security-info img {
+    margin-right: 10px;
+}
+
+#cb-bloc {
+    padding-bottom: 10px;
+}
+
+#cb-bloc h4,
+.payment h4,
+#type-a #other-payment-bloc h4 {
+    position: relative;
+    margin: 10px 0 12px;
+    padding: 6px 10px;
+    font-size: 108%;
+    color: #4C4B4C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+    border: 1px solid #E3E3D6;
+    background-color: #E3E3D6;
+}
+
+#cb-bloc h4:after,
+.payment h4:after,
+#type-a #other-payment-bloc h4:after {
+    display: block;
+    content:"";
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    width: 0;
+    border: 10px solid;
+    border-color: #E3E3D6 transparent transparent;
+
+}
+
+#iban {
+    padding-bottom: 10px;
+}
+
+#type-a #cb-bloc,
+#type-a #other-payment-bloc {
+    border-color: #E3E4D6;
+}
+
+#type-a #cb-bloc h4,
+#type-a #other-payment-bloc h4 {
+    margin-top: 0;
+}
+
+.payment-submit input[type=image] { margin-bottom: 10px; }
+
+/* Greetings */
+
+#greetings, #postmail-content {
+    background-color: #F0F1E3;
+    border-color: #E3E4D6;
+}
+
+#greetings #social-share {
+    background-color: #FCAE16;
+    border-color: #FCAE16;
+}
+
+#greetings-comp {
+    background: #367E2C;
+    border-color: #367E2C;
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#greetings h2,
+#postmail h3,
+#greetings-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+#greetings-comp .help { color: #FFF; }
+
+#greetings-text h2,
+#postmail-content h3 {
+    color: #333;
+}
+
+#share-title h2,
+#greetings-comp h2 {
+    color: #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#greetings-text p,
+#postmail-content p {
+    font-size: 14px;
+}
+
+#postmail-content a,
+#greetings-text a {
+    font-weight: 700;
+}
+
+#greetings-comp .submit input[type=submit] {
+    background-color: #367E2C;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    color: #FFF;
+    transition: color 0.45s ease 0s, border-color 0.45s ease-in-out 0s, background-color 0.45s ease-in-out 0s;
+}
+
+#greetings-comp .submit input[type=submit]:hover {
+    background-color: #FFF;
+    color: #367E2C;
+}
+
+/* Footer */
+
+#footer, #footer a { color: #666; text-decoration: none; }
+#footer a:hover { color: #444; text-decoration: underline; }
+#footer a.current {
+    color: #444;
+    font-weight: 700;
+}
+
+/* Step Title */
+
+.step-title, #navbar {
+    background-color: #FCAE16;
+}
+
+.step-title h2 {
+    font-size: 18px;
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px, rgba(255,255,255,0.1) 1px 0, rgba(255,255,255,0.1) 0 1px, rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
+}
+
+/* Navigation */
+
+#navbar {
+    padding: 0 6px;
+}
+
+#navbar #security-info {
+    padding: 0;
+}
+
+#navbar #security-info img {
+    margin-top: 8px;
+    margin-right: 0;
+}
+
+#step-nav ul li {
+    text-transform: uppercase;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #b6641d;
+}
+
+#step-nav ul li:after {
+    position: relative;
+    top: 3px;
+    right: -9px;
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASAgMAAADAl93HAAAADFBMVEX////4+v/4+v/4+v90+TDWAAAABHRSTlMAZiIz56v2PgAAAD5JREFUeNpjuBrawMDAYBqaACR5QyOAJFNoGJBkmAqWUAVLcIbGgCXCIRIHYCREBCILUQnWBTEBYhrEZLAtAPCLEqMUM9LBAAAAAElFTkSuQmCC) no-repeat;
+}
+
+#step-nav ul li:last-child:after {
+    content: none;
+}
+
+#step-nav ul li.current,
+#step-nav ul li.current > a {
+    color: #FFF;
+    text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px, rgba(255,255,255,0.1) 1px 0, rgba(255,255,255,0.1) 0 1px, rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
+}
+
+#step-nav ul li.previous,
+#step-nav ul li.previous > a {
+    color: #FCF3D4;
+    text-shadow: rgba(0,0,0,0.1) -1px 0, rgba(0,0,0,0.1) 0 -1px, rgba(255,255,255,0.1) 1px 0, rgba(255,255,255,0.1) 0 1px, rgba(0,0,0,0.1) -1px -1px, rgba(255,255,255,0.1) 1px 1px;
+}
+
+/* Message */
+
+#form-error,
+#form-valid,
+#form-info {
+    margin: 0 0 10px;
+}
+
+#type-a #form-error {
+    margin-left: 10px;
+}
+
+#form-error h3 {
+    color: #FFF;
+    letter-spacing: 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-error {
+    color: #FFF;
+    background-color: #E61937;
+    border-color: #E61937;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-info {
+    background-color: #FCF3D4;
+    border-color: #FCF3D4;
+    color: #333;
+}
+
+@media only screen and (max-width: 959px) {
+    #header { padding: 0 0 10px; }
+
+    #step-nav ul li { width: 100% !important; }
+
+    #type-a #form-error { margin-right: 10px; }
+
+    #step-1 .step-container,
+    #step-2 .step-container,
+    #step-3 .step-container {
+        margin: 0;
+    }
+
+    #step-3 { display: block; }
+
+    #next-submit { padding: 0 !important; }
+
+    #next-submit p { padding: 20px 0 10px; }
+
+    #next-submit input.button {
+        margin: 0 auto !important;
+        float: none !important;
+    }
+
+    #card-number > label { display: block; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #step-nav {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    #powered { float: left !important; }
+    #copyright { float: right !important; }
+}
+
+@media only screen and (max-width: 767px) {
+    #step-nav ul { margin-left: 0; }
+
+    #type-a #step-2 input[type=text],
+    #type-a #step-2 input#email,
+    #type-a #step-2 input#company,
+    #type-a #step-2 select#country {
+        width: 95%;
+    }
+
+    #type-a #step-2 .lastUnit { display: block; }
+
+    #powered p { overflow: hidden; }
+    #copyright {
+        display: block !important;
+        text-align: left;
+        border-top: 1px solid #E3E4D6;
+    }
+}
+
+</style>
+
+
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
+<script>
+$( document ).ready(function() {
+    ApiValidation.init();
+});
+
+var keyapivalidation = "AIzaSyDAiw8eQHdyJrHTKh_5hFFM9xId61B5uXQ";
+var userapivalidationnl = "RVS4UB15WKeJBJkJLiyjcugpJ78Ox3h2yjrakTdC5lZ";
+var passapivalidationnl = "Nxew4nA7MDBKF2hqT2rzbmqeaRJgGgrTFX5j93DRJsK";
+var addedFieldAddressForNL = false;
+
+DntErrors.errorMsg.streetNumber = "Gelieve uw huisnummer in te vullen";
+
+var oldStep2Check;
+
+var ApiValidation = {
+
+    init: function() {
+
+        if (document.getElementById("address1") != null) {
+            var postcode = $('#postcode');
+            var email = $('#email');
+            var address = $('#address1');
+            var country = $('#country');
+            var postcode = $('#postcode');
+            var city = $('#city');
+
+            if (ApiValidation.isNLPostcodeValidation()) {
+                ApiValidation.addFieldStreetNumber();
+                addedFieldAddressForNL = true;
+            };
+
+            country.change(function(event) {
+                if (ApiValidation.isNLPostcodeValidation()) {
+                    ApiValidation.addFieldStreetNumber();
+                    addedFieldAddressForNL = true;
+                } else if (addedFieldAddressForNL) {
+                    ApiValidation.removeFieldStreetNumber();
+                    addedFieldAddressForNL = false;
+                }
+            });
+
+            email.blur(function() {
+                ApiValidation.checkEmail(email.val());
+            });
+
+            address.autocomplete({
+                source : function(requete, response){
+                    if (!addedFieldAddressForNL) {
+                        $.ajax({
+                                type: "GET",
+                                url : ApiValidation.geturlapi(keyapivalidation),
+                                dataType : 'jsonp',
+                                success : function(donnee){
+                                    if (donnee.status == 'OK') {
+                                        response($.map(donnee.results, function(item) {
+                                            return {
+                                                label: item.address,
+                                                value: item.address,
+                                                city: item.city,
+                                                zip: item.postal_code,
+                                                ctry: item.ctry,
+                                                adress: (item.number!=null ? item.number + ' ' + item.street : item.street)
+                                                };
+                                            }));
+                                    }
+                                }
+                            });
+                        }
+                },
+                minLength: 10,
+                select: function( event, ui ) {
+                    if (ui.item.adress!=undefined&&ui.item.adress!='') {
+                        address.val( ui.item.adress );
+                        address.removeClass('error');
+                        DntErrors.removeError('address1');
+                        address.addClass('valid');
+                    }
+                    if (ui.item.ctry!=undefined&&ui.item.ctry!='') {
+                        country.val( ui.item.ctry );
+                        DntErrors.removeError('country');
+                        country.removeClass('error');
+                    }
+
+                    if (ui.item.city!=undefined&&ui.item.city!='') {
+                        city.val( ui.item.city );
+                        DntErrors.removeError('city');
+                        city.removeClass('error');
+                        city.addClass('valid');
+                    }
+
+                    if (ui.item.zip!=undefined&&ui.item.zip!='') {
+                        postcode.val( ui.item.zip );
+                        DntErrors.removeError('postcode');
+                        postcode.removeClass('error');
+                        postcode.addClass('valid');
+                    }
+
+                    return false;
+                },
+                open: function(event, ui) {
+                    $('.ui-autocomplete').append('<li><a><img src="https://apivalidation.iraiser.eu/static/img/powered-by-google-on-white.png" align="right"></a></li>');
+                }
+            })
+            .data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+                return $( "<li>" )
+                .append( "<a>" + item.label + "</a>" )
+                .appendTo( ul );
+            };
+        }
+    },
+
+
+
+    addFieldStreetNumber : function() {
+
+        var champStreetNumber = '<p class="unit size1of2"><label for="streetNumber">Huisnummer <span class="required">*</span></label><input type="text" id="streetNumber" name="streetNumber" value=""/></p>';
+        var champStreetAdd = '<p class="unit size2of2 lastUnit"><label for="streetNumberAddition">Toevoeging <span class="help">bv. A</span></label><input type="text" id="streetNumberAddition" name="streetNumberAddition" value=""/></p>';
+        var ligneStreetNumber = '<div class="line" id="addressCptNL" style="width:95%;">'+champStreetNumber+champStreetAdd+'</div>';
+        var labelAdress = $("label[for='address1']").html().replace('address1','inputAddressNL');
+        var inputAdress = '<input type="text" name="inputAddressNL" id="inputAddressNL" />'
+        var ligneNouvelleAdresse = '<p>'+labelAdress+inputAdress+'</p>';
+        var newInput = "<div id='adressForNL'>"+ligneStreetNumber + ligneNouvelleAdresse+"</div>";
+        $("p:has(label[for='postcode'])").after(newInput);
+
+        $('#inputAddressNL').addClass($('#address1').attr('class'));
+        $('#inputAddressNL').val($('#address1').val());
+
+        ApiValidation.recoverFromError();
+
+        ApiValidation.recoverFromTaggedUrl();
+
+        $("p:has(label[for='address1'])").hide();
+        $("p:has(label[for='address2'])").hide();
+
+        $('#streetNumber').blur(function() {
+            ApiValidation.checkStreetNum();
+        });
+        $('#streetNumber').keyup(function() {
+            ApiValidation.getAddressFromZip();
+        });
+        $('#postcode').keyup(function() {
+            ApiValidation.getAddressFromZip();
+        });
+        $('#streetNumberAddition').keyup(function() {
+            ApiValidation.copyAdressNLtoAdress1();
+        });
+        $('#inputAddressNL').blur(function() {
+            ApiValidation.checkAdressNL();
+        });
+        $('#inputAddressNL').keyup(function() {
+            ApiValidation.copyAdressNLtoAdress1();
+        });
+
+        var newStep2check = (function() {
+            oldStep2Check = Step2.check;
+            return function() {
+                return oldStep2Check()&&ApiValidation.checkStreetNum()&&ApiValidation.checkAdressNL();
+            }
+        })();
+
+        Step2.check = newStep2check;
+
+        return false;
+    },
+
+    recoverFromError : function() {
+        var patternstrnumadd = /[0-9]+[\s|\+]*[-][\s|\+]*\w/g;
+        var strnumbreadd = $('#address1').val().match(patternstrnumadd);
+        if (strnumbreadd != undefined && strnumbreadd != '') {
+            var patternstrnumadd2 = /[-][\s|\+]*\w/g;
+            var strnumbreadd2 = $('#address1').val().match(patternstrnumadd2);
+            $('#inputAddressNL').val($('#address1').val().replace(strnumbreadd2[strnumbreadd2.length-1],''));
+            var patternstrnumadd3 = /[-][\s|\+]*/g;
+            $('#streetNumberAddition').val(strnumbreadd2[strnumbreadd2.length-1].replace(patternstrnumadd3,''));
+        }
+
+        var patternstrnum = /[\s|\+]*[0-9]+(\w)*/g;
+        var strnumbre = $('#inputAddressNL').val().match(patternstrnum);
+        if (strnumbre != undefined && strnumbre != '') {
+            $('#inputAddressNL').val($('#inputAddressNL').val().replace(strnumbre[strnumbre.length-1],''));
+            var patternstrnum2 = /[\s|\+]/g;
+            $('#streetNumber').val(strnumbre[strnumbre.length-1].replace(patternstrnum2,''));
+        }
+    },
+
+    recoverFromTaggedUrl : function() {
+        var nl_coords = $.parseJSON($.cookie('dnt_coords'));
+        if (nl_coords != null) {
+            if (nl_coords.nl_streetnumber != undefined && ($('#streetNumber').val() == undefined || $('#streetNumber').val() == '')) {
+                $('#streetNumber').val(nl_coords.nl_streetnumber);
+            }
+            if (nl_coords.nl_streetnumberaddition != undefined && ($('#streetNumberAddition').val() == undefined || $('#streetNumberAddition').val() == '')) {
+                $('#streetNumberAddition').val(nl_coords.nl_streetnumberaddition);
+            }
+            if (nl_coords.nl_inputaddress != undefined && ($('#inputAddressNL').val() == undefined || $('#inputAddressNL').val() == '')) {
+                $('#inputAddressNL').val(nl_coords.nl_inputaddress.replace("+"," "));
+            }
+            if (($('#inputAddressNL').val()==undefined||$('#inputAddressNL').val()=='')
+               &&($('#city').val()==undefined||$('#city').val()=='')) {
+                ApiValidation.getAddressFromZip();
+            }
+        }
+    },
+
+    removeFieldStreetNumber : function() {
+        $('#address1').addClass($('#inputAddressNL').attr('class'));
+        $('#adressForNL').remove();
+        $("p:has(label[for='address1'])").show();
+        $("p:has(label[for='address2'])").show();
+
+        DntErrors.removeError('streetNumber');
+
+        DntErrors.displayErrors();
+        Step2.check = oldStep2Check;
+        return false;
+    },
+
+    checkStreetNum: function() {
+        var retour = true;
+        if (ApiValidation.isNLPostcodeValidation()) {
+            if ($('#streetNumber').val()!=undefined&&$('#streetNumber').val()!='') {
+                DntErrors.removeError('streetNumber');
+                $('#streetNumber').removeClass('error');
+                $('#streetNumber').addClass('valid');
+            }
+            else {
+                DntErrors.addError('streetNumber');
+                $('#streetNumber').removeClass('valid');
+                $('#streetNumber').addClass('error');
+                retour = false;
+            }
+        }
+        DntErrors.displayErrors();
+        return retour;
+    },
+
+    checkAdressNL: function() {
+        var retour = true;
+        if (ApiValidation.isNLPostcodeValidation()) {
+            if ($('#inputAddressNL').val()!=undefined&&$('#inputAddressNL').val()!='') {
+                DntErrors.removeError('address1');
+                $('#inputAddressNL').removeClass('error');
+                $('#inputAddressNL').addClass('valid');
+            }
+            else {
+                DntErrors.addError('address1');
+                $('#inputAddressNL').removeClass('valid');
+                $('#inputAddressNL').addClass('error');
+                retour = false;
+            }
+        }
+        DntErrors.displayErrors();
+        return retour;
+    },
+
+    copyAdressNLtoAdress1 : function() {
+        var adressEnCours = '';
+        if ($('#inputAddressNL').val()!=undefined&&$('#inputAddressNL').val()!='') {
+            adressEnCours += $('#inputAddressNL').val();
+        }
+        if ($('#streetNumber').val()!=undefined&&$('#streetNumber').val()!='') {
+            adressEnCours += ' '+$('#streetNumber').val();
+        }
+        if ($('#streetNumberAddition').val()!=undefined&&$('#streetNumberAddition').val()!='') {
+            adressEnCours += '-'+$('#streetNumberAddition').val();
+        }
+        $('#address1').val(adressEnCours);
+    },
+
+    getAddressFromZip : function() {
+        if (ApiValidation.isNLPostcodeValidation()) {
+            var ziptemp = $('#postcode').val();
+            var zipreplaced = ''
+            if (ziptemp!=undefined && ziptemp!='') {
+                zipreplaced = ApiValidation.validzipcod(ziptemp);
+            }
+            else {
+                zipreplaced = 'a';
+            }
+            var stnum = $('#streetNumber').val();
+            $.ajax({
+                type: "GET",
+                url: "https://apivalidation.iraiser.eu/services/address/validation_nl/jsonp/"+zipreplaced+"?n="+stnum+"&u="+userapivalidationnl+"&p="+passapivalidationnl,
+                dataType: 'jsonp',
+                success : ApiValidatiohen.onGetAddressFromZipSuccess,
+                error: ApiValidation.onGetAddressFromZipError
+            });
+        }
+    },
+
+    validzipcod : function(zip) {
+        var zipnew = zip.replace(/ /g,"").replace(/\-/g, "");
+        return zipnew;
+    },
+
+    onGetAddressFromZipSuccess : function(data, statut) {
+        if(data.status=="OK") {
+                var result = data.results[0];
+                if (result.street != undefined) {
+                    $('#inputAddressNL').val(result.street);
+                    DntErrors.removeError('address1');
+                    $('#inputAddressNL').removeClass('error');
+                    $('#inputAddressNL').addClass('valid');
+                }
+                else {
+                    $('#inputAddressNL').val('');
+                    $('#address1').val('');
+                    $('#inputAddressNL').removeClass('valid');
+                }
+                if (result.city != undefined) {
+                    $('#city').val(result.city);
+                    DntErrors.removeError('city');
+                    $('#city').removeClass('error');
+                    $('#city').addClass('valid');
+                }
+                if (result.number != undefined) {
+                    $('#streetNumber').addClass('valid');
+                    $('#streetNumber').removeClass('error');
+                    DntErrors.removeError('streetNumber');
+                }
+                if (result.postal_code != undefined) {
+                    DntErrors.removeError('postcode');
+                    $('#postcode').removeClass('error');
+                    $('#postcode').addClass('valid');
+                }
+                DntErrors.displayErrors();
+                if (typeof(Steps)!='undefined') {
+                    Steps.is_submitted = '0';
+                }
+        }
+        else {
+            $('#city').removeClass('valid');
+            $('#city').val('');
+            $('#inputAddressNL').removeClass('valid');
+            $('#inputAddressNL').val('');
+            $('#streetNumber').removeClass('valid');
+            $('#postcode').removeClass('valid');
+        }
+        ApiValidation.copyAdressNLtoAdress1();
+    },
+
+    onGetAddressFromZipError : function(data, statut, erreur) {
+
+    },
+
+    checkEmail : function(email) {
+        if (email == undefined || email=='') {
+            email = 'a';
+        }
+        $.ajax({
+            type: "GET",
+            url: "https://apivalidation.iraiser.eu/services/email/validation/jsonp/"+email,
+            dataType: 'jsonp',
+            success : ApiValidation.onCheckEmailSuccess,
+            error: ApiValidation.onCheckEmailError
+        });
+    },
+
+    onCheckEmailSuccess : function(data, statut) {
+        if(data.status!="OK") {
+            DntErrors.addError('email');
+            $('#email').removeClass('valid');
+            $('#email').addClass('error');
+        } else {
+            DntErrors.removeError('email');
+            $('#email').removeClass('error');
+            $('#email').addClass('valid');
+        }
+        DntErrors.displayErrors();
+    },
+
+    onCheckEmailError : function(data, statut, erreur) {
+
+    },
+
+
+
+    geturlapi : function(key) {
+        var urlapi = "https://apivalidation.iraiser.eu/services/address/validation/jsonp/";
+        var address = $('#address1').val();
+        urlapi += address;
+        urlapi += "?key="+key;
+
+
+        var country = $('#country').val();
+        //var language = $('select[name=lang]').val();
+        var language = $('html').attr('lang');
+
+        if (country!='undefined'&&country!='') {
+            urlapi+="&c="+country;
+        }
+        if (language!='undefined'&&language!='') {
+            urlapi+="&l="+language;
+        }
+
+        return urlapi;
+
+    },
+
+    isNLPostcodeValidation : function() {
+        return $('html')[0].lang=='nl_NL'&&$('#country').val()=='NL';
+    }
+}
+
+
+</script>
+
+<!-- Start of Woopra Code -->
+<script>
+$(document).ready(function(){
+(function(){
+    var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+})("woopra");
+
+
+woopra.config({
+    domain: 'aide-et-action.org'
+});
+
+if ($('#email').length && $('#email').val() != "") {
+    if ($('#lastname').length && $('#lastname').val() != "" && $('#firstname').length && $('#firstname').val() != ""){
+      woopra.identify({
+        email: $('#email').val(),
+        name: $('#firstname').val() + ' ' + $('#lastname').val(),
+      });
+    } else {woopra.identify({email: $('#email').val()})}
+  }
+
+woopra.track();
+});
+</script>
+<!-- End of Woopra Code -->
+      <link rel="stylesheet" href="https://libs.iraiser.eu/libs/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+      <!--<link href="https://cdn.iraiser.eu/g12JnydaOUy1I6YfIvfZfg==/default/favicon.png" rel="shortcut icon" type="image/png">-->
+      <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+      <script src="/libs.iraiser.eu/libs/forms/apivalidation.js"></script>
+      <script>
+       $(document).ready(function(){
+          ApiValidation.init({
+              keyapivalidation :      'AIzaSyAuhc6hzwLKb0FLOpwsNcPbWoGcsqFXp2Y',
+              addedFieldAddressForNL : false
+          });
+      });
+      </script>
+      <link rel="stylesheet" href="/libs.iraiser.eu/users/iraiser/themes/basic/custom_select.css" />
+      <link rel="stylesheet" href="/libs.iraiser.eu/users/iraiser/themes/basic/carte_credits.css" />
+      <script src="https://libs.iraiser.eu/libs/dom/classie.js"></script>
+      <script src="https://libs.iraiser.eu/libs/forms/select/selectFx.js"></script>
+
+      <script>
+      $(document).ready(function() {
+
+      // liste montants
+      $('#once .amount [type=radio]:checked').siblings('span').addClass('active');
+      $('#regular .amount [type=radio]:checked').siblings('span').addClass('active');
+
+              $('.amount ul li label span').click(function() {
+                  var $this = $(this);
+                  $('.amount ul li label span.active').removeClass('active');
+                  $this.addClass('active');
+              });
+              $('.free-amount input').blur(function() {
+                  var value = $(this).val().replace(',', '.');
+                  if (value != '' && !isNaN(value)) {
+                      $('.amount ul li label span.active').removeClass('active');
+                  }
+              });
+
+      //custom select && card type
+              if (typeof Step3 != 'undefined') {
+                  Step3.select('#card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+
+                  $('#cb-payment #card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+
+                  $('#civility,#country').addClass('cs-select cs-skin-border');
+
+                  (function() {
+                      [].slice.call( $('#step-2 select.cs-select')).forEach( function(el) {
+                          new SelectFx(el);
+                      } );
+                      [].slice.call( $(Step3.select('select.cs-select'))).forEach( function(el) {
+                          new SelectFx(el);
+                      });
+                      [].slice.call( $('#cb-payment .cs-select')).forEach( function(el) {
+                          new SelectFx(el);
+                      });
+                  })();
+
+                  //add trigger on card change
+                  Step3.select('#card-type li,#card-type li label').click(function(){
+                      Step3.select('[name=cardtype]').trigger('change');
+                  });
+              }
+           // preselection
+            if (Step1.getDonation().amount <= 0) {
+                $("value_of_amount-once-6000").click();
+          }
+
+          // lien logo
+          $('#logo > h1 > a').attr('target','_blank');
+
+
+          Step3.select('#check-submit').appendTo('#paypal');
+
+          //title
+          $('#step-1 #regular h3').addClass('regular_title').prependTo('#step-1 .step-content .height_adaptor');
+        $('#step-1 #once h3').addClass('once_title').prependTo('#step-1 .step-content .height_adaptor');
+
+
+          $('#once').show();
+          $('#regular').hide();
+          $('.once_title').addClass('selection');
+
+          $('.once_title').click(function(event) {
+            $('#regular').hide();
+            $('#once').show();
+            $(this).addClass('selection');
+            $('.regular_title').removeClass('selection');
+          });
+
+          $('.regular_title').click(function(event) {
+            $('#once').hide();
+            $('#regular').show();
+            $(this).addClass('selection');
+            $('.once_title').removeClass('selection');
+          });
+
+          $('#payment_modes_once #card-type > p > div > div > ul > li').click(function(event) {
+            $('#regular').hide();
+          });
+
+        //phrase step 3 paiement sécurisé
+        var paiementSecure=$('<p id="paiementSecure">Cette page de paiement est 100% sécurisée.</p>');
+        $(paiementSecure).prependTo('#step-3 .step-content');
+
+        //phrase step 2 recu fiscal
+        var phraseRecuFiscal=$('<p id="phraseRecuFiscal">Ces informations sont nécessaires à l’établissement de votre reçu fiscal.</p>');
+        $(phraseRecuFiscal).prependTo("p[name*='reserved_deja-donateur']");
+
+        //wrap block
+          $('#step-1').wrap('<div id="block1"></div>');
+        $('#header').prependTo('#block1');
+          $('#block1').wrapInner('<div class="wrap"></div>');
+
+          $('#step-3').wrap('<div id="block2"></div>');
+          $('#step-2').prependTo('#block2');
+          $('#block2').wrapInner('<div class="wrap"></div>');
+
+          $('#footer').wrap('<div id="blockFooter"></div>');
+          $('#blockFooter').wrapInner('<div class="wrap"></div>');
+
+          $('#step-1').removeClass('unit size1of3');
+          $('#step-2').removeClass('unit size1of3');
+          $('#step-3').removeClass('unit size1of3 lastUnit');
+          $('#greetings div').removeClass('unit size1of2');
+
+          // bouton step1
+          var boutonValidationDonPonctuel=$('<a class="boutonValidationStep1" href="#block2">VALIDER MON DON</a>');
+          $(boutonValidationDonPonctuel).appendTo('#once .bloc-content');
+          var boutonValidationDonReg=$('<a class="boutonValidationStep1" href="#block2">VALIDER MON DON MENSUEL</a>');
+          $(boutonValidationDonReg).appendTo('#regular .bloc-content');
+
+          //Autre montant placeholder
+          $("#famount-once").attr("placeholder", "Autre montant :");
+          $("#famount-regular").attr("placeholder", "Autre montant :");
+
+
+        //effet scroll
+        $('a.boutonValidationStep1').on('click', function() { // Au clic sur un élément
+                  var page = $(this).attr('href'); // Page cible
+                  var speed = 750; // Durée de l'animation (en ms)
+                  $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                  return false;
+           });
+
+        //champs obligatoires html modifié
+        $('#required-info > span.help').html("champs obligatoires");
+
+
+        // remplacements img
+        Step3.select('#card_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/orange2x.png');
+        Step3.select('#check_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/BLANCLARGE2x.png');
+        Step3.select('#paypal_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/PAYPALLARGE2x.png');
+        Step3.select('#iban_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/orange-prelevement2x.png');
+
+        // phrase code securite cb
+        $('#card-scode > span:nth-child(3)').html('Ce code correspond aux 3 chiffres inscrits au dos de votre carte.');
+
+        Step3.select('#card-type h4 span.payment_mode_title').html('PAR CARTE BANCAIRE');
+        //Step3.select('#payment_modes_regular #card-type span.payment_mode_title').html('PAR CARTE BANCAIRE');
+
+        //titre etape 2 et 3 html
+        $('#step-2 > div > div.step-title > h2').html('Coordonnées');
+        $('#step-3 > div > div.step-title > h2').html('Paiement'),
+
+          //form error
+          //Step3.select('#form-error').prependTo('#block2');
+          $('#block2').prepend('<div id="form-info"></div>');
+
+
+          //separateur ou step 3
+
+
+
+        //footer
+        var blockTextFooter=$('<div id="blockTextFooter"><h4><span class="textOrange">63</span> millions d’enfants privés d’école et <span class="textOrange">750</span> millions d’adultes analphabètes.</br>Grâce à votre soutien, nous pouvons agir. <span class="textOrange">MERCI.</span></h4><div id="blocLeftFooter"><img alt="carte monde Aide et action" src="https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/WorldMap.png"><p>En 2017, <span class="textOrange">80 projets</span> ont été mis en œuvre dans <span class="textOrange">19 pays</span>, plus de <span class="textOrange">4 001 écoles</span> ont été impliquées et nous avons aidé plus de <span class="textOrange">2 millions de personnes</span> dans le monde. <span class="textOrange">Depuis plus de 35 ans,</span> nous agissons pour le développement par l’éducation de tous.</br></br>Créée en 1981, Aide et Action est une association reconnue d’utilité publique et agréée par le Ministère de l’Education Nationale. Nos projets sont notamment soutenus par l’Agence Française de Développement et l’Union Européenne. Chaque année, nos comptes sont audités et certifiés par EY et nous publions un rapport d’activité. Vous pouvez consulter tous ces documents sur <a href="http://www.france.aide-et-action.org/education/bilans-et-rapports/" target="_blank">notre site internet</a>. Aide et Action est une association de loi 1901 enregistrée au Répertoire National des Associations sous le matricule W751056236.</p></div><div id="blocRightFooter"><h5>MUTUALISATION DES DONS</h5><p>Aide et Action a pour principe de mutualiser les dons sur l’ensemble des missions afin de pouvoir intervenir uniquement en fonction de besoins réels de chaque projet. Si les dons reçus sont supérieurs aux engagements pris sur un projet, ils seront affectés en fonction des besoins des autres projets.</p></br></br><h5>* DÉDUCTION FISCALE</h5><p>66% de votre don est déductible de vos impôts, dans la limite de 20% de votre revenu imposable. Au delà, vous pourrez reporter sur 5 ans la déduction de lexcédant. Si vous êtes une entreprise assujettie à limpôt sur les sociétés, vous pouvez déduire de cet impôt 60% de votre don dans la limite de 0,5% de votre chiffre daffaires (HT).</p></br></br><h5>NOUS CONTACTER</h5><p>Aide et Action</br>53 boulevard de Charonne</br>75 542 Paris Cedex 11</br>Par téléphone : 01 55 25 70 00</br>Par email : <a href="mailto:soutenir@aide-et-action.org" style="color:#FF9A00; text-decoration:none;">soutenir@aide-et-action.org</a></p></div></div>');
+        $(blockTextFooter).prependTo('#blockFooter > div');
+
+        //copyright photo
+        var copyrightPhoto=$('<p id="copyrightPhoto">© Olivier Harrassowski / Aide et Action</p>');
+        $('#block1').prepend(copyrightPhoto);
+
+        //header slogan
+        var sloganHeader=$('<div id="sloganHeader"><h2>L’ÉDUCATION EST L’ARME LA PLUS PUISSANTE POUR CHANGER LE MONDE.<span> (Nelson Mandela)</span></h2><p>Merci d’avance pour votre générosité.</p></div>');
+        $(sloganHeader).prependTo('#step-1 > div');
+
+
+        //media queries
+        if (window.matchMedia("(min-width: 940px)").matches) {
+
+        } else {
+          $('#logo > h1 > a > img').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/aideetaction2x.png');
+        }
+
+      });//end doc ready
+
+      </script>
+
+      <style media='all' type='text/css'>
+      @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+      @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+
+      @font-face {
+        font-family: DIN Pro Regular;
+        src: url(https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Regular.otf);
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: DIN Pro Bold;
+        src: url(https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Bold.otf);
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: DIN Pro Cond Regular;
+        src: url(https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Cond.otf);
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: DIN Pro Cond Bold;
+        src: url(https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-CondBold.otf);
+        font-weight: bold;
+      }
+
+      /* GENERAL */
+
+      body {
+        color: #000;
+        background: none;
+        background-color: #fff!important;
+        font-family: 'Source sans pro', sans-serif;
+        text-shadow: none;
+        background: none;
+        font-size: 14px;
+      }
+
+      #main{
+        background-color: #FFF;
+        width: 620px;
+        padding: 30px 60px;
+        margin: 90px auto 40px;
+        background-color: rgba(255,255,255,0.8);
+        text-align: center;
+      }
+
+      #type-b #main{
+        background: none;
+        overflow: visible;
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #fff0;
+        text-align: left;
+      }
+      #logo h1, #logo a, #logo img {
+        float: left;
+        overflow: hidden;
+        width: 65%;
+      }
+
+      #greetings, #postmail-content {
+        border: none;
+        width: 640px;
+        margin: 0 auto;
+        background: #ffffffb5;
+        margin-bottom: 84px;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 5px;
+      }
+      #postmail-content a, #greetings-text a {
+        color: #fff;
+        background: #f9ad31;
+        padding: 6px;
+        text-decoration: none;
+        border-radius: 3px;
+        font-family: "DIN Pro Cond Bold", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        line-height: 40px;
+        text-align: center;
+        text-shadow: none;
+        margin: 5px 0;
+      }
+      #greetings-text, #greetings-comp{
+            padding: 30px 60px;
+      }
+
+      #greetings h2, #postmail h3, #greetings-content h3{
+          text-shadow: none;
+          font-family: "Din Pro Bold", sans-serif;
+          font-weight: bold;
+      }
+
+
+      #container{
+          margin-bottom: 0;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      a {
+          color: #f9ad31;
+          text-decoration: none;
+      }
+      a:hover {
+          color: #f3a629;
+      }
+      .valid {
+          background: rgb(255, 255, 255);
+          color: #000;
+      }
+      .step-container {
+          margin-right: 0px;
+      }
+      .step-title {
+        background-color: #fff;
+        border-bottom: 0;
+      }
+      #step-1{
+          width: 60%;
+          display: inline-block;
+          float: right;
+          margin-right: 0;
+      }
+      #step-1 .step-title {
+          display: none;
+      }
+      #step-1 > div > div.step-content{
+        width: 84%;
+          margin: 0 auto;
+      }
+
+      #block1{
+      background: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/beninweb.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 1px;
+      background-position: top;
+      min-height: 800px;
+      position: relative;
+      }
+      #copyrightPhoto {
+          font-family: 'DIN Pro Regular', sans-serif;
+          font-size: 12px;
+          font-style: italic;
+          color: #fff;
+          text-shadow: 0 2px 4px 0 #FFFFFF;
+          position: absolute;
+          bottom: 0;
+          left: 13%;
+      }
+
+      #block2 {
+          width: 100%;
+          margin: 0 auto;
+          clear: both;
+          display: block;
+          background: white;
+      }
+
+      #blockFooter{
+      background-color: #444444;
+      padding-top: 20px;
+      position: relative;
+      padding-bottom: 64px;
+      }
+
+      #blockFooter:after{
+          content: '';
+          background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/inconenfant.png);
+          background-repeat: no-repeat;
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          left: 50%;
+          top: -25px;
+          margin-left: -25px;
+      }
+
+      #blockFooter p{
+        padding: 0;
+      }
+
+      .wrap {
+          width: 940px;
+          margin: 0 auto;
+      }
+
+      #step-2,#step-3 {
+          float: left;
+          width: 38%;
+          margin: 4.38%;
+          padding: 15px;
+      }
+
+      .bloc-content{
+          padding: 0 30px 10px;
+
+      }
+
+      input[type=text], select {
+          font-size: 14px;
+          padding: 12px;
+          outline: 0 none;
+          background-color: #FFF;
+          border: 1px solid #7D7D7D;
+          border-radius: 5px;
+          box-shadow: none;
+          transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+      }
+      input[type=text]:focus, select:focus {
+          outline: 0 none;
+          background-color: #FAFAFA;
+          border: 1px solid #7D7D7D;
+          color: #979797;
+      }
+      .step-content, #step-3 .step-content {
+          padding-top: 0!important;
+      }
+      .step-container {
+          overflow: hidden;
+          box-shadow: none;
+      }
+      #main, #main-container, .step-content {
+        background-color: #ffffffe3;
+        border-radius: 5px;
+        padding: 20px;
+        font-family: 'Source sans pro', sans-serif;
+        height: auto!important;
+      }
+      /* END GENERAL */
+
+      /* HEADER */
+      #header {
+          height: auto;
+          width: 100%;
+          max-width: 940px;
+          margin: auto;
+          padding-left: 0;
+          margin-bottom: 40px;
+      }
+
+      #sloganHeader h2{
+      color: #FFFFFF;
+      font-family: "DIN Pro Cond Bold", sans-serif;
+      font-size: 34px;
+      line-height: 34px;
+      text-align: center;
+      padding: 0;
+      display: inline-block;
+      }
+
+      #sloganHeader h2 span {
+          font-family: 'DIN Pro Cond Regular', sans-serif;
+          font-size: 17px;
+          font-style: italic;
+          color: #fff;
+          font-weight: 100;
+      }
+      #sloganHeader p {
+          color: #FFFFFF;
+          font-family: "DIN Pro Cond Regular",sans-serif;
+          font-size: 22px;
+          line-height: 18px;
+          text-align: center;
+          padding-top: 7px;
+          padding-bottom: 40px;
+      }
+      /* END HEADER */
+
+      /* STEP1 */
+      #step-1 .step-container {
+        margin-right: 0;
+      }
+      #step-1 > div > div.step-content {
+          padding: 0;
+          padding-bottom: 0;
+          height: auto!important;
+          background: transparent;
+      }
+      #once.bloc, #regular.bloc {
+          border: 0;
+          background-color: #fff;
+          border-radius: 5px;
+          padding: 20px 20px;
+      }
+
+      #once.bloc h3, #regular.bloc h3 {
+      padding: 0;
+      font-weight: bold;
+      text-shadow: none;
+      background-color: #fff;
+      color: #000000;
+      font-family: "DIN Pro Cond Bold", sans-serif;
+      font-size: 28px;
+      line-height: 33px;
+      text-align: center;
+      padding-bottom: 15px;
+      }
+      #regular > div > p{
+        display: none;
+      }
+
+      .btnMontantSelectionne{
+        background-color: #FE6A22;
+        color: #fff;
+      }
+
+      .amount ul li label span,
+      #regular .amount ul li label span {
+      font-size: 28px;
+      line-height: 33px;
+      padding: 5px 0px;
+      border: 1px solid #7D7D7D;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      color: #6A6A6A;
+      font-family: "DIN Pro Cond Bold", sans-serif;
+      background-color: #FFFFFF;
+      text-shadow: none;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      }
+
+      .radio-inline {
+          padding-left: 0;
+          padding-right: 0;
+          padding-bottom: 0;
+          text-align: center;
+      }
+
+
+      .radio-inline li {
+          padding-right: 0;
+          padding-left: 0;
+          width: 16.8%;
+          margin: 0px 5px;
+          float: none;
+          display: inline-block;
+          padding-bottom:10px;
+          }
+
+      .amount ul li label input {
+          visibility: hidden;
+          height: 0;
+          position: absolute;
+          bottom: 0;
+      }
+
+      .amount ul li label span.active {
+          background-color: #f9ad31;
+          color: #ffffff;
+          border-color: #f9ad31;
+          text-shadow: none;
+      }
+
+      #regular .amount ul li label span.active {
+          background-color: #f9ad31;
+          color: #ffffff;
+          border-color: #f9ad31;
+          text-shadow: none;
+      }
+
+      #regular .amount ul li label span.hover,
+      #once .amount ul li label span.hover {
+          background-color: #f9ad31;
+          color: #ffffff;
+          border-color: #f9ad31;
+          text-shadow: none;
+      }
+
+      .amount ul li label span:hover {
+          background-color: #fff;
+      }
+      #regular .amount ul li label span:hover, #once .amount ul li label span:hover {
+          background-color: #f9ad31;
+          color: #ffffff;
+          border-color: #f9ad31;
+          text-shadow: none;
+      }
+
+      #step-1 h3 {
+      color: #F9AD31;
+      font-family: "DIN Pro Cond Bold", sans-serif;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      background: #fff;
+      display: inline-block;
+      cursor: pointer;
+      text-shadow: none;
+      padding: 12px;
+      width: 50%;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      }
+      #step-1 > div > div.step-content > div > h3.once_title{
+        border-radius: 5px 0 0 5px;
+      }
+      #step-1 > div > div.step-content > div > h3.regular_title{
+        border-radius: 0 5px 5px 0;
+      }
+
+      #step-1 h3.selection {
+        color: #fff;
+        background-color: #F9AD31;
+      }
+
+      a.boutonValidationStep1{
+          color: #FFFFFF;
+          font-family: "DIN Pro Bold", sans-serif;
+          font-size: 18px;
+          font-weight: normal;
+          letter-spacing: 1px;
+          line-height: 23px;
+          width: 95%;
+          display: block;
+          text-align: center;
+          padding: 14px;
+          border-radius: 5px;
+          background-color: #F9AD31;
+          text-decoration: none;
+          text-shadow: none;
+          margin: 0 auto;
+          margin-bottom: 15px;
+      }
+
+      #once > div > p,
+      #regular > div > p{
+        text-align: center;
+      }
+
+      .price {
+          color: #fbae16;
+          font-family: "DIN Pro Cond Bold", sans-serif;
+          font-size: 28px;
+      }
+
+      #parMois{
+        color: #fbae16;
+          font-family: "DIN Pro Cond Bold", sans-serif;
+          font-size: 25px;
+      }
+      #once #parMois{
+        display: none;
+      }
+
+      /*montant libre*/
+      .free-amount{
+          margin-bottom: 0;
+          margin-left: 0;
+          padding-left: 0;
+          padding-right: 0;
+      }
+      .free-amount input {
+          margin-right: 0;
+          margin-left: 0;
+          width: 100%;
+          position: relative;
+      }
+
+
+      .free-amount-li > fieldset > p > label{
+          margin: 0 auto;
+          vertical-align: middle;
+          color: rgba(255, 255, 255, 0);
+          padding: 0;
+      }
+
+      .free-amount-li > fieldset > p{
+          padding: 0px 15px 0px;
+          margin: 0 auto;
+          vertical-align: middle;
+          bottom: 15px;
+          position: relative;
+      }
+
+      .free-amount-li > fieldset > p > label > span {
+          border: 0!important;
+          padding: 0!important;
+          display: inline-block;
+          position: absolute;
+          right: 8px;
+          top: 50%;
+          margin-top: -10px;
+      }
+      .free-amount span {
+      font-weight: normal;
+          color: #6A6A6A;
+          font-family: "DIN Pro Cond Bold", sans-serif;
+          font-size: 28px;
+          line-height: 33px;
+          text-align: right;
+          margin-left: -32px;
+          padding: 5px 0;
+          position: absolute;
+      }
+
+      /* end montant libre*/
+
+      .bloc-content h3 {
+          font-size: 29px;
+          color: #000;
+          text-transform: inherit;
+          padding-bottom: 0;
+      }
+
+      .tax-info {
+        border: 0;
+          font-weight: 400;
+          text-align: left;
+          background: #fff;
+          margin-top: 0;
+          padding-bottom: 40px;
+          color: #000000;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 14px;
+          line-height: 18px;
+          padding-left: 62px;
+          display: block;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+          position: relative;
+      }
+      .tax-info:after{
+          content: '';
+          background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/left-arrow-sketch59596.png);
+          background-repeat: no-repeat;
+          position: absolute;
+          width: 35px;
+          background-color: #fff0;
+          height: 31px;
+          left: 20px;
+          top: 5px;
+          margin-left: 0px;
+          border: 0;
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          -o-transition: all 0.2s ease-in-out;
+          -ms-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+      }
+      #or p {
+          display: inline-block;
+          color: #000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+      }
+      #or{
+        position: relative;
+          display: none!important;
+      }
+
+      #bloc-amount-once > fieldset.free-amount > p > label,
+      #bloc-amount-regular > fieldset.free-amount > p > label{
+        color: #fff0;
+          font-size: 0;
+      }
+
+      /* END STEP 1 */
+      /* STEP 2et3*/
+
+      .step-title h2 {
+          text-shadow: none;
+          color: #000000;
+          font-family: "DIN Pro Cond Bold", sans-serif;
+          font-size: 34px;
+          line-height: 43px;
+          text-align: center;
+      }
+      #step-2 label, #step-3 label,#card-expiry > span {
+          line-height: 17px;
+          margin-bottom: 2%;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+      }
+
+      #card-expiry > label:nth-child(2) > div, #card-expiry > label:nth-child(3) > div {
+        width: 48%;
+        display: inline-block;
+      }
+
+      select, input, textarea {
+          color: #979797;
+          border: 1px solid #000000;
+          outline: none;
+          font-size: 14px;
+          padding: 6px 5px;
+          font-family: "Source Sans Pro",sans-serif;
+          font-weight: 400;
+      }
+
+
+      #civility{
+        width: 100%;
+      }
+
+      span.required {
+          color: #000;
+          font-size: 14px;
+          font-family: "Source Sans Pro",sans-serif;
+      }
+
+      .intl-tel-input,#reserved_telephone_id_59849a0ea2106 > div > input[type="tel"] {
+          width: 100%;
+      }
+      #city{
+        width: 100%!important;
+      }
+
+      #step-2 fieldset{
+          padding: 0;
+      }
+      #step-2 fieldset p {
+          padding: 5px 0;
+      }
+
+      #phraseRecuFiscal{
+          color: #000000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          margin-bottom: 20px;
+          font-weight: 400;
+          padding: 20px 40px!important;
+      }
+      #step-2 input {
+          width: 100%;
+          margin-bottom: 2%;
+      }
+      /*CIVILITE MLLE*/
+      #c-civ > div > div > ul > li:nth-child(4){
+        display: none;
+      }
+      .intl-tel-input input, .intl-tel-input input[type=text], .intl-tel-input input[type=tel] {
+        position: relative;
+        z-index: 0;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0;
+        font-size: 14px;
+        padding: 12px;
+        padding-left: 48px;
+        outline: 0 none;
+        background-color: #FFF;
+        border: 1px solid #7D7D7D;
+        border-radius: 5px;
+        box-shadow: none;
+        transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+      }
+
+      #step-2, #step-3 {
+          float: left;
+          width: 40%;
+          margin: 15px 5%;
+          padding: 0;
+      }
+      .step-title:after{
+      display: none;
+      }
+      #step-3 .payment {
+          padding: 0px;
+      }
+      #card-number,
+      #card-expiry,
+      #card-scode{
+          padding-left: 0;
+          padding-right: 0;
+      }
+
+
+
+      #card-type .cs-select li, #card-type li{
+          color: transparent;
+      }
+
+      #card-type .cs-select li:after, #card-type .cs-select li:before {
+          top: 30px;
+      }
+
+      #card-type .cs-select li[data-value=cartebleue], #card-type li[data-value=cb] {
+          background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/CB2x.png);
+          background-size: 40%;
+      }
+
+      #card-type .cs-select li[data-value=visa], #card-type li:nth-child(2), #card-type li[data-value=visa] {
+          background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/Visa2x.png);
+          background-size: 40%;
+          background-position-y: 7px;
+      }
+
+      #card-type .cs-select li[data-value=mastercard], #card-type li:nth-child(1), #card-type li[data-value=mastercard] {
+          background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/MasterCard2x.png);
+          background-size: 40%;
+        background-position-y: 3px;
+      }
+
+      #payment_modes_regular ul{
+          max-width: none;
+      }
+
+      #step-3 h4 span.payment_mode_title {
+          padding: 7px;
+          border-top: 0;
+          border-bottom: 0;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 17px;
+          text-align: center;
+          text-transform: uppercase;
+      }
+
+      .payment h4 {
+          padding: 0px;
+          padding-bottom: 0px;
+          }
+
+
+      #cb-bloc h4, .payment h4, #type-a #other-payment-bloc h4 {
+          position: relative;
+          margin: 10px 0 12px;
+          text-shadow: none;
+          border: 0;
+          background-color: #fff;
+          color: #000000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 20px;
+          text-align: center;
+      }
+      .payment h4:after,
+      #security-info{
+        display: none;
+      }
+
+      #card-number > label{
+        padding-bottom: 2px;
+          display: inline-block;
+      }
+
+      #cardnumber {
+          width: 100%;
+      }
+      #card-expiry > label:nth-child(2) > div{
+        margin-right: 2%;
+      }
+      #card-expiry > label:nth-child(2) > div,
+      #card-expiry > label:nth-child(3) > div{
+        width: 47%;
+          display: inline-block;
+      }
+
+      #paiementSecure {
+          color: #000000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          padding: 20px 0!important;
+          position: relative;
+      }
+      #paiementSecure:before {
+        content: '';
+          width: 14px;
+          height: 15px;
+          background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/Cadenas2x.png);
+          position: absolute;
+          background-size: contain;
+          left: 30px;
+          background-repeat: no-repeat;
+          top: 50%;
+          margin-top: -8px;
+      }
+
+      #card-type > p{
+          margin-bottom: 20px;
+      }
+
+
+      #card-type ul{
+        text-align: center;
+      }
+
+      #card-type .cs-select li, #card-type li{
+        display: inline-block;
+          float: none;
+      }
+      .payment-submit{
+          border-radius: 0;
+          text-align: center !important;
+          padding: 0;
+          padding-top: 12px!important;
+          margin: 0px;
+          background-color: #ffffff;
+          color: white;
+          border: 0;
+          margin-bottom: 0px !important;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          }
+
+      .payment-submit input {
+          width: 100%;
+      }
+
+      .payment-submit:hover{
+        background-color: rgba(255, 255, 255, 0);
+          border-color: rgba(255, 255, 255, 0);
+          color: white;
+      }
+
+      #card-scode {
+          padding-bottom: 30px;
+      }
+      #card-scode .help {
+          color: #000000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 12px;
+          font-style: italic;
+          line-height: 14px;
+          width: 50%;
+      }
+      #card-scode #scode {
+          float: left;
+          width: 43%;
+      }
+
+      #step-3 h4 > span.payment_modes_separator{
+        display: block;
+          color: #000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 10px;
+      }
+
+
+      #step-3 h4 > span.payment_modes_separator:before {
+          content: "";
+          width: 46%;
+          height: 1px;
+          background-color: #000;
+          position: absolute;
+          top: 50%;
+          margin-right: 8%;
+          left: -15px;
+      }
+      #step-3 h4 > span.payment_modes_separator:after {
+          content: "";
+          width: 46%;
+          height: 1px;
+          background-color: #000;
+          position: absolute;
+          top: 50%;
+          margin-left: 8%;
+          right: -15px;
+      }
+
+        #payment_modes_regular #card-type > h4 > span.payment_modes_separator:after{
+          content: "";
+          width: 46%;
+          height: 1px;
+          background-color: #000;
+          position: absolute;
+          top: 20%!important;
+          margin-left: 8%;
+          right: -15px;
+        }
+
+         #payment_modes_regular #card-type > h4 > span.payment_modes_separator:before{
+                content: "";
+                    width: 46%;
+                    height: 1px;
+                    background-color: #000;
+                    position: absolute;
+                    top: 20%;
+                    margin-right: 8%;
+                    left: -15px;
+         }
+
+
+      #bban-de input[type=text], #iban-input input[type=text], #bic-input input[type=text] {
+          width: 95%;
+      }
+
+          #card-type .cs-select li:after{
+              color: #fff;
+          }
+          #card-type .cs-select li:before {
+          content: "\f10c";
+          color: #000000!important;
+          font-size: 15px;
+          }
+          #card-type .cs-select li.cs-selected:after {
+          content: "\f111";
+          color: #000;
+          font-size: 7px;
+          }
+
+          #paypal-submit{
+          width: 47%;
+          display: inline-block;
+          margin-right: 5%;
+          }
+
+          #check-submit{
+          width: 47%;
+          display: inline-block;
+          }
+          #paypal > h4 > span.payment_mode_title{
+            display: none;
+          }
+
+        div.cs-skin-border{
+          border: 1px solid #7D7D7D;
+            border-radius: 5px;
+        }
+          .cs-skin-border .cs-selected span.cs-placeholder::after, .cs-skin-border>span.cs-placeholder::after {
+          font-family: FontAwesome;
+          content: '\f107';
+          background-color: #ffffff00;
+          height: 100%;
+          padding: 0 10px;
+          line-height: 40px;
+          color: #000;
+        }
+        .cs-skin-border>span {
+          color: #000;
+          font-size: 14px;
+          padding-left: 12px;
+          font-family: "Source Sans Pro",sans-serif;
+        }
+        .cs-skin-border.cs-active>span {
+          background: #fff0;
+          border-color: #fff;
+          color: #2e2e2e;
+        }
+        .help {
+            color: #000000;
+            display: none;
+        }
+        #required-info > span.help{
+          display: inline-block;
+        }
+      /* END STEP 2et3*/
+      /* FOOTER */
+
+      #footer {
+          background-color: #444444;
+          color: #fff;
+          background-size: contain;
+          background-repeat: repeat;
+          display: block;
+          clear: both;
+          padding: 26px;
+      }
+      #footer, #footer a {
+          color: #fff;
+          text-decoration: none;
+      }
+      #footer a:hover {
+          color: #fff;
+          text-decoration: none;
+      }
+      .step-info {
+         display: none;
+         height: auto;
+      }
+      .step-info h3 {
+          color: #ffffff;
+          font-family: "Source Sans Pro", sans-serif;
+          font-size: 20px;
+          line-height: 18px;
+          padding: 0;
+          padding-bottom: 14px;
+      }
+
+      #type-b .step-info h4 {
+      display: none;
+      }
+
+      .textOrange{
+        color: #f9ad31;
+      }
+      #blockTextFooter h4{
+          width: 100%;
+          display: block;
+          padding: 50px;
+          color: #ffffff;
+          font-family: "DIN Pro Cond Regular", sans-serif;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 30px;
+          text-align: center;
+          text-shadow: none;
+          margin-right: 0;
+          margin-left: 0;
+      }
+      #blockTextFooter h5{
+      width: 100%;
+      display: block;
+      color: #ffffff;
+      font-family: "DIN Pro Cond Regular", sans-serif;
+      font-size: 22px;
+      line-height: 30px;
+      text-align: left;
+      text-shadow: none;
+      margin-right: 0;
+      margin-left: 0;
+      padding: 0;
+      }
+      #blocLeftFooter > img{
+      width: auto;
+        display: block;
+        padding-bottom: 24px;
+        margin: 0 auto;
+      }
+      #blocLeftFooter{
+      width: 58%;
+      text-align: justify;
+      color: #fff;
+      float: left;
+      margin-right: 8%;
+      font-size: 14px;
+      line-height: 20px;
+      }
+      #blocRightFooter{
+      width: 34%;
+        text-align: justify;
+        color: #fff;
+        float: left;
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      /* END FOOTER */
+
+      /* form error*/
+      #form-info {
+        background-color: #ffffff00;
+        border: 0;
+      }
+      #form-error {
+        border: none;
+        color: black;
+        font-family: inherit;
+        width: 940px;
+        font-size: 12px;
+        margin-bottom: 0;
+        background-color: rgba(255, 255, 255, 1);
+        text-align: left;
+        margin: 0 auto;
+      }
+
+      #form-error h3 {
+        text-transform: uppercase;
+        color: #f9ad31;
+        letter-spacing: 0px;
+        font-family: 'Source sans pro', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        text-shadow: none;
+      }
+
+
+      #form-error li {
+          list-style: disc;
+          margin: 0;
+          color: #000000;
+          font-family: "Source Sans Pro",sans-serif;
+          font-size: 14px;
+          line-height: 17px;
+      }
+      /************ RESPONSIVE **************/
+      @media only screen and (max-width: 940px){
+
+        .wrap {
+          width: 100%;
+          margin: 0 auto;
+        }
+        #step-1 {
+          width: 90%;
+          display: inline-block;
+          margin: 5%;
+        }
+        #type-b #main{
+        padding-bottom: 40px;
+        }
+        #block1 {
+          background: none;
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding-bottom: 0;
+          background-position: top;
+          min-height: auto;
+        }
+        #copyrightPhoto{
+          display: none;
+        }
+        #block2{
+          height: auto;
+        }
+        #header {
+          margin-bottom: 0;
+        }
+        .step-info{
+        padding: 22px 36px;
+        }
+        #blockFooter > div > div:nth-child(2) {
+          width: 100%;
+          text-align: justify;
+        }
+        #blocLeftFooter > img{
+        width: 100%!important;
+        height: auto!important;
+        }
+        #blocLeftFooter,#blocRightFooter {
+            width: 90%;
+            float: none;
+            margin:0 auto;
+        }
+        #blockFooter > div > div:nth-child(3){
+        width: 100%;
+        }
+        #greetings, #postmail-content{
+          width: 100%;
+        }
+        #greetings-text, #greetings-comp{
+          padding: 10px;
+        }
+        #form-error {
+          width: 100%;
+        }
+        #blockTextFooter{
+          width: 100%;
+        }
+        #once.bloc, #regular.bloc {
+          padding: 0;
+        }
+        #container{
+          background:none;
+        }
+
+        #sloganHeader h2,#sloganHeader p{
+          color: #000;
+        }
+        #logo h1{
+            float: left;
+            overflow: hidden;
+            width: 85%;
+            margin: 0 auto;
+            padding: 20px 0 0;
+        }
+      }
+
+      @media only screen and (max-width: 959px) and (min-width: 200px){
+
+        #step-2, #step-3 {
+          float: left;
+          width: 90%;
+          margin: 0 5%;
+          padding: 0;
+        }
+      }
+
+      @media only screen and (max-width: 468px){
+        #paiementSecure:before{
+          left: 0;
+        }
+        .radio-inline li {
+
+            width: 26.8%;
+
+        }
+      }
+
+      @media screen and (min-width: 560px) and (max-width: 767px) {
+
+      }
+
+
+      ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+          color: #979797;
+          font-size: 12px;
+          font-family: "Source Sans Pro", sans-serif;
+          text-transform: initial;
+          font-style:normal;
+      }
+      ::-moz-placeholder { /* Firefox 19+ */
+          color: #979797;
+          font-size: 12px;
+          font-family: "Source Sans Pro", sans-serif;
+          text-transform: initial;
+          font-style:normal;
+      }
+      :-ms-input-placeholder { /* IE 10+ */
+          color: #979797;
+          font-size: 12px;
+          font-family: "Source Sans Pro", sans-serif;
+          text-transform: initial;
+          font-style:normal;
+      }
+      :-moz-placeholder { /* Firefox 18- */
+          color: #979797;
+          font-size: 12px;
+          font-family: "Source Sans Pro", sans-serif;
+          text-transform: initial;
+          font-style:normal;
+      }
+      </style>
+
+
+
+</head><body id="type-b" >
+
+<div id="container">
+
+  <div id="header" class="line">
+        <div id="logo" class="unit size3of4">
+
+            <h1><a href="http://www.france.aide-et-action.org" title="Aide et Action"><img src="https://soutenir.aide-et-action.org//cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/aideetaction2x-white.png" alt="Aide et Action"/></a></h1>
+
+        </div>  <!-- End Logo -->
+
+            </div> <!-- End Header -->
+
+    <div id="_wait">
+        <div id="floatingCirclesG">
+            <div class="f_circleG" id="frotateG_01"></div>
+            <div class="f_circleG" id="frotateG_02"></div>
+            <div class="f_circleG" id="frotateG_03"></div>
+            <div class="f_circleG" id="frotateG_04"></div>
+            <div class="f_circleG" id="frotateG_05"></div>
+            <div class="f_circleG" id="frotateG_06"></div>
+            <div class="f_circleG" id="frotateG_07"></div>
+            <div class="f_circleG" id="frotateG_08"></div>
+        </div>
+    </div>
+
+<div id="main" class="line">
+
+    <noscript>
+    </noscript>
+
+
+<form action="/b/steps/save" method="post" id="form-steps" autocomplete="off">
+
+<input type="hidden" name="context_form" value="9/aCE/oF3l7vJ2OymuAZ28VNm47oA7NBvD1F8M6xb4g/kCeFlq81l3czcTTFZajYC5hIpWBNRE5cFtja7W0Qv0FTBDVmEie//QDIfKPPiWMyQNlUeWHq4pd3xK2AMCyQX1sn3ntJBRV2blGMPE42GmG75gpFJLPKA9dTOiBZRZYBJ05pHddd62bUC/tDRrjIo2ORIsnrqLiQpJPSQMKkP8WTxMuK4lJkGWBSboY6zFAHAyA21rGH2REBhAhOfEi6P7aZoZaOrOKb8qh3cKR2T7FVc/jElsblJpJ0Cvh3Gcd4cI0JSbyhQ5Y6KIL7T8rT4zHVmKe9TPvT23B8fBTqrgFJcHJ6VIuC6iksLaFz+7Pcv4ljuqEwClNCbSBBX+S8I3toQ0ccJ/NeXPZxH78wFmfKc1+01A03gnVAOdrA0M388ZmsbOwkEIyOUfrZ1DtSBckXyqrjr6W5SLBlUpD+wGYsvOnLdcSuTjFrawhcfluRmLVnr7oUbnVMACsfpnMDyq+mIVwD2e44NVbBcea7/39cH0IiiTCB0rag59uLMgPwMXMt5m6qdIjXBsN8qVVn4BwXiSea3EtX1j1sruhPOd0i6HAxf+JJSt/ylvzIOT6xtq05iDWFh3YHW2rufQ83c56ek/KKzSMZSTreKH8GNm+r/B+5AoUDggMBcXMJpFLjxT45Dnf6knZEBZrnDhkB2C4WjJtqtPEptyb2E+pJs9qprYlXn57daTxKGSBSyGx7WHPviPzSQzdrPLoQBzPckx33mrumPKqR0ZEIUPert0PkV94R4ztgoD49bvVROel/gN2zy4+p7Rl1vxJRvv0+BixxOU9604zQgT5l5/hJoCpmYTlyjdLWmQL0GK7Cb25Wxi30cqV95u216cVBnImyBO6hsXOCpX5DnoxlXyInmF+FPx1vSploAPIugNwotkQxF4xnsWYr6qJkpxZ+IQsfDFKbdF0KSoDQ2Mcl9RCil8wjcIgMSJjq9RQu56VgtDYas+eB5NDjdNWBhWgcVP3HfV3HJ93v83g/8hQVxPx7W/a0T1UNexDLEiury/YNootMPedsfzaKlFcKrneTLca7gGgfbm7AUpSBNeyDyo7PbpLl/gJhZrTJPLHSzliz79/C+ui1B6soCeoa2PNvdwVqC4hHDkvUPQHZxxIP9JO6wRRBuIO4I5+q9B+p7oLj6ZqTu0kkqitp+wKPr91ovyLbumT5zicjGXIP7oEpjSHEOEtl2p12BGBnlpjmpHLvTBtbvs0w2zoOjajstkohoJxK2UCNschYNe6P647m/xmHH0RbKkX9PacOL13iZV7347ohA8VgCJGHatBh6ptkZUTyM28KvBMJSzR33Gi9Fdqhh0TG24cZcfyN4Z7NmtFl8oP7nykSNSJ7e3QyboI+3WWWVrSyiFdX/Ru6VbnYAeNfoqJ6TwemnR7JF6gjSgaKIrxE7uLr+ONusZoJ5nCNsoEXADw8sPGOgzzWPjlQwl0CMw==" />
+<input type="hidden" name="context_form_id" value="form_85.68.182.4_5cacff8a5128f0.33352747" />
+<input type="hidden" name="cid" value="140" />
+<input type="hidden" name="lang" value="fr_FR" />
+
+<input id="useragent_input" type="hidden" name="private_user_agent_cli" value=""/>
+<script type="text/javascript">
+    document.getElementById("useragent_input").value = navigator.userAgent;
+</script>
+<input id="referer_input" type="hidden" name="private_referer" value=""/>
+<script type="text/javascript">
+    document.getElementById("referer_input").value = document.referrer;
+</script>
+<input id="random_input" type="hidden" name="private_random" value=""/>
+<script type="text/javascript">
+    document.getElementById("random_input").value = Math.random();
+</script>
+
+<div id="step-1" class="unit size1of3">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>Mon don</h2>
+        </div>
+
+        <div class="step-content">
+
+        <div>
+
+        </div>
+
+
+                        <div id="once" class="bloc">
+                <div class="bloc-content">
+                    <h3>Je donne une fois</h3>
+                    <div id="bloc-amount-once">
+
+    <fieldset class="amount">
+
+                        <ul class="radio-inline line" id="amount-list-once">
+
+                    <li><label><span id="value_of_amount-once-3000">30 €</span> <input autocomplete="false" name="amount-once" type="radio" value="3000" id="amount-once-3000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-6000">60 €</span> <input autocomplete="false" name="amount-once" type="radio" value="6000" id="amount-once-6000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-10000">100 €</span> <input autocomplete="false" name="amount-once" type="radio" value="10000" id="amount-once-10000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-15000">150 €</span> <input autocomplete="false" name="amount-once" type="radio" value="15000" id="amount-once-15000" /></label></li>
+
+                    <li><label><span id="value_of_amount-once-30000">300 €</span> <input autocomplete="false" name="amount-once" type="radio" value="30000" id="amount-once-30000" /></label></li>
+
+            </ul>
+                </fieldset>
+
+        <fieldset class="free-amount">
+        <p><label>Montant libre                <input autocomplete="section-famount" name="famount-once" type="text" size="6" id="famount-once" />
+        <span>€</span>
+        </label></p>
+    </fieldset>
+
+    <p class="tax-info"></p>
+    <!--<input type="hidden" value="" name="iraiser_analytics_session_id" id="iraiser_analytics_session_id"/>-->
+
+
+    <input type="hidden" name="referrer" />
+    <script type="text/javascript">
+        try{
+            $("input[name=referrer]").val(document.referrer);
+            if(document.location.search.indexOf('_cv')>1) {
+                $('input[name=referrer]').after($('<input type="hidden" name="query_string" />').val(document.location.search.substring(1)));
+            }
+        }catch(e){}
+    </script>
+
+
+</div>                </div>
+            </div> <!-- End Once -->
+
+            <div class="onceblock">
+
+
+            </div>
+
+            <div id="or">
+                <p>ou</p>
+            </div>
+
+                        <div id="regular" class="bloc">
+                <div class="bloc-content">
+                    <h3>Je donne tous les mois</h3>                                        <p class="content-desc">Plus flexible pour vous et plus économique pour nous, nous vous recommandons le paiement par RIB.</p>
+
+                    <div id="bloc-amount-regular">
+
+    <fieldset class="amount">
+
+                        <ul class="radio-inline line" id="amount-list-regular">
+
+                    <li><label><span id="value_of_amount-regular-1000">10 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="1000" id="amount-regular-1000" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-1500">15 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="1500" id="amount-regular-1500" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-3000">30 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="3000" id="amount-regular-3000" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-5000">50 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="5000" id="amount-regular-5000" /></label></li>
+
+                    <li><label><span id="value_of_amount-regular-10000">100 €</span> <input autocomplete="false" name="amount-regular" type="radio" value="10000" id="amount-regular-10000" /></label></li>
+
+            </ul>
+                </fieldset>
+
+        <fieldset class="free-amount">
+        <p><label>Montant libre                <input autocomplete="section-famount" name="famount-regular" type="text" size="6" id="famount-regular" />
+        <span>€</span>
+        </label></p>
+    </fieldset>
+
+    <p class="tax-info"></p>
+    <!--<input type="hidden" value="" name="iraiser_analytics_session_id" id="iraiser_analytics_session_id"/>-->
+
+
+    <input type="hidden" name="referrer" />
+    <script type="text/javascript">
+        try{
+            $("input[name=referrer]").val(document.referrer);
+            if(document.location.search.indexOf('_cv')>1) {
+                $('input[name=referrer]').after($('<input type="hidden" name="query_string" />').val(document.location.search.substring(1)));
+            }
+        }catch(e){}
+    </script>
+
+
+</div>                </div>
+            </div> <!-- End Each-month -->
+
+            <div class="regularblock">
+
+
+            </div>
+
+
+        <div>
+
+        </div>
+
+        </div> <!-- End Step-content -->
+
+        <div class="step-info">
+            <h4>Pourquoi donner ?</h4>
+                <p>En 2017, <strong>63 millions d&#39;enfants</strong> ne vont toujours pas &agrave; l&#39;&eacute;cole. <strong>750 millions d&#39;adultes</strong> ne savent ni lire, ni &eacute;crire. (rapport UNESCO 2017)<br />
+Gr&acirc;ce &agrave; votre soutien, nous pouvons agir.<br />
+<strong>MERCI !</strong><br />
+<br />
+<b>D&eacute;duction fiscale :</b><br />
+66% de votre don est d&eacute;ductible de vos imp&ocirc;ts, dans la limite de 20% de votre revenu imposable. Au-del&agrave;, vous pourrez reporter sur 5 ans la d&eacute;duction de l&#39;exc&eacute;dant. Si vous &ecirc;tes une entreprise asujettie &agrave; l&#39;imp&ocirc;t sur les soci&eacute;t&eacute;s, vous pouvez d&eacute;duire de cet imp&ocirc;t 60% de votre don dans la limite de 0,5% de votre chiffre d&#39;affaires (H.T). </p>
+
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step-1 -->
+
+
+<div id="step-2" class="unit size1of3">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>Mes coordonnées</h2>
+        </div>
+
+        <div class="step-content">
+
+            <fieldset>
+
+
+
+
+    <p name="reserved_deja-donateur"  id="reserved_deja-donateur_id_5cad0951df391" data-type="checkbox">
+      <label for="reserved_deja-donateur">
+
+
+        <input type="hidden" name="reserved_deja-donateur" value="0" />
+        <input type="checkbox" aria-describedby="nameHelp_reserved_deja-donateur" name="reserved_deja-donateur" data-scope="step2" data-required="" value="1"
+              />
+
+
+      Je suis déjà donateur Aide et Action.
+                <span id="nameHelp_reserved_deja-donateur" class="help"></span>
+      </label>
+
+
+
+
+
+
+
+      </p>
+
+
+
+
+
+
+
+                            <p id="c-email">
+                    <label for="email">Email <span class="required">*</span> <span class="help">ex. bernard.dupond@yahoo.fr</span></label>
+                    <input type="text" name="email" id="email" value=""/>
+                </p>
+
+
+
+                                                            <p id="c-isc">
+                            <label><input type="checkbox" value="OK" name="iscompany" id="iscompany" /> Je fais un don au nom d'une organisation ou d'une société</label>
+                        </p>
+                        <p id="c-isc-inf" class="company-infos hidden">
+                            <label for="company">Raison sociale <span class="help">ex. Dupond SARL</span></label>
+                            <input type="text" name="company" id="company" value=""/>
+                        </p>
+                                                                        <p id="c-civ">
+                        <label for="civility">Civilité <span class="required">*</span></label>
+                        <select name="civility" id="civility">
+    <option value=""></option>
+    <option value="1">M</option>
+    <option value="2">Mme</option>
+    <option value="3">Mlle</option>
+
+</select>                    </p>
+                                                    <p id="c-fname">
+                        <label for="firstname">Prénom <span class="required">*</span> <span class="help">ex. Bernard</span></label>
+                        <input type="text" name="firstname" id="firstname" value=""/>
+                    </p>
+                                                    <p id="c-lname">
+                        <label for="lastname">Nom <span class="required">*</span> <span class="help">ex. Dupond</span></label>
+                        <input type="text" name="lastname" id="lastname" value=""/>
+                    </p>
+
+
+
+                                        <p id="c-addr1">
+                    <label for="address1">Adresse <span class="required">*</span> <span class="help">ex. 15 rue Jean Jaurès</span></label>
+                    <input type="text" name="address1" id="address1" value=""/>
+                </p>
+                                        <p id="c-addr2">
+                    <label for="address2">Complément adresse <span class="help">ex. Bât. B</span></label>
+                    <input type="text" name="address2" id="address2" value=""/>
+                </p>
+                                        <div class="line">
+                                            <p id="c-pcode" class="unit size1of2">
+                            <label for="postcode">Code postal <span class="required">*</span><!--<span class="help">ex. 75008</span>--></label>
+                            <input type="text" name="postcode" id="postcode" value=""/>
+                        </p>
+                                                                <p id="c-city" class="unit size2of2 lastUnit">
+                            <label for="city">Ville <span class="required">*</span> <span class="help">ex. Paris</span></label>
+                            <input type="text" name="city" id="city" value=""/>
+                        </p>
+                                    </div>
+                                        <p id="c-country">
+                    <label for="country">Pays <span class="required">*</span> <span class="help">ex. France</span></label>
+                                            <select name="country" id="country">
+    <option value="AF">AFGHANISTAN</option>
+    <option value="ZA">AFRIQUE DU SUD</option>
+    <option value="AX">ÅLAND, ÎLES</option>
+    <option value="AL">ALBANIE</option>
+    <option value="DZ">ALGÉRIE</option>
+    <option value="DE">ALLEMAGNE</option>
+    <option value="AD">ANDORRE</option>
+    <option value="AO">ANGOLA</option>
+    <option value="AI">ANGUILLA</option>
+    <option value="AQ">ANTARCTIQUE</option>
+    <option value="AG">ANTIGUA-ET-BARBUDA</option>
+    <option value="AN">ANTILLES NÉERLANDAISES</option>
+    <option value="SA">ARABIE SAOUDITE</option>
+    <option value="AR">ARGENTINE</option>
+    <option value="AM">ARMÉNIE</option>
+    <option value="AW">ARUBA</option>
+    <option value="AU">AUSTRALIE</option>
+    <option value="AT">AUTRICHE</option>
+    <option value="AZ">AZERBAÏDJAN</option>
+    <option value="BS">BAHAMAS</option>
+    <option value="BH">BAHREÏN</option>
+    <option value="BD">BANGLADESH</option>
+    <option value="BB">BARBADE</option>
+    <option value="BY">BÉLARUS</option>
+    <option value="BE">BELGIQUE</option>
+    <option value="BZ">BELIZE</option>
+    <option value="BJ">BÉNIN</option>
+    <option value="BM">BERMUDES</option>
+    <option value="BT">BHOUTAN</option>
+    <option value="BO">BOLIVIE, l'ÉTAT PLURINATIONAL DE</option>
+    <option value="BA">BOSNIE-HERZÉGOVINE</option>
+    <option value="BW">BOTSWANA</option>
+    <option value="BV">BOUVET, ÎLE</option>
+    <option value="BR">BRÉSIL</option>
+    <option value="BN">BRUNÉI DARUSSALAM</option>
+    <option value="BG">BULGARIE</option>
+    <option value="BF">BURKINA FASO</option>
+    <option value="BI">BURUNDI</option>
+    <option value="KY">CAÏMANES, ÎLES</option>
+    <option value="KH">CAMBODGE</option>
+    <option value="CM">CAMEROUN</option>
+    <option value="CA">CANADA</option>
+    <option value="CV">CAP-VERT</option>
+    <option value="CF">CENTRAFRICAINE, RÉPUBLIQUE</option>
+    <option value="CL">CHILI</option>
+    <option value="CN">CHINE</option>
+    <option value="CX">CHRISTMAS, ÎLE</option>
+    <option value="CY">CHYPRE</option>
+    <option value="CC">COCOS (KEELING), ÎLES</option>
+    <option value="CO">COLOMBIE</option>
+    <option value="KM">COMORES</option>
+    <option value="CG">CONGO</option>
+    <option value="CD">CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU</option>
+    <option value="CK">COOK, ÎLES</option>
+    <option value="KR">CORÉE, RÉPUBLIQUE DE</option>
+    <option value="KP">CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE</option>
+    <option value="CR">COSTA RICA</option>
+    <option value="CI">CÔTE D'IVOIRE</option>
+    <option value="HR">CROATIE</option>
+    <option value="CU">CUBA</option>
+    <option value="DK">DANEMARK</option>
+    <option value="DJ">DJIBOUTI</option>
+    <option value="DO">DOMINICAINE, RÉPUBLIQUE</option>
+    <option value="DM">DOMINIQUE</option>
+    <option value="EG">ÉGYPTE</option>
+    <option value="SV">EL SALVADOR</option>
+    <option value="AE">ÉMIRATS ARABES UNIS</option>
+    <option value="EC">ÉQUATEUR</option>
+    <option value="ER">ÉRYTHRÉE</option>
+    <option value="ES">ESPAGNE</option>
+    <option value="EE">ESTONIE</option>
+    <option value="US">ÉTATS-UNIS</option>
+    <option value="ET">ÉTHIOPIE</option>
+    <option value="FK">FALKLAND, ÎLES (MALVINAS)</option>
+    <option value="FO">FÉROÉ, ÎLES</option>
+    <option value="FJ">FIDJI</option>
+    <option value="FI">FINLANDE</option>
+    <option value="FR" selected="selected">FRANCE</option>
+    <option value="GA">GABON</option>
+    <option value="GM">GAMBIE</option>
+    <option value="GE">GÉORGIE</option>
+    <option value="GS">GÉORGIE DU SUD ET LES ÎLES SANDWICH DU SUD</option>
+    <option value="GH">GHANA</option>
+    <option value="GI">GIBRALTAR</option>
+    <option value="GR">GRÈCE</option>
+    <option value="GD">GRENADE</option>
+    <option value="GL">GROENLAND</option>
+    <option value="GP">GUADELOUPE</option>
+    <option value="GU">GUAM</option>
+    <option value="GT">GUATEMALA</option>
+    <option value="GG">GUERNESEY</option>
+    <option value="GN">GUINÉE</option>
+    <option value="GQ">GUINÉE ÉQUATORIALE</option>
+    <option value="GW">GUINÉE-BISSAU</option>
+    <option value="GY">GUYANA</option>
+    <option value="GF">GUYANE FRANÇAISE</option>
+    <option value="HT">HAÏTI</option>
+    <option value="HM">HEARD, ÎLE ET MCDONALD, ÎLES</option>
+    <option value="HN">HONDURAS</option>
+    <option value="HK">HONG-KONG</option>
+    <option value="HU">HONGRIE</option>
+    <option value="IM">ÎLE DE MAN</option>
+    <option value="UM">ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS</option>
+    <option value="VG">ÎLES VIERGES BRITANNIQUES</option>
+    <option value="VI">ÎLES VIERGES DES ÉTATS-UNIS</option>
+    <option value="IN">INDE</option>
+    <option value="ID">INDONÉSIE</option>
+    <option value="IR">IRAN, RÉPUBLIQUE ISLAMIQUE D'</option>
+    <option value="IQ">IRAQ</option>
+    <option value="IE">IRLANDE</option>
+    <option value="IS">ISLANDE</option>
+    <option value="IL">ISRAËL</option>
+    <option value="IT">ITALIE</option>
+    <option value="JM">JAMAÏQUE</option>
+    <option value="JP">JAPON</option>
+    <option value="JE">JERSEY</option>
+    <option value="JO">JORDANIE</option>
+    <option value="KZ">KAZAKHSTAN</option>
+    <option value="KE">KENYA</option>
+    <option value="KG">KIRGHIZISTAN</option>
+    <option value="KI">KIRIBATI</option>
+    <option value="KW">KOWEÏT</option>
+    <option value="LA">LAO, RÉPUBLIQUE DÉMOCRATIQUE POPULAIRE</option>
+    <option value="LS">LESOTHO</option>
+    <option value="LV">LETTONIE</option>
+    <option value="LB">LIBAN</option>
+    <option value="LR">LIBÉRIA</option>
+    <option value="LY">LIBYENNE, JAMAHIRIYA ARABE</option>
+    <option value="LI">LIECHTENSTEIN</option>
+    <option value="LT">LITUANIE</option>
+    <option value="LU">LUXEMBOURG</option>
+    <option value="MO">MACAO</option>
+    <option value="MK">MACÉDOINE, L'EX-RÉPUBLIQUE YOUGOSLAVE DE</option>
+    <option value="MG">MADAGASCAR</option>
+    <option value="MY">MALAISIE</option>
+    <option value="MW">MALAWI</option>
+    <option value="MV">MALDIVES</option>
+    <option value="ML">MALI</option>
+    <option value="MT">MALTE</option>
+    <option value="MP">MARIANNES DU NORD, ÎLES</option>
+    <option value="MA">MAROC</option>
+    <option value="MH">MARSHALL, ÎLES</option>
+    <option value="MQ">MARTINIQUE</option>
+    <option value="MU">MAURICE</option>
+    <option value="MR">MAURITANIE</option>
+    <option value="YT">MAYOTTE</option>
+    <option value="MX">MEXIQUE</option>
+    <option value="FM">MICRONÉSIE, ÉTATS FÉDÉRÉS DE</option>
+    <option value="MD">MOLDOVA, RÉPUBLIQUE DE</option>
+    <option value="MC">MONACO</option>
+    <option value="MN">MONGOLIE</option>
+    <option value="ME">MONTÉNÉGRO</option>
+    <option value="MS">MONTSERRAT</option>
+    <option value="MZ">MOZAMBIQUE</option>
+    <option value="MM">MYANMAR</option>
+    <option value="NA">NAMIBIE</option>
+    <option value="NR">NAURU</option>
+    <option value="NP">NÉPAL</option>
+    <option value="NI">NICARAGUA</option>
+    <option value="NE">NIGER</option>
+    <option value="NG">NIGÉRIA</option>
+    <option value="NU">NIUÉ</option>
+    <option value="NF">NORFOLK, ÎLE</option>
+    <option value="NO">NORVÈGE</option>
+    <option value="NC">NOUVELLE-CALÉDONIE</option>
+    <option value="NZ">NOUVELLE-ZÉLANDE</option>
+    <option value="IO">OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'</option>
+    <option value="OM">OMAN</option>
+    <option value="UG">OUGANDA</option>
+    <option value="UZ">OUZBÉKISTAN</option>
+    <option value="PK">PAKISTAN</option>
+    <option value="PW">PALAOS</option>
+    <option value="PS">PALESTINIEN OCCUPÉ, TERRITOIRE</option>
+    <option value="PA">PANAMA</option>
+    <option value="PG">PAPOUASIE-NOUVELLE-GUINÉE</option>
+    <option value="PY">PARAGUAY</option>
+    <option value="NL">PAYS-BAS</option>
+    <option value="PE">PÉROU</option>
+    <option value="PH">PHILIPPINES</option>
+    <option value="PN">PITCAIRN</option>
+    <option value="PL">POLOGNE</option>
+    <option value="PF">POLYNÉSIE FRANÇAISE</option>
+    <option value="PR">PORTO RICO</option>
+    <option value="PT">PORTUGAL</option>
+    <option value="QA">QATAR</option>
+    <option value="RE">RÉUNION</option>
+    <option value="RO">ROUMANIE</option>
+    <option value="GB">ROYAUME-UNI</option>
+    <option value="RU">RUSSIE, FÉDÉRATION DE</option>
+    <option value="RW">RWANDA</option>
+    <option value="EH">SAHARA OCCIDENTAL</option>
+    <option value="BL">SAINT-BARTHÉLEMY</option>
+    <option value="KN">SAINT-KITTS-ET-NEVIS</option>
+    <option value="SM">SAINT-MARIN</option>
+    <option value="MF">SAINT-MARTIN</option>
+    <option value="PM">SAINT-PIERRE-ET-MIQUELON</option>
+    <option value="VA">SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)</option>
+    <option value="VC">SAINT-VINCENT-ET-LES GRENADINES</option>
+    <option value="SH">SAINTE-HÉLÈNE, ASCENSION ET TRISTAN DA CUNHA</option>
+    <option value="LC">SAINTE-LUCIE</option>
+    <option value="SB">SALOMON, ÎLES</option>
+    <option value="WS">SAMOA</option>
+    <option value="AS">SAMOA AMÉRICAINES</option>
+    <option value="ST">SAO TOMÉ-ET-PRINCIPE</option>
+    <option value="SN">SÉNÉGAL</option>
+    <option value="RS">SERBIE</option>
+    <option value="SC">SEYCHELLES</option>
+    <option value="SL">SIERRA LEONE</option>
+    <option value="SG">SINGAPOUR</option>
+    <option value="SK">SLOVAQUIE</option>
+    <option value="SI">SLOVÉNIE</option>
+    <option value="SO">SOMALIE</option>
+    <option value="SD">SOUDAN</option>
+    <option value="LK">SRI LANKA</option>
+    <option value="SE">SUÈDE</option>
+    <option value="CH">SUISSE</option>
+    <option value="SR">SURINAME</option>
+    <option value="SJ">SVALBARD ET ÎLE JAN MAYEN</option>
+    <option value="SZ">SWAZILAND</option>
+    <option value="SY">SYRIENNE, RÉPUBLIQUE ARABE</option>
+    <option value="TJ">TADJIKISTAN</option>
+    <option value="TW">TAÏWAN, PROVINCE DE CHINE</option>
+    <option value="TZ">TANZANIE, RÉPUBLIQUE-UNIE DE</option>
+    <option value="TD">TCHAD</option>
+    <option value="CZ">TCHÈQUE, RÉPUBLIQUE</option>
+    <option value="TF">TERRES AUSTRALES FRANÇAISES</option>
+    <option value="TH">THAÏLANDE</option>
+    <option value="TL">TIMOR-LESTE</option>
+    <option value="TG">TOGO</option>
+    <option value="TK">TOKELAU</option>
+    <option value="TO">TONGA</option>
+    <option value="TT">TRINITÉ-ET-TOBAGO</option>
+    <option value="TN">TUNISIE</option>
+    <option value="TM">TURKMÉNISTAN</option>
+    <option value="TC">TURKS ET CAÏQUES, ÎLES</option>
+    <option value="TR">TURQUIE</option>
+    <option value="TV">TUVALU</option>
+    <option value="UA">UKRAINE</option>
+    <option value="UY">URUGUAY</option>
+    <option value="VU">VANUATU</option>
+    <option value="VE">VENEZUELA, RÉPUBLIQUE BOLIVARIENNE DU</option>
+    <option value="VN">VIET NAM</option>
+    <option value="WF">WALLIS ET FUTUNA</option>
+    <option value="YE">YÉMEN</option>
+    <option value="ZM">ZAMBIE</option>
+    <option value="ZW">ZIMBABWE</option>
+
+</select>
+                                    </p>
+
+
+
+    <p name="reserved_telephone"  id="reserved_telephone_id_5cad0951e0886" data-type="phone">
+      <label for="reserved_telephone">
+
+
+
+      Téléphone
+                <span id="nameHelp_reserved_telephone" class="help"></span>
+      </label>
+
+
+
+                          <input type="tel" aria-describedby="nameHelp_reserved_telephone" name="reserved_telephone" data-scope="step2" data-required="" value=""/>
+
+
+
+
+
+      </p>
+
+              <script type="text/javascript">
+          var reserved_phone_input_reserved_telephone_id_5cad0951e0886 = $("#reserved_telephone_id_5cad0951e0886 input[name=reserved_telephone]");
+          reserved_phone_input_reserved_telephone_id_5cad0951e0886.intlTelInput({
+
+            autoFormat: true,
+            autoPlaceholder: true,
+            //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            preferredCountries: ['fr', 'gb', 'be', 'nl', 'de'],
+            utilsScript: "/libs.iraiser.eu/libs/intl-tel-input/js/utils.js"
+          });
+          $("form:has(#reserved_telephone_id_5cad0951e0886)").submit(function() {
+            reserved_phone_input_reserved_telephone_id_5cad0951e0886.val(reserved_phone_input_reserved_telephone_id_5cad0951e0886.intlTelInput("getNumber"));
+          });
+
+          try {
+
+            if (reserved_phone_input_reserved_telephone_id_5cad0951e0886.val() == '') reserved_phone_input_reserved_telephone_id_5cad0951e0886.intlTelInput("selectCountry", 'fr');
+          }catch(e){}
+
+
+
+          $( document ).ready(function(){
+            $('select[name=country]').change(function(){
+              try {
+                if(reserved_phone_input_reserved_telephone_id_5cad0951e0886.val() == '') reserved_phone_input_reserved_telephone_id_5cad0951e0886.intlTelInput("selectCountry", $(this).val().toLowerCase());
+              }catch(e){}
+            });
+          });
+
+
+        </script>
+
+
+
+
+
+
+            <p id="required-info"><span class="required">*</span> <span class="help">Champs obligatoires (ces informations sont indispensables pour bénéficier de votre réduction fiscale)</span></p>
+
+            </fieldset>
+
+        </div> <!-- End Bloc -->
+
+        <div class="step-info">
+            <h4>Respect de votre vie privée</h4>
+                <p>Ce site internet est 100% s&eacute;curis&eacute;.<br />
+<br />
+Vos coordonn&eacute;es nous sont indispensables pour vous envoyer votre re&ccedil;u fiscal.<br />
+Aide et Action s’engage &agrave; ne pas vendre, &eacute;changer ou louer vos donn&eacute;es.</p>
+
+<p>Conform&eacute;ment &agrave; la loi informatique et libert&eacute;s du 6 janvier 1978, vous disposez d&#39;un droit d&#39;acc&egrave;s, de modification, de rectification et de suppression des donn&eacute;es vous concernant.</p>
+
+<p>Pour exercer ce droit, adressez-vous &agrave; :<br />
+Aide et Action<br />
+53 Boulevard de Charonne<br />
+75545 Paris cedex 11 - France<br />
+T&eacute;l. : 01 55 25 70 00<br />
+Email : <a href="mailto:soutenir@aide-et-action.org">soutenir@aide-et-action.org</a></p>
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step-2 -->
+
+<div id="step-3" class="unit size1of3 lastUnit">
+    <div class="step-container">
+        <div class="step-title">
+            <h2>Mon règlement</h2>
+        </div>
+        <div class="step-content">
+                    <div id="security-info">
+            <p><img src="/medias/app/logo-security.png" alt="Plateforme de paiement 100% sécurisée" /></p>
+        </div>
+        <div class="payment">
+            <div id="payment_modes_once">
+
+<fieldset id="card-type">
+<h4><span class="payment_mode_title">Sélectionnez votre carte de paiement</span></h4>
+
+
+
+<p>
+<select name="cardtype" id="card">
+    <option value=""></option>
+    <option value="mastercard"> Mastercard</option>
+    <option value="visa"> Visa</option>
+    <option value="cartebleue"> Carte Bleue</option>
+
+</select>
+</p>
+</fieldset>
+
+<p id="card-number">
+    <label for="cardnumber">Saisissez votre numéro de carte bancaire</label>
+    <input type="text" name="cardnumber" id="cardnumber" maxlength="21" autocomplete="off" />
+</p>
+
+<p id="card-expiry">
+    <span>Date d'expiration</span>
+    <label>
+        <select name="cardmonth" id="cardmonth">
+            <option value=""> --- </option>
+            <option value="01">01 / Janvier</option>
+            <option value="02">02 / Février</option>
+            <option value="03">03 / Mars</option>
+            <option value="04">04 / Avril</option>
+            <option value="05">05 / Mai</option>
+            <option value="06">06 / Juin</option>
+            <option value="07">07 / Juillet</option>
+            <option value="08">08 / Août</option>
+            <option value="09">09 / Septembre</option>
+            <option value="10">10 / Octobre</option>
+            <option value="11">11 / Novembre</option>
+            <option value="12">12 / Décembre</option>
+        </select>
+    </label>
+    <label>
+        <select name="cardyear" id="cardyear">
+            <option value=""> --- </option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+
+        </select>
+    </label>
+</p>
+
+<p id="card-scode" class="line">
+    <label for="scode">Code de sécurité</label>
+    <input type="text" name="scode" id="scode" maxlength="5" autocomplete="off" />
+    <span class="help">Le code de sécurité est constitué des 3 derniers chiffres inscrits au dos de votre carte bancaire</span>
+    <span class="help amex" style="display: none;">Le code de sécurité est constitué des 4 derniers chiffres inscrits au recto de votre carte bancaire</span>
+</p>
+
+
+
+<p id="card-submit" class="payment-submit">
+        <input name="card_submit" type="image" src="/medias/app/bouton-cb.png" alt="Je valide mon paiement par carte bancaire" id="card_submit" class="button" data-scope='card'/>
+
+</p>
+
+
+<fieldset id="paypal">
+
+    <h4><span class="payment_modes_separator">ou</span> <span class="payment_mode_title">faire un paiement par Paypal</span></h4>
+
+
+
+    <p id="paypal-submit" class="payment-submit">
+        <input name="paypal_submit" type="image" src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logo_paypal_paiements_fr.png" alt="Paypal" id="paypal_submit" class="button" data-scope='paypal' />
+    </p>
+
+
+
+</fieldset>
+
+
+
+
+    <p id="check-submit" class="payment-submit">
+                <input name="check_submit" type="image" src="/medias/app/bouton-cheque.png" alt="Je préfère donner par chèque" id="check_submit" class="button" data-scope='check' />
+
+    </p>
+
+
+
+</div>
+
+<div id="payment_modes_regular" style="display:none">
+
+
+
+<fieldset id="iban">
+    <h4><span class="payment_mode_title">faire un paiement par IBAN/BIC</span></h4>
+
+
+
+    <p id="iban-input">
+        <label for="iban-number">Votre numéro IBAN</label>
+        <input type="text" name="iban-number" id="iban-number" maxlength="34" autocomplete="off" />
+    </p>
+
+        <p id="bic-input">
+        <label for="bic-number">Votre code BIC</label>
+        <input type="text" name="bic-number" id="bic-number" maxlength="11" autocomplete="off" />
+    </p>
+
+
+
+    <p id="iban-submit" class="payment-submit">
+                <input name="iban_submit" type="image" src="/medias/app/bouton-iban.png" alt="Je valide mon IBAN" id="iban_submit" class="button" alt="I pay by IBAN" data-scope='iban'/>
+            </p>
+</fieldset>
+
+
+<fieldset id="card-type">
+<h4><span class="payment_modes_separator">ou</span> <span class="payment_mode_title">Sélectionnez votre carte de paiement</span></h4>
+
+
+
+<p>
+<select name="cardtype" id="card">
+    <option value=""></option>
+    <option value="mastercard"> Mastercard</option>
+    <option value="visa"> Visa</option>
+    <option value="cartebleue"> Carte Bleue</option>
+
+</select>
+</p>
+</fieldset>
+
+<p id="card-number">
+    <label for="cardnumber">Saisissez votre numéro de carte bancaire</label>
+    <input type="text" name="cardnumber" id="cardnumber" maxlength="21" autocomplete="off" />
+</p>
+
+<p id="card-expiry">
+    <span>Date d'expiration</span>
+    <label>
+        <select name="cardmonth" id="cardmonth">
+            <option value=""> --- </option>
+            <option value="01">01 / Janvier</option>
+            <option value="02">02 / Février</option>
+            <option value="03">03 / Mars</option>
+            <option value="04">04 / Avril</option>
+            <option value="05">05 / Mai</option>
+            <option value="06">06 / Juin</option>
+            <option value="07">07 / Juillet</option>
+            <option value="08">08 / Août</option>
+            <option value="09">09 / Septembre</option>
+            <option value="10">10 / Octobre</option>
+            <option value="11">11 / Novembre</option>
+            <option value="12">12 / Décembre</option>
+        </select>
+    </label>
+    <label>
+        <select name="cardyear" id="cardyear">
+            <option value=""> --- </option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+
+        </select>
+    </label>
+</p>
+
+<p id="card-scode" class="line">
+    <label for="scode">Code de sécurité</label>
+    <input type="text" name="scode" id="scode" maxlength="5" autocomplete="off" />
+    <span class="help">Le code de sécurité est constitué des 3 derniers chiffres inscrits au dos de votre carte bancaire</span>
+    <span class="help amex" style="display: none;">Le code de sécurité est constitué des 4 derniers chiffres inscrits au recto de votre carte bancaire</span>
+</p>
+
+
+
+<p id="card-submit" class="payment-submit">
+        <input name="card_submit" type="image" src="/medias/app/bouton-cb.png" alt="Je valide mon paiement par carte bancaire" id="card_submit" class="button" data-scope='card'/>
+
+</p>
+
+</div>        </div> <!-- End Payment -->
+        </div> <!-- End Bloc -->
+
+        <div class="step-info">
+            <h4>Donner en toute confiance</h4>
+                <p>Cr&eacute;&eacute;e en 1981, Aide et Action est une association reconnue d&#39;utilit&eacute; publique et agr&eacute;&eacute;e par le Minist&egrave;re de l&#39;Education Nationale. Nos projets sont notamment soutenus par l&#39;Agence Fran&ccedil;aise de D&eacute;veloppement (AFD) et l&#39;Union Europ&eacute;enne.<br />
+<br />
+Chaque ann&eacute;e, nos comptes sont audit&eacute;s et certifi&eacute;s par EY et nous publions un rapport d&#39;activit&eacute;, que vous pouvez <a href="http://www.france.aide-et-action.org/wp-content/uploads/2017/09/FRENCH-CORE-REPORT-NON-PRINTABLE-POP-UPS.pdf">consulter en ligne</a>. Aide et Action est enregistr&eacute;e au r&eacute;pertoire nationale des associations sous le matricule W751056236.<br />
+<br />
+<strong>*Mutualisation des dons : </strong><br />
+Aide et Action a pour principe de mutualiser les dons sur l&#39;ensemble des missions afin de pouvoir intervenir uniquement en fonction des besoins r&eacute;els de chaque projet. Si les dons re&ccedil;us sont sup&eacute;rieurs aux engagements pris sur un projet, ils seront affect&eacute;s en fonction des besoins prioritaires des autres projets. Les &eacute;quivalences de dons sont donn&eacute;es &agrave; titre d&#39;exemples. </p>
+
+        </div> <!-- End Step-info -->
+    </div> <!-- End Step-container -->
+</div> <!-- End Step 3 -->
+
+
+</form>
+</div> <!-- End Main -->
+
+<div id="footer" class="line">
+  <div id="powered" class="unit size1of3" style="display:block !important;">
+            <p style="display:block !important;"><a style="display:block !important;" href="http://www.iraiser.eu" title="Powered by iRaiser"><img style="display:block !important; min-width: 100px!important;min-height: 15px!important;" src="https://soutenir.aide-et-action.org/themes/default//img/icons/powered-iraiser.png" alt="Powered by iRaiser" width="120" height="18"/></a></p>
+          </div>
+
+  <div id="copyright" class="unit size2of3 lastUnit">
+    <p>
+
+            <a href="https://soutenir.aide-et-action.org/nos-credits" title="Cr&eacute;dits">Cr&eacute;dits</a> <span>|</span>
+      <a href="https://soutenir.aide-et-action.org/mentions-legales" title="Mentions l&eacute;gales">Mentions l&eacute;gales</a> <span>|</span>
+      <a href="https://soutenir.aide-et-action.org/contactez-nous" title="Contact">Contact</a>
+        </p>
+  </div>
+</div> <!-- End Footer -->
+</div> <!-- End Container -->
+
+
+<script type='text/javascript' src='https://grids.iraiser.eu/analytics.js'></script>
+<script type='text/javascript'>
+    try{ new iraiser_analytics({auth_key:'P2717ZoTI213553z36x8J20AW', params:'payment_form=1&campaign_id=140&payment_grid_once%5B0%5D=3000&payment_grid_once%5B1%5D=6000&payment_grid_once%5B2%5D=10000&payment_grid_once%5B3%5D=15000&payment_grid_once%5B4%5D=30000&payment_grid_regular%5B0%5D=1000&payment_grid_regular%5B1%5D=1500&payment_grid_regular%5B2%5D=3000&payment_grid_regular%5B3%5D=5000&payment_grid_regular%5B4%5D=10000'});}catch(e){}
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7SP2VJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- START IADVIZE CHAT -->
+<script type='text/javascript'>
+(function() {
+var idz = document.createElement('script'); idz.type = 'text/javascript'; idz.async = true;
+idz.src = document.location.protocol + '/' + '/' + 'lc.iadvize.com/iadvize.js?sid=9565';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(idz, s);
+})();
+</script>
+<!-- END IADVIZE CHAT -->
+</body></html>
+
+
+<!-- INTEGRATION A&A -->
+
+<link rel="stylesheet" href="https://libs.iraiser.eu/libs/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+<!--<link href="https://cdn.iraiser.eu/g12JnydaOUy1I6YfIvfZfg==/default/favicon.png" rel="shortcut icon" type="image/png">-->
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<script src="/libs.iraiser.eu/libs/forms/apivalidation.js"></script>
+<script>
+ $(document).ready(function(){
+    ApiValidation.init({
+        keyapivalidation :      'AIzaSyAuhc6hzwLKb0FLOpwsNcPbWoGcsqFXp2Y',
+        addedFieldAddressForNL : false
+    });
+});
+</script>
+<link rel="stylesheet" href="/libs.iraiser.eu/users/iraiser/themes/basic/custom_select.css" />
+<link rel="stylesheet" href="/libs.iraiser.eu/users/iraiser/themes/basic/carte_credits.css" />
+<script src="https://libs.iraiser.eu/libs/dom/classie.js"></script>
+<script src="https://libs.iraiser.eu/libs/forms/select/selectFx.js"></script>
+
+
+[if][donation_status][=]validated[then]
+  <style>
+  #container{
+    background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/AEACambodge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #greetings div.size1of2 {
+    width: 100%;
+  }
+  </style>
+  <script>
+  $(document).ready(function() {
+  });
+  </script>
+
+[/if]
+[if][donation_status][=]waiting[then]
+  <style>
+  #container{
+    background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/AEACambodge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #greetings div.size1of2 {
+    width: 100%;
+  }
+  </style>
+  <script>
+    $(document).ready(function() {
+    console.log('ok remerciements');
+    $('#logo > h1 > a > img').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/aideetaction2x-white.png');
+    });
+  </script>
+[/if]
+
+<script>
+$(document).ready(function() {
+
+  // liste montants
+  $('#once .amount [type=radio]:checked').siblings('span').addClass('active');
+  $('#regular .amount [type=radio]:checked').siblings('span').addClass('active');
+
+  $('.amount ul li label span').click(function() {
+    var $this = $(this);
+    $('.amount ul li label span.active').removeClass('active');
+    $this.addClass('active');
+  });
+
+  $('.free-amount input').keydown(function() {
+    var value = $(this).val().replace(',', '.');
+    if (value != '' && !isNaN(value)) {
+        $('.amount ul li label span.active').removeClass('active');
+    }
+  });
+
+  //custom select && card type
+  if (typeof Step3 != 'undefined') {
+    Step3.select('#card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+
+    $('#cb-payment #card, #card-expiry select, #card-number select').addClass('cs-select cs-skin-border');
+
+    $('#civility,#country').addClass('cs-select cs-skin-border');
+
+    // (function() {
+    //     [].slice.call( $('#step-2 select.cs-select')).forEach( function(el) {
+    //         new SelectFx(el);
+    //     } );
+    //     [].slice.call( $(Step3.select('select.cs-select'))).forEach( function(el) {
+    //         new SelectFx(el);
+    //     });
+    //     [].slice.call( $('#cb-payment .cs-select')).forEach( function(el) {
+    //         new SelectFx(el);
+    //     });
+    // })();
+
+    //add trigger on card change
+    Step3.select('#card-type li,#card-type li label').click(function(){
+        Step3.select('[name=cardtype]').trigger('change');
+    });
+  }
+  // preselection
+  if (Step1.getDonation().amount <= 0) {
+    $("value_of_amount-once-6000").click();
+  }
+
+  // lien logo
+  $('#logo > h1 > a').attr('target','_blank');
+
+
+  Step3.select('#check-submit').appendTo('#paypal');
+
+  //title
+  $('#step-1 #regular h3').addClass('regular_title').prependTo('#step-1 .step-content .height_adaptor');
+  $('#step-1 #once h3').addClass('once_title').prependTo('#step-1 .step-content .height_adaptor');
+
+  $('#once').show();
+  $('#regular').hide();
+  $('.once_title').addClass('selection');
+
+  $('.once_title').click(function(event) {
+    $('#regular').hide();
+    $('#once').show();
+    $(this).addClass('selection');
+    $('.regular_title').removeClass('selection');
+  });
+
+  $('.regular_title').click(function(event) {
+    $('#once').hide();
+    $('#regular').show();
+    $(this).addClass('selection');
+    $('.once_title').removeClass('selection');
+  });
+
+  $('#payment_modes_once #card-type > p > div > div > ul > li').click(function(event) {
+    $('#regular').hide();
+  });
+
+  //phrase step 3 paiement sécurisé
+  var paiementSecure=$('<p id="paiementSecure">Cette page de paiement est 100% sécurisée.</p>');
+  $(paiementSecure).prependTo('#step-3 .step-content');
+
+  //phrase step 2 recu fiscal
+  var phraseRecuFiscal=$('<p id="phraseRecuFiscal">Ces informations sont nécessaires à l’établissement de votre reçu fiscal.</p>');
+  $(phraseRecuFiscal).prependTo("p[name*='reserved_deja-donateur']");
+
+  //wrap block
+  $('#step-1').wrap('<div id="block1"></div>');
+  $('#header').prependTo('#block1');
+  $('#block1').wrapInner('<div class="wrap"></div>');
+
+  $('#step-3').wrap('<div id="block2"></div>');
+  $('#step-2').prependTo('#block2');
+  $('#block2').wrapInner('<div class="wrap"></div>');
+
+
+  $('#footer').wrap('<div id="blockFooter"></div>');
+  $('#blockFooter').wrapInner('<div class="wrap"></div>');
+
+  $('#step-1').removeClass('unit size1of3');
+  $('#step-2').removeClass('unit size1of3');
+  $('#step-3').removeClass('unit size1of3 lastUnit');
+  $('#greetings div').removeClass('unit size1of2');
+
+
+  // wrap nom et prenom
+  $('#c-fname').wrap('<div class="line" id="line-adr"></div>');
+  $('#c-lname').prependTo('#line-adr');
+  $('#c-fname').addClass('unit size1of2');
+  $('#c-fname').addClass('unit size2of2 lastUnit');
+
+
+  // bouton step1
+  var boutonValidationDonPonctuel=$('<a class="boutonValidationStep1" href="#block2">VALIDER MON DON</a>');
+  $(boutonValidationDonPonctuel).appendTo('#once .bloc-content');
+  var boutonValidationDonReg=$('<a class="boutonValidationStep1" href="#block2">VALIDER MON DON MENSUEL</a>');
+  $(boutonValidationDonReg).appendTo('#regular .bloc-content');
+
+  //Placeholder
+  $("#famount-once").attr("placeholder", "Autre montant :");
+  $("#famount-regular").attr("placeholder", "Autre montant :");
+  $("#c-email input").attr("placeholder", "Entrez votre adresse email");
+  $("#c-civ .cs-placeholder").attr("placeholder", "Sélectionnez une civilité");
+  $("#c-fname input").attr("placeholder", "Entrez votre prénom");
+  $("#c-lname input").attr("placeholder", "Entrez votre nom");
+  $("#c-addr1 input").attr("placeholder", "Entrez votre adresse");
+  $("#c-addr2 input").attr("placeholder", "Si nécessaire");
+  $("#c-email input").attr("placeholder", "Entrez votre code");
+  $("#c-email input").attr("placeholder", "Entrez votre ville");
+  $("#c-country input").attr("placeholder", "Sélectionnez un pays");
+  $("#cardnumber").attr("placeholder", "Entrez votre numéro à 16 chiffres");
+  $("#card-expiry .cs-placeholder:nth-child(1)").attr("placeholder", "Mois");
+  $("#card-expiry .cs-placeholder:nth-child(2)").attr("placeholder", "Année");
+  $("#c-email input").attr("placeholder", "Entrez votre code");
+
+
+  //effet scroll
+  $('a.boutonValidationStep1').on('click', function() { // Au clic sur un élément
+            var page = $(this).attr('href'); // Page cible
+            var speed = 750; // Durée de l'animation (en ms)
+            $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+            return false;
+     });
+
+  //champs obligatoires html modifié
+  $('#required-info > span.help').html("champs obligatoires");
+
+
+  // remplacements img
+  Step3.select('#card_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/orange2x.png');
+  Step3.select('#check_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/BLANCLARGE2x.png');
+  Step3.select('#paypal_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/PAYPALLARGE2x.png');
+  Step3.select('#iban_submit').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/orange-prelevement2x.png');
+
+  // phrase code securite cb
+  $('#card-scode > span:nth-child(3)').html('Ce code correspond aux 3 chiffres inscrits au dos de votre carte.');
+
+  Step3.select('#card-type h4 span.payment_mode_title').html('PAR CARTE BANCAIRE');
+  Step3.select('#payment_modes_regular #card-type span.payment_mode_title').html('PAR CARTE BANCAIRE');
+
+  //titre etape 2 et 3 html
+  $('#step-2 > div > div.step-title > h2').html('Coordonnées');
+  $('#step-3 > div > div.step-title > h2').html('Paiement');
+
+    //form error
+    //Step3.select('#form-error').prependTo('#block2');
+    $('#block2').prepend('<div id="form-info"></div>');
+
+
+    //separateur ou step 3
+
+
+
+  //footer
+  var blockTextFooter=$('<div id="blockTextFooter"><div id="blocLeftFooter><h4><span class="textOrange">63</span> millions d’enfants privés d’école et <span class="textOrange">750</span> millions d’adultes analphabètes.</br>Grâce à votre soutien, nous pouvons agir. <span class="textOrange">MERCI.</span></h4><div id="blocLeftFooter"><img alt="carte monde Aide et action" src="https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/WorldMap.png"><p>En 2017, <span class="textOrange">80 projets</span> ont été mis en œuvre dans <span class="textOrange">19 pays</span>, plus de <span class="textOrange">4 001 écoles</span> ont été impliquées et nous avons aidé plus de <span class="textOrange">2 millions de personnes</span> dans le monde. <span class="textOrange">Depuis plus de 35 ans,</span> nous agissons pour le développement par l’éducation de tous.</br></br>Créée en 1981, Aide et Action est une association reconnue d’utilité publique et agréée par le Ministère de l’Education Nationale. Nos projets sont notamment soutenus par l’Agence Française de Développement et l’Union Européenne. Chaque année, nos comptes sont audités et certifiés par EY et nous publions un rapport d’activité. Vous pouvez consulter tous ces documents sur <a href="http://www.france.aide-et-action.org/education/bilans-et-rapports/" target="_blank">notre site internet</a>. Aide et Action est une association de loi 1901 enregistrée au Répertoire National des Associations sous le matricule W751056236.</p></div><div id="blocRightFooter"><h5>MUTUALISATION DES DONS</h5><p>Aide et Action a pour principe de mutualiser les dons sur l’ensemble des missions afin de pouvoir intervenir uniquement en fonction de besoins réels de chaque projet. Si les dons reçus sont supérieurs aux engagements pris sur un projet, ils seront affectés en fonction des besoins des autres projets.</p></br></br><h5>* DÉDUCTION FISCALE</h5><p>66% de votre don est déductible de vos impôts, dans la limite de 20% de votre revenu imposable. Au delà, vous pourrez reporter sur 5 ans la déduction de lexcédant. Si vous êtes une entreprise assujettie à limpôt sur les sociétés, vous pouvez déduire de cet impôt 60% de votre don dans la limite de 0,5% de votre chiffre daffaires (HT).</p></br></br><h5>NOUS CONTACTER</h5><p>Aide et Action</br>53 boulevard de Charonne</br>75 542 Paris Cedex 11</br>Par téléphone : 01 55 25 70 00</br>Par email : <a href="mailto:soutenir@aide-et-action.org" style="color:#FF9A00; text-decoration:none;">soutenir@aide-et-action.org</a></p></div></div>');
+  $(blockTextFooter).prependTo('#blockFooter > div');
+
+  //media queries
+  if (window.matchMedia("(min-width: 940px)").matches) {
+
+  } else {
+    $('#logo > h1 > a > img').attr('src','https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/aideetaction2x.png');
+  }
+
+});//end doc ready
+
+</script>
+
+<div id="blockTextFooter">
+  <div id="blocLeftFooter">
+    <h4>
+      <span class="textOrange">63</span> millions d’enfants privés d’école et <span class="textOrange">750</span> millions d’adultes analphabètes.</br>Grâce à votre soutien, nous pouvons agir. <span class="textOrange">MERCI.</span>
+    </h4>
+  </div>
+  <div id="blocMiddleFooter">
+    <img alt="carte monde Aide et action" src="https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/WorldMap.png">
+    <p>En 2017, <span class="textOrange">80 projets</span> ont été mis en œuvre dans <span class="textOrange">19 pays</span>, plus de <span class="textOrange">4 001 écoles</span> ont été impliquées et nous avons aidé plus de <span class="textOrange">2 millions de personnes</span> dans le monde. <span class="textOrange">Depuis plus de 35 ans,</span> nous agissons pour le développement par l’éducation de tous.</br></br>Créée en 1981, Aide et Action est une association reconnue d’utilité publique et agréée par le Ministère de l’Education Nationale. Nos projets sont notamment soutenus par l’Agence Française de Développement et l’Union Européenne. Chaque année, nos comptes sont audités et certifiés par EY et nous publions un rapport d’activité. Vous pouvez consulter tous ces documents sur <a href="http://www.france.aide-et-action.org/education/bilans-et-rapports/" target="_blank">notre site internet</a>. Aide et Action est une association de loi 1901 enregistrée au Répertoire National des Associations sous le matricule W751056236.
+    </p>
+  </div>
+  <div id="blocRightFooter">
+    <h5>MUTUALISATION DES DONS</h5>
+    <p>Aide et Action a pour principe de mutualiser les dons sur l’ensemble des missions afin de pouvoir intervenir uniquement en fonction de besoins réels de chaque projet. Si les dons reçus sont supérieurs aux engagements pris sur un projet, ils seront affectés en fonction des besoins des autres projets.</p>
+    </br>
+    </br>
+    <h5>* DÉDUCTION FISCALE</h5>
+    <p>66% de votre don est déductible de vos impôts, dans la limite de 20% de votre revenu imposable. Au delà, vous pourrez reporter sur 5 ans la déduction de lexcédant. Si vous êtes une entreprise assujettie à limpôt sur les sociétés, vous pouvez déduire de cet impôt 60% de votre don dans la limite de 0,5% de votre chiffre daffaires (HT).</p>
+    </br>
+    </br>
+    <h5>NOUS CONTACTER</h5>
+    <p>Aide et Action</br>53 boulevard de Charonne</br>75 542 Paris Cedex 11</br>Par téléphone : 01 55 25 70 00</br>Par email : <a href="mailto:soutenir@aide-et-action.org" style="color:#FF9A00; text-decoration:none;">soutenir@aide-et-action.org</a></p>
+  </div>
+</div>

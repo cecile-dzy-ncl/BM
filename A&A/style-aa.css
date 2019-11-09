@@ -1,0 +1,1307 @@
+/*INTEGRATION A&A*/
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+
+@font-face {
+  font-family: DIN Pro Regular;
+  src: url(https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Regular.otf);
+  font-weight: normal;
+}
+/* GENERAL */
+
+body {
+  color: #000;
+  background: none;
+  background-color: #fff!important;
+  font-family: 'Source sans pro', sans-serif;
+  text-shadow: none;
+  background: none;
+  font-size: 14px;
+}
+
+#main{
+  background-color: #FFF;
+  width: 620px;
+  padding: 30px 60px;
+  margin: 90px auto 40px;
+  background-color: rgba(255,255,255,0.8);
+  text-align: center;
+}
+
+#type-b #main{
+  background: none;
+  overflow: visible;
+  box-shadow: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #fff0;
+  text-align: left;
+}
+#logo h1, #logo a, #logo img {
+  float: left;
+  overflow: hidden;
+  width: 65%;
+}
+
+#greetings, #postmail-content {
+  border: none;
+  width: 640px;
+  margin: 0 auto;
+  background: #ffffffb5;
+  margin-bottom: 84px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 5px;
+}
+#postmail-content a, #greetings-text a {
+  color: #fff;
+  background: #f9ad31;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-family: "DIN Pro Cond Bold", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-align: center;
+  text-shadow: none;
+  margin: 5px 0;
+}
+#greetings-text, #greetings-comp{
+      padding: 30px 60px;
+}
+
+#greetings h2, #postmail h3, #greetings-content h3{
+    text-shadow: none;
+    font-family: "Din Pro Bold", sans-serif;
+    font-weight: bold;
+}
+
+
+#container{
+    margin-bottom: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+    color: #f9ad31;
+    text-decoration: none;
+}
+a:hover {
+    color: #f3a629;
+}
+.valid {
+    background: rgb(255, 255, 255);
+    color: #000;
+}
+.step-container {
+    margin-right: 0px;
+}
+.step-title {
+  background-color: #fff;
+  border-bottom: 0;
+}
+#step-1{
+    width: 60%;
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+}
+#step-1 .step-title {
+    display: none;
+}
+#step-1 > div > div.step-content{
+  width: 84%;
+    margin: 0 auto;
+}
+
+#block1{
+background: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/beninweb.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 1px;
+background-position: top;
+min-height: 800px;
+position: relative;
+}
+#copyrightPhoto {
+    font-family: 'DIN Pro Regular', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 2px 4px 0 #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+}
+
+#block2 {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    background: white;
+}
+
+#blockFooter{
+background-color: #444444;
+padding-top: 20px;
+position: relative;
+padding-bottom: 64px;
+}
+
+#blockFooter:after{
+    content: '';
+    background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/inconenfant.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    top: -25px;
+    margin-left: -25px;
+}
+
+#blockFooter p{
+  padding: 0;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#step-2,#step-3 {
+    float: left;
+    width: 38%;
+    margin: 4.38%;
+    padding: 15px;
+}
+
+.bloc-content{
+    padding: 0 30px 10px;
+
+}
+
+input[type=text], select {
+    font-size: 14px;
+    padding: 12px;
+    outline: 0 none;
+    background-color: #FFF;
+    border: 1px solid #7D7D7D;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+input[type=text]:focus, select:focus {
+    outline: 0 none;
+    background-color: #FAFAFA;
+    border: 1px solid #7D7D7D;
+    color: #979797;
+}
+.step-content, #step-3 .step-content {
+    padding-top: 0!important;
+}
+.step-container {
+    overflow: hidden;
+    box-shadow: none;
+}
+#main, #main-container, .step-content {
+  background-color: #ffffffe3;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: 'Source sans pro', sans-serif;
+  height: auto!important;
+}
+/* END GENERAL */
+
+/* HEADER */
+#header {
+    height: auto;
+    width: 100%;
+    max-width: 940px;
+    margin: auto;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+#sloganHeader h2{
+color: #FFFFFF;
+font-family: "DIN Pro Cond Bold", sans-serif;
+font-size: 34px;
+line-height: 34px;
+text-align: center;
+padding: 0;
+display: inline-block;
+}
+
+#sloganHeader h2 span {
+    font-family: 'DIN Pro Cond Regular', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 100;
+}
+#sloganHeader p {
+    color: #FFFFFF;
+    font-family: "DIN Pro Cond Regular",sans-serif;
+    font-size: 22px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 40px;
+}
+/* END HEADER */
+
+
+
+/* STEP1 */
+#step-1 .step-container {
+  margin-right: 0;
+}
+#step-1 > div > div.step-content {
+    padding: 0;
+    padding-bottom: 0;
+    height: auto!important;
+    background: transparent;
+}
+#once.bloc, #regular.bloc {
+    border: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+#once.bloc h3, #regular.bloc h3 {
+padding: 0;
+font-weight: bold;
+text-shadow: none;
+background-color: #fff;
+color: #000000;
+font-family: "DIN Pro Cond Bold", sans-serif;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+padding-bottom: 15px;
+}
+#regular > div > p{
+  display: none;
+}
+
+.btnMontantSelectionne{
+  background-color: #FE6A22;
+  color: #fff;
+}
+
+.amount ul li label span,
+#regular .amount ul li label span {
+font-size: 28px;
+line-height: 33px;
+padding: 5px 0px;
+border: 1px solid #7D7D7D;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+color: #6A6A6A;
+font-family: "DIN Pro Cond Bold", sans-serif;
+background-color: #FFFFFF;
+text-shadow: none;
+cursor: pointer;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.radio-inline {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+
+.radio-inline li {
+    padding-right: 0;
+    padding-left: 0;
+    width: 16.8%;
+    margin: 0px 5px;
+    float: none;
+    display: inline-block;
+    padding-bottom:10px;
+    }
+
+.amount ul li label input {
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.amount ul li label span.active {
+    background-color: #f9ad31;
+    color: #ffffff;
+    border-color: #f9ad31;
+    text-shadow: none;
+}
+
+#regular .amount ul li label span.active {
+    background-color: #f9ad31;
+    color: #ffffff;
+    border-color: #f9ad31;
+    text-shadow: none;
+}
+
+#regular .amount ul li label span.hover,
+#once .amount ul li label span.hover {
+    background-color: #f9ad31;
+    color: #ffffff;
+    border-color: #f9ad31;
+    text-shadow: none;
+}
+
+.amount ul li label span:hover {
+    background-color: #fff;
+}
+#regular .amount ul li label span:hover, #once .amount ul li label span:hover {
+    background-color: #f9ad31;
+    color: #ffffff;
+    border-color: #f9ad31;
+    text-shadow: none;
+}
+
+#step-1 h3 {
+color: #F9AD31;
+font-family: "DIN Pro Cond Bold", sans-serif;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+background: #fff;
+display: inline-block;
+cursor: pointer;
+text-shadow: none;
+padding: 12px;
+width: 50%;
+margin-bottom: 14px;
+text-transform: uppercase;
+}
+#step-1 > div > div.step-content > div > h3.once_title{
+  border-radius: 5px 0 0 5px;
+}
+#step-1 > div > div.step-content > div > h3.regular_title{
+  border-radius: 0 5px 5px 0;
+}
+
+#step-1 h3.selection {
+  color: #fff;
+  background-color: #F9AD31;
+}
+
+a.boutonValidationStep1{
+    color: #FFFFFF;
+    font-family: "DIN Pro Bold", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 23px;
+    width: 95%;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: #F9AD31;
+    text-decoration: none;
+    text-shadow: none;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#once > div > p,
+#regular > div > p{
+  text-align: center;
+}
+
+.price {
+    color: #fbae16;
+    font-family: "DIN Pro Cond Bold", sans-serif;
+    font-size: 28px;
+}
+
+#parMois{
+  color: #fbae16;
+    font-family: "DIN Pro Cond Bold", sans-serif;
+    font-size: 25px;
+}
+#once #parMois{
+  display: none;
+}
+
+/*montant libre*/
+.free-amount{
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.free-amount input {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    position: relative;
+}
+
+
+.free-amount-li > fieldset > p > label{
+    margin: 0 auto;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0);
+    padding: 0;
+}
+
+.free-amount-li > fieldset > p{
+    padding: 0px 15px 0px;
+    margin: 0 auto;
+    vertical-align: middle;
+    bottom: 15px;
+    position: relative;
+}
+
+.free-amount-li > fieldset > p > label > span {
+    border: 0!important;
+    padding: 0!important;
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    margin-top: -10px;
+}
+.free-amount span {
+font-weight: normal;
+    color: #6A6A6A;
+    font-family: "DIN Pro Cond Bold", sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: right;
+    margin-left: -32px;
+    padding: 5px 0;
+    position: absolute;
+}
+
+/* end montant libre*/
+
+.bloc-content h3 {
+    font-size: 29px;
+    color: #000;
+    text-transform: inherit;
+    padding-bottom: 0;
+}
+
+.tax-info {
+  border: 0;
+    font-weight: 400;
+    text-align: left;
+    background: #fff;
+    margin-top: 0;
+    padding-bottom: 40px;
+    color: #000000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 62px;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+.tax-info:after{
+    content: '';
+    background-image: url(https://cdn.iraiser.eu/GYuBPJad0gq6XYCO7dTptA==/default/origin/left-arrow-sketch59596.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 35px;
+    background-color: #fff0;
+    height: 31px;
+    left: 20px;
+    top: 5px;
+    margin-left: 0px;
+    border: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#or p {
+    display: inline-block;
+    color: #000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+#or{
+  position: relative;
+    display: none!important;
+}
+
+#bloc-amount-once > fieldset.free-amount > p > label,
+#bloc-amount-regular > fieldset.free-amount > p > label{
+  color: #fff0;
+    font-size: 0;
+}
+
+/* END STEP 1 */
+/* STEP 2et3*/
+
+.step-title h2 {
+    text-shadow: none;
+    color: #000000;
+    font-family: "DIN Pro Cond Bold", sans-serif;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+}
+#step-2 label, #step-3 label,#card-expiry > span {
+    line-height: 17px;
+    margin-bottom: 2%;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+}
+
+#card-expiry > label:nth-child(2) > div, #card-expiry > label:nth-child(3) > div {
+  width: 48%;
+  display: inline-block;
+}
+
+select, input, textarea {
+    color: #979797;
+    border: 1px solid #000000;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 5px;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: 400;
+}
+
+
+#civility{
+  width: 100%;
+}
+
+span.required {
+    color: #000;
+    font-size: 14px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.intl-tel-input,#reserved_telephone_id_59849a0ea2106 > div > input[type="tel"] {
+    width: 100%;
+}
+#city{
+  width: 100%!important;
+}
+
+#step-2 fieldset{
+    padding: 0;
+}
+#step-2 fieldset p {
+    padding: 5px 0;
+}
+
+#phraseRecuFiscal{
+    color: #000000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    padding: 20px 40px!important;
+}
+#step-2 input {
+    width: 100%;
+    margin-bottom: 2%;
+}
+/*CIVILITE MLLE*/
+#c-civ > div > div > ul > li:nth-child(4){
+  display: none;
+}
+.intl-tel-input input, .intl-tel-input input[type=text], .intl-tel-input input[type=tel] {
+  position: relative;
+  z-index: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0;
+  font-size: 14px;
+  padding: 12px;
+  padding-left: 48px;
+  outline: 0 none;
+  background-color: #FFF;
+  border: 1px solid #7D7D7D;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+}
+
+#step-2, #step-3 {
+    float: left;
+    width: 40%;
+    margin: 15px 5%;
+    padding: 0;
+}
+.step-title:after{
+display: none;
+}
+#step-3 .payment {
+    padding: 0px;
+}
+#card-number,
+#card-expiry,
+#card-scode{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+#card-type .cs-select li, #card-type li{
+    color: transparent;
+}
+
+#card-type .cs-select li:after, #card-type .cs-select li:before {
+    top: 30px;
+}
+
+#card-type .cs-select li[data-value=cartebleue], #card-type li[data-value=cb] {
+    background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/CB2x.png);
+    background-size: 40%;
+}
+
+#card-type .cs-select li[data-value=visa], #card-type li:nth-child(2), #card-type li[data-value=visa] {
+    background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/Visa2x.png);
+    background-size: 40%;
+    background-position-y: 7px;
+}
+
+#card-type .cs-select li[data-value=mastercard], #card-type li:nth-child(1), #card-type li[data-value=mastercard] {
+    background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/MasterCard2x.png);
+    background-size: 40%;
+  background-position-y: 3px;
+}
+
+#payment_modes_regular ul{
+    max-width: none;
+}
+
+#step-3 h4 span.payment_mode_title {
+    padding: 7px;
+    border-top: 0;
+    border-bottom: 0;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.payment h4 {
+    padding: 0px;
+    padding-bottom: 0px;
+    }
+
+
+#cb-bloc h4, .payment h4, #type-a #other-payment-bloc h4 {
+    position: relative;
+    margin: 10px 0 12px;
+    text-shadow: none;
+    border: 0;
+    background-color: #fff;
+    color: #000000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+.payment h4:after,
+#security-info{
+  display: none;
+}
+
+#card-number > label{
+  padding-bottom: 2px;
+    display: inline-block;
+}
+
+#cardnumber {
+    width: 100%;
+}
+#card-expiry > label:nth-child(2) > div{
+  margin-right: 2%;
+}
+#card-expiry > label:nth-child(2) > div,
+#card-expiry > label:nth-child(3) > div{
+  width: 47%;
+    display: inline-block;
+}
+
+#paiementSecure {
+    color: #000000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 20px 0!important;
+    position: relative;
+}
+#paiementSecure:before {
+  content: '';
+    width: 14px;
+    height: 15px;
+    background-image: url(https://cdn.iraiser.eu/eWEeCdtiNREtlMO6a08bNw==/default/Cadenas2x.png);
+    position: absolute;
+    background-size: contain;
+    left: 30px;
+    background-repeat: no-repeat;
+    top: 50%;
+    margin-top: -8px;
+}
+
+#card-type > p{
+    margin-bottom: 20px;
+}
+
+
+#card-type ul{
+  text-align: center;
+}
+
+#card-type .cs-select li, #card-type li{
+  display: inline-block;
+    float: none;
+}
+.payment-submit{
+    border-radius: 0;
+    text-align: center !important;
+    padding: 0;
+    padding-top: 12px!important;
+    margin: 0px;
+    background-color: #ffffff;
+    color: white;
+    border: 0;
+    margin-bottom: 0px !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    }
+
+.payment-submit input {
+    width: 100%;
+}
+
+.payment-submit:hover{
+  background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+#card-scode {
+    padding-bottom: 30px;
+}
+#card-scode .help {
+    color: #000000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 14px;
+    width: 50%;
+}
+#card-scode #scode {
+    float: left;
+    width: 43%;
+}
+
+#step-3 h4 > span.payment_modes_separator{
+  display: block;
+    color: #000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+#step-3 h4 > span.payment_modes_separator:before {
+    content: "";
+    width: 46%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-right: 8%;
+    left: -15px;
+}
+#step-3 h4 > span.payment_modes_separator:after {
+    content: "";
+    width: 46%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    margin-left: 8%;
+    right: -15px;
+}
+
+  #payment_modes_regular #card-type > h4 > span.payment_modes_separator:after{
+    content: "";
+    width: 46%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 20%!important;
+    margin-left: 8%;
+    right: -15px;
+  }
+
+   #payment_modes_regular #card-type > h4 > span.payment_modes_separator:before{
+          content: "";
+              width: 46%;
+              height: 1px;
+              background-color: #000;
+              position: absolute;
+              top: 20%;
+              margin-right: 8%;
+              left: -15px;
+   }
+
+
+#bban-de input[type=text], #iban-input input[type=text], #bic-input input[type=text] {
+    width: 95%;
+}
+
+    #card-type .cs-select li:after{
+        color: #fff;
+    }
+    #card-type .cs-select li:before {
+    content: "\f10c";
+    color: #000000!important;
+    font-size: 15px;
+    }
+    #card-type .cs-select li.cs-selected:after {
+    content: "\f111";
+    color: #000;
+    font-size: 7px;
+    }
+
+    #paypal-submit{
+    width: 47%;
+    display: inline-block;
+    margin-right: 5%;
+    }
+
+    #check-submit{
+    width: 47%;
+    display: inline-block;
+    }
+    #paypal > h4 > span.payment_mode_title{
+      display: none;
+    }
+
+  div.cs-skin-border{
+    border: 1px solid #7D7D7D;
+      border-radius: 5px;
+  }
+    .cs-skin-border .cs-selected span.cs-placeholder::after, .cs-skin-border>span.cs-placeholder::after {
+    font-family: FontAwesome;
+    content: '\f107';
+    background-color: #ffffff00;
+    height: 100%;
+    padding: 0 10px;
+    line-height: 40px;
+    color: #000;
+  }
+  .cs-skin-border>span {
+    color: #000;
+    font-size: 14px;
+    padding-left: 12px;
+    font-family: "Source Sans Pro",sans-serif;
+  }
+  .cs-skin-border.cs-active>span {
+    background: #fff0;
+    border-color: #fff;
+    color: #2e2e2e;
+  }
+  .help {
+      color: #000000;
+      display: none;
+  }
+  #required-info > span.help{
+    display: inline-block;
+  }
+/* END STEP 2et3*/
+/* FOOTER */
+
+#footer {
+    background-color: #444444;
+    color: #fff;
+    background-size: contain;
+    background-repeat: repeat;
+    display: block;
+    clear: both;
+    padding: 26px;
+}
+#footer, #footer a {
+    color: #fff;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.step-info {
+   display: none;
+   height: auto;
+}
+.step-info h3 {
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    padding: 0;
+    padding-bottom: 14px;
+}
+
+#type-b .step-info h4 {
+display: none;
+}
+
+.textOrange{
+  color: #f9ad31;
+}
+#blockTextFooter h4{
+    width: 100%;
+    display: block;
+    padding: 50px;
+    color: #ffffff;
+    font-family: "DIN Pro Cond Regular", sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+#blockTextFooter h5{
+width: 100%;
+display: block;
+color: #ffffff;
+font-family: "DIN Pro Cond Regular", sans-serif;
+font-size: 22px;
+line-height: 30px;
+text-align: left;
+text-shadow: none;
+margin-right: 0;
+margin-left: 0;
+padding: 0;
+}
+#blocLeftFooter > img{
+width: auto;
+  display: block;
+  padding-bottom: 24px;
+  margin: 0 auto;
+}
+#blocLeftFooter{
+width: 58%;
+text-align: justify;
+color: #fff;
+float: left;
+margin-right: 8%;
+font-size: 14px;
+line-height: 20px;
+}
+#blocRightFooter{
+width: 34%;
+  text-align: justify;
+  color: #fff;
+  float: left;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* END FOOTER */
+
+/* form error*/
+#form-info {
+  background-color: #ffffff00;
+  border: 0;
+}
+#form-error {
+  border: none;
+  color: black;
+  font-family: inherit;
+  width: 940px;
+  font-size: 12px;
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: left;
+  margin: 0 auto;
+}
+
+#form-error h3 {
+  text-transform: uppercase;
+  color: #f9ad31;
+  letter-spacing: 0px;
+  font-family: 'Source sans pro', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-shadow: none;
+}
+
+
+#form-error li {
+    list-style: disc;
+    margin: 0;
+    color: #000000;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+/************ RESPONSIVE **************/
+@media only screen and (max-width: 940px){
+
+  .wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #step-1 {
+    width: 90%;
+    display: inline-block;
+    margin: 5%;
+  }
+  #type-b #main{
+  padding-bottom: 40px;
+  }
+  #block1 {
+    background: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0;
+    background-position: top;
+    min-height: auto;
+  }
+  #copyrightPhoto{
+    display: none;
+  }
+  #block2{
+    height: auto;
+  }
+  #header {
+    margin-bottom: 0;
+  }
+  .step-info{
+  padding: 22px 36px;
+  }
+  #blockFooter > div > div:nth-child(2) {
+    width: 100%;
+    text-align: justify;
+  }
+  #blocLeftFooter > img{
+  width: 100%!important;
+  height: auto!important;
+  }
+  #blocLeftFooter,#blocRightFooter {
+      width: 90%;
+      float: none;
+      margin:0 auto;
+  }
+  #blockFooter > div > div:nth-child(3){
+  width: 100%;
+  }
+  #greetings, #postmail-content{
+    width: 100%;
+  }
+  #greetings-text, #greetings-comp{
+    padding: 10px;
+  }
+  #form-error {
+    width: 100%;
+  }
+  #blockTextFooter{
+    width: 100%;
+  }
+  #once.bloc, #regular.bloc {
+    padding: 0;
+  }
+  #container{
+    background:none;
+  }
+
+  #sloganHeader h2,#sloganHeader p{
+    color: #000;
+  }
+  #logo h1{
+      float: left;
+      overflow: hidden;
+      width: 85%;
+      margin: 0 auto;
+      padding: 20px 0 0;
+  }
+}
+
+@media only screen and (max-width: 959px) and (min-width: 200px){
+
+  #step-2, #step-3 {
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 468px){
+  #paiementSecure:before{
+    left: 0;
+  }
+  .radio-inline li {
+
+      width: 26.8%;
+
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+
+}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #979797;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: initial;
+    font-style:normal;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #979797;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: initial;
+    font-style:normal;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #979797;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: initial;
+    font-style:normal;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #979797;
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-transform: initial;
+    font-style:normal;
+}
+
+
+
+
+
+/*RESPONSIVE MCC A CHARGER*/
+
+#lang { /*a charger aussi en format desktop*/
+  display: none;
+}
+
+@media only screen and (max-width: 468px) {
+
+#step-1 .step-container {
+  width: 100%;
+  margin-top: 15%;
+}
+
+
+#step-1 h3 {
+  color: #E40520;
+  font-family: "proximanova-regular", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.radio-inline li {
+  width: 25%;
+}
+
+.amount ul li label span, #regular .amount ul li label span {
+  height: 40px;
+  width: 60px;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 5px 0px;
+}
+
+.free-amount {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.free-amount input {
+  height: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#famount-once input-placeholder {
+
+}
+
+.free-amount span {
+  font-size: 22px;
+  line-height: 20px;
+  margin-left: -30px;
+}
+
+#bloc-amount-once > fieldset.free-amount > p > label, #bloc-amount-regular > fieldset.free-amount > p > label {
+  font-size: 0;
+}
+
+a.boutonValidationStep1 {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 23px;
+  width: 90%;
+  padding: 11px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#form-error h3 {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+}
+
+
+
