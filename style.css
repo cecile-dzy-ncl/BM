@@ -1,1 +1,71 @@
-style.css
+/* --- OVERWRITE IRAISER --- */
+
+.section-home-projects {
+  background: #f0f0f0;
+  padding-top: 25px;
+}
+
+div#wrapper {
+  background: white;
+}
+
+#indexs-index .intro {
+  padding: 0;
+  margin: 0;
+}
+
+.habillage .row {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.habillage .row .row, .habillage .section-projets .row, .habillage .section-home-projects .row, .section-projet-details, #project_tabs, section.project_event_description, section.event-head, section.section-my-event .row, .stats-event, #footer-collecte {
+  max-width: 71.25em;
+  margin: 0 auto;
+}
+
+.infos-money .progress .graph-bar {
+  background-color: #053C50;
+  border-radius: 0;
+}
+
+.container {
+  padding: 0 !important;
+  color: #000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+}
+
+.top-bar-section a:hover, .main-header .top-bar-section ul li:hover:not(.has-form) > a
+.top-bar-section a.active {
+}
+
+.row.bg-color-light-blurred.first-section {
+  background: #fff;
+}
+
+section.top-bar-section {
+  background: #F0F0F0 !important;
+}
+
+section#header-header {
+  box-shadow: none !important;
+}
+
+.top-bar li a {
+  /*font-size: 15px !important;*/
+}
+
+.top-bar-section a {
+}
+
+.bg-primary-color {
+  background-color: #6ed7e5 !important;
+}
+
+.bg-secondary-color-blurred {
+/*  background-color: rgba(240,240,240); */
+}
