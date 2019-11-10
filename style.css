@@ -154,5 +154,6 @@ section#header-header {
 
 .cards-row-bm {
   display: flex;
+  justify-content: space-between;
 }
 

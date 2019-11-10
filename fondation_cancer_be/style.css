@@ -112,8 +112,13 @@ a {
 
 /* PAGE DE COLLECTE */
 
-/*.cards-row-bm {
-  display: flex;
+.cards-row-bm:first-child {
+  margin-bottom: 21px;
+}
+
+/*.cards-bm {
+  height: 462px;
+  width: 462px;
 }*/
 
 .card-bm {
