@@ -51,7 +51,12 @@ button, .fcc-be .btn-bm {
   text-align: center;
   height: 44px;
   width: 300px;
-  background-color: #fff;
+  background-color: #00AC98;
+}
+
+.fcc-be .btn-bm.btn-bm-border {
+  background-color: transparent;
+  border: 2px solid #fff;
 }
 
 nav button {
