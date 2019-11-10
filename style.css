@@ -55,6 +55,11 @@ header.main-header section#header-header {
   right: 0;
 }
 
+/* - container - */
+
+.container-bm {
+  width: 1140px;
+}
 
 
 .section-home-projects {
