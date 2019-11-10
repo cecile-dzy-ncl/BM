@@ -138,6 +138,11 @@ a {
   height: 256px;
 }
 
+.icono {
+  width: 60px;
+  height: 60px;
+}
+
 /* PAGE DE COLLECTE */
 
 .fcc-be .bg-secondary-color-blurred {
