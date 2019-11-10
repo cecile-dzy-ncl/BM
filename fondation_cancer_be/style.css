@@ -1,3 +1,13 @@
+/* COLORS */
+
+/*
+green: #00AC98
+blue: #0087BE
+yellow: #FDB913
+red: #C84228
+*/
+
+
 /* BANNER */
 
 .banner-homepage {
@@ -15,5 +25,16 @@ button {
   text-align: center;
   height: 44px;
   width: 300px;
-  background-color: #0087BE;
+  background-color: #00AC98;
+}
+
+button.btn-border {
+  color: #FFFFFF; font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  height: 44px;
+  width: 300px;
+  border: 3px solid #00AC98;
 }
