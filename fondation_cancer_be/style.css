@@ -112,8 +112,8 @@ a {
 
 /* PAGE DE COLLECTE */
 
-.cards-bm {
-
+.cards-row-bm {
+  display: flex;
 }
 
 .card-bm {
