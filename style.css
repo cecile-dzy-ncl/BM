@@ -154,6 +154,7 @@ section#header-header {
   text-align: center;
   text-transform: uppercase;
   margin: 10px auto;
+  text-decoration: none;
 }
 
 /* CARDS */
