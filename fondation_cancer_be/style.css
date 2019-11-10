@@ -37,7 +37,7 @@ body {
 
 /* BUTTONS */
 
-button {
+button, .fcc-be .btn-bm {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
