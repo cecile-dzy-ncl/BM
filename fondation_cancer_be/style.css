@@ -8,6 +8,13 @@ red: #C84228
 */
 
 
+/* GENERAL */
+
+body {
+  font-family: "Open Sans";
+}
+
+
 /* BANNER */
 
 .banner-homepage {
