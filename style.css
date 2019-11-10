@@ -163,3 +163,6 @@ section#header-header {
   justify-content: space-between;
 }
 
+.card-bm-img {
+  width: 100%;
+}
