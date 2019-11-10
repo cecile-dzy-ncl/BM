@@ -4,3 +4,16 @@
   background-image: url(https://mecenat-cardiaque.igive.iraiser.eu/cdn.iraiser.eu//PHfmNmZCCNB7QUqTM9I3NOf2yUoTt/WluSffNe0Y1dksgOUVeiuOFNdG2Mp0gu8/Cecile_DEZY/origin/PICT2x.jpg);
   color: #000;
 }
+
+/* BUTTONS */
+
+.button {
+  color: #FFFFFF; font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  height: 44px;
+  width: 300px;
+  background-color: #0087BE;
+}
