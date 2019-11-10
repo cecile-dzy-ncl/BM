@@ -52,6 +52,10 @@ h1, h2 {
   line-height: 28px;
 }
 
+p {
+  font-size: 15px;
+}
+
 .fcc-be .container-bm {
   width: 945px;
 }
