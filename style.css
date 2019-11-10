@@ -2,6 +2,12 @@ body {
   text-align: center;
 }
 
+/* - menu - */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 /* --- OVERWRITE IRAISER --- */
 
