@@ -12,6 +12,7 @@ header.main-header section#header-header {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #E6EBEB;
 }
 
 .row-2 {
