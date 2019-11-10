@@ -30,6 +30,10 @@ body {
   color: #000;
 }
 
+.banner-text {
+  width: 462px;
+}
+
 /* BUTTONS */
 
 button {
