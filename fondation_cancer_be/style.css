@@ -51,9 +51,9 @@ button, .fcc-be .btn-bm {
   font-weight: bold;
   line-height: 22px;
   text-align: center;
-  height: 44px;
   width: 300px;
   background-color: #00AC98;
+  padding: 11px;
 }
 
 .fcc-be .btn-bm.btn-bm-border {
