@@ -25,23 +25,20 @@ body {
 /* BUTTONS */
 
 button {
-  color: #FFFFFF; font-family: "Open Sans";
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
   line-height: 22px;
   text-align: center;
   height: 44px;
   width: 300px;
-  background-color: #00AC98;
+  background-color: #fff;
 }
 
-button.btn-border {
-  color: #FFFFFF; font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 22px;
-  text-align: center;
-  height: 44px;
-  width: 300px;
+nav button {
+  color: #00AC98;
   border: 3px solid #00AC98;
 }
+
+
+
