@@ -59,6 +59,10 @@ button, .fcc-be .btn-bm {
   border: 2px solid #fff;
 }
 
+.fcc-be .banner-text .btn-bm {
+  background-color: #0087BE;
+}
+
 nav button {
   color: #00AC98;
   border: 3px solid #00AC98;
