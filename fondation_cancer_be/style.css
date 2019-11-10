@@ -7,6 +7,37 @@ yellow: #FDB913
 red: #C84228
 */
 
+.fcc-be .green {
+  color: #00AC98;
+}
+
+.fcc-be .blue {
+  color: #0087BE;
+}
+
+.fcc-be .yellow {
+  color: #FDB913;
+}
+
+.fcc-be .red {
+  color: #C84228;
+}
+
+.fcc-be .bg-green {
+  background-color: #00AC98;
+}
+
+.fcc-be .bg-blue {
+  background-color: #0087BE;
+}
+
+.fcc-be .bg-yellow {
+  background-color: #FDB913;
+}
+
+.fcc-be .bg-red {
+  background-color: #C84228;
+}
 
 /* GENERAL */
 
@@ -77,6 +108,16 @@ nav button {
 
 a {
   color: #0087BE;
+}
+
+/* PAGE DE COLLECTE */
+
+.cards-bm {
+
+}
+
+.card-bm {
+
 }
 
 /* PAGE DE COLLECTE */
