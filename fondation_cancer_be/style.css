@@ -70,9 +70,9 @@ nav button {
   font-size: 13px;
   letter-spacing: 0.87px;
   width: 146px;
-  line-height: 32px;
   font-weight: 300;
   background: white;
+  padding: 6px;
 }
 
 a {
