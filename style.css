@@ -295,6 +295,10 @@ section#header-header {
   text-decoration: none;
 }
 
+.admin_button.button {
+    width: auto;
+}
+
 /* CARDS */
 
 .row-bm {
