@@ -80,6 +80,10 @@
   color: #fff;
 }
 
+.black {
+  color: #000;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -94,6 +98,10 @@
 .container-small-bm {
   width: 750px;
   margin: 0 auto;
+}
+
+.border-black {
+  border-color: #000;
 }
 
 /* - margins & paddings - */
