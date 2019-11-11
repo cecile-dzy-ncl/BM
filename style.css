@@ -176,7 +176,7 @@ section#header-header {
 
 /* CARDS */
 
-.cards-row-bm {
+.row-bm {
   display: flex;
   justify-content: space-between;
 }
