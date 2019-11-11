@@ -23,10 +23,6 @@ red: #C84228
   color: #C84228;
 }
 
-.fcc-be .white {
-  color: #fff;
-}
-
 .fcc-be .bg-green {
   background-color: #00AC98;
 }
@@ -41,10 +37,6 @@ red: #C84228
 
 .fcc-be .bg-red {
   background-color: #C84228;
-}
-
-.fcc-be .bg-white {
-  background-color: #fff;
 }
 
 .fcc-be .bg-grey {
