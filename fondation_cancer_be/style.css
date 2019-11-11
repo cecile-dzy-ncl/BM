@@ -200,4 +200,25 @@ a {
   object-fit: scale-down;
 }
 
+/* PAGE EVENTS */
 
+.habillage:after {
+  display: none;
+}
+
+.section-events .event-item .event-details {
+  background: #f5F5F5;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see {
+
+}
+
+.event-details .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-events .event-item .event-description .infos {
+  display: none;
+}
