@@ -176,6 +176,7 @@ a {
   height: 753px;
   background-size: cover;
   background-position: bottom center;
+  display: flex;
 }
 
 /* PAGE DE COLLECTE */
