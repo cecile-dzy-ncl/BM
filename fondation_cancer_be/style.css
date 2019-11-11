@@ -248,3 +248,7 @@ ul.button-group.radius.event-goup-btn {
   display: flex;
   justify-content: space-around;
 }
+
+.event-item .event-details .wrap {
+    height: 311px;
+}
