@@ -116,11 +116,18 @@ button, .fcc-be .btn-bm {
   width: 300px;
   background-color: #00AC98;
   padding: 11px;
+  border-radius: 0 !important;
 }
 
 .fcc-be .btn-bm.btn-bm-border {
   background-color: transparent;
   border: 2px solid #fff;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: transparent;
+  border: 2px solid #00AC98;
+  color: #00AC98;
 }
 
 nav button {
@@ -224,4 +231,19 @@ a {
 .infos-money .chart-wrap,
 .section-events .event-item .infos-money .projets {
   display: none;
+}
+
+.event-details .medium-7, .event-details .medium-4 {
+  width: 100%;
+}
+
+.event-item .panel .event-details .wrap, .event-item .panel .event-details .wrap p {
+  text-align: center !important;
+}
+
+ul.button-group.radius.event-goup-btn {
+  position: initial;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
