@@ -165,7 +165,7 @@ section#header-header {
 
 /* BANNER */
 
-.banner-homepage {
+.banner {
   background-size: cover;
   height: 631px;
   display: flex;
