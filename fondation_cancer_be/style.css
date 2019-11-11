@@ -128,6 +128,10 @@ a {
   color: #0087BE;
 }
 
+.fcc-be .btn-bm a {
+  color: #fff;
+}
+
 /* PAGE DE COLLECTE */
 
 .cards-row-bm:first-child {
