@@ -57,6 +57,10 @@ h1, h2 {
   line-height: 28px;
 }
 
+h6 {
+  font-size: 13px;
+}
+
 .wrapper h6 {
   width: 76px;
   height: 30px;
