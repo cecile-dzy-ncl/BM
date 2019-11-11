@@ -176,6 +176,12 @@ section#header-header {
   width: 100%;
 }
 
+.card-bm-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .card-bm-description > * {
   margin: 0 auto;
 }
