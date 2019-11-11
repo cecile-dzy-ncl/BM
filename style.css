@@ -106,6 +106,10 @@
   margin: 0 !important;
 }
 
+.pl-50 {
+  padding-left: 50px;
+}
+
 /* --- OVERWRITE IRAISER --- */
 
 /* - menu - */
