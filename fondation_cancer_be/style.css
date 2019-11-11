@@ -171,6 +171,10 @@ a {
   display: flex;
 }
 
+.wrapper-ex .row-bm {
+  min-height: 350px;
+}
+
 /* MARGINS & PADDINGS */
 
 .mb-21 {
