@@ -28,7 +28,7 @@ red: #C84228
 }
 
 .fcc-be .bg-blue {
-  background-color: #0087BE;
+  background-color: #0087BE !important;
 }
 
 .fcc-be .bg-yellow {
