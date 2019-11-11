@@ -24,7 +24,7 @@ red: #C84228
 }
 
 .fcc-be .bg-green {
-  background-color: #00AC98;
+  background-color: #00AC98 !important;
 }
 
 .fcc-be .bg-blue {
@@ -32,15 +32,15 @@ red: #C84228
 }
 
 .fcc-be .bg-yellow {
-  background-color: #FDB913;
+  background-color: #FDB913 !important;
 }
 
 .fcc-be .bg-red {
-  background-color: #C84228;
+  background-color: #C84228 !important;
 }
 
 .fcc-be .bg-grey {
-  background-color: #F5F5F5;
+  background-color: #F5F5F5 !important;
 }
 
 /* GENERAL */
