@@ -34,12 +34,20 @@
   background-color: #fff;
 }
 
+/* - boxes - */
+
 .container-bm {
   width: 960px;
 }
 
 .container-small-bm {
   width: 750px;
+}
+
+/* - margins & paddings - */
+
+.mt-50 {
+  margin-top: 50px;
 }
 
 /* --- OVERWRITE IRAISER --- */
