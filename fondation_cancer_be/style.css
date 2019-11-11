@@ -7,7 +7,8 @@ yellow: #FDB913
 red: #C84228
 */
 
-.fcc-be .green {
+.fcc-be .green,
+.fcc-be .big {
   color: #00AC98;
 }
 
@@ -219,6 +220,8 @@ a {
   flex-direction: column;
 }
 
-.section-events .event-item .event-description .infos {
+.section-events .event-item .event-description .infos,
+.infos-money .chart-wrap,
+.section-events .event-item .infos-money .projets {
   display: none;
 }
