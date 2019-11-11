@@ -124,6 +124,13 @@
   padding-right: 10px;
 }
 
+/* - img - */
+
+.object-position-bottom {
+  object-position: bottom;
+}
+
+
 /* --- OVERWRITE IRAISER --- */
 
 /* - menu - */
