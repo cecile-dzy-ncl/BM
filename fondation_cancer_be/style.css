@@ -62,16 +62,6 @@ h1, h2 {
   line-height: 30px;
 }
 
-.wrapper.bg-green h6 {
-  background: #fff;
-  color: #2cac98;
-}
-
-.wrapper.bg-white h6 {
-  background: #2cac98;
-  color: #fff;
-}
-
 p {
   font-size: 15px;
 }
