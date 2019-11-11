@@ -70,6 +70,10 @@
   text-align: right;
 }
 
+.font-light {
+  font-weight: lighter;
+}
+
 /* - colors - */
 
 .white {
