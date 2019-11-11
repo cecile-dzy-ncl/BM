@@ -48,6 +48,7 @@ red: #C84228
 body {
   font-family: "Open Sans";
   margin: 0;
+  text-align: center;
 }
 
 h1, h2 {
