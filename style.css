@@ -175,3 +175,17 @@ section#header-header {
 .card-bm-img {
   width: 100%;
 }
+
+.card-bm-description > * {
+  margin: 0 auto;
+}
+
+
+/* WRAPPERS */
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

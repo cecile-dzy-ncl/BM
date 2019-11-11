@@ -141,6 +141,9 @@ a {
 .icono {
   width: 60px;
   height: 60px;
+  top: -30px;
+  border-radius: 50%;
+  left: 202.5px;
 }
 
 /* PAGE DE COLLECTE */
