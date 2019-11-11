@@ -43,6 +43,11 @@ red: #C84228
   background-color: #C84228;
 }
 
+
+.fcc-be .bg-grey {
+  background-color: #F5F5F5;
+}
+
 /* GENERAL */
 
 body {
