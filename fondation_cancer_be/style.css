@@ -43,6 +43,9 @@ red: #C84228
   background-color: #C84228;
 }
 
+.fcc-be .bg-white {
+  background-color: #fff;
+}
 
 .fcc-be .bg-grey {
   background-color: #F5F5F5;
