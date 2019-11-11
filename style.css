@@ -47,7 +47,7 @@
 /* - margins & paddings - */
 
 .mt-50 {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 /* --- OVERWRITE IRAISER --- */
