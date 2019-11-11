@@ -37,7 +37,17 @@
 .align-items-center {
   align-items: center;
 }
+.w-40 {
+  width: 40%;
+}
 
+.w-50 {
+  width: 50%;
+}
+
+.w-60 {
+  width: 60%;
+}
 /* - text - */
 
 .uppercase {
