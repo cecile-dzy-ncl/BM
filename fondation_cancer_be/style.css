@@ -149,6 +149,11 @@ a {
   width: 462px;
 }
 
+.card-small-bm {
+  height: 366px;
+  width: 366px;
+}
+
 .card-bm-img {
   height: 256px;
 }
