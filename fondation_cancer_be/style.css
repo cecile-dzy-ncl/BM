@@ -140,10 +140,6 @@ a {
 
 /* PAGE DE COLLECTE */
 
-.row-bm:first-child {
-  margin-bottom: 21px;
-}
-
 .card-bm-description {
   height: 206px;
   padding: 0 65px;
@@ -177,6 +173,12 @@ a {
   background-size: cover;
   background-position: bottom center;
   display: flex;
+}
+
+/* MARGINS & PADDINGS */
+
+.mb-21 {
+  margin-bottom: 21px;
 }
 
 /* PAGE DE COLLECTE */
