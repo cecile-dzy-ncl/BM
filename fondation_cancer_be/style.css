@@ -163,7 +163,7 @@ a {
   left: 202.5px;
 }
 
-.wrapper-about {
+#wrapper-about {
   background: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/AdobeStock2515871152x.jpg);
   height: 753px;
   background-size: cover;
@@ -171,7 +171,7 @@ a {
   display: flex;
 }
 
-.wrapper-ex .row-bm {
+#wrapper-ex .row-bm {
   min-height: 350px;
 }
 
