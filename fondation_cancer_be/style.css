@@ -204,6 +204,10 @@ a {
   background-color: rgb(2, 172, 152);
 }
 
+.bg-color-light-blurred {
+    background-color: white;
+}
+
 .panel {
   background: #F5F5F5;
   border-radius: 0px !important;
@@ -217,6 +221,10 @@ a {
 
 #events-show h1 {
   color: #00AC98;
+}
+
+.block-share-container .social-btns .social_network a .social_network_send {
+  background: #F5F5F5;
 }
 
 
