@@ -151,7 +151,7 @@ a {
   text-decoration: none;
 }
 
-/* PAGE DE COLLECTE */
+/* GÉNÉRAL */
 
 .card-bm-description {
   height: 206px;
@@ -204,10 +204,21 @@ a {
   background-color: rgb(2, 172, 152);
 }
 
+.panel {
+  background: #F5F5F5;
+  border-radius: 0px !important;
+}
 
 .reussir-projet img {
   object-fit: scale-down;
 }
+
+/* PAGE EVENT SHOW */
+
+#events-show h1 {
+  color: #00AC98;
+}
+
 
 /* PAGE EVENTS */
 
@@ -250,15 +261,15 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .event-item .event-details .wrap {
-    height: 311px;
+  height: 311px;
 }
 
 .section-events .event-item .infos-money .amount {
-    color: #2cac98;
-    font-size: 15px;
-    font-weight: normal;
+  color: #2cac98;
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .big {
-      margin-right: 25px;
+  margin-right: 25px;
 }
