@@ -31,3 +31,12 @@ yellow : #ECAF00;
 .fcc-be .bg-yellow {
   background-color: #ECAF00;
 }
+
+
+/* GENERAL */
+
+body {
+  font-family: "Source Sans Pro";
+  margin: 0;
+  text-align: center;
+}
