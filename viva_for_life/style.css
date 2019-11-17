@@ -40,3 +40,28 @@ body {
   margin: 0;
   text-align: center;
 }
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+/* BANNER */
+
+.banner-homepage {
+  background-image: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/imagehomeenfantmaman.png);
+  justify-content: flex-end;
+  height: 540px;
+  padding-right: 150px;
+}
