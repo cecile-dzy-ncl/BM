@@ -3,6 +3,31 @@
 /*
 blue: #2E3092;
 orange : #EF5022;
+yellow : #ECAF00;
 */
 
 
+.fcc-be .blue {
+  color: #2E3092;
+}
+
+.fcc-be .orange {
+  color: #EF5022;
+}
+
+.fcc-be .yellow {
+  color: #ECAF00;
+}
+
+
+.fcc-be .bg-blue {
+  background-color: #2E3092;
+}
+
+.fcc-be .bg-orange {
+  background-color: #EF5022;
+}
+
+.fcc-be .bg-yellow {
+  background-color: #ECAF00;
+}
