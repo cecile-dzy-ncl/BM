@@ -173,6 +173,11 @@
   padding-right: 10px;
 }
 
+.px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 /* - img - */
 
 .object-position-bottom {
