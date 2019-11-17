@@ -63,3 +63,10 @@ p {
   /*background-image: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/imagehomeenfantmaman.png);*/
   height: 640px;
 }
+
+/* BUTTONS */
+
+.btn-vfl {
+  border-radius: 22px;
+}
+
