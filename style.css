@@ -77,15 +77,15 @@
 /* - colors - */
 
 .white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .black {
-  color: #000;
+  color: #000 !important;
 }
 
 .bg-white {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 /* - boxes - */
