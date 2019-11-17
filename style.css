@@ -171,6 +171,10 @@
   object-position: bottom;
 }
 
+.object-fit-contain {
+  object-fit: contain;
+}
+
 
 /* --- OVERWRITE IRAISER --- */
 
