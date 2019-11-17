@@ -42,11 +42,11 @@ body {
 }
 
 h1 {
-
+  font-size: 40px;
 }
 
 h2 {
-
+  font-size: 27px;
 }
 
 h3 {
@@ -61,6 +61,10 @@ p {
 
 }
 
+h2, h3 {
+  color: #2E3092;
+}
+
 /* BANNER */
 
 .banner-homepage {
@@ -70,7 +74,14 @@ p {
 
 /* BUTTONS */
 
-.btn-vfl {
+.vfl .btn-bm {
+  color: #FFFFFF;
   border-radius: 22px;
+  text-align: center;
+  width: 300px;
+  padding: 11px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
 }
 
