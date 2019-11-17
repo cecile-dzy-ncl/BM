@@ -339,3 +339,9 @@ section#header-header {
   justify-content: center;
   align-items: center;
 }
+
+.step {
+  width: 76px;
+  height: 30px;
+  line-height: 30px;
+}
