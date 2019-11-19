@@ -8,4 +8,7 @@ $( document ).ready(function() {
     } else {
    $('body').addClass('homepage');
   }
+
+  // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
+  $('.section-home-projects').prepend('<h3>LES COLLECTES EN COURS</h3>');
 });
