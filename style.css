@@ -405,8 +405,12 @@ section#header-header {
   height: 335px;
 }
 
-.h-358 {
-  height: 358px;
+.h-300 {
+  height: 300px;
+}
+
+.top-50 {
+  top: 50px;
 }
 
 /* WRAPPERS */
