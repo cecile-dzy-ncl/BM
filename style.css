@@ -405,6 +405,10 @@ section#header-header {
 
 /* HEIGHTS */
 
+.h-360 {
+  height: 360px;
+}
+
 .h-335 {
   height: 335px;
 }
