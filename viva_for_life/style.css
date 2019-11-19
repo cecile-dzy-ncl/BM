@@ -8,7 +8,7 @@ yellow : #ECAF00;
 
 
 .vfl .blue {
-  color: #2E3092;
+  color: #2E3092 !important;
 }
 
 .vfl .orange {
