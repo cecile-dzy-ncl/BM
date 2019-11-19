@@ -306,5 +306,6 @@ ul.button-group.radius.event-goup-btn {
   border: 2px solid #000000;
   background: transparent;
   color: #000;
+  float: none !important;
 }
 
