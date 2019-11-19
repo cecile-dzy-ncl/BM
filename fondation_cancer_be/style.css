@@ -307,5 +307,7 @@ ul.button-group.radius.event-goup-btn {
   background: transparent;
   color: #000;
   float: none !important;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
