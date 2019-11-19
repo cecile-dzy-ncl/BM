@@ -196,6 +196,10 @@ a {
 
 /* PAGE DE COLLECTE */
 
+.top-bar-section ul li > a {
+  color: black;
+}
+
 .fcc-be .bg-secondary-color-blurred {
   background-color: rgb(2, 172, 152);
 }
