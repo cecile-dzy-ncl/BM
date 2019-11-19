@@ -408,7 +408,7 @@ section#header-header {
 }
 
 .btn-bm.btn-bm-border {
-  background-color: transparent;
+  background-color: transparent !important;
   border-width: 2px;
   border-style: solid;
 }
@@ -443,6 +443,10 @@ section#header-header {
 
 .h-360 {
   height: 360px;
+}
+
+.h-350 {
+  height: 350px;
 }
 
 .h-335 {
