@@ -352,6 +352,12 @@ section#header-header {
   text-decoration: none;
 }
 
+.btn-bm.btn-bm-border {
+  background-color: transparent;
+  border: 2px solid;
+}
+
+
 .admin_button.button {
     width: auto;
 }
