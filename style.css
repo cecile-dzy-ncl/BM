@@ -409,8 +409,8 @@ section#header-header {
   height: 300px;
 }
 
-.top-50 {
-  top: 50px;
+.top-n50 {
+  top: -50px;
 }
 
 /* WRAPPERS */
