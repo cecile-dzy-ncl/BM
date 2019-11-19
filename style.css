@@ -57,6 +57,14 @@
   width: 80%;
 }
 
+.h-25p {
+  height: 25px;
+}
+
+.w-25p {
+  width: 25px;
+}
+
 /* - text - */
 
 .uppercase {
