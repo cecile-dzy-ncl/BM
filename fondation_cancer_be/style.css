@@ -299,3 +299,10 @@ ul.button-group.radius.event-goup-btn {
   color: #000;
   font-family: "Open Sans", sans-serif;
 }
+
+.section-home-projects .button {
+  height: 40px;
+  width: 300px;
+  border: 2px solid #000000;
+}
+
