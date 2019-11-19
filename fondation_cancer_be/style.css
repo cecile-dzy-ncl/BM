@@ -290,3 +290,7 @@ ul.button-group.radius.event-goup-btn {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.projects-list .panel h3 a {
+    font-size: 15px;
+}
