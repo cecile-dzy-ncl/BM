@@ -60,7 +60,9 @@ h1, h2 {
   font-size: 25px;
   font-weight: 600;
   line-height: 28px;
+  color: black;
 }
+
 
 h6 {
   font-size: 13px;
