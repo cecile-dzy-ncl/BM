@@ -208,7 +208,7 @@ a {
 }
 
 .bg-color-light-blurred {
-    background-color: white;
+  background-color: white;
 }
 
 .panel {
@@ -286,6 +286,7 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .section-home-projects {
-    background: #FAFAFA !important;
-    padding-top: 25px;
+  background: #FAFAFA !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
