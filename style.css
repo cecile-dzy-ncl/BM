@@ -67,6 +67,10 @@
   text-transform: lowercase;
 }
 
+.text-deco-none {
+  text-decoration: none !important;
+}
+
 .text-center {
   text-align: center;
 }
