@@ -73,6 +73,10 @@ h2, h3 {
   color: #2E3092;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* BANNER */
 
 .banner-homepage {
