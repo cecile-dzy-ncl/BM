@@ -313,5 +313,11 @@ ul.button-group.radius.event-goup-btn {
   float: none !important;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  padding: 11px;
+  line-height: 18px;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  font-weight: 600;
 }
 
