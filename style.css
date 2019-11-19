@@ -347,6 +347,10 @@ div#wrapper {
 .top-bar-section li:not(.has-form) a:not(.button) {
 }
 
+.top-bar-section ul li > a {
+  text-decoration: none;
+}
+
 .top-bar-section a:hover, .main-header .top-bar-section ul li:hover:not(.has-form) > a
 .top-bar-section a.active {
 }
