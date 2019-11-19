@@ -409,7 +409,8 @@ section#header-header {
 
 .btn-bm.btn-bm-border {
   background-color: transparent;
-  border: 2px solid;
+  border-width: 2px;
+  border-style: solid;
 }
 
 
