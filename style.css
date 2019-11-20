@@ -361,7 +361,8 @@ div#wrapper {
 footer a,
 .projects-list a,
 .event-description a,
-#projects_pager a {
+#projects_pager a,
+#project_tabs a {
   text-decoration: none;
 }
 

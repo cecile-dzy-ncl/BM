@@ -196,6 +196,15 @@ a {
 
 /* PAGE DE COLLECTE */
 
+h1#show_title {
+    color: #02ac98;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
 #events-show .event-head > .row {
   background: white;
   height: 450px;
