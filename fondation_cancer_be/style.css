@@ -323,7 +323,7 @@ ul.button-group.radius.event-goup-btn {
 
 .event-item .event-details .wrap {
   height: 316px;
-  padding: 0 !important;
+  padding: 50px 80px 0 80px !important
 }
 
 .event-goup-btn .button {
