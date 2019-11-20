@@ -207,6 +207,12 @@ a {
     height: 100%;
 }
 
+.event-head .intro-my-event:after {
+    background-color: #979797;
+}
+
+/* DIVERS */
+
 .top-bar-section ul li > a {
   color: black;
   font-size: 11px;
