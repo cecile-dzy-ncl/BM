@@ -362,7 +362,8 @@ footer a,
 .projects-list a,
 .event-description a,
 #projects_pager a,
-#project_tabs a {
+#project_tabs a,
+.project_images a  {
   text-decoration: none;
 }
 
