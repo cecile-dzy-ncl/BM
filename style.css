@@ -339,6 +339,10 @@ div#wrapper {
   margin: 0 auto;
 }
 
+.progress {
+  border: none;
+}
+
 .infos-money .progress .graph-bar {
   border-radius: 0;
 }
