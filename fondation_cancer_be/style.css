@@ -196,6 +196,11 @@ a {
 
 /* PAGE DE COLLECTE */
 
+#events-show .event-head > .row {
+    background: white;
+    height: 450px;
+}
+
 .top-bar-section ul li > a {
   color: black;
   font-size: 11px;
