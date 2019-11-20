@@ -237,6 +237,10 @@ h1#show_title {
 section.section-projet-details .project-detail-data .project_boutons_give i {
   display: none;
 }
+.projet-head .small-12.medium-2.large-2.columns,
+.projet-head .small-12.small-offset-0.medium-3.columns {
+    display: none;
+}
 
 #events-show .event-head > .row {
   background: white;
