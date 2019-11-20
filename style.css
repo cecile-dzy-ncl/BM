@@ -354,7 +354,8 @@ div#wrapper {
 .top-bar-section ul li > a,
 footer a,
 .projects-list a,
-.event-description a {
+.event-description a,
+#projects_pager a {
   text-decoration: none;
 }
 
