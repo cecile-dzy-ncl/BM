@@ -321,3 +321,6 @@ ul.button-group.radius.event-goup-btn {
   font-weight: 600;
 }
 
+.event-item .event-details .wrap {
+    height: 379px;
+}
