@@ -207,6 +207,11 @@ a {
     height: 100%;
 }
 
+.intro-my-event .container {
+    padding: 75px;
+    text-align: left;
+}
+
 .event-head .intro-my-event:after {
     background-color: #979797;
 }
