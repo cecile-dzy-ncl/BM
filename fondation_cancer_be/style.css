@@ -215,6 +215,7 @@ h1#show_title {
     letter-spacing: 1.05px;
     line-height: 22px;
     text-align: center;
+    margin-top: 0;
 }
 
 section.section-projet-details .project-detail-data .project_boutons_give i {
