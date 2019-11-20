@@ -331,10 +331,17 @@ ul.button-group.radius.event-goup-btn {
   border-radius: 0 !important;
 }
 
+/* LISTE DES PROJETS */
+
 #projects .panel {
     background: #f5f5f5;
 }
 
 #projects .panel .infos-money .progress .graph-barBack {
   background: #FFF;
+}
+
+label.control_label {
+    text-align: left;
+    color: #000;
 }
