@@ -264,7 +264,7 @@ a {
 }
 
 ul.button-group.radius.event-goup-btn {
-  position: initial;
+  position: initial !important;
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -322,6 +322,6 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .event-item .event-details .wrap {
-    height: 379px;
-    padding: 50px 75px !important;
+    height: 316px;
+    padding: 0 !important;
 }
