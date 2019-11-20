@@ -345,3 +345,9 @@ label.control_label {
     text-align: left;
     color: #000;
 }
+
+/* PAGE D'UN ÉVÉNEMENT */
+
+#events-show .row {
+    background: white;
+}
