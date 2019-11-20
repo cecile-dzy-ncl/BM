@@ -363,7 +363,7 @@ footer a,
 .event-description a,
 #projects_pager a,
 #project_tabs a,
-.project_images a  {
+.project-detail-data.p2p-detail-data a  {
   text-decoration: none;
 }
 
