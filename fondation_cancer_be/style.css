@@ -330,3 +330,7 @@ ul.button-group.radius.event-goup-btn {
   width: 230px;
   border-radius: 0 !important;
 }
+
+#projects .panel {
+    background: #f5f5f5;
+}
