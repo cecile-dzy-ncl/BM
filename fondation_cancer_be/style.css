@@ -209,6 +209,9 @@ a {
 
 .intro-my-event .container {
     padding: 75px !important;
+}
+
+.intro-my-event .container * {
     text-align: left !important;
 }
 
