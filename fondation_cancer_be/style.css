@@ -223,7 +223,15 @@ h1#show_title {
 }
 
 .row.project-detail-data.p2p-detail-data {
-  padding-top: 20px !important;
+  padding-top: 23px !important;
+}
+
+.row.project-detail-data.p2p-detail-data .block-share-container {
+    background-color: #02ac98;
+}
+
+.row.project-detail-data.p2p-detail-data .block-share-container .social-btns .social_network a .social_network_send {
+    background-color: #7a7a7a;
 }
 
 section.section-projet-details .project-detail-data .project_boutons_give i {
@@ -252,6 +260,8 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 .event-head .intro-my-event:after {
   background-color: #979797;
 }
+
+
 
 /* DIVERS */
 
