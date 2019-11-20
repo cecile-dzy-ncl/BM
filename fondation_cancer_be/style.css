@@ -226,7 +226,7 @@ a {
 }
 
 .block-share-container .social-btns .social_network a .social_network_send {
-  background: #F5F5F5;
+  background-color: #00ac98;
 }
 
 
@@ -334,7 +334,7 @@ ul.button-group.radius.event-goup-btn {
 /* LISTE DES PROJETS */
 
 #projects .panel {
-    background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 #projects .panel .infos-money .progress .graph-barBack {
@@ -342,12 +342,12 @@ ul.button-group.radius.event-goup-btn {
 }
 
 label.control_label {
-    text-align: left;
-    color: #000;
+  text-align: left;
+  color: #000;
 }
 
 /* PAGE D'UN ÉVÉNEMENT */
 
 #events-show .row {
-    background: white;
+  background: white;
 }
