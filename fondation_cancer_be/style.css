@@ -218,6 +218,10 @@ h1#show_title {
   margin-top: 0 !important;
 }
 
+#show_team a {
+    color: black;
+}
+
 .row.project-detail-data.p2p-detail-data {
   padding-top: 20px !important;
 }
