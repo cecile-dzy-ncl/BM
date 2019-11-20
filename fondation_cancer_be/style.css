@@ -295,8 +295,8 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .infos-money .progress .graph-barBack {
-    background: #F0F0F0;
-    border-radius: 0px;
+  background: #F0F0F0;
+  border-radius: 0px;
 }
 
 .infos-money .infos-money-details .info-money.detail {
@@ -322,6 +322,11 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .event-item .event-details .wrap {
-    height: 316px;
-    padding: 0 !important;
+  height: 316px;
+  padding: 0 !important;
+}
+
+.event-goup-btn .button {
+  width: 230px;
+  border-radius: 0 !important;
 }
