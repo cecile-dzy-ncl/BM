@@ -254,6 +254,10 @@ a {
   background-color: #00ac98;
 }
 
+.percent {
+    font-size: 35px !important;
+    margin-left: 10px;
+}
 
 /* PAGE EVENTS */
 
