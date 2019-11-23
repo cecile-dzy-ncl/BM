@@ -112,6 +112,10 @@
   text-align: right;
 }
 
+.text-italic {
+  text-align: italic;
+}
+
 .font-light {
   font-weight: lighter;
 }
