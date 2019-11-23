@@ -24,7 +24,15 @@ red: #C84228
   color: #C84228;
 }
 
-.fcc-be .bg-blue-tm {
+.fcc-be .blue-tm-1 {
+  color: #009BCF;
+}
+
+.fcc-be .bg-blue-tm-1 {
+  background-color: #009BCF;
+}
+
+.fcc-be .bg-blue-tm-2 {
   background-color: #050D23;
 }
 
