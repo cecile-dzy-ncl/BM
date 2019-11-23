@@ -506,5 +506,5 @@ label.control_label {
 
 .img-tm {
   left: 50%;
-  margin-left: -473px;
+  transform: translate(-50%);
 }
