@@ -145,6 +145,10 @@
   border-color: #000 !important;
 }
 
+.border-grey {
+  border-color: #979797 !important;
+}
+
 .border-left {
   border-left: 1px solid;
 }
