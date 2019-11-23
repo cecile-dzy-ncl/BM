@@ -41,6 +41,11 @@
 .align-items-center {
   align-items: center;
 }
+
+.w-33 {
+  width: 33%;
+}
+
 .w-40 {
   width: 40%;
 }
@@ -51,6 +56,10 @@
 
 .w-60 {
   width: 60%;
+}
+
+.w-66 {
+  width: 66%;
 }
 
 .w-80 {

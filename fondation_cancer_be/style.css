@@ -295,6 +295,9 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
   background-color: #979797;
 }
 
+#project_tabs .row.bg-color-light {
+  background-color: white !important;
+}
 
 
 /* DIVERS */
