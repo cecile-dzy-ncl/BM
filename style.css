@@ -467,6 +467,7 @@ section#header-header {
   text-transform: uppercase;
   margin: 10px auto;
   text-decoration: none;
+  display: block;
 }
 
 .btn-bm.btn-bm-border {
