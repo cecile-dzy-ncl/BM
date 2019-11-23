@@ -435,6 +435,10 @@ ul.button-group.radius.event-goup-btn {
 
 /* LISTE DES PROJETS */
 
+.projects h1 {
+    display: none;
+}
+
 #projects .panel {
   background: #f5f5f5;
 }
