@@ -189,6 +189,7 @@ a {
 .wrapper-img {
     height: 753px;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
 }
 
