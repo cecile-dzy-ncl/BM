@@ -135,3 +135,19 @@ a {
 .h-335 {
 
 }
+
+
+
+/* PAGE EVENTS */
+
+.event-item .panel .columns {
+  width: 50%;
+}
+
+.event-item .panel {
+  border-radius: 0 100px;
+}
+
+.event-item .panel .event-image .wrap {
+  border-radius: 0 100px;
+}
