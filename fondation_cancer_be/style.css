@@ -183,13 +183,13 @@ a {
 
 #wrapper-entreprise {
   background: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/imagefemmecancer.jpg);
-  /*background-position: 50% 85%;*/
+  background-position: 50% 85%;
 }
 
 .wrapper-img {
     height: 753px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    /*background-repeat: no-repeat;*/
     display: flex;
 }
 
