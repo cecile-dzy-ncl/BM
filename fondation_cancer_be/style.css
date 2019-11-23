@@ -519,3 +519,11 @@ label.control_label {
   left: 50%;
   transform: translate(-50%);
 }
+
+/* TOURNÉE MINÉRALE PAGE DE COLLECTE */
+
+.fcc-be.event_15 .bg-secondary-color-blurred {
+  background-color: #009BCF;
+}
+
+/*.event_15*/
