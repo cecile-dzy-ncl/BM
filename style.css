@@ -516,7 +516,7 @@ section#header-header {
 
 
 .admin_button.button {
-    width: auto;
+  width: auto;
 }
 
 /* CARDS */
@@ -524,6 +524,11 @@ section#header-header {
 .row-bm {
   display: flex;
   justify-content: space-between;
+}
+
+.card-bm {
+  display: flex;
+  flex-direction: column;
 }
 
 .card-bm-img {
