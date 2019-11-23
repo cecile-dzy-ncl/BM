@@ -221,6 +221,10 @@ a {
 
 /* PAGE DE COLLECTE */
 
+.project_inner {
+    text-align: left !important;
+}
+
 h1#show_title {
   color: #02ac98;
   font-size: 23px;
