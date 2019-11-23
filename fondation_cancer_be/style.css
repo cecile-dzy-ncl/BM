@@ -452,6 +452,20 @@ label.control_label {
   color: #000;
 }
 
+/* PARTICIPER À UN ÉVÉNEMENT */
+
+.project-img {
+  width: 366px;
+  height: 366px;
+}
+
+.project-img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+
 /* PAGE D'UN ÉVÉNEMENT */
 
 
