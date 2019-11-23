@@ -522,8 +522,13 @@ label.control_label {
 
 /* TOURNÉE MINÉRALE PAGE DE COLLECTE */
 
-.fcc-be.event_15 .bg-secondary-color-blurred {
+.fcc-be.event_15 .bg-secondary-color-blurred,
+.fcc-be.event_15 .row.project-detail-data.p2p-detail-data .block-share-container {
   background-color: #009BCF;
+}
+
+.fcc-be.event_15 h1#show_title {
+    color: #02ac98;
 }
 
 /*.event_15*/
