@@ -107,6 +107,10 @@
   font-weight: lighter;
 }
 
+.font-bold {
+  font-weight: 600;
+}
+
 /* - colors - */
 
 .white {
