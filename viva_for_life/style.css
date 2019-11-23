@@ -99,6 +99,10 @@ a {
 
 /* CARDS */
 
+.vfl .card-bm {
+  width: 30%;
+}
+
 .vfl .card-description {
   height: 184px;
 }
