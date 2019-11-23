@@ -113,7 +113,7 @@
 }
 
 .text-italic {
-  text-align: italic;
+  font-style: italic;
 }
 
 .font-light {
