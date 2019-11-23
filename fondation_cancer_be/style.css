@@ -478,3 +478,18 @@ label.control_label {
 /* PAGE D'UN ÉVÉNEMENT */
 
 
+
+
+
+
+/* ENGAGER SON ENTREPRISE */
+
+.engager-son-entreprise .project {
+  height: 570px;
+}
+
+
+
+.engager-son-entreprise .project .project-img {
+  width: 50%;
+}
