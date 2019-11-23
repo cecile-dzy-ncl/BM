@@ -126,10 +126,12 @@
 
 .font-40 {
   font-size: 40px;
+  line-height: : 40px;
 }
 
 .font-60 {
   font-size: 60px;
+  line-height: 60px;
 }
 
 /* - colors - */
