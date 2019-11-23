@@ -86,11 +86,15 @@ a {
   text-decoration: none;
 }
 
-/* BANNER */
+/* BANNER & WRAPPERS & BOXES */
 
 .banner-homepage {
   /*background-image: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/imagehomeenfantmaman.png);*/
   height: 640px;
+}
+
+.vfl .container-large-bm {
+  width: 1140px;
 }
 
 /* BUTTONS */
