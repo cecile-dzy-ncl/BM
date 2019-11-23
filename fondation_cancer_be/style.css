@@ -532,7 +532,10 @@ label.control_label {
 }
 
 .fcc-be.event_15 h1#show_title {
-    color: #02ac98;
+  color: #02ac98;
 }
 
+.fcc-be.event_15 .row.bg-color-light.projet-head {
+  background-color: #fff;
+}
 /*.event_15*/
