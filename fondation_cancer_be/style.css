@@ -327,6 +327,10 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 
 /* PAGE EVENTS */
 
+.events h1 {
+    display: none;
+}
+
 .habillage:after {
   display: none;
 }
