@@ -397,7 +397,7 @@ ul.button-group.radius.event-goup-btn {
   padding-bottom: 50px;
 }
 
-.projects-list .panel h3 a {
+.projects-list .panel h3 a, .projects-list .panel h3 a:hover {
   font-size: 15px;
 }
 
