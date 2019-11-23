@@ -124,6 +124,14 @@
   font-weight: 600;
 }
 
+.font-40 {
+  font-size: 40px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
 /* - colors - */
 
 .white {
