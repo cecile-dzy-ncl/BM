@@ -529,6 +529,10 @@ section#header-header {
   height: 300px;
 }
 
+.h-560 {
+  height: 560px;
+}
+
 .top-n75 {
   top: -75px;
 }
