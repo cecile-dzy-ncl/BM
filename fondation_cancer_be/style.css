@@ -314,6 +314,11 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 
 /* DIVERS */
 
+#main-nav section.top-bar-section li {
+    position: relative;
+    padding: 0px 40px;
+}
+
 .top-bar-section ul li > a {
   color: black;
   font-size: 11px;
