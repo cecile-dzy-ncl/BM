@@ -355,6 +355,10 @@
   border-radius: 0 60px 0 0;
 }
 
+.d-none {
+  display: none;
+}
+
 /* --- OVERWRITE IRAISER --- */
 
 /* - menu - */
