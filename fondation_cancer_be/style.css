@@ -494,17 +494,16 @@ label.control_label {
 
 /* PARTICIPER À UN ÉVÉNEMENT */
 
-.project-img {
+/*.project-img {
   width: 366px;
   height: 366px;
 }
-
+*/
 .project-img:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
-
 
 /* PAGE D'UN ÉVÉNEMENT */
 
