@@ -339,6 +339,11 @@
   padding-right: 50px;
 }
 
+.px-80 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 /* - img - */
 
 .object-position-bottom {
