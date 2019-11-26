@@ -134,6 +134,12 @@
   margin: 0;
 }
 
+.font-50 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
 .font-60 {
   font-size: 60px;
   line-height: 60px;
