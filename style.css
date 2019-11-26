@@ -42,6 +42,10 @@
   align-items: center;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .w-33 {
   width: 33%;
 }
