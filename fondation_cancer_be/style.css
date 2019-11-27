@@ -118,6 +118,7 @@ p {
   height: 360px;
   padding-left: 150px;
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .banner-text {
