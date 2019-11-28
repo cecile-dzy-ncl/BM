@@ -247,5 +247,5 @@ section.top-bar-section {
   text-transform: initial !important;
   font-weight: 400 !important;
   border: none !important;
-  background-color: transparent;
+  background-color: transparent !important;
 }
