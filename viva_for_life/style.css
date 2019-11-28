@@ -148,6 +148,15 @@ a {
 
 /* OVERWRITE IRAISER */
 
+section.top-bar-section {
+  background: #ef5022 !important;
+}
+
+#main-nav .top-bar-section li:not(.has-form) a:not(.button) {
+  color: white;
+  font-weight: 600;
+}
+
 .events-index .habillage,
 #projects-show .habillage,
 #banner_section {
