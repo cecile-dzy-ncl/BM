@@ -231,7 +231,6 @@ section.top-bar-section {
 .button-group.event-goup-btn {
   display: flex;
   flex-direction: column;
-  background: red;
   align-items: center;
 }
 
