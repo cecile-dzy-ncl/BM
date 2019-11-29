@@ -178,6 +178,8 @@ section.top-bar-section {
 
 #events .event-item {
   height: 570px;
+  padding: 0;
+  margin-bottom: 50px;
 }
 
 #events .event-item .panel .columns {
