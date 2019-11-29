@@ -220,7 +220,7 @@ section.top-bar-section {
   text-transform: uppercase;
 }
 
-#events .section-events .event-item p {
+.section-events .event-item p {
   color: white;
 }
 
