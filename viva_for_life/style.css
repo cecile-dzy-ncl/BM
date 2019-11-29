@@ -196,8 +196,7 @@ section.top-bar-section {
 }
 
 .event-item .panel .event-image .wrap {
-  border-radius: 0 100px;
-  padding-bottom: 0;
+  border-radius: 0 0 0 100px;
 }
 
 #events .event-item .event-details {
