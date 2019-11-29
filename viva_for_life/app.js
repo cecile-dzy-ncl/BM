@@ -34,6 +34,7 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
       $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
 
       // calcul du résultat
+      console.log($('.current-amount'))
       if ($('.current-amount').html().split('     ')[1].split(' €')[0].length > 5) {
         $('.enfants').html(Math.floor(Number.parseInt($('.current-amount').html().split('     ')[1].split(' €')[0], 10)/12));
       } else {

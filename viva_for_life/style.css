@@ -297,6 +297,11 @@ section.top-bar-section {
     width: 100%;
 }
 
+#events-show .line {
+  height: 70px;
+  margin: 30px;
+}
+
 .stats-event {
   height: 80px;
   display: flex;
