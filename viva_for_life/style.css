@@ -217,6 +217,12 @@ section.top-bar-section {
 #events .event-description {
   width: 100%;
   padding: 30px;
+  margin: 0;
+}
+
+#events .event-description h3 {
+  font-size: 60px;
+  margin-bottom: 50px;
 }
 
 #events .event-description h3 a {
