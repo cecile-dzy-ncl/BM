@@ -296,3 +296,31 @@ section.top-bar-section {
 #events-show .event-head .row .columns {
     width: 100%;
 }
+
+.stats-event .progress {
+  width: 80%;
+}
+
+.stats-event .progress .graph-barBack {
+  border-radius: 15px;
+  background-color: #e2e2e2;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.stats-event .progress .graph-bar {
+  border-radius: 15px;
+  background-color: #E40520;
+  cursor: pointer;
+  position: relative;
+  z-index: 9999;
+  display: block;
+  height: 24px;
+  width: 0%;
+  float: none;
+  color: #fff;
+  line-height: 24px;
+  text-indent: 24px;
+  max-width: 100%;
+}
