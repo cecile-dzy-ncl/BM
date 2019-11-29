@@ -8,73 +8,73 @@ yellow : #ECAF00;
 
 
 .vfl .blue {
-  color: #2E3092 !important;
+color: #2E3092 !important;
 }
 
 .vfl .orange {
-  color: #EF5022;
+color: #EF5022;
 }
 
 .vfl .yellow {
-  color: #ECAF00;
+color: #ECAF00;
 }
 
 
 .vfl .bg-blue {
-  background-color: #2E3092;
+background-color: #2E3092;
 }
 
 .vfl .bg-orange {
-  background-color: #EF5022;
+background-color: #EF5022;
 }
 
 .vfl .bg-yellow {
-  background-color: #ECAF00;
+background-color: #ECAF00;
 }
 
 .vfl .border-blue {
-  border-color: #2E3092;
+border-color: #2E3092;
 }
 
 
 .vfl-be .border-yellow {
-  border-color: #FDB913 !important;
+border-color: #FDB913 !important;
 }
 /* GENERAL */
 
 body {
-  font-family: "Source Sans Pro";
-  margin: 0;
-  text-align: center;
+font-family: "Source Sans Pro";
+margin: 0;
+text-align: center;
 }
 
 h1 {
-  font-size: 40px;
-  line-height: 40px;
-  font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+font-weight: 600;
 }
 
 h2 {
-  font-size: 27px;
-  line-height: 28px;
-  font-weight: 600;
+font-size: 27px;
+line-height: 28px;
+font-weight: 600;
 }
 
 h3 {
-  font-size: 20px;
-  line-height: 22px;
+font-size: 20px;
+line-height: 22px;
 }
 
 h4 {
-  font-size: 60px;
+font-size: 60px;
 }
 
 h5 {
-  font-size: 70px
+font-size: 70px
 }
 
 /*h6 {
-  font-size: 40px;
+font-size: 40px;
 }*/
 
 p {
@@ -228,8 +228,20 @@ section.top-bar-section {
   display: none;
 }
 
+#events .event-item .event-details {
+  background: #2E3092;
+  border-radius: 0 100px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #events .event-item .event-details .medium-4 {
   display: none;
+}
+
+.event-item .event-details .wrap {
+  height: auto;
 }
 
 .button-group.event-goup-btn {
