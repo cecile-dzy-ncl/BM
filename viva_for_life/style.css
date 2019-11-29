@@ -292,3 +292,7 @@ section.top-bar-section {
     display: flex;
     flex-direction: column;
 }
+
+#events-show .event-head .row .columns {
+    width: 100%;
+}
