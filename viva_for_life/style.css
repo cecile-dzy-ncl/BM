@@ -180,6 +180,10 @@ section.top-bar-section {
   display: none;
 }
 
+#events-index .section-events {
+  paddin-top: 20px;
+}
+
 #events .event-item {
   height: 570px;
   padding: 0;
