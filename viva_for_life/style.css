@@ -352,6 +352,9 @@ section.top-bar-section {
   font-size: 20px;
 }
 
+#img-stat {
+  width: 80%;
+}
 
 .stats-event .progress {
   width: 80%;
