@@ -281,3 +281,9 @@ section.top-bar-section {
   border: none !important;
   background-color: transparent !important;
 }
+
+/* PAGE EVENT */
+
+#events-show .bg-secondary-color-blurred {
+  background: white;
+}
