@@ -12,7 +12,7 @@ $( document ).ready(function() {
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
 //ajout du bloc en début de page
-$('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/iconpeople2x.png" id="img-stat" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px">8</span> collecteurs engagés</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2">Objectif: <span>100 000 €</span></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
+$('#events-show .habillage').prepend('<div class="stats-event"><div class="stats-event-1"><img src="https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/iconpeople2x.png" id="img-stat" alt=""><div class="stats-event-nb"><p>Déjà <span class="enfants" style="font-size: 32px"><tag event_id="22">$collector_count</tag></span> collecteurs engagés</p></div></div><div class="line"></div><div class="stats-event-2"><div class="stats-event-montants"><div class="stats-event-m-1"><span>97 560 €</span> collectés</div><div class="stats-event-m-2">Objectif: <span>100 000 €</span></div></div><div class="progress"><span class="graph-barBack"><span class="graph-bar" data-value="10"></span></span></div></div></div></div>');
 
   // barre de progression
   var pourcentage = $('.chart').attr('data-percent');
