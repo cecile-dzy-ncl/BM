@@ -287,3 +287,8 @@ section.top-bar-section {
 #events-show .bg-secondary-color-blurred {
   background: white;
 }
+
+#events-show .event-head .row.bg-secondary-color-blurred.collapse {
+    display: flex;
+    flex-direction: column;
+}
