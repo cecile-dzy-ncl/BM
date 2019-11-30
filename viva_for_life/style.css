@@ -433,3 +433,7 @@ section.top-bar-section {
 .project_boutons_join {
     background-color: #fff !important;
 }
+
+.fa-gift {
+    display: none;
+}
