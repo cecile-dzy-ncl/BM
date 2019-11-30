@@ -154,6 +154,7 @@ a {
   border: 1px solid #2E3092;
   color: #2E3092;
   float: none !important;
+  font-weight: 400;
 }
 
 /* OVERWRITE IRAISER */
