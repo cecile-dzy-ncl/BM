@@ -425,3 +425,11 @@ section.top-bar-section {
 .section-projet-details .bg-secondary-color-blurred {
     background-color: rgb(4, 14, 143);
 }
+
+.project_boutons_give {
+    background-color: #ef5023 !important;
+}
+
+.project_boutons_join {
+    background-color: #fff !important;
+}
