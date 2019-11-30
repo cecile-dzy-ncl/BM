@@ -134,6 +134,10 @@ a {
   line-height: 23px;
 }
 
+.vfl .btn-bm-large {
+  width: 350px;
+}
+
 .vfl .step {
   border-radius: 22px;
 }
