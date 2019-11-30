@@ -374,6 +374,7 @@ section.top-bar-section {
 
 .stats-event .progress {
   width: 80%;
+  background: none;
 }
 
 .stats-event .progress .graph-barBack {
@@ -398,4 +399,8 @@ section.top-bar-section {
   line-height: 24px;
   text-indent: 24px;
   max-width: 100%;
+}
+
+.details-my-event, .block-share-container {
+    display: none;
 }
