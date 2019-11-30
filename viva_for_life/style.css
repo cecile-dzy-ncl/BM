@@ -447,4 +447,7 @@ section.top-bar-section {
   width: 100%;
 }
 
+#project_tabs .bg-color-light {
+  background: white;
+}
 
