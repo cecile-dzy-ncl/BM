@@ -151,10 +151,10 @@ a {
   margin: auto;
   display: block;
   background: none;
-  border: 1px solid #2E3092;
+  border: 2px solid #2E3092;
   color: #2E3092;
   float: none !important;
-  font-weight: 400;
+  margin-bottom: 100px;
 }
 
 /* OVERWRITE IRAISER */
