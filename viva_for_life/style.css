@@ -417,3 +417,11 @@ section.top-bar-section {
 .section-home-projects .infos-money .infos-money-details .info-money.detail {
   color: black;
 }
+
+
+
+/* PAGE DE COLLECTE */
+
+.section-projet-details .bg-secondary-color-blurred {
+    background-color: rgb(4, 14, 143);
+}
