@@ -8,7 +8,7 @@ $( document ).ready(function() {
   $('.events .first-section').before(textIntroEvents);
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-  $('.section-home-projects').prepend('<h2>Exemples de défis en cours</h2>');
+  $('.section-home-projects').prepend('<h2 class="mt-60 mb-50">Exemples de défis en cours</h2>');
 
 
 
