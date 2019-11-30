@@ -402,5 +402,18 @@ section.top-bar-section {
 }
 
 .details-my-event, .block-share-container {
-    display: none;
+  display: none;
+}
+
+
+.section-home-projects .progress .graph-bar {
+  background-color: #EF5022;
+}
+
+.section-home-projects .projects-list .panel h3 a, .projects-list .panel h3 a:focus, .projects-list .panel h3 a:hover {
+  color:#EF5022;
+}
+
+.section-home-projects .infos-money .infos-money-details .info-money.detail {
+  color: black;
 }
