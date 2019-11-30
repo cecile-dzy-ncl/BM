@@ -437,3 +437,7 @@ section.top-bar-section {
 .fa-gift {
     display: none;
 }
+
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 23px !important;
+}
