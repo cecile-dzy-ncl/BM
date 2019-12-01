@@ -17,4 +17,8 @@ $( document ).ready(function() {
   var textIntroProjects = ("<div class='container-small-bm mt-50'><h2>Retrouver et soutenir une collecte</h2></div>")
   $('.projects .first-section').before(textIntroProjects);
 
+  // AJOUT BANNER MAINTENANCE
+  var bannerMaintenance = ("<div><p>MAINTENANCE</p></div>");
+  $(".main-banner").after(bannerMaintenance);
+
 });
