@@ -482,8 +482,8 @@ ul.button-group.radius.event-goup-btn {
 
 /* LISTE DES PROJETS */
 
-html[lang="fr"] .projects h1 {
-    display: none;
+.projects h1 {
+  display: none;
 }
 
 #projects .panel {
