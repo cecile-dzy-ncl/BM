@@ -136,6 +136,12 @@ p {
   justify-content: space-evenly;
 }
 
+.banner-homepage-2 .banner-text {
+  border-radius: 6px;
+  background-color: rgba(233,244,253,0.9);
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
 /* BUTTONS */
 
 a {
