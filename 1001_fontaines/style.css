@@ -121,6 +121,13 @@ p {
   padding-right: 150px;
 }
 
+.banner-homepage {
+  background-image: url(https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/imagefilleeau2.png);
+  justify-content: flex-start;
+  height: 600px;
+  padding-left: 150px;
+}
+
 .banner-text {
   width: 462px;
   height: 65%;
