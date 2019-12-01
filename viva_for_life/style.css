@@ -439,6 +439,10 @@ section.top-bar-section {
   background-color: #888888;
 }
 
+#projects-show .block-share-container h4 span {
+  color: white;
+}
+
 .project_boutons_give {
     background-color: #ef5023 !important;
 }
