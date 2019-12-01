@@ -102,6 +102,10 @@ a {
   text-decoration: none;
 }
 
+.font-beyond {
+  font-family: "beyond-the-mountains";
+}
+
 /* BANNER & WRAPPERS & BOXES */
 
 .banner-homepage {
