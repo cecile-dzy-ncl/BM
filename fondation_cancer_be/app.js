@@ -20,10 +20,10 @@ $( document ).ready(function() {
   // AJOUT BANNER MAINTENANCE
 
   if ($("html").prop("lang") === ("fr")) {
-    var bannerMaintenance = ("<div class='maintenance'><p>MAINTENANCE</p></div>");
+    var bannerMaintenance = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>MAINTENANCE</p></div>");
     $("#banner_section").before(bannerMaintenance);
   } else if ($("html").prop("lang") === ("nl")) {
-    var bannerMaintenanceNL = ("<div class='maintenance'><p>MAINTENANCE NL</p></div>");
+    var bannerMaintenanceNL = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>MAINTENANCE NL</p></div>");
     $("#banner_section").before(bannerMaintenanceNL);
   }
 
