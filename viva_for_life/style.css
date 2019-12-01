@@ -431,7 +431,11 @@ section.top-bar-section {
 }
 
 #projects-show .section-projet-details .row.collapse.bg-color-light {
-    background: #040e8e;
+  background: #040e8e;
+}
+
+#projects-show .block-share-container {
+  background-color: transparent;
 }
 
 #projects-show .block-share-container .social-btns .social_network a .social_network_send,
