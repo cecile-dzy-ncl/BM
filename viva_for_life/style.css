@@ -401,7 +401,11 @@ section.top-bar-section {
   max-width: 100%;
 }
 
-.details-my-event, .block-share-container {
+.details-my-event {
+  display: none;
+}
+
+#events-show .block-share-container {
   display: none;
 }
 
