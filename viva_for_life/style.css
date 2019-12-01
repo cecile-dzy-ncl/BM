@@ -434,7 +434,8 @@ section.top-bar-section {
   background-color: #040e8e;
 }
 
-#projects-show .block-share-container .social-btns .social_network a .social_network_send {
+#projects-show .block-share-container .social-btns .social_network a .social_network_send,
+#projects-show .block-share-container .social-btns .social_network a .social_network_share {
   background-color: #888888;
 }
 
