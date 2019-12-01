@@ -92,6 +92,13 @@ orange: #EC5C2F
   background-color: #EC5C2F !important;
 }
 
+
+/* GENERAL */
+
+body {
+  font-family: "Open Sans";
+}
+
 /* BANNERS */
 
 .banner-homepage {
