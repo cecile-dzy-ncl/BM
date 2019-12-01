@@ -691,6 +691,10 @@ section#header-header {
   top: -75px;
 }
 
+.top-n100 {
+  top: -100px;
+}
+
 /* WRAPPERS */
 
 .wrapper {
