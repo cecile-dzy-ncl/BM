@@ -328,7 +328,6 @@
   padding-top: 0 !important;
 }
 
-
 .pt-50 {
   padding-top: 50px;
 }
@@ -392,6 +391,11 @@
 .px-30 {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.px-40 {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .px-50 {
