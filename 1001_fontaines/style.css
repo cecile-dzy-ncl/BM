@@ -105,6 +105,12 @@ h1, h2 {
   line-height: 28px;
 }
 
+p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 21px;
+}
+
 /* BANNERS */
 
 .banner-homepage {
