@@ -112,6 +112,12 @@ p {
   line-height: 21px;
 }
 
+/* CONTAINERS */
+
+.f1001 .container-small-bm {
+  width: 894px;
+}
+
 /* BANNERS */
 
 .banner-homepage {
