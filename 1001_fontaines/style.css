@@ -2,7 +2,8 @@
 
 /*
 blue: #2AABE2
-blue2 : #124D66
+lightblue: #E9F4FD
+darkblue: #124D66
 green: #54C381
 yellow: #FEB700
 pink: #FE5F5E
@@ -23,15 +24,27 @@ orange: #EC5C2F
   border-color: #2AABE2 !important;
 }
 
-.f1001 .blue2 {
+.f1001 .lightblue {
+  color: #E9F4FD;
+}
+
+.f1001 .bg-lightblue {
+  background-color: #E9F4FD !important;
+}
+
+.f1001 .border-lightblue {
+  border-color: #E9F4FD !important;
+}
+
+.f1001 .darkblue {
   color: #124D66;
 }
 
-.f1001 .bg-blue2 {
+.f1001 .bg-darkblue {
   background-color: #124D66 !important;
 }
 
-.f1001 .border-blue2 {
+.f1001 .border-darkblue {
   border-color: #124D66 !important;
 }
 
