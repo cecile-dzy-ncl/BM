@@ -27,6 +27,10 @@ $( document ).ready(function() {
     // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
     $('.section-home-projects').prepend('<h2>Voorbeelden</h2>');
 
+    // AJOUT INTRO PAGE PROJETS
+    var textIntroProjects = ("<div class='container-small-bm mt-50'><h2>Overloop</h2></div>")
+    $('.projects .first-section').before(textIntroProjects);
+
     // AJOUT BANNER MAINTENANCE
     var bannerMaintenanceNL = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>We zijn bezig met een update van ons platform, gelieve ons te verontschuldigen voor eventuele ongemakken</p></div>");
     $("#banner_section").before(bannerMaintenanceNL);
