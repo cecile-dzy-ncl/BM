@@ -427,7 +427,15 @@ section.top-bar-section {
 /* PAGE DE COLLECTE */
 
 .section-projet-details .bg-secondary-color-blurred {
-    background-color: rgb(4, 14, 143);
+  background-color: rgb(4, 14, 143);
+}
+
+#projects-show .block-share-container {
+  background-color: #040e8e;
+}
+
+#projects-show .block-share-container .social-btns .social_network a .social_network_send {
+  background-color: #888888;
 }
 
 .project_boutons_give {
