@@ -378,6 +378,10 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
     display: none;
 }
 
+html[lang="nl"] .event-description p {
+  display: none;
+}
+
 .habillage:after {
   display: none;
 }
