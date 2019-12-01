@@ -18,7 +18,13 @@ $( document ).ready(function() {
   $('.projects .first-section').before(textIntroProjects);
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance = ("<div><p>MAINTENANCE</p></div>");
-  $(".main-banner").after(bannerMaintenance);
+
+  if ($("html").prop("lang") === ("fr")) {
+    var bannerMaintenance = ("<div><p>MAINTENANCE</p></div>");
+    $("#banner_section").before(bannerMaintenance);
+  } else if ($("html").prop("lang") === ("nl")) {
+    var bannerMaintenanceNL = ("<div><p>MAINTENANCE NL</p></div>");
+    $("#banner_section").before(bannerMaintenanceNL);
+  }
 
 });
