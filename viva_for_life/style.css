@@ -6,6 +6,30 @@ orange : #EF5022;
 yellow : #ECAF00;
 */
 
+/* ------------------- FONTS ------------------- */
+
+@font-face {
+  font-family: 'LouisVuitton-Regular';
+  src: url('https://cecile-dzy-ncl.github.io/BM/viva_for_life/fonts/LouisVuitton-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LouisVuitton-Light';
+  src: url('https://cecile-dzy-ncl.github.io/BM/viva_for_life/fonts/LouisVuitton-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LouisVuitton-Medium';
+  src: url('https://cecile-dzy-ncl.github.io/BM/viva_for_life/fonts/LouisVuitton-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ------------------- */
 
 .vfl .blue {
 color: #2E3092 !important;
