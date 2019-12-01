@@ -670,6 +670,11 @@ section#header-header {
   height: 560px;
 }
 
+
+.h-500 {
+  height: 500px;
+}
+
 .h-1000p {
   height: 1000px;
 }
