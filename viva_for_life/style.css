@@ -478,3 +478,8 @@ section.top-bar-section {
   background: white;
 }
 
+h1#show_title {
+    font-size: 28px;
+    margin: 6px;
+}
+
