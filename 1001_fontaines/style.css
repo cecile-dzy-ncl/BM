@@ -108,3 +108,46 @@ orange: #EC5C2F
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+/* BUTTONS */
+
+a {
+  text-decoration: none;
+  color: #2AABE2;
+}
+
+button, .f1001 .btn-bm {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+  padding: 11px;
+  border-radius: 6px;
+}
+
+.f1001 .btn-bm a {
+  color: #fff;
+  text-decoration: none;
+}
+/*
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: transparent;
+  border: 2px solid #00AC98;
+  color: #00AC98;
+}*/
+
+nav button {
+  color: #00AC98;
+  border: 3px solid #00AC98;
+  font-size: 13px;
+  letter-spacing: 0.87px;
+  width: 146px;
+  font-weight: 300;
+  background: white;
+  padding: 6px;
+}
+
+
