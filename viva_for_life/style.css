@@ -436,6 +436,7 @@ section.top-bar-section {
 
 #projects-show .block-share-container {
   background-color: transparent;
+  padding: 0;
 }
 
 #projects-show .block-share-container .social-btns .social_network a .social_network_send,
@@ -465,7 +466,7 @@ section.top-bar-section {
 }
 
 .row.project-detail-data.p2p-detail-data {
-  padding-top: 23px !important;
+  padding-top: 14px !important;
 }
 
 .project_event_description {
