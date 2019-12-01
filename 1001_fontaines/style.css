@@ -1,0 +1,80 @@
+/* COLORS */
+
+/*
+blue: #2AABE2
+blue2 : #124D66
+green: #54C381
+yellow: #FEB700
+pink: #FE5F5E
+orange: #EC5C2F
+*/
+
+/* BLUE */
+
+.f1001 .blue {
+  color: #2AABE2;
+}
+
+.f1001 .bg-blue {
+  background-color: #2AABE2 !important;
+}
+
+.f1001 .border-blue {
+  border-color: #2AABE2 !important;
+}
+
+.f1001 .blue2 {
+  color: #124D66;
+}
+
+.f1001 .bg-blue2 {
+  background-color: #124D66 !important;
+}
+
+.f1001 .border-blue2 {
+  border-color: #124D66 !important;
+}
+
+/* GREEN */
+
+.f1001 .green {
+  color: #54C381;
+}
+
+.f1001 .bg-green {
+  background-color: #54C381 !important;
+}
+
+.f1001 .border-green {
+  border-color: #54C381 !important;
+}
+
+/* YELLOW */
+
+.f1001 .yellow {
+  color: #FDB913;
+}
+
+.f1001 .bg-yellow {
+  background-color: #FDB913 !important;
+}
+
+/* PINK */
+
+.f1001 .pink {
+  color: #FE5F5E;
+}
+
+.f1001 .bg-pink {
+  background-color: #FE5F5E !important;
+}
+
+/* ORANGE */
+
+.f1001 .orange {
+  color: #EC5C2F;
+}
+
+.f1001 .bg-orange {
+  background-color: #EC5C2F !important;
+}
