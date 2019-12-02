@@ -242,7 +242,8 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   padding-top: 25px;
 }
 
-.project_payment #list_payment .people p {
+.project_payment #list_payment .people p
+.project-detail-data.p2p-detail-data p {
   text-align: left;
 }
 
