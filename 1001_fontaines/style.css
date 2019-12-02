@@ -92,6 +92,9 @@ orange: #EC5C2F
   background-color: #EC5C2F !important;
 }
 
+.bg-secondary-color-blurred {
+    background-color: #124D66;
+}
 
 /* GENERAL */
 
