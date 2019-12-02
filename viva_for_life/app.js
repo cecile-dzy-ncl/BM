@@ -10,6 +10,8 @@ $( document ).ready(function() {
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   $('.section-home-projects').prepend('<h2 class="mt-60 mb-50">Exemples de défis en cours</h2>');
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
 
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
