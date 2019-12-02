@@ -398,6 +398,7 @@ section.top-bar-section {
   margin-bottom: 10px;
   display: block;
   width: 100%;
+  overflow: hidden;
 }
 
 .stats-event .progress .graph-bar {
