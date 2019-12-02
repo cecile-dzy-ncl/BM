@@ -225,4 +225,5 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   letter-spacing: 1.05px;
   line-height: 50px;
   background: #FEC800 !important;
+  padding: 0;
 }
