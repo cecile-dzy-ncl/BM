@@ -402,7 +402,7 @@ section.top-bar-section {
 
 .stats-event .progress .graph-bar {
   border-radius: 15px;
-  background-color: #E40520;
+  background-color: #ef5023;
   cursor: pointer;
   position: relative;
   z-index: 9999;
