@@ -238,6 +238,10 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   background-color: #577b86;
 }
 
+#project_tabs .row {
+    background-color: white;
+}
+
 .project-detail-data.p2p-detail-data {
   padding-top: 25px;
 }
