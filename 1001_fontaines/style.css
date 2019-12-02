@@ -211,7 +211,8 @@ nav button {
   background: #124D66;
 }
 
-#projects-show .block-share-container {
+#projects-show .block-share-container,
+.projet-head {
   background: none;
 }
 
