@@ -591,6 +591,10 @@ section#header-header {
   /*  background-color: rgba(240,240,240); */
 }
 
+.fa-gift {
+    display: none;
+}
+
 /* BANNER */
 
 .banner {
