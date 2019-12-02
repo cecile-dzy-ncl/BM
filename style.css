@@ -465,6 +465,10 @@
     border-radius: 0 0 6px 6px ;
 }
 
+.br-6 {
+    border-radius: 6px ;
+}
+
 .d-none {
   display: none;
 }
