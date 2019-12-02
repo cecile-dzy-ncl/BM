@@ -457,6 +457,14 @@
   border-radius: 0 60px 0 0;
 }
 
+.brtop-6 {
+    border-radius: 6px 6px 0 0;
+}
+
+.brbottom-6 {
+    border-radius: 0 0 6px 6px ;
+}
+
 .d-none {
   display: none;
 }
