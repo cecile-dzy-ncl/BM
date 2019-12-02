@@ -17,7 +17,8 @@ $( document ).ready(function() {
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
 //
-$("#widget-new-project").
+var creaCollecte = $("#widget-new-project");
+$('.intro-my-event').after(creaCollecte);
 
 // recuperer id
 var idCampaign = $("body").prop("classList")[1].split("_")[1];
