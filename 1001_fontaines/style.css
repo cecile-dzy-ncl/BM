@@ -93,7 +93,7 @@ orange: #EC5C2F
 }
 
 .bg-secondary-color-blurred {
-    background-color: #124D66;
+  background-color: #124D66;
 }
 
 /* GENERAL */
@@ -207,9 +207,21 @@ nav button {
 /* PAGE DE COLLECTE */
 
 .section-projet-details .row.collapse.bg-color-light {
-    background: #124D66;
+  background: #124D66;
 }
 
 #projects-show .block-share-container {
-    background: none;
+  background: none;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_give {
+  height: 50px;
+  min-height: 50px;
+  color: #000;
+  margin-top: 1rem;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 1.05px;
+  line-height: 50px;
+  background: #FEC800 !important;
 }
