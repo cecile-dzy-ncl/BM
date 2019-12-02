@@ -437,7 +437,12 @@ section.top-bar-section {
   color: black;
 }
 
-
+#widget-new-project .button {
+    background: #ef5023;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 15px 0 30px 0!important;
+}
 
 /* PAGE DE COLLECTE */
 
@@ -497,4 +502,5 @@ h1#show_title {
     font-size: 28px;
     margin: 6px;
 }
+
 
