@@ -259,3 +259,8 @@ section.section-projet-details .team_by {
   text-align: left;
   margin: 20px 0;
 }
+
+.project_event_description {
+  background: url("https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/picbackgroundfundraisingpage1001fontaines.jpg");
+  width: 100%;
+}
