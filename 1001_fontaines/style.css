@@ -254,3 +254,8 @@ h1#show_title {
 section.section-projet-details .team_by {
   margin-left: 5px;
 }
+
+.project_content * {
+  text-align: left;
+  margin: 20px 0;
+}
