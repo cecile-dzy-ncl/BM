@@ -206,7 +206,8 @@ nav button {
 
 /* PAGE DE COLLECTE */
 
-.section-projet-details .row.collapse.bg-color-light {
+.section-projet-details .row.collapse.bg-color-light,
+.tabs dd.active a {
   background: #124D66;
 }
 
