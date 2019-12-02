@@ -236,3 +236,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
 #projects-show .block-share-container .social-btns .social_network a .social_network_share {
   background-color: #577b86;
 }
+
+.project-detail-data.p2p-detail-data {
+  padding-top: 25px;
+}
