@@ -771,9 +771,9 @@ section#header-header {
     width: 60% !important;
   }
 
-/*  .row-bm {
-    flex-direction: column;
-  }*/
+  br {
+      display: none;
+  }
 
   .container-bm .container-small-bm {
     width: 100%;
@@ -789,7 +789,7 @@ section#header-header {
     height: auto;
     padding: 30px 0;
     background: none;
-}
+  }
 
 }
 

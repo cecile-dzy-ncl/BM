@@ -285,3 +285,12 @@ section.section-projet-details .team_by {
   background: url("https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/picbackgroundfundraisingpage1001fontaines.jpg");
   width: 100%;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  h5 {
+    font-size: 50px;
+  }
+
+}
