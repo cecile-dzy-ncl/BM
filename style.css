@@ -759,6 +759,14 @@ section#header-header {
     width: 80%;
   }
 
+  .container-large-bm {
+    width: 90px;
+  }
+
+  .container-medium-bm {
+    width: 70px;
+  }
+
   .container-small-bm {
     width: 60%;
   }
