@@ -771,6 +771,12 @@ section#header-header {
     width: 60% !important;
   }
 
+
+
+  #indexs-index .wrapper.bg-yellow .d-flex.align-items-center.justify-around.px-30 {
+    flex-direction: column;
+  }
+
 }
 
 
