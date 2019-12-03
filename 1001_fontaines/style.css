@@ -211,6 +211,8 @@ header.main-header .top-bar-section {
 
 .top-bar-section ul li > a {
     color: #124d66;
+    letter-spacing: 0.55px;
+    font-size: 11px;
 }
 
 
