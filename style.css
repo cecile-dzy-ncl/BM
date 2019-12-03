@@ -750,3 +750,20 @@ section#header-header {
   line-height: 30px;
   margin-bottom: 22px;
 }
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  .container-bm {
+    width: 80%;
+  }
+
+  .container-small-bm {
+    width: 60%;
+  }
+
+}
+
+
+
