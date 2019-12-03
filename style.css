@@ -756,19 +756,19 @@ section#header-header {
 @media screen and (max-width: 500px) {
 
   .container-bm {
-    width: 80% !important;
+    width: 80%;
   }
 
   .container-large-bm {
-    width: 90% !important;
+    width: 90% ;
   }
 
   .container-medium-bm {
-    width: 70% !important;
+    width: 70%;
   }
 
   .container-small-bm {
-    width: 60% !important;
+    width: 60%;
   }
 
   br {
