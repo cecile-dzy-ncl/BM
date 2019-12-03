@@ -771,8 +771,12 @@ section#header-header {
     width: 60% !important;
   }
 
-  .row-bm {
+/*  .row-bm {
     flex-direction: column;
+  }*/
+
+  .container-bm .container-small-bm {
+    width: 100%;
   }
 
   /* HOMEPAGE */
