@@ -772,6 +772,11 @@ section#header-header {
   }
 
 
+  /* HOMEPAGE */
+
+  .banner-homepage .d-flex.justify-around.align-items-center.w-90.m-auto {
+      flex-direction: column;
+  }
 
   #indexs-index .wrapper.bg-yellow .d-flex.align-items-center.justify-around.px-30 {
     flex-direction: column;
