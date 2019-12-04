@@ -506,10 +506,13 @@ h1#show_title {
 
 @media screen and (max-width: 500px) {
 
-
   h1 {
     font-size: 38px;
     line-height: 38px;
+  }
+
+  .banner.banner-homepage h1, .banner.banner-homepage p {
+    color: #2E3092
   }
 
   h5 {
