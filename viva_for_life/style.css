@@ -504,4 +504,20 @@ h1#show_title {
     margin: 6px;
 }
 
+@media screen and (max-width: 500px) {
 
+
+  h1 {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  h5 {
+    font-size: 50px;
+  }
+
+  .banner.banner-homepage {
+    background-color: white;
+  }
+
+}
