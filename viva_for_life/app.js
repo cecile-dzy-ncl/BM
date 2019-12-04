@@ -56,4 +56,18 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
       };
     }
   });
+
+  var windowHeight= $(window).height();
+
+  if(windowHeight < 500){
+    $("body").addClass("inf600");
+    ("#indexs-index .position-absolute").removeClass("position-absolute");
+  }
+
+
+
+
+
+
+
 });
