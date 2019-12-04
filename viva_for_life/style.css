@@ -535,7 +535,7 @@ h1#show_title {
 
   .top-bar.expanded .title-area,
   .top-bar.expanded section.top-bar-section {
-    background: #040e8f;
+    background: #040e8f !important;
   }
 
   .top-bar.expanded .toggle-topbar a span::after {
