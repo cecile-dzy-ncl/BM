@@ -18,69 +18,69 @@ yellow : #ECAF00;
 /* ------------------- */
 
 .vfl .blue {
-color: #2E3092 !important;
+  color: #2E3092 !important;
 }
 
 .vfl .orange {
-color: #EF5022;
+  color: #EF5022;
 }
 
 .vfl .yellow {
-color: #ECAF00;
+  color: #ECAF00;
 }
 
 
 .vfl .bg-blue {
-background-color: #2E3092;
+  background-color: #2E3092;
 }
 
 .vfl .bg-orange {
-background-color: #EF5022;
+  background-color: #EF5022;
 }
 
 .vfl .bg-yellow {
-background-color: #ECAF00;
+  background-color: #ECAF00;
 }
 
 .vfl .border-blue {
-border-color: #2E3092;
+  border-color: #2E3092;
 }
 
 
 .vfl .border-yellow {
-border-color: #FDB913 !important;
+  border-color: #FDB913 !important;
 }
 /* GENERAL */
 
 body {
-font-family: "Source Sans Pro";
-margin: 0;
-text-align: center;
+  font-family: "Source Sans Pro";
+  margin: 0;
+  text-align: center;
 }
 
 h1 {
-font-size: 40px;
-line-height: 40px;
-font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 600;
 }
 
 h2 {
-font-size: 27px;
-line-height: 28px;
-font-weight: 600;
+  font-size: 27px;
+  line-height: 28px;
+  font-weight: 600;
 }
 
 h3 {
-font-size: 20px;
-line-height: 22px;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 h4 {
-font-size: 60px;
+  font-size: 60px;
 }
 
 h5 {
-font-size: 70px
+  font-size: 70px
 }
 
 /*h6 {
@@ -315,12 +315,12 @@ section.top-bar-section {
 }
 
 #events-show .event-head .row.bg-secondary-color-blurred.collapse {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #events-show .event-head .row .columns {
-    width: 100%;
+  width: 100%;
 }
 
 #events-show .line {
@@ -439,10 +439,10 @@ section.top-bar-section {
 }
 
 #widget-new-project .button {
-    background: #ef5023;
-    border-radius: 50px;
-    font-weight: 600;
-    margin: 15px 0 30px 0!important;
+  background: #ef5023;
+  border-radius: 50px;
+  font-weight: 600;
+  margin: 15px 0 30px 0!important;
 }
 
 /* PAGE DE COLLECTE */
@@ -475,15 +475,15 @@ section.top-bar-section {
 }
 
 .project_boutons_give {
-    background-color: #ef5023 !important;
+  background-color: #ef5023 !important;
 }
 
 .project_boutons_join {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
 
 .fa-gift {
-    display: none;
+  display: none;
 }
 
 .row.project-detail-data.p2p-detail-data {
@@ -500,8 +500,8 @@ section.top-bar-section {
 }
 
 h1#show_title {
-    font-size: 28px;
-    margin: 6px;
+  font-size: 28px;
+  margin: 6px;
 }
 
 @media screen and (max-width: 500px) {
@@ -523,4 +523,8 @@ h1#show_title {
     background-color: white;
   }
 
+
+  .pl-320 {
+    padding-left: 0px;
+  }
 }
