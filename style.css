@@ -791,6 +791,10 @@ section#header-header {
     background: none;
   }
 
+  .projects-list {
+    width: 100%;
+  }
+
 }
 
 
