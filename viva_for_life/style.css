@@ -512,7 +512,7 @@ h1#show_title {
   }
 
   .banner.banner-homepage h1, .banner.banner-homepage p {
-    color: #2E3092;
+    color: #2E3092 !important;
   }
 
   h5 {
