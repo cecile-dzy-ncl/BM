@@ -785,6 +785,11 @@ section#header-header {
     flex-direction: column;
   }
 
+  .mobile_flex-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+
   .banner.banner-homepage {
     height: auto;
     padding: 30px 0;
