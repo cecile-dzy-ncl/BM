@@ -61,6 +61,7 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
 
   if(windowHeight < 500){
     $("body").addClass("inf600");
+    console.log("prout")
     ("#indexs-index .position-absolute").removeClass("position-absolute");
   }
 
