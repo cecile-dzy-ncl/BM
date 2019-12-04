@@ -63,7 +63,7 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
   var windowWidth= $(window).width();
 
   if(windowWidth < 500){
-    $("body").addClass("wInf600");
+    $("body").addClass("mobile");
     $("#indexs-index .position-absolute").removeClass("position-absolute");
     $(".wInf600 .h-360").removeClass("h-360");
     $(".wInf600 img.mln-30").removeClass("mln-30");
