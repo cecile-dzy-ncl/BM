@@ -813,6 +813,10 @@ section#header-header {
     height: auto !important;
   }
 
+  .project-bm img {
+    width: 100% !important;
+  }
+
 }
 
 
