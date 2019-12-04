@@ -57,11 +57,13 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
     }
   });
 
+
+// --------- RESPONSIVE ---------
+
   var windowWidth= $(window).width();
 
   if(windowWidth < 500){
     $("body").addClass("wInf600");
-    console.log("prout");
     $("#indexs-index .position-absolute").removeClass("position-absolute");
     $("#indexs-index .h-360").removeClass("h-360");
   }
