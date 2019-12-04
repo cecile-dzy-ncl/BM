@@ -57,13 +57,13 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
     }
   });
 
-  var windowWidth= $(window).height();
+  // var windowWidth= $(window).height();
 
-  if(windowWidth < 500){
-    $("body").addClass("inf600");
-    console.log("prout")
-    ("#indexs-index .position-absolute").removeClass("position-absolute");
-  }
+  // if(windowWidth < 500){
+  //   $("body").addClass("inf600");
+  //   console.log("prout")
+  //   ("#indexs-index .position-absolute").removeClass("position-absolute");
+  // }
 
 
 
