@@ -809,6 +809,10 @@ section#header-header {
     padding: 5px;
   }
 
+  .project-bm {
+    height: auto !important;
+  }
+
 }
 
 
