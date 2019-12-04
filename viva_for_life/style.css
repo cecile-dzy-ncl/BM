@@ -533,6 +533,19 @@ h1#show_title {
     font-size: 17px;
   }
 
+  .top-bar.expanded .title-area,
+  .top-bar.expanded section.top-bar-section {
+    background: #040e8f;
+  }
+
+  .top-bar.expanded .toggle-topbar a span::after {
+      box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
+  }
+
+  .top-bar.expanded .toggle-topbar a {
+      color: #ffffff;
+  }
+
 
 
 }

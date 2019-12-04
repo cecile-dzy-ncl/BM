@@ -796,6 +796,11 @@ section#header-header {
     margin: auto;
   }
 
+  #main-nav .top-bar-section li:not(.has-form) a:not(.button) {
+    font-weight: 300;
+    padding: 5px;
+  }
+
 }
 
 
