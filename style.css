@@ -755,11 +755,14 @@ section#header-header {
 
 @media screen and (max-width: 500px) {
 
-  .container-bm {
+  .container-bm,
+  .container-large-bm,
+  .container-meedium-bm,
+  .container-small-bm {
     width: 80%;
   }
 
-  .container-large-bm {
+/*  .container-large-bm {
     width: 90% ;
   }
 
@@ -768,8 +771,8 @@ section#header-header {
   }
 
   .container-small-bm {
-    width: 60%;
-  }
+    width: 90%;
+  }*/
 
   br {
       display: none;
