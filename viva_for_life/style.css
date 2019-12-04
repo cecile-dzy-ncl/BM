@@ -533,8 +533,8 @@ h1#show_title {
     font-size: 17px;
   }
 
-  .top-bar.expanded .title-area,
-  .top-bar.expanded section.top-bar-section {
+  .wInf600 .top-bar.expanded .title-area,
+  .wInf600 .top-bar.expanded section.top-bar-section {
     background: #040e8f !important;
   }
 
