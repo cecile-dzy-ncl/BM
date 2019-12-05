@@ -565,6 +565,11 @@ h1#show_title {
       display: none;
   }
 
+  #events .event-item .panel {
+    display: flex;
+    flex-direction: column;
+  }
+
 /*  .card-bm {
     width: 85%;
     margin-bottom: 15px;
