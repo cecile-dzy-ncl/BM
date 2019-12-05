@@ -430,6 +430,10 @@ section.top-bar-section {
   display: none;
 }
 
+.event-head .intro-my-event h1 {
+  color: #040e8f;
+}
+
 
 .section-home-projects .progress .graph-bar {
   background-color: #EF5022;
