@@ -556,6 +556,9 @@ h1#show_title {
     padding: 61px 15px !important;
   }
 
+  .a-propos-de-viva-for-life.mobile iframe {
+      display: none;
+  }
 
 
 }

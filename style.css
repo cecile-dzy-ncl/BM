@@ -784,6 +784,10 @@ section#header-header {
 
   /* HOMEPAGE */
 
+  .mobile_d-none {
+    display: none;
+  }
+
   .mobile_flex-column {
     flex-direction: column;
   }
