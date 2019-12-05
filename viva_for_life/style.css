@@ -114,11 +114,11 @@ a {
   height: 640px;
 }
 
-.vfl .container-large-bm {
+.container-large-bm {
   width: 1140px;
 }
 
-.vfl .container-medium-bm {
+.container-medium-bm {
   width: 945px;
 }
 
@@ -558,6 +558,10 @@ h1#show_title {
 
   .a-propos-de-viva-for-life.mobile iframe {
       display: none;
+  }
+
+  .vfl .card-bm {
+    width: 85%;
   }
 
 
