@@ -571,7 +571,8 @@ h1#show_title {
   }
 
   #events .event-item .panel .columns {
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
 /*  .card-bm {
