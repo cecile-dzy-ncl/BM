@@ -580,6 +580,9 @@ h1#show_title {
     border-radius: 0;
   }
 
+  #events .event-item .panel .event-details .columns {
+      width: 100% !important;
+  }
 
   .event-item .panel .event-image .wrap img {
     object-fit: cover;
