@@ -756,6 +756,12 @@ section#header-header {
   margin-bottom: 22px;
 }
 
+
+
+#projects-new .tabs {
+  margin-top: 20px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
