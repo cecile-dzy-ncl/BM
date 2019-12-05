@@ -9,4 +9,20 @@ $( document ).ready(function() {
    $('body').addClass('homepage');
   }
 
+// --------- RESPONSIVE ---------
+
+  var windowWidth= $(window).width();
+
+  if(windowWidth < 500){
+    $("body").addClass("mobile");
+    $("#indexs-index .position-absolute").removeClass("position-absolute");
+    // $(".mobile .h-360").removeClass("h-360");
+    // $(".mobile img.mln-30").removeClass("mln-30");
+    $(".mobile .bx-viewport").css('height', "auto");
+  }
+
+
+
+
+
 });
