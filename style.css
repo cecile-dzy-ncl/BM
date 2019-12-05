@@ -630,6 +630,11 @@ section#header-header {
     display: none;
 }
 
+.event-head .intro-my-event p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
 /* BANNER */
 
 .banner {
