@@ -437,6 +437,10 @@
   object-fit: contain;
 }
 
+.img-fit-cover {
+  object-fit: cover;
+}
+
 .brbl-100 {
   border-radius: 0 0 0 100px;
 }
@@ -671,6 +675,7 @@ section#header-header {
 
 .card-bm-img {
   width: 100%;
+  object-fit: cover;
 }
 
 .card-bm-description {
