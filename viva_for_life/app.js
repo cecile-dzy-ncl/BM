@@ -29,6 +29,7 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
 
   // barre de progression
   var pourcentage = $('.chart').attr('data-percent');
+  console.log(pourcentage);
   $('.stats-event .graph-bar').attr('data-value', pourcentage);
   $('.stats-event .graph-bar').css('width', pourcentage);
 
@@ -44,8 +45,6 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
       console.log($('.stats-event-m-2 span'));
       console.log(objectif);
 
-      // calcul de l'obj
-      $('.objectif-enfants').html(Math.floor(Number.parseInt($('.objectif-amount').html().split('Objectif ')[1].split(' €')[0], 10)/12));
 
       // calcul du résultat
       console.log($('.current-amount'))
