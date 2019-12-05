@@ -581,6 +581,11 @@ h1#show_title {
 }
 
 
+.event-item .panel .event-image .wrap img {
+    object-fit: cover;
+}
+
+
 
 /*  .card-bm {
     width: 85%;
