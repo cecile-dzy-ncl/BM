@@ -576,6 +576,10 @@ h1#show_title {
     border-radius: 0;
   }
 
+  .event-item .panel .event-image .wrap {
+    height: 400px;
+}
+
 
 
 /*  .card-bm {
