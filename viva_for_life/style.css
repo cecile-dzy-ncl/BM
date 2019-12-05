@@ -605,6 +605,10 @@ h1#show_title {
     height: auto;
   }
 
+  .comment-collecter .mobile_flex-column img {
+    margin-bottom: 30px;
+  }
+
 
 
 /*  .card-bm {
