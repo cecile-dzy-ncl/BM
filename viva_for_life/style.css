@@ -581,9 +581,13 @@ h1#show_title {
 }
 
 
-.event-item .panel .event-image .wrap img {
+  .event-item .panel .event-image .wrap img {
     object-fit: cover;
-}
+  }
+
+  #events .event-item {
+    height: auto;
+  }
 
 
 
