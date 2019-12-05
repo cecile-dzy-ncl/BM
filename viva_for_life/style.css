@@ -573,7 +573,10 @@ h1#show_title {
   #events .event-item .panel .columns {
     width: 80%;
     margin: auto;
+    border-radius: 0;
   }
+
+
 
 /*  .card-bm {
     width: 85%;
