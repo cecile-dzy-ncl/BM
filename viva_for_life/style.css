@@ -586,7 +586,9 @@ h1#show_title {
 
   .event-item .panel .event-details .wrap {
     border-radius: 0;
+    padding: 20px;
   }
+
 
   #events .event-item .panel .event-details .columns {
       width: 100% !important;
