@@ -573,12 +573,12 @@ h1#show_title {
   #events .event-item .panel .columns {
     width: 80%;
     margin: auto;
-    border-radius: 0;
   }
 
   .event-item .panel .event-image .wrap {
     height: 400px;
-}
+    border-radius: 0;
+  }
 
 
   .event-item .panel .event-image .wrap img {
