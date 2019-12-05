@@ -584,7 +584,7 @@ h1#show_title {
     padding: 0;
   }
 
-  .event-item .panel .event-details {
+  #events .event-item .panel .event-details {
     border-radius: 0;
   }
 
