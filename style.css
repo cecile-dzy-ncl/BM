@@ -822,7 +822,7 @@ section#header-header {
   }
 
   .card-bm {
-    width: 85%;
+    width: 85% !important;
     margin: 7px auto;
   }
 
