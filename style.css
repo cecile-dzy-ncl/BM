@@ -851,6 +851,10 @@ section#header-header {
     transform: rotate(180deg);
   }
 
+  section.event-head {
+    padding: 20px;
+  }
+
 }
 
 
