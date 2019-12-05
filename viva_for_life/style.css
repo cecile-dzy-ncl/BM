@@ -584,8 +584,11 @@ h1#show_title {
     padding: 0;
   }
 
-  .event-item .panel .event-details .wrap {
+  .event-item .panel .event-details {
     border-radius: 0;
+  }
+
+  .event-item .panel .event-details .wrap {
     padding: 20px;
   }
 
