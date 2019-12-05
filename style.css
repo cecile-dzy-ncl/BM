@@ -759,7 +759,7 @@ section#header-header {
   .container-large-bm,
   .container-meedium-bm,
   .container-small-bm {
-    width: 80%;
+    width: 80% !important;
   }
 
 /*  .container-large-bm {
