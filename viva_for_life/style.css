@@ -580,9 +580,12 @@ h1#show_title {
   }
 
   .event-item .panel .event-image .wrap {
-    height: 400px;
     border-radius: 0;
     padding: 0;
+  }
+
+  .event-item .panel .event-details .wrap {
+    border-radius: 0;
   }
 
   #events .event-item .panel .event-details .columns {
