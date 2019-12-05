@@ -855,6 +855,10 @@ section#header-header {
     padding: 20px;
   }
 
+  .mobile .stats-event-1, .mobile .stats-event-2 {
+    width: 80%;
+  }
+
 }
 
 
