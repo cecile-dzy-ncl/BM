@@ -538,6 +538,10 @@ h1#show_title {
     font-size: 17px;
   }
 
+  .button.page-create {
+    width: 250px;
+  }
+
   .mobile .top-bar.expanded .title-area,
   .mobile .top-bar.expanded section.top-bar-section {
     background: #040e8f !important;
@@ -578,6 +582,7 @@ h1#show_title {
   .event-item .panel .event-image .wrap {
     height: 400px;
     border-radius: 0;
+    padding: 0;
   }
 
   #events .event-item .panel .event-details .columns {
