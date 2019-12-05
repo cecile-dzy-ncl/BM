@@ -570,6 +570,10 @@ h1#show_title {
     flex-direction: column;
   }
 
+  #events .event-item .panel .columns {
+    width: 100%;
+  }
+
 /*  .card-bm {
     width: 85%;
     margin-bottom: 15px;
