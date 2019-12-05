@@ -66,6 +66,7 @@ $('#events-show .habillage').prepend('<div class="stats-event mobile_flex-column
     $("#indexs-index .position-absolute").removeClass("position-absolute");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile img.mln-30").removeClass("mln-30");
+    $(".mobile .bx-viewport").css('height', "auto");
   }
 
 
