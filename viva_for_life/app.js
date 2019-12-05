@@ -31,7 +31,7 @@ $('#events-show .habillage').prepend('<div class="stats-event"><div class="stats
   var pourcentage = $('.chart').attr('data-percent');
   console.log(pourcentage);
   $('.stats-event .graph-bar').attr('data-value', pourcentage);
-  $('.stats-event .graph-bar').css('width', pourcentage);
+  $('.stats-event .graph-bar').css('width', pourcentage+"%");
 
   $(function(){
     if ($('body').is('#events-show')) {
