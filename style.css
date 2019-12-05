@@ -843,8 +843,8 @@ section#header-header {
   }
 
 
-  .stats-event {
-    height: auto;
+  .mobile .stats-event {
+    height: auto ;
   }
 
   #events-show .line {
