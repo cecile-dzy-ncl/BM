@@ -859,6 +859,10 @@ section#header-header {
     width: 80%;
   }
 
+  .section-projet-details .bx-wrapper .bx-viewport {
+    height: auto !important;
+  }
+
 }
 
 
