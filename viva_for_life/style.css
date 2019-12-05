@@ -17,37 +17,37 @@ yellow : #ECAF00;
 
 /* ------------------- */
 
-.vfl .blue {
+.blue {
   color: #2E3092 !important;
 }
 
-.vfl .orange {
+.orange {
   color: #EF5022;
 }
 
-.vfl .yellow {
+.yellow {
   color: #ECAF00;
 }
 
 
-.vfl .bg-blue {
+.bg-blue {
   background-color: #2E3092;
 }
 
-.vfl .bg-orange {
+.bg-orange {
   background-color: #EF5022;
 }
 
-.vfl .bg-yellow {
+.bg-yellow {
   background-color: #ECAF00;
 }
 
-.vfl .border-blue {
+.border-blue {
   border-color: #2E3092;
 }
 
 
-.vfl .border-yellow {
+.border-yellow {
   border-color: #FDB913 !important;
 }
 /* GENERAL */
@@ -124,21 +124,21 @@ a {
 
 /* CARDS */
 
-.vfl .card-bm {
+.card-bm {
   width: 32%;
 }
 
-.vfl .card-bm-description {
+.card-bm-description {
   height: 184px;
 }
 
-.vfl .card-bm-img {
+.card-bm-img {
   height: 256px;
 }
 
 /* BUTTONS */
 
-.vfl .btn-bm,
+.btn-bm,
 .section-home-projects .button {
   color: #FFFFFF;
   border-radius: 22px;
@@ -150,15 +150,15 @@ a {
   line-height: 23px;
 }
 
-.vfl .btn-bm-large {
+.btn-bm-large {
   width: 350px;
 }
 
-.vfl .step {
+.step {
   border-radius: 22px;
 }
 
-.vfl .project-bm {
+.project-bm {
   height: 570px;
 }
 
@@ -528,7 +528,7 @@ h1#show_title {
     padding-left: 0px;
   }
 
-  .vfl .btn-bm, .section-home-projects .button {
+  .btn-bm, .section-home-projects .button {
     width: 260px;
     font-size: 17px;
   }
@@ -560,7 +560,7 @@ h1#show_title {
       display: none;
   }
 
-/*  .vfl .card-bm {
+/*  .card-bm {
     width: 85%;
     margin-bottom: 15px;
   }*/
