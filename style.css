@@ -842,6 +842,15 @@ section#header-header {
     margin: 7px auto;
   }
 
+
+  .stats-event {
+    height: auto;
+  }
+
+  #events-show .line {
+    transform: rotate(180deg);
+  }
+
 }
 
 
