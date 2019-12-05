@@ -848,7 +848,7 @@ section#header-header {
   }
 
   #events-show .line {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
   }
 
   section.event-head {
