@@ -286,6 +286,18 @@ section.section-projet-details .team_by {
   width: 100%;
 }
 
+section.section-projet-details h1#show_title {
+  text-align: left;
+}
+
+section.section-projet-details .projet-head .rounded {
+  border: none;
+}
+
+.ask_edit_project {
+  filter: invert(1);
+}
+
 
 @media screen and (max-width: 500px) {
 
@@ -301,6 +313,10 @@ section.section-projet-details .team_by {
 
   .banner.banner-homepage {
     background-color: white;
+  }
+
+  .banner-homepage-2 {
+    padding-left: 0px;
   }
 
 }
