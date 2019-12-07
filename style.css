@@ -693,6 +693,11 @@ section#header-header {
   margin: 0 auto;
 }
 
+
+.row-bm [class*="column"] + [class*="column"]:last-child {
+  float: none !important;
+}
+
 /* HEIGHTS */
 
 .h-0 {
