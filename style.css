@@ -875,6 +875,10 @@ section#header-header {
   .pl-320 {
     padding-left: 0px;
   }
+
+  .steps .w-50 {
+    width: 100%;
+  }
 }
 
 
