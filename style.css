@@ -694,7 +694,7 @@ section#header-header {
 }
 
 
-.row-bm [class*="column"] + [class*="column"]:last-child {
+.wrapper [class*="column"] + [class*="column"]:last-child {
   float: none !important;
 }
 
