@@ -803,6 +803,10 @@ section#header-header {
     width: 100%;
   }
 
+  .btn-bm {
+    width: 250px !important;
+  }
+
   /* HOMEPAGE */
 
   .mobile_d-none {
