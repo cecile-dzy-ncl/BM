@@ -232,6 +232,7 @@ img.logo {
 
 /* PAGE DE COLLECTE */
 
+#wrapper-mission-header, #wrapper-mission-footer,
 #wrapper-impact-header, #wrapper-impact-footer {
   height: 1057px;
   background-size: cover !important;;
