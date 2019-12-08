@@ -2,6 +2,9 @@ $( document ).ready(function() {
   console.log( "ready!" );
   $("body").addClass("fcc-be");
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
+
 
   if ($("html").prop("lang") === ("fr")) {
 
