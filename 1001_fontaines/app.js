@@ -6,13 +6,19 @@ $( document ).ready(function() {
 
   $(".infos-money .big").after("collectés");
 
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_enfants').html( + " enfants")
 
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  // CALCULS IMPACTS
+  var nombreEnfants = parseInt($(".nb_enfants span").html().split('€')[0]) / 1000;
+  console.log(nombreEnfants);
+  $('.nb_enfants span').html(nombreEnfants);
+
   var montantEcoleRegion = parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000;
   console.log(montantEcoleRegion);
   $('.nb_ecoles span').html(montantEcoleRegion);
+
+  var montantWaterKiosks = parseInt($(".nb_kiosks span").html().split('€')[0]) / 1000;
+  console.log(montantWaterKiosks);
+  $('.nb_kiosks span').html(montantWaterKiosks);
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#nb_kiosks').html( + " Water Kiosks")
