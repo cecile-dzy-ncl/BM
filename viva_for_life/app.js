@@ -13,15 +13,6 @@ $( document ).ready(function() {
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_enfants').html( + " enfants")
-
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_ecoles').html( + " écoles")
-
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_kiosks').html( + " Water Kiosks")
-
 
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 

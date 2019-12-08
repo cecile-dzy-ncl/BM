@@ -6,6 +6,15 @@ $( document ).ready(function() {
 
   $(".infos-money .big").after("collectés");
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#nb_enfants').html( + " enfants")
+
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#nb_ecoles').html( + " écoles")
+
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#nb_kiosks').html( + " Water Kiosks")
+
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   $('.section-home-projects').prepend('<h2>Exemples de campagnes en cours</h2>');
 
