@@ -546,10 +546,17 @@ header.main-header section#header-header {
 
 .container-bm {
   width: 1140px;
-  margin: 0 auto;
 }
 
-.container-large-bm, .container-xsmall-bm {
+.container-full-bm {
+  width: 100vw;
+}
+
+.container-bm,
+.container-xsmall-bm,
+.container-small-bm,
+.container-medium-bm,
+.container-large-bm {
   margin: 0 auto;
 }
 
