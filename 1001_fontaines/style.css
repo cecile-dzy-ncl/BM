@@ -230,6 +230,7 @@ img.logo {
 
 #wrapper-impact-header, #wrapper-impact-footer {
   height: 1257px;
+  background-size: cover;
 }
 
 #wrapper-impact-header {
