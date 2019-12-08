@@ -908,6 +908,10 @@ section#header-header {
     height: auto !important;
   }
 
+  #events-show.mobile .event-head > .row {
+     height: auto;
+  }
+
 }
 
 
