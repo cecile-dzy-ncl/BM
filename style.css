@@ -380,7 +380,7 @@
 }
 
 .pt-50 {
-  padding-top: 50px;
+  padding-top: 50px !important;
 }
 
 .pb-0 {
