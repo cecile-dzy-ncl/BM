@@ -905,7 +905,7 @@ section#header-header {
   }
 
   .mobile .project-img img {
-    height: auto;
+    height: auto !important;
   }
 
 }
