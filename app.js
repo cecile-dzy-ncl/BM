@@ -16,7 +16,7 @@ $( document ).ready(function() {
   if(windowWidth < 500){
     $("body").addClass("mobile");
     $(".phone").removeClass("position-absolute");
-    // $(".mobile .h-360").removeClass("h-360");
+    $(".mobile .h-360").removeClass("h-360");
     // $(".mobile img.mln-30").removeClass("mln-30");
     $(".mobile .bx-viewport").css('height', "auto");
   }
