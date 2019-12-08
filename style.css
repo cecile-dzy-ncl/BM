@@ -916,6 +916,10 @@ section#header-header {
      height: auto;
   }
 
+  .donators {
+    margin: 0 !important;
+  }
+
   .donators li {
     padding: 15px 0px !important;
   }
