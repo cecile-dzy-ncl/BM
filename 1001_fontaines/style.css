@@ -123,6 +123,10 @@ p {
 
 /* CONTAINERS */
 
+.f1001 .container-xsmall-bm {
+  width: 753px;
+}
+
 .f1001 .container-small-bm {
   width: 894px;
 }
