@@ -10,6 +10,8 @@ $( document ).ready(function() {
   $('#nb_enfants').html( + " enfants")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  var campEcole = $("#nb_ecoles tag").html();
+  console.log(campEcole);
   $('#nb_ecoles').html( + " écoles")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
