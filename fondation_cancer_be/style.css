@@ -586,4 +586,8 @@ label.control_label {
     margin: 0;
   }
 
+  .banner-entreprise {
+    display: none;
+  }
+
 }
