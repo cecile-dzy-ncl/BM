@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 
   // CALCULS IMPACTS
-  var nombreEnfants = parseInt($(".nb_enfants span").html().split('€')[0]) / 1000;
+  var nombreEnfants = parseInt($(".nb_enfants span").html().split('€')[0]) / 2;
   console.log(nombreEnfants);
   $('.nb_enfants span').html(nombreEnfants);
 
@@ -16,7 +16,7 @@ $( document ).ready(function() {
   console.log(montantEcoleRegion);
   $('.nb_ecoles span').html(montantEcoleRegion);
 
-  var montantWaterKiosks = parseInt($(".nb_kiosks span").html().split('€')[0]) / 1000;
+  var montantWaterKiosks = parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000;
   console.log(montantWaterKiosks);
   $('.nb_kiosks span').html(montantWaterKiosks);
 
