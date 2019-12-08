@@ -590,4 +590,8 @@ label.control_label {
     display: none;
   }
 
+  .mobile.engager-son-entreprise .mobile_flex-column .px-30 {
+    padding: 0;
+  }
+
 }
