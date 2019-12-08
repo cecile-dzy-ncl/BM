@@ -904,6 +904,10 @@ section#header-header {
     margin-bottom: 15px;
   }
 
+  .mobile .project-img img {
+    height: auto;
+  }
+
 }
 
 
