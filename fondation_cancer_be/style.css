@@ -573,4 +573,9 @@ label.control_label {
     padding: 20px !important;
   }
 
+
+  .a-propos .card-bm-description {
+    height: 100% !important;
+  }
+
 }
