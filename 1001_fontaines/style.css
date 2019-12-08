@@ -220,6 +220,11 @@ header.main-header .top-bar-section {
     bottom: 15px;
 }
 
+img.logo {
+  width: 211px !important;
+  padding-top: 20px;
+}
+
 
 /* PAGE DE COLLECTE */
 
