@@ -10,9 +10,9 @@ $( document ).ready(function() {
   $('#nb_enfants').html( + " enfants")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  var montantEcoleRegion = $(".nb_ecoles span").html().split('€')[0];
+  var montantEcoleRegion = parseInt($(".nb_ecoles span").html().split('€')[0]);
   console.log(montantEcoleRegion);
-  $('.nb_ecoles span').html();
+  // $('.nb_ecoles span').html(montantEcoleRegion);
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#nb_kiosks').html( + " Water Kiosks")
