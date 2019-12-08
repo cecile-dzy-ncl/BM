@@ -774,6 +774,7 @@ section#header-header {
 
 #events-show .block-share-container .social-btns {
   display: flex;
+  margin: auto;
 }
 
 /* ------ RESPONSIVE ------ */
