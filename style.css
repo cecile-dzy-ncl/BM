@@ -549,7 +549,7 @@ header.main-header section#header-header {
   margin: 0 auto;
 }
 
-.container-large-bm {
+.container-large-bm, .container-xsmall-bm {
   margin: 0 auto;
 }
 
