@@ -228,6 +228,23 @@ img.logo {
 
 /* PAGE DE COLLECTE */
 
+#wrapper-impact-header, #wrapper-impact-footer {
+  height: 1257px;
+}
+
+#wrapper-impact-header {
+  background: url(https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/picmainmission.jpg);
+}
+
+#wrapper-impact-footer {
+  background: url(https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/imagefootermission.jpg);
+}
+
+
+
+
+/* PAGE DE COLLECTE */
+
 .section-projet-details .row.collapse.bg-color-light,
 .tabs dd.active a {
   background: #124D66;
