@@ -17,10 +17,10 @@ $( document ).ready(function() {
   $('#nb_enfants').html( + " enfants")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_ecoles').html( + " enfants")
+  $('#nb_ecoles').html( + " écoles")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#nb_kiosks').html( + " enfants")
+  $('#nb_kiosks').html( + " Water Kiosks")
 
 
 // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
