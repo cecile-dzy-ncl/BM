@@ -772,6 +772,10 @@ section#header-header {
   margin-top: 20px;
 }
 
+#events-show .block-share-container .social-btns {
+  display: flex;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
