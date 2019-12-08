@@ -46,6 +46,10 @@
   width: auto;
 }
 
+.w-30 {
+  width: 30%;
+}
+
 .w-33 {
   width: 33%;
 }
