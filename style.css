@@ -682,7 +682,7 @@ section#header-header {
 }
 
 .btn-bm.btn-bm-large {
-  width: 360px;
+  width: 360px !important;
 }
 
 
