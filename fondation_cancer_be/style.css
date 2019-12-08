@@ -594,4 +594,8 @@ label.control_label {
     padding: 0;
   }
 
+  .mobile .engager-son-entreprise .project-bm .project-img {
+     width: 100%;
+  }
+
 }
