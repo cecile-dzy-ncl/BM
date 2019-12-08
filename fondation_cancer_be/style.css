@@ -103,6 +103,7 @@ p {
   justify-content: flex-end;
   height: 540px;
   padding-right: 150px;
+  background-repeat: no-repeat;
 }
 
 .banner-about {
@@ -110,6 +111,7 @@ p {
   justify-content: flex-start;
   height: 590px;
   padding-left: 150px;
+  background-repeat: no-repeat;
 }
 
 .banner-entreprise {
