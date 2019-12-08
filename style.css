@@ -883,6 +883,11 @@ section#header-header {
   .steps .w-50 {
     width: 100%;
   }
+
+  .phone {
+    margin: auto !important;
+  }
+
 }
 
 
