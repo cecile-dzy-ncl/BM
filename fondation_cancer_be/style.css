@@ -578,7 +578,7 @@ label.control_label {
     height: 100% !important;
   }
 
-  #wrapper-about {
+  .wrapper-img {
     height: 850px;
   }
 
