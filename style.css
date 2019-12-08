@@ -851,6 +851,10 @@ section#header-header {
     margin: 7px auto;
   }
 
+  .card-bm-description {
+      height: 240px;
+      padding: 0 15px;
+  }
 
   .mobile .stats-event {
     height: auto ;
