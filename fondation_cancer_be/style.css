@@ -578,4 +578,8 @@ label.control_label {
     height: 100% !important;
   }
 
+  #wrapper-about {
+    height: 850px;
+  }
+
 }
