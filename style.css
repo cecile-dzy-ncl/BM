@@ -681,6 +681,10 @@ section#header-header {
   border-style: solid;
 }
 
+.btn-bm.btn-bm-large {
+  width: 360px;
+}
+
 
 .admin_button.button {
   width: auto;
