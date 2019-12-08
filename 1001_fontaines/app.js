@@ -10,9 +10,9 @@ $( document ).ready(function() {
   $('#nb_enfants').html( + " enfants")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  var campEcole = $("#nb_ecoles span").html();
+  var campEcole = $(".nb_ecoles span").html();
   console.log(campEcole);
-  $('#nb_ecoles').html( + " écoles")
+  // $('#nb_ecoles').html( + " écoles")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#nb_kiosks').html( + " Water Kiosks")
