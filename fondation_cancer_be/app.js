@@ -45,10 +45,10 @@ $( document ).ready(function() {
 
   // --------- RESPONSIVE ---------
 
-  var windowWidth= $(window).width();
+  // var windowWidth= $(window).width();
 
-  if(windowWidth < 500){
-    $(".cards-bm .mb-21").removeClass(".mb-21");
-  }
+  // if(windowWidth < 500){
+  //   $(".cards-bm .mb-21").removeClass(".mb-21");
+  // }
 
 });

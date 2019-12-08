@@ -582,4 +582,8 @@ label.control_label {
     height: 850px;
   }
 
+  .mobile .cards-bm .mb-21 {
+    margin: 0;
+  }
+
 }
