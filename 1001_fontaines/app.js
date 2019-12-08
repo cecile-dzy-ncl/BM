@@ -8,15 +8,15 @@ $( document ).ready(function() {
 
 
   // CALCULS IMPACTS
-  var nombreEnfants = parseInt($(".nb_enfants span").html().split('€')[0]) / 2;
+  var nombreEnfants = Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]) / 2);
   console.log(nombreEnfants);
   $('.nb_enfants span').html(nombreEnfants);
 
-  var montantEcoleRegion = parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000;
+  var montantEcoleRegion = Math.floor(parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000);
   console.log(montantEcoleRegion);
   $('.nb_ecoles span').html(montantEcoleRegion);
 
-  var montantWaterKiosks = parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000;
+  var montantWaterKiosks = Math.floor(parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000);
   console.log(montantWaterKiosks);
   $('.nb_kiosks span').html(montantWaterKiosks);
 
