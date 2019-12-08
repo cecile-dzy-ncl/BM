@@ -888,6 +888,10 @@ section#header-header {
     margin: auto !important;
   }
 
+  .mobile .event-goup-btn {
+    flex-direction: column;
+  }
+
 }
 
 
