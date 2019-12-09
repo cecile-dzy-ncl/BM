@@ -8,17 +8,22 @@ $( document ).ready(function() {
 
 
   // CALCULS IMPACTS
-  var nombreEnfants = Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]) / 2);
-  console.log(nombreEnfants);
-  $('.nb_enfants span').html(nombreEnfants);
 
-  var montantEcoleRegion = Math.floor(parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000);
-  console.log(montantEcoleRegion);
-  $('.nb_ecoles span').html(montantEcoleRegion);
+  if ($("#indexs-index")) {
 
-  var montantWaterKiosks = Math.floor(parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000);
-  console.log(montantWaterKiosks);
-  $('.nb_kiosks span').html(montantWaterKiosks);
+    var nombreEnfants = Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]) / 2);
+    console.log(nombreEnfants);
+    $('.nb_enfants span').html(nombreEnfants);
+
+    var montantEcoleRegion = Math.floor(parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000);
+    console.log(montantEcoleRegion);
+    $('.nb_ecoles span').html(montantEcoleRegion);
+
+    var montantWaterKiosks = Math.floor(parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000);
+    console.log(montantWaterKiosks);
+    $('.nb_kiosks span').html(montantWaterKiosks);
+
+  }
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#nb_kiosks').html( + " Water Kiosks")
