@@ -424,21 +424,21 @@ section.section-projet-details .projet-head .rounded {
   display: flex;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="week"],
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
-input[type="color"],
-select {
+.habillage input[type="text"],
+.habillage input[type="password"],
+.habillage input[type="date"],
+.habillage input[type="datetime"],
+.habillage input[type="datetime-local"],
+.habillage input[type="month"],
+.habillage input[type="week"],
+.habillage input[type="email"],
+.habillage input[type="number"],
+.habillage input[type="search"],
+.habillage input[type="tel"],
+.habillage input[type="time"],
+.habillage input[type="url"],
+.habillage input[type="color"],
+.habillage select {
   border-color: black;
   background-color: white;
 }
