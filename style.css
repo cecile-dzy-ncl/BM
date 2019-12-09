@@ -1038,6 +1038,11 @@ section#header-header {
     padding: 15px 0px !important;
   }
 
+  .project_payment #list_payment .people {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
