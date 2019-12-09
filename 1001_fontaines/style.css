@@ -496,10 +496,11 @@ section.section-projet-details .projet-head .rounded {
 @media screen and (max-width: 500px) {
 
 
-/*  h1 {
-    font-size: 38px;
-    line-height: 38px;
-  }*/
+  h1 {
+/*    font-size: 38px;
+    line-height: 38px;*/
+    margin-bottom: 15px;
+  }
 
   h5 {
     font-size: 50px;
