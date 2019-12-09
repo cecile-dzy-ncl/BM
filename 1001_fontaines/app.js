@@ -25,6 +25,8 @@ $( document ).ready(function() {
 
   }
 
+  $(".project_boutons_give").html("Faire un don");
+
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#nb_kiosks').html( + " Water Kiosks")
 
