@@ -443,6 +443,26 @@ select {
   margin: 15px auto 30px auto;
 }
 
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+select,
+#projects-new .habillage label, #projects-new .habillage p {
+    font-size: 19px;
+    line-height: 24px;
+}
+
 @media screen and (max-width: 500px) {
 
 
