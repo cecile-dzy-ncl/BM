@@ -536,4 +536,8 @@ section.section-projet-details .projet-head .rounded {
     padding: 30px 15px!important;
   }
 
+  .section-home-projects h2 {
+    padding: 0 50px;
+  }
+
 }
