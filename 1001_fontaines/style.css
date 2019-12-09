@@ -540,4 +540,9 @@ section.section-projet-details .projet-head .rounded {
     padding: 0 50px;
   }
 
+  .partenaires img {
+    display: block;
+    margin: 15px auto !important;
+  }
+
 }
