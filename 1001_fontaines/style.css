@@ -272,6 +272,9 @@ img.logo {
 #wrapper-ecole-footer {
   background: url(https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/picfooterschool.jpg);
   height: 1500px;
+  background-size: 125%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 
