@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
   // CALCULS IMPACTS
 
-  if ($("#indexs-index")) {
+  if ($("#indexs-index").length > 1) {
 
     var nombreEnfants = Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]) / 2);
     console.log(nombreEnfants);
