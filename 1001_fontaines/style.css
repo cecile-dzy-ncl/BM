@@ -464,6 +464,10 @@ select,
     font-family: "Open Sans";
 }
 
+#projects-new  .large-3 {
+  width: 100%;
+}
+
 @media screen and (max-width: 500px) {
 
 
