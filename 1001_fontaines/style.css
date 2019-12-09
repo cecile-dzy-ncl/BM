@@ -232,7 +232,10 @@ img.logo {
 
 /* PAGE DE COLLECTE */
 
-#wrapper-mission-header, #wrapper-mission-footer, #wrapper-impact-footer {
+#wrapper-mission-header,
+#wrapper-mission-footer,
+#wrapper-impact-footer,
+#wrapper-entreprise-footer {
   height: 1057px;
   background-size: cover !important;
 }
