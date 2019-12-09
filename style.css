@@ -704,6 +704,15 @@ section#header-header {
     line-height: 26px;
 }
 
+
+.projet-head .medium-3 {
+    display: none;
+}
+
+.projet-head .medium-9 {
+    width: 100%;
+}
+
 /* BANNER */
 
 .banner {
