@@ -420,23 +420,6 @@ section.section-projet-details .projet-head .rounded {
   display: flex;
 }
 
-#form-project input[type="text"],
-#form-project input[type="password"],
-#form-project input[type="date"],
-#form-project input[type="datetime"],
-#form-project input[type="datetime-local"],
-#form-project input[type="month"]
-#form-project input[type="week"],
-#form-project input[type="email"],
-#form-project input[type="number"],
-#form-project input[type="search"],
-#form-project input[type="tel"],
-#form-project input[type="time"],
-#form-project input[type="url"],
-#form-project input[type="color"],
-#form-project select {
-}
-
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -453,6 +436,11 @@ input[type="url"],
 input[type="color"],
 select {
   border-color: black;
+  background-color: white;
+}
+
+#form-project .controls .g-recaptcha {
+  margin: 15px auto 30px auto;
 }
 
 @media screen and (max-width: 500px) {
