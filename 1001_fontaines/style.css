@@ -424,21 +424,21 @@ section.section-projet-details .projet-head .rounded {
   display: flex;
 }
 
-.habillage input[type="text"],
-.habillage input[type="password"],
-.habillage input[type="date"],
-.habillage input[type="datetime"],
-.habillage input[type="datetime-local"],
-.habillage input[type="month"],
-.habillage input[type="week"],
-.habillage input[type="email"],
-.habillage input[type="number"],
-.habillage input[type="search"],
-.habillage input[type="tel"],
-.habillage input[type="time"],
-.habillage input[type="url"],
-.habillage input[type="color"],
-.habillage select {
+#form-project input[type="text"],
+#form-project input[type="password"],
+#form-project input[type="date"],
+#form-project input[type="datetime"],
+#form-project input[type="datetime-local"],
+#form-project input[type="month"],
+#form-project input[type="week"],
+#form-project input[type="email"],
+#form-project input[type="number"],
+#form-project input[type="search"],
+#form-project input[type="tel"],
+#form-project input[type="time"],
+#form-project input[type="url"],
+#form-project input[type="color"],
+#form-project select {
   border-color: black;
   background-color: white;
 }
