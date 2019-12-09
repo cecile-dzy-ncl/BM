@@ -232,10 +232,14 @@ img.logo {
 
 /* PAGE DE COLLECTE */
 
-#wrapper-mission-header, #wrapper-mission-footer,
-#wrapper-impact-header, #wrapper-impact-footer {
+#wrapper-mission-header, #wrapper-mission-footer, #wrapper-impact-footer {
   height: 1057px;
-  background-size: cover !important;;
+  background-size: cover !important;
+}
+
+#wrapper-impact-header {
+  height: 850px;
+  background-size: cover !important;
 }
 
 #wrapper-mission-header {
