@@ -406,9 +406,12 @@ section.section-projet-details .projet-head .rounded {
 /* CREA PAGE DE COLLECTE */
 
 #projects-new #step_tab {
-    margin-top: 66px;
+  margin-top: 66px;
 }
 
+#projects-new #step_tab .click_tabs {
+  background: #2AABE2 !important;
+}
 
 @media screen and (max-width: 500px) {
 
