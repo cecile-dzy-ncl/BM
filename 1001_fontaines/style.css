@@ -345,6 +345,10 @@ section.section-projet-details .projet-head .rounded {
   border: none;
 }
 
+.block-share-container span {
+    font-family: "Open Sans";
+}
+
 .ask_edit_project {
   filter: invert(1);
 }
