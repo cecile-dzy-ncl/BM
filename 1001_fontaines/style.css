@@ -161,6 +161,10 @@ p {
   justify-content: space-evenly;
 }
 
+.homepage .banner-text {
+  width: 560px;
+}
+
 .banner-homepage-2 .banner-text {
   border-radius: 6px;
   background-color: rgba(233,244,253,0.9);
