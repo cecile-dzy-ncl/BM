@@ -413,8 +413,11 @@ section.section-projet-details .projet-head .rounded {
   background: #2AABE2 !important;
 }
 
+#projects-new label {
+  text-align: left;
+}
 .controls {
-    display: flex;
+  display: flex;
 }
 
 #form-project input[type="text"],
