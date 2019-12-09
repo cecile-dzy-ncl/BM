@@ -224,6 +224,10 @@ header.main-header .top-bar-section {
     bottom: 15px;
 }
 
+#main-nav section.top-bar-section {
+    border-bottom: 1px solid #979797;
+}
+
 img.logo {
   width: 211px !important;
   padding-top: 20px;
