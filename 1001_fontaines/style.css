@@ -295,6 +295,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   line-height: 50px;
   background: #FEC800 !important;
   padding: 0;
+  teext-transform : uppercase;
 }
 
 #projects-show .block-share-container h4 span {
