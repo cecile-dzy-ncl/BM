@@ -806,6 +806,10 @@ section#header-header {
   height: 50%;
 }
 
+.h-315 {
+  height: 315px;
+}
+
 .h-360 {
   height: 360px;
 }
