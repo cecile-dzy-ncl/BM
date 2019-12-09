@@ -403,6 +403,11 @@ section.section-projet-details .projet-head .rounded {
     font-weight: 600;
 }
 
+/* CREA PAGE DE COLLECTE */
+
+#projects-new #step_tab {
+    margin-top: 66px;
+}
 
 
 @media screen and (max-width: 500px) {
