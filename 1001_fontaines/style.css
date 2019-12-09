@@ -345,6 +345,40 @@ section.section-projet-details .projet-head .rounded {
   filter: invert(1);
 }
 
+.projects-list .panel .info-money.detail {
+  color: black;
+  font-size: 13px;
+}
+
+.section-home-projects h2 {
+    font-size: 22px;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+.section-home-projects {
+    background: #FAFAFA;
+}
+
+.section-home-projects .button {
+    height: 40px;
+    width: 300px;
+    border: 2px solid #000000;
+    background: transparent;
+    color: #000;
+    float: none !important;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    padding: 11px;
+    line-height: 18px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    font-weight: 600;
+}
+
+
 
 @media screen and (max-width: 500px) {
 
