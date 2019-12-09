@@ -477,6 +477,14 @@ section.section-projet-details .projet-head .rounded {
   background: #fafafa;
 }
 
+.event-details .amount {
+  font-size: 18px !important;
+}
+
+.event-details .big {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 500px) {
 
 
