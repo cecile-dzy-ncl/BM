@@ -1052,6 +1052,22 @@ section#header-header {
     flex-direction: column;
   }
 
+  .project_payment #list_payment .people .columns {
+    width: 100%;
+  }
+
+  .project_payment #list_payment .people blockquote {
+    margin: auto !important;
+    float: none;
+    margin-top: 10px !important;
+  }
+
+  .project_payment #list_payment .people .date,
+  .project_payment #list_payment .people .name,
+  .project_payment #list_payment .people .money {
+    padding: 0 !important;
+  }
+
 }
 
 
