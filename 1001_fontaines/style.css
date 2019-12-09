@@ -295,7 +295,14 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   line-height: 50px;
   background: #FEC800 !important;
   padding: 0;
-  teext-transform : uppercase;
+  text-transform : uppercase;
+}
+
+#projects-show .current-amount,
+#projects-show .objectif-amount,
+#projects-show #show_days,
+#projects-show .contributeurs p {
+  text-align: left !important;
 }
 
 #projects-show .block-share-container h4 span {
