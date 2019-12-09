@@ -234,6 +234,10 @@ img.logo {
 }
 
 
+.projects_list .progress {
+  background-color: transparent !important;
+}
+
 /* PAGE DE COLLECTE */
 
 #wrapper-mission-header,
