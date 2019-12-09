@@ -531,4 +531,9 @@ section.section-projet-details .projet-head .rounded {
     margin-bottom: 30px;
   }
 
+  .card-bm-description.bg-darkblue {
+    height: 450px !important;
+    padding: 30px 15px!important;
+  }
+
 }
