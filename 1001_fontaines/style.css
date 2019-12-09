@@ -485,6 +485,10 @@ section.section-projet-details .projet-head .rounded {
   margin-right: 10px;
 }
 
+#projects-index h1, #events-index h1 {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
 
 

@@ -33,6 +33,10 @@ $( document ).ready(function() {
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   $('.section-home-projects').prepend('<h2>Exemples de campagnes en cours</h2>');
 
+  // AJOUT INTRO PAGE EVENTS
+  var textIntroEvents = ("<div class='container-small-bm mt-50'><h2>Deux minutes suffisent pour créer votre collecte.</h2></div>")
+  $('.events .first-section').before(textIntroEvents);
+
   // AJOUT INTRO PAGE PROJETS
   var textIntroProjects = ("<div class='container-small-bm mt-50'><h2>Retrouver et soutenir une collecte</h2></div>")
   $('.projects .first-section').before(textIntroProjects);
