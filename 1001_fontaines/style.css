@@ -513,8 +513,17 @@ section.section-projet-details .projet-head .rounded {
     padding-left: 0px;
   }
 
+  .homepage .banner-text {
+    width: 90%;
+    margin: auto;
+  }
+
   .project_event_description .border-top {
     width: 50%;
+  }
+
+  h2.w-60 {
+    width: 100%;
   }
 
 }
