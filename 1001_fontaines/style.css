@@ -513,4 +513,8 @@ section.section-projet-details .projet-head .rounded {
     padding-left: 0px;
   }
 
+  .project_event_description .border-top {
+    width: 50%;
+  }
+
 }
