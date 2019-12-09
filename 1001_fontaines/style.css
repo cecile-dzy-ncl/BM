@@ -461,6 +461,7 @@ select,
 #projects-new .habillage label, #projects-new .habillage p {
     font-size: 19px;
     line-height: 24px;
+    font-family: "Open Sans";
 }
 
 @media screen and (max-width: 500px) {
