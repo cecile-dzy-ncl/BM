@@ -526,4 +526,8 @@ section.section-projet-details .projet-head .rounded {
     width: 100%;
   }
 
+  .stats .mobile_flex-column div {
+    margin-bottom: 30px;
+  }
+
 }
