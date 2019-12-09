@@ -188,12 +188,7 @@ button, .f1001 .btn-bm, .actions.row .button {
   color: #fff;
   text-decoration: none;
 }
-/*
-.section-events .event-item .event-details .event-goup-btn .page-see {
-  background-color: transparent;
-  border: 2px solid #00AC98;
-  color: #00AC98;
-}*/
+
 
 nav button {
   color: #2AABE2;
@@ -204,6 +199,11 @@ nav button {
   font-weight: 300;
   background: white;
   padding: 6px;
+}
+
+.actions.row .button {
+  text-transform: uppercase;
+  font-family: "Open Sans";
 }
 
 /* NAVBAR*/
