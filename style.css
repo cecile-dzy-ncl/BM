@@ -1072,8 +1072,8 @@ section#header-header {
   }
 
 
-  #projects-show .current-amount,
-  #projects-show .objectif-amount {
+  #projects-show.mobile .current-amount,
+  #projects-show.mobile .objectif-amount {
     text-align: center !important;
   }
 
