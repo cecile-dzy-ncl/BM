@@ -545,6 +545,10 @@ section.section-projet-details .projet-head .rounded {
     margin: 15px auto !important;
   }
 
+  .mobile.engager-son-entreprise .project-bm .w-50 .p-80 {
+    padding: 15px !important;
+  }
+
 /*  .mobile.engager-son-entreprise .project-bm .w-50 {
     padding: 20px;
   }*/
