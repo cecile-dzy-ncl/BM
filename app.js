@@ -19,6 +19,7 @@ $( document ).ready(function() {
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
     $(".mobile .projet-head .right").removeClass(".right");
+    $(".mobile .projet-head .left").removeClass(".left");
     // $(".mobile img.mln-30").removeClass("mln-30");
     $(".mobile .bx-viewport").css('height', "auto");
   }
