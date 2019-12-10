@@ -608,4 +608,8 @@ label.control_label {
     content: none;
   }
 
+  .mobile .project_event_description .container-bm {
+    padding: 0 !important;
+  }
+
 }
