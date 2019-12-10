@@ -1071,9 +1071,10 @@ section#header-header {
     padding: 0 !important;
   }
 
-
   #projects-show.mobile .current-amount,
-  #projects-show.mobile .objectif-amount {
+  #projects-show.mobile .objectif-amount,
+  #projects-show.mobile #show_days,
+  #projects-show.mobile .contributeurs p {
     text-align: center !important;
   }
 
