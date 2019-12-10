@@ -1081,6 +1081,11 @@ section#header-header {
   .mobile #project_tabs .tabs-content {
     padding: 0 30px;
   }
+  .mobile .section-projet-details h1#show_title {
+    text-align: center !important;
+    line-height: 26px !important;
+    margin-bottom: 10px !important;
+  }
 
   li.maybevideocontainer {
     height: auto;
