@@ -1077,6 +1077,11 @@ section#header-header {
     text-align: center !important;
   }
 
+
+  li.maybevideocontainer {
+    height: auto;
+  }
+
 }
 
 
