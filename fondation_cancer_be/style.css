@@ -612,4 +612,8 @@ label.control_label {
     padding: 0 !important;
   }
 
+  .mobile .project_event_description img {
+    margin-bottom: 20px !important;
+  }
+
 }
