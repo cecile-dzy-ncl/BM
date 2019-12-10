@@ -558,4 +558,9 @@ section.section-projet-details .projet-head .rounded {
     width: 100%;
   }
 
+  .wrapper.bg-darkblue img {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
 }
