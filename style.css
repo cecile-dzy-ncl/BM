@@ -1081,6 +1081,11 @@ section#header-header {
   .mobile #project_tabs .tabs-content {
     padding: 0 30px;
   }
+
+  .mobile .project_boutons_give {
+    margin-top: 35px !important;
+  }
+
   .mobile .section-projet-details h1#show_title {
     text-align: center !important;
     line-height: 26px !important;
