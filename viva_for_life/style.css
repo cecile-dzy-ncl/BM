@@ -610,6 +610,10 @@ h1#show_title {
     margin-bottom: 30px;
   }
 
+  .project_event_description .border-top {
+    width: 50%;
+  }
+
 /*  .comment-collecter .wrapper.flex-column.bg-blue.br-trbl-100.p-60.w-auto {
     padding: 20px;
   }*/
