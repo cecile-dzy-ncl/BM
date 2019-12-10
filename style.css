@@ -1097,7 +1097,12 @@ section#header-header {
   }
 
   .mobile .options {
-    padding: 0 !important;
+    padding: 20px 0 !important;
+  }
+
+  .mobile .options .d-flex:first-child {
+    border: none;
+    margin-bottom: 20px;
   }
 
 }
