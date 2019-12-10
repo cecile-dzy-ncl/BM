@@ -1078,6 +1078,9 @@ section#header-header {
     text-align: center !important;
   }
 
+  .mobile #project_tabs .tabs-content {
+    padding: 0 30px;
+  }
 
   li.maybevideocontainer {
     height: auto;
