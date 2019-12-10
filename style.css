@@ -1109,6 +1109,10 @@ section#header-header {
     margin-bottom: 20px;
   }
 
+  .mobile .options .d-flex {
+    padding: 0;
+  }
+
 }
 
 

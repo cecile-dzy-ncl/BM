@@ -592,6 +592,11 @@ label.control_label {
     display: none;
   }
 
+  .mobile.engager-son-entreprise .project-bm .w-50 {
+    padding: 0;
+    width: 100%;
+  }
+
   .mobile.engager-son-entreprise .mobile_flex-column .px-30 {
     padding: 0;
   }
@@ -615,6 +620,11 @@ label.control_label {
 
   .mobile .project_event_description img {
     margin-bottom: 20px !important;
+  }
+
+  .wrapper.bg-darkblue img {
+    margin: auto;
+    margin-bottom: 20px;
   }
 
 }
