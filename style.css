@@ -910,7 +910,8 @@ section#header-header {
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
-  .container-small-bm {
+  .container-small-bm,
+  .container-xsmall-bm {
     width: 80% !important;
   }
 
