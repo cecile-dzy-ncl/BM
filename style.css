@@ -948,6 +948,9 @@ section#header-header {
     flex-direction: column-reverse;
   }
 
+  .btn-bm.btn-bm-large {
+      width: 280px !important;
+  }
 
   .banner.banner-homepage {
     height: auto;
