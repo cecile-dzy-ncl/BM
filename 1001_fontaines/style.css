@@ -571,4 +571,9 @@ section.section-projet-details .projet-head .rounded {
     margin: 0;
   }
 
+  #wrapper-ecole-footer {
+    background: none;
+    height: auto;
+  }
+
 }
