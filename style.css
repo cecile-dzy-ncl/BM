@@ -1096,6 +1096,10 @@ section#header-header {
     height: auto;
   }
 
+  .mobile .options {
+    padding: 0 !important;
+  }
+
 }
 
 
