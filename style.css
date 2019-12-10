@@ -1,3 +1,7 @@
+img {
+  object-fit: contain;
+}
+
 .position-relative {
   position: relative;
 }
