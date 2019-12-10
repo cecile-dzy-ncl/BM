@@ -1074,7 +1074,7 @@ section#header-header {
 
   #projects-show .current-amount,
   #projects-show .objectif-amount {
-    text-align: center;
+    text-align: center !important;
   }
 
 }
