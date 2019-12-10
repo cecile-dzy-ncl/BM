@@ -515,6 +515,10 @@ h1#show_title {
   margin: 6px;
 }
 
+.block-share-container h4 {
+    font-family: "Open Sans";
+}
+
 @media screen and (max-width: 500px) {
 
   h1 {
