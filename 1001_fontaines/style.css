@@ -563,4 +563,12 @@ section.section-projet-details .projet-head .rounded {
     margin-bottom: 20px;
   }
 
+  .mobile.impliquer-son-ecole img.position-absolute {
+    position: initial;
+  }
+
+  .mobile.impliquer-son-ecole .ml-50pe {
+    margin: 0;
+  }
+
 }
