@@ -178,7 +178,9 @@ a {
   color: #2AABE2;
 }
 
-button, .f1001 .btn-bm, .actions.row .button {
+button, .f1001 .btn-bm,
+#projects-new .habillage .button,
+#contact_forms-new .habillage .button {
   color: #FFFFFF;
   font-size: 16px;
   font-weight: bold;
