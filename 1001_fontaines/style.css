@@ -526,6 +526,7 @@ h2.result-type:after {
 ul.results {
   width: 80%;
   margin: auto;
+  margin-top: 15px;
 }
 
 ul.results .people p {
