@@ -904,6 +904,22 @@ section#header-header {
   margin: auto;
 }
 
+label {
+  text-align: left;
+}
+
+
+/* ------ PROFIL ------ */
+
+.subhead .small-9 * {
+  text-align: left !important;
+}
+
+.subhead {
+    padding: 20px 0 !important;
+}
+
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
