@@ -519,6 +519,19 @@ section.section-projet-details .projet-head .rounded {
   text-align: left;
 }
 
+h2.result-type:after {
+  display: none;
+}
+
+ul.results {
+  width: 80%;
+  margin: auto;
+}
+
+ul.results .people p {
+  padding: 0;
+}
+
 @media screen and (max-width: 500px) {
 
 
