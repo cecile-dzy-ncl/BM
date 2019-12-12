@@ -504,6 +504,10 @@ section.section-projet-details .projet-head .rounded {
   display: none;
 }
 
+#contact_forms-new p {
+  margin: 15px 0;
+}
+
 @media screen and (max-width: 500px) {
 
 
