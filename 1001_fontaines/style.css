@@ -190,6 +190,10 @@ button, .f1001 .btn-bm,
   border-radius: 6px;
 }
 
+#contact_forms-new .habillage .button {
+  margin-bottom: 15px;
+}
+
 .f1001 .btn-bm a {
   color: #fff;
   text-decoration: none;
