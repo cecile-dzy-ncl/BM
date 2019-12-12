@@ -533,6 +533,10 @@ ul.results .people p {
   padding: 0;
 }
 
+.people .rounded {
+    border: none;
+}
+
 @media screen and (max-width: 500px) {
 
 
