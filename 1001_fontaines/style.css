@@ -508,6 +508,10 @@ section.section-projet-details .projet-head .rounded {
   margin: 15px 0;
 }
 
+.control-group {
+  text-align: left;
+}
+
 @media screen and (max-width: 500px) {
 
 
