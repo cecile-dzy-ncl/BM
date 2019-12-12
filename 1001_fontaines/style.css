@@ -459,7 +459,7 @@ section.section-projet-details .projet-head .rounded {
   width: 100%;
 }
 
-#form-project .controls .g-recaptcha {
+.controls .g-recaptcha {
   margin: 15px auto 30px auto;
 }
 
