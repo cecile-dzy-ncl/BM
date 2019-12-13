@@ -743,6 +743,11 @@ section#header-header {
     width: 100%;
 }
 
+.event-image img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /* BANNER */
 
 .banner {

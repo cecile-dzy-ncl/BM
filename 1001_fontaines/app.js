@@ -46,4 +46,31 @@ $( document ).ready(function() {
   $("#banner_section").before(bannerMaintenance);
 
 
+  // if((0,a["default"])(".magnificvideo").length>0&&(0,a["default"])(".magnificvideo").magnificPopup({disableOn:700,type:"iframe",mainClass:"mfp-fade",removalDelay:160,preloader:!1,fixedContentPos:!1})
+
+  //Magnific-video(youtube)
+  $('a.popup-video').magnificPopup({
+    items: {
+      src: 'http://www.youtube.com/watch?v=oakFyL63qss'
+    },
+    type: 'iframe',
+    iframe: {
+      markup: '<div class="mfp-iframe-scaler">'+
+           '<div class="mfp-close"></div>'+
+           '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+           '</div>',
+      patterns: {
+        youtube: {
+        index: 'youtube.com/',
+        id: 'v=',
+        src: '//www.youtube.com/embed/%id%?autoplay=1'
+        }
+      },
+      srcAction: 'iframe_src',
+    }
+  });
+
+
+
+
 });
