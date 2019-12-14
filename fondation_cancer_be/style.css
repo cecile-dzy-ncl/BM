@@ -385,9 +385,9 @@ html[lang="nl"] .card-bm-description {
     display: none;
 }
 
-html[lang="nl"] .event-description p {
+/*html[lang="nl"] .event-description p {
   display: none;
-}
+}*/
 
 .habillage:after {
   display: none;
