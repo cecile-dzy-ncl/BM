@@ -31,7 +31,7 @@ $( document ).ready(function() {
     $('.section-home-projects').prepend('<h2>Voorbeelden van lopende acties</h2>');
 
     // AJOUT INTRO PAGE EVENTS
-    var textIntroEvents = ("<div class='container-small-bm mt-50'><h2>Lanceer een project</h2></div>")
+    var textIntroEvents = ("<div class='container-small-bm mt-50'><h2>Je pagina is in een wip klaar.</h2><p>Kies hieronder het type actie dat je wenst op te zetten. Bedenk dan een boeiende titel, zet er een sprekende foto bij en klaar! Je kan eraan beginnen en mensen uitnodigen om jouw actie te steunen en mee de strijd tegen kanker aan te gaan. We hebben een reeks <a href='https://idonatefor.cancer.be/pages/conseils-outils' class='green'>tips & tricks en een hoop tools</a> voor jou klaarstaan die je kunnen helpen het maximum uit je actie te halen.</p></div>")
     $('.events .first-section').before(textIntroEvents);
 
     // AJOUT INTRO PAGE PROJETS
