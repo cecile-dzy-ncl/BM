@@ -28,7 +28,7 @@ $( document ).ready(function() {
   } else if ($("html").prop("lang") === ("nl")) {
 
     // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-    $('.section-home-projects').prepend('<h2>Voorbeelden</h2>');
+    $('.section-home-projects').prepend('<h2>Voorbeelden van lopende acties</h2>');
 
     // AJOUT INTRO PAGE EVENTS
     var textIntroEvents = ("<div class='container-small-bm mt-50'><h2>Lanceer een project</h2></div>")
