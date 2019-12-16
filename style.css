@@ -820,7 +820,16 @@ section#header-header {
   float: none !important;
 }
 
+#wrapper .global-container {
+    padding-bottom: 2.625rem;
+}
+
 /* FOOTER */
+
+footer {
+  margin-top: -2.625rem;
+  height: 48px;
+}
 
 footer,
 footer .top-bar-section li:not(.has-form) a:not(.button) {
