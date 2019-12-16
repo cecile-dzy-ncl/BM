@@ -820,6 +820,22 @@ section#header-header {
   float: none !important;
 }
 
+/* FOOTER */
+
+footer .bottom-bar .left li:not(:last-child) a {
+  position: relative;
+}
+
+footer .bottom-bar .left li:not(:last-child) a:after {
+  background: #fff !important;
+  content: '';
+  height: 22px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  right: 0;
+}
+
 /* HEIGHTS */
 
 .h-0 {
