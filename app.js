@@ -9,6 +9,8 @@ $( document ).ready(function() {
    $('body').addClass('homepage');
   }
 
+  $("footer ul.right img").attr("src", "https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/poweredbyiraiser2x.png")
+
 // --------- RESPONSIVE ---------
 
   var windowWidth= $(window).width();
