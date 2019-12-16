@@ -15,7 +15,7 @@ $( document ).ready(function() {
     console.log(nombreEnfants);
     $('.nb_enfants span').html(nombreEnfants);
 
-    console.log($(".nb_ecoles span"));
+    console.log($(".nb_ecoles span").html());
     var montantEcoleRegion = Math.floor(parseInt($(".nb_ecoles span").html().split('€')[0]) / 1000);
     console.log(montantEcoleRegion);
     $('.nb_ecoles span').html(montantEcoleRegion);
