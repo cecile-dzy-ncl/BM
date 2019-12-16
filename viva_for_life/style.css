@@ -457,7 +457,11 @@ section.top-bar-section {
 /* PAGE DE COLLECTE */
 
 section.section-projet-details .project-detail-data .current-amount {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+.projet-head .medium-2 {
+  display: none;
 }
 
 .section-projet-details .bg-secondary-color-blurred {
