@@ -46,6 +46,7 @@ $( document ).ready(function() {
   // var bannerMaintenance = ("<div class='maintenance p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   // $("#banner_section").before(bannerMaintenance);
 
+// VIDEO POPUP
 
   /*! Magnific Popup - v1.1.0 - 2016-02-20
 * http://dimsemenov.com/plugins/magnific-popup/
