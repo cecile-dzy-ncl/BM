@@ -667,6 +667,7 @@ div#wrapper {
 
 .progress {
   border: none;
+  background: none;
 }
 
 .infos-money .progress .graph-bar {
