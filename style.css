@@ -822,6 +822,10 @@ section#header-header {
 
 /* FOOTER */
 
+footer {
+  background-color: #000;
+}
+
 footer .bottom-bar .left li:not(:last-child) a {
   position: relative;
 }
