@@ -462,6 +462,7 @@ section.section-projet-details .project-detail-data .current-amount {
 
 .projet-head {
   background: white !important;
+  padding: 10px 0 !important;
 }
 
 .projet-head .medium-2 {
@@ -478,6 +479,11 @@ section.section-projet-details .project-detail-data .current-amount {
 
 .projet-head .medium-9 .medium-10 {
     width: 100% !important;
+}
+
+section.section-projet-details .from_event {
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .section-projet-details .bg-secondary-color-blurred {
