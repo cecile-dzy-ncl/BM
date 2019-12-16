@@ -88,6 +88,10 @@ p {
   margin-bottom: 20px;
 }
 
+a {
+  font-size: 15px;
+}
+
 .fcc-be .container-bm {
   width: 945px;
 }
