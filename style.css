@@ -862,6 +862,13 @@ footer ul.right img {
   width: 146px;
 }
 
+footer section.top-bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000 !important;
+}
+
 /* HEIGHTS */
 
 .h-0 {
