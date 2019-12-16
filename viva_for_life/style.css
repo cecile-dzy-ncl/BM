@@ -553,7 +553,7 @@ footer section ul.left li {
   display: none ;
 }
 
-footer section .footer-link-menu {
+footer section ul.left li:last-child {
   display: block !important;
 }
 
