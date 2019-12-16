@@ -468,6 +468,14 @@ section.section-projet-details .project-detail-data .current-amount {
   display: none;
 }
 
+.projet-head .medium-3 {
+    display: block !important;
+}
+
+.projet-head .medium-9 {
+    width: auto !important;
+}
+
 .section-projet-details .bg-secondary-color-blurred {
   background-color: rgb(4, 14, 143);
 }
