@@ -836,6 +836,11 @@ footer .bottom-bar .left li:not(:last-child) a:after {
   right: 0;
 }
 
+.top-bar-section li:not(.has-form) a:not(.button) {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
 /* HEIGHTS */
 
 .h-0 {
