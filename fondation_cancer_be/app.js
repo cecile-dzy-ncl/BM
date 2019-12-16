@@ -22,8 +22,8 @@ $( document ).ready(function() {
     $('.projects .first-section').before(textIntroProjects);
 
     // AJOUT BANNER MAINTENANCE
-    var bannerMaintenance = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
-    $("#banner_section").before(bannerMaintenance);
+    // var bannerMaintenance = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
+    // $("#banner_section").before(bannerMaintenance);
 
   } else if ($("html").prop("lang") === ("nl")) {
 
@@ -39,8 +39,8 @@ $( document ).ready(function() {
     $('.projects .first-section').before(textIntroProjects);
 
     // AJOUT BANNER MAINTENANCE
-    var bannerMaintenanceNL = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>We zijn bezig met een update van ons platform, gelieve ons te verontschuldigen voor eventuele ongemakken</p></div>");
-    $("#banner_section").before(bannerMaintenanceNL);
+    // var bannerMaintenanceNL = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>We zijn bezig met een update van ons platform, gelieve ons te verontschuldigen voor eventuele ongemakken</p></div>");
+    // $("#banner_section").before(bannerMaintenanceNL);
 
 
   }
