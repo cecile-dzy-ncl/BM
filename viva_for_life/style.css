@@ -476,6 +476,10 @@ section.section-projet-details .project-detail-data .current-amount {
     width: auto !important;
 }
 
+.projet-head .medium-9 .medium-10 {
+    width: 100% !important;
+}
+
 .section-projet-details .bg-secondary-color-blurred {
   background-color: rgb(4, 14, 143);
 }
