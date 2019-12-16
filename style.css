@@ -950,6 +950,14 @@ label {
     padding: 20px 0 !important;
 }
 
+#overview br {
+    display: none;
+}
+
+#overview h1 {
+    margin-bottom: 15px;
+}
+
 /* ------ PAGE DE COLLECTE ------ */
 
 #projects-show .current-amount,
