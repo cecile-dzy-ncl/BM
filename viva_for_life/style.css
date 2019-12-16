@@ -456,6 +456,10 @@ section.top-bar-section {
 
 /* PAGE DE COLLECTE */
 
+section.section-projet-details .project-detail-data .current-amount {
+    font-size: 40px;
+}
+
 .section-projet-details .bg-secondary-color-blurred {
   background-color: rgb(4, 14, 143);
 }
