@@ -858,6 +858,9 @@ footer a:hover {
     text-transform: uppercase;
     font-size: 13px;
 }
+footer ul.right img {
+  width: 146px;
+}
 
 /* HEIGHTS */
 
