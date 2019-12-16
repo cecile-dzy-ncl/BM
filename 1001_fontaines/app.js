@@ -19,6 +19,7 @@ $( document ).ready(function() {
     console.log(montantEcoleRegion);
     $('.nb_ecoles span').html(montantEcoleRegion);
 
+    console.log(parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000);
     var montantWaterKiosks = Math.floor(parseInt($(".nb_kiosks span").html().split('€')[0]) / 33000);
     console.log(montantWaterKiosks);
     $('.nb_kiosks span').html(montantWaterKiosks);
