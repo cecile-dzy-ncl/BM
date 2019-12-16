@@ -549,22 +549,7 @@ h1#show_title {
     font-family: "Open Sans";
 }
 
-footer section ul.left li {
-  display: none ;
-}
 
-footer section ul.left li:last-child {
-  display: block !important;
-}
-
-footer section ul.left li:first-child,
-footer section ul.left li:nth-child(2) {
-  display: none;
-}
-
-footer section ul.left li ul.center li {
-  display: block;
-}
 
 @media screen and (max-width: 500px) {
 

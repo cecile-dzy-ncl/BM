@@ -869,6 +869,23 @@ footer section.top-bar-section {
   background: #000 !important;
 }
 
+footer section ul.left li {
+  display: none ;
+}
+
+footer section ul.left li:last-child {
+  display: block !important;
+}
+
+footer section ul.left li:first-child,
+footer section ul.left li:nth-child(2) {
+  display: none;
+}
+
+footer section ul.left li ul.center li {
+  display: block;
+}
+
 /* HEIGHTS */
 
 .h-0 {
