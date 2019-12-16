@@ -90,6 +90,11 @@ p {
 
 a {
   font-size: 15px;
+  text-decoration: none;
+}
+
+a.logo img {
+  margin-top: 5px;
 }
 
 .fcc-be .container-bm {
@@ -136,10 +141,6 @@ a {
 }
 
 /* BUTTONS */
-
-a {
-  text-decoration: none;
-}
 
 button, .fcc-be .btn-bm {
   color: #FFFFFF;
