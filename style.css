@@ -924,6 +924,15 @@ label {
     padding: 20px 0 !important;
 }
 
+/* ------ PAGE DE COLLECTE ------ */
+
+#projects-show .current-amount,
+#projects-show .objectif-amount,
+#projects-show #show_days,
+#projects-show .contributeurs p {
+    text-align: left !important;
+}
+
 
 /* ------ RESPONSIVE ------ */
 
