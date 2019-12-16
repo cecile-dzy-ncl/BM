@@ -460,6 +460,10 @@ section.section-projet-details .project-detail-data .current-amount {
   font-size: 40px;
 }
 
+.projet-head {
+  background: white !important;
+}
+
 .projet-head .medium-2 {
   display: none;
 }
