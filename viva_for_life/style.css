@@ -549,6 +549,14 @@ h1#show_title {
     font-family: "Open Sans";
 }
 
+footer section ul.left li {
+  display: none ;
+}
+
+footer section .footer-link-menu {
+  display: block !important;
+}
+
 @media screen and (max-width: 500px) {
 
   h1 {
