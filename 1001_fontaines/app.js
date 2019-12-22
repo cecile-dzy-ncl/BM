@@ -13,7 +13,7 @@ $( document ).ready(function() {
 
     var nombreEnfants = Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]) / 2);
     console.log(Math.floor(parseInt($(".nb_enfants span").html().split('€'))));
-    console.log(Math.floor(parseInt($(".nb_enfants span").html().split('€')[0]));
+    console.log(Math.floor(parseInt($(".nb_enfants span").html().split('€')[0])));
     console.log(nombreEnfants);
     $('.nb_enfants span').html(nombreEnfants);
 
