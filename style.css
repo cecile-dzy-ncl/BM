@@ -891,6 +891,10 @@ footer section ul.left li ul.center li {
   display: block;
 }
 
+.top-bar-section ul li > a {
+  font-weight: 400;
+}
+
 /* HEIGHTS */
 
 .h-0 {
