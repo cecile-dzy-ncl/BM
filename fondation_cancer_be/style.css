@@ -554,21 +554,25 @@ label.control_label {
   transform: translate(-50%);
 }
 
+.event_18 .block-share-container .social-btns .social_network a .social_network_send {
+  background-color: #00ac98;
+}
+
 /* TOURNÉE MINÉRALE PAGE DE COLLECTE */
 
-.fcc-be.event_15 .bg-secondary-color-blurred,
-.fcc-be.event_15 .row.project-detail-data.p2p-detail-data .block-share-container {
+.fcc-be.event_18 .bg-secondary-color-blurred,
+.fcc-be.event_18 .row.project-detail-data.p2p-detail-data .block-share-container {
   background-color: #009BCF;
 }
 
-.fcc-be.event_15 h1#show_title {
+.fcc-be.event_18 h1#show_title {
   color: #02ac98;
 }
 
-.fcc-be.event_15 .row.bg-color-light.projet-head {
+.fcc-be.event_18 .row.bg-color-light.projet-head {
   background-color: #fff;
 }
-/*.event_15*/
+/*.event_18*/
 
 
 /* BANNER MAINTENANCE */

@@ -17,7 +17,7 @@ $( document ).ready(function() {
     // console.log(parseInt($(".nb_enfants span").html(), 100));
     // console.log("nb enfants");
     // console.log(Math.floor(parseInt($(".nb_enfants span").html())));
-    // console.log(Math.floor(parseInt($(".nb_enfants span").html().replace(/ /g, '').split('€')[0])));
+    // console.log(Math.flo or(parseInt($(".nb_enfants span").html().replace(/ /g, '').split('€')[0])));
     console.log(nombreEnfants);
     $('.nb_enfants span').html(nombreEnfants);
 
