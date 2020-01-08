@@ -604,6 +604,14 @@ label.control_label {
   background-position: center;
 }
 
+.bloc-tm .font-28 {
+  line-height: 34px;
+}
+
+.bloc-tm .font-60 {
+  line-height: 72px;
+}
+
 /* TOURNÉE MINÉRALE PAGE DE COLLECTE */
 
 .fcc-be.event_18 .bg-secondary-color-blurred,
