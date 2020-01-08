@@ -565,6 +565,21 @@ label.control_label {
   background-color: #0090bf;
 }
 
+.bloc-tm {
+  height: 366px;
+  width: 366px;
+}
+
+.bloc-star {
+
+}
+.bloc-coeur {
+
+}
+.bloc-cible {
+
+}
+
 /* TOURNÉE MINÉRALE PAGE DE COLLECTE */
 
 .fcc-be.event_18 .bg-secondary-color-blurred,
