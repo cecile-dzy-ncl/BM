@@ -654,6 +654,11 @@ section.connexion {
     padding-top: 20px;
 }
 
+#my-profile #myTab {
+    padding-top: 20px;
+    min-height: 300px;
+}
+
 /* - container - */
 
 .container-bm {
