@@ -994,6 +994,10 @@ footer section ul.left li ul.center li {
   margin-bottom: 22px;
 }
 
+.shadow {
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+
 
 
 #projects-new .tabs {
