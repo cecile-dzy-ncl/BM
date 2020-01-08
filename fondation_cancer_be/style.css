@@ -7,6 +7,24 @@ yellow: #FDB913
 red: #C84228
 */
 
+
+/* ------------------- FONTS ------------------- */
+
+@font-face {
+  font-family: 'liquid';
+  src: url('https://cecile-dzy-ncl.github.io/BM/fondation_cancer_be/fonts/liquid-embrace.ttf') format('truetype');
+  src: url('https://cecile-dzy-ncl.github.io/BM/fondation_cancer_be/fonts/liquid-embrace.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.liquid {
+  font-family: "liquid";
+}
+
+/* ------------------- */
+
+
 .fcc-be .green,
 .fcc-be .big {
   color: #00AC98;
