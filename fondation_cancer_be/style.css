@@ -568,6 +568,8 @@ label.control_label {
 .bloc-tm {
   height: 366px;
   width: 366px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .bloc-star {
