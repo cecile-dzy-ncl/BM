@@ -889,6 +889,11 @@ footer a:hover {
     text-transform: uppercase;
     font-size: 13px;
 }
+
+footer .top-bar-section ul.right {
+    display: block;
+}
+
 footer ul.right img {
   width: 146px;
 }
