@@ -135,8 +135,7 @@ a.logo img {
 .banner-tournee {
   background: url(https://idonatefor.cancer.be/cdn.iraiser.eu/SkF5iH+rHyaVDOLTVTdkjH++Hhh/Fl7u/mAi0fjxgMMw78Jmz96L8dyknexq9tfI/Cecile_DEZY/origin/visuelprincipal.jpg);
   height: 740px;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner-text {
