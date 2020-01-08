@@ -650,6 +650,10 @@ header.main-header section#header-header {
   right: 0;
 }
 
+section.connexion {
+    padding-top: 20px;
+}
+
 /* - container - */
 
 .container-bm {
