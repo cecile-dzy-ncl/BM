@@ -18,3 +18,8 @@ p.red-tornado {
   font-family: 'Vinci Sans';
   color: #e40520;
 }
+
+.mypanelzone .mpanel a {
+  color: white;
+  text-decoration: underline;
+}
