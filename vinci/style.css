@@ -9,3 +9,7 @@
   background: url(https://mecenat-charity.vinci-energies.com/cdn.iraiser.eu/Dok4adQ4ZTci4dqsAZsmFu+Q0z+80aVCGTciQXV2DaUfuJ5bVNTH41rwAiwcjcr1/Cecile_DEZY/origin/imagepetit-coeur.jpg) center center no-repeat;
   background-size: cover;
 }
+
+.float-right {
+  float: right;
+}
