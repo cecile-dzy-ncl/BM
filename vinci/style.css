@@ -26,11 +26,11 @@
   margin-top: 130px;
 }
 
-.v-zone.vglobe .video-zone {
+.v-zone.vglobe .video__zone {
   width: 947px;
 }
 
-.v-zone.vglobe .video-zone .magnificvideo {
+.v-zone.vglobe .video__zone .magnificvideo {
   margin: 0;
 }
 
