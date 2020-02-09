@@ -26,12 +26,9 @@ p.red-tornado {
 
 .mypanelzone .mpanel.transparent h3 {
   color: #004289;
+  margin-bottom: 18px;
 }
 
 .mypanelzone .mpanel.transparent p {
   color: #000000;
-}
-
-.m-18 {
-  margin-bottom: 18px;
 }
