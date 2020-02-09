@@ -24,9 +24,12 @@ p.red-tornado {
   text-decoration: underline;
 }
 
-.mypanelzone .mpanel h3.cap-america,
-h3.cap-america {
+.mypanelzone .mpanel.transparent h3 {
   color: #004289;
+}
+
+.mypanelzone .mpanel.transparent p {
+  color: #000000;
 }
 
 .m-18 {
