@@ -44,6 +44,7 @@
 
 .vzone.vglobe .video__zone .magnificvideo {
   margin: 0;
+  width: auto;
 }
 
 .banner.vglobe {
