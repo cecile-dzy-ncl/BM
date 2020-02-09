@@ -1,0 +1,11 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+/*  .banner.vglobe {
+    background: url(https://mecenat-charity.vinci-energies.com/cdn.iraiser.eu/Dok4adQ4ZTci4dqsAZsmFu+Q0z+80aVCGTciQXV2DaUfuJ5bVNTH41rwAiwcjcr1/Cecile_DEZY/origin/imagepetit-coeur.jpg) center center no-repeat;
+    background-size: cover;
+  }*/
+}
+
+.banner.vglobe {
+  background: url(https://mecenat-charity.vinci-energies.com/cdn.iraiser.eu/Dok4adQ4ZTci4dqsAZsmFu+Q0z+80aVCGTciQXV2DaUfuJ5bVNTH41rwAiwcjcr1/Cecile_DEZY/origin/imagepetit-coeur.jpg) center center no-repeat;
+  background-size: cover;
+}
