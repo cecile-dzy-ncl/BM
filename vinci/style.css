@@ -5,6 +5,19 @@
   }*/
 }
 
+.d-block {
+  display: block;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
 .banner.vglobe {
   background: url(https://mecenat-charity.vinci-energies.com/cdn.iraiser.eu/Dok4adQ4ZTci4dqsAZsmFu+Q0z+80aVCGTciQXV2DaUfuJ5bVNTH41rwAiwcjcr1/Cecile_DEZY/origin/imagepetit-coeur.jpg) center center no-repeat;
   background-size: cover;
