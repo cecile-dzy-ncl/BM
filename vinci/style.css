@@ -13,3 +13,8 @@
 .float-right {
   float: right;
 }
+
+p.red-tornado {
+  font-family: 'Vinci Sans';
+  color: #e40520;
+}
