@@ -61,3 +61,7 @@ p.red-tornado {
 .mypanelzone .mpanel.transparent p {
   color: #000000;
 }
+
+.full_wrapper.vglobe p {
+  text-align: left;
+}
