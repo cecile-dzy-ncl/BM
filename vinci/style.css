@@ -26,8 +26,12 @@
   margin-top: 130px;
 }
 
-.w-947 {
+.v-zone.vglobe .video-zone {
   width: 947px;
+}
+
+.v-zone.vglobe .video-zone .magnificvideo {
+  margin: 0;
 }
 
 .banner.vglobe {
