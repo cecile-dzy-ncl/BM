@@ -109,6 +109,7 @@ orange: #EC5C2F
 
 .arc .banner {
   height: 540px;
+  justify-content: flex-end;
 }
 
 .homepage .banner {
