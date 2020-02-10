@@ -145,3 +145,9 @@ orange: #EC5C2F
 }
 
 
+/* HEADER & FOOTER */
+
+.arc section.top-bar-section {
+  background: #FFFFFF !important;
+}
+
