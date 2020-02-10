@@ -7,6 +7,42 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family:"museo-sans";
+  src:url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+  font-display:auto;
+  font-style:normal;
+  font-weight:300;
+}
+
+@font-face {
+  font-family:"museo-sans";
+  src:url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+  font-display:auto;
+  font-style:italic;
+  font-weight:300;
+}
+
+@font-face {
+  font-family:"museo-sans";
+  src:url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display:auto;
+  font-style:normal;
+  font-weight:700;
+
+}
+
+@font-face {
+  font-family:"museo-sans";
+
+  src:url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+
+  font-display:auto;
+  font-style:italic;
+  font-weight:700;
+
+}
+
 .museo {
   font-family: "museo";
 }
@@ -124,108 +160,108 @@ yellow: #FEB700
 
 /*.bg-secondary-color-blurred {
   background-color: #124D66;
-}*/
+  }*/
 
 
-/* GENERAL */
+  /* GENERAL */
 
-h2 {
-  font-family: "museo";
-  font-size: 30px;
-  line-height: 36px;
-}
+  h2 {
+    font-family: "museo-sans";
+    font-size: 30px;
+    line-height: 36px;
+  }
 
-h6 {
-  font-size: 14px;
-  font-weight: normal;
-}
+  h6 {
+    font-size: 14px;
+    font-weight: normal;
+  }
 
-p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 300;
-}
+  p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+  }
 
-a {
-  text-decoration: none;
-}
-
-
-/* BUTTONS */
-
-.arc .btn-bm {
-  color: #fff;
-  padding: 8px 24px;
-}
-
-.arc .btn-bm a {
-  color: #fff;
-}
-
-/* BANNERS */
-
-.arc .banner {
-  height: 540px;
-  justify-content: flex-end;
-}
-
-.arc .bg-pattern {
-  background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/layoutquadri2x.png);
-  background-size: 63%;
-}
-
-.homepage .banner {
-  background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/homepagebannerarc.jpg);
-  background-size: cover;
-}
-
-.a-propos .banner {
-  background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg);
-  background-size: cover;
-}
-
-.banner-text {
-  width: 560px;
-  margin-right: 150px;
-  height: 65%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-/* BLOCS */
-
-.steps h2 {
-  position: relative;
-}
-
-.steps h2:after {
-  content: "";
-  position: absolute;
-  height: 10px;
-  width: 76px;
-  background: white;
-  left: 0;
-  bottom: -20px;
-}
-
-.steps.bg-grey h2:after {
-  background: #009CBB;
-  right: 0;
-  left: auto;
-}
+  a {
+    text-decoration: none;
+  }
 
 
-.arc .card-bm {
-  width: 32%;
-}
+  /* BUTTONS */
+
+  .arc .btn-bm {
+    color: #fff;
+    padding: 8px 24px;
+  }
+
+  .arc .btn-bm a {
+    color: #fff;
+  }
+
+  /* BANNERS */
+
+  .arc .banner {
+    height: 540px;
+    justify-content: flex-end;
+  }
+
+  .arc .bg-pattern {
+    background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/layoutquadri2x.png);
+    background-size: 63%;
+  }
+
+  .homepage .banner {
+    background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/homepagebannerarc.jpg);
+    background-size: cover;
+  }
+
+  .a-propos .banner {
+    background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg);
+    background-size: cover;
+  }
+
+  .banner-text {
+    width: 560px;
+    margin-right: 150px;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  /* BLOCS */
+
+  .steps h2 {
+    position: relative;
+  }
+
+  .steps h2:after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 76px;
+    background: white;
+    left: 0;
+    bottom: -20px;
+  }
+
+  .steps.bg-grey h2:after {
+    background: #009CBB;
+    right: 0;
+    left: auto;
+  }
+
+
+  .arc .card-bm {
+    width: 32%;
+  }
 
 
 
 
-/* HEADER & FOOTER */
+  /* HEADER & FOOTER */
 
-.arc header.main-header .top-bar-section {
-  background: #FFFFFF !important;
-}
+  .arc header.main-header .top-bar-section {
+    background: #FFFFFF !important;
+  }
 
