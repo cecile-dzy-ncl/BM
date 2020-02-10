@@ -10,6 +10,10 @@ img {
   position: absolute;
 }
 
+.d-block {
+  display: block;
+}
+
 .d-flex {
   display: flex;
 }
