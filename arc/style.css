@@ -97,9 +97,18 @@ yellow: #FEB700
   color: #C32762;
 }
 
-.arc .bg-pink {
+.arc .bg-pink-tdr {
   background-color: #C32762 !important;
 }
+
+.arc .pink-tdr {
+  color: #ED217C;
+}
+
+.arc .bg-pink {
+  background-color: #ED217C !important;
+}
+
 
 /* ORANGE */
 
