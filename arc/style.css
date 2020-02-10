@@ -252,10 +252,13 @@ a {
   bottom: -20px;
 }
 
-.steps.bg-grey h2:after {
-  background: #009CBB;
+.steps h2.text-right:after {
   right: 0;
   left: auto;
+}
+
+.steps.bg-grey h2:after {
+  background: #009CBB;
 }
 
 
