@@ -1,4 +1,105 @@
-.banner .banner-homepage {
+/* COLORS */
+
+/*
+blue: #2AABE2
+lightblue: #E9F4FD
+darkblue: #124D66
+green: #54C381
+yellow: #FEB700
+pink: #FE5F5E
+orange: #EC5C2F
+*/
+
+/* BLUE */
+
+.arc .blue {
+  color: #2AABE2;
+}
+
+.arc .bg-blue {
+  background-color: #2AABE2 !important;
+}
+
+.arc .border-blue {
+  border-color: #2AABE2 !important;
+}
+
+.arc .lightblue {
+  color: #E9F4FD;
+}
+
+.arc .bg-lightblue {
+  background-color: #E9F4FD !important;
+}
+
+.arc .border-lightblue {
+  border-color: #E9F4FD !important;
+}
+
+.arc .darkblue {
+  color: #124D66;
+}
+
+.arc .bg-darkblue {
+  background-color: #124D66 !important;
+}
+
+.arc .border-darkblue {
+  border-color: #124D66 !important;
+}
+
+/* GREEN */
+
+.arc .green {
+  color: #54C381;
+}
+
+.arc .bg-green {
+  background-color: #54C381 !important;
+}
+
+.arc .border-green {
+  border-color: #54C381 !important;
+}
+
+/* YELLOW */
+
+.arc .yellow {
+  color: #FDB913;
+}
+
+.arc .bg-yellow {
+  background-color: #FDB913 !important;
+}
+
+/* PINK */
+
+.arc .pink {
+  color: #FE5F5E;
+}
+
+.arc .bg-pink {
+  background-color: #FE5F5E !important;
+}
+
+/* ORANGE */
+
+.arc .orange {
+  color: #EC5C2F;
+}
+
+.arc .bg-orange {
+  background-color: #EC5C2F !important;
+}
+
+.bg-secondary-color-blurred {
+  background-color: #124D66;
+}
+
+
+
+
+.banner-homepage {
   background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg) center center cover no-repeat;
 }
 
