@@ -1,4 +1,17 @@
-/* COLORS */
+/* ------------------- FONTS ------------------- */
+
+@font-face {
+  font-family: 'museo';
+  src: url('https://cecile-dzy-ncl.github.io/BM/arc/fonts/museosans_500-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.museo {
+  font-family: "museo";
+}
+
+/* ------------------- COLORS ------------------- */
 
 /*
 pink: #C32762
@@ -101,7 +114,7 @@ orange: #EC5C2F
 /* GENERAL */
 
 h2 {
-  font-family: "Museo Sans";
+  font-family: "museo";
   font-size: 30px;
   line-height: 36px;
 }
