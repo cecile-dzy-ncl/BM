@@ -24,8 +24,13 @@ yellow: #FEB700
 orange: #EC5C2F
 */
 
-/* BLUE */
+/* BLACK */
 
+.arc .black {
+  color: #1C1D33
+}
+
+/* BLUE */
 .arc .blue {
   color: #009CBB;
 }
