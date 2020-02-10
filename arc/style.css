@@ -101,7 +101,8 @@ orange: #EC5C2F
 
 
 .banner-homepage {
-  background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg) center center cover no-repeat;
+  background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg);
+  background-size: cover;
 }
 
 
