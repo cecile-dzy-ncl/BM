@@ -193,6 +193,7 @@ p {
 .steps.bg-grey h2:after {
   background: #009CBB;
   right: 0;
+  left: auto;
 }
 
 
