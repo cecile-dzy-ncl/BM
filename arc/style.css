@@ -2,8 +2,8 @@
 
 /*
 pink: #C32762
+blue: #009CBB
 
-blue: #2AABE2
 lightblue: #E9F4FD
 darkblue: #124D66
 green: #54C381
@@ -14,15 +14,15 @@ orange: #EC5C2F
 /* BLUE */
 
 .arc .blue {
-  color: #2AABE2;
+  color: #009CBB;
 }
 
 .arc .bg-blue {
-  background-color: #2AABE2 !important;
+  background-color: #009CBB !important;
 }
 
 .arc .border-blue {
-  border-color: #2AABE2 !important;
+  border-color: #009CBB !important;
 }
 
 .arc .lightblue {
