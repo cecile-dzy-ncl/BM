@@ -3,9 +3,9 @@
 /*
 pink: #C32762
 blue: #009CBB
+darkblue: #233355
 
 lightblue: #E9F4FD
-darkblue: #124D66
 green: #54C381
 yellow: #FEB700
 orange: #EC5C2F
@@ -38,15 +38,15 @@ orange: #EC5C2F
 }
 
 .arc .darkblue {
-  color: #124D66;
+  color: #233355;
 }
 
 .arc .bg-darkblue {
-  background-color: #124D66 !important;
+  background-color: #233355 !important;
 }
 
 .arc .border-darkblue {
-  border-color: #124D66 !important;
+  border-color: #233355 !important;
 }
 
 /* GREEN */
