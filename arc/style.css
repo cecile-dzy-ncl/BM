@@ -265,6 +265,11 @@ a {
   background: #C32762;
 }
 
+.a-propos .steps h2.white:after {
+  background: #ffffff;
+}
+
+
 .arc .card-bm {
   width: 32%;
 }
