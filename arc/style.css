@@ -98,6 +98,13 @@ orange: #EC5C2F
 }*/
 
 
+/* GENERAL */
+
+.arc p {
+  text-align: center;
+}
+
+
 /* BANNERS */
 
 .arc .banner {
