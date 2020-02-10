@@ -15,12 +15,13 @@
 
 /*
 pink: #C32762
+pink-tdr: #ED217C
 blue: #009CBB
 darkblue: #233355
+green: #4CA76B
 orange: #E85252
 
 lightblue: #E9F4FD
-green: #54C381
 yellow: #FEB700
 */
 
@@ -67,18 +68,36 @@ yellow: #FEB700
   border-color: #233355 !important;
 }
 
+/* PINK */
+
+.arc .pink {
+  color: #C32762 !important;
+}
+
+.arc .bg-pink {
+  background-color: #C32762 !important;
+}
+
+.arc .pink-tdr {
+  color: #ED217C !important;
+}
+
+.arc .bg-pink-tdr {
+  background-color: #ED217C !important;
+}
+
 /* GREEN */
 
 .arc .green {
-  color: #54C381 !important;
+  color: #4CA76B !important;
 }
 
 .arc .bg-green {
-  background-color: #54C381 !important;
+  background-color: #4CA76B !important;
 }
 
 .arc .border-green {
-  border-color: #54C381 !important;
+  border-color: #4CA76B !important;
 }
 
 /* YELLOW */
@@ -91,23 +110,6 @@ yellow: #FEB700
   background-color: #FDB913 !important;
 }
 
-/* PINK */
-
-.arc .pink {
-  color: #C32762 !important;
-}
-
-.arc .bg-pink-tdr {
-  background-color: #C32762 !important;
-}
-
-.arc .pink-tdr {
-  color: #ED217C !important;
-}
-
-.arc .bg-pink {
-  background-color: #ED217C !important;
-}
 
 
 /* ORANGE */
