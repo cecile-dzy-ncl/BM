@@ -29,7 +29,6 @@
   font-display:auto;
   font-style:normal;
   font-weight:700;
-
 }
 
 @font-face {
@@ -186,6 +185,9 @@ yellow: #FEB700
     text-decoration: none;
   }
 
+  .container-medium-bm {
+    width: 1044px;
+  }
 
   /* BUTTONS */
 
