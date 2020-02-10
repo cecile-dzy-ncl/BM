@@ -3,6 +3,10 @@ $( document ).ready(function() {
 
   $("body").addClass("arc");
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
+
+
   // $(".project_boutons_give").html("Faire un don");
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
