@@ -1,12 +1,13 @@
 /* COLORS */
 
 /*
+pink: #C32762
+
 blue: #2AABE2
 lightblue: #E9F4FD
 darkblue: #124D66
 green: #54C381
 yellow: #FEB700
-pink: #FE5F5E
 orange: #EC5C2F
 */
 
@@ -75,11 +76,11 @@ orange: #EC5C2F
 /* PINK */
 
 .arc .pink {
-  color: #FE5F5E;
+  color: #C32762;
 }
 
 .arc .bg-pink {
-  background-color: #FE5F5E !important;
+  background-color: #C32762 !important;
 }
 
 /* ORANGE */
