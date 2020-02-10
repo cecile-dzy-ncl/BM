@@ -187,7 +187,14 @@ p {
   width: 76px;
   background: white;
   left: 0;
+  bottom: -20px;
 }
+
+.steps.bg-grey h2:after {
+  background: #009CBB;
+  right: 0;
+}
+
 
 
 
