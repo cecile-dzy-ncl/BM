@@ -93,16 +93,24 @@ orange: #EC5C2F
   background-color: #EC5C2F !important;
 }
 
-.bg-secondary-color-blurred {
+/*.bg-secondary-color-blurred {
   background-color: #124D66;
-}
+}*/
 
 
-
+/* BANNERS */
 
 .banner-homepage {
   background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/mainimagearc.jpg);
   background-size: cover;
+}
+
+.banner-text {
+  width: 560px;
+  /*height: 65%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 
