@@ -156,6 +156,10 @@ img {
   font-style: italic;
 }
 
+.font-300 {
+  font-weight: 300;
+}
+
 .font-light {
   font-weight: lighter;
 }
