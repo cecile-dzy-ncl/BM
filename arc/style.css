@@ -17,11 +17,11 @@
 pink: #C32762
 blue: #009CBB
 darkblue: #233355
+orange: #E85252
 
 lightblue: #E9F4FD
 green: #54C381
 yellow: #FEB700
-orange: #EC5C2F
 */
 
 /* BLACK */
@@ -104,11 +104,11 @@ orange: #EC5C2F
 /* ORANGE */
 
 .arc .orange {
-  color: #EC5C2F;
+  color: #E85252;
 }
 
 .arc .bg-orange {
-  background-color: #EC5C2F !important;
+  background-color: #E85252 !important;
 }
 
 /*.bg-secondary-color-blurred {
