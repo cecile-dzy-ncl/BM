@@ -166,7 +166,7 @@ p {
 
 /* HEADER & FOOTER */
 
-.arc section.top-bar-section {
+.arc header.main-header .top-bar-section {
   background: #FFFFFF !important;
 }
 
