@@ -100,7 +100,13 @@ orange: #EC5C2F
 
 /* GENERAL */
 
-.arc p {
+h2 {
+  font-family: "Museo Sans";
+  font-size: 30px;
+  line-height: 36px;
+}
+
+p {
   text-align: center;
   font-size: 16px;
   font-weight: 300;
