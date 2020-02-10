@@ -105,6 +105,17 @@ orange: #EC5C2F
 }
 
 
+/* BUTTONS */
+
+.arc .btn-bm {
+  color: #fff;
+  padding: 8px 24px;
+}
+
+.arc .btn-bm a {
+  color: #fff;
+}
+
 /* BANNERS */
 
 .arc .banner {
