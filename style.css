@@ -515,6 +515,16 @@ img {
   padding-bottom: 10px;
 }
 
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-40 {
   padding-top: 40px;
   padding-bottom: 40px;
