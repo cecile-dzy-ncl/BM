@@ -10,7 +10,7 @@ $( document ).ready(function() {
   // $(".project_boutons_give").html("Faire un don");
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-  $('.section-home-projects').prepend('<h2>Exemples de campagnes en cours</h2>');
+  $('.section-home-projects').prepend('<h2 class="text-center">Exemples de campagnes en cours</h2>');
 
   // AJOUT INTRO PAGE EVENTS
   // var textIntroEvents = ("<div class='container-small-bm mt-50'><h2>Deux minutes suffisent pour créer votre collecte.</h2></div>")
