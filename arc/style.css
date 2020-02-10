@@ -27,12 +27,12 @@ yellow: #FEB700
 /* BLACK */
 
 .arc .black {
-  color: #1C1D33
+  color: #1C1D33 !important;
 }
 
 /* BLUE */
 .arc .blue {
-  color: #009CBB;
+  color: #009CBB !important;
 }
 
 .arc .bg-blue {
@@ -44,7 +44,7 @@ yellow: #FEB700
 }
 
 .arc .lightblue {
-  color: #E9F4FD;
+  color: #E9F4FD !important;
 }
 
 .arc .bg-lightblue {
@@ -56,7 +56,7 @@ yellow: #FEB700
 }
 
 .arc .darkblue {
-  color: #233355;
+  color: #233355 !important;
 }
 
 .arc .bg-darkblue {
@@ -70,7 +70,7 @@ yellow: #FEB700
 /* GREEN */
 
 .arc .green {
-  color: #54C381;
+  color: #54C381 !important;
 }
 
 .arc .bg-green {
@@ -84,7 +84,7 @@ yellow: #FEB700
 /* YELLOW */
 
 .arc .yellow {
-  color: #FDB913;
+  color: #FDB913 !important;
 }
 
 .arc .bg-yellow {
@@ -94,7 +94,7 @@ yellow: #FEB700
 /* PINK */
 
 .arc .pink {
-  color: #C32762;
+  color: #C32762 !important;
 }
 
 .arc .bg-pink-tdr {
@@ -102,7 +102,7 @@ yellow: #FEB700
 }
 
 .arc .pink-tdr {
-  color: #ED217C;
+  color: #ED217C !important;
 }
 
 .arc .bg-pink {
@@ -113,7 +113,7 @@ yellow: #FEB700
 /* ORANGE */
 
 .arc .orange {
-  color: #E85252;
+  color: #E85252 !important;
 }
 
 .arc .bg-orange {
