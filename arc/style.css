@@ -265,10 +265,14 @@ a {
   background: #C32762;
 }
 
-.a-propos .steps h2.white:after {
+.a-propos .steps h2.white:after,
+.triathlon-des-roses-2020 .steps.bg-pink-tdr h2:after {
   background: #ffffff;
 }
 
+.triathlon-des-roses-2020 .steps h2:after {
+  background: #ec207c;
+}
 
 .arc .card-bm {
   width: 32%;
