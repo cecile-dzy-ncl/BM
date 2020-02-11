@@ -286,6 +286,10 @@ a {
   padding-right: 0;
 }
 
+#projects-widget #wrapper {
+  background: transparent;
+}
+
 
 /* HEADER & FOOTER */
 
