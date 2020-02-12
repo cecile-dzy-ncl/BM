@@ -35,6 +35,7 @@ $( document ).ready(function() {
       // var com = response.match(/<title>Relais du Cœur - La Grande Collecte 2019<\/title>/);
       var bloc = response.match(/<div class="wrapper wrapper-help bg-darkblue">\[ ([.*]) \]<\/div>/);
       console.log(bloc);
+      $(".section-events").after(bloc);
     });
 
   }});
