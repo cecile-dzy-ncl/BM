@@ -425,11 +425,11 @@ ul.button-group.radius.event-goup-btn {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding-top: 5px;
+  padding-top: 16px;
 }
 
 .event-item .event-details .wrap {
-  height: 311px;
+  height: 300px;
 }
 
 .section-events .event-item .infos-money .amount {
