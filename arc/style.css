@@ -372,9 +372,11 @@ section.section-projet-details .project-detail-data .contributeurs i {
 .event-head > .row {
   display: flex;
   align-items: center;
+  flex-direction: column;
 }
 
-.event-head .intro-my-event {
+.event-head .intro-my-event,
+.event-head .details-my-event {
   padding: 0 50px;
 }
 
