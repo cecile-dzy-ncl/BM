@@ -389,9 +389,11 @@ section.section-projet-details .project-detail-data .contributeurs i {
   margin-top: 66px;
 }
 
-/*#projects-new #step_tab .click_tabs {
-  background: #2AABE2 !important;
-}*/
+#projects-new .btn-next {
+  margin: auto;
+  display: block;
+  width: 20%;
+}
 
 #projects-new label {
   text-align: left;
@@ -421,7 +423,7 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .controls .g-recaptcha {
-  margin: 15px auto 30px auto;
+  margin: 15px auto 30px auto !important;
 }
 
 #projects-new input[type="text"],
@@ -440,8 +442,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
 #projects-new input[type="color"],
 #projects-new select,
 #projects-new .habillage label, #projects-new .habillage p {
-    font-size: 19px;
-    line-height: 24px;
+  font-size: 19px;
+  line-height: 24px;
 }
 
 #projects-new  .large-3 {
