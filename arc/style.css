@@ -543,7 +543,9 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .arc .top-bar-section ul li > a {
-  font-family: "Lato";
+  font-family: "museo-sans";
+  font-size: 10px;
+  line-height: 13px;
 }
 
 .arc #main-nav section.top-bar-section li:not(:last-child):after {
