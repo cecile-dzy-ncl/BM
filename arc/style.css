@@ -282,6 +282,11 @@ a {
 
 /* PAGES DE COLLECTE */
 
+
+.projet-head {
+    background-color: white;
+}
+
 #project_tabs .bg-color-light {
   background: white;
 }
@@ -307,7 +312,6 @@ a {
   padding-top: 0  !important;
 }
 
-
 .row.project-detail-data.p2p-detail-data {
   padding-top: 23px !important;
 }
@@ -315,10 +319,6 @@ a {
 .social_network_send {
   filter: invert(1);
 }
-
-/*.social_network_send {
-  background-color: white !important;
-}*/
 
 .block-share-container {
   background-color: #23a8c2;
