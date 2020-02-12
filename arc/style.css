@@ -304,6 +304,11 @@ a {
   margin-top: 0 !important;
 }
 
+
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 23px !important;
+}
+
 /* HEADER & FOOTER */
 
 #projects-widget #projects li {
