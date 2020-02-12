@@ -379,6 +379,15 @@ section.section-projet-details .project-detail-data .contributeurs i {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* PAGE PROJET */
+
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: transparent;
+  border: 2px solid #1C1D33;
+  color: #1C1D33;
+}
+
+
 /* FORMS */
 
 #projects-new #step_tab .click_tabs {
