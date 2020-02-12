@@ -319,6 +319,11 @@ a {
   background-color: white !important;
 }
 
+.block-share-container {
+  background-color: #23a8c2;
+  padding-bottom: 27px;
+}
+
 /* HEADER & FOOTER */
 
 #projects-widget #projects li {
