@@ -417,7 +417,7 @@ section.section-projet-details .project-detail-data .contributeurs i {
 #form-project input[type="url"],
 #form-project input[type="color"],
 #form-project select {
-  border-color: black;
+  border-color: #1C1D33;
   background-color: white;
   width: 100%;
 }
