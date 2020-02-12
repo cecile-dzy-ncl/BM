@@ -373,6 +373,12 @@ section.section-projet-details .project-detail-data .contributeurs i {
   padding: 0 50px;
 }
 
+.event-head .intro-my-event:after {
+    top: -35px;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 /* HEADER & FOOTER */
 
 .arc #header-header {
