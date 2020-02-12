@@ -387,12 +387,14 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 .section-events .event-item .event-details .event-goup-btn .page-create {
   border: 2px solid #009cbb;
+  border-radius: 0;
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-see {
   background-color: transparent;
   border: 2px solid #1C1D33;
   color: #1C1D33;
+  border-radius: 0;
 }
 
 .event-details .row {
