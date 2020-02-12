@@ -374,9 +374,16 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .event-head .intro-my-event:after {
-    top: -35px;
-    width: 2px;
-    background-color: rgba(0, 0, 0, 0.2);
+  top: -35px;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* FORMS */
+
+#form-project .tabs a,
+#form-project .tabs .active a {
+  background-color: rgb(0, 156, 187);
 }
 
 /* HEADER & FOOTER */
