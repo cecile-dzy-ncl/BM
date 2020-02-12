@@ -301,9 +301,9 @@ a {
   font-weight: bold;
   text-align: center;
   margin-top: 0 !important;
-  min-height: auto;
-  line-height: 50px;
-  padding-top: 0;
+  min-height: auto  !important;
+  line-height: 50px  !important;
+  padding-top: 0  !important;
 }
 
 
@@ -321,7 +321,7 @@ a {
 
 .block-share-container {
   background-color: #23a8c2;
-  padding-bottom: 5px;
+  padding-bottom: 27px;
 }
 
 .block-share-container h4 {
