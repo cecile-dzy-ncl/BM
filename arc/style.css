@@ -362,6 +362,14 @@ section.section-projet-details .project-detail-data .contributeurs i {
   line-height: initial;
 }
 
+/* PAGE PROJET */
+
+.event-head > .row {
+    display: flex;
+    align-items: center;
+}
+
+
 /* HEADER & FOOTER */
 
 .arc #header-header {
