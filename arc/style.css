@@ -432,7 +432,6 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .section-events .event-item .infos-money .amount {
-  font-family: "museo-sans";
   color: #009CBB;
   font-size: 30px;
   line-height: 36px;
@@ -440,6 +439,7 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .big {
+  font-family: "museo-sans";
   color: #009cbb;
 }
 
