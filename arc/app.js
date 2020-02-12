@@ -24,6 +24,23 @@ $( document ).ready(function() {
   var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   $("#banner_section").before(bannerMaintenance);
 
+
+  $(function(){
+
+    if ($('body').is('#events-index')) {
+
+    $.get('https://collecter.fondation-arc.org', function(response) {
+      console.log(response);
+      console.log('coucou');
+      // var com = response.match(/<title>Relais du Cœur - La Grande Collecte 2019<\/title>/);
+      var com = response.match(/<div id ="list_payment" class="row">\[ ([.*]) \]<\/div>/);
+      console.log(com);
+    });
+
+  }});
+
+
+
 });
 
 
