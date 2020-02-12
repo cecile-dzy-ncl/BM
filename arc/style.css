@@ -299,9 +299,11 @@ a {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: bold;
-  line-height: 55px;
   text-align: center;
   margin-top: 0 !important;
+  min-height: auto;
+  line-height: 50px;
+  padding-top: 0;
 }
 
 
