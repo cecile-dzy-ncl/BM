@@ -385,6 +385,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
   background: #f5F5F5;
 }
 
+.section-events .event-item .event-details .event-goup-btn .page-create {
+  border: 2px solid #1C1D33;
+}
+
 .section-events .event-item .event-details .event-goup-btn .page-see {
   background-color: transparent;
   border: 2px solid #1C1D33;
@@ -405,7 +409,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
   width: 100%;
 }
 
-.event-item .panel .event-details .wrap, .event-item .panel .event-details .wrap p {
+.event-item .panel .event-details .wrap,
+.event-item .panel .event-details .wrap p {
   text-align: center !important;
 }
 
