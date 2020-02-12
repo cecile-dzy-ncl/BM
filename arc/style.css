@@ -381,9 +381,71 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 /* FORMS */
 
-#form-project .tabs a,
-#form-project .tabs .active a {
+#projects-new #step_tab .click_tabs {
   background-color: rgb(0, 156, 187);
+}
+
+#projects-new #step_tab {
+  margin-top: 66px;
+}
+
+/*#projects-new #step_tab .click_tabs {
+  background: #2AABE2 !important;
+}*/
+
+#projects-new label {
+  text-align: left;
+}
+.controls {
+  display: flex;
+}
+
+#form-project input[type="text"],
+#form-project input[type="password"],
+#form-project input[type="date"],
+#form-project input[type="datetime"],
+#form-project input[type="datetime-local"],
+#form-project input[type="month"],
+#form-project input[type="week"],
+#form-project input[type="email"],
+#form-project input[type="number"],
+#form-project input[type="search"],
+#form-project input[type="tel"],
+#form-project input[type="time"],
+#form-project input[type="url"],
+#form-project input[type="color"],
+#form-project select {
+  border-color: black;
+  background-color: white;
+  width: 100%;
+}
+
+.controls .g-recaptcha {
+  margin: 15px auto 30px auto;
+}
+
+#projects-new input[type="text"],
+#projects-new input[type="password"],
+#projects-new input[type="date"],
+#projects-new input[type="datetime"],
+#projects-new input[type="datetime-local"],
+#projects-new input[type="month"],
+#projects-new input[type="week"],
+#projects-new input[type="email"],
+#projects-new input[type="number"],
+#projects-new input[type="search"],
+#projects-new input[type="tel"],
+#projects-new input[type="time"],
+#projects-new input[type="url"],
+#projects-new input[type="color"],
+#projects-new select,
+#projects-new .habillage label, #projects-new .habillage p {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+#projects-new  .large-3 {
+  width: 100%;
 }
 
 /* HEADER & FOOTER */
