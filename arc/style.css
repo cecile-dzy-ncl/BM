@@ -284,7 +284,7 @@ a {
 
 
 .projet-head {
-    background-color: white;
+  background-color: white;
 }
 
 #project_tabs .bg-color-light {
@@ -342,23 +342,27 @@ a {
 }
 
 #projects-show .current-amount {
-    font-size: 50px;
-    line-height: 60px;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 #projects-show #show_days span,
 #projects-show .contributeurs span {
-    font-size: 30px;
-    line-height: 36px;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 #projects-show .current-amount,
 #projects-show .percent,
 #projects-show #show_days span,
 #projects-show .contributeurs span {
-    font-family: "museo-sans";
+  font-family: "museo-sans";
 }
 
+section.section-projet-details .project-detail-data .contributeurs i {
+  font-size: 33px;
+  line-height: initial;
+}
 
 /* HEADER & FOOTER */
 
