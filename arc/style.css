@@ -316,7 +316,8 @@ a {
   padding-top: 23px !important;
 }
 
-.social_network_send {
+.social_network_send,
+.social_network_share {
   filter: invert(1);
 }
 
@@ -338,6 +339,16 @@ a {
 
 #projects-widget #wrapper {
   background: #F5F5F5;
+}
+
+#projects-show .current-amount {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+#projects-show .current-amount,
+#projects-show .percent {
+    font-family: "museo-sans";
 }
 
 
