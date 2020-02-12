@@ -346,8 +346,16 @@ a {
     line-height: 60px;
 }
 
+#projects-show #show_days span,
+#projects-show .contributeurs span {
+    font-size: 50px;
+    line-height: 60px;
+}
+
 #projects-show .current-amount,
-#projects-show .percent {
+#projects-show .percent,
+#projects-show #show_days span,
+#projects-show .contributeurs span {
     font-family: "museo-sans";
 }
 
