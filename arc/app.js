@@ -13,7 +13,7 @@ $( document ).ready(function() {
   $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
 
   // AJOUT INTRO PAGE EVENTS
-  var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au proft de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href="" class='blue'>nous contacter</a> et à profiter de nos <a href="" class='blue'>conseils et outils.</a></p></div>")
+  var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au proft de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href="" class='blue'>nous contacter</a> et à profiter de nos <a href="" class='blue'>conseils et outils.</a></p></div>")
   $('.events .first-section').before(textIntroEvents);
 
   // AJOUT INTRO PAGE PROJETS
