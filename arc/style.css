@@ -542,6 +542,10 @@ ul.button-group.radius.event-goup-btn {
   border-bottom: 1px solid #979797;
 }
 
+.arc .top-bar-section ul li > a {
+  font-family: "Lato";
+}
+
 .arc #main-nav section.top-bar-section li:not(:last-child):after {
   background: #979797 !important;
 }
