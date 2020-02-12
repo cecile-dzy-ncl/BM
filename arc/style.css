@@ -458,6 +458,12 @@ ul.button-group.radius.event-goup-btn {
   color: #009cbb;
 }
 
+/* CONSEILS OUTILS */
+
+.pages-show.conseils .steps h2:after {
+  background: #009CBB;
+}
+
 /* FORMS */
 
 #projects-new #step_tab .click_tabs {
