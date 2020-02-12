@@ -411,6 +411,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
   width: 100%;
 }
 
+.event-item .panel .event-details .wrap {
+    padding: 60px 80px 0;
+}
+
 .event-item .panel .event-details .wrap,
 .event-item .panel .event-details .wrap p {
   text-align: center !important;
