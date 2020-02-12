@@ -367,12 +367,12 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 .event-head {
   display: flex;
+  flex-direction: column;
 }
 
 .event-head > .row {
   display: flex;
   align-items: center;
-  flex-direction: column;
 }
 
 
