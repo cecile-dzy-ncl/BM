@@ -279,6 +279,16 @@ a {
 }
 
 
+/* PAGES DE COLLECTE */
+
+#project_tabs .bg-color-light {
+    background: white;
+}
+
+.project_content p {
+    text-align: left;
+}
+
 /* HEADER & FOOTER */
 
 #projects-widget #projects li {
