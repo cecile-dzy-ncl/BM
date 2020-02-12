@@ -386,6 +386,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
   display: none;
 }
 
+#events-index .first-section {
+  padding-top: 0;
+}
+
 .section-events .event-item .event-details {
   background: #f5F5F5;
 }
