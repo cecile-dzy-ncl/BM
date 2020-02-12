@@ -404,7 +404,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
   border: 2px solid #009cbb;
 }
 
-.section-events .event-item .event-details .event-goup-btn .page-see {
+.section-events .event-item .event-details .event-goup-btn .page-see,
+.section-home-projects .button {
   background-color: transparent;
   border: 2px solid #1C1D33;
   color: #1C1D33;
