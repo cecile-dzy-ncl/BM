@@ -404,7 +404,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
 /* PAGE EVENTS */
 
 
-#events-index h1 {
+#events-index h1,
+.infos-money .chart-wrap {
   display: none;
 }
 
