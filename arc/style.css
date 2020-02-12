@@ -529,7 +529,12 @@ ul.button-group.radius.event-goup-btn {
   padding: 20px 0
 }
 
-.arc header.main-header .top-bar-section {
-  background: #FFFFFF !important;
+.arc #main-nav .top-bar-section {
+    background-color: #fff;
+    border-bottom: 1px solid #979797;
+}
+
+.arc #main-nav section.top-bar-section li:not(:last-child):after {
+    background: #979797 !important;
 }
 
