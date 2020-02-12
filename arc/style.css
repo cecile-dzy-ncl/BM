@@ -365,10 +365,13 @@ section.section-projet-details .project-detail-data .contributeurs i {
 /* PAGE PROJET */
 
 .event-head > .row {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
+.event-head .intro-my-event {
+  padding: 0 50px;
+}
 
 /* HEADER & FOOTER */
 
