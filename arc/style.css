@@ -379,7 +379,11 @@ section.section-projet-details .project-detail-data .contributeurs i {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* PAGE PROJET */
+/* PAGE EVENTS */
+
+.section-events .event-item .event-details {
+  background: #f5F5F5;
+}
 
 .section-events .event-item .event-details .event-goup-btn .page-see {
   background-color: transparent;
@@ -387,6 +391,44 @@ section.section-projet-details .project-detail-data .contributeurs i {
   color: #1C1D33;
 }
 
+.event-details .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-events .event-item .event-description .infos,
+.section-events .event-item .infos-money .projets {
+  display: none;
+}
+
+.event-details .medium-7, .event-details .medium-4 {
+  width: 100%;
+}
+
+.event-item .panel .event-details .wrap, .event-item .panel .event-details .wrap p {
+  text-align: center !important;
+}
+
+ul.button-group.radius.event-goup-btn {
+  position: initial !important;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.event-item .event-details .wrap {
+  height: 311px;
+}
+
+.section-events .event-item .infos-money .amount {
+  color: #2cac98;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.big {
+  margin-right: 25px;
+}
 
 /* FORMS */
 
