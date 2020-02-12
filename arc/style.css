@@ -365,6 +365,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 /* PAGE PROJET */
 
+.event-head {
+  display: flex;
+}
+
 .event-head > .row {
   display: flex;
   align-items: center;
