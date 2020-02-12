@@ -538,7 +538,7 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .arc #main-nav .top-bar-section {
-  background-color: #fff;
+  background-color: #fff !important;
   border-bottom: 1px solid #979797;
 }
 
