@@ -7,7 +7,7 @@ $( document ).ready(function() {
   $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
 
-  // $(".project_boutons_give").html("Faire un don");
+  $(".project_boutons_give").html("Faire un don");
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
