@@ -287,6 +287,7 @@ a {
   background-color: white;
 }
 
+#events-show .bg-color-light-blurred,
 #project_tabs .bg-color-light {
   background: white;
 }
