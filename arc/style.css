@@ -381,10 +381,14 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 /* PAGE EVENTS */
 
+
+#events-index h1 {
+  display: none;
+}
+
 .section-events .event-item .event-details {
   background: #f5F5F5;
 }
-
 
 .section-events .event-item .event-details .event-goup-btn .page-create,
 .section-events .event-item .event-details .event-goup-btn .page-see {
@@ -417,7 +421,7 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .event-item .panel .event-details .wrap {
-    padding: 60px 80px 0;
+  padding: 60px 80px 0;
 }
 
 .event-item .panel .event-details .wrap,
@@ -530,11 +534,11 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .arc #main-nav .top-bar-section {
-    background-color: #fff;
-    border-bottom: 1px solid #979797;
+  background-color: #fff;
+  border-bottom: 1px solid #979797;
 }
 
 .arc #main-nav section.top-bar-section li:not(:last-child):after {
-    background: #979797 !important;
+  background: #979797 !important;
 }
 
