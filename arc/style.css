@@ -54,6 +54,7 @@ pink-tdr: #ED217C
 blue: #009CBB
 darkblue: #233355
 green: #4CA76B
+green-m: #005B42
 orange: #E85252
 
 lightblue: #E9F4FD
@@ -232,6 +233,10 @@ a {
 .marathon-de-paris-2020-fr .banner {
   background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/bannermarathon.png);
   background-size: cover;
+}
+
+.marathon-de-paris-2020-fr .banner h1 {
+  color: #005B42;
 }
 
 .banner-text {
