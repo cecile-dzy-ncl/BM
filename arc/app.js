@@ -33,8 +33,8 @@ $( document ).ready(function() {
       console.log(response);
       console.log('coucou');
       // var com = response.match(/<title>Relais du Cœur - La Grande Collecte 2019<\/title>/);
-      var com = response.match(/<div id ="list_payment" class="row">\[ ([.*]) \]<\/div>/);
-      console.log(com);
+      var bloc = response.match(/<div class="wrapper wrapper-help bg-darkblue">\[ ([.*]) \]<\/div>/);
+      console.log(bloc);
     });
 
   }});
