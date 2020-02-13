@@ -634,4 +634,9 @@ header.main-header .header-spacer {
     height: auto;
   }
 
+  .arc .card-bm-description {
+    height: auto !important;
+    padding: 20px 18px!important;
+  }
+
 }
