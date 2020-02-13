@@ -656,5 +656,9 @@ header.main-header .header-spacer {
     margin: 0;
   }
 
+  .event-item .panel .event-image .wrap {
+    height: 340px;
+  }
+
 
 }
