@@ -20,7 +20,7 @@ $( document ).ready(function() {
   // var textIntroProjects = ("<div class='container-small-bm mt-50'><h2>Retrouver et soutenir une collecte</h2></div>")
   // $('.projects .first-section').before(textIntroProjects);
 
-  // AJOUT BANNER MAINTENANCE
+  // AJOUT WRAPPER OUTILS
   var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   $("#banner_section").before(bannerMaintenance);
 
