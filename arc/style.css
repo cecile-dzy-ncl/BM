@@ -382,6 +382,11 @@ section.section-projet-details .project-detail-data .contributeurs i {
   line-height: initial;
 }
 
+.project_event_description {
+    width: 100%;
+    padding: 0;
+}
+
 /* PAGE PROJET */
 
 .event-head {
