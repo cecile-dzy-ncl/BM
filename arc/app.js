@@ -25,7 +25,7 @@ $( document ).ready(function() {
   $("#banner_section").before(bannerMaintenance);
 
   // AJOUT BOUTON NAVBAR
-  $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
+  $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
 
   $(function(){
