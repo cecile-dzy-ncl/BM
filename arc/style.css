@@ -568,6 +568,10 @@ ul.button-group.radius.event-goup-btn {
 
 /* HEADER & FOOTER */
 
+.header-spacer {
+    padding-top: 0;
+}
+
 .arc #header-header {
   align-items: center;
   justify-content: center;
