@@ -628,16 +628,18 @@ header.main-header .header-spacer {
 
 @media screen and (max-width: 500px) {
 
+
   .arc .banner {
     background: white;
   }
-
 
   .banner-text {
     width: 80%;
     margin: auto;
     height: auto;
   }
+
+  /*homepage*/
 
   .arc .card-bm-description {
     height: auto !important;
@@ -646,6 +648,12 @@ header.main-header .header-spacer {
 
   .card {
     padding: 15px;
+  }
+
+  /*Page events*/
+
+  #events-index ul#events {
+    margin: 0;
   }
 
 
