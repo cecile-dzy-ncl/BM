@@ -387,6 +387,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
     padding: 0;
 }
 
+.project_event_description h2:after {
+  background: #34a8c1;
+}
+
 /* PAGE PROJET */
 
 .event-head {
