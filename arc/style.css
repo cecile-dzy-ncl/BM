@@ -568,7 +568,7 @@ ul.button-group.radius.event-goup-btn {
 
 /* HEADER & FOOTER */
 
-.header-spacer {
+header.main-header .header-spacer {
     padding-top: 0;
 }
 
