@@ -624,14 +624,13 @@ header.main-header .header-spacer {
 
 @media screen and (max-width: 500px) {
 
-  .banner {
+  .arc .banner {
     background: white;
   }
 
   .banner-text {
     width: 80%;
     margin: auto;
-    background: red;
     height: auto;
   }
 
