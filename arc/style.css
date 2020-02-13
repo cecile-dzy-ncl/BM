@@ -364,6 +364,10 @@ a {
   line-height: 60px;
 }
 
+#projects-show .bg-secondary-color-blurred {
+  background-color: #009CBB;
+}
+
 #projects-show #show_days span,
 #projects-show .contributeurs span {
   font-size: 30px;
@@ -383,8 +387,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .project_event_description {
-    width: 100%;
-    padding: 0;
+  width: 100%;
+  padding: 0;
 }
 
 .project_event_description h2:after {
@@ -578,7 +582,7 @@ ul.button-group.radius.event-goup-btn {
 /* HEADER & FOOTER */
 
 header.main-header .header-spacer {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .arc #header-header {
@@ -612,5 +616,5 @@ header.main-header .header-spacer {
     right: 0;
     display: initial;
     position: absolute;
-}*/
+    }*/
 
