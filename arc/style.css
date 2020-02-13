@@ -569,7 +569,7 @@ ul.button-group.radius.event-goup-btn {
 /* HEADER & FOOTER */
 
 header.main-header .header-spacer {
-    padding-top: 0;
+    padding-top: 15px;
 }
 
 .arc #header-header {
