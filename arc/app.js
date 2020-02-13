@@ -39,7 +39,7 @@ $( document ).ready(function() {
     $(".banner-text p").removeClass("white");
     $(".steps img").removeClass("ml-60");
     $(".a-propos .steps").removeClass("w-50");
-    $(".card").removeClass("ml-130");
+    $(".card").removeClass("ml-130").removeClass("mr-130");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
     $(".mobile .projet-head .user").removeClass(".right");
