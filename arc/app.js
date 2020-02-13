@@ -35,9 +35,9 @@ $( document ).ready(function() {
 
   if(windowWidth < 500){
     $("body").addClass("mobile");
-    $(".phone").removeClass("position-absolute");
     $(".banner-text h2").removeClass("white");
     $(".banner-text p").removeClass("white");
+    $(".banner-text img").removeClass("ml-60");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
     $(".mobile .projet-head .user").removeClass(".right");
