@@ -57,31 +57,30 @@ $( document ).ready(function() {
 
     if ($('body').is('#events-index')) {
 
-    $.get('https://collecter.fondation-arc.org', function(response) {
-      console.log(response);
-      console.log('coucou');
+    // $.get('https://collecter.fondation-arc.org', function(response) {
+    //   console.log(response);
+    //   console.log('coucou');
 
-      var com = response.match(/<title>Relais du Cœur - La Grande Collecte 2019<\/title>/);
-      var bloc = response.match(/<div class="wrapper wrapper-help bg-darkblue">\[ ([.*]) \]<\/div>/);
-      console.log(bloc);
-      $(".section-events").after(bloc);
-    });
+    //   var bloc = response.match(/<div class="wrapper wrapper-help bg-darkblue">\[ ([.*]) \]<\/div>/);
+    //   console.log(bloc);
+    //   $(".section-events").after(bloc);
+    // });
 
-      // $.ajax({
-      //   url: "https://collecter.fondation-arc.org",
-      //   // data: {
-      //   //     txtsearch: $('#appendedInputButton').val()
-      //   // },
-      //   type: "GET",
-      //   dataType: "html",
-      //   success: function (data) {
-      //     console.log(data);
-      //     var wrapper = data.find($(".wrapper-help"));
-      //     console.log(wrapper);
-      //       // var result = $('<div />').append(data).find('#showresults').html();
-      //       // $('#showresults').html(result);
-      //   }
-      // });
+      $.ajax({
+        url: "https://collecter.fondation-arc.org",
+        // data: {
+        //     txtsearch: $('#appendedInputButton').val()
+        // },
+        type: "GET",
+        dataType: "html",
+        success: function (data) {
+          console.log(data);
+          var wrapper = data.find($(".wrapper-help"));
+          console.log(wrapper);
+            // var result = $('<div />').append(data).find('#showresults').html();
+            // $('#showresults').html(result);
+        }
+      });
 
     }
   });
