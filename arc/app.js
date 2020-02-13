@@ -38,6 +38,7 @@ $( document ).ready(function() {
     $(".banner-text h2").removeClass("white");
     $(".banner-text p").removeClass("white");
     $(".steps img").removeClass("ml-60");
+    $(".a-propos .steps").removeClass("w-50");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
     $(".mobile .projet-head .user").removeClass(".right");
