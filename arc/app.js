@@ -75,7 +75,7 @@ $( document ).ready(function() {
         dataType: "html",
         success: function (data) {
           console.log(typeof(data));
-          // console.log(data.type());
+          console.log(data);
 
           var wrapper = data.find($(".wrapper-help"));
           console.log(wrapper);
