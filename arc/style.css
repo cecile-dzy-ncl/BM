@@ -643,5 +643,9 @@ header.main-header .header-spacer {
     padding: 20px 18px!important;
   }
 
+  .card {
+    padding: 15px;
+  }
+
 
 }
