@@ -273,6 +273,7 @@ a {
   left: auto;
 }
 
+.steps.bg-pattern h2:after,
 .steps.bg-grey h2:after {
   background: #009CBB;
 }
