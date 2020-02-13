@@ -75,8 +75,10 @@ $( document ).ready(function() {
         dataType: "html",
         success: function (data) {
           console.log(data);
+
           var wrapper = data.find($(".wrapper-help"));
           console.log(wrapper);
+          console.log(wrapper.type());
             // var result = $('<div />').append(data).find('#showresults').html();
             // $('#showresults').html(result);
         }
