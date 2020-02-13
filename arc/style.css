@@ -618,3 +618,14 @@ header.main-header .header-spacer {
     position: absolute;
     }*/
 
+
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  .banner {
+    background: white;
+  }
+
+}
