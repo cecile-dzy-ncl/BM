@@ -594,3 +594,14 @@ ul.button-group.radius.event-goup-btn {
   background: #979797 !important;
 }
 
+.top-bar.left:after {
+    content: "SOUTENIR UNE COLLECTE";
+    background-color: #C32762;
+    color: white;
+    padding: 8px;
+    top: 0;
+    right: 0;
+    display: initial;
+    position: absolute;
+}
+
