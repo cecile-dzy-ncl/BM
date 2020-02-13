@@ -28,6 +28,27 @@ $( document ).ready(function() {
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
 
+
+// --------- RESPONSIVE ---------
+
+  var windowWidth= $(window).width();
+
+  if(windowWidth < 500){
+    $("body").addClass("mobile");
+    $(".phone").removeClass("position-absolute");
+    $(".banner-text h2").removeClass("white");
+    $(".mobile .h-360").removeClass("h-360");
+    $(".mobile .steps .mt-50").removeClass(".mt-50");
+    $(".mobile .projet-head .user").removeClass(".right");
+    $(".mobile .projet-head .team_by").removeClass(".left");
+    // $(".mobile img.mln-30").removeClass("mln-30");
+    $(".mobile .bx-viewport").css('height', "auto");
+  }
+
+
+
+
+
   $(function(){
 
     if ($('body').is('#events-index')) {
