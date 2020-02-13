@@ -37,6 +37,7 @@ $( document ).ready(function() {
     $("body").addClass("mobile");
     $(".phone").removeClass("position-absolute");
     $(".banner-text h2").removeClass("white");
+    $(".banner-text p").removeClass("white");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
     $(".mobile .projet-head .user").removeClass(".right");
