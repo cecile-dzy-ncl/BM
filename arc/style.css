@@ -628,4 +628,11 @@ header.main-header .header-spacer {
     background: white;
   }
 
+  .banner-text {
+    width: 80%;
+    margin: auto;
+    background: red;
+    height: auto;
+  }
+
 }
