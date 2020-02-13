@@ -275,6 +275,10 @@ a {
   bottom: -20px;
 }
 
+.steps .card h2:after {
+  content: none;
+}
+
 .steps h2.text-right:after {
   right: 0;
   left: auto;
