@@ -305,6 +305,9 @@ a {
 
 /* PAGES DE COLLECTE */
 
+.projet-head .bg-color-light {
+    background-color: #009cbb;
+}
 
 .projet-head {
   background-color: white;
