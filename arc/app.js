@@ -17,7 +17,7 @@ $( document ).ready(function() {
   $('.events .first-section').before(textIntroEvents);
 
   // AJOUT INTRO PAGE PROJETS
-  var textIntroProjects = ("<div class='container-small-bm text-center black mt-50'><h2>Retrouver et soutenir une collecte</h2></div>")
+  var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
   $('.projects .first-section').before(textIntroProjects);
 
   // AJOUT WRAPPER OUTILS

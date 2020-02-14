@@ -506,6 +506,10 @@ ul.button-group.radius.event-goup-btn {
   color: #009cbb;
 }
 
+#projects-index h1 {
+  display: none;
+}
+
 /* CONSEILS OUTILS */
 
 .pages-show.conseils .steps h2:after {
