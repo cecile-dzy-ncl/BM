@@ -510,6 +510,10 @@ ul.button-group.radius.event-goup-btn {
   display: none;
 }
 
+.projects-list .panel {
+    background: #F0F0F0;
+}
+
 /* CONSEILS OUTILS */
 
 .pages-show.conseils .steps h2:after {
