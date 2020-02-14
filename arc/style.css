@@ -687,4 +687,8 @@ header.main-header .header-spacer {
   .mobile #wrapper .global-container {
     overflow: hidden;
   }
+
+  .container-small-bm.mobile_flex-column:nth-of-type(odd) > div {
+    order: 1;
+  }
 }
