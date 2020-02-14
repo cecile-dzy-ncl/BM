@@ -371,7 +371,8 @@ a {
   line-height: 60px;
 }
 
-#projects-show .bg-secondary-color-blurred {
+#projects-show .section-projet-details .bg-secondary-color-blurred,
+#projects-show .section-projet-details ..bg-color-light {
   background-color: #009CBB;
 }
 
