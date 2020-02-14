@@ -684,5 +684,7 @@ header.main-header .header-spacer {
     height: 340px;
   }
 
-
+  .mobile #wrapper .global-container {
+    overflow: hidden;
+  }
 }
