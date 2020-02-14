@@ -517,6 +517,10 @@ ul.button-group.radius.event-goup-btn {
     background: #F0F0F0;
 }
 
+.homepage .projects-list .panel {
+    background: #FFF;
+}
+
 /* CONSEILS OUTILS */
 
 .pages-show.conseils .steps h2:after {
