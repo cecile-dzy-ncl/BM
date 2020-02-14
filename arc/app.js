@@ -54,6 +54,7 @@ $( document ).ready(function() {
     $(".steps").removeClass("pt-150").removeClass("pb-100");
     $(".a-propos .steps").removeClass("w-50");
     $(".a-propos .w-80").removeClass("w-80");
+    $(".mobile.conseils .w-66").removeClass("w-66");
     $(".card").removeClass("ml-130").removeClass("mr-130");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile .steps .mt-50").removeClass(".mt-50");
