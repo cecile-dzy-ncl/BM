@@ -50,6 +50,7 @@ $( document ).ready(function() {
     $(".banner-text h2").removeClass("white");
     $(".banner-text p").removeClass("white");
     $(".steps img").removeClass("ml-60");
+    $(".steps").removeClass("pt-150").removeClass("pb-100");
     $(".a-propos .steps").removeClass("w-50");
     $(".a-propos .w-80").removeClass("w-80");
     $(".card").removeClass("ml-130").removeClass("mr-130");
