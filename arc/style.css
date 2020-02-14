@@ -521,6 +521,14 @@ ul.button-group.radius.event-goup-btn {
     background: #FFF;
 }
 
+.section-home-projects .button {
+    display: block;
+    margin: 0 auto 40px;
+    float: none !important;
+    width: 20%;
+    text-transform: uppercase;
+}
+
 /* CONSEILS OUTILS */
 
 .pages-show.conseils .steps h2:after {
