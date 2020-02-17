@@ -695,4 +695,8 @@ header.main-header .header-spacer {
   .section-home-projects .button {
     width: 40%;
   }
+
+  .projet-head .small-12.medium-9.columns {
+    background: white;
+}
 }
