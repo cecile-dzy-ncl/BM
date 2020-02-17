@@ -691,4 +691,8 @@ header.main-header .header-spacer {
   .container-small-bm.mobile_flex-column:nth-of-type(odd) > div {
     order: 1;
   }
+
+  .section-home-projects .button {
+    width: 40%;
+  }
 }
