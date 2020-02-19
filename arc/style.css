@@ -370,8 +370,7 @@ a {
   line-height: 60px;
 }
 
-#projects-show .section-projet-details .bg-secondary-color-blurred,
-#projects-show .section-projet-details .bg-color-light {
+#projects-show .section-projet-details .bg-secondary-color-blurred {
   background-color: #009CBB;
 }
 
