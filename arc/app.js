@@ -22,8 +22,8 @@ $( document ).ready(function() {
   $('.projects .first-section').before(textIntroProjects);
 
   // AJOUT WRAPPER OUTILS
-  var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
-  $("#banner_section").before(bannerMaintenance);
+  //var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
+  //$("#banner_section").before(bannerMaintenance);
 
   // AJOUT BANNER MAINTENANCE
   var wrapperOutils = (`<!-- BLOC OUTILS -->
