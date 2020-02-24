@@ -668,7 +668,13 @@ header.main-header .header-spacer {
     position: absolute;
     }*/
 
-
+section#header-header .top-bar-section .button.left {
+  background: none;
+  border: 2px solid black;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 /* ------ RESPONSIVE ------ */
 
