@@ -21,11 +21,15 @@ $( document ).ready(function() {
   var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
   $('.projects .first-section').before(textIntroProjects);
 
-  // AJOUT WRAPPER OUTILS
+  // AJOUT INTRO PAGE CONTACT
+  var textIntroContact = ("<div class='container-small-bm text-center mt-50'>Pour toute question sur votre collecte ou sur la Fondation ARC, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.</div>")
+  $('#contact_forms-new .first-section').before(textIntroContact);
+
+  // AJOUT BANNER MAINTENANCE
   //var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   //$("#banner_section").before(bannerMaintenance);
 
-  // AJOUT BANNER MAINTENANCE
+  // AJOUT WRAPPER OUTILS
   var wrapperOutils = (`<!-- BLOC OUTILS -->
     <div class="wrapper wrapper-help bg-darkblue">
     <div class="container-small-bm">
