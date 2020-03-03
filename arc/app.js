@@ -22,7 +22,7 @@ $( document ).ready(function() {
   $('.projects .first-section').before(textIntroProjects);
 
   // AJOUT INTRO PAGE CONTACT
-  var textIntroContact = ("Pour toute question sur votre collecte ou sur la Fondation ARC,</br> n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.")
+  var textIntroContact = ("Pour toute question sur votre collecte ou sur la Fondation ARC, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.")
   $('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
 
   // AJOUT BANNER MAINTENANCE
