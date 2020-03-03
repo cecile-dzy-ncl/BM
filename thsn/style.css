@@ -73,4 +73,15 @@ yellow: #FEB700
   background: black;
   /*background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06…Id225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/homepagebannerarc.jpg);*/
   background-size: cover;
+  height: 540px;
+  justify-content: flex-end;
+}
+
+.homepage .banner {
+  width: 560px;
+  margin-right: 150px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
