@@ -497,6 +497,22 @@ li.event-item:nth-of-type(4) {
     order: 2;
 }
 
+li.event-item:nth-of-type(5) {
+    order: 2;
+}
+
+li.event-item:nth-of-type(6) {
+    order: 2;
+}
+
+li.event-item:nth-of-type(7) {
+    order: 2;
+}
+
+li.event-item:nth-of-type(8) {
+    order: 2;
+}
+
 .event-item .panel .event-details .wrap {
   padding: 60px 80px 0;
 }
