@@ -878,6 +878,10 @@ section#header-header {
   width: auto;
 }
 
+#form-contact input.button {
+  margin-bottom: 50px;
+}
+
 /* CARDS */
 
 .row-bm {
