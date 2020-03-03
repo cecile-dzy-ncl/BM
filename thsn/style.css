@@ -77,11 +77,16 @@ yellow: #FEB700
   justify-content: flex-end;
 }
 
-.homepage .banner {
-  width: 560px;
+.homepage .banner-text {
+  width: 570px;
   margin-right: 150px;
   height: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+
+.homepage .banner-text h1 {
+  font-size: 80px;
 }
