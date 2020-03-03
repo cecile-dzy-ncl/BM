@@ -23,7 +23,7 @@ $( document ).ready(function() {
 
   // AJOUT INTRO PAGE CONTACT
   var textIntroContact = ("<div class='container-small-bm text-center mt-50'>Pour toute question sur votre collecte ou sur la Fondation ARC,</br> n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.</div>")
-  $('#contact_forms-new .first-section').before(textIntroContact);
+  $('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
 
   // AJOUT BANNER MAINTENANCE
   //var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
