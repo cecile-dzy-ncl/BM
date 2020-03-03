@@ -1,0 +1,69 @@
+/* ------------------- COLORS ------------------- */
+
+/*
+red : #C21B17
+orange: #FF7500
+purple: #982B95;
+
+
+
+pink: #C32762
+pink-tdr: #ED217C
+blue: #009CBB
+darkblue: #233355
+green: #4CA76B
+green-m: #005B42
+lightblue: #E9F4FD
+yellow: #FEB700
+
+*/
+
+
+
+
+.bg-red {
+  background: #C21B17;
+}
+
+.red {
+  color: #C21B17;
+}
+
+
+.bg-orange {
+  background: #FF7500;
+}
+
+.orange {
+  color: #FF7500;
+}
+
+.bg-purple {
+  background: #982B95;
+}
+
+.purple {
+  color: #982B95;
+}
+
+
+
+
+/* -------------------- BUTTONS -------------------- */
+
+.btn-thsn {
+  border: 3px solid #C21B17;
+  border-radius: 25px;
+}
+
+
+
+
+
+/* -------------------- BANNERS -------------------- */
+
+.homepage .banner {
+  background: black;
+  /*background: url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06…Id225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/homepagebannerarc.jpg);*/
+  background-size: cover;
+}
