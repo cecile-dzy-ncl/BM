@@ -250,6 +250,10 @@ img {
   border: 1px solid;
 }
 
+.border-0 {
+  border: none;
+}
+
 /* - margins & paddings - */
 
 .m-auto {
