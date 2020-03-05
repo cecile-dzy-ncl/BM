@@ -61,6 +61,8 @@ yellow: #FEB700
 .thsn .btn-bm {
   border: 3px solid #C21B17;
   border-radius: 25px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 
