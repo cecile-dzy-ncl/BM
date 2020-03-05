@@ -251,7 +251,7 @@ img {
 }
 
 .border-0 {
-  border: none;
+  border: none !important;
 }
 
 /* - margins & paddings - */
