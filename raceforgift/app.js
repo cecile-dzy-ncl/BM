@@ -98,3 +98,6 @@
 }, function(t, e, n) {
     t.exports = n(0)
 }]);
+
+// <script src="https://dev.tisseur-de-toile.fr/externalassets/raceforgift/assets/js/app.js"></script>
+
