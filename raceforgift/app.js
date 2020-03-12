@@ -53,10 +53,10 @@
             var t = $(".amountcollect").text();
             $(".amountcollect").text(t.replace(" CHF", ""))
         }
-        if ($(".dixneuf").length > 0) {
-            var e = $(".dixneuf").text();
-            e = parseInt(e) - 19, $(".dixneuf").text(e)
-        }
+        // if ($(".dixneuf").length > 0) {
+        //     var e = $(".dixneuf").text();
+        //     e = parseInt(e) - 19, $(".dixneuf").text(e)
+        // }
         if ($(".vingt").length > 0) {
           var e = $(".vingt").text();
           e = parseInt(e) - 20, $(".vingt").text(e)
