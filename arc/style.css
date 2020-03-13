@@ -427,7 +427,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .event-head .intro-my-event:after {
-  top: -35px;
+  top: 50%;
+  transform: translatey(-50%);
   width: 2px;
   background-color: rgba(0, 0, 0, 0.2);
 }
