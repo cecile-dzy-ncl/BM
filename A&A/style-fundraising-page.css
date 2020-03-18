@@ -18,7 +18,8 @@ p, ul, li {
   align-items: center;
 }
 
-p.from_event {
+p.from_event,
+i.fa.fa-gift {
   display: none;
 }
 
