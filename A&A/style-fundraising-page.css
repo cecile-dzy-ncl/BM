@@ -58,14 +58,18 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
 section.section-projet-details .project-detail-data .jours-restants .contributeurs {
-    margin-top: 1.4rem;
-    margin-bottom: 1rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section.section-projet-details .project-detail-data .contributeurs {
+  margin-top: 0.75rem;
 }
 
 #show_days span,
 .contributeurs span {
-    font-size: 36px;
-    line-height: 27px;
+  font-size: 36px;
+  line-height: 27px;
 }
 
 section.section-projet-details .project_boutons_give {
