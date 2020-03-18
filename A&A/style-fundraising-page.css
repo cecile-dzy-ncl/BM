@@ -56,6 +56,18 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   color: #000;
 }
 
+section.section-projet-details .project-detail-data .jours-restants #show_days,
+section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+#show_days span,
+.contributeurs span {
+    font-size: 36px;
+    line-height: 27px;
+}
+
 section.section-projet-details .project_boutons_give {
   background: #FE5F5E;
   font-family: Montserrat;
