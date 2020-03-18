@@ -126,5 +126,9 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 
 .project_event_description {
+  height: 1300px;
+  width: 100%;
   background : url("https://collecter.aide-et-action.org/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project--eG3V_xg/origin/fondimagepagecollecte2x.png");
+  background-position: bottom center;
+  background-size: cover;
 }
