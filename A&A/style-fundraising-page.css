@@ -61,6 +61,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   filter: invert(1);
 }
 
+#project_tabs .bg-color-light {
+    background: white;
+}
+
 .tabs dd a {
   color: black;
   font-weight: bold;
