@@ -44,6 +44,12 @@ section.section-projet-details h1#show_title {
   box-shadow: none;
 }
 
+
+i.fi-clock,
+section.section-projet-details .infos-money .chart-wrap .percent {
+  color: #000;
+}
+
 section.section-projet-details .project_boutons_give {
   background: #FE5F5E;
   font-family: Montserrat;
