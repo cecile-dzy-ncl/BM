@@ -57,12 +57,16 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background: transparent;
 }
 
+.block-share-container {
+  padding-bottom: 3px;
+}
+
 .social_network_send, .social_network_share {
   filter: invert(1);
 }
 
 #project_tabs .bg-color-light {
-    background: white;
+  background: white;
 }
 
 .tabs dd a {
