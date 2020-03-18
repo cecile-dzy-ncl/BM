@@ -124,6 +124,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   font-family: "proximanova-regular", sans-serif;
 }
 
+section#project_tabs + section .row {
+  max-width: 100%;
+}
+
 
 .project_event_description {
   height: 1300px;
