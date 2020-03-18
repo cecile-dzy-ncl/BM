@@ -29,8 +29,12 @@ section.section-projet-details .projet-head .user {
 }
 
 section.section-projet-details h1#show_title {
-    color: #000;
-    font-size: 27px;
-    line-height: 27px;
-    margin: 0;
+  color: #000;
+  font-size: 27px;
+  line-height: 27px;
+  margin: 0;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
 }
