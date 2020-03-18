@@ -66,8 +66,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   font-weight: bold;
   font-size: 14px;
   line-height: 18px;
+  background: #F5F5F5;
 }
 
 .tabs dd.active a {
   background-color: #F9B000;
+  color: black;
 }
