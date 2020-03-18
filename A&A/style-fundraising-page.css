@@ -8,6 +8,9 @@ p, ul, li {
   color: black;
 }
 
+button {
+  background: #F9B000;
+}
 
 .section-projet-details .projet-head {
   background: white;
@@ -86,4 +89,5 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 .tabs dd.active a {
   background-color: #F9B000;
   color: black;
+  font-weight: bold;
 }
