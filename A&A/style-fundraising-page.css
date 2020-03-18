@@ -6,3 +6,20 @@
 .section-projet-details .bg-secondary-color-blurred {
   background: #F0F0F0;
 }
+
+section.section-projet-details .projet-head .user {
+  margin-right: 10px;
+}
+
+
+.projet-head .rows {
+  display: flex;
+  align-items: center;
+}
+
+section.section-projet-details h1#show_title {
+    color: #000;
+    font-size: 27px;
+    line-height: 27px;
+    margin: 0;
+}
