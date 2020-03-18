@@ -134,5 +134,7 @@ section#project_tabs + section .row {
 
 .project_event_description {
   height: 1300px;
-  /*width: 100%;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
