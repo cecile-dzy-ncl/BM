@@ -11,8 +11,8 @@ p, ul, li {
   color: black;
 }
 
-button {
-  background: #F9B000;
+.d-flex {
+  display: flex;
 }
 
 .section-projet-details .projet-head {
