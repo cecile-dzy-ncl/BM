@@ -58,5 +58,16 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .social_network_send, .social_network_share {
-    filter: invert(1);
+  filter: invert(1);
+}
+
+.tabs dd a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.tabs dd.active a {
+  background-color: #F9B000;
 }
