@@ -52,3 +52,11 @@ section.section-projet-details .project_boutons_give {
   /*line-height: 50px;*/
   min-height: auto !important;
 }
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: transparent;
+}
+
+.social_network_send, .social_network_share {
+    filter: invert(1);
+}
