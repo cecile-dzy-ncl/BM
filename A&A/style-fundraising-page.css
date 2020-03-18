@@ -42,3 +42,8 @@ section.section-projet-details h1#show_title {
 .bx-wrapper .bx-viewport {
   box-shadow: none;
 }
+
+section.section-projet-details .project_boutons_give {
+  background: #FE5F5E;
+  font-family: Montserrat;
+}
