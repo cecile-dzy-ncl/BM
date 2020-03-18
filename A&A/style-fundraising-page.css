@@ -123,3 +123,8 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: #000;
   font-family: "proximanova-regular", sans-serif;
 }
+
+
+.project_event_description {
+  background : url("https://collecter.aide-et-action.org/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project--eG3V_xg/origin/fondimagepagecollecte2x.png");
+}
