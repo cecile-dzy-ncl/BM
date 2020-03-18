@@ -1,4 +1,7 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.infos-money .current-amount,
+section.section-projet-details .project-detail-data .jours-restants span,
+section.section-projet-details .project-detail-data .contributeurs span {
   font-family: Montserrat;
   color: black;
 }
