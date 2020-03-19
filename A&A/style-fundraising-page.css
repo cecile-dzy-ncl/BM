@@ -148,9 +148,9 @@ section#project_tabs + section .row {
   content: "";
   position: absolute;
   height: 10px;
-  width: 10px;
-  background: black;
-  top: 0;
+  width: 568px;
+  background: #979797;
+  top: 80px;
 }
 
 .project_event_description .d-flex {
