@@ -144,7 +144,7 @@ section#project_tabs + section .row {
 }
 
 .project_event_description .d-flex {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .project_event_description .d-flex div {
