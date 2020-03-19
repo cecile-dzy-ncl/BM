@@ -140,7 +140,7 @@ section#project_tabs + section .row {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 60%;
 }
 
 .project_event_description .d-flex {
