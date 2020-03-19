@@ -141,6 +141,16 @@ section#project_tabs + section .row {
   flex-direction: column;
   align-items: center;
   width: 65%;
+  position: relative;
+}
+
+.project_event_description:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background: black;
+  top: 0;
 }
 
 .project_event_description .d-flex {
