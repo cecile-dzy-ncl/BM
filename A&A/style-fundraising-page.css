@@ -11,6 +11,9 @@ p, ul, li {
   color: black;
 }
 
+a {
+    color: #f9b001;
+}
 .d-flex {
   display: flex;
 }
