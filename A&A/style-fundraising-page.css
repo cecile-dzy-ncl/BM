@@ -146,4 +146,5 @@ section#project_tabs + section .row {
 
 .project_event_description .d-flex div {
   width: 70%;
+  padding-left: 50px;
 }
