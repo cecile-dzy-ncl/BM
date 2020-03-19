@@ -147,10 +147,10 @@ section#project_tabs + section .row {
 .project_event_description:before {
   content: "";
   position: absolute;
-  height: 10px;
+  height: 1px;
   width: 568px;
   background: #979797;
-  top: 80px;
+  top: -80px;
 }
 
 .project_event_description .d-flex {
