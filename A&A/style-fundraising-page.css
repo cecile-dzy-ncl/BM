@@ -143,6 +143,9 @@ section#project_tabs + section .row {
   width: 70%;
 }
 
+.project_event_description .d-flex {
+  margin-bottom: 30px;
+}
 
 .project_event_description .d-flex div {
   width: 70%;
