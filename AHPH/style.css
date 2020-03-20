@@ -149,6 +149,10 @@ i.fa.fa-gift {
   background: #F0F0F0;
 }
 
+.row.project-detail-data.p2p-detail-data {
+    padding-top: 41px;
+}
+
 section.section-projet-details .projet-head .user {
   margin-right: 10px;
 }
