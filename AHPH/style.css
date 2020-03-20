@@ -296,6 +296,11 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 
 @media screen and (max-width: 500px) {
 
+
+  .projet-head .small-12:first-child {
+      width: auto;
+  }
+
   .project_event_description {
     width: 80%;
     margin: auto !important;
