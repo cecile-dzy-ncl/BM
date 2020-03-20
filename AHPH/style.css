@@ -295,8 +295,15 @@ section.event-head {
     margin-bottom: 50px;
 }
 
+#events-show .event-head .intro-my-event {
+    padding: 40px 30px;
+}
+
 .event-head .intro-my-event:after {
-    background-color: #bbbbbb;
+  top: 50%;
+  transform: translatey(-50%);
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* ------ RESPONSIVE ------ */
