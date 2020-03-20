@@ -8,13 +8,10 @@ blue: #0061AF
 */
 
 
-
 /* BLACK */
-
 .ahph .black {
   color: #000000 !important;
 }
-
 
 /* CORAIL */
 .ahph .corail {
@@ -32,5 +29,13 @@ blue: #0061AF
 
 .ahph .bg-blue {
   background-color: #0061AF !important;
+}
+
+
+/* BANNERS */
+
+.banner.homepage {
+  background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefond2x.jpg);
+  background-size: cover;
 }
 
