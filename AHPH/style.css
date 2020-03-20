@@ -66,3 +66,7 @@ p {
   height: 600px;
 }
 
+.banner.homepage .container-small-bm {
+    align-self: flex-end;
+}
+
