@@ -297,12 +297,9 @@ section.section-projet-details .infos-money .chart-wrap .percent {
 @media screen and (max-width: 500px) {
 
   .project_event_description {
-    height: 600px;
     width: 80%;
-    margin-left: 0px !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto !important;
+    text-align: center;
   }
 
 }
