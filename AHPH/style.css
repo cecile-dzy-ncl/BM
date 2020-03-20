@@ -1,0 +1,36 @@
+/* ------------------- COLORS ------------------- */
+
+/*
+
+corail : #FE5F5E;
+blue: #0061AF
+
+*/
+
+
+
+/* BLACK */
+
+.ahph .black {
+  color: #000000 !important;
+}
+
+
+/* CORAIL */
+.ahph .corail {
+  color: #FE5F5E !important;
+}
+
+.ahph .bg-corail {
+  background: #FE5F5E !important;
+}
+
+/* BLUE */
+.ahph .blue {
+  color: #0061AF !important;
+}
+
+.ahph .bg-blue {
+  background-color: #0061AF !important;
+}
+
