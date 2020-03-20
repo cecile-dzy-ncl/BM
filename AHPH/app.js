@@ -4,7 +4,7 @@ $( document ).ready(function() {
   $("body").addClass("ahph");
 
   // $("footer ul").prependTo("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>")
-  $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer ul")
+  $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer ul.top-bar-section")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
