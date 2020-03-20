@@ -295,6 +295,10 @@ section.event-head {
     margin-bottom: 50px;
 }
 
+.event-head .intro-my-event:after {
+    background-color: #bbbbbb;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
