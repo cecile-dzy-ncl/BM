@@ -75,6 +75,11 @@ p {
   padding: 11px;
 }
 
+.main-header .button {
+  background-color: #0061AF;
+  border-color: #0061AF;
+}
+
 
 /* BANNERS & WRAPPERS */
 
