@@ -341,6 +341,10 @@ section.event-head {
     background-color: white;
   }
 
+  .banner.homepage img {
+    filter: invert(1);
+  }
+
   #header-header > .row {
     flex-direction: column;
   }
