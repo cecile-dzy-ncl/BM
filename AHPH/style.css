@@ -347,4 +347,9 @@ section.event-head {
     content: none;
   }
 
+  .habillage::after {
+    background-color: transparent;
+    width: 100vw;
+  }
+
 }
