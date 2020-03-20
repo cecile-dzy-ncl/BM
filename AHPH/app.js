@@ -3,9 +3,19 @@ $( document ).ready(function() {
 
   $("body").addClass("ahph");
 
-  // $("footer ul").prependTo("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>")
   $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
-
+  // $(".scrollDown").on("click",function(e){
+  //   e.preventDefault();
+  //   $("body,html").animate({scrollTop:(0,a["default"]))
+  // });
+  $(document).ready(function() {
+    $('.smoothScroll').on('click', function() { // Au clic sur un élément
+      var page = $(this).attr('href'); // Page cible
+      var speed = 750; // Durée de l'animation (en ms)
+      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      return false;
+    });
+  });
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
   // $('#pages-show #tag-amount').html($('#tag-amount').text().split(" €")[0])
