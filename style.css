@@ -1344,6 +1344,17 @@ label {
     padding: 0;
   }
 
+  #projects-show .notifications_intro {
+    margin: auto !important;
+    width: 80%;
+    left: 0;
+  }
+
+  .gritter-without-image p {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
