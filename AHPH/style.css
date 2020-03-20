@@ -236,40 +236,32 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   font-size: 19px;
   line-height: 24px;
   color: #000;
-  font-family: "proximanova-regular", sans-serif;
 }
 
 section#project_tabs + section .row {
   max-width: 100%;
-  background : url("https://collecter.aide-et-action.org/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project--eG3V_xg/origin/fondimagepagecollecte2x.png");
+  background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
   background-position: bottom center;
   background-size: cover;
 }
 
 
 .project_event_description {
-  height: 1300px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
   width: 65%;
   position: relative;
 }
 
-.project_event_description:before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 568px;
-  background: #979797;
-  top: -80px;
-}
+/**/
 
-.project_event_description .d-flex {
+/*.project_event_description .d-flex {
   margin-top: 30px;
 }
 
 .project_event_description .d-flex div {
   width: 70%;
   padding-left: 50px;
-}
+}*/
