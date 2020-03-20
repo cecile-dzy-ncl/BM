@@ -78,6 +78,7 @@ p {
 .main-header .button {
   background-color: #0061AF;
   border-color: #0061AF;
+  text-transform: uppercase;
 }
 
 
