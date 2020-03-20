@@ -68,7 +68,7 @@ p {
 }
 
 .people .rounded {
-    border: 0;
+  border: 0;
 }
 
 /* BUTTONS */
@@ -118,15 +118,18 @@ p {
 }
 
 .ahph header.main-header .header-spacer {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 #header-header input.icon-search {
   margin: 0;
 }
 
+/* PAGE DE COLLECTE */
 
-
+#projects-show .bg-secondary-color-blurred {
+  background: #0061AF;
+}
 
 .section-projet-details .projet-head {
   background: white;
