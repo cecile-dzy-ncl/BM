@@ -31,9 +31,9 @@ blue: #0061AF
   background-color: #0061AF !important;
 }
 
-body {
+/*body {
   font-family: "Open Sans" !important;
-}
+}*/
 
 h1 {
   font-size: 35px;
@@ -46,8 +46,8 @@ h2 {
 }
 
 p {
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 21px;
 }
 
 .ahph .container-bm {
@@ -72,6 +72,11 @@ p {
   background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefond2x.jpg);
   background-size: cover;
   height: 600px;
+}
+
+.banner.homepage p {
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .banner.homepage .container-small-bm {
