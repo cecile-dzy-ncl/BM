@@ -66,7 +66,7 @@ $( document ).ready(function() {
   if(windowWidth < 500){
     $("body").addClass("mobile");
      $(".pl-370").removeClass("pl-370");
-    $(".banner-text h2").removeClass("white");
+    $(".banner-text h2").removeClass("white").addClass("black");
     $(".banner-text p").removeClass("white");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
