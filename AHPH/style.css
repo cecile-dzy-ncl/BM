@@ -32,7 +32,7 @@ blue: #0061AF
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Open Sans" !important;
 }
 
 h1 {
