@@ -135,6 +135,10 @@ p {
   background: white;
 }
 
+section.section-projet-details .projet-head .rounded {
+    border: none;
+}
+
 .projet-head .rows {
   display: flex;
   align-items: center;
@@ -160,7 +164,7 @@ section.section-projet-details .projet-head .user {
 
 
 section.section-projet-details h1#show_title {
-  color: #000;
+  color: #0061af;
   font-size: 27px;
   line-height: 27px;
   margin: 0;
