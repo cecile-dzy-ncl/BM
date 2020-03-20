@@ -329,6 +329,14 @@ section.event-head {
     height: auto;
   }
 
+  .banner.homepage {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-color: white;
+  }
+
   #header-header > .row {
     flex-direction: column;
   }
