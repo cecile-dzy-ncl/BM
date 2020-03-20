@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
   $("body").addClass("ahph");
 
-  $("footer ul").prependTo("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>")
+  // $("footer ul").prependTo("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>")
   $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer ul")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
