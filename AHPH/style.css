@@ -41,6 +41,7 @@ blue: #0061AF
 h1 {
   font-size: 35px;
   line-height: 28px;
+  color: #0061af;
 }
 
 h2 {
@@ -64,6 +65,10 @@ p {
 
 .ahph .container-lg-bm {
   width: 1140px;
+}
+
+.people .rounded {
+    border: 0;
 }
 
 /* BUTTONS */
