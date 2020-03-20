@@ -325,6 +325,10 @@ section.event-head {
 
 @media screen and (max-width: 500px) {
 
+  h1 {
+    font-size: 30px;
+  }
+
   .banner, .banner.homepage {
     height: auto;
   }
