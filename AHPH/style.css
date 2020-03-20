@@ -31,6 +31,22 @@ blue: #0061AF
   background-color: #0061AF !important;
 }
 
+h1 {
+  font-size: 35px;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
 
 /* BANNERS */
 
