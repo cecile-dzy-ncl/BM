@@ -98,6 +98,11 @@ p {
   font-weight: bold;
 }
 
+.button {
+    background-color: #0061AF;
+    border-color: #0061AF;
+}
+
 
 /* BANNERS & WRAPPERS */
 
