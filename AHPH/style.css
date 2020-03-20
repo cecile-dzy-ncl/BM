@@ -33,7 +33,7 @@ blue: #0061AF
 
 /* GREY */
 .ahph .bg-grey {
-    background-color: #FAFAFA !important;
+  background-color: #FAFAFA !important;
 }
 
 /* GENERAL */
@@ -95,4 +95,13 @@ p {
 
 .section-home-projects {
   background: #fafafa;
+}
+
+#header-header > .row {
+  display: flex;
+  align-items: center;
+}
+
+#header-header input.icon-search {
+  margin: 0;
 }
