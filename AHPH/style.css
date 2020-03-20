@@ -102,10 +102,17 @@ p {
   background: #fafafa;
 }
 
+
+/* HEADER & FOOTER */
+
 #header-header > .row {
   display: flex;
   align-items: center;
   padding: 10px 0;
+}
+
+.ahph header.main-header .header-spacer {
+    padding-top: 0;
 }
 
 #header-header input.icon-search {
