@@ -186,6 +186,13 @@ section.section-projet-details .infos-money .chart-wrap .percent {
   color: #000;
 }*/
 
+section.section-projet-details .project-detail-data .current-amount,
+#show_days span,
+.contributeurs span {
+    font-size: 49px;
+    line-height: 50px;
+}
+
 section.section-projet-details .project-detail-data .jours-restants #show_days,
 section.section-projet-details .project-detail-data .jours-restants .contributeurs {
   margin-top: 1.4rem;
@@ -194,12 +201,6 @@ section.section-projet-details .project-detail-data .jours-restants .contributeu
 
 section.section-projet-details .project-detail-data .contributeurs {
   margin-top: 0.75rem;
-}
-
-#show_days span,
-.contributeurs span {
-  font-size: 36px;
-  line-height: 27px;
 }
 
 section.section-projet-details .project_boutons_give {
@@ -229,7 +230,8 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background: #0061AF;
 }
 
-.social_network_send, .social_network_share {
+.social_network_send, .social_network_share,
+.ask_edit_project {
   filter: invert(1);
 }
 
