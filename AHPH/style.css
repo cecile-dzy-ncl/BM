@@ -124,3 +124,150 @@ p {
 #header-header input.icon-search {
   margin: 0;
 }
+
+
+
+
+.section-projet-details .projet-head {
+  background: white;
+}
+
+.projet-head .rows {
+  display: flex;
+  align-items: center;
+}
+
+p.from_event,
+i.fa.fa-gift {
+  display: none;
+}
+
+.section-projet-details .bg-secondary-color-blurred {
+  background: #F0F0F0;
+}
+
+section.section-projet-details .projet-head .user {
+  margin-right: 10px;
+}
+
+
+
+section.section-projet-details h1#show_title {
+  color: #000;
+  font-size: 27px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+p.team_by {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
+
+i.fi-clock,
+section.section-projet-details .infos-money .chart-wrap .percent {
+  color: #000;
+}
+
+section.section-projet-details .project-detail-data .jours-restants #show_days,
+section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section.section-projet-details .project-detail-data .contributeurs {
+  margin-top: 0.75rem;
+}
+
+#show_days span,
+.contributeurs span {
+  font-size: 36px;
+  line-height: 27px;
+}
+
+section.section-projet-details .project_boutons_give {
+  background: #FE5F5E;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  height: 50px;
+  /*line-height: 50px;*/
+  min-height: auto !important;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: transparent;
+}
+
+.block-share-container {
+  padding-bottom: 3px;
+}
+
+.social_network_send, .social_network_share {
+  filter: invert(1);
+}
+
+#project_tabs .bg-color-light {
+  background: white;
+}
+
+.tabs dd a {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  background: #F5F5F5;
+}
+
+.tabs dd.active a {
+  background-color: #F9B000;
+  color: black;
+  font-weight: bold;
+}
+
+#show_description {
+  font-size: 19px;
+  line-height: 24px;
+  color: #000;
+  font-family: "proximanova-regular", sans-serif;
+}
+
+section#project_tabs + section .row {
+  max-width: 100%;
+  background : url("https://collecter.aide-et-action.org/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project--eG3V_xg/origin/fondimagepagecollecte2x.png");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+
+.project_event_description {
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  position: relative;
+}
+
+.project_event_description:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 568px;
+  background: #979797;
+  top: -80px;
+}
+
+.project_event_description .d-flex {
+  margin-top: 30px;
+}
+
+.project_event_description .d-flex div {
+  width: 70%;
+  padding-left: 50px;
+}
