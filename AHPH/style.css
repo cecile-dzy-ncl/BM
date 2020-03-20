@@ -90,6 +90,10 @@ p {
   background-color: transparent !important;
   border-width: 2px;
   border-style: solid;
+  width: 30%;
+  float: none !important;
+  margin: 0px auto 50px;
+  display: block !important;
 }
 
 
@@ -142,7 +146,7 @@ p {
 }
 
 section.section-projet-details .projet-head .rounded {
-    border: none;
+  border: none;
 }
 
 .projet-head .rows {
@@ -160,7 +164,7 @@ i.fa.fa-gift {
 }
 
 .row.project-detail-data.p2p-detail-data {
-    padding-top: 41px;
+  padding-top: 41px;
 }
 
 section.section-projet-details .projet-head .user {
@@ -190,101 +194,101 @@ p.team_by {
 /*i.fi-clock,
 section.section-projet-details .infos-money .chart-wrap .percent {
   color: #000;
-}*/
+  }*/
 
-section.section-projet-details .project-detail-data .current-amount,
-#show_days span,
-.contributeurs span {
+  section.section-projet-details .project-detail-data .current-amount,
+  #show_days span,
+  .contributeurs span {
     font-size: 49px;
     line-height: 50px;
-}
+  }
 
-section.section-projet-details .project-detail-data .jours-restants #show_days,
-section.section-projet-details .project-detail-data .jours-restants .contributeurs {
-  margin-top: 1.4rem;
-  margin-bottom: 1rem;
-}
+  section.section-projet-details .project-detail-data .jours-restants #show_days,
+  section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
+  }
 
-section.section-projet-details .project-detail-data .contributeurs {
-  margin-top: 0.75rem;
-}
+  section.section-projet-details .project-detail-data .contributeurs {
+    margin-top: 0.75rem;
+  }
 
-section.section-projet-details .project_boutons_give {
-  background: #FE5F5E;
-  font-family: "Open Sans";
-  text-transform: uppercase;
-  height: 50px;
-  /*line-height: 50px;*/
-  min-height: auto !important;
-  background: #FE5F5E !important;
-}
+  section.section-projet-details .project_boutons_give {
+    background: #FE5F5E;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    height: 50px;
+    /*line-height: 50px;*/
+    min-height: auto !important;
+    background: #FE5F5E !important;
+  }
 
-#show_team {
+  #show_team {
     background: #F3F5F0;
-}
+  }
 
-.block-share-container h4 span {
+  .block-share-container h4 span {
     color: white;
-}
+  }
 
-section.section-projet-details .project-detail-data .project_boutons_join {
-  background: transparent;
-}
+  section.section-projet-details .project-detail-data .project_boutons_join {
+    background: transparent;
+  }
 
-.block-share-container {
-  padding-bottom: 3px;
-  background: #0061AF;
-}
+  .block-share-container {
+    padding-bottom: 3px;
+    background: #0061AF;
+  }
 
-.social_network_send, .social_network_share,
-.ask_edit_project {
-  filter: invert(1);
-}
+  .social_network_send, .social_network_share,
+  .ask_edit_project {
+    filter: invert(1);
+  }
 
-#project_tabs .bg-color-light {
-  background: white;
-}
+  #project_tabs .bg-color-light {
+    background: white;
+  }
 
-.tabs dd a {
-  color: black;
-  font-size: 14px;
-  line-height: 22px;
-  background: #F5F5F5;
-}
+  .tabs dd a {
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+    background: #F5F5F5;
+  }
 
-.tabs dd.active a {
-  background-color: #0061af;
-  color: white;
-}
+  .tabs dd.active a {
+    background-color: #0061af;
+    color: white;
+  }
 
-#show_description {
-  font-size: 19px;
-  line-height: 24px;
-  color: #000;
-}
+  #show_description {
+    font-size: 19px;
+    line-height: 24px;
+    color: #000;
+  }
 
-section#project_tabs + section .row {
-  max-width: 100%;
-  background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
-  background-position: bottom center;
-  background-size: cover;
-}
+  section#project_tabs + section .row {
+    max-width: 100%;
+    background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
+    background-position: bottom center;
+    background-size: cover;
+  }
 
 
-.project_event_description {
-  height: 600px;
-  width: 559px;
-  margin-left: 150px !important;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+  .project_event_description {
+    height: 600px;
+    width: 559px;
+    margin-left: 150px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-.tabs-content .active.content {
+  .tabs-content .active.content {
     padding-top: 50px;
-}
+  }
 
-/**/
+  /**/
 
 /*.project_event_description .d-flex {
   margin-top: 30px;
@@ -293,4 +297,4 @@ section#project_tabs + section .row {
 .project_event_description .d-flex div {
   width: 70%;
   padding-left: 50px;
-}*/
+  }*/
