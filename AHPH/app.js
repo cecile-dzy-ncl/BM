@@ -3,7 +3,7 @@ $( document ).ready(function() {
 
   $("body").addClass("ahph");
 
-  $("footer ul > li.footer-link-menu").before("<li class='nodropdown footer-link-menu'>© Fondation APHP</li>")
+  $("footer ul > li.footer-link-menu:first-child").before("<li class='nodropdown footer-link-menu'>© Fondation APHP</li>")
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
