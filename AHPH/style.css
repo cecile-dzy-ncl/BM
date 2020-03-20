@@ -267,6 +267,9 @@ section#project_tabs + section .row {
   height: 600px;
   width: 559px;
   margin-left: 150px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tabs-content .active.content {
