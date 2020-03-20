@@ -201,6 +201,11 @@ section.section-projet-details .project_boutons_give {
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
+  background: #FE5F5E !important;
+}
+
+#show_team {
+    background: #F3F5F0;
 }
 
 section.section-projet-details .project-detail-data .project_boutons_join {
