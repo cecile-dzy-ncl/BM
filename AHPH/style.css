@@ -193,10 +193,6 @@ p.team_by {
 }
 
 
-/*i.fi-clock,
-section.section-projet-details .infos-money .chart-wrap .percent {
-  color: #000;
-  }*/
 
   section.section-projet-details .project-detail-data .current-amount,
   #show_days span,
@@ -290,7 +286,10 @@ section.section-projet-details .infos-money .chart-wrap .percent {
     padding-top: 50px;
   }
 
-
+/* PAGE EVENT */
+.event-head .intro-my-event * {
+    color: black !important;
+}
 
 /* ------ RESPONSIVE ------ */
 
