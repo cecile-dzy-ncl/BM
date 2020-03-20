@@ -272,6 +272,10 @@ section#project_tabs + section .row {
   position: relative;
 }
 
+.tabs-content .active.content {
+    padding-top: 50px;
+}
+
 /**/
 
 /*.project_event_description .d-flex {
