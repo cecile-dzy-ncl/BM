@@ -290,13 +290,19 @@ section.section-projet-details .infos-money .chart-wrap .percent {
     padding-top: 50px;
   }
 
-  /**/
 
-/*.project_event_description .d-flex {
-  margin-top: 30px;
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  .project_event_description {
+    height: 600px;
+    width: 80%;
+    margin-left: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
 }
-
-.project_event_description .d-flex div {
-  width: 70%;
-  padding-left: 50px;
-  }*/
