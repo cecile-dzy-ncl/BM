@@ -39,8 +39,8 @@ $( document ).ready(function() {
   //$('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance = ("<div class='maintenance p-5 bg-blue'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
-  $("#banner_section").before(bannerMaintenance);
+  //var bannerMaintenance = ("<div class='maintenance p-5 bg-blue'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
+  //$("#banner_section").before(bannerMaintenance);
 
   // AJOUT WRAPPER OUTILS
   // var wrapperOutils = (`<!-- BLOC OUTILS -->
