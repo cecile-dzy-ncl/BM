@@ -206,6 +206,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 .block-share-container {
   padding-bottom: 3px;
+  background: #0061AF;
 }
 
 .social_network_send, .social_network_share {
@@ -218,14 +219,13 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 .tabs dd a {
   color: black;
-  font-weight: bold;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 22px;
   background: #F5F5F5;
 }
 
 .tabs dd.active a {
-  background-color: #F9B000;
+  background-color: #0061af;
   color: black;
   font-weight: bold;
 }
