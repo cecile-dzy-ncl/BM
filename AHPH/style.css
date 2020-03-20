@@ -343,4 +343,8 @@ section.event-head {
     text-align: center;
   }
 
+  .event-head .intro-my-event:after {
+    content: none;
+  }
+
 }
