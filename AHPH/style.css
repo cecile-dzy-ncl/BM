@@ -325,6 +325,9 @@ section.event-head {
 
 @media screen and (max-width: 500px) {
 
+  #header-header > .row {
+    flex-direction: column;
+  }
 
   .projet-head .small-12:first-child {
       width: auto;
