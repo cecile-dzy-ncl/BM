@@ -345,6 +345,10 @@ section.event-head {
     filter: invert(1);
   }
 
+  .section-home-projects .button {
+    width: 80%;
+  }
+
   #header-header > .row {
     flex-direction: column;
   }
