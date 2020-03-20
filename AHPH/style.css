@@ -94,6 +94,8 @@ p {
   float: none !important;
   margin: 0px auto 50px;
   display: block !important;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 
