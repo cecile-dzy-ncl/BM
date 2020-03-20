@@ -311,6 +311,10 @@ section.event-head {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+#events-show .block-share-container h4 span {
+    color: black;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
