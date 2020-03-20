@@ -47,6 +47,16 @@ p {
 }
 
 
+/* BUTTONS */
+
+.btn-bm {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px;
+}
+
+
 
 /* BANNERS */
 
