@@ -291,6 +291,10 @@ p.team_by {
     color: black !important;
 }
 
+section.event-head {
+    margin-bottom: 50px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
