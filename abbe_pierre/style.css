@@ -2,7 +2,7 @@
 
 /*
 
-corail : #FE5F5E;
+orange : #E04E39;
 blue: #0061AF
 
 */
@@ -13,13 +13,13 @@ blue: #0061AF
   color: #000000 !important;
 }
 
-/* CORAIL */
-.ahph .corail {
-  color: #FE5F5E !important;
+/* orange */
+.ahph .orange {
+  color: #E04E39 !important;
 }
 
-.ahph .bg-corail {
-  background: #FE5F5E !important;
+.ahph .bg-orange {
+  background: #E04E39 !important;
 }
 
 /* BLUE */
@@ -217,13 +217,13 @@ p.team_by {
   }
 
   section.section-projet-details .project_boutons_give {
-    background: #FE5F5E;
+    background: #E04E39;
     font-family: "Open Sans";
     text-transform: uppercase;
     height: 50px;
     /*line-height: 50px;*/
     min-height: auto !important;
-    background: #FE5F5E !important;
+    background: #E04E39 !important;
   }
 
   #show_team {
