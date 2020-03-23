@@ -265,6 +265,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: white;
 }
 
+.project_payment #list_payment .people p.money {
+  color: #E04E39;
+}
+
 #show_description {
   font-size: 19px;
   line-height: 24px;
