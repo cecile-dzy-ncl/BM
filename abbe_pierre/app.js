@@ -1,9 +1,9 @@
 $( document ).ready(function() {
   console.log( "ready!" );
 
-  $("body").addClass("ahph");
+  $("body").addClass("abbe-pierre");
 
-  $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
+  $("<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
   $(document).ready(function() {
     $('.smoothScroll').on('click', function() { // Au clic sur un élément
