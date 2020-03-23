@@ -204,6 +204,7 @@ p.team_by {
   section.section-projet-details .project-detail-data .jours-restants span {
     font-size: 29px;
     line-height: 27px;
+    font-family: "Open Sans";
   }
 
   section.section-projet-details .project-detail-data .jours-restants #show_days,
@@ -213,7 +214,7 @@ p.team_by {
   }
 
   section.section-projet-details .project-detail-data .contributeurs {
-    margin-top: 0.75rem;
+    margin-top: 0.65rem;
   }
 
   section.section-projet-details .project_boutons_give {
