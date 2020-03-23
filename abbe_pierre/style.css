@@ -199,11 +199,11 @@ p.team_by {
 
 
 
-  section.section-projet-details .project-detail-data .current-amount,
-  #show_days span,
-  .contributeurs span {
-    font-size: 49px;
-    line-height: 50px;
+/*  section.section-projet-details .project-detail-data .current-amount,*/
+  section.section-projet-details .project-detail-data .contributeurs span
+  section.section-projet-details .project-detail-data .jours-restants span {
+    font-size: 29px;
+    line-height: 27px;
   }
 
   section.section-projet-details .project-detail-data .jours-restants #show_days,
