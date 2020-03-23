@@ -200,7 +200,7 @@ p.team_by {
 
 
 /*  section.section-projet-details .project-detail-data .current-amount,*/
-  section.section-projet-details .project-detail-data .contributeurs span
+  section.section-projet-details .project-detail-data .contributeurs span,
   section.section-projet-details .project-detail-data .jours-restants span {
     font-size: 29px;
     line-height: 27px;
