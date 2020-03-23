@@ -3,7 +3,7 @@
 /*
 
 orange : #E04E39;
-blue: #0061AF
+blue: #E04E39
 
 */
 
@@ -24,11 +24,11 @@ blue: #0061AF
 
 /* BLUE */
 .ahph .blue {
-  color: #0061AF !important;
+  color: #E04E39 !important;
 }
 
 .ahph .bg-blue {
-  background-color: #0061AF !important;
+  background-color: #E04E39 !important;
 }
 
 /* GREY */
@@ -41,7 +41,7 @@ blue: #0061AF
 h1 {
   font-size: 35px;
   line-height: 37px;
-  color: #0061af;
+  color: #E04E39;
 }
 
 h2 {
@@ -81,8 +81,8 @@ p {
 }
 
 .main-header .button {
-  background-color: #0061AF;
-  border-color: #0061AF;
+  background-color: #E04E39;
+  border-color: #E04E39;
   text-transform: uppercase;
 }
 
@@ -99,8 +99,8 @@ p {
 }
 
 .button {
-    background-color: #0061AF;
-    border-color: #0061AF;
+    background-color: #E04E39;
+    border-color: #E04E39;
 }
 
 
@@ -145,7 +145,7 @@ p {
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
-  background: #0061AF;
+  background: #E04E39;
 }
 
 .section-projet-details .projet-head {
@@ -181,7 +181,7 @@ section.section-projet-details .projet-head .user {
 
 
 section.section-projet-details h1#show_title {
-  color: #0061af;
+  color: #E04E39;
   font-size: 27px;
   line-height: 27px;
   margin: 0;
@@ -240,7 +240,7 @@ p.team_by {
 
   .block-share-container {
     padding-bottom: 3px;
-    background: #0061AF;
+    background: #E04E39;
   }
 
   .social_network_send, .social_network_share,
@@ -260,7 +260,7 @@ p.team_by {
   }
 
   .tabs dd.active a {
-    background-color: #0061af;
+    background-color: #E04E39;
     color: white;
   }
 
@@ -318,7 +318,7 @@ section.event-head {
 .event-head .details-my-event .infos-money,
 #events-show .block-share-container h4,
 .event-head .infos-money .chart-wrap .percent {
-    color: #0061af !important;
+    color: #E04E39 !important;
 }
 
 /* ------ RESPONSIVE ------ */
