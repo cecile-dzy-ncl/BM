@@ -281,7 +281,7 @@ section#project_tabs + section .row {
 
 .project_event_description {
   width: 400px;
-  margin-left: 150px !important;
+  margin-right: 150px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
