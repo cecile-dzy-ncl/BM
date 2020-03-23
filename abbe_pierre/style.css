@@ -40,7 +40,7 @@ blue: #0061AF
 
 h1 {
   font-size: 35px;
-  line-height: 28px;
+  line-height: 37px;
   color: #0061af;
 }
 
@@ -107,7 +107,7 @@ p {
 /* BANNERS & WRAPPERS */
 
 .banner.homepage {
-  background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefond2x.jpg);
+  background: url(https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/bannerap.png);
   background-size: cover;
   height: 600px;
 }
