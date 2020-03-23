@@ -295,6 +295,11 @@ section#project_tabs + section .row {
   color: #0061af;
 }
 
+ul.pagination li.unavailable a,
+ul.pagination li button.unavailable {
+  color: #c5cdd0;
+}
+
 /* PAGE EVENT */
 .event-head .intro-my-event * {
     color: black !important;
