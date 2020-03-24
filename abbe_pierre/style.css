@@ -279,6 +279,7 @@ section#project_tabs + section .row {
   background : url("https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefondpiedpage.jpg");
   background-position: bottom center;
   background-size: cover;
+  position: relative;
 }
 
 
