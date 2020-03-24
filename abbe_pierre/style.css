@@ -364,6 +364,11 @@ section.event-head {
     width: 80%;
   }
 
+  .wrapper.bg-white .pr-50 p,
+  .wrapper.bg-white .pr-50 + img {
+    margin: 0 !important;
+  }
+
   #header-header > .row {
     flex-direction: column;
   }
