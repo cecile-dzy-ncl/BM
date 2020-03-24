@@ -293,6 +293,14 @@ section#project_tabs + section .row {
   text-align: right;
 }
 
+.credits {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    opacity: .5;
+    font-style: italic;
+}
+
 .tabs-content .active.content {
   padding-top: 50px;
 }
