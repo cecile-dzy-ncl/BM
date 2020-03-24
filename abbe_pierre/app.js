@@ -3,6 +3,9 @@ $( document ).ready(function() {
 
   $("body").addClass("abbe-pierre");
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
+
   $("<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
   $(document).ready(function() {
