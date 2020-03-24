@@ -3,36 +3,35 @@
 /*
 
 orange : #E04E39;
-blue: #E04E39
 
 */
 
 
 /* BLACK */
-.ahph .black {
+.abbe-pierre .black {
   color: #000000 !important;
 }
 
 /* orange */
-.ahph .orange {
+.abbe-pierre .orange {
   color: #E04E39 !important;
 }
 
-.ahph .bg-orange {
+.abbe-pierre .bg-orange {
   background: #E04E39 !important;
 }
 
 /* BLUE */
-.ahph .blue {
+.abbe-pierre .blue {
   color: #E04E39 !important;
 }
 
-.ahph .bg-blue {
+.abbe-pierre .bg-blue {
   background-color: #E04E39 !important;
 }
 
 /* GREY */
-.ahph .bg-grey {
+.abbe-pierre .bg-grey {
   background-color: #FAFAFA !important;
 }
 
@@ -59,11 +58,11 @@ p {
   line-height: 21px;
 }
 
-.ahph .container-bm {
+.abbe-pierre .container-bm {
   width: 960px;
 }
 
-.ahph .container-lg-bm {
+.abbe-pierre .container-lg-bm {
   width: 1140px;
 }
 
@@ -134,7 +133,7 @@ p {
   padding: 10px 0;
 }
 
-.ahph header.main-header .header-spacer {
+.abbe-pierre header.main-header .header-spacer {
   padding-top: 0;
 }
 
