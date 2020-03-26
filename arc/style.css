@@ -702,6 +702,10 @@ section#header-header .top-bar-section .button.left {
   background-color: #009cbb;
 }
 
+#form-project .tabs .active a {
+  background-color: #007188;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
