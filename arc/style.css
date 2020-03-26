@@ -697,6 +697,11 @@ section#header-header .top-bar-section .button.left {
   font-weight: 600;
 }
 
+
+#form-project .tabs a {
+  background-color: #009cbb;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
