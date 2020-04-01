@@ -288,7 +288,7 @@ section#project_tabs + section .row {
 
 .project_event_description {
   height: 600px;
-  width: 559px;
+  width: 850px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
