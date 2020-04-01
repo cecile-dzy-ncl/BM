@@ -315,7 +315,7 @@ section#project_tabs + section .row {
 }
 
 .project_event_description img {
-  margin: 70px auto;
+  margin: 0px auto 70px auto;
   display: block;
 }
 
