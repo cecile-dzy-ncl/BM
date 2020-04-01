@@ -66,6 +66,7 @@ p {
   background-color: #00B1BD;
   border-color: #00B1BD;
   text-transform: uppercase;
+  border-radius: 6px;
 }
 
 .section-home-projects .button {
