@@ -27,16 +27,12 @@ blue: #00B1BD
   background-color: #00B1BD !important;
 }
 
-/* GREY */
-.one-o-one .bg-grey {
-  background-color: #FAFAFA !important;
-}
 
 /* GENERAL */
 
 h1 {
   font-size: 35px;
-  line-height: 28px;
+  line-height: 37px;
   color: #00B1BD;
 }
 
