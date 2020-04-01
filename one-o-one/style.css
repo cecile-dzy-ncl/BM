@@ -259,6 +259,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   font-size: 14px;
   line-height: 22px;
   background: #F5F5F5;
+  font-family: "Open Sans" !important;
 }
 
 .tabs dd.active a {
