@@ -1,0 +1,421 @@
+/* ------------------- COLORS ------------------- */
+
+/*
+
+blue: #00B1BD
+
+*/
+
+
+/* BLUE */
+.one-o-one .blue {
+  color: #00B1BD !important;
+}
+
+.one-o-one .bg-blue {
+  background-color: #00B1BD !important;
+}
+
+
+/* GENERAL */
+
+h1 {
+  font-size: 35px;
+  line-height: 37px;
+  color: #00B1BD;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 28px;
+  color: #00B1BD;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.one-o-one .container-bm {
+  width: 960px;
+}
+
+.one-o-one .container-lg-bm {
+  width: 1140px;
+}
+
+.people .rounded {
+  border: 0;
+}
+
+/* BUTTONS */
+
+.btn-bm {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px;
+  border-radius: 22px;
+}
+
+.main-header .button {
+  background-color: #00B1BD;
+  border-color: #00B1BD;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.section-home-projects .button {
+  background-color: transparent !important;
+  border: 2px solid black;
+  border-radius: 22px;
+  color: black;
+  width: 30%;
+  float: none !important;
+  margin: 0px auto 50px;
+  display: block !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #00B1BD;
+  border-color: #00B1BD;
+}
+
+
+/* BANNERS & WRAPPERS */
+
+.banner.homepage {
+  background: url(https://fundraise.one-o-one.eu/cdn.iraiser.eu/rl8pwcx7hCuvZ/l/h3S8jA9Z2sEml1JMSK1qpjRZk9KUV2PgEtFqjlkQ46bAQD7f/Cecile_Dezy/origin/imagefond1012x.jpg);
+  background-size: cover;
+  height: 600px;
+}
+
+.banner.homepage p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.section-home-projects {
+  background: #fafafa !important;
+}
+
+
+/* HEADER & FOOTER */
+
+#header-header > .row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.one-o-one header.main-header .header-spacer {
+  padding-top: 0;
+}
+
+#header-header input.icon-search {
+  margin: 0;
+}
+
+section.top-bar-section {
+  background: #fff !important;
+}
+
+#main-nav .top-bar-section li:not(.has-form) a:not(.button) {
+  padding: 0 40px;
+}
+
+header.main-header .top-bar-section ul li a {
+  color: black;
+}
+
+#main-nav section.top-bar-section li:not(:last-child):after {
+  background: #01b1bd !important;
+}
+
+/* PAGE DE COLLECTE */
+
+#projects-show .bg-secondary-color-blurred {
+  background: #00B1BD;
+}
+
+.section-projet-details .projet-head {
+  background: white;
+}
+
+section.section-projet-details .projet-head .rounded {
+  border: none;
+}
+
+.projet-head .rows {
+  display: flex;
+  align-items: center;
+}
+
+p.from_event,
+i.fa.fa-gift {
+  display: none;
+}
+
+.section-projet-details .bg-secondary-color-blurred {
+  background: #F0F0F0;
+}
+
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 52px;
+}
+
+section.section-projet-details .projet-head .user {
+  margin-right: 10px;
+}
+
+
+
+section.section-projet-details h1#show_title {
+  color: #00B1BD;
+  font-size: 23px;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+p.team_by {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
+section.section-projet-details .project-detail-data .current-amount {
+  font-size: 49px;
+  line-height: 50px;
+  font-family: "Open Sans" !important;
+}
+
+#show_days span,
+.contributeurs span {
+  font-size: 29px !important;
+  line-height: 27px !important;
+  font-family: "Open Sans" !important;
+}
+
+section.section-projet-details .project-detail-data .jours-restants #show_days,
+section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section.section-projet-details .project-detail-data .contributeurs {
+  margin-top: 0.65rem;
+}
+
+section.section-projet-details .project_boutons_give {
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 35px;
+  min-height: auto !important;
+  background: #F8405A !important;
+  font-size: 21px !important;
+  letter-spacing: 1.05px;
+  margin-top: 7px !important;
+}
+
+#show_team {
+  background: #F3F5F0;
+}
+
+.block-share-container h4 span {
+  color: white;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: transparent;
+}
+
+.block-share-container {
+  padding-bottom: 3px;
+  background: #00B1BD;
+}
+
+.social_network_send, .social_network_share,
+.ask_edit_project {
+  filter: invert(1);
+}
+
+#project_tabs .bg-color-light {
+  background: white;
+}
+
+.tabs dd a {
+  color: black;
+  font-size: 14px;
+  line-height: 22px;
+  background: #F5F5F5;
+  font-family: "Open Sans" !important;
+}
+
+.tabs dd.active a {
+  background-color: #00B1BD;
+  color: white;
+}
+
+.content a {
+  color: #00B1BD;
+}
+
+#show_description {
+  font-size: 19px;
+  line-height: 24px;
+  color: #000;
+}
+
+section#project_tabs + section .row {
+  max-width: 100%;
+  background-color: white !important;
+  padding-top: 30px;
+/*  background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
+  background-position: bottom center;
+  background-size: cover;*/
+}
+
+
+.project_event_description {
+  height: 600px;
+  width: 850px;
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+
+.project_event_description:before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 747px;
+  background: #979797;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.project_event_description p {
+  text-align: center;
+}
+
+.project_event_description img {
+  margin: 0px auto 70px auto;
+  display: block;
+}
+
+.tabs-content .active.content {
+  padding-top: 50px;
+}
+
+.project_payment #list_payment .people p.money {
+  color: #00B1BD;
+}
+
+ul.pagination li.unavailable a,
+ul.pagination li button.unavailable {
+  color: #c5cdd0;
+}
+
+/* PAGE EVENT */
+.event-head .intro-my-event * {
+    color: black !important;
+}
+
+section.event-head {
+    margin-bottom: 50px;
+}
+
+#events-show .event-head .intro-my-event {
+    padding: 40px 30px;
+}
+
+.event-head .intro-my-event:after {
+  top: 50%;
+  transform: translatey(-50%);
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#events-show .block-share-container h4 span {
+    color: black;
+}
+
+.event-head .details-my-event .infos-money,
+#events-show .block-share-container h4,
+.event-head .infos-money .chart-wrap .percent {
+    color: #00B1BD !important;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .banner, .banner.homepage {
+    height: auto;
+  }
+
+  .banner.homepage {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-color: white;
+  }
+
+  .banner.homepage img {
+    filter: invert(1);
+  }
+
+  .section-home-projects .button {
+    width: 80%;
+  }
+
+  #header-header > .row {
+    flex-direction: column;
+  }
+
+  .projet-head .small-12:first-child {
+      width: auto;
+  }
+
+  .mobile .section-projet-details h1#show_title {
+    text-align: left !important;
+  }
+
+  .project_event_description {
+    width: 80%;
+    margin: auto !important;
+    text-align: center;
+  }
+
+  .event-head .intro-my-event:after {
+    content: none;
+  }
+
+  .habillage::after {
+    background-color: transparent;
+    width: 100vw;
+  }
+
+}
