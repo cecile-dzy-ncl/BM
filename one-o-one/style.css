@@ -216,9 +216,11 @@ section.section-projet-details .project_boutons_give {
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
-  /*line-height: 50px;*/
+  line-height: 50px;
   min-height: auto !important;
   background: #F8405A !important;
+  font-size: 21px !important;
+  letter-spacing: 1.05px;
 }
 
 #show_team {
