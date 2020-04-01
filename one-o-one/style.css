@@ -306,7 +306,7 @@ section#project_tabs + section .row {
   background: #979797;
   top: 0;
   left: 50%;
-  transform: translateY(-50%);
+  transform: translateX(-50%);
 }
 
 
