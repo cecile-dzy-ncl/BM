@@ -3,6 +3,9 @@ $( document ).ready(function() {
 
   $("body").addClass("one-o-one");
 
+  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
+  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
+
   $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
   $(document).ready(function() {
