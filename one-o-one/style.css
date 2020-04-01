@@ -125,7 +125,7 @@ section.top-bar-section {
   background: #fff !important;
 }
 
-header.main-header .top-bar-section ul li {
+header.main-header .top-bar-section ul li a {
   color: black;
 }
 
