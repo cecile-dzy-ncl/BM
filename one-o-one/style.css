@@ -193,13 +193,15 @@ p.team_by {
   box-shadow: none;
 }
 
-
-
-section.section-projet-details .project-detail-data .current-amount,
-#show_days span,
-.contributeurs span {
+section.section-projet-details .project-detail-data .current-amount {
   font-size: 49px;
   line-height: 50px;
+}
+
+#show_days span,
+.contributeurs span {
+  font-size: 29px;
+  line-height: 27px;
 }
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
