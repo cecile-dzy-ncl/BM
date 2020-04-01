@@ -213,13 +213,12 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #FE5F5E;
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #FE5F5E !important;
+  background: #F8405A !important;
 }
 
 #show_team {
