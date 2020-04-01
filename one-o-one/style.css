@@ -305,6 +305,9 @@ section#project_tabs + section .row {
   height: 1px;
   width: 500px;
   background: #f5f5f5;
+  top: 0;
+  left: 50%;
+  transform: translateY(-50%);
 }
 
 
