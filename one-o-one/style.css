@@ -2,21 +2,10 @@
 
 /*
 
-corail : #FE5F5E;
 blue: #00B1BD
 
 */
 
-
-
-/* CORAIL */
-.one-o-one .corail {
-  color: #FE5F5E !important;
-}
-
-.one-o-one .bg-corail {
-  background: #FE5F5E !important;
-}
 
 /* BLUE */
 .one-o-one .blue {
@@ -130,6 +119,10 @@ p {
 
 #header-header input.icon-search {
   margin: 0;
+}
+
+section.top-bar-section {
+  background: #fff !important;
 }
 
 /* PAGE DE COLLECTE */
