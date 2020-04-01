@@ -125,6 +125,10 @@ section.top-bar-section {
   background: #fff !important;
 }
 
+header.main-header .top-bar-section ul li {
+  color: black;
+}
+
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
