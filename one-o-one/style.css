@@ -294,6 +294,7 @@ section#project_tabs + section .row {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 
