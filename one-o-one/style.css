@@ -295,6 +295,11 @@ section#project_tabs + section .row {
   justify-content: center;
 }
 
+
+.project_event_description img {
+  margin: 0 auto;
+}
+
 .tabs-content .active.content {
   padding-top: 50px;
 }
