@@ -82,6 +82,7 @@ p {
 .section-home-projects .button {
   background-color: transparent !important;
   border: 2px solid black;
+  border-radius: 22px;
   color: black;
   width: 30%;
   float: none !important;
@@ -92,8 +93,8 @@ p {
 }
 
 .button {
-    background-color: #00B1BD;
-    border-color: #00B1BD;
+  background-color: #00B1BD;
+  border-color: #00B1BD;
 }
 
 
