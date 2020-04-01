@@ -295,6 +295,16 @@ section#project_tabs + section .row {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
+}
+
+
+.project_event_description:before {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 500px;
+  background: #f5f5f5;
 }
 
 
