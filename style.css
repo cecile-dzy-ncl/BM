@@ -210,6 +210,10 @@ img {
   background-color: #F5F5F5 !important;
 }
 
+.bg-lightgrey {
+  background-color: #fafafa !important;
+}
+
 /* - boxes - */
 
 .container-bm {
