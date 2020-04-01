@@ -225,6 +225,7 @@ section.section-projet-details .project_boutons_give {
   background: #F8405A !important;
   font-size: 21px !important;
   letter-spacing: 1.05px;
+  margin-top: 7px !important;
 }
 
 #show_team {
