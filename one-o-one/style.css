@@ -196,12 +196,14 @@ p.team_by {
 section.section-projet-details .project-detail-data .current-amount {
   font-size: 49px;
   line-height: 50px;
+  font-family: "Open Sans" !important;
 }
 
 #show_days span,
 .contributeurs span {
-  font-size: 29px;
-  line-height: 27px;
+  font-size: 29px !important;
+  line-height: 27px !important;
+  font-family: "Open Sans" !important;
 }
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
