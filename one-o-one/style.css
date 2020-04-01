@@ -313,6 +313,7 @@ section#project_tabs + section .row {
 
 .project_event_description img {
   margin: 0 auto;
+  display: block;
 }
 
 .tabs-content .active.content {
