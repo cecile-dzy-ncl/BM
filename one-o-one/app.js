@@ -6,7 +6,7 @@ $( document ).ready(function() {
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
-  $("<li class='nodropdown footer-link-menu'><a href='http://fondationrechercheaphp.fr/'>© Fondation APHP</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
+  $("<li class='nodropdown footer-link-menu'><a href='https://fundraise.one-o-one.eu/'>© ONE |O| ONE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
   $(document).ready(function() {
     $('.smoothScroll').on('click', function() { // Au clic sur un élément
