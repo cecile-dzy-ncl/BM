@@ -17,6 +17,8 @@ $( document ).ready(function() {
     });
   });
 
+  $("html[lang='en'] img.image_banner").attr("src", "https://fundraise.one-o-one.eu/cdn.iraiser.eu/rl8pwcx7hCuvZ/l/h3S8jA9Z2sEml1JMSK1qpjRZk9KUV2PgEtFqjlkQ46bAQD7f/Cecile_Dezy/origin/oneoonelogo2x.png");
+
   // $(".project_boutons_give").html("Faire un don");
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
