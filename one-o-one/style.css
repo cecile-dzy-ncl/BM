@@ -178,15 +178,15 @@ section.section-projet-details .projet-head .user {
 
 section.section-projet-details h1#show_title {
   color: #00B1BD;
-  font-size: 27px;
-  line-height: 27px;
+  font-size: 23px;
+  line-height: 30px;
   margin: 0;
   margin-bottom: 9px;
 }
 
 p.team_by {
-  font-size: 19px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .bx-wrapper .bx-viewport {
