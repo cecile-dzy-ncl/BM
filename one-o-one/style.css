@@ -294,7 +294,6 @@ section#project_tabs + section .row {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   position: relative;
 }
 
@@ -310,6 +309,10 @@ section#project_tabs + section .row {
   transform: translateY(-50%);
 }
 
+
+.project_event_description p {
+  text-align: center;
+}
 
 .project_event_description img {
   margin: 0 auto;
