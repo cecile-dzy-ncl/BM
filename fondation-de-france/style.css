@@ -161,7 +161,7 @@ header.main-header .top-bar-section ul li a {
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
-  background: #0061AF;
+  background: #209CD8;
 }
 
 .section-projet-details .projet-head {
@@ -301,9 +301,6 @@ section#project_tabs + section .row {
   max-width: 100%;
   background-color: white !important;
   padding-top: 30px;
-/*  background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
-  background-position: bottom center;
-  background-size: cover;*/
 }
 
 
@@ -312,7 +309,7 @@ section#project_tabs + section .row {
   width: 850px;
   margin: 0 auto !important;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   justify-content: center;
   position: relative;
 }
@@ -330,14 +327,14 @@ section#project_tabs + section .row {
 }
 
 
-.project_event_description p {
+/*.project_event_description p {
   text-align: center;
-}
+}*/
 
-.project_event_description img {
+/*.project_event_description img {
   margin: 0px auto 70px auto;
   display: block;
-}
+}*/
 
 .tabs-content .active.content {
   padding-top: 50px;
