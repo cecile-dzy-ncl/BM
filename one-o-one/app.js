@@ -9,15 +9,6 @@ $( document ).ready(function() {
   $("<li class='nodropdown footer-link-menu'><a href='https://fundraise.one-o-one.eu/'>© ONE |O| ONE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
   $("a[href='https://one-o-one.eu/']").attr("target", "_blank");
 
-  $(document).ready(function() {
-    $('.smoothScroll').on('click', function() { // Au clic sur un élément
-      var page = $(this).attr('href'); // Page cible
-      var speed = 750; // Durée de l'animation (en ms)
-      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-      return false;
-    });
-  });
-
   $("html[lang='en'] img.image_banner").attr("src", "https://fundraise.one-o-one.eu/cdn.iraiser.eu/rl8pwcx7hCuvZ/l/h3S8jA9Z2sEml1JMSK1qpjRZk9KUV2PgEtFqjlkQ46bAQD7f/Cecile_Dezy/origin/101banneren2x.jpg");
 
   // $(".project_boutons_give").html("Faire un don");
