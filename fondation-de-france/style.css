@@ -2,33 +2,52 @@
 
 /*
 
-blue: #00B1BD
+blue: #0061AF
+lightblue: #209CD8
+red: #F92442
 
 */
 
 
 /* BLUE */
 .one-o-one .blue {
-  color: #00B1BD !important;
+  color: #0061AF !important;
 }
 
 .one-o-one .bg-blue {
-  background-color: #00B1BD !important;
+  background-color: #0061AF !important;
 }
 
+
+.one-o-one .lightblue {
+  color: #209CD8 !important;
+}
+
+.one-o-one .bg-lightblue {
+  background-color: #209CD8 !important;
+}
+
+/* RED */
+.one-o-one .red {
+  color: #F92442 !important;
+}
+
+.one-o-one .bg-red {
+  background-color: #F92442 !important;
+}
 
 /* GENERAL */
 
 h1 {
   font-size: 35px;
   line-height: 37px;
-  color: #00B1BD;
+  color: #0061AF;
 }
 
 h2 {
   font-size: 25px;
   line-height: 28px;
-  color: #00B1BD;
+  color: #0061AF;
 }
 
 h3 {
@@ -64,8 +83,8 @@ p {
 }
 
 .main-header .button {
-  background-color: #00B1BD;
-  border-color: #00B1BD;
+  background-color: #0061AF;
+  border-color: #0061AF;
   text-transform: uppercase;
   border-radius: 6px;
 }
@@ -84,8 +103,8 @@ p {
 }
 
 .button {
-  background-color: #00B1BD;
-  border-color: #00B1BD;
+  background-color: #0061AF;
+  border-color: #0061AF;
 }
 
 
@@ -142,7 +161,7 @@ header.main-header .top-bar-section ul li a {
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
-  background: #00B1BD;
+  background: #0061AF;
 }
 
 .section-projet-details .projet-head {
@@ -178,7 +197,7 @@ section.section-projet-details .projet-head .user {
 
 
 section.section-projet-details h1#show_title {
-  color: #00B1BD;
+  color: #0061AF;
   font-size: 23px;
   line-height: 30px;
   margin: 0;
@@ -243,7 +262,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 .block-share-container {
   padding-bottom: 3px;
-  background: #00B1BD;
+  background: #0061AF;
 }
 
 .social_network_send, .social_network_share,
@@ -264,12 +283,12 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: #00B1BD;
+  background-color: #0061AF;
   color: white;
 }
 
 .content a {
-  color: #00B1BD;
+  color: #0061AF;
 }
 
 #show_description {
@@ -325,7 +344,7 @@ section#project_tabs + section .row {
 }
 
 .project_payment #list_payment .people p.money {
-  color: #00B1BD;
+  color: #0061AF;
 }
 
 ul.pagination li.unavailable a,
@@ -360,7 +379,7 @@ section.event-head {
 .event-head .details-my-event .infos-money,
 #events-show .block-share-container h4,
 .event-head .infos-money .chart-wrap .percent {
-    color: #00B1BD !important;
+    color: #0061AF !important;
 }
 
 /* ------ RESPONSIVE ------ */
