@@ -134,6 +134,10 @@ p {
 
 /* HEADER & FOOTER */
 
+header.main-header {
+  padding: 10px 0;
+}
+
 #header-header > .row {
   display: flex;
   align-items: center;
