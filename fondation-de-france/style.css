@@ -10,29 +10,29 @@ red: #F92442
 
 
 /* BLUE */
-.one-o-one .blue {
+.fondation-de-france .blue {
   color: #0061AF !important;
 }
 
-.one-o-one .bg-blue {
+.fondation-de-france .bg-blue {
   background-color: #0061AF !important;
 }
 
 
-.one-o-one .lightblue {
+.fondation-de-france .lightblue {
   color: #209CD8 !important;
 }
 
-.one-o-one .bg-lightblue {
+.fondation-de-france .bg-lightblue {
   background-color: #209CD8 !important;
 }
 
 /* RED */
-.one-o-one .red {
+.fondation-de-france .red {
   color: #F92442 !important;
 }
 
-.one-o-one .bg-red {
+.fondation-de-france .bg-red {
   background-color: #F92442 !important;
 }
 
@@ -60,11 +60,11 @@ p {
   line-height: 21px;
 }
 
-.one-o-one .container-bm {
+.fondation-de-france .container-bm {
   width: 960px;
 }
 
-.one-o-one .container-lg-bm {
+.fondation-de-france .container-lg-bm {
   width: 1140px;
 }
 
@@ -134,7 +134,7 @@ p {
   padding: 10px 0;
 }
 
-.one-o-one header.main-header .header-spacer {
+.fondation-de-france header.main-header .header-spacer {
   padding-top: 0;
 }
 
