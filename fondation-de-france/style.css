@@ -424,7 +424,7 @@ section.event-head {
 
   .banner.homepage .banner-text {
     width: 80%;
-    margin-left: auto;
+    margin: auto;
   }
 
   .banner.homepage img {
