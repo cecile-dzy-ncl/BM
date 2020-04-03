@@ -140,6 +140,10 @@ p {
   padding: 10px 0;
 }
 
+a.logo.front-logo {
+    padding-right: 20px;
+}
+
 .fondation-de-france header.main-header .header-spacer {
   padding-top: 0;
 }
