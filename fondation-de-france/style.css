@@ -331,7 +331,7 @@ section#project_tabs + section .row {
   position: relative;
 }
 
-.project_event_description div {
+.project_event_description > div {
   display: flex;
   /*flex-direction: column;*/
 }
