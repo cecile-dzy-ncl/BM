@@ -79,20 +79,20 @@ p {
   font-size: 16px;
   line-height: 22px;
   padding: 11px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .main-header .button {
   background-color: #0061AF;
   border-color: #0061AF;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .section-home-projects .button {
   background-color: transparent !important;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 6px;
   color: black;
   width: 30%;
   float: none !important;
