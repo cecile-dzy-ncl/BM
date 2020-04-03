@@ -412,6 +412,11 @@ img {
   margin: 0 !important;
 }
 
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
@@ -420,6 +425,11 @@ img {
 .mx-10 {
   margin-left: 10px !important;
   margin-right: 10px !important;
+}
+
+.my-0 {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
 }
 
 .my-20 {
