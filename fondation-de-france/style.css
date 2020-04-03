@@ -427,6 +427,14 @@ section.event-head {
     margin: auto;
   }
 
+  .banner.homepage .banner-text h1,   .banner.homepage .banner-text p {
+    text-align:center;
+  }
+
+  .banner.homepage .banner-text .btn-bm {
+    margin: auto;
+  }
+
   .banner.homepage img {
     filter: invert(1);
   }
