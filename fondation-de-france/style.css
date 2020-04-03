@@ -405,6 +405,11 @@ section.event-head {
     background-color: white;
   }
 
+  .banner.homepage .banner-text {
+    width: 80%;
+    margin-left: auto;
+  }
+
   .banner.homepage img {
     filter: invert(1);
   }
