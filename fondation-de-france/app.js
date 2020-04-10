@@ -9,7 +9,7 @@ $( document ).ready(function() {
   $("<li class='nodropdown footer-link-menu'><a href='https://www.fondationdefrance.org/fr'>© Alliance Tous unis contre le Virus</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
   $("a[href='https://one-o-one.eu/']").attr("target", "_blank");
 
-  $("html[lang='en'] img.image_banner").attr("src", "https://fundraise.one-o-one.eu/cdn.iraiser.eu/rl8pwcx7hCuvZ/l/h3S8jA9Z2sEml1JMSK1qpjRZk9KUV2PgEtFqjlkQ46bAQD7f/Cecile_Dezy/origin/101banneren2x.jpg");
+  $("html[lang='en'] img.image_banner").attr("src", "/cdn.iraiser.eu/rl8pwcx7hCuvZ/l/h3S8jA9Z2sEml1JMSK1qpjRZk9KUV2PgEtFqjlkQ46bAQD7f/Cecile_Dezy/origin/101banneren2x.jpg");
 
 
   // AJOUT BANNER MAINTENANCE
