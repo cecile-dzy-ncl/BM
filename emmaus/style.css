@@ -1,0 +1,399 @@
+/* ------------------- COLORS ------------------- */
+
+/*
+
+orange : #E04E39;
+
+*/
+
+
+/* BLACK */
+.abbe-pierre .black {
+  color: #000000 !important;
+}
+
+/* orange */
+.abbe-pierre .orange {
+  color: #E04E39 !important;
+}
+
+.abbe-pierre .bg-orange {
+  background: #E04E39 !important;
+}
+
+/* BLUE */
+.abbe-pierre .blue {
+  color: #E04E39 !important;
+}
+
+.abbe-pierre .bg-blue {
+  background-color: #E04E39 !important;
+}
+
+/* GREY */
+.abbe-pierre .bg-grey {
+  background-color: #FAFAFA !important;
+}
+
+/* GENERAL */
+
+h1 {
+  font-size: 35px;
+  line-height: 37px;
+  color: #E04E39;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.abbe-pierre .container-bm {
+  width: 960px;
+}
+
+.abbe-pierre .container-lg-bm {
+  width: 1140px;
+}
+
+.people .rounded {
+  border: 0;
+}
+
+/* BUTTONS */
+
+.btn-bm {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 11px;
+}
+
+.main-header .button {
+  background-color: #E04E39;
+  border-color: #E04E39;
+  text-transform: uppercase;
+}
+
+.section-home-projects .button {
+  background-color: transparent !important;
+  border: 2px solid black;
+  color: black;
+  width: 30%;
+  float: none !important;
+  margin: 0px auto 50px;
+  display: block !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button {
+    background-color: #E04E39;
+    border-color: #E04E39;
+}
+
+
+/* BANNERS & WRAPPERS */
+
+.banner.homepage {
+  background: url(https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/bannerap.png);
+  background-size: cover;
+  height: 600px;
+}
+
+.banner.homepage p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.banner.homepage .container-small-bm {
+  align-self: flex-end;
+}
+
+.section-home-projects {
+  background: #fafafa;
+}
+
+
+/* HEADER & FOOTER */
+
+#header-header > .row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.abbe-pierre header.main-header .header-spacer {
+  padding-top: 0;
+}
+
+#header-header input.icon-search {
+  margin: 0;
+}
+
+/* PAGE DE COLLECTE */
+
+#projects-show .bg-secondary-color-blurred {
+  background: #000000;
+}
+
+.section-projet-details .projet-head {
+  background: white;
+}
+
+section.section-projet-details .projet-head .rounded {
+  border: none;
+}
+
+.projet-head .rows {
+  display: flex;
+  align-items: center;
+}
+
+p.from_event,
+i.fa.fa-gift {
+  display: none;
+}
+
+.section-projet-details .bg-secondary-color-blurred {
+  background: #F0F0F0;
+}
+
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 43px;
+}
+
+section.section-projet-details .projet-head .user {
+  margin-right: 10px;
+}
+
+
+
+section.section-projet-details h1#show_title {
+  color: #E04E39;
+  font-size: 27px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+p.team_by {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
+
+
+/*  section.section-projet-details .project-detail-data .current-amount,*/
+section.section-projet-details .project-detail-data .contributeurs span,
+section.section-projet-details .project-detail-data .jours-restants span {
+  font-size: 29px;
+  line-height: 27px;
+  font-family: "Open Sans";
+}
+
+section.section-projet-details .project-detail-data .jours-restants #show_days,
+section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section.section-projet-details .project-detail-data .contributeurs {
+  margin-top: 0.65rem;
+}
+
+section.section-projet-details .project_boutons_give {
+  background: #E04E39;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  height: 50px;
+  /*line-height: 50px;*/
+  min-height: auto !important;
+  background: #E04E39 !important;
+}
+
+#show_team {
+  background: #F3F5F0;
+}
+
+.block-share-container h4 span {
+  color: white;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: transparent;
+}
+
+.block-share-container {
+  padding-bottom: 3px;
+  background: #000000;
+}
+
+.social_network_send, .social_network_share,
+.ask_edit_project {
+  filter: invert(1);
+}
+
+#project_tabs .bg-color-light {
+  background: white;
+}
+
+.tabs dd a {
+  color: black;
+  font-size: 14px;
+  line-height: 22px;
+  background: #F5F5F5;
+}
+
+.tabs dd.active a {
+  background-color: #000000;
+  color: white;
+}
+
+.project_payment #list_payment .people p.money {
+  color: #E04E39;
+}
+
+#show_description {
+  font-size: 19px;
+  line-height: 24px;
+  color: #000;
+}
+
+section#project_tabs + section .row {
+  max-width: 100%;
+  background : url("https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefondpiedpage.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.project_event_description {
+  height: 600px;
+  width: 400px;
+  margin-right: 150px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right !important;
+  text-align: right;
+}
+
+.credits {
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    opacity: .5;
+    font-style: italic;
+}
+
+.tabs-content .active.content {
+  padding-top: 50px;
+}
+
+/* PAGE EVENT */
+.event-head .intro-my-event * {
+    color: black !important;
+}
+
+section.event-head {
+    margin-bottom: 50px;
+}
+
+#events-show .event-head .intro-my-event {
+    padding: 40px 30px;
+}
+
+.event-head .intro-my-event:after {
+  top: 50%;
+  transform: translatey(-50%);
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#events-show .block-share-container h4 span {
+    color: black;
+}
+
+.event-head .details-my-event .infos-money,
+#events-show .block-share-container h4,
+.event-head .infos-money .chart-wrap .percent {
+    color: #E04E39 !important;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .banner, .banner.homepage {
+    height: auto;
+  }
+
+  .banner.homepage {
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    background-color: white;
+  }
+
+  .banner.homepage img {
+    filter: invert(1);
+  }
+
+  .section-home-projects .button {
+    width: 80%;
+  }
+
+  .wrapper.bg-white .pr-50 p,
+  .wrapper.bg-white .pr-50 + img {
+    margin: 0 !important;
+  }
+
+  #header-header > .row {
+    flex-direction: column;
+  }
+
+  .projet-head .small-12:first-child {
+      width: auto;
+  }
+
+  .mobile .section-projet-details h1#show_title {
+    text-align: left !important;
+  }
+
+  .project_event_description {
+    width: 80%;
+    margin: auto !important;
+    text-align: center;
+  }
+
+  .event-head .intro-my-event:after {
+    content: none;
+  }
+
+  .habillage::after {
+    background-color: transparent;
+    width: 100vw;
+  }
+
+}
