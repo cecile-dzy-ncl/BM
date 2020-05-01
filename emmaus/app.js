@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   console.log( "ready!" );
 
-  $("body").addClass("abbe-pierre");
+  $("body").addClass("emmaus");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $('#tag-amount').html($('#tag-amount').text().split(",")[0])
