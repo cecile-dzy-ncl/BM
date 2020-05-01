@@ -2,7 +2,7 @@
 
 /*
 
-orange : #E04E39;
+red : #F90400;
 
 */
 
@@ -12,22 +12,22 @@ orange : #E04E39;
   color: #000000 !important;
 }
 
-/* orange */
-.abbe-pierre .orange {
-  color: #E04E39 !important;
+/* red */
+.abbe-pierre .red {
+  color: #F90400 !important;
 }
 
-.abbe-pierre .bg-orange {
-  background: #E04E39 !important;
+.abbe-pierre .bg-red {
+  background: #F90400 !important;
 }
 
 /* BLUE */
 .abbe-pierre .blue {
-  color: #E04E39 !important;
+  color: #F90400 !important;
 }
 
 .abbe-pierre .bg-blue {
-  background-color: #E04E39 !important;
+  background-color: #F90400 !important;
 }
 
 /* GREY */
@@ -40,7 +40,7 @@ orange : #E04E39;
 h1 {
   font-size: 35px;
   line-height: 37px;
-  color: #E04E39;
+  color: #F90400;
 }
 
 h2 {
@@ -80,8 +80,8 @@ p {
 }
 
 .main-header .button {
-  background-color: #E04E39;
-  border-color: #E04E39;
+  background-color: #F90400;
+  border-color: #F90400;
   text-transform: uppercase;
 }
 
@@ -98,8 +98,8 @@ p {
 }
 
 .button {
-    background-color: #E04E39;
-    border-color: #E04E39;
+    background-color: #F90400;
+    border-color: #F90400;
 }
 
 
@@ -180,7 +180,7 @@ section.section-projet-details .projet-head .user {
 
 
 section.section-projet-details h1#show_title {
-  color: #E04E39;
+  color: #F90400;
   font-size: 27px;
   line-height: 27px;
   margin: 0;
@@ -217,13 +217,13 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #E04E39;
+  background: #F90400;
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #E04E39 !important;
+  background: #F90400 !important;
 }
 
 #show_team {
@@ -265,7 +265,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .project_payment #list_payment .people p.money {
-  color: #E04E39;
+  color: #F90400;
 }
 
 #show_description {
@@ -333,7 +333,7 @@ section.event-head {
 .event-head .details-my-event .infos-money,
 #events-show .block-share-container h4,
 .event-head .infos-money .chart-wrap .percent {
-    color: #E04E39 !important;
+    color: #F90400 !important;
 }
 
 /* ------ RESPONSIVE ------ */
