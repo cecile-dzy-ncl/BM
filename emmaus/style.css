@@ -3,6 +3,7 @@
 /*
 
 red : #F90400;
+yellow : #FCEF02;
 
 */
 
@@ -12,7 +13,7 @@ red : #F90400;
   color: #000000 !important;
 }
 
-/* red */
+/* RED */
 .emmaus .red {
   color: #F90400 !important;
 }
@@ -20,6 +21,13 @@ red : #F90400;
 .emmaus .bg-red {
   background: #F90400 !important;
 }
+
+/*YELLOW*/
+.emmaus .bg-yellow {
+  background : #FCEF02;
+}
+
+
 
 /* BLUE */
 .emmaus .blue {
