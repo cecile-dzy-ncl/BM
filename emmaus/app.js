@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
   $(".credits").appendTo("section#project_tabs + section .row")
 
-  $("<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
+  $("<li class='nodropdown footer-link-menu'><a href='https://emmaus-france.org/'>© EMMAÜS</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
   $(document).ready(function() {
     $('.smoothScroll').on('click', function() { // Au clic sur un élément
