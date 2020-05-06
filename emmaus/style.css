@@ -110,6 +110,12 @@ p {
     border-color: #F90400;
 }
 
+#header-header .top-bar .button.left {
+    background: #fcef03;
+    color: black;
+    font-weight: bold;
+}
+
 
 /* BANNERS & WRAPPERS */
 
