@@ -315,14 +315,8 @@ section#project_tabs + section .row {
 
 
 .project_event_description {
-  height: 600px;
-  /*width: 400px;*/
-  /*margin-right: 150px !important;*/
   display: flex;
-  /*flex-direction: column;*/
   justify-content: center;
-  /*float: right !important;*/
-  /*text-align: right;*/
 }
 
 .credits {
