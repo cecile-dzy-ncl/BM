@@ -241,8 +241,12 @@ section.section-projet-details .project-detail-data .jours-restants .contributeu
   margin-bottom: 1rem;
 }
 
+section.section-projet-details .project-detail-data .jours-restants {
+  margin-top: 0rem;
+}
+
 section.section-projet-details .project-detail-data .contributeurs {
-  margin-top: 0.65rem;
+  margin-top: 0.45rem;
 }
 
 section.section-projet-details .project_boutons_give {
