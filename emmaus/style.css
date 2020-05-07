@@ -1,3 +1,11 @@
+/* ------------------- FONTS ------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: "Roboto" !important;
+}
+
 /* ------------------- COLORS ------------------- */
 
 /*
@@ -44,6 +52,7 @@ yellow : #FCEF02;
 }
 
 /* GENERAL */
+
 
 h1 {
   font-size: 35px;
