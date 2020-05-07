@@ -319,7 +319,7 @@ section#project_tabs + section .row {
   /*width: 400px;*/
   /*margin-right: 150px !important;*/
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   justify-content: center;
   /*float: right !important;*/
   /*text-align: right;*/
