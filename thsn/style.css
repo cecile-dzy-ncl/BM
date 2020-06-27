@@ -120,6 +120,10 @@ nav.top-bar .top-bar-section ul li > a {
   font-family: "Rubrik";
 }
 
+#main-nav section.top-bar-section li:not(:last-child):after {
+  content: none;
+}
+
 
 /* -------------------- HOMEPAGE -------------------- */
 
