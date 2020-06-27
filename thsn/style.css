@@ -100,5 +100,13 @@ yellow: #FEB700
 .homepage .banner h1 {
   font-size: 80px;
   line-height: 102px;
-  font-family: 'RubrikB';
+  font-family: 'Rubrik';
+}
+
+
+/* -------------------- HOMEPAGE -------------------- */
+
+.stats span {
+  font-size: 60px;
+  line-height: 60px;
 }
