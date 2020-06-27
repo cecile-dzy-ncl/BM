@@ -742,6 +742,10 @@ section.connexion {
 
 /* - container - */
 
+.container-small-bm {
+  width: 750px;
+}
+
 .container-bm {
   width: 1140px;
 }
