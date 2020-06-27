@@ -92,8 +92,6 @@ small {
 
 
 
-
-
 /* -------------------- BANNERS -------------------- */
 
 .homepage .banner {
@@ -108,6 +106,13 @@ small {
   font-size: 80px;
   line-height: 102px;
   font-family: 'Rubrik';
+}
+
+
+/* -------------------- NAVBAR -------------------- */
+
+section.top-bar-section {
+  background: #C21B17 !important;
 }
 
 
