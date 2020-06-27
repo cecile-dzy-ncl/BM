@@ -106,7 +106,7 @@ yellow: #FEB700
 
 /* -------------------- HOMEPAGE -------------------- */
 
-.stats span {
+.stats p.stat-nb {
   font-size: 60px;
   line-height: 60px;
 }
