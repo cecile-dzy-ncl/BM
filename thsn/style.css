@@ -76,6 +76,11 @@ p {
   font-family: "Rubrik";
 }
 
+small {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* -------------------- BUTTONS -------------------- */
 
 .thsn .btn-bm {
