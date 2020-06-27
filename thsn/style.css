@@ -111,6 +111,7 @@ yellow: #FEB700
 }
 
 .stats p.stat-nb {
+  font-family: 'RubrikB';
   font-size: 60px;
   line-height: 60px;
 }
