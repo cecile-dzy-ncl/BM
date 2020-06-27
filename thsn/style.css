@@ -115,6 +115,10 @@ section.top-bar-section {
   background: #C21B17 !important;
 }
 
+.top-bar-section ul li > a {
+  color: white;
+}
+
 
 /* -------------------- HOMEPAGE -------------------- */
 
