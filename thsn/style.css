@@ -72,7 +72,9 @@ yellow: #FEB700
   font-style: normal;
 }
 
-
+p {
+  font-family: "Rubrik";
+}
 
 /* -------------------- BUTTONS -------------------- */
 
