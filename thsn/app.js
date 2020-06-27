@@ -34,7 +34,7 @@ $( document ).ready(function() {
   // $("#events-index .section-events").after(wrapperOutils);
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-blue'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
+  var bannerMaintenance = ("<div class='maintenance text-center p-5 bg-orange'><p class='m-0 white'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   $("#banner_section").before(bannerMaintenance);
 
   $("<li class='nodropdown footer-link-menu'><a href='https://www.thehumansafetynet.org/fr/'>© THE HUMAN SAFETY NET</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
