@@ -111,11 +111,11 @@ small {
 
 /* -------------------- NAVBAR -------------------- */
 
-section.top-bar-section {
+nav.top-bar section.top-bar-section {
   background: #C21B17 !important;
 }
 
-.top-bar-section ul li > a {
+nav.top-bar .top-bar-section ul li > a {
   color: white;
   font-family: "Rubrik";
 }
