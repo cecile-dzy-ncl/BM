@@ -11,7 +11,7 @@ body {
 red : #C21B17
 orange: #FF7500
 purple: #982B95;
-
+red-pastel : rgba(194,27,23,0.15);
 
 
 pink: #C32762
@@ -36,6 +36,9 @@ yellow: #FEB700
   color: #C21B17;
 }
 
+.bg-red_pastel {
+  background: rgba(194,27,23,0.15);
+}
 
 .bg-orange {
   background: #FF7500;
