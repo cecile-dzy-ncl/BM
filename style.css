@@ -55,7 +55,7 @@ img {
 }
 
 .w-fit {
-  width: fit;
+  width: fit-content;
 }
 
 .w-25 {
