@@ -75,6 +75,12 @@ yellow: #FEB700
   font-style: normal;
 }
 
+h2 {
+  font-family: "Rubrik";
+  font-size: 30px;
+  line-height: 30px;
+}
+
 p {
   font-family: "Rubrik";
 }
