@@ -238,6 +238,10 @@ img {
   border-color: #000 !important;
 }
 
+.border-white {
+  border-color: #fff !important;
+}
+
 .border-grey {
   border-color: #979797 !important;
 }
