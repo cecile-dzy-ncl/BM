@@ -121,6 +121,7 @@ nav.top-bar .top-bar-section ul li > a {
 }
 
 nav.top-bar .top-bar-section ul li > a:hover {
+  color: white;
   -webkit-text-stroke: 1px black;
 }
 
