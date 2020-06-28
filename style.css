@@ -137,7 +137,7 @@ img {
 }
 
 .text-initial {
-  text-transform: initial;
+  text-transform: initial !important;
 }
 
 .underline {
