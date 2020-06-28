@@ -148,3 +148,10 @@ nav.top-bar .top-bar-section ul li > a:hover {
 .section-home-projects {
   padding-top: 0px;
 }
+
+/* -------------------- CONSEILS -------------------- */
+
+.conseils p {
+  font-size: 16px;
+  line-height: 23px;
+}
