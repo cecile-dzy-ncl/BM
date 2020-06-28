@@ -136,6 +136,10 @@ img {
   text-transform: lowercase;
 }
 
+.text-initial {
+  text-transform: initial;
+}
+
 .underline {
   text-decoration: underline !important;
 }
