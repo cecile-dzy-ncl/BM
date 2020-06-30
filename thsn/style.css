@@ -236,3 +236,18 @@ nav.top-bar .top-bar-section ul li > a:hover {
 .sub-event #events-show .block-share-container h4 span:before {
   content: none;
 }
+
+#input.url-link {
+  border: 1px solid #B4B4B4;
+  padding: 5px;
+  background: #F5F5F5;
+}
+
+div#copy.url-btn {
+  border: 1px solid #B4B4B4;
+  padding: 5px;
+  background: #F5F5F5;
+  color: #C21B17;
+}
+
+
