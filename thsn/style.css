@@ -166,7 +166,8 @@ nav.top-bar .top-bar-section ul li > a:hover {
 
 /* -------------------- MAIN EVENTS -------------------- */
 
-.main-event section.event-head .small-12.medium-6.columns:nth-of-type(2) {
+.main-event section.event-head .small-12.medium-6.columns:nth-of-type(2),
+.main-event section.section-my-event {
   display: none;
 }
 
