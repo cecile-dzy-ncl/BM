@@ -45,10 +45,10 @@ $( document ).ready(function() {
   if($("#events-show")) {
     if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
       console.log("sub-event");
-      $("#events-show").classList.add("sub-event");
+      $("#events-show")[0].classList.add("sub-event");
     } else if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 1) {
       console.log("main-event");
-      $("#events-show").classList.add("main-event");
+      $("#events-show")[0].classList.add("main-event");
     }
   }
 
