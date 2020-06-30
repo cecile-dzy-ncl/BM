@@ -43,9 +43,11 @@ $( document ).ready(function() {
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
   if($("#events-show")) {
-    if ($("#events-show")[0].classList.value.match(/event_\d/g).length) {
+    if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
       console.log("yeaaaaah");
-      $("#events-show").classList.add("sub-event")
+      $("#events-show").classList.add("sub-event");
+    } else if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 1) {
+      $("#events-show").classList.add("main-event");
     }
   }
 
