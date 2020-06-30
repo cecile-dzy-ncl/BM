@@ -42,6 +42,7 @@ $( document ).ready(function() {
   // AJOUT BOUTON NAVBAR
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
+  // AJOUT CLASS MAIN-EVENT & SUB-EVENT
   if($("#events-show")) {
     if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
       console.log("sub-event");
@@ -51,6 +52,14 @@ $( document ).ready(function() {
       $("#events-show")[0].classList.add("main-event");
     }
   }
+
+  // AJOUT CLASS MAIN-EVENT & SUB-EVENT
+  if($(".main-event")) {
+    $(".wrapper-help").appendTo(".habillage");
+  }
+
+
+
 
 // --------- RESPONSIVE ---------
 
