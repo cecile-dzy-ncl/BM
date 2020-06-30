@@ -171,6 +171,10 @@ nav.top-bar .top-bar-section ul li > a:hover {
   display: none;
 }
 
+.main-event section.event-head {
+  padding-top: 50px;
+}
+
 .main-event section.event-head .row.bg-secondary-color-blurred {
   background: white;
 }
