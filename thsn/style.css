@@ -244,6 +244,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
   padding: 5px;
   background: #F5F5F5;
   font-family: "Rubrik";
+  height: 35px;
 }
 
 div#copy.url-btn {
@@ -252,6 +253,7 @@ div#copy.url-btn {
   background: #F5F5F5;
   color: #C21B17;
   font-family: "Rubrik";
+  height: 35px;
 }
 
 
