@@ -194,12 +194,6 @@ nav.top-bar .top-bar-section ul li > a:hover {
   display: none;
 }
 
-/*.main-event section.event-head {
-  padding-top: 50px;
-}*/
-
-
-
 .main-event section.event-head .small-12.medium-6.columns {
   width: 100%;
 }
@@ -212,3 +206,14 @@ nav.top-bar .top-bar-section ul li > a:hover {
 .main-event .card-bm p {
   line-height: 21px;
 }
+
+
+
+
+.sub-event .event-head .intro-my-event {
+  padding: 30px;
+}
+
+
+
+
