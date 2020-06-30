@@ -162,3 +162,14 @@ nav.top-bar .top-bar-section ul li > a:hover {
   font-size: 16px;
   line-height: 23px;
 }
+
+
+/* -------------------- MAIN EVENTS -------------------- */
+
+.main-event section.event-head .small-12.medium-6.columns:nth-of-type(1) {
+  display: none;
+}
+
+.main-event section.event-head .small-12.medium-6.columns {
+  width: 100%;
+}
