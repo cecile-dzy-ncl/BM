@@ -113,6 +113,11 @@ strong {
   font-family: "RubrikB";
 }
 
+button, .button {
+  font-family: "Rubrik";
+}
+
+
 /* -------------------- BUTTONS -------------------- */
 
 .thsn .btn-bm {
