@@ -171,6 +171,12 @@ nav.top-bar .top-bar-section ul li > a:hover {
   display: none;
 }
 
+.main-event section.event-head .row.bg-secondary-color-blurred {
+  background: white;
+}
+
 .main-event section.event-head .small-12.medium-6.columns {
   width: 100%;
 }
+
+
