@@ -234,8 +234,8 @@ nav.top-bar .top-bar-section ul li > a:hover {
   height: 80%;
 }
 
-.sub-event #events-show .block-share-container h4 span:after,
-.sub-event #events-show .block-share-container h4 span:before {
+.sub-event#events-show .block-share-container h4 span:after,
+.sub-event#events-show .block-share-container h4 span:before {
   content: none;
 }
 
