@@ -92,6 +92,10 @@ small {
   line-height: 24px;
 }
 
+.font-bold {
+  font-family: "RubrikB";
+}
+
 /* -------------------- BUTTONS -------------------- */
 
 .thsn .btn-bm {
