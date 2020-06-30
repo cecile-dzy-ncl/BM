@@ -66,6 +66,7 @@ $( document ).ready(function() {
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100">\
   <input type="textarea" class='url-link' id="input" placeholder="${pageUrl}" value="${pageUrl}"> \
+  <textarea class='url-link' id="input" placeholder="${pageUrl}" value="${pageUrl}">${pageUrl}</textarea> \
   <div class='url-btn' id="copy">COPIER LIEN</div> \
   </div>`;
 
