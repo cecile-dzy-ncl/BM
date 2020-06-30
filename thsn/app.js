@@ -65,7 +65,7 @@ $( document ).ready(function() {
   console.log(pageUrl);
 
   var shareDiv =  `<div class="d-flex">\
-  <div class='url-link' id="input">${pageUrl}</div> \
+  <div class='url-link' id="input"><small>${pageUrl}</small></div> \
   <div class='url-btn' id="copy">COPIER LIEN</div> \
   </div>`;
 
