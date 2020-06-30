@@ -74,6 +74,7 @@ $( document ).ready(function() {
 
   function copy() {
     var copyText = document.querySelector("#input");
+    console.log(copyText);
     copyText.select();
     document.execCommand("copy");
   }
