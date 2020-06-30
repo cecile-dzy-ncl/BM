@@ -73,11 +73,13 @@ $( document ).ready(function() {
 
 
   function copy() {
-    var copyText = document.querySelector("#input");
+    var copyText = document.querySelector(".url-link").innerText;
     console.log(copyText);
-    copyText.select();
-    document.execCommand("copy");
+    navigator.clipboard.writeText(text);
   }
+
+    // copyText.select();
+    // document.execCommand("copy");
 
   document.querySelector("#copy").addEventListener("click", copy);
 
