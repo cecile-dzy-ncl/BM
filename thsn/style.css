@@ -115,6 +115,8 @@ strong {
 
 
 
+
+
 /* -------------------- BUTTONS -------------------- */
 
 .thsn .btn-bm {
@@ -241,6 +243,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
   border: 1px solid #B4B4B4;
   padding: 5px;
   background: #F5F5F5;
+  font-family: "RubrikB";
 }
 
 div#copy.url-btn {
@@ -248,6 +251,7 @@ div#copy.url-btn {
   padding: 5px;
   background: #F5F5F5;
   color: #C21B17;
+  font-family: "RubrikB";
 }
 
 
