@@ -188,3 +188,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 .main-event .card-bm {
   max-width: 30%;
 }
+
+.main-event .card-bm p {
+  line-height: 21px;
+}
