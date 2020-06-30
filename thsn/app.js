@@ -60,9 +60,26 @@ $( document ).ready(function() {
 
 
   // AJOUT DIV AVEC LE PARTAGE
+
   var pageUrl = window.location.href;
+  console.log(pageUrl);
+
+  var shareDiv =  `<div>\
+  <div class='url-link'>${pageUrl}</div> \
+  <div class='url-btn'>COPIER LIEN</div> \
+  </div>`;
+
+  $(".social-btns").html(shareDiv);
 
 
+
+  function copy() {
+    var copyText = document.querySelector("#input");
+    copyText.select();
+    document.execCommand("copy");
+  }
+
+  document.querySelector("#copy").addEventListener("click", copy);
 
 
 // --------- RESPONSIVE ---------
