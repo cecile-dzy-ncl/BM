@@ -261,6 +261,7 @@ div#copy.url-btn {
   color: #C21B17;
   font-family: "Rubrik";
   height: 35px;
+  cursor: pointer;
 }
 
 
