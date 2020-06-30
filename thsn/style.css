@@ -60,6 +60,10 @@ yellow: #FEB700
   background: #8E1430;
 }
 
+.bg-secondary-color-blurred {
+  background: white;
+}
+
 
 /* -------------------- FONTS -------------------- */
 
@@ -194,9 +198,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
   padding-top: 50px;
 }*/
 
-.main-event section.event-head .row.bg-secondary-color-blurred {
-  background: white;
-}
+
 
 .main-event section.event-head .small-12.medium-6.columns {
   width: 100%;
