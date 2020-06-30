@@ -209,6 +209,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 .main-event .card-bm {
   max-width: 32%;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .main-event .card-bm p {
