@@ -62,10 +62,10 @@ $( document ).ready(function() {
   // AJOUT DIV AVEC LE PARTAGE
 
   var pageUrl = window.location.href;
-  console.log(pageUrl);
+  // console.log(pageUrl);
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100">\
-  <div class='url-link' id="input"><small>${pageUrl}</small></div> \
+  <input type="textarea" class='url-link' id="input" placeholder="${pageUrl}""> \
   <div class='url-btn' id="copy">COPIER LIEN</div> \
   </div>`;
 
@@ -75,11 +75,11 @@ $( document ).ready(function() {
   function copy() {
     var copyText = document.querySelector(".url-link").innerText;
     console.log(copyText);
-    navigator.clipboard.writeText(text);
+    copyText.select();
+    document.execCommand("copy");
   }
 
-    // copyText.select();
-    // document.execCommand("copy");
+    // navigator.clipboard.writeText(text);
 
   document.querySelector("#copy").addEventListener("click", copy);
 
