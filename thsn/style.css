@@ -133,6 +133,12 @@ button, .button {
 }
 
 
+/* -------------------- CONTAINERS -------------------- */
+.container-small-bm {
+  width: 800px;
+}
+
+
 /* -------------------- BANNERS -------------------- */
 
 .homepage .banner {
