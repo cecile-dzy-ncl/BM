@@ -59,6 +59,10 @@ $( document ).ready(function() {
   }
 
 
+  // AJOUT DIV AVEC LE PARTAGE
+  var pageUrl = window.location.href;
+
+
 
 
 // --------- RESPONSIVE ---------
