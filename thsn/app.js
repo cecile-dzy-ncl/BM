@@ -65,12 +65,11 @@ $( document ).ready(function() {
   console.log(pageUrl);
 
   var shareDiv =  `<div>\
-  <div class='url-link'>${pageUrl}</div> \
-  <div class='url-btn'>COPIER LIEN</div> \
+  <div class='url-link' id="input">${pageUrl}</div> \
+  <div class='url-btn' id="copy">COPIER LIEN</div> \
   </div>`;
 
   $(".social-btns").html(shareDiv);
-
 
 
   function copy() {
