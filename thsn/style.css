@@ -407,3 +407,7 @@ p#show_team {
   font-size: 19px;
   line-height: 26px;
 }
+
+.project_event_description.columns {
+    width: 550px;
+}
