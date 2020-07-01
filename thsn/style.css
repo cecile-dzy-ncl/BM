@@ -265,7 +265,13 @@ div#copy.url-btn {
 }
 
 .people .rounded {
-    border: 1px solid #C21B17;
+  border: 1px solid #C21B17;
+}
+
+section.section-my-event aside .aside-event-list {
+  list-style-type: none;
+  text-align: center;
+  display: none;
 }
 
 /* -------------------- CARD PROJET -------------------- */
