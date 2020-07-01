@@ -410,6 +410,8 @@ p#show_team {
 
 .project_event_description.columns {
     width: 550px;
+    border-top: 1px solid black;
+    padding: 50px 0 90px;
 }
 
 .project_event_description.columns p {
