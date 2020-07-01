@@ -86,7 +86,7 @@ if($(".share-wrapper")[0]) {
       $(".url-btn").html("LIEN COPIÉ");
       setTimeout(function() {
         $(".url-btn").html("COPIER LE LIEN");
-      }, 2000);
+      }, 1000);
     } catch (err) {
       console.error('Fallback: Oops, unable to copy', err);
     }
