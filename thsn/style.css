@@ -284,4 +284,9 @@ section.section-my-event aside .aside-event-list {
   border: 1px solid #F0F0F0;
 }
 
+.projects-list .panel h3 {
+  font-size: 15px;
+  line-height: 17px;
+}
+
 
