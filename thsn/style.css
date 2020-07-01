@@ -264,8 +264,11 @@ div#copy.url-btn {
   cursor: pointer;
 }
 
+.people .rounded {
+    border: 1px solid #C21B17;
+}
 
-/* -------------------- SUB EVENTS -------------------- */
+/* -------------------- CARD PROJET -------------------- */
 
 .projects-list .panel {
   border-radius: 20px;
