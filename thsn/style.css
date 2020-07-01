@@ -389,17 +389,21 @@ p#show_team {
 }*/
 
 .tabs dd > a {
-    color: black;
-    font-size: 15px;
-    line-height: 22px;
+  color: black;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .tabs dd.active a {
     color: white;
 }
 
+.tabs-content {
+  padding-top: 50px;
+}
+
 .tabs-content p {
-    text-align: left;
-    font-size: 19px;
-    line-height: 26px;
+  text-align: left;
+  font-size: 19px;
+  line-height: 26px;
 }
