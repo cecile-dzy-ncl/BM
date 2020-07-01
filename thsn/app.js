@@ -70,7 +70,7 @@ $( document ).ready(function() {
 
   $(".social-btns").html(shareDiv);
 
-if($(".share-wrapper")) {
+if($(".share-wrapper")[0]) {
 
   function copy() {
     event.preventDefault();
