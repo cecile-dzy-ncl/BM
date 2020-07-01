@@ -334,5 +334,9 @@ h1#show_title {
 }
 
 .section-projet-details .columns.bg-secondary-color-blurred {
-    background: #C21B17;
+  background: #C21B17;
+}
+
+.block-share-container {
+  background-color: transparent;
 }
