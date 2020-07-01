@@ -66,13 +66,14 @@ $( document ).ready(function() {
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100">\
   <input class="url-link"type="text" value="${pageUrl}"> \
-  <div class='url-btn' id="copy">COPIER LIEN</div> \
+  <button class='url-btn' id="copy">COPIER LIEN</button> \
   </div>`;
 
   $(".social-btns").html(shareDiv);
 
 
   function copy() {
+    event.preventDefault();
     var copyText = document.querySelector(".url-link").value;
     console.log(copyText);
     copyText.select();
@@ -82,6 +83,35 @@ $( document ).ready(function() {
     // navigator.clipboard.writeText(text);
 
   document.querySelector("#copy").addEventListener("click", copy);
+
+
+// /**    * get Share link html string with translations  **/
+//   AbUi_ShareLink.prototype.getShareLinkComponent = function () {
+//       return "\n      <div class=\"share-link\">\n        <h6>" + (document.getElementById('events-show') ? this.translations[this.lang].shared.shareThisFundPage : this.translations[this.lang].shared.shareThisCampaign) + "</h6>\n        <div class=\"share-link__wrapper\">\n        <input type=\"text\" value=\"" + window.location + "\" />\n        <button>" + this.translations[this.lang].shared.copyLink + "</button>\n        </div>\n      </div>\n    ";
+//   };
+//     AbUi_ShareLink.prototype.attachEventListener = function () {
+//         var shareLinkButton = document.querySelector('.share-link button');
+//         if (shareLinkButton) {
+//             shareLinkButton.addEventListener('click', this._shareLinkButtonClickHandler);
+//         }
+//         else {
+//             console.error('Share link button not found');
+//         }
+//     };
+//     AbUi_ShareLink.prototype._shareLinkButtonClickHandler = function (ev) {
+//         ev.preventDefault();
+//         var shareLinkInput = document.querySelector('.share-link input');
+//         if (shareLinkInput) {
+//             shareLinkInput.select();
+//             document.execCommand('copy');
+//         }
+//         else
+//             console.error('Share link input not found');
+//     };
+//     return AbUi_ShareLink;
+// }());
+
+
 
 
 // --------- RESPONSIVE ---------
