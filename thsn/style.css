@@ -291,6 +291,9 @@ section.section-my-event aside .donators .people p:last-child {
     margin-top: 1rem;
 }
 
+.infos-money .current-amount {
+    font-family: Rubrik;
+}
 /* -------------------- CARD PROJET -------------------- */
 
 .projects-list .panel {
