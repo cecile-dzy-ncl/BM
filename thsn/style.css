@@ -427,7 +427,9 @@ section.section-projet-details .project-detail-data .contributeurs span {
 }
 
 
-
+#projects-show li.comment li {
+    border: none;
+}
 
 
 
