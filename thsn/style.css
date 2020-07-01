@@ -357,8 +357,8 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-family: "Rubrik";
 }
 
-#projects-show .block-share-container .social-btns .social_network a .social_network_send {
+/*#projects-show .block-share-container .social-btns .social_network a .social_network_send {
   background-color: #000000;
   filter: invert(1);
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://thsn.igive.iraiser.eu/assets/V2/btn-share.png) -122px 9px no-repeat;
-}
+}*/
