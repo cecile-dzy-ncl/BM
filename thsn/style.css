@@ -65,11 +65,11 @@ yellow: #FEB700
 }
 
 .main-text-color, body {
-    color: black;
+  color: black;
 }
 
 .bg-color-light {
-    background-color: white;
+  background-color: white;
 }
 
 /* -------------------- FONTS -------------------- */
@@ -292,26 +292,26 @@ section.section-my-event aside .donators .people .rounded {
 }
 
 section.section-my-event aside .donators .people p {
-    font-size: 17px;
-    line-height: 21px;
+  font-size: 17px;
+  line-height: 21px;
 }
 
 section.section-my-event aside .donators .people p:last-child {
-    font-family: "RubrikB";
-    margin-top: 1rem;
+  font-family: "RubrikB";
+  margin-top: 1rem;
 }
 
 .infos-money .current-amount {
-    font-family: Rubrik;
+  font-family: Rubrik;
 }
 
 
 .sub-event .infos-money .small-12.large-6.columns {
-    width: 100%;
+  width: 100%;
 }
 
 .sub-event .infos-money .small-12.large-6.columns p {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 /* -------------------- CARD PROJET -------------------- */
@@ -330,7 +330,7 @@ section.section-my-event aside .donators .people p:last-child {
 /* -------------------- PROJECT SHOW -------------------- */
 
 h1#show_title {
-    color: black;
+  color: black;
 }
 
 .section-projet-details .columns.bg-secondary-color-blurred {
@@ -342,7 +342,7 @@ li.maybevideocontainer {
 }
 
 .row.project-detail-data.p2p-detail-data {
-    padding-top: 24px;
+  padding-top: 24px;
 }
 
 .block-share-container {
@@ -362,11 +362,13 @@ section.section-projet-details .project-detail-data .project_boutons_give {
 }
 
 section.section-projet-details .projet-head .user {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 p#show_team {
-    font-size: 15px;
+  font-size: 15px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 #projects-show section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
@@ -379,7 +381,7 @@ p#show_team {
 }
 
 #projects-show .block-share-container h4 span {
-    color: white;
+  color: white;
 }
 
 #projects-show .block-share-container .social-btns .social_network a .social_network_send {
@@ -390,38 +392,38 @@ p#show_team {
   background-color: #000000;
   filter: invert(1);
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://thsn.igive.iraiser.eu/assets/V2/btn-share.png) -122px 9px no-repeat;
-}*/
+  }*/
 
-.tabs dd > a {
-  color: black;
-  font-size: 15px;
-  line-height: 22px;
-}
+  .tabs dd > a {
+    color: black;
+    font-size: 15px;
+    line-height: 22px;
+  }
 
-.tabs dd.active a {
+  .tabs dd.active a {
     color: white;
-}
+  }
 
-.tabs-content {
-  padding-top: 50px;
-}
+  .tabs-content {
+    padding-top: 50px;
+  }
 
-.tabs-content p {
-  text-align: left;
-  font-size: 19px;
-  line-height: 26px;
-}
+  .tabs-content p {
+    text-align: left;
+    font-size: 19px;
+    line-height: 26px;
+  }
 
-.project_event_description.columns {
+  .project_event_description.columns {
     width: 550px;
     border-top: 1px solid #979797;
     padding: 50px 0 50px;
-}
+  }
 
-.project_event_description.columns p {
+  .project_event_description.columns p {
     font-size: 15px;
     line-height: 19px;
-}
+  }
 
 
 
