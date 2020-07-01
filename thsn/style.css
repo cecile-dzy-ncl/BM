@@ -341,6 +341,10 @@ li.maybevideocontainer {
   list-style: none;
 }
 
+.row.project-detail-data.p2p-detail-data {
+    padding-top: 24px;
+}
+
 .block-share-container {
   background-color: transparent;
 }
