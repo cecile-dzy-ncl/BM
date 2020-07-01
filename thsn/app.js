@@ -60,11 +60,12 @@ $( document ).ready(function() {
 
 
   // AJOUT DIV AVEC LE PARTAGE
+if(".share-wrapper") {
 
   var pageUrl = window.location.href;
   // console.log(pageUrl);
 
-  var shareDiv =  `<div class="d-flex justify-center align-items-center w-100">\
+  var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link"type="text" value="${pageUrl}"> \
   <button class='url-btn' id="copy">COPIER LIEN</button> \
   </div>`;
@@ -83,6 +84,7 @@ $( document ).ready(function() {
     // navigator.clipboard.writeText(text);
 
   document.querySelector("#copy").addEventListener("click", copy);
+}
 
 
 // /**    * get Share link html string with translations  **/
