@@ -65,7 +65,7 @@ $( document ).ready(function() {
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link" type="text" value="${pageUrl}"> \
-  <div class='url-btn' id="copy">COPIER LIEN</div> \
+  <div class='url-btn' id="copy">COPIER LE LIEN</div> \
   </div>`;
 
   $(".social-btns").html(shareDiv);
@@ -85,8 +85,8 @@ if($(".share-wrapper")[0]) {
       console.log('Fallback: Copying text command was ' + msg);
       $(".url-btn").html("LIEN COPIÉ");
       setTimeout(function() {
-        $(".url-btn").html("PROUT");
-      }, 5000);
+        $(".url-btn").html("COPIER LE LIEN");
+      }, 2000);
     } catch (err) {
       console.error('Fallback: Oops, unable to copy', err);
     }
