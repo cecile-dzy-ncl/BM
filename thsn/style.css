@@ -345,7 +345,7 @@ li.maybevideocontainer {
 }
 
 .row.project-detail-data.p2p-detail-data {
-  padding-top: 24px;
+  padding-top: 34px;
 }
 
 .block-share-container {
@@ -442,7 +442,7 @@ input.url-link {
 .share-wrapper * {
     margin: 0 !important;
     height: 100% !important;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 }
 
 
