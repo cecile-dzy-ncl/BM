@@ -380,6 +380,10 @@ p#show_team {
   font-size: 50px;
 }
 
+section.section-projet-details .project-detail-data .contributeurs span {
+  font-family: Rubrik;
+}
+
 #projects-show .block-share-container h4 span {
   color: white;
 }
