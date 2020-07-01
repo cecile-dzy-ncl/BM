@@ -411,3 +411,15 @@ p#show_team {
 .project_event_description.columns {
     width: 550px;
 }
+
+.project_event_description.columns p {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
