@@ -388,7 +388,8 @@ section.section-projet-details .project-detail-data .contributeurs span {
   color: white;
 }
 
-#projects-show .block-share-container .social-btns .social_network a .social_network_send {
+#projects-show .block-share-container .social-btns .social_network a .social_network_send,
+#projects-show .block-share-container .social-btns .social_network a .social_network_share {
   filter: invert(1);
 }
 
