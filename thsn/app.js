@@ -65,7 +65,7 @@ $( document ).ready(function() {
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link" type="text" value="${pageUrl}"> \
-  <button class='url-btn' id="copy">COPIER LIEN</button> \
+  <div class='url-btn' id="copy">COPIER LIEN</div> \
   </div>`;
 
   $(".social-btns").html(shareDiv);
