@@ -340,3 +340,14 @@ h1#show_title {
 .block-share-container {
   background-color: transparent;
 }
+
+section.section-projet-details .project-detail-data .project_boutons_give {
+    padding-top: 0;
+    height: 50px;
+    min-height: auto;
+    line-height: 50px;
+    background-color: #FAEB00 !important;
+    color: black;
+    font-size: 19px;
+    text-transform: uppercase;
+}
