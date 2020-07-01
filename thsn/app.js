@@ -53,7 +53,7 @@ $( document ).ready(function() {
     }
   }
 
-  // AJOUT CLASS MAIN-EVENT & SUB-EVENT
+  // AJOUT wrapper outils sur main event
   if($(".main-event")) {
     $(".wrapper-help").appendTo(".habillage");
   }
