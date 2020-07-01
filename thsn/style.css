@@ -387,3 +387,13 @@ p#show_team {
   filter: invert(1);
   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://thsn.igive.iraiser.eu/assets/V2/btn-share.png) -122px 9px no-repeat;
 }*/
+
+.tabs dd > a {
+    color: black;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.tabs dd.active a {
+    color: white;
+}
