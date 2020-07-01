@@ -327,3 +327,9 @@ section.section-my-event aside .donators .people p:last-child {
 }
 
 
+/* -------------------- PROJECT SHOW -------------------- */
+
+h1#show_title {
+    color: black;
+}
+
