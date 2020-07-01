@@ -361,6 +361,11 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-family: "Rubrik";
 }
 
+.sub-event section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
+  font-family: Rubrik;
+  font-size: 30px;
+}
+
 /*#projects-show .block-share-container .social-btns .social_network a .social_network_send {
   background-color: #000000;
   filter: invert(1);
