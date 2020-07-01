@@ -361,6 +361,10 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-family: "Rubrik";
 }
 
+p#show_team {
+    font-size: 15px;
+}
+
 #projects-show section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
   font-family: Rubrik;
   font-size: 30px;
