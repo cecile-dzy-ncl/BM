@@ -370,6 +370,10 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-size: 50px;
 }
 
+#projects-show .block-share-container h4 span {
+    color: white;
+}
+
 /*#projects-show .block-share-container .social-btns .social_network a .social_network_send {
   background-color: #000000;
   filter: invert(1);
