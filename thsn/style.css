@@ -331,6 +331,8 @@ section.section-my-event aside .donators .people p:last-child {
 
 h1#show_title {
   color: black;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .section-projet-details .columns.bg-secondary-color-blurred {
@@ -367,8 +369,6 @@ section.section-projet-details .projet-head .user {
 
 p#show_team {
   font-size: 15px;
-  font-size: 24px;
-  line-height: 30px;
 }
 
 #projects-show section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
@@ -393,42 +393,37 @@ section.section-projet-details .project-detail-data .contributeurs span {
   filter: invert(1);
 }
 
-/*#projects-show .block-share-container .social-btns .social_network a .social_network_send {
-  background-color: #000000;
-  filter: invert(1);
-  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://thsn.igive.iraiser.eu/assets/V2/btn-share.png) -122px 9px no-repeat;
-  }*/
 
-  .tabs dd > a {
-    color: black;
-    font-size: 15px;
-    line-height: 22px;
-  }
+.tabs dd > a {
+  color: black;
+  font-size: 15px;
+  line-height: 22px;
+}
 
-  .tabs dd.active a {
-    color: white;
-  }
+.tabs dd.active a {
+  color: white;
+}
 
-  .tabs-content {
-    padding-top: 50px;
-  }
+.tabs-content {
+  padding-top: 50px;
+}
 
-  .tabs-content p {
-    text-align: left;
-    font-size: 19px;
-    line-height: 26px;
-  }
+.tabs-content p {
+  text-align: left;
+  font-size: 19px;
+  line-height: 26px;
+}
 
-  .project_event_description.columns {
-    width: 550px;
-    border-top: 1px solid #979797;
-    padding: 50px 0 50px;
-  }
+.project_event_description.columns {
+  width: 550px;
+  border-top: 1px solid #979797;
+  padding: 50px 0 50px;
+}
 
-  .project_event_description.columns p {
-    font-size: 15px;
-    line-height: 19px;
-  }
+.project_event_description.columns p {
+  font-size: 15px;
+  line-height: 19px;
+}
 
 
 
