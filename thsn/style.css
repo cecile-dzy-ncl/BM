@@ -378,6 +378,10 @@ p#show_team {
     color: white;
 }
 
+#projects-show .block-share-container .social-btns .social_network a .social_network_send {
+  filter: invert(1);
+}
+
 /*#projects-show .block-share-container .social-btns .social_network a .social_network_send {
   background-color: #000000;
   filter: invert(1);
