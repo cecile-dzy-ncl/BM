@@ -64,6 +64,9 @@ yellow: #FEB700
   background: white;
 }
 
+.main-text-color, body {
+    color: black;
+}
 
 /* -------------------- FONTS -------------------- */
 
