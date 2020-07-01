@@ -294,6 +294,16 @@ section.section-my-event aside .donators .people p:last-child {
 .infos-money .current-amount {
     font-family: Rubrik;
 }
+
+
+.sub-event .infos-money .small-12.large-6.columns {
+    width: 100%;
+}
+
+.sub-event .infos-money .small-12.large-6.columns p {
+    text-align: center !important;
+}
+
 /* -------------------- CARD PROJET -------------------- */
 
 .projects-list .panel {
