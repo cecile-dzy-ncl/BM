@@ -422,7 +422,7 @@ input.url-link {
   padding: 5px;
   background: #F5F5F5;
   font-family: "Rubrik";
-  width: 70%;
+  /*width: 70%;*/
 }
 
 div#copy.url-btn {
@@ -437,6 +437,13 @@ div#copy.url-btn {
   text-align: center;
   font-size: 15px;
   line-height: 26px;
+}
+
+#events-show .block-share-container,
+#projects-show .block-share-container {
+    padding: 0 0.5rem;
+    width: 83.33333%;
+    margin: auto;
 }
 
 .share-wrapper * {
