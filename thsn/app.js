@@ -78,6 +78,14 @@ if($(".share-wrapper")) {
     console.log(copyText);
     copyText.select();
     document.execCommand("copy");
+
+    try {
+      var successful = document.execCommand('copy');
+      var msg = successful ? 'successful' : 'unsuccessful';
+      console.log('Fallback: Copying text command was ' + msg);
+    } catch (err) {
+      console.error('Fallback: Oops, unable to copy', err);
+    }
   }
 
 
