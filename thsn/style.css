@@ -277,6 +277,20 @@ section.section-my-event aside .aside-event-list {
   display: none;
 }
 
+section.section-my-event aside .donators .people .rounded {
+  margin-bottom: 1rem;
+}
+
+section.section-my-event aside .donators .people p {
+    font-size: 17px;
+    line-height: 16px;
+}
+
+section.section-my-event aside .donators .people p:last-child {
+    font-family: "RubrikB";
+    margin-top: 1rem;
+}
+
 /* -------------------- CARD PROJET -------------------- */
 
 .projects-list .panel {
