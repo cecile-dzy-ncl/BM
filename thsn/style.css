@@ -337,6 +337,10 @@ h1#show_title {
   background: #C21B17;
 }
 
+li.maybevideocontainer {
+  list-style: none;
+}
+
 .block-share-container {
   background-color: transparent;
 }
