@@ -342,19 +342,19 @@ h1#show_title {
 }
 
 section.section-projet-details .project-detail-data .project_boutons_give {
-    padding-top: 0;
-    height: 50px;
-    min-height: auto;
-    line-height: 50px;
-    background-color: #FAEB00 !important;
-    color: black;
-    font-size: 19px;
-    text-transform: uppercase;
-    font-family: "Rubrik";
+  padding-top: 0;
+  height: 50px;
+  min-height: auto;
+  line-height: 50px;
+  background-color: #FAEB00 !important;
+  color: black;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-family: "Rubrik";
 }
 
 #projects-show .block-share-container .social-btns .social_network a .social_network_send {
-    background-color: #000000;
-    filter: invert(1);
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(/assets/V2/btn-share.png) -122px 9px no-repeat;
+  background-color: #000000;
+  filter: invert(1);
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(/assets/V2/btn-share.png) -122px 9px no-repeat;
 }
