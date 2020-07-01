@@ -333,3 +333,6 @@ h1#show_title {
     color: black;
 }
 
+.section-projet-details .columns.bg-secondary-color-blurred {
+    background: #C21B17;
+}
