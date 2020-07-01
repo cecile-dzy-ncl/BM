@@ -361,6 +361,10 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-family: "Rubrik";
 }
 
+section.section-projet-details .projet-head .user {
+    margin-right: 20px;
+}
+
 p#show_team {
     font-size: 15px;
 }
