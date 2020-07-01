@@ -361,12 +361,12 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   font-family: "Rubrik";
 }
 
-.sub-event section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
+#projects-show section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
   font-family: Rubrik;
   font-size: 30px;
 }
 
-.sub-event section.section-projet-details .project-detail-data .current-amount {
+#projects-show section.section-projet-details .project-detail-data .current-amount {
   font-size: 50px;
 }
 
