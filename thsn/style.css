@@ -445,5 +445,10 @@ input.url-link {
 }
 
 
+/* -------------------- PROJECT SHOW -------------------- */
+
+#form-project .project-image-element-selected {
+    border: solid 2px #C21B17;
+}
 
 
