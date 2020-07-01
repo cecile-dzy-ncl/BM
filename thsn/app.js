@@ -64,7 +64,7 @@ $( document ).ready(function() {
   var pageUrl = window.location.href;
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
-  <input class="url-link"type="text" value="${pageUrl}"> \
+  <input class="url-link" type="text" value="${pageUrl}"> \
   <button class='url-btn' id="copy">COPIER LIEN</button> \
   </div>`;
 
@@ -74,7 +74,7 @@ if($(".share-wrapper")) {
 
   function copy() {
     event.preventDefault();
-    var copyText = document.querySelector(".url-link").value;
+    var copyText = document.querySelector(".url-link");
     console.log(copyText);
     copyText.select();
     document.execCommand("copy");
