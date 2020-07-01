@@ -397,3 +397,9 @@ p#show_team {
 .tabs dd.active a {
     color: white;
 }
+
+.tabs-content p {
+    text-align: left;
+    font-size: 19px;
+    line-height: 26px;
+}
