@@ -431,6 +431,19 @@ section.section-projet-details .project-detail-data .contributeurs span {
     border: none;
 }
 
+.share-wrapper {
+    height: 35px;
+}
+
+input.url-link {
+    width: 70%;
+}
+
+.share-wrapper * {
+    margin: 0 !important;
+    height: 100% !important;
+}
+
 
 
 
