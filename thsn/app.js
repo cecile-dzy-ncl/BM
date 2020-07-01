@@ -84,6 +84,9 @@ if($(".share-wrapper")[0]) {
       var msg = successful ? 'successful' : 'unsuccessful';
       console.log('Fallback: Copying text command was ' + msg);
       $(".url-btn").html("LIEN COPIÉ");
+      setTimeout(function() {
+        $(".url-btn").textContent = 'Save';
+    }, 5000);
     } catch (err) {
       console.error('Fallback: Oops, unable to copy', err);
     }
