@@ -43,7 +43,7 @@ $( document ).ready(function() {
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
   // AJOUT CLASS MAIN-EVENT & SUB-EVENT
-  if($("#events-show")) {
+  if($("body#events-show.event_type_peer_to_peer")[0] != undefined) {
     if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
       console.log("sub-event");
       $("#events-show")[0].classList.add("sub-event");
