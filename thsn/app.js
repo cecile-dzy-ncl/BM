@@ -60,10 +60,8 @@ $( document ).ready(function() {
 
 
   // AJOUT DIV AVEC LE PARTAGE
-if(".share-wrapper") {
 
   var pageUrl = window.location.href;
-  // console.log(pageUrl);
 
   var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link"type="text" value="${pageUrl}"> \
@@ -72,6 +70,7 @@ if(".share-wrapper") {
 
   $(".social-btns").html(shareDiv);
 
+if(".share-wrapper") {
 
   function copy() {
     event.preventDefault();
@@ -81,11 +80,11 @@ if(".share-wrapper") {
     document.execCommand("copy");
   }
 
-    // navigator.clipboard.writeText(text);
 
   document.querySelector("#copy").addEventListener("click", copy);
 }
 
+    // navigator.clipboard.writeText(text);
 
 // /**    * get Share link html string with translations  **/
 //   AbUi_ShareLink.prototype.getShareLinkComponent = function () {
