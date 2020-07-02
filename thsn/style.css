@@ -235,6 +235,9 @@ nav.top-bar .top-bar-section ul li > a:hover {
   line-height: 21px;
 }
 
+section#banner_section {
+    display: none;
+}
 
 
 /* -------------------- SUB EVENTS -------------------- */
