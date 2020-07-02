@@ -239,6 +239,21 @@ section#banner_section {
     display: none;
 }
 
+.main-event-banner {
+    height: 300px;
+    background-size: cover !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-event-banner h1 {
+    color: white;
+    margin-top: 20px;
+}
+
 
 /* -------------------- SUB EVENTS -------------------- */
 
