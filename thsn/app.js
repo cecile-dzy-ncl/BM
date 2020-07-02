@@ -95,10 +95,11 @@ if($(".share-wrapper")[0]) {
   document.querySelector("#copy").addEventListener("click", copy);
 }
 
-
-var bannerImg = $(".image_banner")[0].src;
-// var bannerValue = `${bannerImg}`;
-$(".main-event-banner")[0].style.background = "url("+ bannerImg +")";
+if($(".main-event .image_banner")[0]) {
+  var bannerImg = $(".image_banner")[0].src;
+  // var bannerValue = `${bannerImg}`;
+  $(".main-event-banner")[0].style.background = "url("+ bannerImg +")";
+}
 
 
 // --------- RESPONSIVE ---------
