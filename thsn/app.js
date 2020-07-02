@@ -92,39 +92,13 @@ if($(".share-wrapper")[0]) {
     }
   }
 
-
   document.querySelector("#copy").addEventListener("click", copy);
 }
 
-    // navigator.clipboard.writeText(text);
 
-// /**    * get Share link html string with translations  **/
-//   AbUi_ShareLink.prototype.getShareLinkComponent = function () {
-//       return "\n      <div class=\"share-link\">\n        <h6>" + (document.getElementById('events-show') ? this.translations[this.lang].shared.shareThisFundPage : this.translations[this.lang].shared.shareThisCampaign) + "</h6>\n        <div class=\"share-link__wrapper\">\n        <input type=\"text\" value=\"" + window.location + "\" />\n        <button>" + this.translations[this.lang].shared.copyLink + "</button>\n        </div>\n      </div>\n    ";
-//   };
-//     AbUi_ShareLink.prototype.attachEventListener = function () {
-//         var shareLinkButton = document.querySelector('.share-link button');
-//         if (shareLinkButton) {
-//             shareLinkButton.addEventListener('click', this._shareLinkButtonClickHandler);
-//         }
-//         else {
-//             console.error('Share link button not found');
-//         }
-//     };
-//     AbUi_ShareLink.prototype._shareLinkButtonClickHandler = function (ev) {
-//         ev.preventDefault();
-//         var shareLinkInput = document.querySelector('.share-link input');
-//         if (shareLinkInput) {
-//             shareLinkInput.select();
-//             document.execCommand('copy');
-//         }
-//         else
-//             console.error('Share link input not found');
-//     };
-//     return AbUi_ShareLink;
-// }());
-
-
+var bannerImg = $(".image_banner")[0].src;
+// var bannerValue = `${bannerImg}`;
+$(".main-event-banner")[0].style.background = "url("+ bannerImg +")";
 
 
 // --------- RESPONSIVE ---------
