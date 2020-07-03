@@ -264,6 +264,11 @@ a {
 
 /* PAGE DE COLLECTE */
 
+
+.event_3 .bg-secondary-color-blurred {
+    background-color: #00ac98;
+}
+
 .project_inner {
     text-align: left !important;
 }
