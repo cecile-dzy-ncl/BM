@@ -43,16 +43,6 @@ $( document ).ready(function() {
     // $("#banner_section").before(bannerMaintenanceNL);
 }
 
-$( document ).ready(function() {
-    // IN MEMORIAM
-
-    $(".event_3 .pledge-amount").css("display", "none");
-    $(".event_3 .jours-restants").remove();
-    $(".event_3 .contributeurs").remove();
-    $(".event_3 #show_team").remove();
-
-
-  }
 
 
   // --------- RESPONSIVE ---------

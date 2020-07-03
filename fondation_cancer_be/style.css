@@ -265,10 +265,6 @@ a {
 /* PAGE DE COLLECTE */
 
 
-.event_3 .bg-secondary-color-blurred {
-    background-color: #00ac98;
-}
-
 .project_inner {
     text-align: left !important;
 }
@@ -349,6 +345,22 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 
 #project_tabs .row.bg-color-light {
   background-color: white !important;
+}
+
+
+/* PAGE IN MEMORIAM */
+
+
+.event_3 .bg-secondary-color-blurred {
+    background-color: #00ac98;
+}
+
+
+.event_3 .pledge-amount,
+.event_3 .jours-restants,
+.event_3 .conrtibuteurs,
+.event_3 #show_team {
+  display: none;
 }
 
 
