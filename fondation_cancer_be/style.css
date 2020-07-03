@@ -378,11 +378,15 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 }
 
 .event_3 .infos-money .small-12.medium-7.columns {
-    width: 100%;
+  width: 100%;
 }
 
 .event_3 .project_boutons_give {
-    margin: 30px auto 50px !important;
+  margin: 30px auto 50px !important;
+}
+
+.event_3 dl.tabs dd:nth-of-type(4) {
+  display: none;
 }
 
 
