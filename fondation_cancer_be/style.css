@@ -359,7 +359,7 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 .event_3 .pledge-amount,
 .event_3 .jours-restants,
 .event_3 .contributeurs,
-.event_3 #show_team {
+.event_3 .project_boutons_join {
   display: none;
 }
 
