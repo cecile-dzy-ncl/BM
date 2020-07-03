@@ -365,6 +365,8 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
 
 .event_3 .projet-head + .row {
   background: #03ac98;
+  display: flex;
+  align-items: center;
 }
 
 
