@@ -376,6 +376,14 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
   box-shadow: none;
 }
 
+.event_3 .infos-money .small-12.medium-7.columns {
+    width: 100%;
+}
+
+.event_3 .infos-money .small-12.medium-5.columns {
+    display: none;
+}
+
 
 /* DIVERS */
 
