@@ -48,6 +48,7 @@ $( document ).ready(function() {
     $(".event_3 .pledge-amount").remove();
     $(".event_3 .jours-restants").remove();
     $(".event_3 .contributeurs").remove();
+    $(".event_3 #show_team").remove();
 
 
   }
