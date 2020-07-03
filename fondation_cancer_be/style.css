@@ -369,6 +369,10 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
   align-items: center;
 }
 
+.event_3 .bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
 
 /* DIVERS */
 
