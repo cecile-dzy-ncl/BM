@@ -355,7 +355,7 @@ section.section-projet-details .project-detail-data .project_boutons_give i {
   background-color: #00ac98;
 }
 
-.event_3 .current-amount {
+#projects-show.event_3 .current-amount {
   text-align: center !important;
 }
 
