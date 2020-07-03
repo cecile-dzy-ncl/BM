@@ -42,7 +42,9 @@ $( document ).ready(function() {
     // var bannerMaintenanceNL = ("<div class='maintenance p-5 bg-green'><p class='m-0 white'>We zijn bezig met een update van ons platform, gelieve ons te verontschuldigen voor eventuele ongemakken</p></div>");
     // $("#banner_section").before(bannerMaintenanceNL);
 
+}
 
+$( document ).ready(function() {
     // IN MEMORIAM
 
     $(".event_3 .pledge-amount").css("display", "none");
