@@ -52,6 +52,7 @@ $( document ).ready(function() {
   if(windowWidth < 500){
     $(".cards-bm .mb-21").removeClass(".mb-21");
     $("#wrapper-ex .w-50").removeClass(".w-50");
+    console.log('mobile ok')
   }
 
 });
