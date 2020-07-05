@@ -781,4 +781,7 @@ label.control_label {
   #wrapper-ex .row-bm img {
     display: none;
   }
+  #wrapper-ex .container-bm .row-bm {
+    padding: 20px 0;
+  }
 }
