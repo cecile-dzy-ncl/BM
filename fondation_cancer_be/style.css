@@ -715,6 +715,9 @@ label.control_label {
 
 @media screen and (max-width: 500px) {
 
+  .banner.banner-homepage {
+    padding: 30px;
+  }
   .banner-about {
     padding: 20px !important;
   }
