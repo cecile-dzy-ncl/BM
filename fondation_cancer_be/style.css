@@ -771,4 +771,8 @@ label.control_label {
     margin-bottom: 20px !important;
   }
 
+  .event-item .panel .event-image .wrap {
+    background-color: #f5F5F5 !important;
+  }
+
 }
