@@ -716,7 +716,7 @@ label.control_label {
 @media screen and (max-width: 500px) {
 
   .banner .banner-text {
-    padding: 30px;
+    padding: 0 25px;
     width: auto;
     height: auto;
   }
