@@ -774,4 +774,8 @@ label.control_label {
   .event-item .panel .event-image .wrap {
     background-color: #f5F5F5 !important;
   }
+
+  #wrapper-ex .row-bm .w-50 {
+    width: 100%;
+  }
 }
