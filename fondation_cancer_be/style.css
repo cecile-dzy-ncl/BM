@@ -778,4 +778,7 @@ label.control_label {
   #wrapper-ex .row-bm .w-50 {
     width: 100%;
   }
+  #wrapper-ex .row-bm img {
+    display: none;
+  }
 }
