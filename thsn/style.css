@@ -495,5 +495,9 @@ div#copy.url-btn {
   .main-event .card-bm {
     max-width: none;
   }
+  .card-bm-description {
+    height: auto !important;
+    padding: 20px !important;
+  }
 }
 
