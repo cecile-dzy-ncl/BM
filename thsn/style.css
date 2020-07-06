@@ -478,3 +478,17 @@ div#copy.url-btn {
 }
 
 
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+
+  .homepage .banner {
+    height: auto;
+  }
+
+  .homepage .banner h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
