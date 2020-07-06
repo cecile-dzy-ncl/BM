@@ -63,7 +63,7 @@ $( document ).ready(function() {
 
   var pageUrl = window.location.href;
 
-  var shareDiv =  `<div class="d-flex justify-center align-items-center w-100 share-wrapper">\
+  var shareDiv =  `<div class="d-flex mobile_flex-column justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link" type="text" value="${pageUrl}"> \
   <div class='url-btn' id="copy">COPIER LE LIEN</div> \
   </div>`;
