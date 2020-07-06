@@ -109,7 +109,7 @@ if($(".main-event .image_banner")[0]) {
 
   if(windowWidth < 500){
     $("body").addClass("mobile");
-    // $(".banner-text h2").removeClass("white");
+    $(".stats .d-flex").removeClass("align-items-start");
     // $(".banner-text p").removeClass("white");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
