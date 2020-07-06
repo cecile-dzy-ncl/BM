@@ -792,9 +792,16 @@ label.control_label {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1400px) {
   .banner-homepage .banner-text {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
   }
+}
+
+@media screen and (max-width: 1024px) {
+/*  .banner-homepage .banner-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }*/
 }
