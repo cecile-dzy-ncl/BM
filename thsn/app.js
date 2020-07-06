@@ -110,7 +110,8 @@ if($(".main-event .image_banner")[0]) {
   if(windowWidth < 500){
     $("body").addClass("mobile");
     $(".stats .d-flex").removeClass("align-items-start");
-    // $(".banner-text p").removeClass("white");
+    $("#pages-show.conseils-outils .bg-red_pastel").removeClass("p-70");
+    $("#pages-show.conseils-outils .bg-red_pastel").addClass("p-20");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
