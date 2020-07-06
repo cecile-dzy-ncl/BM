@@ -797,6 +797,9 @@ label.control_label {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
   }
+  .event-item .panel {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 1024px) {
