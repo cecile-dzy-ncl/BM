@@ -506,5 +506,9 @@ div#copy.url-btn {
   .url-btn#copy {
     width: 100%;
   }
+  .project_event_description {
+    width: 100% !important;
+    padding: 20px !important;
+  }
 }
 
