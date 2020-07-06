@@ -784,4 +784,7 @@ label.control_label {
   #wrapper-ex .container-bm .row-bm {
     padding: 20px 0;
   }
+  #pages-show.conseils-outil .bg-green-2 {
+    height: auto;
+  }
 }

@@ -47,12 +47,6 @@ $( document ).ready(function() {
 
   // --------- RESPONSIVE ---------
 
-  // var windowWidth= $(window).width();
 
-  // if(windowWidth < 500){
-  //   $(".cards-bm .mb-21").removeClass(".mb-21");
-  //   $("#wrapper-ex .flex-column").removeClass(".w-50");
-  //   console.log('mobile ok')
-  // }
 
 });
