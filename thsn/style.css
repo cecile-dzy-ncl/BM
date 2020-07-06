@@ -491,5 +491,9 @@ div#copy.url-btn {
     font-size: 40px;
     line-height: 50px;
   }
+
+  .main-event .card-bm {
+    max-width: none;
+  }
 }
 
