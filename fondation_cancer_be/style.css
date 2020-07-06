@@ -787,4 +787,14 @@ label.control_label {
   #pages-show.conseils-outils .bg-green-2 {
     height: auto;
   }
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-homepage .banner-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+  }
 }
