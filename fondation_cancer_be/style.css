@@ -788,7 +788,9 @@ label.control_label {
     height: auto;
   }
 
-
+  .event-item .panel {
+    flex-direction: column;
+  }
 
 }
 
