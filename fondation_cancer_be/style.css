@@ -800,6 +800,10 @@ label.control_label {
   .event-item .panel {
     display: flex;
   }
+  .event-image img {
+    width: 100%;
+    object-position: top;
+  }
 }
 
 @media screen and (max-width: 1024px) {
