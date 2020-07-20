@@ -62,7 +62,7 @@ orange : #E04E39;
 
 /* GENERAL */
 
-body {
+body, a, p {
   font-family: "Diodrum";
 }
 
