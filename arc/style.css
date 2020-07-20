@@ -437,6 +437,13 @@ section.section-projet-details .project-detail-data .contributeurs i {
   color: #c32762;
 }
 
+.project_payment a.button.new-gift-button {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  background: #c32861;
+}
+
 /* PAGE EVENTS */
 
 
