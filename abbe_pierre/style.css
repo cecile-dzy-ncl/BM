@@ -63,11 +63,11 @@ orange : #E04E39;
 /* GENERAL */
 
 body, a, p {
-  font-family: "Diodrum Medium" !important;
+  font-family: "Open Sans" !important;
 }
 
 h1, h2, h3 {
-  font-family: "Diodrum Medium";
+  font-family: "Open Sans";
 }
 
 h1 {
