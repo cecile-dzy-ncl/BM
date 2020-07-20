@@ -433,6 +433,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+#projects-show .project_payment #list_payment .people p.money {
+  color: #c32762;
+}
+
 /* PAGE EVENTS */
 
 
