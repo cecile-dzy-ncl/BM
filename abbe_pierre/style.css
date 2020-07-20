@@ -1,3 +1,28 @@
+/* ------------------- FONTS ------------------- */
+
+@import url(//db.onlinewebfonts.com/c/00f0f381aec74e3f1d85b9ed5f927de0?family=Diodrum);
+@import url(//db.onlinewebfonts.com/c/58be8806528478acd7bc9ad8e93159ce?family=Diodrum+Medium);
+
+@font-face {
+  font-family: "Diodrum";
+  src: url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.eot");
+  src: url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.woff") format("woff")
+       url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/00f0f381aec74e3f1d85b9ed5f927de0.svg#Diodrum") format("svg");
+}
+
+@font-face {
+  font-family: "Diodrum Medium";
+  src: url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.eot");
+  src: url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.eot?#iefix") format("embedded-opentype"),
+       url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.woff2") format("woff2"),
+       url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.woff") format("woff"),
+       url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.ttf") format("truetype"),
+       url("//db.onlinewebfonts.com/t/58be8806528478acd7bc9ad8e93159ce.svg#Diodrum Medium") format("svg");
+}
+
 /* ------------------- COLORS ------------------- */
 
 /*
@@ -36,6 +61,14 @@ orange : #E04E39;
 }
 
 /* GENERAL */
+
+body {
+  font-family: "Diodrum";
+}
+
+h1, h2, h3 {
+  font-family: "Diodrum Medium";
+}
 
 h1 {
   font-size: 35px;
