@@ -63,7 +63,7 @@ orange : #E04E39;
 /* GENERAL */
 
 body, a, p {
-  font-family: "Diodrum";
+  font-family: "Diodrum" !important;
 }
 
 h1, h2, h3 {
