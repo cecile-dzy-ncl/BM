@@ -120,6 +120,12 @@ p {
   align-self: flex-end;
 }
 
+.banner.creer-collecte {
+  background: url(/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefond2x.jpg);
+  background-size: cover;
+  height: 488px;
+}
+
 .section-home-projects {
   background: #fafafa;
 }
