@@ -349,7 +349,7 @@ section#project_tabs + section .row {
   width: 100% !important;
 }
 
-.event-head .intro-my-event * {
+.event-head .intro-my-event p {
     color: black !important;
 }
 
