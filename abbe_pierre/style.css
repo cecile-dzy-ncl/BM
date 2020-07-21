@@ -160,6 +160,10 @@ p {
   height: 488px;
 }
 
+.banner.creer-collecte .banner-text {
+  width: 522px;
+}
+
 .section-home-projects {
   background: #fafafa;
 }
