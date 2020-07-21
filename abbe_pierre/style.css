@@ -162,6 +162,8 @@ p {
 
 .banner.creer-collecte .banner-text {
   width: 522px;
+  margin-left: 150px;
+  text-align: left;
 }
 
 .section-home-projects {
