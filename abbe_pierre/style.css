@@ -388,6 +388,13 @@ section.event-head {
     color: #E04E39 !important;
 }
 
+
+/* ------ CONSEILS & OUTILS ------ */
+
+#wrapper-ex .row-bm {
+  padding: 60px 0;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
