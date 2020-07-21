@@ -367,10 +367,7 @@ section.event-head {
 }
 
 .event-head .intro-my-event:after {
-  top: 50%;
-  transform: translatey(-50%);
-  width: 2px;
-  background-color: rgba(0, 0, 0, 0.2);
+  display: none;
 }
 
 #events-show .block-share-container h4 span {
