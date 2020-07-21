@@ -362,6 +362,10 @@ section.event-head {
     margin-bottom: 50px;
 }
 
+#events-show .infos-money {
+    display: none;
+}
+
 #events-show .event-head .intro-my-event {
     padding: 40px 30px;
 }
