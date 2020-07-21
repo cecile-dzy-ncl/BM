@@ -346,7 +346,8 @@ section#project_tabs + section .row {
 }
 
 #events-show .event-head > .row > .columns {
-  width: 100% !important;
+  width: 80% !important;
+  margin: 0 auto;
 }
 
 .event-head .intro-my-event p {
