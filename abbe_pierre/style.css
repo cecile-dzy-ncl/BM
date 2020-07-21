@@ -350,6 +350,10 @@ section#project_tabs + section .row {
   margin: 0 auto;
 }
 
+.event-head .intro-my-event h1 {
+    margin-bottom: 20px;
+}
+
 .event-head .intro-my-event p {
     color: black !important;
 }
