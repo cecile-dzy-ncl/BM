@@ -20,6 +20,9 @@ $( document ).ready(function() {
     });
   });
 
+  // ajout du bloc en début de page
+  $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat"><div class="stat-nb"><img><span></span></div></div><div class="event-stat"><div class="stat-nb"><img><span></span></div></div></div>');
+
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   // $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
 
