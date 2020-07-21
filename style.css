@@ -230,6 +230,10 @@ img {
   background-color: #000 !important;
 }
 
+.bg-black * {
+  color: #fff !important;
+}
+
 /* - boxes - */
 
 .container-bm {
