@@ -226,6 +226,10 @@ img {
   background-color: #fafafa !important;
 }
 
+.bg-black {
+  background-color: #000 !important;
+}
+
 /* - boxes - */
 
 .container-bm {
