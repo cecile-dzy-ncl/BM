@@ -345,7 +345,8 @@ section#project_tabs + section .row {
   background-color: white !important;
 }
 
-#events-show .event-head > .row > .columns {
+#events-show .event-head > .row > .columns,
+#events-show .event-stats {
   width: 753px !important;
   margin: 0 auto;
 }
