@@ -338,6 +338,12 @@ section#project_tabs + section .row {
 }
 
 /* PAGE EVENT */
+
+#events-show .event-head > .row {
+  display: flex;
+  flex-direction: column;
+}
+
 .event-head .intro-my-event * {
     color: black !important;
 }
