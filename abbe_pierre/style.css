@@ -345,6 +345,10 @@ section#project_tabs + section .row {
   background-color: white !important;
 }
 
+#events-show .event-head > .row > .columns {
+  width: 100% !important;
+}
+
 .event-head .intro-my-event * {
     color: black !important;
 }
