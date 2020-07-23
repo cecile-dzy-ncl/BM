@@ -124,7 +124,7 @@ p {
 /* BANNERS & WRAPPERS */
 
 .banner {
-  background-size: cover;
+  background-size: cover !important;
   height: 488px;
 }
 
