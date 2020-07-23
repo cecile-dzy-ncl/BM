@@ -134,18 +134,13 @@ p {
   line-height: 24px;
 }
 
-
-.banner.homepage .container-small-bm {
-  align-self: flex-end;
-}
-
 .banner.creer-collecte {
   background: url(https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefond2x.jpg);
   background-size: cover;
   height: 488px;
 }
 
-.banner.creer-collecte .banner-text {
+.banner .banner-text {
   width: 522px;
   margin-left: 150px;
   text-align: left;
