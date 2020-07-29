@@ -433,7 +433,19 @@ section.event-head {
   /*margin: 0px auto 100px auto;*/
 }
 
-.campagne .campagne-description * {
+.camp-description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.camp-descrption h3 {
+  margin-bottom: 30px;
+}
+
+.campagne .camp-description * {
   text-align: center;
 }
 
