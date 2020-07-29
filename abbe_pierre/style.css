@@ -411,6 +411,11 @@ section.event-head {
   font-family: "DiodrumM";
 }
 
+.infos-money .infos-money-details .info-money.detail {
+  color: black;
+  font-size: 12px;
+}
+
 /* ------ CONSEILS & OUTILS ------ */
 
 #wrapper-ex .row-bm {
