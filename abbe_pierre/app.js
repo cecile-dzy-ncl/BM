@@ -42,8 +42,8 @@ $( document ).ready(function() {
   //$('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
 
   // AJOUT BANNER MAINTENANCE
-  // var bannerMaintenance = ("<div class='maintenance p-5 bg-blue'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
-  // $("#banner_section").before(bannerMaintenance);
+  var bannerMaintenance = ("<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
+  $("#banner_section").before(bannerMaintenance);
 
   // AJOUT BOUTON NAVBAR
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
