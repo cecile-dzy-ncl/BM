@@ -433,6 +433,10 @@ section.event-head {
   /*margin: 0px auto 100px auto;*/
 }
 
+.campagne .campagne-description * {
+  text-align: center;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
