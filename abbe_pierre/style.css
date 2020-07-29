@@ -405,6 +405,12 @@ section.event-head {
 }
 
 
+/* ------ PANEL PAGE COLLECTE ------ */
+.projects-list .panel h3 a {
+  font-size: 17px;
+  font-family: "DiodrumM";
+}
+
 /* ------ CONSEILS & OUTILS ------ */
 
 #wrapper-ex .row-bm {
