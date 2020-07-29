@@ -1,6 +1,25 @@
 /* ------------------- FONTS ------------------- */
 
+@font-face {
+  font-family: 'Diodrum';
+  src: url('https://cecile-dzy-ncl.github.io/BM/abbe_pierre/fonts/Diodrum.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'DiodrumM';
+  src: url('https://cecile-dzy-ncl.github.io/BM/abbe_pierre/fonts/Diodrum-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DiodrumB';
+  src: url('https://cecile-dzy-ncl.github.io/BM/abbe_pierre/fonts/Diodrum-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* ------------------- COLORS ------------------- */
 
