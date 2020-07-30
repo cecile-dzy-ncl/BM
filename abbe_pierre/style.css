@@ -376,6 +376,12 @@ section#project_tabs + section .row {
 
 .event-stat img {
   width: 50px;
+  margin-right: 20px;
+}
+
+.event-stat span {
+  font-size: 35px;
+  line-height: 42px;
 }
 
 .event-head .intro-my-event * {
