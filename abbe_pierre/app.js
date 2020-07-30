@@ -45,7 +45,7 @@ $( document ).ready(function() {
   // ajout du bloc en début de page
   if ($("#events-show")) {
     var eventNb = $("#events-show")
-    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><img><span><span></span>projets</span></div></div><div class="event-stat amount_collected"><div class="stat-nb"><img><span></span></div></div></div>');
+    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><img><span></span><p>page de collecte créées</p></div></div><div class="event-stat amount_collected"><div class="stat-nb"><img><span></span><p>ont déjà été collectés</p></div></div></div>');
   }
 
   $(function(){
