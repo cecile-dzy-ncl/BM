@@ -58,7 +58,7 @@ $(function(){
     console.log("api baby");
   });
 
-}});
+});
 
 
 // --------- RESPONSIVE ---------
