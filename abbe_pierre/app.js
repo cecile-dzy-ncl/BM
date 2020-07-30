@@ -54,8 +54,10 @@ $(function(){
   // if ($('body').is('#events-show') && $('body').is('.event_60')) {
 
   $.get('https://cagnottes.fondation-abbe-pierre.fr/api/events?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18', function(response) {
-    console.log(response);
+    console.log(response.events);
     console.log("api baby");
+
+
   });
 
 });
