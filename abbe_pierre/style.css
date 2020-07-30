@@ -387,6 +387,7 @@ section#project_tabs + section .row {
 .stat-nb {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .event-head .intro-my-event * {
