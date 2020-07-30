@@ -64,7 +64,7 @@ $(function(){
     console.log(response.events[0]);
     console.log("api baby");
     var events = response.events;
-    events.
+    // events.
 
 
   });
