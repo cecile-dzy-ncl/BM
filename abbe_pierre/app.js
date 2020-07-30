@@ -45,7 +45,7 @@ $( document ).ready(function() {
   // ajout du bloc en début de page
   if ($("#events-show")) {
     var eventNb = $("#events-show")
-    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat"><div class="stat-nb"><img><span><span><tag event_id="1">$collector_count</tag></span></span></div></div><div class="event-stat"><div class="stat-nb"><img><span></span></div></div></div>');
+    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><img><span><span></span>projets</span></div></div><div class="event-stat amount_collected"><div class="stat-nb"><img><span></span></div></div></div>');
   }
 
   $(function(){
@@ -58,7 +58,8 @@ $( document ).ready(function() {
         var event_projects_nb = response.projects_count;
         var event_amount_collected = response.amount_collected;
 
-        $(".stat-nb span").html(event_projects_nb);
+        $(".projects_count .stat-nb span").html(event_projects_nb);
+        $(".amount_collected .stat-nb span").html(event_amount_collected);
 
       });
     }
