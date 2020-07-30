@@ -368,6 +368,7 @@ section#project_tabs + section .row {
 
 #events-show .event-stats {
   display: flex;
+  margin-top: 50px;
 }
 
 .event-stat {
