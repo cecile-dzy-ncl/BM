@@ -52,7 +52,8 @@ $( document ).ready(function() {
 
 $(function(){
   if ("#events-show") {
-    var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")
+    var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
+    console.log(event_id);
   }
   // if ($('body').is('#events-show') && $('body').is('.event_60')) {
 
