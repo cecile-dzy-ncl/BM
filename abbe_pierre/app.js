@@ -20,11 +20,7 @@ $( document ).ready(function() {
     });
   });
 
-  // ajout du bloc en début de page
-  if ($("#events-show")) {
-    var eventNb = $("#events-show")
-    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat"><div class="stat-nb"><img><span><span><tag event_id="1">$collector_count</tag></span></span></div></div><div class="event-stat"><div class="stat-nb"><img><span></span></div></div></div>');
-  }
+
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   // $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
@@ -45,26 +41,29 @@ $( document ).ready(function() {
   var bannerMaintenance = ("<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   $("#banner_section").before(bannerMaintenance);
 
-  // AJOUT BOUTON NAVBAR
-  // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
-
-
-$(function(){
-  if ("#events-show") {
-    var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
-    console.log(event_id);
-
-    $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${event_id}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
-      console.log(response);
-      var event_projects_nb = response.projects_count;
-      var event_amount_collected = response.amount_collected;
-
-
-    });
+  // ajout du bloc en début de page
+  if ($("#events-show")) {
+    var eventNb = $("#events-show")
+    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat"><div class="stat-nb"><img><span><span><tag event_id="1">$collector_count</tag></span></span></div></div><div class="event-stat"><div class="stat-nb"><img><span></span></div></div></div>');
   }
 
-});
+  $(function(){
+    if ("#events-show") {
+      var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
+      console.log(event_id);
+
+      $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${event_id}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
+        console.log(response);
+        var event_projects_nb = response.projects_count;
+        var event_amount_collected = response.amount_collected;
+
+        $(".stat-nb span").html(event_projects_nb);
+
+      });
+    }
+
+  });
 
 
 // --------- RESPONSIVE ---------
