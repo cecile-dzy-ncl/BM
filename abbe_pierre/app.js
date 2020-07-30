@@ -54,19 +54,11 @@ $(function(){
   if ("#events-show") {
     var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
     console.log(event_id);
-  // if ($('body').is('#events-show') && $('body').is('.event_60')) {
-
-   // https://cagnottes.fondation-abbe-pierre.fr/api/events/6?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18
 
     $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${event_id}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
       console.log(response);
-      // console.log(response.events);
-      // console.log(response.events[0]);
-      console.log(response.id);
-      console.log("api baby");
       var event_projects_nb = response.projects_count;
-      console.log(event_projects_nb);
-      // events.
+      var event_amount_collected = response.amount_collected;
 
 
     });
