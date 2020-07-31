@@ -392,20 +392,26 @@ section#project_tabs + section .row {
     margin-bottom: 15px;
 }
 
+.event-head .details-my-event .button {
+  margin: 0;
+  width: fit-content;
+  padding: 0.75rem 3rem;
+}
+
 .event-head .intro-my-event * {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .event-head .intro-my-event h1 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .event-head .intro-my-event p {
-    color: black !important;
+  color: black !important;
 }
 
 section.event-head {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #events-show .infos-money {
@@ -413,7 +419,7 @@ section.event-head {
 }
 
 #events-show .event-head .intro-my-event {
-    padding: 40px 30px;
+    padding: 50px 30px 0;
 }
 
 .event-head .intro-my-event:after {
@@ -432,6 +438,11 @@ section.event-head {
 
 
 /* ------ PANEL PAGE COLLECTE ------ */
+
+.panel.radius {
+    border-radius: 0px;
+}
+
 .projects-list .panel h3 a {
   font-size: 17px;
   font-family: "DiodrumM";
