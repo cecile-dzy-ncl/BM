@@ -191,12 +191,12 @@ section.top-bar-section {
     background: transparent !important;
 }
 
-.top-bar-section li:not(.has-form) a:not(.button) {
+header .top-bar-section li:not(.has-form) a:not(.button) {
     font-family: "DiodrumM" !important;
     color: black;
 }
 
-.top-bar-section li.nodropdown:last-child a {
+header .top-bar-section li.nodropdown:last-child a {
     color: #E04E39;
 }
 
