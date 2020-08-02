@@ -187,6 +187,10 @@ p {
   margin: 0;
 }
 
+section.top-bar-section {
+    background: transparent !important;
+}
+
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
