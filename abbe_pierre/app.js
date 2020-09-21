@@ -39,14 +39,21 @@ $( document ).ready(function() {
         console.log(response);
         var eventProjectsNb = response.projects_count;
         var eventAmountCollected = response.amountCollected / 100;
-        
+        console.log(eventAmountCollected);
+
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(eventAmountCollected);
-        console.log(response.expected_amount);
         if (response.expected_amount != null) {
           console.log('il y a un obj de collecte global');
           console.log(this);
-          $(".event-stats").after("prout");
+          var eventProgress = (eventAmountCollected / response.expected_amount) * 100
+          var eventProgressBar = `
+          <div class="container-small-bm">
+            <div class="event-progressbar bg-mediumgrey">
+              <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
+            </div>
+          </div>`;
+          $(".event-stats").after(eventProgressBar);
 
         }
       });

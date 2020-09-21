@@ -58,6 +58,10 @@ orange : #E04E39;
   background-color: #FAFAFA !important;
 }
 
+.abbe-pierre .bg-mediumgrey {
+  background-color: #E7E7E7 !important;
+}
+
 /* GENERAL */
 
 body, a, p,
@@ -462,6 +466,9 @@ section.event-head {
     color: #E04E39 !important;
 }
 
+.event-progressbar {
+  height: 20px;
+}
 
 /* ------ PANEL PAGE COLLECTE ------ */
 
