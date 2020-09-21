@@ -522,6 +522,10 @@ section.event-head {
   background: #FAFAFA;
 }
 
+#events-show.event_7 .event-head > .row > .columns {
+  width: 1140px !important;
+}
+
 
 /* ------ RESPONSIVE ------ */
 
