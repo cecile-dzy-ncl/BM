@@ -511,6 +511,10 @@ section.event-head {
 
 /* ------ STARS EVENT ------ */
 
+.event_7 .intro_my_event {
+  width: 753px;
+}
+
 .stars-projects {
   display: flex;
   flex-wrap: wrap;
