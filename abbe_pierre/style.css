@@ -60,7 +60,10 @@ orange : #E04E39;
 
 /* GENERAL */
 
-body, a, p {
+body, a, p,
+section.section-projet-details .project-detail-data .contributeurs span,
+section.section-projet-details .project-detail-data .jours-restants span,
+.infos-money .infos-money-details .info-money.detail {
   font-family: "Diodrum" !important;
 }
 
