@@ -91,7 +91,7 @@ $( document ).ready(function() {
                   <p>restant</p>
                 </div>
               </div>
-              <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border'>Voir la page de collecte</a>
+              <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border btn-bm-large'>Voir la page de collecte</a>
             </div>
           </div>`;
           $(".stars-projects").prepend(projectCard);
