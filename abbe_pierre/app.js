@@ -72,7 +72,10 @@ $( document ).ready(function() {
           var projectEndDate = value.end;
           var projectUrl = value.url.fr;
           var projectCard = `
-          <div class=projectCard>${projectTitle}</div>`;
+          <div class=project-card>
+          <div></div>
+          ${projectTitle}
+          </div>`;
           $(".stars-projects").append(projectCard);
         });
       });

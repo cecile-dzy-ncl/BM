@@ -504,6 +504,18 @@ section.event-head {
   text-align: center;
 }
 
+/* ------ STARS EVENT ------ */
+
+.stars-projects {
+  display: flex;
+}
+
+.project-card {
+  width: 45%;
+  background: #FAFAFA;
+}
+
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
