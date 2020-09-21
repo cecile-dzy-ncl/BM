@@ -73,7 +73,7 @@ $( document ).ready(function() {
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
-          <div class='project-card'>
+          <div class='project-card p-50'>
           <img src='${projectImg}' alt='photo du projet'>
           <h4>${projectTitle}</h4>
           <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border'>Voir la page de collecte</a>
