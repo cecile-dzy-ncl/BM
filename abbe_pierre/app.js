@@ -60,7 +60,7 @@ $( document ).ready(function() {
       $("#events-show .section-my-event").remove();
       $("#events-show .details-my-event").remove();
       $("#events-show .block-share-container").remove();
-      $("#events-show .intro-my-event").after("<div class='stars-projects mt-70'></div>");
+      $("#events-show .intro-my-event").after("<div class='stars-projects mt-70 mb-150'></div>");
 
       // récupérer les infos des pages de collectes des stars
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventStar}/projects?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
