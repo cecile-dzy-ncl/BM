@@ -525,6 +525,7 @@ section.event-head {
 .project-card {
   width: 48%;
   background: #FAFAFA;
+  margin-bottom: 25px;
 }
 
 #events-show.event_7 .event-head > .row > .columns {
