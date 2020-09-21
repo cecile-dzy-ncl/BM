@@ -44,8 +44,6 @@ $( document ).ready(function() {
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(eventAmountCollected);
         if (response.expected_amount != null) {
-          console.log('il y a un obj de collecte global');
-          console.log(this);
           var eventProgress = (eventAmountCollected / parseInt(response.expected_amount, 10)) * 100
           var eventProgressBar = `
           <div class="container-small-bm">
