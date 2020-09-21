@@ -531,6 +531,9 @@ section.event-head {
   width: 1140px !important;
 }
 
+.progress-bar, .progress-perc {
+  height: 30px;
+}
 
 /* ------ RESPONSIVE ------ */
 
