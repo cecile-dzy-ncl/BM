@@ -83,8 +83,8 @@ $( document ).ready(function() {
           <div class='project-card'>
             <img src='${projectImg}' alt='photo du projet'>
             <div class='project-details d-flex flex-column p-50 h-50'>
-              <h4 class='text-center flex-grow-1 d-flex align-items-center justify-center'>${projectTitle}</h4>
-              <div>
+              <h4 class='h-25 text-center d-flex align-items-center justify-center'>${projectTitle}</h4>
+              <div class='h-75'>
                 <div class='progress-bar bg-white'>
                   <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
                 </div> 
