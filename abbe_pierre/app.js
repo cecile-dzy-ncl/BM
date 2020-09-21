@@ -62,6 +62,7 @@ $( document ).ready(function() {
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventStar}/projects?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         console.log(response);
         var starProjects = response.projects;
+        console.log(starProjects);
         starProjects.each(function( project ) {
           console.log(project);
         });
