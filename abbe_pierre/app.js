@@ -92,7 +92,7 @@ $( document ).ready(function() {
                     <p>attendus</p>
                   </div>
                   <div class='w-33'>
-                    <h4>${projectEndDate}</h4>
+                    <h4>${remaningDays}</h4>
                     <p>restant</p>
                   </div>
                 </div>
