@@ -71,8 +71,12 @@ section.section-projet-details .project-detail-data .jours-restants span,
   font-family: "Diodrum" !important;
 }
 
-h1, h2, h3, h4, h5 strong {
+h1, h2, h3, h4, h5 {
   font-family: "Diodrum";
+}
+
+strong {
+  font-family: "DiodrumM";
 }
 
 h1 {
