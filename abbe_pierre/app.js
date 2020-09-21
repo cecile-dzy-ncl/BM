@@ -71,10 +71,11 @@ $( document ).ready(function() {
           var projectAmountExpected = value.desired_amount;
           var projectEndDate = value.end;
           var projectUrl = value.url.fr;
+          var projectImg = value.project_images[0].original;
           var projectCard = `
-          <div class=project-card>
-          <div></div>
-          ${projectTitle}
+          <div class='project-card'>
+          <img src='${projectImg}' alt='photo du projet'>
+          <p>${projectTitle}</p>
           </div>`;
           $(".stars-projects").append(projectCard);
         });
