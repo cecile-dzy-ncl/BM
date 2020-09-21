@@ -21,59 +21,57 @@ $( document ).ready(function() {
   });
 
 
-
-  // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-  // $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
-
-  // // AJOUT INTRO PAGE EVENTS
-  // var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au profit de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href='https://collecter.fondation-arc.org/contact_forms/new' class='blue'>nous contacter</a> et à profiter de nos <a href='https://collecter.fondation-arc.org/pages/conseils' class='blue'>conseils et outils.</a></p></div>")
-  // $('.events .first-section').before(textIntroEvents);
-
-  // // AJOUT INTRO PAGE PROJETS
-  // var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
-  // $('.projects .first-section').before(textIntroProjects);
-
-  // // AJOUT INTRO PAGE CONTACT
-  // var textIntroContact = ("Pour toute question sur votre collecte ou sur la Fondation ARC, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.")
-  //$('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
-
+  
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance = ("<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   $("#banner_section").before(bannerMaintenance);
-
-
+  
+  
   // ajout du bloc en début de page
   if ($("#events-show")) {
-    var eventNb = $("#events-show")
+    var eventNb = $("#events-show");
     $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>');
   }
-
+  
   $(function(){
     if ("#events-show") {
-      var event_id = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
-      console.log(event_id);
-
-      $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${event_id}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
+      var eventId = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
+      console.log(eventId);
+      
+      $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         console.log(response);
-        var event_projects_nb = response.projects_count;
-        var event_amount_collected = response.amount_collected / 100;
-
-        $(".projects_count .stat-nb span").html(event_projects_nb);
-        $(".amount_collected .stat-nb span").html(event_amount_collected);
-
+        var eventProjectsNb = response.projects_count;
+        var eventAmountCollected = response.amountCollected / 100;
+        
+        $(".projects_count .stat-nb span").html(eventProjectsNb);
+        $(".amount_collected .stat-nb span").html(eventAmountCollected);
+        
       });
     }
-
+    
   });
-
-
-// --------- RESPONSIVE ---------
-
+  
+  // EVENT STARS S'ENGAGENT
+  $(function(){
+    var eventStar = 7;
+    if ($("body").hasClass(`event_${eventStar}`)) {
+      console.log("yes, body has class eventStar");
+      // récupérer les infos des pages de collectes des stars
+      $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${event_star}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
+        console.log(response);
+      });
+    }
+    
+    
+  });
+  
+  // --------- RESPONSIVE ---------
+  
   var windowWidth= $(window).width();
-
+  
   if(windowWidth < 500){
     $("body").addClass("mobile");
-     $(".pl-370").removeClass("pl-370");
+    $(".pl-370").removeClass("pl-370");
     $(".banner-text h2").removeClass("white").addClass("black");
     $(".banner-text p").removeClass("white");
     // $(".steps img").removeClass("ml-60");
@@ -89,5 +87,20 @@ $( document ).ready(function() {
     // // $(".mobile img.mln-30").removeClass("mln-30");
     // $(".mobile .bx-viewport").css('height', "auto");
   }
-
+  
 });
+
+  // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
+  // $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
+
+  // // AJOUT INTRO PAGE EVENTS
+  // var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au profit de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href='https://collecter.fondation-arc.org/contact_forms/new' class='blue'>nous contacter</a> et à profiter de nos <a href='https://collecter.fondation-arc.org/pages/conseils' class='blue'>conseils et outils.</a></p></div>")
+  // $('.events .first-section').before(textIntroEvents);
+
+  // // AJOUT INTRO PAGE PROJETS
+  // var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
+  // $('.projects .first-section').before(textIntroProjects);
+
+  // // AJOUT INTRO PAGE CONTACT
+  // var textIntroContact = ("Pour toute question sur votre collecte ou sur la Fondation ARC, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.")
+  //$('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
