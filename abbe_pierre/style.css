@@ -533,7 +533,7 @@ section.event-head {
 
 .progress-bar, .progress-perc {
   height: 30px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 /* ------ RESPONSIVE ------ */
