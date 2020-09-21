@@ -54,7 +54,7 @@ $( document ).ready(function() {
               <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
             </div>
             <div class="d-flex justify-between">
-              <p>${eventProgress}%</p>
+              <p>${Math.round(eventProgress)}%</p>
               <p>Objectif: ${eventAmountExpected}</p>
             </div>
           </div>`;
