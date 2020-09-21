@@ -76,7 +76,7 @@ $( document ).ready(function() {
           var projectEndDate = new Date(value.end);
           var today = new Date();
           var remaningDays = Math.ceil((projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24));
-          var projectProgress = ;
+          var projectProgress = (projectAmountCollected/projectAmountExpected) * 100;
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
@@ -85,6 +85,9 @@ $( document ).ready(function() {
             <div class='project-details d-flex flex-column p-50 h-50'>
               <h4 class='text-center flex-grow-1 d-flex align-items-center justify-center'>${projectTitle}</h4>
               <div>
+                <div class='progressbar>
+                  <div class='progress' style='width: ${projectProgress}'></div>
+                </div> 
                 <div class='d-flex justify-between'>
                   <div class='w-33'>
                     <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
