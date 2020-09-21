@@ -41,6 +41,7 @@ $( document ).ready(function() {
         var eventAmountCollected = Number.parseInt(response.amountCollected, 10) / 100;
         console.log('eventAmountCollected');
         console.log(eventAmountCollected);
+        console.log(response.amountCollected);
 
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(eventAmountCollected);
