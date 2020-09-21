@@ -45,7 +45,8 @@ $( document ).ready(function() {
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(eventAmountCollected));
         if (response.expected_amount != null) {
-          var eventProgress = (eventAmountCollected / parseInt(response.expected_amount, 10)) * 100
+          var eventProgress = (eventAmountCollected / parseInt(response.expected_amount, 10)) * 100;
+          console.log('eventProgress', eventProgress);
           var eventProgressBar = `
           <div class="container-small-bm">
             <div class="event-progressbar bg-mediumgrey">
