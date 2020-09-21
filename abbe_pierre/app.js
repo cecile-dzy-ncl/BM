@@ -11,14 +11,14 @@ $( document ).ready(function() {
 
   $("<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
 
-  $(document).ready(function() {
-    $('.smoothScroll').on('click', function() { // Au clic sur un élément
-      var page = $(this).attr('href'); // Page cible
-      var speed = 750; // Durée de l'animation (en ms)
-      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-      return false;
-    });
-  });
+  // $(document).ready(function() {
+  //   $('.smoothScroll').on('click', function() { // Au clic sur un élément
+  //     var page = $(this).attr('href'); // Page cible
+  //     var speed = 750; // Durée de l'animation (en ms)
+  //     $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+  //     return false;
+  //   });
+  // });
 
 
   
@@ -55,8 +55,12 @@ $( document ).ready(function() {
   $(function(){
     var eventStar = 7;
     if ($("body").hasClass(`event_${eventStar}`)) {
+
+      $(".event-stats").remove();
+      $(".section-my-event").remove();
       // récupérer les infos des pages de collectes des stars
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventStar}/projects?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
+        console.log(response);
         console.log(response);
       });
     }
