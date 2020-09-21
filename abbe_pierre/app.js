@@ -38,10 +38,10 @@ $( document ).ready(function() {
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         console.log(response);
         var eventProjectsNb = response.projects_count;
-        var eventAmountCollected = Number.parseInt(response.amountCollected, 10) / 100;
+        var eventAmountCollected = Number.parseInt(response.amount_collected, 10) / 100;
         console.log('eventAmountCollected');
         console.log(eventAmountCollected);
-        console.log(response.amountCollected);
+        console.log(response.amount_collected);
 
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(eventAmountCollected);
