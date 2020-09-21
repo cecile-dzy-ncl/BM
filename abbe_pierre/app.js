@@ -63,8 +63,8 @@ $( document ).ready(function() {
         console.log(response);
         var starProjects = response.projects;
         console.log(starProjects);
-        $.each(starProjects, function( project ) {
-          console.log(project.title);
+        $.each(starProjects, function( key, value ) {
+          console.log(key, value);
         });
       });
     }
