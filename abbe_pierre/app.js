@@ -58,6 +58,8 @@ $( document ).ready(function() {
 
       $(".event-stats").remove();
       $(".section-my-event").remove();
+      $(".details-my-event").remove();
+      $(".block-share-container").remove();
       $(".intro-my-event").after("<div class='stars-projects mt-70'></div>");
 
       // récupérer les infos des pages de collectes des stars
