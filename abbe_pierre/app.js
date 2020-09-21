@@ -49,8 +49,8 @@ $( document ).ready(function() {
           var eventProgress = Math.round((eventAmountCollected / eventAmountExpected) * 100);
           console.log('eventProgress', eventProgress);
           var eventProgressBar = `
-          <div class="container-small-bm">
-            <div class="event-progressbar bg-mediumgrey">
+          <div class="container-small-bm mt-50">
+            <div class="event-progressbar bg-mediumgrey mb-40">
               <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
             </div>
             <div class="d-flex justify-between">
