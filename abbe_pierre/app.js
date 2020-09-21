@@ -69,8 +69,8 @@ $( document ).ready(function() {
           console.log(key, value);
           console.log(value.title.fr);
           var projectTitle = value.title.fr;
-          var projectAmountCollected = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(parseInt(value.current_amount) / 100);
-          var projectAmountExpected = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(parseInt(value.desired_amount) / 100);
+          var projectAmountCollected = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(parseInt(value.current_amount) / 100);
+          var projectAmountExpected = new Intl.NumberFormat('fr-FR', { style: 'currency', currency: 'EUR' }).format(parseInt(value.desired_amount) / 100);
           var projectEndDate = new Date(value.end);
           var today = new Date();
           var remaningDays = projectEndDate - today;
