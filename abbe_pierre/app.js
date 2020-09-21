@@ -76,7 +76,7 @@ $( document ).ready(function() {
           var projectEndDate = new Date(value.end);
           var today = new Date();
           var remaningDays = Math.ceil((projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24));
-          var projectProgress = (projectAmountCollected/projectAmountExpected) * 100;
+          var projectProgress = (projectAmountCollected / projectAmountExpected) * 100;
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
