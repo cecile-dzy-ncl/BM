@@ -73,7 +73,7 @@ $( document ).ready(function() {
           var projectAmountExpected = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(parseInt(value.desired_amount) / 100);
           var projectEndDate = new Date(value.end);
           var today = new Date();
-          var remaningDays = projectEndDate - today / (1000 * 3600 * 24) ;
+          var remaningDays = (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24) ;
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
