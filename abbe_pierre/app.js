@@ -75,7 +75,7 @@ $( document ).ready(function() {
           var projectCard = `
           <div class='project-card p-50'>
           <img src='${projectImg}' alt='photo du projet'>
-          <h4>${projectTitle}</h4>
+          <h4 class='text-center'>${projectTitle}</h4>
           <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border'>Voir la page de collecte</a>
           </div>`;
           $(".stars-projects").prepend(projectCard);
