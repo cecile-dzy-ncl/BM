@@ -470,6 +470,10 @@ section.event-head {
   height: 20px;
 }
 
+.event-progressbar {
+  border-radius: 25px;
+}
+
 /* ------ PANEL PAGE COLLECTE ------ */
 
 .panel.radius {
