@@ -27,16 +27,13 @@ $( document ).ready(function() {
   $("#banner_section").before(bannerMaintenance);
   
   
-  // ajout du bloc stats en début de page
-  if ($("body").is("#events-show")) {
-    var eventNb = $("#events-show");
-    $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>');
-  }
-  
-  $(function(){
+  $(function(){  
     if ($("body").is("#events-show")) {
+      
+      // ajout du bloc stats en début de page
+      $('#events-show .habillage').prepend('<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>');
+      
       var eventId = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
-      console.log(eventId);
       
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         console.log(response);
@@ -45,10 +42,11 @@ $( document ).ready(function() {
         
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(eventAmountCollected);
-        console.log(response);
         console.log(response.expected_amount);
         if (response.expected_amount != null) {
           console.log('il y a un obj de collecte global');
+          console.log(this);
+          $(".event-stats").after("prout");
 
         }
       });
