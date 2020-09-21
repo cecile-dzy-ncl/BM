@@ -85,8 +85,8 @@ $( document ).ready(function() {
             <div class='project-details d-flex flex-column p-50 h-50'>
               <h4 class='text-center flex-grow-1 d-flex align-items-center justify-center'>${projectTitle}</h4>
               <div>
-                <div class='progressbar'>
-                  <div class='progress' style='width: ${projectProgress}%'></div>
+                <div class='progress-bar bg-white'>
+                  <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
                 </div> 
                 <div class='d-flex justify-between'>
                   <div class='w-33'>
