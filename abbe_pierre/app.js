@@ -92,7 +92,7 @@ $( document ).ready(function() {
                     <p class='text-center'>attendus</p>
                   </div>
                   <div class='w-33'>
-                    <h4 class='text-center'>${remaningDays}</h4>
+                    <h4 class='text-center'>${remaningDays}j</h4>
                     <p class='text-center'>restant</p>
                   </div>
                 </div>
