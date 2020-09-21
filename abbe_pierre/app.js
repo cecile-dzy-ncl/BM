@@ -84,16 +84,16 @@ $( document ).ready(function() {
               <div>
                 <div class='d-flex'>
                   <div class='w-33'>
-                    <h4>${projectAmountCollected}</h4>
-                    <p>collectés</p>
+                    <h4 class='text-center'>${projectAmountCollected}</h4>
+                    <p class='text-center'>collectés</p>
                   </div>
                   <div class='w-33'>
-                    <h4>${projectAmountExpected}</h4>
-                    <p>attendus</p>
+                    <h4 class='text-center'>${projectAmountExpected}</h4>
+                    <p class='text-center'>attendus</p>
                   </div>
                   <div class='w-33'>
-                    <h4>${remaningDays}</h4>
-                    <p>restant</p>
+                    <h4 class='text-center'>${remaningDays}</h4>
+                    <p class='text-center'>restant</p>
                   </div>
                 </div>
                 <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border btn-bm-large'>Voir la page de collecte</a>
