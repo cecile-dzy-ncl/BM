@@ -78,7 +78,7 @@ $( document ).ready(function() {
           <h3>${projectTitle}</h3>
           <a href='${projectUrl}' class='uppercase btn'>Voir la page de collecte</a>
           </div>`;
-          $(".stars-projects").append(projectCard);
+          $(".stars-projects").prepend(projectCard);
         });
       });
     }
