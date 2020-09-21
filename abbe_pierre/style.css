@@ -466,7 +466,7 @@ section.event-head {
     color: #E04E39 !important;
 }
 
-.event-progressbar {
+.event-progressbar, .event-progress-perc {
   height: 20px;
 }
 
