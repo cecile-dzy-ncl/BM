@@ -804,6 +804,10 @@ section.connexion {
 
 /* - container - */
 
+.container-xs-bm {
+  width: 560px;
+}
+
 .container-small-bm {
   width: 750px;
 }
@@ -817,7 +821,7 @@ section.connexion {
 }
 
 .container-bm,
-.container-xsmall-bm,
+.container-xs-bm,
 .container-small-bm,
 .container-medium-bm,
 .container-large-bm {
