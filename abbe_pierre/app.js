@@ -51,6 +51,10 @@ $( document ).ready(function() {
             <div class="event-progressbar bg-mediumgrey">
               <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
             </div>
+            <div class="d-flex justify-between">
+              <p>${eventProgress}%</p>
+              <p>Objectif: ${response.expected_amount}</p>
+            </div>
           </div>`;
           $(".event-stats").after(eventProgressBar);
 
