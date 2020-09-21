@@ -41,10 +41,9 @@ $( document ).ready(function() {
         var eventAmountCollected = Number.parseInt(response.amount_collected, 10) / 100;
         console.log('eventAmountCollected');
         console.log(eventAmountCollected);
-        console.log(response.amount_collected);
 
         $(".projects_count .stat-nb span").html(eventProjectsNb);
-        $(".amount_collected .stat-nb span").html(eventAmountCollected);
+        $(".amount_collected .stat-nb span").html(new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(eventAmountCollected));
         if (response.expected_amount != null) {
           var eventProgress = (eventAmountCollected / parseInt(response.expected_amount, 10)) * 100
           var eventProgressBar = `
