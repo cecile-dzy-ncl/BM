@@ -82,7 +82,7 @@ $( document ).ready(function() {
             <div class='project-details d-flex flex-column p-50 h-50'>
               <h4 class='text-center flex-grow-1 d-flex align-items-center justify-center'>${projectTitle}</h4>
               <div>
-                <div class='d-flex'>
+                <div class='d-flex justify-between'>
                   <div class='w-33'>
                     <h4 class='text-center'>${projectAmountCollected}</h4>
                     <p class='text-center'>collectés</p>
