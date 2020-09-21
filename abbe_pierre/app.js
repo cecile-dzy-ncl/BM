@@ -48,25 +48,8 @@ $( document ).ready(function() {
         
         if (response.expected_amount != null) {
           console.log('il y a un obj de collecte global');
-        }
-      });
-    }
-    
-  });
 
-  $(function(){
-    if ($("body").hasClass("#events-show")) {
-      var eventId = $("#events-show")[0].classList.value.match(/event_\d/g)[0].split("_")[1];
-      console.log(eventId);
-      
-      $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
-        console.log(response);
-        var eventProjectsNb = response.projects_count;
-        var eventAmountCollected = response.amountCollected / 100;
-        
-        $(".projects_count .stat-nb span").html(eventProjectsNb);
-        $(".amount_collected .stat-nb span").html(eventAmountCollected);
-        
+        }
       });
     }
     
@@ -87,8 +70,6 @@ $( document ).ready(function() {
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventStar}/projects?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         var starProjects = response.projects;
         $.each(starProjects, function( key, value ) {
-          console.log(key, value);
-          console.log(value.title.fr);
           var projectTitle = value.title.fr;
           var projectAmountCollected = parseInt(value.current_amount) / 100;
           var projectAmountCollectedFormatted = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(projectAmountCollected);
