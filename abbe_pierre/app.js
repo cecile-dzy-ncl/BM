@@ -69,9 +69,11 @@ $( document ).ready(function() {
           console.log(key, value);
           console.log(value.title.fr);
           var projectTitle = value.title.fr;
-          var projectAmountCollected = value.current_amount;
-          var projectAmountExpected = value.desired_amount;
-          var projectEndDate = value.end;
+          var projectAmountCollected = parseInt(value.current_amount) / 100;
+          var projectAmountExpected = parseInt(value.desired_amount) / 100;
+          var projectEndDate = new Date(value.end);
+          var today = new Date();
+          var remaningDays = projectEndDate - today;
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
