@@ -69,11 +69,14 @@ $( document ).ready(function() {
           console.log(key, value);
           console.log(value.title.fr);
           var projectTitle = value.title.fr;
-          var projectAmountCollected = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(parseInt(value.current_amount) / 100);
-          var projectAmountExpected = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(parseInt(value.desired_amount) / 100);
+          var projectAmountCollected = parseInt(value.current_amount) / 100;
+          var projectAmountCollectedFormatted = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(projectAmountCollected);
+          var projectAmountExpected = parseInt(value.desired_amount) / 100;
+          var projectAmountExpectedFormatted = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(projectAmountExpected);
           var projectEndDate = new Date(value.end);
           var today = new Date();
-          var remaningDays = Math.ceil((projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)) ;
+          var remaningDays = Math.ceil((projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24));
+          var projectProgress = ;
           var projectUrl = value.url.fr;
           var projectImg = value.project_images[0].original;
           var projectCard = `
@@ -84,11 +87,11 @@ $( document ).ready(function() {
               <div>
                 <div class='d-flex justify-between'>
                   <div class='w-33'>
-                    <h4 class='text-center'>${projectAmountCollected}</h4>
+                    <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
                     <p class='text-center'>collectés</p>
                   </div>
                   <div class='w-33'>
-                    <h4 class='text-center'>${projectAmountExpected}</h4>
+                    <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
                     <p class='text-center'>attendus</p>
                   </div>
                   <div class='w-33'>
