@@ -64,6 +64,11 @@ $( document ).ready(function() {
         $.each(starProjects, function( key, value ) {
           console.log(key, value);
           console.log(value.title.fr);
+          var projectTitle = value.title.fr;
+          var projectAmountCollecte = value.current_amount;
+          var projectAmountExpected = value.desired_amount;
+          var projectEndDate = value.end;
+          var projectUrl = value.url.fr;
         });
       });
     }
