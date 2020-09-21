@@ -38,7 +38,7 @@ $( document ).ready(function() {
       $.get(`https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`, function(response) {
         console.log(response);
         var eventProjectsNb = response.projects_count;
-        var eventAmountCollected = response.amountCollected / 100;
+        var eventAmountCollected = parseInt(response.amountCollected, 10) / 100;
         console.log(eventAmountCollected);
 
         $(".projects_count .stat-nb span").html(eventProjectsNb);
@@ -46,7 +46,7 @@ $( document ).ready(function() {
         if (response.expected_amount != null) {
           console.log('il y a un obj de collecte global');
           console.log(this);
-          var eventProgress = (eventAmountCollected / response.expected_amount) * 100
+          var eventProgress = (eventAmountCollected / parseInt(response.expected_amount, 10)) * 100
           var eventProgressBar = `
           <div class="container-small-bm">
             <div class="event-progressbar bg-mediumgrey">
@@ -77,9 +77,9 @@ $( document ).ready(function() {
         var starProjects = response.projects;
         $.each(starProjects, function( key, value ) {
           var projectTitle = value.title.fr;
-          var projectAmountCollected = parseInt(value.current_amount) / 100;
+          var projectAmountCollected = parseInt(value.current_amount, 10) / 100;
           var projectAmountCollectedFormatted = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(projectAmountCollected);
-          var projectAmountExpected = parseInt(value.desired_amount) / 100;
+          var projectAmountExpected = parseInt(value.desired_amount, 10) / 100;
           var projectAmountExpectedFormatted = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(projectAmountExpected);
           var projectEndDate = new Date(value.end);
           var today = new Date();
