@@ -73,7 +73,7 @@ $( document ).ready(function() {
           var projectUrl = value.url.fr;
           var projectCard = `
           <div class=projectCard>${projectTitle}</div>`;
-        projectCard.append($(".stars-projects"));
+          $(".stars-projects").append(projectCard);
         });
       });
     }
