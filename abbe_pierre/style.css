@@ -508,6 +508,7 @@ section.event-head {
 
 .stars-projects {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .project-card {
