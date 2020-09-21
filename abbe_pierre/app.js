@@ -63,7 +63,7 @@ $( document ).ready(function() {
         console.log(response);
         var starProjects = response.projects;
         console.log(starProjects);
-        starProjects.each(function( project ) {
+        $.each(starProjects, function( project ) {
           console.log(project);
         });
       });
