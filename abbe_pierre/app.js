@@ -55,7 +55,7 @@ $( document ).ready(function() {
             </div>
             <div class="d-flex justify-between">
               <p>${eventProgress}%</p>
-              <p>Objectif: ${eventAmountExpected}</p>
+              <p>Objectif: ${new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(eventAmountExpected)}</p>
             </div>
           </div>`;
           $(".event-stats").after(eventProgressBar);
