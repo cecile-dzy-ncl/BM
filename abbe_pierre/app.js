@@ -46,7 +46,7 @@ $( document ).ready(function() {
         $(".projects_count .stat-nb span").html(eventProjectsNb);
         $(".amount_collected .stat-nb span").html(new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0, minimumFractionDigits: 0, style: 'currency', currency: 'EUR' }).format(eventAmountCollected));
         if (response.expected_amount != null) {
-          var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
+          var eventProgress = Math.round((eventAmountCollected / eventAmountExpected) * 100);
           console.log('eventProgress', eventProgress);
           var eventProgressBar = `
           <div class="container-small-bm">
@@ -54,7 +54,7 @@ $( document ).ready(function() {
               <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
             </div>
             <div class="d-flex justify-between">
-              <p>${Math.round(eventProgress)}%</p>
+              <p>${eventProgress}%</p>
               <p>Objectif: ${eventAmountExpected}</p>
             </div>
           </div>`;
