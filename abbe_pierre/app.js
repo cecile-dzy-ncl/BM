@@ -77,18 +77,20 @@ $( document ).ready(function() {
             <img src='${projectImg}' alt='photo du projet'>
             <div class='project-details p-50'>
               <h4 class='text-center'>${projectTitle}</h4>
-              <div class='d-flex'>
-                <div class='w-33'>
-                  <h4>${projectAmountCollected}</h4>
-                  <p>collectés</p>
-                </div>
-                <div class='w-33'>
-                  <h4>${projectAmountExpected}</h4>
-                  <p>attendus</p>
-                </div>
-                <div class='w-33'>
-                  <h4>${projectEndDate}</h4>
-                  <p>restant</p>
+              <div>
+                <div class='d-flex'>
+                  <div class='w-33'>
+                    <h4>${projectAmountCollected}</h4>
+                    <p>collectés</p>
+                  </div>
+                  <div class='w-33'>
+                    <h4>${projectAmountExpected}</h4>
+                    <p>attendus</p>
+                  </div>
+                  <div class='w-33'>
+                    <h4>${projectEndDate}</h4>
+                    <p>restant</p>
+                  </div>
                 </div>
               </div>
               <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border btn-bm-large'>Voir la page de collecte</a>
