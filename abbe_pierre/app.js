@@ -65,6 +65,7 @@ $( document ).ready(function() {
         console.log(starProjects);
         $.each(starProjects, function( key, value ) {
           console.log(key, value);
+          console.log(value.title);
         });
       });
     }
