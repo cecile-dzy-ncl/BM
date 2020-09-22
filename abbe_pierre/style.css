@@ -583,13 +583,13 @@ section.event-head {
 
   .banner, .banner.homepage {
     height: auto;
+    padding: 100px 20px;
   }
 
   .banner.homepage {
     background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
-    padding: 100px 20px;
     background-color: white;
   }
 
@@ -605,7 +605,7 @@ section.event-head {
 
   .banner .banner-text h1, .banner .banner-text p  {
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 5px black;
   }
 
   .section-home-projects .button {
