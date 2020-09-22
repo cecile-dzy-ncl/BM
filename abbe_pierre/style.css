@@ -599,8 +599,12 @@ section.event-head {
 
   .banner .banner-text {
     width: 80%;
-    /* margin-left: 150px; */
+    margin: auto;
     text-align: left;
+  }
+
+  .banner .banner-text h1, .banner .banner-text p  {
+    text-shadow: 1px 1px 1px black;
   }
 
   .section-home-projects .button {
