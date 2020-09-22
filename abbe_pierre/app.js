@@ -141,7 +141,7 @@ $( document ).ready(function() {
     $(".conseils-et-outils .bg-black .container-small-bm > .d-flex").remove();
     $(".a-propos .wrapper .w-20").addClass("mb-15").removeClass("w-20");
     $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
-    // $(".steps img").removeClass("ml-60");
+    $(".#events-show .event-stat").removeClass("border-right");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
     // $(".mobile.conseils .w-66").removeClass("w-66");
