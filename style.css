@@ -1490,6 +1490,10 @@ label {
     flex-direction: column;
   }
 
+  .event-stat {
+    width: 100%;
+  }
+
 }
 
 
