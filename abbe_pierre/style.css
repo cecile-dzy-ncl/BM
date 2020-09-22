@@ -656,6 +656,7 @@ section.event-head {
   }
 
   .a-propos .wrapper .container-lg-bm > .d-flex,
+  .a-propos .wrapper .container-lg-bm > .d-flex .d-flex,
   .a-propos .wrapper .container-bm > .d-flex {
     flex-direction: column;
   }
