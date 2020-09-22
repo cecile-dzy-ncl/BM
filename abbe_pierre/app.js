@@ -136,6 +136,7 @@ $( document ).ready(function() {
     $(".pl-370").removeClass("pl-370");
     $(".banner-text h2").removeClass("white").addClass("black");
     $(".banner-text p").removeClass("white");
+    $(".campagne > div").removeClass("w-50");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");

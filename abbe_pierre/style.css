@@ -633,4 +633,9 @@ section.event-head {
     width: 100vw;
   }
 
+  .abbe-pierre .campagne {
+    flex-direction: column;
+    width: 100%;
+  }
+
 }
