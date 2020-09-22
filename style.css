@@ -1257,6 +1257,7 @@ label {
   .container-large-bm,
   .container-medium-bm,
   .container-small-bm,
+  .container-xs-bm,
   .container-xsmall-bm {
     width: 80% !important;
   }
