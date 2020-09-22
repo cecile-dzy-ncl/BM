@@ -493,6 +493,7 @@ section.event-head {
 
 .event-progressbar {
   border-radius: 25px;
+  overflow: hidden;
 }
 
 /* ------ PANEL PAGE COLLECTE ------ */
