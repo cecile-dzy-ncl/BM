@@ -62,6 +62,10 @@ img {
   width: fit-content;
 }
 
+.w-23 {
+  width: 23%;
+}
+
 .w-25 {
   width: 25%;
 }
