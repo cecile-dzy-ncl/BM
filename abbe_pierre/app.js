@@ -139,8 +139,8 @@ $( document ).ready(function() {
     $(".campagne > div").removeClass("w-50");
     $(".compteur .border-right").removeClass("border-right").removeClass("border-white");
     $(".conseils-et-outils .bg-black .container-small-bm > .d-flex").remove();
-    $(".a-propos .wrapper .w-20").removeClass("w-20");
-    $(".a-propos .wrapper .w-30").removeClass("w-30");
+    $(".a-propos .wrapper .w-20").addClass("mb-15").removeClass("w-20");
+    $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
