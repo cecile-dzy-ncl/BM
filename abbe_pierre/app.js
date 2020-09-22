@@ -137,6 +137,7 @@ $( document ).ready(function() {
     $(".banner-text h2").removeClass("white").addClass("black");
     $(".banner-text p").removeClass("white");
     $(".campagne > div").removeClass("w-50");
+    $(".compteur .border-right").removeClass("border-right").removeClass("border-white");
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
