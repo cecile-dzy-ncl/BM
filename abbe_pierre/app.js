@@ -138,6 +138,7 @@ $( document ).ready(function() {
     $(".banner-text p").removeClass("white");
     $(".campagne > div").removeClass("w-50");
     $(".compteur .border-right").removeClass("border-right").removeClass("border-white");
+    $(".conseils-et-outils .bg-black .container-small-bm > .d-flex").remove();
     // $(".steps img").removeClass("ml-60");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
