@@ -597,6 +597,12 @@ section.event-head {
     filter: invert(1);
   }
 
+  .banner .banner-text {
+    width: 80%;
+    /* margin-left: 150px; */
+    text-align: left;
+  }
+
   .section-home-projects .button {
     width: 80%;
   }
