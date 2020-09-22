@@ -655,4 +655,8 @@ section.event-head {
     margin-bottom: 20px;
   }
 
+  .a-propos .wrapper .container-lg-bm > .d-flex,
+  .a-propos .wrapper .container-bm > .d-flex {
+    flex-direction: column;
+  }
 }
