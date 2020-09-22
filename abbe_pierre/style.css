@@ -659,4 +659,8 @@ section.event-head {
   .a-propos .wrapper .container-bm > .d-flex {
     flex-direction: column;
   }
+
+  .a-propos .wrapper {
+    padding: 35px 20px;
+  }
 }
