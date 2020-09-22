@@ -604,6 +604,7 @@ section.event-head {
   }
 
   .banner .banner-text h1, .banner .banner-text p  {
+    color: white;
     text-shadow: 1px 1px 1px black;
   }
 
