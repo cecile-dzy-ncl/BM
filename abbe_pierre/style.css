@@ -413,7 +413,7 @@ section#project_tabs + section .row {
 
 #events-show .event-head > .row > .columns,
 #events-show .event-stats {
-  width: 947px !important;
+  width: 947px;
   margin: 0 auto;
 }
 
