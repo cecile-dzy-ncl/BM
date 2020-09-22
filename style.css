@@ -1486,6 +1486,7 @@ label {
 
   #events-show .event-head > .row > .columns, #events-show .event-stats {
     width: auto !important;
+    flex-direction: column;
   }
 
 }
