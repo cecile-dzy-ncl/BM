@@ -650,4 +650,9 @@ section.event-head {
     height: auto;
   }
 
+  .entreprises .campagne:first-child {
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+
 }
