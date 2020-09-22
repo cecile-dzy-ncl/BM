@@ -1484,6 +1484,10 @@ label {
     margin-bottom: 15px;
   }
 
+  #events-show .event-head > .row > .columns, #events-show .event-stats {
+    width: auto !important;
+  }
+
 }
 
 
