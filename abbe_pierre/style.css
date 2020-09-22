@@ -224,6 +224,10 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   border-bottom: 1px solid grey;
 }
 
+.main-header #main-nav .top-bar-section .dropdown li:not(.has-form) a:not(.button):hover {
+  color: white;
+}
+
 header .top-bar-section li.nodropdown:last-child a {
     color: #E04E39;
 }
@@ -505,6 +509,7 @@ section.event-head {
 .infos-money .infos-money-details .info-money.detail {
   color: black;
   font-size: 12px;
+  font-family: "DiodrumM";
 }
 
 /* ------ CONSEILS & OUTILS ------ */
