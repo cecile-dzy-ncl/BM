@@ -27,3 +27,15 @@ root {
 h1 {
   color: var(--grey);
 }
+
+/* CONTAINER */
+
+.container-small-bm {
+}
+
+.container-bm {
+  width: 1040px;
+}
+.container-large-bm {
+  width: 1180px;
+}
