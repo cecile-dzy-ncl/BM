@@ -135,6 +135,7 @@ p {
   box-shadow: var(--shadow);
   padding: 20px;
   margin-top: -20px;
+  margin-bottom: 40px;
 }
 
 .stat p,
