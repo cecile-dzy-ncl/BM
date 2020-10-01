@@ -92,7 +92,7 @@ p {
 .banner.homepage h1 {
   color: white;
   text-shadow: var(--shadow);
-  font-size: 78px;
+  font-size: 70px;
   text-transform: initial;
 }
 
