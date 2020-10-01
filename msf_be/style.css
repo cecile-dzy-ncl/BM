@@ -164,7 +164,8 @@ p {
   justify-content: space-between;
 }
 
-#how-to * {
+#how-to p,
+#how-to h3 {
   color: white;
 }
 
