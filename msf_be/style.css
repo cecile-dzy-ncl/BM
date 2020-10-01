@@ -131,6 +131,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
 }
 
 /* ------ RESPONSIVE ------ */
