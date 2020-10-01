@@ -44,7 +44,8 @@ h1 {
 
 .banner.homepage {
   height: 738px;
-  background: url(https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/Homepage-Header.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/Homepage-Header.jpg);
   background-size: cover;
   background-position: center;
 }
