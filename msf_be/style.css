@@ -95,10 +95,12 @@ h2 {
   display: flex;
   padding: 10px;
   background: rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
 }
 
 .banner input.field-auto-search {
   margin: 0px;
+  border-radius: 4px;
 }
 
 /* ------ RESPONSIVE ------ */
