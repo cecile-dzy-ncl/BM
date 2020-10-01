@@ -15,4 +15,4 @@ var searchbar = `<form accept-charset="UTF-8" action="/search" class="navbar-sea
 </form>`;
 
 console.log(searchbar);
-$("#indexs-index intro").after(searchbar);
+$("#indexs-index .intro").after(searchbar);
