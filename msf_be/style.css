@@ -164,8 +164,20 @@ p {
   justify-content: space-between;
 }
 
+#how-to * {
+  color: white;
+}
+
 #how-to > div {
   width: 30%;
+}
+
+#how-to h3 {
+  text-transform: uppercase;
+}
+
+.how-to_title {
+  display: flex;
 }
 /* ------ RESPONSIVE ------ */
 
