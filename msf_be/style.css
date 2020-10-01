@@ -159,6 +159,14 @@ p {
   font-size: 40px;
 }
 
+#how-to {
+  display: flex;
+  justify-content: space-between;
+}
+
+#how-to > div {
+  width: 30%;
+}
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
