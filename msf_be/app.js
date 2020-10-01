@@ -10,7 +10,7 @@ $(document).ready(function () {
   var searchbar = `<form accept-charset="UTF-8" action="/search" class="navbar-search" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="8EQYiIZaLS0yGUki1U3V4RGhjtMpTbAG88SIAz5i76c="></div>
   <div class="row">
     <div class="search-query">
-      <input class="icon-search field-auto-search" name="search" type="text" data-old-search-value="" value="" placeholder="Rechercher">
+      <input class="icon-search field-auto-search" name="search" type="text" data-old-search-value="" value="" placeholder="Chercher une page de collecte">
     </div>
   </div>
 </form>`;
