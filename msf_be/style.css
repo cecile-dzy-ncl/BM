@@ -23,9 +23,20 @@ root {
   background-color: var(--red);
 }
 
+* {
+  color: var(--grey);
+}
+
 /* FONTS */
 h1 {
   color: var(--grey);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--grey);
+  font-size: 38px;
 }
 
 /* CONTAINER */
@@ -65,6 +76,10 @@ h1 {
 .banner.homepage h1 {
   color: white;
   text-shadow: var(--shadow);
-  text-align: center;
   font-size: 78px;
+  text-transform: initial;
+}
+
+.banner.homepage h2 {
+  color: white;
 }
