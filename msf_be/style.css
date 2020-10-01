@@ -135,6 +135,11 @@ p {
   box-shadow: var(--shadow);
 }
 
+.stat p,
+.stat span {
+  text-align: center;
+}
+
 .stat span {
   font-size: 40px;
 }
