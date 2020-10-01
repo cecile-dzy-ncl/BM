@@ -40,6 +40,12 @@ h1 {
   width: 1180px;
 }
 
+/* BUTTONS */
+.btn-bm {
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+
 /* BANNER */
 
 .banner.homepage {
