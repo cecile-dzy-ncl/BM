@@ -49,3 +49,10 @@ h1 {
   background-size: cover;
   background-position: center;
 }
+
+.banner.homepage h1 {
+  color: white;
+  text-shadow: var(--shadow);
+  text-align: center;
+  font-size: 78px;
+}
