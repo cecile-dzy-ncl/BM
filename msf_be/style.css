@@ -84,3 +84,18 @@ h2 {
 .banner.homepage h2 {
   color: white !important;
 }
+
+/* SEARCHBAR */
+
+#bloc-cta {
+  display: flex;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+  /* SEARCHBAR */
+  #bloc-cta {
+    flex-direction: column;
+  }
+}
