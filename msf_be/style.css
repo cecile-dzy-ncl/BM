@@ -190,6 +190,7 @@ p {
 .how-to_title {
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 }
 /* ------ RESPONSIVE ------ */
 
