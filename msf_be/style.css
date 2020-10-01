@@ -87,6 +87,10 @@ h2 {
 
 /* SEARCHBAR */
 
+#bloc-cta .searchbar {
+  margin: 10px;
+}
+
 #bloc-cta {
   display: flex;
   padding: 10px;
@@ -94,7 +98,7 @@ h2 {
 }
 
 .banner input.field-auto-search {
-  margin: 10px;
+  margin: 0px;
 }
 
 /* ------ RESPONSIVE ------ */
