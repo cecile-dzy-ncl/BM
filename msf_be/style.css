@@ -39,6 +39,16 @@ h2 {
   font-size: 38px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 /* CONTAINER */
 
 .container {
@@ -113,6 +123,14 @@ h2 {
 
 .banner input.field-auto-search {
   border-radius: 4px;
+}
+
+/* HOMEPAGE */
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /* ------ RESPONSIVE ------ */
