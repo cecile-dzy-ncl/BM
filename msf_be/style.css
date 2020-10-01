@@ -30,6 +30,11 @@ h1 {
 
 /* CONTAINER */
 
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .container-small-bm {
 }
 
