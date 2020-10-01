@@ -52,6 +52,11 @@ p {
 .font-big {
   font-size: 70px;
 }
+
+#grid {
+  display: none;
+}
+
 /* CONTAINER */
 
 .container {
