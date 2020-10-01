@@ -1,0 +1,29 @@
+/* COLORS */
+
+root {
+  --grey: #3c4150;
+  --red: #ee0000;
+  --shadow: 0px 3px 6px black;
+  /* --my-border: 1px solid #222222; */
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.red {
+  color: var(--red);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+/* FONTS */
+h1 {
+  color: var(--grey);
+}
