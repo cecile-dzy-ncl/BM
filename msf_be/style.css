@@ -1,6 +1,6 @@
 /* COLORS */
 
-root {
+:root {
   --grey: #3c4150;
   --red: #ee0000;
   --shadow: 0px 3px 6px black;
@@ -82,5 +82,5 @@ h2 {
 }
 
 .banner.homepage h2 {
-  color: white;
+  color: white !important;
 }
