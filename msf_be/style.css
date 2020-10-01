@@ -3,7 +3,7 @@
 :root {
   --grey: #3c4150;
   --red: #ee0000;
-  --shadow: 0px 3px 6px rgba(0 0 0 0.3);
+  --shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
   /* --my-border: 1px solid #222222; */
 }
 
@@ -89,6 +89,8 @@ h2 {
 
 #bloc-cta {
   display: flex;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .banner input.field-auto-search {
