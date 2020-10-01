@@ -39,6 +39,10 @@ h2 {
   font-size: 38px;
 }
 
+p {
+  text-align: left;
+}
+
 h1,
 h2,
 h3,
