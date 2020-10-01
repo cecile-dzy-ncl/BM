@@ -127,6 +127,10 @@ p {
 
 /* HOMEPAGE */
 
+#bloc-stats {
+  padding: 30px;
+}
+
 .stats {
   display: flex;
   align-items: center;
@@ -134,7 +138,7 @@ p {
   border-radius: 4px;
   box-shadow: var(--shadow);
   padding: 20px;
-  margin-top: -20px;
+  margin-top: -60px;
   margin-bottom: 40px;
 }
 
