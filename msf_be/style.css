@@ -49,6 +49,9 @@ p {
   margin: 0;
 }
 
+.font-big {
+  font-size: 70px;
+}
 /* CONTAINER */
 
 .container {
