@@ -135,6 +135,10 @@ p {
   box-shadow: var(--shadow);
 }
 
+.stat span {
+  font-size: 40px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
