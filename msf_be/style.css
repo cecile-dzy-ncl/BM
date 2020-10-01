@@ -91,6 +91,10 @@ h2 {
   display: flex;
 }
 
+.banner input.field-auto-search {
+  margin: 10px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
