@@ -101,6 +101,7 @@ h2 {
   padding: 20px;
   background: rgba(0, 0, 0, 0.2);
   margin-top: 30px;
+  border-radius: 4px;
 }
 #bloc-cta * {
   margin: 0px;
