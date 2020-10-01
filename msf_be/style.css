@@ -98,9 +98,12 @@ h2 {
 
 #bloc-cta {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   background: rgba(0, 0, 0, 0.2);
   margin-top: 30px;
+}
+#bloc-cta * {
+  margin: 0px;
 }
 
 #bloc-cta .btn-bm {
@@ -108,7 +111,6 @@ h2 {
 }
 
 .banner input.field-auto-search {
-  margin: 0px;
   border-radius: 4px;
 }
 
