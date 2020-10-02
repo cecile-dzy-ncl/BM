@@ -18,20 +18,20 @@ $(document).ready(function () {
     // console.log(Math.floor(parseInt($(".nb_enfants span").html())));
     // console.log(Math.flo or(parseInt($(".nb_enfants span").html().replace(/ /g, '').split('€')[0])));
     console.log(nombreEnfants);
-    $(".nb_enfants span").html(nombreEnfants + "enfants");
+    $(".nb_enfants span").html(nombreEnfants + " enfants");
 
     var montantEcoleRegion = Math.floor(
       parseInt($(".nb_ecoles span").html().split("€")[0])
     );
     console.log(montantEcoleRegion);
-    $(".nb_ecoles span").html(montantEcoleRegion + "écoles");
+    $(".nb_ecoles span").html(montantEcoleRegion + " écoles");
 
     console.log(parseInt($(".nb_kiosks span").html().split("€")[0]) / 33000);
     var montantWaterKiosks = Math.floor(
       parseInt($(".nb_kiosks span").html().split("€")[0]) / 33000
     );
     console.log(montantWaterKiosks);
-    $(".nb_kiosks span").html(montantWaterKiosks + "Water Kiosks");
+    $(".nb_kiosks span").html(montantWaterKiosks + " Water Kiosks");
   }
 
   $(".project_boutons_give").html("Faire un don");
