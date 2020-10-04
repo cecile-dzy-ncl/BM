@@ -59,7 +59,7 @@
 
 * {
   color: var(--grey);
-  font-family: "DINPro";
+  font-family: "DINPro" !important;
 }
 
 /* FONTS */
