@@ -88,18 +88,15 @@ $(document).ready(function () {
   //   }
   // });
 
-  EVENT STARS S'ENGAGENT
+  // EVENT STARS S'ENGAGENT
   $(function () {
     // var eventStar = 7;
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
-      $("#events-show .event-stats").remove();
-      $("#events-show .section-my-event").remove();
-      $("#events-show .details-my-event").remove();
-      $("#events-show .block-share-container").remove();
-      $("#events-show .intro-my-event").after(
-        "<div class='stars-projects mt-70 mb-150'></div>"
-      );
+
+      // $("#events-show .intro-my-event").after(
+      //   "<div class='stars-projects mt-70 mb-150'></div>"
+      // );
 
       // récupérer les infos des pages de collectes des stars
       $.get(
