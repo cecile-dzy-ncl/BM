@@ -90,7 +90,7 @@ $(document).ready(function () {
 
   // EVENT STARS S'ENGAGENT
   $(function () {
-    // var eventStar = 7;
+    var collecteFonds = 1;
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
@@ -100,7 +100,7 @@ $(document).ready(function () {
 
       // récupérer les infos des pages de collectes des stars
       $.get(
-        `https://events.msf-azg.be/api/events?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+        `https://events.msf-azg.be/api/events/1?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
         function (response) {
           console.log(response);
           // var starProjects = response.projects;
