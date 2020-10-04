@@ -1,3 +1,37 @@
+/* ------------------- FONTS ------------------- */
+
+@font-face {
+  font-family: "DINPro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Medium.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Bold.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Black.otf")
+    format("opentype");
+  font-weight: 000;
+  font-style: normal;
+}
+
 /* COLORS */
 
 :root {
@@ -25,6 +59,7 @@
 
 * {
   color: var(--grey);
+  font-family: "DINPro";
 }
 
 /* FONTS */
@@ -32,6 +67,7 @@ h1 {
   color: var(--grey);
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 h2 {
