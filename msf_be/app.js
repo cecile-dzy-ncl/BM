@@ -29,19 +29,6 @@ $(document).ready(function () {
   //   "<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>"
   // ).prependTo("footer .top-bar-section ul.left ul.center");
 
-  // $(document).ready(function() {
-  //   $('.smoothScroll').on('click', function() { // Au clic sur un élément
-  //     var page = $(this).attr('href'); // Page cible
-  //     var speed = 750; // Durée de l'animation (en ms)
-  //     $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-  //     return false;
-  //   });
-  // });
-
-  // AJOUT BANNER MAINTENANCE
-  // var bannerMaintenance = ("<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
-  // $("#banner_section").before(bannerMaintenance);
-
   // $(function () {
   //   if ($("body").is("#events-show")) {
   //     // ajout du bloc stats en début de page
