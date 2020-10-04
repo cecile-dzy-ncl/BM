@@ -12,7 +12,7 @@
   font-family: "DINPro_medium";
   src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Medium.otf")
     format("opentype");
-  font-weight: 600;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -20,7 +20,7 @@
   font-family: "DINPro_bold";
   src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Bold.otf")
     format("opentype");
-  font-weight: 800;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -28,7 +28,7 @@
   font-family: "DINPro_black";
   src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Black.otf")
     format("opentype");
-  font-weight: 000;
+  font-weight: normal;
   font-style: normal;
 }
 
