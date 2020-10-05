@@ -95,6 +95,9 @@ $(document).ready(function () {
   );
 
   $("#first-header > div").html(navButtons);
+  $("#first-header > div").html(
+    '<a class="" href="/users/sign_in">Connexion</a>'
+  );
 
   // EVENT STARS S'ENGAGENT
   $(function () {
