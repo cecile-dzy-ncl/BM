@@ -222,6 +222,11 @@ p {
   justify-content: space-between;
 }
 
+#header-header .row:before,
+#header-header .row:after {
+  content: none;
+}
+
 #header-header input {
   margin: 0;
 }
