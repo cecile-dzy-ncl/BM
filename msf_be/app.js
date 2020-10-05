@@ -97,7 +97,7 @@ $(document).ready(function () {
   $("#first-header > div").html(navButtons);
 
   $("#header-header > .row > .columns:last-child").after(
-    `<div>
+    `<div class="btn-actions">
     <a class="bg-grey" href="https://events.msf-azg.be/projects"><strong>Soutenir
     </strong>une collecte</a>
     <a class="bg-red" href=""><strong>Créer
@@ -106,7 +106,7 @@ $(document).ready(function () {
   );
 
   $("#header-header > .row > .columns").removeClass(
-    "small-12 medium-12 large-4 large-8"
+    "small-12 medium-12 large-4 large-8 columns"
   );
 
   // EVENT STARS S'ENGAGENT
