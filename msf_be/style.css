@@ -167,6 +167,20 @@ p {
   background: var(--grey);
 }
 
+#first-header section.top-bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: transparent !important;
+}
+
+#first-header a.button.left {
+  float: none !important;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
