@@ -211,6 +211,10 @@ p {
   margin: 0 !important;
 }
 
+.header-spacer nav[role="navigation"] {
+  display: none;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
