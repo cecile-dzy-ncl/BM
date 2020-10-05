@@ -95,27 +95,27 @@ $(document).ready(function () {
   );
 
   $("#first-header > div").html(navButtons);
-  $("#first-header > div").html(
-    `<div><a class="" href="/users/sign_in">Connexion</a><ul class="right">
-    <li class="has-dropdown not-click">
-      <a href="#">
-        Français
-      </a>
-      <ul class="dropdown">
-            <li>
-              <a href="/set_language/en" class="highlighted">
-                English
-              </a>
-            </li>
-            <li>
-              <a href="/set_language/nl" class="highlighted">
-                Nederlands
-              </a>
-            </li>
-      </ul>
-    </li>
-  </ul></div>`
-  );
+  // $("#first-header > div").html(
+  //   `<div><a class="" href="/users/sign_in">Connexion</a><ul class="right">
+  //   <li class="has-dropdown not-click">
+  //     <a href="/set_language/fr">
+  //       Français
+  //     </a>
+  //     <ul class="dropdown">
+  //           <li>
+  //             <a href="/set_language/en" class="highlighted">
+  //               English
+  //             </a>
+  //           </li>
+  //           <li>
+  //             <a href="/set_language/nl" class="highlighted">
+  //               Nederlands
+  //             </a>
+  //           </li>
+  //     </ul>
+  //   </li>
+  // </ul></div>`
+  // );
 
   // EVENT STARS S'ENGAGENT
   $(function () {
