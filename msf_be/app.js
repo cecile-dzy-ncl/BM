@@ -92,7 +92,7 @@ $(document).ready(function () {
   console.log(navButtons);
   $("#header-header").before(`<section id='first-header'></section>`);
 
-  $("#header-header").html(navButtons);
+  $("#first-header").html(navButtons);
 
   // EVENT STARS S'ENGAGENT
   $(function () {
