@@ -184,6 +184,8 @@ p {
   padding: 0;
   background: transparent;
   line-height: 35px;
+  width: 125px;
+  text-align: center;
 }
 
 #first-header .top-bar-section .has-dropdown > a:after {
