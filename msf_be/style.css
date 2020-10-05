@@ -246,6 +246,8 @@ p {
 .btn-actions a {
   display: block;
   width: 125px;
+  text-align: center;
+  color: white;
 }
 
 /* SEARCHBAR */
