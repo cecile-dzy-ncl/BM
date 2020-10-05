@@ -232,7 +232,7 @@ p {
 }
 
 .header-spacer {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .header-spacer nav[role="navigation"] .top-bar-section {
