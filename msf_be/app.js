@@ -90,9 +90,11 @@ $(document).ready(function () {
 
   var navButtons = $(".header-spacer nav[role='navigation']").html();
   console.log(navButtons);
-  $("#header-header").before(`<section id='first-header'></section>`);
+  $("#header-header").before(
+    `<section id='first-header'><div class='container-large-bm'></div></section>`
+  );
 
-  $("#first-header").html(navButtons);
+  $("#first-header > div").html(navButtons);
 
   // EVENT STARS S'ENGAGENT
   $(function () {
