@@ -212,6 +212,10 @@ p {
   margin: 0 !important;
 }
 
+#first-header img {
+  display: none;
+}
+
 #header-header {
   margin: 0 !important;
 }

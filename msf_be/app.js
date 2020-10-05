@@ -109,6 +109,10 @@ $(document).ready(function () {
     "small-12 medium-12 large-4 large-8 columns"
   );
 
+  $(".header-spacer > div").removeClass(
+    "small-12 medium-push-6 medium-6 large-reset-order large-6 columns"
+  );
+
   // EVENT STARS S'ENGAGENT
   $(function () {
     var collecteFonds = 1;
