@@ -186,6 +186,9 @@ p {
   line-height: 35px;
   width: 125px;
   text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 #first-header .top-bar-section .has-dropdown > a:after {
