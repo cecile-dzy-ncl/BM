@@ -202,7 +202,7 @@ p {
   font-size: 12px;
 }
 
-#first-header .top-bar-section ul.right .has-dropdown > a:after {
+#first-header .top-bar-section ul .has-dropdown > a:after {
   border-color: white;
   border-width: 1px;
   border-style: solid;
