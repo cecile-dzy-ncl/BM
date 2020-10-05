@@ -179,6 +179,7 @@ p {
   margin: 0;
   padding: 0;
   background: transparent;
+  line-height: 35px;
 }
 
 /* SEARCHBAR */
