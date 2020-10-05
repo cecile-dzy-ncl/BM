@@ -105,6 +105,10 @@ $(document).ready(function () {
     </div>`
   );
 
+  $("#header-header > .row > .columns").removeClass(
+    "small-12 medium-12 large-4 large-8"
+  );
+
   // EVENT STARS S'ENGAGENT
   $(function () {
     var collecteFonds = 1;
