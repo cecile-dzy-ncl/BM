@@ -88,6 +88,8 @@ $(document).ready(function () {
   //   }
   // });
 
+  $("#header-header").before("<section id='first-header'></section>");
+
   // EVENT STARS S'ENGAGENT
   $(function () {
     var collecteFonds = 1;
