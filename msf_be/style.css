@@ -202,7 +202,7 @@ p {
   font-size: 12px;
 }
 
-#first-header .top-bar-section .has-dropdown > a:after {
+#first-header .top-bar-section ul.right .has-dropdown > a:after {
   border-color: white;
   border-width: 1px;
   border-style: solid;
@@ -249,6 +249,9 @@ p {
 
 .btn-actions {
   display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-actions a {
@@ -256,6 +259,8 @@ p {
   width: 125px;
   text-align: center;
   color: white;
+  height: 80px;
+  padding: 15px;
 }
 
 /* SEARCHBAR */
