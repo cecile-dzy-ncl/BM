@@ -273,6 +273,9 @@ p {
   padding: 15px;
 }
 
+.btn-actions a:hover {
+  color: white;
+}
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
