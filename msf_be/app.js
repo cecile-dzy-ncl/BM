@@ -96,7 +96,7 @@ $(document).ready(function () {
 
   $("#first-header > div").html(navButtons);
 
-  $("#header-header .top-bar").html(
+  $("#header-header > .row > .columns:last-child").after(
     `<div>
     <a class="bg-grey" href="https://events.msf-azg.be/projects"><strong>Soutenir
     </strong>une collecte</a>
