@@ -189,7 +189,7 @@ p {
 }
 
 #first-header a.button,
-#first-header .has-dropdown a {
+#first-header .has-dropdown > a {
   float: none !important;
   margin: 0;
   padding: 0 !important;
