@@ -282,6 +282,11 @@ header.main-header {
 .btn-actions a:hover {
   color: white;
 }
+
+.admin_button.button {
+  height: 35px;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
