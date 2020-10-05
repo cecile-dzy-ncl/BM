@@ -110,7 +110,7 @@ $(document).ready(function () {
   );
 
   $(".header-spacer > div").removeClass(
-    "small-12 medium-push-6 medium-6 large-reset-order large-6 columns"
+    "small-12 medium-push-6 medium-pull-6 medium-6 large-reset-order large-6 columns"
   );
 
   // EVENT STARS S'ENGAGENT

@@ -231,6 +231,10 @@ p {
   content: none;
 }
 
+#header-header .top-bar {
+  display: none;
+}
+
 #header-header input {
   margin: 0;
 }
