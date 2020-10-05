@@ -162,6 +162,12 @@ p {
 
 /* NAVBAR */
 
+header.main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 #first-header {
   height: 35px;
   background: var(--grey);
