@@ -212,6 +212,10 @@ p {
   margin: 0 !important;
 }
 
+#header-header {
+  margin: 0;
+}
+
 #header-header .row {
   display: flex;
   align-items: center;
