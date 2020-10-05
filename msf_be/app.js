@@ -88,7 +88,10 @@ $(document).ready(function () {
   //   }
   // });
 
-  $("#header-header").before("<section id='first-header'></section>");
+  var navButtons = $(".header-spacer nav[role='navigation']");
+  $("#header-header").before(
+    `<section id='first-header'>${navButtons}</section>`
+  );
 
   // EVENT STARS S'ENGAGENT
   $(function () {
