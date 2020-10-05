@@ -222,6 +222,15 @@ p {
   display: none;
 }
 
+.btn-actions {
+  display: flex;
+}
+
+.btn-actions a {
+  display: block;
+  width: 125px;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
