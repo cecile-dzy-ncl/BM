@@ -88,7 +88,7 @@ $(document).ready(function () {
   //   }
   // });
 
-  var navButtons = $(".header-spacer nav[role='navigation']")[0];
+  var navButtons = $(".header-spacer nav[role='navigation']")[0].html();
   console.log(navButtons);
   $("#header-header").before(`<section id='first-header'></section>`);
 
