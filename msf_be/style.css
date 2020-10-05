@@ -190,10 +190,12 @@ p {
 
 #first-header .top-bar-section .has-dropdown > a:after {
   border-color: white;
+  border-width: 1px;
+  border-style: solid;
   width: 100%;
-  border-bottom: 1px solid white;
-  bottom: 0;
-  position: absolute;
+  bottom: 3px;
+  top: auto;
+  margin: 0 !important;
 }
 
 /* SEARCHBAR */
