@@ -95,27 +95,15 @@ $(document).ready(function () {
   );
 
   $("#first-header > div").html(navButtons);
-  // $("#first-header > div").html(
-  //   `<div><a class="" href="/users/sign_in">Connexion</a><ul class="right">
-  //   <li class="has-dropdown not-click">
-  //     <a href="/set_language/fr">
-  //       Français
-  //     </a>
-  //     <ul class="dropdown">
-  //           <li>
-  //             <a href="/set_language/en" class="highlighted">
-  //               English
-  //             </a>
-  //           </li>
-  //           <li>
-  //             <a href="/set_language/nl" class="highlighted">
-  //               Nederlands
-  //             </a>
-  //           </li>
-  //     </ul>
-  //   </li>
-  // </ul></div>`
-  // );
+
+  $("#header-header .top-bar").html(
+    `<div>
+    <a class="bg-grey" href="https://events.msf-azg.be/projects"><strong>Soutenir
+    </strong>une collecte</a>
+    <a class="bg-red" href=""><strong>Créer
+    </strong>une collecte</a>
+    </div>`
+  );
 
   // EVENT STARS S'ENGAGENT
   $(function () {
