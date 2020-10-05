@@ -91,7 +91,7 @@ $(document).ready(function () {
   var navButtons = $(".header-spacer nav[role='navigation']").html();
   console.log(navButtons);
   $("#header-header").before(
-    `<section id='first-header'><div class='container-large-bm'></div></section>`
+    `<section id='first-header'><div class='row'></div></section>`
   );
 
   $("#first-header > div").html(navButtons);
