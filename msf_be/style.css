@@ -174,8 +174,17 @@ p {
   background: transparent !important;
 }
 
+#first-header .top-bar-section > * {
+  width: 125px;
+}
+
 #first-header ul {
   margin: 0;
+}
+
+#first-header ul li {
+  float: none;
+  width: fit-content;
 }
 
 #first-header a.button,
