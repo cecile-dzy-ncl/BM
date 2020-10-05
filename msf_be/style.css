@@ -243,6 +243,16 @@ p {
   padding: 0 !important;
 }
 
+.header-spacer .search-query {
+  width: 433px;
+}
+
+.header-spacer .search-query input {
+  border-radius: 40px;
+  border: 0;
+  box-shadow: var(--shadow);
+}
+
 .header-spacer nav[role="navigation"] .top-bar-section {
   display: none;
 }
