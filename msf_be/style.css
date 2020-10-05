@@ -160,6 +160,13 @@ p {
   color: white !important;
 }
 
+/* NAVBAR */
+
+#first-header {
+  height: 35px;
+  background: var(--grey);
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
