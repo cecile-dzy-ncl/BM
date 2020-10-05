@@ -182,7 +182,7 @@ p {
   margin: 0;
 }
 
-#first-header ul li {
+#first-header ul li.has-drropdown {
   float: none;
   width: fit-content;
   margin: auto;
