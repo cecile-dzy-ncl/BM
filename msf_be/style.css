@@ -218,6 +218,10 @@ p {
   justify-content: space-between;
 }
 
+#header-header input {
+  margin: 0;
+}
+
 .header-spacer nav[role="navigation"] .top-bar-section {
   display: none;
 }
