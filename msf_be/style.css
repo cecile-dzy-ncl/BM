@@ -174,7 +174,7 @@ p {
   background: transparent !important;
 }
 
-#first-header a.button.left {
+#first-header a {
   float: none !important;
   margin: 0;
   padding: 0;
