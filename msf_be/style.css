@@ -185,6 +185,7 @@ p {
 #first-header ul li {
   float: none;
   width: fit-content;
+  margin: auto;
 }
 
 #first-header a.button,
