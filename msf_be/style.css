@@ -231,6 +231,10 @@ p {
   margin: 0;
 }
 
+.header-spacer {
+  padding: 0;
+}
+
 .header-spacer nav[role="navigation"] .top-bar-section {
   display: none;
 }
