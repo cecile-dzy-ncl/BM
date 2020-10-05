@@ -178,7 +178,8 @@ p {
   margin: 0;
 }
 
-#first-header a {
+#first-header a.button,
+#first-header .has-dropdown a {
   float: none !important;
   margin: 0;
   padding: 0;
