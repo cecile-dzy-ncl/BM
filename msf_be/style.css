@@ -192,10 +192,10 @@ p {
 #first-header .has-dropdown a {
   float: none !important;
   margin: 0;
-  padding: 0;
+  padding: 0 !important;
   background: transparent;
   line-height: 35px;
-  width: 125px;
+  /* width: 125px; */
   text-align: center;
   color: white;
   text-transform: uppercase;
