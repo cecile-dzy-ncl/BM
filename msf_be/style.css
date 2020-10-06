@@ -381,6 +381,18 @@ header.main-header {
   flex-grow: 1;
 }
 
+/* ------ PANEL ------ */
+
+.infos-money .infos-money-details .info-money.detail:first-child {
+  font-size: 23px;
+  font-family: "DINPro_Bold" !important;
+  color: var(--red);
+}
+
+.infos-money .infos-money-details .info-money.detail {
+  color: var(--grey);
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
