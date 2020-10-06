@@ -88,10 +88,15 @@ $(document).ready(function () {
   //   }
   // });
 
-  if ($(".panel")) {
-    console.log($(".panel"));
-    $(".panel").style.background =
-      "linear-gradient(137deg, rgba(255,44,0,1) 0%, rgba(255,44,0,1) 50%, rgba(125,3,0,0.8561799719887955) 50%, rgba(0,0,0,0) 55%);";
+  if ($(".graph-bar")) {
+    console.log($(".graph-bar"));
+    $(".graph-bar").each(function () {
+      console.log(this);
+      this.css(
+        background,
+        "linear-gradient(137deg, rgba(255,44,0,1) 0%, rgba(255,44,0,1) 50%, rgba(125,3,0,0.8561799719887955) 50%, rgba(0,0,0,0) 55%);"
+      );
+    });
   }
 
   var navButtons = $(".header-spacer nav[role='navigation']").html();
