@@ -427,6 +427,10 @@ header.main-header {
 
 .card-event p {
   font-size: 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 /* ------ PANEL ------ */
