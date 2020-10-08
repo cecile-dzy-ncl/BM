@@ -631,8 +631,8 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: var(--red);
-  /* color: white; */
+  /* background-color: var(--red); */
+  color: black;
 }
 
 .project_payment #list_payment .people p.money {
