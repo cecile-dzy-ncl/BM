@@ -151,11 +151,11 @@ $(document).ready(function () {
         var eventEndDate = new Date(event.end);
         var today = new Date();
         if (eventEndDate != null) {
-          var remaningDays = Math.ceil(
+          var remainingDays = Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
         } else {
-          var remaningDays = "Pas de date de fin";
+          var remainingDays = "Pas de date de fin";
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
@@ -182,18 +182,12 @@ $(document).ready(function () {
           <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>recoltés</small></p>
           </div>
-          ` +
-        if (eventAmountExpected != null) {
-          `
-            <div class='w-20'>
-            <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-            <p class='text-center'><small>attendus</small></p>
-            </div>
-          `
-        } +
-        `
           <div class='w-20'>
-          <h5 class='text-center'>${remaningDays}j</h5>
+          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+          <p class='text-center'><small>attendus</small></p>
+          </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${remainingDays}j</h5>
           <p class='text-center'><small>restant</small></p>
           </div>
           </div>
