@@ -425,6 +425,12 @@ header.main-header {
   font-size: 12px;
 }
 
+.card-event-btns a.bg-black {
+  border-radius: 4px 0 0 4px;
+}
+.card-event-btns a.bg-red {
+  border-radius: 0 4px 4px 0;
+}
 .card-event-details {
   padding: 20px;
 }
