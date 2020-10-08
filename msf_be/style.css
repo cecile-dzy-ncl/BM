@@ -83,7 +83,7 @@ h1 {
 }
 
 h2 {
-  color: var(--grey);
+  color: var(--grey) !important;
   font-size: 38px;
 }
 
