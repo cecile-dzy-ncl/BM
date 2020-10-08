@@ -139,7 +139,7 @@ $(document).ready(function () {
       // var eventsBloc = $("#events-block");
       // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
 
-      const injectCard = (eventCard) => {
+      const injectCard = (eventContainer, eventCard) => {
         $("#events-block .container-bm").append(eventCard);
       };
 
@@ -148,14 +148,14 @@ $(document).ready(function () {
         // console.log(event);
         const card = `
         <div class="card-event">
-          <img src="">
+          <img src="${event.banner_image}">
           <div>
             <div class="card-event-btns">
               <a href="" class="btn-bm bg-black white">Voir les collectes</a>
               <a href="" class="btn-bm bg-red white">Créer une collecte</a>
             </div>
           <h4></h4>
-          <p></p>
+          <p>${event.description.fr}</p>
           <div></div>
           </div>
         </div>
