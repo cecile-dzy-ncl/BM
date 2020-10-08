@@ -147,11 +147,11 @@ $(document).ready(function () {
         const card = `
         <div class="card card-event">
         <img src="${event.banner_image}">
-        <div>
         <div class="card-event-btns">
         <a href="" class="btn-bm bg-black white">Voir les collectes</a>
         <a href="" class="btn-bm bg-red white">Créer une collecte</a>
         </div>
+        <div class="card-event-details">
         <h4>${event.title.fr}</h4>
         <p>${event.description.fr}</p>
         <div></div>

@@ -420,6 +420,10 @@ header.main-header {
   margin: -40px auto 5px;
 }
 
+.card-event-details {
+  padding: 20px;
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
