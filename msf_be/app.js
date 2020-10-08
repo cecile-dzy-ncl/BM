@@ -148,8 +148,8 @@ $(document).ready(function () {
         <div class="card card-event">
         <img src="${event.banner_image}">
         <div class="card-event-btns">
-        <a href="" class="btn-bm bg-black white">Voir les collectes</a>
-        <a href="" class="btn-bm bg-red white">Créer une collecte</a>
+        <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
+        <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
         </div>
         <div class="card-event-details">
         <h4>${event.title.fr}</h4>
