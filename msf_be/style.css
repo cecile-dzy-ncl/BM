@@ -630,10 +630,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background: #f5f5f5;
 }
 
-.tabs dd.active a {
-  /* background-color: var(--red); */
-  color: black;
-}
+/* .tabs dd.active a {
+   background-color: var(--red); 
+   color: black; 
+} */
 
 .project_payment #list_payment .people p.money {
   color: var(--red);
