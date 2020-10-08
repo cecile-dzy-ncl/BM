@@ -631,7 +631,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: #000000;
+  background-color: var(--red);
   color: white;
 }
 
