@@ -136,11 +136,11 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
+      $("#events-block .scrolling-wrapper").html("");
       // var eventsBloc = $("#events-block");
       // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
 
       const injectCard = (eventCard) => {
-        $("#events-block .scrolling-wrapper").html("");
         $("#events-block .scrolling-wrapper").append(eventCard);
       };
 
@@ -149,16 +149,16 @@ $(document).ready(function () {
         // console.log(event);
         const card = `
         <div class="card-event">
-          <img src="${event.banner_image}">
-          <div>
-            <div class="card-event-btns">
-              <a href="" class="btn-bm bg-black white">Voir les collectes</a>
-              <a href="" class="btn-bm bg-red white">Créer une collecte</a>
-            </div>
-          <h4>${event.title.fr}</h4>
-          <p>${event.description.fr}</p>
-          <div></div>
-          </div>
+        <img src="${event.banner_image}">
+        <div>
+        <div class="card-event-btns">
+        <a href="" class="btn-bm bg-black white">Voir les collectes</a>
+        <a href="" class="btn-bm bg-red white">Créer une collecte</a>
+        </div>
+        <h4>${event.title.fr}</h4>
+        <p>${event.description.fr}</p>
+        <div></div>
+        </div>
         </div>
         `;
         injectCard(card);
