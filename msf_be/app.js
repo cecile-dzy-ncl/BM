@@ -144,18 +144,55 @@ $(document).ready(function () {
 
       const buildCard = (event) => {
         console.log(event);
+        var projectAmountCollected = parseInt(value.current_amount, 10) / 100;
+        var projectAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
+          maximumFractionDigits: 0,
+          minimumFractionDigits: 0,
+          style: "currency",
+          currency: "EUR",
+        }).format(projectAmountCollected);
+        var projectAmountExpected = parseInt(value.desired_amount, 10) / 100;
+        var projectAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+          maximumFractionDigits: 0,
+          minimumFractionDigits: 0,
+          style: "currency",
+          currency: "EUR",
+        }).format(projectAmountExpected);
+        var projectEndDate = new Date(value.end);
+        var today = new Date();
+        var remaningDays = Math.ceil(
+          (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+        );
+        var projectProgress =
+          (projectAmountCollected / projectAmountExpected) * 100;
         const card = `
         <div class="card card-event">
-        <img src="${event.banner_image}">
-        <div class="card-event-btns">
-        <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
-        <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
-        </div>
-        <div class="card-event-details">
-        <h4>${event.title.fr}</h4>
-        <p>${event.description.fr}</p>
-        <div></div>
-        </div>
+          <img src="${event.banner_image}">
+          <div class="card-event-btns">
+            <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
+            <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
+          </div>
+          <div class="card-event-details">
+            <h4>${event.title.fr}</h4>
+            <p>${event.description.fr}</p>
+          <div>
+          <div class='progress-bar bg-white'>
+            <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
+          </div> 
+          <div class='d-flex justify-between'>
+            <div class='w-33'>
+              <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
+              <p class='text-center'>collectés</p>
+            </div>
+            <div class='w-33'>
+              <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
+              <p class='text-center'>attendus</p>
+            </div>
+            <div class='w-33'>
+              <h4 class='text-center'>${remaningDays}j</h4>
+              <p class='text-center'>restant</p>
+            </div>
+          </div>
         </div>
         `;
         injectCard(card);
