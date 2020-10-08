@@ -130,7 +130,7 @@ $(document).ready(function () {
       // $("#events-scroll .scrolling-wrapper").html("");
       // $("#urgences-scroll .scrolling-wrapper").html("");
 
-      const injectCard = (cardContainer, eventCard) => {
+      const injectCard = (eventCard, cardContainer) => {
         console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
