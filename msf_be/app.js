@@ -140,7 +140,7 @@ $(document).ready(function () {
       // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
 
       const injectCard = (eventCard) => {
-        $("#events-block").append(eventCard);
+        $("#events-block .container-bm").append(eventCard);
       };
 
       const buildCard = (event) => {
