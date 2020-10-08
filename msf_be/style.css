@@ -83,7 +83,7 @@ h1 {
 }
 
 h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: var(--grey) !important;
   font-size: 38px;
 }
@@ -401,6 +401,11 @@ header.main-header {
 
 #events-block h1 {
   margin-bottom: 50px;
+}
+
+#events-block h1 {
+  text-transform: uppercase;
+  color: var(--grey) !important;
 }
 
 .scrolling-wrapper {
