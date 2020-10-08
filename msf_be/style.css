@@ -660,7 +660,7 @@ section#project_tabs + section .row {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  float: right !important;
+  float: none !important;
   text-align: right;
 }
 
