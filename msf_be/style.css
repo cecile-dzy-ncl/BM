@@ -412,12 +412,13 @@ header.main-header {
   text-transform: uppercase;
   color: var(--grey);
   font-family: "DINPro_black";
+  margin-bottom: 10px;
 }
 
 .card-event-btns {
   display: flex;
   width: 90%;
-  margin: -40px auto 5px;
+  margin: -40px auto 0;
 }
 
 .card-event-btns a {
