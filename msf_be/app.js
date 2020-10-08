@@ -134,31 +134,30 @@ $(document).ready(function () {
 
       const buildCard = (event, eventContainer) => {
         console.log(event);
-        var projectAmountCollected = parseInt(event.amount_collected, 10) / 100;
-        var projectAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
+        var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
+        var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
           minimumFractionDigits: 0,
           style: "currency",
           currency: "EUR",
-        }).format(projectAmountCollected);
-        var projectAmountExpected = parseInt(event.expected_amount, 10) / 100;
-        var projectAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+        }).format(eventAmountCollected);
+        var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+        var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
           minimumFractionDigits: 0,
           style: "currency",
           currency: "EUR",
-        }).format(projectAmountExpected);
-        var projectEndDate = new Date(event.end);
+        }).format(eventAmountExpected);
+        var eventEndDate = new Date(event.end);
         var today = new Date();
-        if (projectEndDate != null) {
+        if (eventEndDate != null) {
           var remaningDays = Math.ceil(
-            (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
         } else {
           var remaningDays = "Pas de date de fin";
         }
-        var projectProgress =
-          (projectAmountCollected / projectAmountExpected) * 100;
+        var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
         const card = `
           <div class="card card-event">
@@ -172,7 +171,7 @@ $(document).ready(function () {
           <p>${event.description.fr}</p>
           <div>
           <div class='event-progressbar bg-lightgrey'>
-          <div class='event-progress-perc bg-red' style='width: ${projectProgress}%'></div>
+          <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
           </div> 
           <div class='d-flex justify-between mt-10'>
           <div class='w-20'>
@@ -180,13 +179,19 @@ $(document).ready(function () {
           <p class='text-center'><small>collectes</small></p>
           </div>
           <div class='w-20'>
-          <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
+          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>recoltés</small></p>
           </div>
-          <div class='w-20'>
-          <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>attendus</small></p>
-          </div>
+          `;
+        if (eventAmountExpected != null) {
+          `
+            <div class='w-20'>
+            <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+            <p class='text-center'><small>attendus</small></p>
+            </div>
+          `;
+        }
+        `
           <div class='w-20'>
           <h5 class='text-center'>${remaningDays}j</h5>
           <p class='text-center'><small>restant</small></p>
