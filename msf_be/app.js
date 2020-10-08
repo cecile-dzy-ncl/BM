@@ -180,11 +180,11 @@ $(document).ready(function () {
           <div class='d-flex justify-between'>
           <div class='w-20'>
           <h5 class='text-center'>${event.projects_count}</h5>
-          <p class='text-center'><small>collectés</small></p>
+          <p class='text-center'><small>collectes</small></p>
           </div>
           <div class='w-20'>
           <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>collectés</small></p>
+          <p class='text-center'><small>recollectés</small></p>
           </div>
           <div class='w-20'>
           <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
