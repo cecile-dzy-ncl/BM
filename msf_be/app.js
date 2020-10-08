@@ -144,6 +144,9 @@ $(document).ready(function () {
           }
         );
       };
+
+      fetchData();
+
       // var starProjects = response.projects;
       // $.each(starProjects, function (key, value) {
       //   var projectTitle = value.title.fr;
