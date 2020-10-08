@@ -388,12 +388,11 @@ header.main-header {
 }
 
 .scrolling-wrapper {
-  /* overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap; */
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
+  padding: 0 10px;
+  margin: 0 -10px;
 }
 
 .scrolling-wrapper .card {
