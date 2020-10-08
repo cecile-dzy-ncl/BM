@@ -126,13 +126,6 @@ $(document).ready(function () {
 
   // EVENT STARS S'ENGAGENT
   $(function () {
-    // 8 - Naissance,
-    // 10 - Mariage/Anniversaire de mariage,
-    // 9 - Anniversaire,
-    // 11 - In Memoriam,
-    // 5 - Evènement Sportif,
-    // Evènement Culturel
-    var collectesEvents = [8, 10, 9, 11, 5];
     if ($("body").is("#indexs-index")) {
       // $("#events-scroll .scrolling-wrapper").html("");
       // $("#urgences-scroll .scrolling-wrapper").html("");
@@ -214,23 +207,38 @@ $(document).ready(function () {
         );
       };
 
+      // 8 - Naissance,
+      // 10 - Mariage/Anniversaire de mariage,
+      // 9 - Anniversaire,
+      // 11 - In Memoriam,
+      // 5 - Evènement Sportif,
+      // Evènement Culturel
+      var collectesEvents = [8, 10, 9, 11, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value);
         injectCard("#collectes-scroll .scrolling-wrapper");
       });
 
+      // 70 - 20km,
+      // 63 - 20km 2019
+      // 66 - Ekiden,
+      var events = [70, 66, 63];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
         fetchData(value);
         injectCard("#events-scroll .scrolling-wrapper");
       });
 
-      $("#urgences-scroll .scrolling-wrapper").html("");
-      $.each(urgencesEvents, function (key, value) {
-        fetchData(value);
-        injectCard("#urgences-scroll .scrolling-wrapper");
-      });
+      //
+      //
+      //
+      // var urgencesEvents = [];
+      // $("#urgences-scroll .scrolling-wrapper").html("");
+      // $.each(urgencesEvents, function (key, value) {
+      //   fetchData(value);
+      //   injectCard("#urgences-scroll .scrolling-wrapper");
+      // });
 
       // var starProjects = response.projects;
       // $.each(starProjects, function (key, value) {
