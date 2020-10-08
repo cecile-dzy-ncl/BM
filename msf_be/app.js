@@ -132,7 +132,7 @@ $(document).ready(function () {
     // 11 - In Memoriam,
     // 5 - Evènement Sportif,
     // Evènement Culturel
-    var collectesEvents = [5, 8, 9, 10, 11];
+    var collectesEvents = [8, 10, 9, 11, 5];
     if ($("body").is("#indexs-index")) {
       $("#collectes-scroll").html("");
       $("#events-scroll").html("");
