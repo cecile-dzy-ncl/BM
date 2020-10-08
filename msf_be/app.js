@@ -165,6 +165,7 @@ $(document).ready(function () {
         );
         var projectProgress =
           (projectAmountCollected / projectAmountExpected) * 100;
+
         const card = `
         <div class="card card-event">
           <img src="${event.banner_image}">
@@ -177,18 +178,22 @@ $(document).ready(function () {
             <p>${event.description.fr}</p>
           <div>
           <div class='progress-bar bg-white'>
-            <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
+            <div class='progress-perc bg-red' style='width: ${projectProgress}%'></div>
           </div> 
           <div class='d-flex justify-between'>
-            <div class='w-33'>
+            <div class='w-20'>
+              <h4 class='text-center'>${event.projects_count}</h4>
+              <p class='text-center'>collectés</p>
+            </div>
+            <div class='w-20'>
               <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
               <p class='text-center'>collectés</p>
             </div>
-            <div class='w-33'>
+            <div class='w-20'>
               <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
               <p class='text-center'>attendus</p>
             </div>
-            <div class='w-33'>
+            <div class='w-20'>
               <h4 class='text-center'>${remaningDays}j</h4>
               <p class='text-center'>restant</p>
             </div>
