@@ -139,7 +139,7 @@ $(document).ready(function () {
       $("#urgences-scroll").html("");
 
       const injectCard = (eventCard) => {
-        $("#collectes-scroll .scrolling-wrapper").append(eventCard);
+        $("#collectes-scroll").append(eventCard);
       };
 
       const buildCard = (event) => {
