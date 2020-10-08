@@ -184,7 +184,7 @@ $(document).ready(function () {
           </div>
           <div class='w-20'>
           <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>recollectés</small></p>
+          <p class='text-center'><small>recoltés</small></p>
           </div>
           <div class='w-20'>
           <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
