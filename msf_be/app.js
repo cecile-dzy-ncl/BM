@@ -153,9 +153,10 @@ $(document).ready(function () {
               <a href="" class="btn-bm bg-black white">Voir les collectes</a>
               <a href="" class="btn-bm bg-red white">Créer une collecte</a>
             </div>
-          
-          </div>
+          <h4></h4>
+          <p></p>
           <div></div>
+          </div>
         </div>
         `;
         injectCard(card);
