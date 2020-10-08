@@ -418,7 +418,7 @@ header.main-header {
 .card-event-btns {
   display: flex;
   width: 90%;
-  margin: -40px auto 0;
+  margin: -40px auto 5px;
 }
 
 .card-event-btns a {
