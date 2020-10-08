@@ -186,19 +186,19 @@ $(document).ready(function () {
           </div> 
           <div class='d-flex justify-between'>
             <div class='w-20'>
-              <h4 class='text-center'>${event.projects_count}</h4>
+              <h5 class='text-center'>${event.projects_count}</h5>
               <p class='text-center'>collectés</p>
             </div>
             <div class='w-20'>
-              <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
+              <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
               <p class='text-center'>collectés</p>
             </div>
             <div class='w-20'>
-              <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
+              <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
               <p class='text-center'>attendus</p>
             </div>
             <div class='w-20'>
-              <h4 class='text-center'>${remaningDays}j</h4>
+              <h5 class='text-center'>${remaningDays}j</h5>
               <p class='text-center'>restant</p>
             </div>
           </div>
