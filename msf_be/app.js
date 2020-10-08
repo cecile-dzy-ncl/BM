@@ -182,15 +182,15 @@ $(document).ready(function () {
           <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>recoltés</small></p>
           </div>
-          `;
+          ` +
         if (eventAmountExpected != null) {
           `
             <div class='w-20'>
             <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
             <p class='text-center'><small>attendus</small></p>
             </div>
-          `;
-        }
+          `
+        } +
         `
           <div class='w-20'>
           <h5 class='text-center'>${remaningDays}j</h5>
