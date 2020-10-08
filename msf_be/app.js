@@ -136,10 +136,11 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
-      var eventsBloc = $("#events-block");
+      // var eventsBloc = $("#events-block");
+      // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
 
       const injectCard = (eventCard) => {
-        eventsBloc.insertAdjacentHTML("beforeend", "eventCard");
+        $("#events-block").append(eventCard);
       };
 
       const buildCard = (event) => {
