@@ -174,7 +174,7 @@ $(document).ready(function () {
           <h4>${event.title.fr}</h4>
           <p>${event.description.fr}</p>
           <div>
-          <div class='event-progressbar bg-white'>
+          <div class='event-progressbar bg-lightgrey'>
           <div class='event-progress-perc bg-red' style='width: ${projectProgress}%'></div>
           </div> 
           <div class='d-flex justify-between'>
