@@ -83,6 +83,7 @@ h1 {
 }
 
 h2 {
+  text-transform: uppercase;
   color: var(--grey) !important;
   font-size: 38px;
 }
