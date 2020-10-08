@@ -126,7 +126,7 @@ $(document).ready(function () {
 
   // EVENT STARS S'ENGAGENT
   $(function () {
-    var collecteFonds = 1;
+    var collectesEvents = [8, 9, 10, 11];
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
