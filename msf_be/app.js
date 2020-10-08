@@ -136,12 +136,12 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
-      $("#events-scroll .scrolling-wrapper").html("");
+      $("#collectes-scroll .scrolling-wrapper").html("");
       $("#events-scroll .scrolling-wrapper").html("");
       $("#urgences-scroll .scrolling-wrapper").html("");
 
       const injectCard = (eventCard) => {
-        $("#events-scroll .scrolling-wrapper").append(eventCard);
+        $("#collectes-scroll .scrolling-wrapper").append(eventCard);
       };
 
       const buildCard = (event) => {
