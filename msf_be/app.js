@@ -134,7 +134,7 @@ $(document).ready(function () {
         $(cardContainer).append(eventCard);
       };
 
-      const buildCard = (event) => {
+      const buildCard = (event, eventContainer) => {
         console.log(event);
         var projectAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var projectAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
@@ -196,13 +196,14 @@ $(document).ready(function () {
           </div>
           </div>
           `;
+        injectCard(card, eventContainer);
       };
 
-      const fetchData = (event) => {
+      const fetchData = (event, eventContainer) => {
         $.get(
           `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
-            buildCard(response);
+            buildCard(response, eventContainer);
           }
         );
       };
@@ -216,8 +217,8 @@ $(document).ready(function () {
       var collectesEvents = [8, 10, 9, 11, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
-        fetchData(value);
-        console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
+        fetchData(value, "#collectes-scroll .scrolling-wrapper");
+        // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
       });
 
       // 70 - 20km,
@@ -226,8 +227,8 @@ $(document).ready(function () {
       var events = [70, 66, 63];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
-        fetchData(value);
-        injectCard("#events-scroll .scrolling-wrapper");
+        fetchData(value, "#events-scroll .scrolling-wrapper");
+        // injectCard("#events-scroll .scrolling-wrapper");
       });
 
       //
