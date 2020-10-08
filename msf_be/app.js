@@ -126,84 +126,89 @@ $(document).ready(function () {
 
   // EVENT STARS S'ENGAGENT
   $(function () {
-    var collectesEvents = [8, 9, 10, 11];
+    // 8 - Naissance,
+    // 10 - Mariage/Anniversaire de mariage,
+    // 9 - Anniversaire,
+    // 11 - In Memoriam,
+    // 5 - Evènement Sportif,
+    // Evènement Culturel
+    var collectesEvents = [5, 8, 9, 10, 11];
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
-      // $("#events-show .intro-my-event").after(
-      //   "<div class='stars-projects mt-70 mb-150'></div>"
-      // );
+      const fetchData = () => {
+        $.get(
+          `https://events.msf-azg.be/api/events/1?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+          function (response) {
+            console.log(response);
+          }
+        );
+      };
+      // var starProjects = response.projects;
+      // $.each(starProjects, function (key, value) {
+      //   var projectTitle = value.title.fr;
+      //   var projectAmountCollected =
+      //     parseInt(value.current_amount, 10) / 100;
+      //   var projectAmountCollectedFormatted = new Intl.NumberFormat(
+      //     "fr-FR",
+      //     {
+      //       maximumFractionDigits: 0,
+      //       minimumFractionDigits: 0,
+      //       style: "currency",
+      //       currency: "EUR",
+      //     }
+      //   ).format(projectAmountCollected);
+      //   var projectAmountExpected =
+      //     parseInt(value.desired_amount, 10) / 100;
+      //   var projectAmountExpectedFormatted = new Intl.NumberFormat(
+      //     "fr-FR",
+      //     {
+      //       maximumFractionDigits: 0,
+      //       minimumFractionDigits: 0,
+      //       style: "currency",
+      //       currency: "EUR",
+      //     }
+      //   ).format(projectAmountExpected);
+      //   var projectEndDate = new Date(value.end);
+      //   var today = new Date();
+      //   var remaningDays = Math.ceil(
+      //     (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+      //   );
+      //   var projectProgress =
+      //     (projectAmountCollected / projectAmountExpected) * 100;
+      //   var projectUrl = value.url.fr;
+      //   var projectImg = value.project_images[0].original;
+      //   var projectCard = `
+      // <div class='project-card'>
+      //   <img src='${projectImg}' alt='photo du projet'>
+      //   <div class='project-details d-flex flex-column p-50 h-50'>
+      //     <h4 class='h-25 text-center d-flex align-items-center justify-center'>${projectTitle}</h4>
+      //     <div class='h-75'>
+      //       <div class='progress-bar bg-white'>
+      //         <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
+      //       </div>
+      //       <div class='d-flex justify-between'>
+      //         <div class='w-33'>
+      //           <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
+      //           <p class='text-center'>collectés</p>
+      //         </div>
+      //         <div class='w-33'>
+      //           <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
+      //           <p class='text-center'>attendus</p>
+      //         </div>
+      //         <div class='w-33'>
+      //           <h4 class='text-center'>${remaningDays}j</h4>
+      //           <p class='text-center'>restant</p>
+      //         </div>
+      //       </div>
+      //       <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border btn-bm-large'>Voir la page de collecte</a>
+      //     </div>
+      //   </div>
+      // </div>`;
+      //   $(".stars-projects").prepend(projectCard);
+      // });
 
       // récupérer les infos des pages de collectes des stars
-      $.get(
-        `https://events.msf-azg.be/api/events/1?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-        function (response) {
-          console.log(response);
-          // var starProjects = response.projects;
-          // $.each(starProjects, function (key, value) {
-          //   var projectTitle = value.title.fr;
-          //   var projectAmountCollected =
-          //     parseInt(value.current_amount, 10) / 100;
-          //   var projectAmountCollectedFormatted = new Intl.NumberFormat(
-          //     "fr-FR",
-          //     {
-          //       maximumFractionDigits: 0,
-          //       minimumFractionDigits: 0,
-          //       style: "currency",
-          //       currency: "EUR",
-          //     }
-          //   ).format(projectAmountCollected);
-          //   var projectAmountExpected =
-          //     parseInt(value.desired_amount, 10) / 100;
-          //   var projectAmountExpectedFormatted = new Intl.NumberFormat(
-          //     "fr-FR",
-          //     {
-          //       maximumFractionDigits: 0,
-          //       minimumFractionDigits: 0,
-          //       style: "currency",
-          //       currency: "EUR",
-          //     }
-          //   ).format(projectAmountExpected);
-          //   var projectEndDate = new Date(value.end);
-          //   var today = new Date();
-          //   var remaningDays = Math.ceil(
-          //     (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-          //   );
-          //   var projectProgress =
-          //     (projectAmountCollected / projectAmountExpected) * 100;
-          //   var projectUrl = value.url.fr;
-          //   var projectImg = value.project_images[0].original;
-          //   var projectCard = `
-          // <div class='project-card'>
-          //   <img src='${projectImg}' alt='photo du projet'>
-          //   <div class='project-details d-flex flex-column p-50 h-50'>
-          //     <h4 class='h-25 text-center d-flex align-items-center justify-center'>${projectTitle}</h4>
-          //     <div class='h-75'>
-          //       <div class='progress-bar bg-white'>
-          //         <div class='progress-perc bg-orange' style='width: ${projectProgress}%'></div>
-          //       </div>
-          //       <div class='d-flex justify-between'>
-          //         <div class='w-33'>
-          //           <h4 class='text-center'>${projectAmountCollectedFormatted}</h4>
-          //           <p class='text-center'>collectés</p>
-          //         </div>
-          //         <div class='w-33'>
-          //           <h4 class='text-center'>${projectAmountExpectedFormatted}</h4>
-          //           <p class='text-center'>attendus</p>
-          //         </div>
-          //         <div class='w-33'>
-          //           <h4 class='text-center'>${remaningDays}j</h4>
-          //           <p class='text-center'>restant</p>
-          //         </div>
-          //       </div>
-          //       <a href='${projectUrl}' target='_blank' class='uppercase btn btn-bm btn-bm-border btn-bm-large'>Voir la page de collecte</a>
-          //     </div>
-          //   </div>
-          // </div>`;
-          //   $(".stars-projects").prepend(projectCard);
-          // });
-        }
-      );
     }
   });
 
