@@ -138,7 +138,7 @@ $(document).ready(function () {
 
       const fetchData = (event) => {
         $.get(
-          `https://events.msf-azg.be/api/events/1?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+          `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
             console.log(response);
           }
@@ -146,9 +146,7 @@ $(document).ready(function () {
       };
 
       $.each(collectesEvents, function (key, value) {
-        console.log(key);
-        console.log(value);
-        // fetchData();
+        fetchData(value);
       });
 
       // var starProjects = response.projects;
