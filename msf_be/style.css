@@ -459,6 +459,8 @@ header.main-header {
 
 .card-event p {
   font-size: 15px;
+  line-height: 18px;
+  margin: 10px 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
