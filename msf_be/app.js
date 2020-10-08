@@ -134,11 +134,9 @@ $(document).ready(function () {
     // Evènement Culturel
     var collectesEvents = [5, 8, 9, 10, 11];
     if ($("body").is("#indexs-index")) {
-      console.log("on est bien sur la home");
-
-      $("#collectes-scroll .scrolling-wrapper").html("");
-      $("#events-scroll .scrolling-wrapper").html("");
-      $("#urgences-scroll .scrolling-wrapper").html("");
+      $("#collectes-scroll").html("");
+      $("#events-scroll").html("");
+      $("#urgences-scroll").html("");
 
       const injectCard = (eventCard) => {
         $("#collectes-scroll .scrolling-wrapper").append(eventCard);
