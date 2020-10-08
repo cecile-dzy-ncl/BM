@@ -386,6 +386,16 @@ header.main-header {
   flex-grow: 1;
 }
 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
