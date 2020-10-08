@@ -421,6 +421,11 @@ header.main-header {
   margin: -40px auto 5px;
 }
 
+.card-event-btns a {
+  width: 50%;
+  font-size: 12px;
+}
+
 .card-event-details {
   padding: 20px;
 }
