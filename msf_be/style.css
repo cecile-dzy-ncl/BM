@@ -654,9 +654,9 @@ section#project_tabs + section .row {
 }
 
 .project_event_description {
-  height: 600px;
-  width: 400px;
-  margin-right: 150px !important;
+  /* height: 600px; */
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
