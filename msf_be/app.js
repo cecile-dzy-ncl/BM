@@ -127,9 +127,6 @@ $(document).ready(function () {
   // EVENT STARS S'ENGAGENT
   $(function () {
     if ($("body").is("#indexs-index")) {
-      // $("#events-scroll .scrolling-wrapper").html("");
-      // $("#urgences-scroll .scrolling-wrapper").html("");
-
       const injectCard = (eventCard, cardContainer) => {
         console.log(cardContainer);
         $(cardContainer).append(eventCard);
@@ -225,7 +222,7 @@ $(document).ready(function () {
       // 70 - 20km,
       // 63 - 20km 2019
       // 66 - Ekiden,
-      var events = [70, 66, 63];
+      var events = [70, 66];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
         fetchData(value, "#events-scroll .scrolling-wrapper");
