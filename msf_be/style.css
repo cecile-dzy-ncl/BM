@@ -596,8 +596,8 @@ section.section-projet-details .project_boutons_give {
 }
 
 #show_team {
-  background: #f3f5f0;
-  color: black;
+  background: black;
+  /* color: black; */
 }
 
 .block-share-container h4 span {
