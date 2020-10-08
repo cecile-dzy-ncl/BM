@@ -425,6 +425,10 @@ header.main-header {
   padding: 20px;
 }
 
+.card-event p {
+  font-size: 15px;
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
