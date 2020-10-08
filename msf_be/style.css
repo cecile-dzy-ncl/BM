@@ -394,6 +394,8 @@ header.main-header {
 
 .scrolling-wrapper .card {
   display: inline-block;
+  width: 30%;
+  box-shadow: var(--shadow);
 }
 
 /* ------ PANEL ------ */

@@ -136,19 +136,18 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
-      $("#events-block .scrolling-wrapper").html("");
-      // var eventsBloc = $("#events-block");
-      // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
+      $("#events-scroll .scrolling-wrapper").html("");
+      $("#events-scroll .scrolling-wrapper").html("");
+      $("#urgences-scroll .scrolling-wrapper").html("");
 
       const injectCard = (eventCard) => {
-        $("#events-block .scrolling-wrapper").append(eventCard);
+        $("#events-scroll .scrolling-wrapper").append(eventCard);
       };
 
       const buildCard = (event) => {
         console.log(event);
-        // console.log(event);
         const card = `
-        <div class="card-event">
+        <div class="card card-event">
         <img src="${event.banner_image}">
         <div>
         <div class="card-event-btns">
