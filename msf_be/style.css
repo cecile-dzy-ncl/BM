@@ -467,6 +467,16 @@ header.main-header {
   z-index: 99;
 }
 
+.event-progressbar,
+.event-progress-perc {
+  height: 20px;
+}
+
+.event-progressbar {
+  border-radius: 25px;
+  overflow: hidden;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
