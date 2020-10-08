@@ -513,6 +513,10 @@ header.main-header {
   background: #000000;
 }
 
+.row.project-detail-data.p2p-detail-data * {
+  color: white;
+}
+
 .section-projet-details .projet-head {
   background: white;
 }
@@ -593,6 +597,7 @@ section.section-projet-details .project_boutons_give {
 
 #show_team {
   background: #f3f5f0;
+  color: black;
 }
 
 .block-share-container h4 span {
