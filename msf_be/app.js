@@ -136,7 +136,7 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
-      const fetchData = () => {
+      const fetchData = (event) => {
         $.get(
           `https://events.msf-azg.be/api/events/1?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
@@ -145,7 +145,11 @@ $(document).ready(function () {
         );
       };
 
-      fetchData();
+      $.each(collectesEvents, function (key, value) {
+        console.log(key);
+        console.log(value);
+        // fetchData();
+      });
 
       // var starProjects = response.projects;
       // $.each(starProjects, function (key, value) {
