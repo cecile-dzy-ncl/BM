@@ -136,11 +136,15 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
+      const buildCard = (event) => {
+        console.log(event);
+      };
+
       const fetchData = (event) => {
         $.get(
           `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
-            console.log(response);
+            buildCard(response);
           }
         );
       };
