@@ -134,12 +134,11 @@ $(document).ready(function () {
     // Evènement Culturel
     var collectesEvents = [8, 10, 9, 11, 5];
     if ($("body").is("#indexs-index")) {
-      $("#collectes-scroll .scrolling-wrapper").html("");
-      $("#events-scroll .scrolling-wrapper").html("");
-      $("#urgences-scroll .scrolling-wrapper").html("");
+      // $("#events-scroll .scrolling-wrapper").html("");
+      // $("#urgences-scroll .scrolling-wrapper").html("");
 
-      const injectCard = (eventCard) => {
-        $("#collectes-scroll .scrolling-wrapper").append(eventCard);
+      const injectCard = (cardContainer, eventCard) => {
+        $(cardContainer).append(eventCard);
       };
 
       const buildCard = (event) => {
@@ -171,40 +170,39 @@ $(document).ready(function () {
           (projectAmountCollected / projectAmountExpected) * 100;
 
         const card = `
-        <div class="card card-event">
+          <div class="card card-event">
           <img src="${event.banner_image}">
           <div class="card-event-btns">
-            <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
-            <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
+          <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
+          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
           </div>
           <div class="card-event-details">
-            <h4>${event.title.fr}</h4>
-            <p>${event.description.fr}</p>
+          <h4>${event.title.fr}</h4>
+          <p>${event.description.fr}</p>
           <div>
           <div class='progress-bar bg-white'>
-            <div class='progress-perc bg-red' style='width: ${projectProgress}%'></div>
+          <div class='progress-perc bg-red' style='width: ${projectProgress}%'></div>
           </div> 
           <div class='d-flex justify-between'>
-            <div class='w-20'>
-              <h5 class='text-center'>${event.projects_count}</h5>
-              <p class='text-center'><small>collectés</small></p>
-            </div>
-            <div class='w-20'>
-              <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
-              <p class='text-center'><small>collectés</small></p>
-            </div>
-            <div class='w-20'>
-              <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
-              <p class='text-center'><small>attendus</small></p>
-            </div>
-            <div class='w-20'>
-              <h5 class='text-center'>${remaningDays}j</h5>
-              <p class='text-center'><small>restant</small></p>
-            </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${event.projects_count}</h5>
+          <p class='text-center'><small>collectés</small></p>
           </div>
-        </div>
-        `;
-        injectCard(card);
+          <div class='w-20'>
+          <h5 class='text-center'>${projectAmountCollectedFormatted}</h5>
+          <p class='text-center'><small>collectés</small></p>
+          </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${projectAmountExpectedFormatted}</h5>
+          <p class='text-center'><small>attendus</small></p>
+          </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${remaningDays}j</h5>
+          <p class='text-center'><small>restant</small></p>
+          </div>
+          </div>
+          </div>
+          `;
       };
 
       const fetchData = (event) => {
@@ -216,8 +214,22 @@ $(document).ready(function () {
         );
       };
 
+      $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value);
+        injectCard("#collectes-scroll .scrolling-wrapper");
+      });
+
+      $("#events-scroll .scrolling-wrapper").html("");
+      $.each(events, function (key, value) {
+        fetchData(value);
+        injectCard("#events-scroll .scrolling-wrapper");
+      });
+
+      $("#urgences-scroll .scrolling-wrapper").html("");
+      $.each(urgencesEvents, function (key, value) {
+        fetchData(value);
+        injectCard("#urgences-scroll .scrolling-wrapper");
       });
 
       // var starProjects = response.projects;
