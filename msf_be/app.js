@@ -231,6 +231,7 @@ $(document).ready(function () {
         // injectCard("#events-scroll .scrolling-wrapper");
       });
 
+      console.log("prout");
       //
       //
       //
