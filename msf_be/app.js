@@ -139,7 +139,7 @@ $(document).ready(function () {
       // var eventsBloc = $("#events-block");
       // eventsBloc.insertAdjacentHTML("beforeend", eventCard);
 
-      const injectCard = (eventContainer, eventCard) => {
+      const injectCard = (eventCard) => {
         $("#events-block .container-bm").append(eventCard);
       };
 
