@@ -154,7 +154,7 @@ $(document).ready(function () {
               <a href="" class="btn-bm bg-black white">Voir les collectes</a>
               <a href="" class="btn-bm bg-red white">Créer une collecte</a>
             </div>
-          <h4></h4>
+          <h4>${event.title.fr}</h4>
           <p>${event.description.fr}</p>
           <div></div>
           </div>
