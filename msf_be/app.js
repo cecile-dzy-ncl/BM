@@ -134,12 +134,12 @@ $(document).ready(function () {
     // Evènement Culturel
     var collectesEvents = [8, 10, 9, 11, 5];
     if ($("body").is("#indexs-index")) {
-      $("#collectes-scroll").html("");
-      $("#events-scroll").html("");
-      $("#urgences-scroll").html("");
+      $("#collectes-scroll .scrolling-wrapper").html("");
+      $("#events-scroll .scrolling-wrapper").html("");
+      $("#urgences-scroll .scrolling-wrapper").html("");
 
       const injectCard = (eventCard) => {
-        $("#collectes-scroll").append(eventCard);
+        $("#collectes-scroll .scrolling-wrapper").append(eventCard);
       };
 
       const buildCard = (event) => {
