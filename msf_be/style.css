@@ -399,13 +399,13 @@ header.main-header {
 .scrolling-wrapper .card {
   flex: 0 0 auto;
   width: 30%;
-  margin: 0 20px 20px;
+  margin: 0 20px 20px 0;
   box-shadow: var(--shadow);
 }
 
 .card-event img {
   width: 100%;
-  height: 484px;
+  height: 200px;
   object-fit: cover;
 }
 
