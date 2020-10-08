@@ -131,6 +131,7 @@ $(document).ready(function () {
       // $("#urgences-scroll .scrolling-wrapper").html("");
 
       const injectCard = (cardContainer, eventCard) => {
+        console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
 
