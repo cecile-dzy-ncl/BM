@@ -159,7 +159,7 @@ $(document).ready(function () {
         }).format(projectAmountExpected);
         var projectEndDate = new Date(event.end);
         var today = new Date();
-        if (projectEndDate) {
+        if (projectEndDate != null) {
           var remaningDays = Math.ceil(
             (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
