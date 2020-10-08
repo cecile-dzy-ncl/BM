@@ -408,7 +408,7 @@ header.main-header {
   margin-bottom: 50px;
 }
 
-#events-block h1 {
+#events-block h3 {
   text-transform: uppercase;
   color: var(--grey) !important;
 }
