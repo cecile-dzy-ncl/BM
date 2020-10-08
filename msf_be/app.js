@@ -136,8 +136,29 @@ $(document).ready(function () {
     if ($("body").is("#indexs-index")) {
       console.log("on est bien sur la home");
 
+      var eventsBloc = $("#events-block");
+
+      const injectCard = (eventCard) => {
+        eventsBloc.insertAdjacentHTML("beforeend", "eventCard");
+      };
+
       const buildCard = (event) => {
         console.log(event);
+        // console.log(event);
+        const card = `
+        <div class="card-event">
+          <img src="">
+          <div>
+            <div class="card-event-btns">
+              <a href="" class="btn-bm bg-black white">Voir les collectes</a>
+              <a href="" class="btn-bm bg-red white">Créer une collecte</a>
+            </div>
+          
+          </div>
+          <div></div>
+        </div>
+        `;
+        injectCard(card);
       };
 
       const fetchData = (event) => {
