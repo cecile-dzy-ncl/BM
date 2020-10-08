@@ -508,7 +508,8 @@ header.main-header {
 
 /* PAGE DE COLLECTE */
 
-#projects-show .bg-secondary-color-blurred {
+#projects-show .bg-secondary-color-blurred,
+#projects-show .projet-head + .bg-color-light {
   background: #000000;
 }
 
