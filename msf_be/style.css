@@ -465,11 +465,14 @@ header.main-header {
 .card-event p {
   font-size: 15px;
   line-height: 18px;
-  margin: 10px 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+}
+
+.card-event-details > p {
+  margin: 10px 0;
 }
 
 .card-event h5 {
