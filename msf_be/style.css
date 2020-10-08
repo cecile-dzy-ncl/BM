@@ -444,6 +444,10 @@ header.main-header {
   overflow: hidden;
 }
 
+.card-event h5 {
+  font-size: 16px;
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
