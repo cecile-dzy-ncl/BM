@@ -394,6 +394,14 @@ header.main-header {
   flex-grow: 1;
 }
 
+#events-block {
+  padding-top: 50px;
+}
+
+#events-block h1 {
+  margin-bottom: 50px;
+}
+
 .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
