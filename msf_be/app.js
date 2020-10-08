@@ -144,25 +144,29 @@ $(document).ready(function () {
 
       const buildCard = (event) => {
         console.log(event);
-        var projectAmountCollected = parseInt(value.current_amount, 10) / 100;
+        var projectAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var projectAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
           minimumFractionDigits: 0,
           style: "currency",
           currency: "EUR",
         }).format(projectAmountCollected);
-        var projectAmountExpected = parseInt(value.desired_amount, 10) / 100;
+        var projectAmountExpected = parseInt(event.expected_amount, 10) / 100;
         var projectAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
           minimumFractionDigits: 0,
           style: "currency",
           currency: "EUR",
         }).format(projectAmountExpected);
-        var projectEndDate = new Date(value.end);
+        var projectEndDate = new Date(event.end);
         var today = new Date();
-        var remaningDays = Math.ceil(
-          (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-        );
+        if (projectEndDate) {
+          var remaningDays = Math.ceil(
+            (projectEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+          );
+        } else {
+          var remaningDays = "Pas de date de fin";
+        }
         var projectProgress =
           (projectAmountCollected / projectAmountExpected) * 100;
 
