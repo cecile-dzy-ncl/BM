@@ -217,7 +217,7 @@ $(document).ready(function () {
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value);
-        injectCard("#collectes-scroll .scrolling-wrapper");
+        console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
       });
 
       // 70 - 20km,
