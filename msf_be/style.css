@@ -398,7 +398,14 @@ header.main-header {
 .scrolling-wrapper .card {
   flex: 0 0 auto;
   width: 30%;
+  margin: 0 20px 20px;
   box-shadow: var(--shadow);
+}
+
+.card-event-btns {
+  display: flex;
+  width: 90%;
+  margin: -40px auto 5px;
 }
 
 /* ------ PANEL ------ */
