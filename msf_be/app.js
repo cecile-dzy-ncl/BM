@@ -148,9 +148,9 @@ $(document).ready(function () {
           style: "currency",
           currency: "EUR",
         }).format(eventAmountExpected);
-        var eventEndDate = new Date(event.end);
         var today = new Date();
         if (eventEndDate != null) {
+          var eventEndDate = new Date(event.end);
           var remainingDays = Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
@@ -158,6 +158,13 @@ $(document).ready(function () {
           var remainingDays = "Pas de date de fin";
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
+
+        const daysColumn = 
+        if (condition) {
+          
+        }`
+        
+        `;
 
         const card = `
           <div class="card card-event">
