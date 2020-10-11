@@ -111,14 +111,16 @@ $(document).ready(function () {
             Number.parseInt(response.expected_amount, 10) / 100;
 
           // $(".event-recap_numbers").html(eventProjectsNb);
-          $(".amount_collected .stat-nb span").html(
-            new Intl.NumberFormat("fr-FR", {
-              maximumFractionDigits: 0,
-              minimumFractionDigits: 0,
-              style: "currency",
-              currency: "EUR",
-            }).format(eventAmountCollected)
-          );
+          // $(".amount_collected .stat-nb span").html(
+          //   new Intl.NumberFormat("fr-FR", {
+          //     maximumFractionDigits: 0,
+          //     minimumFractionDigits: 0,
+          //     style: "currency",
+          //     currency: "EUR",
+          //   }).format(eventAmountCollected)
+          // );
+
+          $(".event-recap_progress").after($("#widget-new-project"));
 
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
@@ -159,7 +161,6 @@ $(document).ready(function () {
   //   });
   // }
 
-  // EVENT STARS S'ENGAGENT
   $(function () {
     if ($("body").is("#indexs-index")) {
       const injectCard = (eventCard, cardContainer) => {
