@@ -733,7 +733,8 @@ section.event-head {
   margin-bottom: 25px;
 }
 
-.event-recap_numbers {
+.event-recap_numbers,
+.event-inscription {
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
