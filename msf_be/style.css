@@ -733,9 +733,9 @@ section.event-head,
   color: var(--grey);
 }
 
-.event-recap .collecte h5 {
+/* .event-recap .collecte h5 {
   color: var(--red);
-}
+} */
 
 .event-recap_share h4 span {
   color: #bbbbbb;
