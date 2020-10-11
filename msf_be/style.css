@@ -693,6 +693,10 @@ section#project_tabs + section .row {
   padding: 8px;
 }
 
+.event-recap_share span {
+  color: #bbbbbb;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
