@@ -65,6 +65,8 @@ $(document).ready(function () {
   $(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
+      var lang = $("html").attr("lang");
+
       $("section.event-head > .row > div:last-child").prepend(
         `
         <div class='event-recap'>
@@ -103,6 +105,9 @@ $(document).ready(function () {
         `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
         function (response) {
           console.log(response);
+
+          $(".intro-my-event").prepend(response.title.lang);
+
           var eventProjectsNb = response.projects_count;
           $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
 
