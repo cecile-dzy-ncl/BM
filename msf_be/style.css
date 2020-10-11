@@ -691,6 +691,8 @@ section#project_tabs + section .row {
   box-shadow: var(--shadow);
   border-radius: 5px;
   padding: 20px;
+  margin-top: -30px;
+  background: white;
 }
 
 .event-recap_share h4 span {
