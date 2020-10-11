@@ -92,7 +92,7 @@ $(document).ready(function () {
       $(".event-recap_share").html($(".block-share-container"));
 
       var eventId = $("#events-show")[0]
-        .classList.value.match(/event_\d/g)[0]
+        .classList.value.match(/event_\d+/g)[0]
         .split("_")[1];
       console.log(eventId);
 
