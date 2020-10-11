@@ -302,7 +302,7 @@ $(document).ready(function () {
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
         fetchData(value);
-        injectCard("#urgences-scroll .scrolling-wrapper");
+        injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
     }
   });
