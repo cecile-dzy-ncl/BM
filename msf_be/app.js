@@ -124,17 +124,20 @@ $(document).ready(function () {
           if (response.end != null) {
             var eventEndDate = new Date(response.end);
             if (eventEndDate < today) {
-              console.log("date passée");
+              var remainingDays = 0;
+              var remainingDaysLegend = "terminé";
+            } else {
+              var remainingDays = Math.ceil(
+                (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+              );
+              var remainingDaysLegend = "restants";
             }
-            var remainingDays = Math.ceil(
-              (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-            );
 
             $(".event-recap .recolte").after(
               `
                 <div class='w-25 days border-left'>
                   <h5 class='text-center'>${remainingDays}j</h5>
-                  <p class='text-center uppercase'><small>restant</small></p>
+                  <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
                 </div>
               `
             );
