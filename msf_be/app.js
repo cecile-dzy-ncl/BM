@@ -73,11 +73,11 @@ $(document).ready(function () {
           <h5 class='text-center'></h5>
           <p class='text-center uppercase'><small>collectes</small></p>
           </div>
-          <div class='w-50 recolte border-right'>
+          <div class='w-50 recolte flex-grow-1'>
           <h5 class='text-center'></h5>
           <p class='text-center uppercase'><small>recoltés</small></p>
           </div>
-          <div class='w-25 days'>
+          <div class='w-25 days border-left'>
           <h5 class='text-center'>j</h5>
           <p class='text-center uppercase'><small>restant</small></p>
           </div>
