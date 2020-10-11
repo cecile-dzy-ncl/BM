@@ -756,6 +756,9 @@ img.project-thumbnails {
   box-shadow: var(--shadow);
 }
 
+.projects-list .panel .caption .truncate_html {
+  display: none;
+}
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
