@@ -73,45 +73,45 @@ $(document).ready(function () {
         `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
         function (response) {
           console.log(response);
-          //         var eventProjectsNb = response.projects_count;
-          //         var eventAmountCollected =
-          //           Number.parseInt(response.amount_collected, 10) / 100;
-          //         var eventAmountExpected =
-          //           Number.parseInt(response.expected_amount, 10) / 100;
-          //         console.log("eventAmountCollected");
-          //         console.log(eventAmountCollected);
+          var eventProjectsNb = response.projects_count;
+          var eventAmountCollected =
+            Number.parseInt(response.amount_collected, 10) / 100;
+          var eventAmountExpected =
+            Number.parseInt(response.expected_amount, 10) / 100;
+          console.log("eventAmountCollected");
+          console.log(eventAmountCollected);
 
-          //         $(".projects_count .stat-nb span").html(eventProjectsNb);
-          //         $(".amount_collected .stat-nb span").html(
-          //           new Intl.NumberFormat("fr-FR", {
-          //             maximumFractionDigits: 0,
-          //             minimumFractionDigits: 0,
-          //             style: "currency",
-          //             currency: "EUR",
-          //           }).format(eventAmountCollected)
-          //         );
-          //         if (response.expected_amount != null) {
-          //           var eventProgress = Math.round(
-          //             (eventAmountCollected / eventAmountExpected) * 100
-          //           );
-          //           console.log("eventProgress", eventProgress);
-          //           var eventProgressBar = `
-          //         <div class="container-xs-bm mt-50">
-          //           <div class="event-progressbar bg-mediumgrey mb-20">
-          //             <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
-          //           </div>
-          //           <div class="d-flex justify-between">
-          //             <p>${eventProgress}%</p>
-          //             <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
-          //               maximumFractionDigits: 0,
-          //               minimumFractionDigits: 0,
-          //               style: "currency",
-          //               currency: "EUR",
-          //             }).format(eventAmountExpected)}</p>
-          //           </div>
-          //         </div>`;
-          //           $(".event-stats").after(eventProgressBar);
-          //         }
+          $(".projects_count .stat-nb span").html(eventProjectsNb);
+          $(".amount_collected .stat-nb span").html(
+            new Intl.NumberFormat("fr-FR", {
+              maximumFractionDigits: 0,
+              minimumFractionDigits: 0,
+              style: "currency",
+              currency: "EUR",
+            }).format(eventAmountCollected)
+          );
+          if (response.expected_amount != null) {
+            var eventProgress = Math.round(
+              (eventAmountCollected / eventAmountExpected) * 100
+            );
+            console.log("eventProgress", eventProgress);
+            var eventProgressBar = `
+              <div class="container-xs-bm mt-50">
+                <div class="event-progressbar bg-mediumgrey mb-20">
+                  <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
+                </div>
+                <div class="d-flex justify-between">
+                  <p>${eventProgress}%</p>
+                  <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
+                    maximumFractionDigits: 0,
+                    minimumFractionDigits: 0,
+                    style: "currency",
+                    currency: "EUR",
+                  }).format(eventAmountExpected)}</p>
+                </div>
+              </div>`;
+            $(".event-recap").after(eventProgressBar);
+          }
         }
       );
     }
