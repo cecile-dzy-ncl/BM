@@ -121,7 +121,7 @@ $(document).ready(function () {
 
           var today = new Date();
 
-          if (eventEndDate != null) {
+          if (response.end != null) {
             var eventEndDate = new Date(response.end);
             var remainingDays = Math.ceil(
               (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
