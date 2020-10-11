@@ -57,7 +57,9 @@ $(document).ready(function () {
   $(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
-      $("section.event-head > .row > div:last-child").prepend("<div class='event-recap'>prout</div>")
+      $("section.event-head > .row > div:last-child").prepend(
+        "<div class='event-recap'>prout</div>"
+      );
       // $("#events-show .habillage").prepend(
       //   '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
       // );
@@ -67,52 +69,52 @@ $(document).ready(function () {
         .split("_")[1];
       console.log(eventId);
 
-  //     $.get(
-  //       `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
-  //       function (response) {
-  //         console.log(response);
-  //         var eventProjectsNb = response.projects_count;
-  //         var eventAmountCollected =
-  //           Number.parseInt(response.amount_collected, 10) / 100;
-  //         var eventAmountExpected =
-  //           Number.parseInt(response.expected_amount, 10) / 100;
-  //         console.log("eventAmountCollected");
-  //         console.log(eventAmountCollected);
+      //     $.get(
+      //       `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
+      //       function (response) {
+      //         console.log(response);
+      //         var eventProjectsNb = response.projects_count;
+      //         var eventAmountCollected =
+      //           Number.parseInt(response.amount_collected, 10) / 100;
+      //         var eventAmountExpected =
+      //           Number.parseInt(response.expected_amount, 10) / 100;
+      //         console.log("eventAmountCollected");
+      //         console.log(eventAmountCollected);
 
-  //         $(".projects_count .stat-nb span").html(eventProjectsNb);
-  //         $(".amount_collected .stat-nb span").html(
-  //           new Intl.NumberFormat("fr-FR", {
-  //             maximumFractionDigits: 0,
-  //             minimumFractionDigits: 0,
-  //             style: "currency",
-  //             currency: "EUR",
-  //           }).format(eventAmountCollected)
-  //         );
-  //         if (response.expected_amount != null) {
-  //           var eventProgress = Math.round(
-  //             (eventAmountCollected / eventAmountExpected) * 100
-  //           );
-  //           console.log("eventProgress", eventProgress);
-  //           var eventProgressBar = `
-  //         <div class="container-xs-bm mt-50">
-  //           <div class="event-progressbar bg-mediumgrey mb-20">
-  //             <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
-  //           </div>
-  //           <div class="d-flex justify-between">
-  //             <p>${eventProgress}%</p>
-  //             <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
-  //               maximumFractionDigits: 0,
-  //               minimumFractionDigits: 0,
-  //               style: "currency",
-  //               currency: "EUR",
-  //             }).format(eventAmountExpected)}</p>
-  //           </div>
-  //         </div>`;
-  //           $(".event-stats").after(eventProgressBar);
-  //         }
-  //       }
-  //     );
-  //   }
+      //         $(".projects_count .stat-nb span").html(eventProjectsNb);
+      //         $(".amount_collected .stat-nb span").html(
+      //           new Intl.NumberFormat("fr-FR", {
+      //             maximumFractionDigits: 0,
+      //             minimumFractionDigits: 0,
+      //             style: "currency",
+      //             currency: "EUR",
+      //           }).format(eventAmountCollected)
+      //         );
+      //         if (response.expected_amount != null) {
+      //           var eventProgress = Math.round(
+      //             (eventAmountCollected / eventAmountExpected) * 100
+      //           );
+      //           console.log("eventProgress", eventProgress);
+      //           var eventProgressBar = `
+      //         <div class="container-xs-bm mt-50">
+      //           <div class="event-progressbar bg-mediumgrey mb-20">
+      //             <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
+      //           </div>
+      //           <div class="d-flex justify-between">
+      //             <p>${eventProgress}%</p>
+      //             <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
+      //               maximumFractionDigits: 0,
+      //               minimumFractionDigits: 0,
+      //               style: "currency",
+      //               currency: "EUR",
+      //             }).format(eventAmountExpected)}</p>
+      //           </div>
+      //         </div>`;
+      //           $(".event-stats").after(eventProgressBar);
+      //         }
+      //       }
+      //     );
+    }
   });
 
   // if ($(".graph-bar")) {
