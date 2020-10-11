@@ -60,7 +60,20 @@ $(document).ready(function () {
       $("section.event-head > .row > div:last-child").prepend(
         `
         <div class='event-recap'>
-          <div class='event-recap_numbers'></div>
+          <div class='event-recap_numbers'>
+          <div class='w-30 collecte'>
+          <h5 class='text-center'></h5>
+          <p class='text-center uppercase'><small>collectes</small></p>
+          </div>
+          <div class='w-30 recolte'>
+          <h5 class='text-center'></h5>
+          <p class='text-center uppercase'><small>recoltés</small></p>
+          </div>
+          <div class='w-30 days'>
+          <h5 class='text-center'>j</h5>
+          <p class='text-center uppercase'><small>restant</small></p>
+          </div>
+          </div>
           <div class='event-recap_progress'></div>
           <div class='event-recap_action'><a class="btn-bm bg-red white uppercase w-100 " href="/projects/new?event_id=9">Créer ma page de collecte</a>
           </div>
@@ -69,6 +82,7 @@ $(document).ready(function () {
         `
       );
 
+      $(".event-recap_numbers .collecte h5").html($(".current-amount"));
       $(".event-recap_share").html($(".block-share-container"));
 
       var eventId = $("#events-show")[0]
@@ -87,7 +101,7 @@ $(document).ready(function () {
             Number.parseInt(response.expected_amount, 10) / 100;
           console.log("eventAmountCollected", eventAmountCollected);
 
-          $(".event-recap_numbers").html(eventProjectsNb);
+          // $(".event-recap_numbers").html(eventProjectsNb);
           $(".amount_collected .stat-nb span").html(
             new Intl.NumberFormat("fr-FR", {
               maximumFractionDigits: 0,
@@ -97,15 +111,15 @@ $(document).ready(function () {
             }).format(eventAmountCollected)
           );
           var eventNb = `
-          <div class='w-20'>
+          <div class='w-20 collecte'>
           <h5 class='text-center'>${eventProjectsNb}</h5>
           <p class='text-center uppercase'><small>collectes</small></p>
           </div>
-          <div class='w-20'>
+          <div class='w-20 recolte'>
           <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center uppercase'><small>recoltés</small></p>
           </div>
-          <div class='w-20'>
+          <div class='w-20 days'>
           <h5 class='text-center'>${remainingDays}j</h5>
           <p class='text-center uppercase'><small>restant</small></p>
           </div>`;
