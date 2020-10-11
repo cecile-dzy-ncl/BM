@@ -298,12 +298,12 @@ $(document).ready(function () {
       });
 
       //
-      // var urgencesEvents = [];
-      // $("#urgences-scroll .scrolling-wrapper").html("");
-      // $.each(urgencesEvents, function (key, value) {
-      //   fetchData(value);
-      //   injectCard("#urgences-scroll .scrolling-wrapper");
-      // });
+      var urgencesEvents = [79];
+      $("#urgences-scroll .scrolling-wrapper").html("");
+      $.each(urgencesEvents, function (key, value) {
+        fetchData(value);
+        injectCard("#urgences-scroll .scrolling-wrapper");
+      });
     }
   });
 
