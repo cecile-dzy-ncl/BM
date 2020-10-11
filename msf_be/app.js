@@ -224,7 +224,7 @@ $(document).ready(function () {
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
         } else {
-          var remainingDays = "Pas de date de fin";
+          var remainingDays = "0";
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
