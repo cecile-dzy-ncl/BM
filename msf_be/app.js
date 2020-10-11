@@ -83,8 +83,6 @@ $(document).ready(function () {
           </div>
           </div>
           <div class='event-recap_progress'></div>
-          <div class='event-recap_action'><a class="btn-bm bg-red white uppercase w-100 " href="/projects/new?event_id=9">Créer ma page de collecte</a>
-          </div>
           <div class='event-recap_share'></div>
         </div>
         `
@@ -121,6 +119,9 @@ $(document).ready(function () {
           // );
 
           $(".event-recap_progress").after($("#widget-new-project"));
+          $("#widget-new-project").addClass(
+            "btn-bm bg-red white uppercase w-100"
+          );
 
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
