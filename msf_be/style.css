@@ -60,6 +60,10 @@
   background-color: var(--grey) !important;
 }
 
+.lightgrey {
+  color: var(--lightgrey) !important;
+}
+
 .bg-lightgrey {
   background-color: var(--lightgrey) !important;
 }
@@ -698,6 +702,11 @@ section#project_tabs + section .row {
 
 .event-recap_share h4 span {
   color: #bbbbbb;
+}
+
+.event-recap_progress p {
+  font-size: 14px;
+  font-family: "DINPro_bold";
 }
 
 .event-recap_share h4 span:before,

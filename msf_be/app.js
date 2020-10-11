@@ -107,13 +107,16 @@ $(document).ready(function () {
                 <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
               </div>
               <div class="d-flex justify-between">
-                <p class="uppercase"><strong>${eventProgress}% collectés</strong></p>
-                <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
-                  maximumFractionDigits: 0,
-                  minimumFractionDigits: 0,
-                  style: "currency",
-                  currency: "EUR",
-                }).format(eventAmountExpected)}</p>
+                <p class="uppercase">${eventProgress}% collectés</p>
+                <p class="uppercase lightgrey">Objectif: ${new Intl.NumberFormat(
+                  "fr-FR",
+                  {
+                    maximumFractionDigits: 0,
+                    minimumFractionDigits: 0,
+                    style: "currency",
+                    currency: "EUR",
+                  }
+                ).format(eventAmountExpected)}</p>
               </div>`;
             $(".event-recap_progress").html(eventProgressBar);
           }
