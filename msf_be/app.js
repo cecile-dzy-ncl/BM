@@ -70,7 +70,7 @@ $(document).ready(function () {
       console.log(eventId);
 
       $.get(
-        `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
+        `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
         function (response) {
           console.log(response);
           //         var eventProjectsNb = response.projects_count;
