@@ -62,7 +62,7 @@ $(document).ready(function () {
         <div class='event-recap'>
           <div class='event-recap_numbers'></div>
           <div class='event-recap_progress'></div>
-          <div class='event-recap_action'><a class="button uppercase w-100" href="/projects/new?event_id=9">Créer ma page de collecte</a>
+          <div class='event-recap_action'><a class="btn-bm bg-red white uppercase w-100 " href="/projects/new?event_id=9">Créer ma page de collecte</a>
           </div>
           <div class='event-recap_share'></div>
         </div>
