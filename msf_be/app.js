@@ -123,6 +123,9 @@ $(document).ready(function () {
 
           if (response.end != null) {
             var eventEndDate = new Date(response.end);
+            if (eventEndDate < response.end) {
+              console.log("date passée");
+            }
             var remainingDays = Math.ceil(
               (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
             );
