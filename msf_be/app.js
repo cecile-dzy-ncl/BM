@@ -97,8 +97,8 @@ $(document).ready(function () {
             console.log("eventProgress", eventProgress);
             var eventProgressBar = `
               <div class="container-xs-bm mt-50">
-                <div class="event-progressbar bg-mediumgrey mb-20">
-                  <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
+                <div class="event-progressbar bg-lightgrey mb-20">
+                  <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
                 </div>
                 <div class="d-flex justify-between">
                   <p>${eventProgress}%</p>
