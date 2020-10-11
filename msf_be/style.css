@@ -756,6 +756,16 @@ img.project-thumbnails {
   box-shadow: var(--shadow);
 }
 
+.projects-list .panel h3 {
+  font-family: "DINPro_bold";
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.projects-list .panel h3 a {
+  color: var(--grey);
+}
+
 .projects-list .panel .caption .truncate_html {
   display: none;
 }
