@@ -96,6 +96,9 @@ $(document).ready(function () {
         .split("_")[1];
       console.log(eventId);
 
+      if (eventId === "78") {
+        console.log("urgence");
+      }
       $.get(
         `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
         function (response) {
@@ -296,7 +299,6 @@ $(document).ready(function () {
         // injectCard("#events-scroll .scrolling-wrapper");
       });
 
-      console.log("prout");
       //
       //
       //
