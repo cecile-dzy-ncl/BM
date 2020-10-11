@@ -123,7 +123,7 @@ $(document).ready(function () {
 
           if (response.end != null) {
             var eventEndDate = new Date(response.end);
-            if (eventEndDate < response.end) {
+            if (eventEndDate < today) {
               console.log("date passée");
             }
             var remainingDays = Math.ceil(
