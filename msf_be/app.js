@@ -78,8 +78,7 @@ $(document).ready(function () {
             Number.parseInt(response.amount_collected, 10) / 100;
           var eventAmountExpected =
             Number.parseInt(response.expected_amount, 10) / 100;
-          console.log("eventAmountCollected");
-          console.log(eventAmountCollected);
+          console.log("eventAmountCollected", eventAmountCollected);
 
           $(".projects_count .stat-nb span").html(eventProjectsNb);
           $(".amount_collected .stat-nb span").html(
@@ -110,7 +109,7 @@ $(document).ready(function () {
                   }).format(eventAmountExpected)}</p>
                 </div>
               </div>`;
-            $(".event-recap").after(eventProgressBar);
+            $(".event-recap").append(eventProgressBar);
           }
         }
       );
