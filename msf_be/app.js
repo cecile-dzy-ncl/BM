@@ -228,13 +228,6 @@ $(document).ready(function () {
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
-        // const daysColumn =
-        // if (condition) {
-
-        // }`
-
-        // `;
-
         const card = `
           <div class="card card-event">
           <img src="${event.banner_image}">
