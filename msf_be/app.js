@@ -106,7 +106,7 @@ $(document).ready(function () {
         function (response) {
           console.log(response);
 
-          $(".intro-my-event").before(`<h2>${response.title}</h2>`);
+          $(".intro-my-event").before(`<h2>${response.title.fr}</h2>`);
 
           var eventProjectsNb = response.projects_count;
           $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
