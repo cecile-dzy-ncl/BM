@@ -82,7 +82,7 @@ $(document).ready(function () {
         `
       );
 
-      $(".event-recap_numbers .recolte h5").html($(".current-amount"));
+      $(".event-recap_numbers .recolte h5").html($(".current-amount").html());
       $(".event-recap_share").html($(".block-share-container"));
 
       var eventId = $("#events-show")[0]
