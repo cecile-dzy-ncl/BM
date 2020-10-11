@@ -46,6 +46,7 @@
 
 :root {
   --lightgrey: #e2e2e2;
+  --mediumgrey: #9b9b9b;
   --grey: #3c4150;
   --red: #ee0000;
   --shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
@@ -58,6 +59,14 @@
 
 .bg-grey {
   background-color: var(--grey) !important;
+}
+
+.grey {
+  color: var(--mediumgrey);
+}
+
+.bg-grey {
+  background-color: var(--mediumgrey);
 }
 
 .lightgrey {
