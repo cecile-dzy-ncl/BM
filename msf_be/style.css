@@ -745,6 +745,17 @@ section.event-head,
 .event-recap_share h4 span:after {
   display: none;
 }
+
+img.project-thumbnails {
+  width: 100%;
+  object-fit: cover;
+}
+
+.projects-list .panel {
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
