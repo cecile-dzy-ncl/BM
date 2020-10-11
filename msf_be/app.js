@@ -44,6 +44,10 @@ $(document).ready(function () {
     "small-12 medium-push-6 medium-pull-6 medium-6 large-reset-order large-6 columns"
   );
 
+  $(".section-my-event > .row > .small-12.medium-9.columns")
+    .removeClass("medium-9")
+    .addClass("medium-12");
+
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
