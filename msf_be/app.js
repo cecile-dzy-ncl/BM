@@ -48,6 +48,12 @@ $(document).ready(function () {
     .removeClass("medium-9")
     .addClass("medium-12");
 
+  $(".section-my-event > .medium-11.medium-offset-1")
+    .removeClass("medium-11 medium-offset-1")
+    .addClass("medium-12");
+
+
+    small-12 medium-11 medium-offset-1 columns
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
