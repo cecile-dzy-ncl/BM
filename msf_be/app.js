@@ -84,6 +84,10 @@ $(document).ready(function () {
         `
       );
 
+      if ($(".event-inscription")) {
+        $(".event-recap .recolte").after($(".event-inscription"));
+      }
+
       $(".event-recap_numbers .recolte h5").html($(".current-amount").html());
       $(".event-recap_share").html($(".block-share-container"));
 
