@@ -686,6 +686,13 @@ section#project_tabs + section .row {
   display: none;
 }
 
+.event-recap {
+  width: 80%;
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+  padding: 5px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
