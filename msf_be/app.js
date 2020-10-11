@@ -77,10 +77,6 @@ $(document).ready(function () {
           <h5 class='text-center'></h5>
           <p class='text-center uppercase'><small>recoltés</small></p>
           </div>
-          <div class='w-25 days border-left'>
-          <h5 class='text-center'>j</h5>
-          <p class='text-center uppercase'><small>restant</small></p>
-          </div>
           </div>
           <div class='event-recap_progress'></div>
           <div class='event-recap_share'></div>
@@ -122,6 +118,24 @@ $(document).ready(function () {
           $("#widget-new-project a").addClass(
             "btn-bm bg-red white uppercase w-100"
           );
+
+          var today = new Date();
+
+          if (eventEndDate != null) {
+            var eventEndDate = new Date(response.end);
+            var remainingDays = Math.ceil(
+              (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            );
+
+            $(".event-recap .recolte").after(
+              `
+                <div class='w-25 days border-left'>
+                  <h5 class='text-center'>${remainingDays}j</h5>
+                  <p class='text-center uppercase'><small>restant</small></p>
+                </div>
+              `
+            );
+          }
 
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
@@ -185,7 +199,7 @@ $(document).ready(function () {
           style: "currency",
           currency: "EUR",
         }).format(eventAmountExpected);
-        var today = new Date();
+        // var today = new Date();
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
           var remainingDays = Math.ceil(
