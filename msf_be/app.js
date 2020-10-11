@@ -54,16 +54,18 @@ $(document).ready(function () {
   //   "<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>"
   // ).prependTo("footer .top-bar-section ul.left ul.center");
 
-  // $(function () {
-  //   if ($("body").is("#events-show")) {
-  //     // ajout du bloc stats en début de page
-  //     $("#events-show .habillage").prepend(
-  //       '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
-  //     );
+  $(function () {
+    if ($("body").is("#events-show")) {
+      // ajout du bloc stats en début de page
+      $("section.event-head > .row > div:last-child").prepend("<div class='event-recap'>prout</div>")
+      // $("#events-show .habillage").prepend(
+      //   '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
+      // );
 
-  //     var eventId = $("#events-show")[0]
-  //       .classList.value.match(/event_\d/g)[0]
-  //       .split("_")[1];
+      var eventId = $("#events-show")[0]
+        .classList.value.match(/event_\d/g)[0]
+        .split("_")[1];
+      console.log(eventId);
 
   //     $.get(
   //       `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
@@ -111,7 +113,7 @@ $(document).ready(function () {
   //       }
   //     );
   //   }
-  // });
+  });
 
   // if ($(".graph-bar")) {
   //   console.log($(".graph-bar"));

@@ -676,6 +676,16 @@ section#project_tabs + section .row {
   padding-top: 50px;
 }
 
+/* ------ PAGE EVENT ------ */
+
+#events-show .event-head .bg-secondary-color-blurred {
+  background: white;
+}
+
+#events-show .first-section > .small-12.medium-3.columns {
+  display: none;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {

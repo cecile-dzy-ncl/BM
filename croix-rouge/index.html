@@ -2403,10 +2403,60 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       var GE = $("svg #GE");
+      var IDF = $("svg #IDF");
+      var HDF = $("svg #HDF");
+      var NORM = $("svg #NORM");
+      var BRZH = $("svg #BRZH");
+      var LA = $("svg #LA");
+      var CORSE = $("svg #CORSE");
+      var NA = $("svg #NA");
+      var OCC = $("svg #OCC");
+      var PL = $("svg #PL");
+      var PACA = $("svg #PACA");
+      var BFC = $("svg #BFC");
       console.log(GE);
       GE.click(function () {
         console.log("tu as selectionné la région grand est!");
+        hahahahah;
       });
     </script>
+    <div id="project-search">
+      <div>
+        <h3>Nos projets par région</h3>
+        <p>
+          Cliquez sur une région pour découvrir et soutenir les projets en cours
+          dans cette région.
+        </p>
+      </div>
+      <div>
+        <h3>Nos projets par catégorie</h3>
+        <p>
+          Cliquez sur une catégorie pour découvrir et soutenir les projets en
+          cours autour de cette thématique.
+        </p>
+        <div id="project-categories">
+          <div class="project-cat">
+            <img src="#" alt="img" />
+            <h4>Enfants et familles</h4>
+            <a
+              href="https://donner.croix-rouge.fr/crowdfunding/home_Crowdfunding/projects/"
+              class="iss-button iss-button--rounded"
+              >></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <a
+      href="https://donner.croix-rouge.fr/crowdfunding/home_Crowdfunding/projects/"
+      class="iss-button iss-button--rounded"
+      >Voir tous les projets</a
+    >
+    <style>
+      #project-search {
+        display: flex;
+        flex: 1 1 auto;
+      }
+    </style>
   </body>
 </html>
