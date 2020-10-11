@@ -729,7 +729,8 @@ section.event-head {
 }
 
 .event-recap_numbers,
-.event-recap_progress {
+.event-recap_progress,
+.event-inscription {
   margin-bottom: 25px;
 }
 
