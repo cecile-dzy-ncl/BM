@@ -61,11 +61,11 @@
   background-color: var(--grey) !important;
 }
 
-.grey {
+.mediumgrey {
   color: var(--mediumgrey);
 }
 
-.bg-grey {
+.bg-mediumgrey {
   background-color: var(--mediumgrey);
 }
 
