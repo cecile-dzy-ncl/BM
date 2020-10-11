@@ -736,7 +736,7 @@ section.event-head {
 .event-recap_numbers {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .event-recap h5 {

@@ -69,11 +69,11 @@ $(document).ready(function () {
         `
         <div class='event-recap'>
           <div class='event-recap_numbers'>
-          <div class='w-30 collecte'>
+          <div class='w-30 collecte borderr-right'>
           <h5 class='text-center'></h5>
           <p class='text-center uppercase'><small>collectes</small></p>
           </div>
-          <div class='w-30 recolte'>
+          <div class='w-30 recolte borderr-right'>
           <h5 class='text-center'></h5>
           <p class='text-center uppercase'><small>recoltés</small></p>
           </div>
