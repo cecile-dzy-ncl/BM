@@ -96,7 +96,7 @@ $(document).ready(function () {
         .split("_")[1];
       console.log(eventId);
 
-      if (eventId === "78") {
+      if (eventId === "79") {
         console.log("urgence");
       }
       $.get(
