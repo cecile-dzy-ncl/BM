@@ -96,6 +96,21 @@ $(document).ready(function () {
               currency: "EUR",
             }).format(eventAmountCollected)
           );
+          var eventNb = `
+          <div class='w-20'>
+          <h5 class='text-center'>${eventProjectsNb}</h5>
+          <p class='text-center uppercase'><small>collectes</small></p>
+          </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+          <p class='text-center uppercase'><small>recoltés</small></p>
+          </div>
+          <div class='w-20'>
+          <h5 class='text-center'>${remainingDays}j</h5>
+          <p class='text-center uppercase'><small>restant</small></p>
+          </div>`;
+
+          $(".event-recap_numbers").html(eventNb);
 
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
