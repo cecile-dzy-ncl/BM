@@ -108,7 +108,7 @@ $(document).ready(function () {
               </div>
               <div class="d-flex justify-between">
                 <p class="uppercase">${eventProgress}% collectés</p>
-                <p class="uppercase lightgrey">Objectif: ${new Intl.NumberFormat(
+                <p class="uppercase mediumgrey">Objectif: ${new Intl.NumberFormat(
                   "fr-FR",
                   {
                     maximumFractionDigits: 0,
