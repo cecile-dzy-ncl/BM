@@ -709,6 +709,10 @@ section#project_tabs + section .row {
   background: white;
 }
 
+.event-recap_numbers,
+.event-recap_progress {
+  margin-bottom: 25px;
+}
 .event-recap_share h4 span {
   color: #bbbbbb;
 }
