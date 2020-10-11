@@ -769,6 +769,20 @@ img.project-thumbnails {
 .projects-list .panel .caption .truncate_html {
   display: none;
 }
+
+.infos-money .infos-money-details small {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.infos-money-details .columns .info-money.detail {
+  color: var(--grey);
+}
+
+.infos-money-details .columns:first-child .info-money.detail {
+  color: var(--red);
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
