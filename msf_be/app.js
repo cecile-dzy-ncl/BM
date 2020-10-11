@@ -118,7 +118,7 @@ $(document).ready(function () {
           //   }).format(eventAmountCollected)
           // );
 
-          $(".event-recap_progress").after($("#widget-new-project"));
+          $(".event-recap_share").before($("#widget-new-project"));
           $("#widget-new-project a").addClass(
             "btn-bm bg-red white uppercase w-100"
           );
