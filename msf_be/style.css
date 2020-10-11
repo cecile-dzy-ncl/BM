@@ -713,6 +713,17 @@ section#project_tabs + section .row {
 .event-recap_progress {
   margin-bottom: 25px;
 }
+
+.event-recap_numbers {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.event-recap h5 {
+  text-align: center;
+}
+
 .event-recap_share h4 span {
   color: #bbbbbb;
 }
