@@ -301,8 +301,8 @@ $(document).ready(function () {
       var urgencesEvents = [79];
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
-        fetchData(value);
-        injectCard(value, "#urgences-scroll .scrolling-wrapper");
+        fetchData(value, "#urgences-scroll .scrolling-wrapper");
+        // injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
     }
   });
