@@ -58,7 +58,14 @@ $(document).ready(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
       $("section.event-head > .row > div:last-child").prepend(
-        "<div class='event-recap'></div>"
+        `
+        <div class='event-recap'>
+          <div class='event-recap_numbers'>
+          </div>
+          <div class='event-recap_progress'>
+          </div>
+        </div>
+        `
       );
       // $("#events-show .habillage").prepend(
       //   '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconpagecollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><img src="https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/iconmontantcollecte2x.png"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
@@ -80,7 +87,7 @@ $(document).ready(function () {
             Number.parseInt(response.expected_amount, 10) / 100;
           console.log("eventAmountCollected", eventAmountCollected);
 
-          $(".projects_count .stat-nb span").html(eventProjectsNb);
+          $(".event-recap_numbers").html(eventProjectsNb);
           $(".amount_collected .stat-nb span").html(
             new Intl.NumberFormat("fr-FR", {
               maximumFractionDigits: 0,
@@ -89,6 +96,7 @@ $(document).ready(function () {
               currency: "EUR",
             }).format(eventAmountCollected)
           );
+
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
               (eventAmountCollected / eventAmountExpected) * 100
@@ -107,7 +115,7 @@ $(document).ready(function () {
                   currency: "EUR",
                 }).format(eventAmountExpected)}</p>
               </div>`;
-            $(".event-recap").append(eventProgressBar);
+            $(".event-recap_progress").html(eventProgressBar);
           }
         }
       );
