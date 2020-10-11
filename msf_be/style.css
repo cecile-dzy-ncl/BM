@@ -690,7 +690,7 @@ section#project_tabs + section .row {
   width: 80%;
   box-shadow: var(--shadow);
   border-radius: 5px;
-  padding: 5px;
+  padding: 8px;
 }
 
 /* ------ RESPONSIVE ------ */

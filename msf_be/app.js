@@ -95,11 +95,11 @@ $(document).ready(function () {
             );
             console.log("eventProgress", eventProgress);
             var eventProgressBar = `
-              <div class="event-progressbar bg-lightgrey mb-20">
+              <div class="event-progressbar bg-lightgrey">
                 <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
               </div>
               <div class="d-flex justify-between">
-                <p>${eventProgress}%</p>
+                <p class="uppercase"><strong>${eventProgress}% collectés</strong></p>
                 <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
                   maximumFractionDigits: 0,
                   minimumFractionDigits: 0,
