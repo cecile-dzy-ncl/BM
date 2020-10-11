@@ -82,7 +82,7 @@ $(document).ready(function () {
         `
       );
 
-      $(".event-recap_numbers .collecte h5").html($(".current-amount"));
+      $(".event-recap_numbers .recolte h5").html($(".current-amount"));
       $(".event-recap_share").html($(".block-share-container"));
 
       var eventId = $("#events-show")[0]
@@ -95,11 +95,12 @@ $(document).ready(function () {
         function (response) {
           console.log(response);
           var eventProjectsNb = response.projects_count;
+          $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
+
           var eventAmountCollected =
             Number.parseInt(response.amount_collected, 10) / 100;
           var eventAmountExpected =
             Number.parseInt(response.expected_amount, 10) / 100;
-          console.log("eventAmountCollected", eventAmountCollected);
 
           // $(".event-recap_numbers").html(eventProjectsNb);
           $(".amount_collected .stat-nb span").html(
@@ -110,21 +111,6 @@ $(document).ready(function () {
               currency: "EUR",
             }).format(eventAmountCollected)
           );
-          var eventNb = `
-          <div class='w-20 collecte'>
-          <h5 class='text-center'>${eventProjectsNb}</h5>
-          <p class='text-center uppercase'><small>collectes</small></p>
-          </div>
-          <div class='w-20 recolte'>
-          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center uppercase'><small>recoltés</small></p>
-          </div>
-          <div class='w-20 days'>
-          <h5 class='text-center'>${remainingDays}j</h5>
-          <p class='text-center uppercase'><small>restant</small></p>
-          </div>`;
-
-          $(".event-recap_numbers").html(eventNb);
 
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
