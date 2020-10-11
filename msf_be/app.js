@@ -119,7 +119,7 @@ $(document).ready(function () {
           // );
 
           $(".event-recap_progress").after($("#widget-new-project"));
-          $("#widget-new-project").addClass(
+          $("#widget-new-project a").addClass(
             "btn-bm bg-red white uppercase w-100"
           );
 
