@@ -691,6 +691,10 @@ section#project_tabs + section .row {
 
 /* ------ PAGE EVENT ------ */
 
+.intro-my-event:after {
+  display: none;
+}
+
 #events-show .event-head .bg-secondary-color-blurred {
   background: white;
 }
