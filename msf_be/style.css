@@ -208,6 +208,9 @@ small {
   background-size: cover;
   background-position: center;
 }
+.banner.homepage-footer h2 {
+  text-align: left;
+}
 
 .banner-text {
   width: 524px;
