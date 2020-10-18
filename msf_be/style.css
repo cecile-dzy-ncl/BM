@@ -211,6 +211,10 @@ small {
 .banner.homepage-footer h2 {
   text-align: left;
 }
+.banner.homepage-footer h2,
+.banner.homepage-footer p {
+  text-shadow: var(--shadow);
+}
 
 .banner-text {
   width: 524px;
