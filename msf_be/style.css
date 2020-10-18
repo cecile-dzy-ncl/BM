@@ -215,6 +215,25 @@ small {
 .banner-text {
   width: 524px;
 }
+
+html body form#form > div[data-type-id="90001"],
+#form[data-layout-type="desktop"] div[data-role="page"][data-page-index="0"] {
+  justify-content: flex-start;
+}
+
+div[data-role="page-body"] {
+  width: auto;
+  flex-grow: 1;
+}
+
+div[data-role="page-footer"] {
+  width: fit-content;
+}
+
+span.normal-state {
+  padding: 0 10px;
+}
+
 /* NAVBAR */
 
 header.main-header {
