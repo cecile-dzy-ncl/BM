@@ -240,6 +240,10 @@ span.normal-state {
 
 /* NAVBAR */
 
+#main-nav {
+  display: none;
+}
+
 header.main-header {
   position: fixed;
   width: 100%;
