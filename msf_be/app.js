@@ -52,6 +52,10 @@ $(document).ready(function () {
     .removeClass("medium-11 medium-offset-1")
     .addClass("medium-12");
 
+  $("#projects-index .first-section h1").after(
+    "La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin."
+  );
+
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
