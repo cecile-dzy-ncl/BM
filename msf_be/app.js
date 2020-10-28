@@ -233,8 +233,14 @@ $(document).ready(function () {
           var remainingDays = Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
+          var remainingDaysBlock = `
+          <div class='w-20'>
+          <h5 class='text-center'>${remainingDays}j</h5>
+          <p class='text-center'><small>restant</small></p>
+          </div>
+          `;
         } else {
-          var remainingDays = "0";
+          var remainingDays = "";
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
@@ -262,10 +268,7 @@ $(document).ready(function () {
           <p class='text-center'><small>collectés</small></p>
           </div>
           ${amountExpectedBlock}
-          <div class='w-20'>
-          <h5 class='text-center'>${remainingDays}j</h5>
-          <p class='text-center'><small>restant</small></p>
-          </div>
+          ${remainingDays}
           </div>
           </div>
           `;
