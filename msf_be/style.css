@@ -838,6 +838,10 @@ img.project-thumbnails {
   display: none;
 }
 
+ul.pagination {
+  text-align: center;
+}
+
 ul.pagination li {
   display: inline-block;
   float: none;
