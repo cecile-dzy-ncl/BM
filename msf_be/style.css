@@ -852,6 +852,11 @@ ul.pagination li a {
   color: var(--grey);
 }
 
+ul.pagination li.unavailable a,
+ul.pagination li button.unavailable {
+  background-color: transparent;
+}
+
 ul.pagination li.unavailable a {
   color: var(--lightgrey);
 }
