@@ -219,6 +219,13 @@ $(document).ready(function () {
             style: "currency",
             currency: "EUR",
           }).format(eventAmountExpected);
+          var amountExpectedBlock = `
+          <div class='w-20'>
+          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+          <p class='text-center'><small>attendus</small></p>
+          </div>`;
+        } else {
+          var amountExpectedBlock = "";
         }
         // var today = new Date();
         if (eventEndDate != null) {
@@ -250,10 +257,7 @@ $(document).ready(function () {
           <h5 class='text-center'>${event.projects_count}</h5>
           <p class='text-center'><small>collectes</small></p>
           </div>
-          <div class='w-20'>
-          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>recoltés</small></p>
-          </div>
+          ${amountExpectedBlock}
           <div class='w-20'>
           <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
           <p class='text-center'><small>attendus</small></p>
