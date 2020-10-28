@@ -220,7 +220,7 @@ $(document).ready(function () {
             currency: "EUR",
           }).format(eventAmountExpected);
           var amountExpectedBlock = `
-          <div class='w-20'>
+          <div class=''>
           <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
           <p class='text-center'><small>attendus</small></p>
           </div>`;
@@ -234,7 +234,7 @@ $(document).ready(function () {
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
           var remainingDaysBlock = `
-          <div class='w-20'>
+          <div class=''>
           <h5 class='text-center'>${remainingDays}j</h5>
           <p class='text-center'><small>restant</small></p>
           </div>
@@ -259,11 +259,11 @@ $(document).ready(function () {
           <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
           </div> 
           <div class='event-numbers d-flex mt-20'>
-          <div class='w-20'>
+          <div class=''>
           <h5 class='text-center'>${event.projects_count}</h5>
           <p class='text-center'><small>collectes</small></p>
           </div>
-          <div class='w-20'>
+          <div class=''>
           <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>collectés</small></p>
           </div>
