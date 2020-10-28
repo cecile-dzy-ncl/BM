@@ -740,7 +740,7 @@ section.event-head {
   margin-bottom: 40px;
 }
 
-.intro-my-event h2 {
+section.event-head h2 {
   text-transform: uppercase;
   font-size: 50px;
   text-shadow: var(--shadow);
