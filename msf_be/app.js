@@ -257,11 +257,11 @@ $(document).ready(function () {
           <h5 class='text-center'>${event.projects_count}</h5>
           <p class='text-center'><small>collectes</small></p>
           </div>
-          ${amountExpectedBlock}
           <div class='w-20'>
-          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>attendus</small></p>
+          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+          <p class='text-center'><small>collectés</small></p>
           </div>
+          ${amountExpectedBlock}
           <div class='w-20'>
           <h5 class='text-center'>${remainingDays}j</h5>
           <p class='text-center'><small>restant</small></p>
