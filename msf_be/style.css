@@ -838,6 +838,11 @@ img.project-thumbnails {
   display: none;
 }
 
+ul.pagination li {
+  display: inline-block;
+  float: none;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
