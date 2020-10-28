@@ -857,7 +857,12 @@ ul.pagination li.unavailable a {
 }
 
 ul.pagination li.unavailable.projects-paginate a {
-  color: #cc0000;
+  color: var(--red);
+}
+
+ul.pagination li a:hover,
+ul.pagination li button:hover {
+  background-color: var(--red);
 }
 
 /* ------ RESPONSIVE ------ */
