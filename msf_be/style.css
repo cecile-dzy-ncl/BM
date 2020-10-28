@@ -838,6 +838,10 @@ img.project-thumbnails {
   text-align: center;
 }
 
+#projects-index h2 + p {
+  margin: 30px auto;
+}
+
 #front-search-filter .large-2 {
   display: none;
 }
