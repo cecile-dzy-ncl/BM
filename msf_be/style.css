@@ -503,7 +503,7 @@ header.main-header {
   line-height: 18px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
@@ -513,6 +513,10 @@ header.main-header {
 
 .card-event h5 {
   font-size: 16px;
+}
+
+.card-event .event-numbers {
+  justify-content: space-evenly;
 }
 
 /* ------ PANEL ------ */

@@ -258,7 +258,7 @@ $(document).ready(function () {
           <div class='event-progressbar bg-lightgrey'>
           <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
           </div> 
-          <div class='d-flex justify-between mt-10'>
+          <div class='event-numbers d-flex mt-20'>
           <div class='w-20'>
           <h5 class='text-center'>${event.projects_count}</h5>
           <p class='text-center'><small>collectes</small></p>
