@@ -848,6 +848,14 @@ ul.pagination li a {
   color: var(--grey);
 }
 
+ul.pagination li.unavailable a {
+  color: blue;
+}
+
+ul.pagination li.unavailable.projects-paginate a {
+  color: #cc0000;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
