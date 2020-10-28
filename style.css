@@ -59,7 +59,7 @@ img {
 }
 
 .w-fit {
-  width: fit-content;
+  width: max-content;
 }
 
 .w-20 {
