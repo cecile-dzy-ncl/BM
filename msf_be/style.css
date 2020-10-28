@@ -853,7 +853,7 @@ ul.pagination li a {
 }
 
 ul.pagination li.unavailable a {
-  color: blue;
+  color: var(--lightgrey);
 }
 
 ul.pagination li.unavailable.projects-paginate a {
