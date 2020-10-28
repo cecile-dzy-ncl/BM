@@ -210,13 +210,16 @@ $(document).ready(function () {
           style: "currency",
           currency: "EUR",
         }).format(eventAmountCollected);
-        var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-        var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
-          maximumFractionDigits: 0,
-          minimumFractionDigits: 0,
-          style: "currency",
-          currency: "EUR",
-        }).format(eventAmountExpected);
+
+        if (event.expected_amount) {
+          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+          var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+            maximumFractionDigits: 0,
+            minimumFractionDigits: 0,
+            style: "currency",
+            currency: "EUR",
+          }).format(eventAmountExpected);
+        }
         // var today = new Date();
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
