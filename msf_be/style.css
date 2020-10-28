@@ -843,6 +843,11 @@ ul.pagination li {
   float: none;
 }
 
+ul.pagination li a {
+  background-color: transparent;
+  color: var(--grey);
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
