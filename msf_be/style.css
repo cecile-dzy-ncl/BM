@@ -834,6 +834,10 @@ img.project-thumbnails {
 
 /* page projets avec recherche  */
 
+#projects-index h2 {
+  text-align: center;
+}
+
 #front-search-filter .large-2 {
   display: none;
 }
