@@ -389,6 +389,10 @@ input.icon-search.field-auto-search:focus {
   height: min-content;
 }
 
+input[name="search"] {
+  margin-bottom: 0;
+}
+
 /* HOMEPAGE */
 
 #bloc-stats {
