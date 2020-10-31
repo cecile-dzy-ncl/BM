@@ -152,7 +152,7 @@ small {
 
 /* CONTAINER */
 
-.habillage .row {
+#events-show .habillage .row {
   width: 90%;
   margin: 0 auto;
 }
