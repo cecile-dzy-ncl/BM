@@ -93,7 +93,6 @@ $(document).ready(function () {
       var eventId = $("#events-show")[0]
         .classList.value.match(/event_\d+/g)[0]
         .split("_")[1];
-      console.log(eventId);
 
       if (eventId === "88") {
         console.log("urgence");
@@ -338,7 +337,6 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("ouai");
   $("#project-search").submit(function () {
     event.preventDefault();
     var project_search = $(this).find("input")[0].value;
