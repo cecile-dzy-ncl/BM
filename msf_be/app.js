@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $("body").addClass("msf-be");
-
+  consolee.log("test");
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
