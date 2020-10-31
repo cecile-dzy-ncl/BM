@@ -1,25 +1,12 @@
 $(document).ready(function () {
-  // console.log("hey hey");
+  $("body").addClass("msf-be");
 
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
-  // ajouter une searchbar
-  var searchbar = `
-  <form accept-charset="UTF-8" action="/search" class="navbar-search" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="8EQYiIZaLS0yGUki1U3V4RGhjtMpTbAG88SIAz5i76c="></div>
-    <div class="row">
-      <div class="search-query">
-        <input class="icon-search field-auto-search" name="search" type="text" data-old-search-value="" value="" placeholder="Chercher une page de collecte">
-      </div>
-    </div>
-  </form>`;
-
-  // $("#indexs-index #bloc-cta .searchbar").html(searchbar);
-
-  $("body").addClass("msf-be");
-
+  // AJOUT NAV BUTTONS
   var navButtons = $(".header-spacer nav[role='navigation']").html();
   // console.log(navButtons);
   $("#header-header").before(
@@ -93,7 +80,7 @@ $(document).ready(function () {
         .split("_")[1];
       console.log(eventId);
 
-      if (eventId === "79") {
+      if (eventId === "88") {
         console.log("urgence");
       }
       $.get(
