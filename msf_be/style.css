@@ -386,6 +386,7 @@ input.icon-search.field-auto-search:focus {
 
 #event-search {
   width: 25%;
+  height: min-content;
 }
 
 /* HOMEPAGE */
