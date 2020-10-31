@@ -453,6 +453,10 @@ header.main-header {
   margin-bottom: 15px;
 }
 
+div#events-block .container-bm > div {
+  margin-bottom: 20px;
+}
+
 .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
