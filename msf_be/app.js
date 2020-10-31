@@ -329,7 +329,7 @@ $(document).ready(function () {
     sessionStorage.setItem("project_search",this.value);
     console.log(sessionStorage);
     // window.location.href;
-  })
+  });
 
   // if (window.location.href === "https://donner.croix-rouge.fr/crowdfunding/home_Crowdfunding/page/projets_locaux") {
 
@@ -343,7 +343,7 @@ $(document).ready(function () {
   //       sessionStorage.setItem("category", $(this)[0].parentNode.id);
   //     })
   // })
-}
+});
 
 
   // --------- RESPONSIVE ---------
