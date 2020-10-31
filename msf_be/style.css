@@ -730,11 +730,11 @@ section#project_tabs + section .row {
   display: none;
 }
 
-section.event-head,
+/* section.event-head,
 .section-my-event {
   width: 65%;
   margin: auto;
-}
+} */
 
 section.event-head {
   margin-bottom: 40px;
