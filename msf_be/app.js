@@ -319,6 +319,8 @@ $(document).ready(function () {
   console.log("hello");
   $("#project-search").submit(function () {
     event.preventDefault();
+    console.log(this);
+    console.log(this.find("input"));
     sessionStorage.setItem("project_search", this.value);
     console.log(sessionStorage);
     // window.location.href;
