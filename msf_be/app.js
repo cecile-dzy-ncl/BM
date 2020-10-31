@@ -316,7 +316,7 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("hiii");
+  console.log("hii");
   $("#project-search").submit(function () {
     event.preventDefault();
     var project_search = $(this).find("input")[0].value;
@@ -325,19 +325,16 @@ $(document).ready(function () {
     window.location.href = "projects";
   });
 
-  // if (window.location.href === "https://donner.croix-rouge.fr/crowdfunding/home_Crowdfunding/page/projets_locaux") {
+  if (window.location.href === "projects") {
+    console.log("projects");
+    console.log(sessionStorage);
 
-  // if (sessionStorage.category || sessionStorage.location) {
-  //   sessionStorage.removeItem("location");
-  //   sessionStorage.removeItem("category");
-  // };
-
-  // $(".project-cat a").each(function() {
-  //     $(this).click(function () {
-  //       sessionStorage.setItem("category", $(this)[0].parentNode.id);
-  //     })
-  // })
-  // };
+    if (sessionStorage.project_search) {
+      $("#front-search-filter .field-auto-search").value =
+        sessionStorage.project_search;
+      $("#front-search-filter .field-auto-search").submit();
+    }
+  }
 
   // --------- RESPONSIVE ---------
 
