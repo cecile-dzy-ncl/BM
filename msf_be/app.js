@@ -316,12 +316,13 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("hello hi");
+  console.log("hii");
   $("#project-search").submit(function () {
     event.preventDefault();
     console.log($(this));
     console.log($(this).find("input"));
-    sessionStorage.setItem("project_search", this.value);
+    var project_search = $(this).find("input").value;
+    sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
     // window.location.href;
   });
