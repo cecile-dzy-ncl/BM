@@ -321,10 +321,6 @@ input.icon-search.field-auto-search:focus {
   background: white;
 }
 
-#event-search {
-  width: 25%;
-}
-
 .header-spacer .search-query {
   width: 433px;
 }
@@ -386,6 +382,10 @@ input.icon-search.field-auto-search:focus {
 
 .banner input.field-auto-search {
   border-radius: 4px;
+}
+
+#event-search {
+  width: 25%;
 }
 
 /* HOMEPAGE */
