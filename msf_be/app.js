@@ -325,6 +325,27 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
+  $("#project-search").submit(function () { 
+    sessionStorage.setItem("project_search",this.value);
+    console.log(sessionStorage);
+    // window.location.href;
+  })
+
+  // if (window.location.href === "https://donner.croix-rouge.fr/crowdfunding/home_Crowdfunding/page/projets_locaux") {
+
+  // if (sessionStorage.category || sessionStorage.location) {
+  //   sessionStorage.removeItem("location");
+  //   sessionStorage.removeItem("category");
+  // };
+
+  // $(".project-cat a").each(function() {
+  //     $(this).click(function () { 
+  //       sessionStorage.setItem("category", $(this)[0].parentNode.id);
+  //     })
+  // })
+}
+
+
   // --------- RESPONSIVE ---------
 
   var windowWidth = $(window).width();
