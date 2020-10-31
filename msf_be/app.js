@@ -325,7 +325,7 @@ $(document).ready(function () {
     window.location.href = "projects";
   });
 
-  if (window.location.href === "projects") {
+  if (window.location.href === "https://events.msf-azg.be/projects") {
     console.log("projects");
     console.log(sessionStorage);
 
