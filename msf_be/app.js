@@ -316,7 +316,7 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  $("#project-search input").submit(function () {
+  $("#project-search input").change(function () {
     sessionStorage.setItem("project_search", this.value);
     console.log(sessionStorage);
     // window.location.href;
