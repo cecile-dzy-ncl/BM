@@ -323,8 +323,7 @@ $(document).ready(function () {
 
   // custom blocs
   if ($("#events-show .event-head .custom-block")) {
-    $(".event-head").after($(".custom-block")),
-    
+    $(".event-head").after($(".custom-block"));
   }
 
   // --------- RESPONSIVE ---------
