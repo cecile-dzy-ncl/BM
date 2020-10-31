@@ -16,7 +16,7 @@ $(document).ready(function () {
     </div>
   </form>`;
 
-  $("#indexs-index #bloc-cta .searchbar").html(searchbar);
+  // $("#indexs-index #bloc-cta .searchbar").html(searchbar);
 
   $("body").addClass("msf-be");
 
