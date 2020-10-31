@@ -316,7 +316,7 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("hello");
+  console.log("hello hi");
   $("#project-search").submit(function () {
     event.preventDefault();
     console.log($(this));
