@@ -30,7 +30,8 @@ img {
   justify-content: center !important;
 }
 
-.justify-between {
+.justify-between, 
+.justify-content-between {
   justify-content: space-between;
 }
 
