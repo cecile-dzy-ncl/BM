@@ -325,8 +325,8 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  $("#project-search").submit(function () { 
-    sessionStorage.setItem("project_search",this.value);
+  $("#project-search").submit(function () {
+    sessionStorage.setItem("project_search", this.value);
     console.log(sessionStorage);
     // window.location.href;
   });
@@ -339,12 +339,11 @@ $(document).ready(function () {
   // };
 
   // $(".project-cat a").each(function() {
-  //     $(this).click(function () { 
+  //     $(this).click(function () {
   //       sessionStorage.setItem("category", $(this)[0].parentNode.id);
   //     })
   // })
-});
-
+  // };
 
   // --------- RESPONSIVE ---------
 
