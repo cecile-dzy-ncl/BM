@@ -880,8 +880,9 @@ ul.pagination li button:hover {
 
 /* ------ CUSTOM BLOCS ------ */
 
-.custom-bloc {
+.custom-block {
   padding: 30px 0;
+  margin: 30px 0;
 }
 
 /* ------ RESPONSIVE ------ */
