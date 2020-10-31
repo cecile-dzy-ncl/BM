@@ -54,23 +54,25 @@ $(document).ready(function () {
     .removeClass("medium-11 medium-offset-1")
     .addClass("medium-12");
 
-  switch (lang) {
-    case "en":
-      var projectIntro =
-        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
-      break;
-    case "nl":
-      var projectIntro =
-        "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
-      break;
-    default:
-      var projectIntro =
-        "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
-      break;
+  if ($("#projects-index")) {
+    switch (lang) {
+      case "en":
+        var projectIntro =
+          "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+        break;
+      case "nl":
+        var projectIntro =
+          "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
+        break;
+      default:
+        var projectIntro =
+          "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
+        break;
+    }
+    $("#projects-index .first-section h2").after(
+      `<p class='text-center'>${projectIntro}</p>`
+    );
   }
-  $("#projects-index .first-section h2").after(
-    `<p class='text-center'>${projectIntro}</p>`
-  );
 
   $(function () {
     if ($("body").is("#events-show")) {
