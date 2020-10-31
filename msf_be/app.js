@@ -16,12 +16,25 @@ $(document).ready(function () {
 
   $("#first-header > div").html(navButtons);
 
+  switch (lang) {
+    case "en":
+      var btnSoutenir = "Support a fundraising event";
+      var btnCreer = "Create a fundraising event";
+      break;
+    case "nl":
+      var btnSoutenir = "Een crowdfunding steunen";
+      var btnCreer = "Een crowdfunding creëren";
+      break;
+    default:
+      var btnSoutenir = "Soutenir une collecte";
+      var btnCreer = "Soutenir une collecte";
+      break;
+  }
+
   $("#header-header > .row > .columns:last-child").after(
     `<div class="btn-actions">
-    <a class="bg-grey" href="https://events.msf-azg.be/projects"><strong class="white">Soutenir
-    </strong>une collecte</a>
-    <a class="bg-red" href=""><strong class="white">Créer
-    </strong>une collecte</a>
+    <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
+    <a class="bg-red" href="">${btnCreer}</a>
     </div>`
   );
 
@@ -41,8 +54,22 @@ $(document).ready(function () {
     .removeClass("medium-11 medium-offset-1")
     .addClass("medium-12");
 
+  switch (lang) {
+    case "en":
+      var projectIntro =
+        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+      break;
+    case "nl":
+      var projectIntro =
+        "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
+      break;
+    default:
+      var projectIntro =
+        "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
+      break;
+  }
   $("#projects-index .first-section h2").after(
-    "<p class='text-center'>La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.</p>"
+    `<p class='text-center'>${projectIntro}</p>`
   );
 
   $(function () {
