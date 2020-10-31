@@ -316,13 +316,21 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("ouaiiiis");
+  console.log("ouai");
   $("#project-search").submit(function () {
     event.preventDefault();
     var project_search = $(this).find("input")[0].value;
     sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
     window.location.href = `https://events.msf-azg.be/projects?search=${project_search}&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer`;
+  });
+
+  $("#event-search").submit(function () {
+    event.preventDefault();
+    var event_search = $(this).find("input")[0].value;
+    sessionStorage.setItem("event_search", event_search);
+    console.log(sessionStorage);
+    window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
   // --------- RESPONSIVE ---------
