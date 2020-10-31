@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  console.log("hey hey");
+  // console.log("hey hey");
 
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
@@ -192,12 +192,12 @@ $(document).ready(function () {
   $(function () {
     if ($("body").is("#indexs-index")) {
       const injectCard = (eventCard, cardContainer) => {
-        console.log(cardContainer);
+        // console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
 
       const buildCard = (event, eventContainer) => {
-        console.log(event);
+        // console.log(event);
         var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
