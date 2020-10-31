@@ -322,6 +322,7 @@ $(document).ready(function () {
     console.log($(this));
     console.log($(this).find("input"));
     var project_search = $(this).find("input").value;
+    console.log(project_search);
     sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
     // window.location.href;
