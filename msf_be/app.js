@@ -43,11 +43,26 @@ $(document).ready(function () {
   $("#projects-index .first-section h2").after(
     "<p class='text-center'>La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.</p>"
   );
+  var lang = $("html").attr("lang");
 
   $(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
-      var lang = $("html").attr("lang");
+
+      switch (lang) {
+        case "en":
+          var legendCollectes = "projects";
+          var legendRecoltes = "collected";
+          break;
+        case "nl":
+          var legendCollectes = "inzamelacties";
+          var legendRecoltes = "ingezameld";
+          break;
+        default:
+          var legendCollectes = "collectes";
+          var legendRecoltes = "récoltés";
+          break;
+      }
 
       $("section.event-head > .row > div:last-child").prepend(
         `
@@ -55,11 +70,11 @@ $(document).ready(function () {
           <div class='event-recap_numbers'>
           <div class='w-25 collecte border-right'>
           <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>collectes</small></p>
+          <p class='text-center uppercase'><small>${legendCollectes}</small></p>
           </div>
           <div class='w-50 recolte flex-grow-1'>
           <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>recoltés</small></p>
+          <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
           </div>
           </div>
           <div class='event-recap_progress'></div>
@@ -119,12 +134,32 @@ $(document).ready(function () {
             var eventEndDate = new Date(response.end);
             if (eventEndDate < today) {
               var remainingDays = 0;
-              var remainingDaysLegend = "terminé";
+              switch (lang) {
+                case "en":
+                  var remainingDaysLegend = "closed";
+                  break;
+                case "nl":
+                  var remainingDaysLegend = "afgewerkt";
+                  break;
+                default:
+                  var remainingDaysLegend = "terminé";
+                  break;
+              }
             } else {
               var remainingDays = Math.ceil(
                 (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
               );
-              var remainingDaysLegend = "restants";
+              switch (lang) {
+                case "en":
+                  var remainingDaysLegend = "remaining";
+                  break;
+                case "nl":
+                  var remainingDaysLegend = "resterende";
+                  break;
+                default:
+                  var remainingDaysLegend = "restants";
+                  break;
+              }
             }
 
             $(".event-recap .recolte").after(
