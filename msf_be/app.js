@@ -316,12 +316,12 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("hii");
+  console.log("hi");
   $("#project-search").submit(function () {
     event.preventDefault();
     console.log($(this));
     console.log($(this).find("input"));
-    var project_search = $(this).find("input").value;
+    var project_search = $(this).find("input")[0].value;
     console.log(project_search);
     sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
