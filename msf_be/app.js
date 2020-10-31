@@ -316,25 +316,14 @@ $(document).ready(function () {
     $(".event-head").after($(".custom-block"));
   }
 
-  console.log("prout");
+  console.log("ouaiiiis");
   $("#project-search").submit(function () {
     event.preventDefault();
     var project_search = $(this).find("input")[0].value;
     sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
-    window.location.href = "projects";
+    window.location.href = `https://events.msf-azg.be/projects?search=${project_search}&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer`;
   });
-
-  if (window.location.href === "https://events.msf-azg.be/projects") {
-    console.log("projects");
-    console.log(sessionStorage);
-
-    if (sessionStorage.project_search) {
-      $("#front-search-filter .field-auto-search")[0].value =
-        sessionStorage.project_search;
-      $("#front-search-filter").submit();
-    }
-  }
 
   // --------- RESPONSIVE ---------
 
