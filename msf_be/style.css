@@ -878,6 +878,12 @@ ul.pagination li button:hover {
   background-color: var(--red);
 }
 
+/* ------ CUSTOM BLOCS ------ */
+
+.custom-bloc {
+  padding: 30px 0;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
