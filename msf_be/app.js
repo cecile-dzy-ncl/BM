@@ -294,25 +294,24 @@ $(document).ready(function () {
       // 11 - In Memoriam,
       // 5 - Evènement Sportif,
       // Evènement Culturel
-      var collectesEvents = [8, 10, 9, 11, 5];
+      var collectesEvents = [8, 9, 10, 11, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value, "#collectes-scroll .scrolling-wrapper");
         // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
       });
 
-      // 70 - 20km,
-      // 63 - 20km 2019
-      // 66 - Ekiden,
-      var events = [70, 66];
+      // 85 - 20km 2021
+      // 86 - Ekiden 2021
+      var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
         fetchData(value, "#events-scroll .scrolling-wrapper");
         // injectCard("#events-scroll .scrolling-wrapper");
       });
 
-      //
-      var urgencesEvents = [79];
+      // 88 - COVID
+      var urgencesEvents = [88];
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
