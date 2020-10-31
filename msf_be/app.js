@@ -7,13 +7,14 @@ $(document).ready(function () {
   $("#banner_section").before(bannerMaintenance);
 
   // ajouter une searchbar
-  var searchbar = `<form accept-charset="UTF-8" action="/search" class="navbar-search" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="8EQYiIZaLS0yGUki1U3V4RGhjtMpTbAG88SIAz5i76c="></div>
-  <div class="row">
-    <div class="search-query">
-      <input class="icon-search field-auto-search" name="search" type="text" data-old-search-value="" value="" placeholder="Chercher une page de collecte">
+  var searchbar = `
+  <form accept-charset="UTF-8" action="/search" class="navbar-search" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="8EQYiIZaLS0yGUki1U3V4RGhjtMpTbAG88SIAz5i76c="></div>
+    <div class="row">
+      <div class="search-query">
+        <input class="icon-search field-auto-search" name="search" type="text" data-old-search-value="" value="" placeholder="Chercher une page de collecte">
+      </div>
     </div>
-  </div>
-</form>`;
+  </form>`;
 
   $("#indexs-index #bloc-cta .searchbar").html(searchbar);
 
@@ -55,16 +56,6 @@ $(document).ready(function () {
   $("#projects-index .first-section h2").after(
     "<p class='text-center'>La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.</p>"
   );
-
-  // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
-  // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
-
-  // $(".credits").appendTo("section#project_tabs + section .row");
-
-  // $(
-  //   "<li class='nodropdown footer-link-menu'><a href='https://www.fondation-abbe-pierre.fr/'>© FONDATION ABBÉ PIERRE</a></li>"
-  // ).prependTo("footer .top-bar-section ul.left ul.center");
 
   $(function () {
     if ($("body").is("#events-show")) {
