@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $("body").addClass("msf-be");
-  consolee.log("test");
+  var lang = $("html").attr("lang");
+
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
@@ -43,7 +44,6 @@ $(document).ready(function () {
   $("#projects-index .first-section h2").after(
     "<p class='text-center'>La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.</p>"
   );
-  var lang = $("html").attr("lang");
 
   $(function () {
     if ($("body").is("#events-show")) {
