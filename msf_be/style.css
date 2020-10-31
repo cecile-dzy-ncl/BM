@@ -317,6 +317,10 @@ header.main-header {
   padding: 0 !important;
 }
 
+input.icon-search.field-auto-search:focus {
+  background: white;
+}
+
 .header-spacer .search-query {
   width: 433px;
 }
