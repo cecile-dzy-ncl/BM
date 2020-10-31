@@ -318,6 +318,7 @@ $(document).ready(function () {
 
   console.log("hello");
   $("#project-search").submit(function () {
+    event.preventDefault();
     sessionStorage.setItem("project_search", this.value);
     console.log(sessionStorage);
     // window.location.href;
