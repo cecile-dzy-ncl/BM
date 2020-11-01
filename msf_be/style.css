@@ -933,6 +933,15 @@ ul.pagination li button:hover {
     flex-direction: column;
   }
 
+  #bloc-cta .btn-bm {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  #bloc-cta .searchbar {
+    margin-left: 0;
+  }
+
   .stats {
     flex-direction: column;
   }
