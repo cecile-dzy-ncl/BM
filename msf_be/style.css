@@ -727,14 +727,15 @@ section#project_tabs + section .row {
 }
 
 .project_event_description {
+  max-width: 71.25rem;
+  padding: 2rem 0;
   /* height: 600px; */
-  width: 80%;
-  margin: 0 auto;
+  /* margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  float: none !important;
-  text-align: right;
+  float: none !important; */
+  /* text-align: right; */
 }
 
 .credits {
