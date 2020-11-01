@@ -357,6 +357,8 @@ input.icon-search.field-auto-search:focus {
   color: white;
   height: 80px;
   padding: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .btn-actions a:hover {
