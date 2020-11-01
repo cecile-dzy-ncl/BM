@@ -942,8 +942,9 @@ ul.pagination li button:hover {
     left: 0;
   }
 
-  #main-nav.expanded .title-area {
-    background: white;
+  #main-nav.expanded .title-area,
+  section.top-bar-section {
+    background: white !important;
   }
 
   .header-spacer,
