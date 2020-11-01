@@ -962,4 +962,11 @@ ul.pagination li button:hover {
   .banner-text {
     width: 100%;
   }
+
+  #events-block > .container-bm > .d-flex {
+    flex-direction: column;
+  }
+  #event-search {
+    width: 100%;
+  }
 }
