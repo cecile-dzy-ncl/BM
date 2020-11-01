@@ -6,7 +6,7 @@ $(document).ready(function () {
     case "en":
       var remainingDaysLegend = "remaining";
       var btnSoutenir = "Support a fundraising event";
-      var btnCreer = "Create a fundraising event";
+      var btnCreer = "Create a page";
       var btnSee = "See all projects";
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
