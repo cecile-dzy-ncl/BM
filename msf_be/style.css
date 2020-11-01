@@ -928,6 +928,9 @@ ul.pagination li button:hover {
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
+  #main-nav {
+    display: block;
+  }
   /* SEARCHBAR */
   #bloc-cta {
     flex-direction: column;
