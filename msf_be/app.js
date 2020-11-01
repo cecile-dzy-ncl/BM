@@ -44,7 +44,6 @@ $(document).ready(function () {
 
   // AJOUT NAV BUTTONS
   var navButtons = $(".header-spacer nav[role='navigation']").html();
-  // console.log(navButtons);
   $("#header-header").before(
     `<section id='first-header'><div class='row'></div></section>`
   );
@@ -201,7 +200,7 @@ $(document).ready(function () {
                 <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
               </div>
               <div class="d-flex justify-between">
-                <p class="uppercase">${eventProgress}% ${legendCollectes}</p>
+                <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
                 <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
               "fr-FR",
               {
