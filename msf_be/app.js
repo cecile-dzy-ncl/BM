@@ -289,28 +289,34 @@ $(document).ready(function () {
         }
         var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
-        // switch (lang) {
-        //   case "en":
-        //     var eventUrl = event.url.en;
-        //     break;
-        //   case "nl":
-        //     var remainingDaysLegend = "resterende";
-        //     break;
-        //   default:
-        //     var remainingDaysLegend = "restants";
-        //     break;
-        // }
+        switch (lang) {
+          case "en":
+            var eventUrl = event.url.en;
+            var eventTitle = event.title.en;
+            var eventDescription = event.description.en;
+            break;
+          case "nl":
+            var eventUrl = event.url.nl;
+            var eventTitle = event.title.nl;
+            var eventDescription = event.description.nl;
+            break;
+          default:
+            var eventUrl = event.url.fr;
+            var eventTitle = event.title.fr;
+            var eventDescription = event.description.fr;
+            break;
+        }
 
         const card = `
           <div class="card card-event">
           <img src="${event.banner_image}">
           <div class="card-event-btns">
-          <a href="${event.url.lang}" class="btn-bm bg-black white">${btnSee}</a>
+          <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
           <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
           </div>
           <div class="card-event-details">
-          <h4>${event.title.lang}</h4>
-          <p>${event.description.lang}</p>
+          <h4>${eventTitle}</h4>
+          <p>${eventDescription}</p>
           <div>
           <div class='event-progressbar bg-lightgrey'>
           <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
