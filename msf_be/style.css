@@ -951,6 +951,10 @@ ul.pagination li button:hover {
     position: initial;
   }
 
+  #main-nav.expanded .menu-icon a {
+    text-align: right;
+  }
+
   .header-spacer,
   .btn-actions {
     display: none;
