@@ -96,7 +96,7 @@ $(document).ready(function () {
 
   if ($("#events-index")) {
     $("#events-index .first-section h2").after(
-      `<p class='text-center'>${eventIntros}</p>`
+      `<p class='text-center'>${eventIntro}</p>`
     );
   }
 
