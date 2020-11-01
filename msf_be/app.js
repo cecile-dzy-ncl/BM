@@ -10,6 +10,8 @@ $(document).ready(function () {
       var btnSee = "See all projects";
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+      var eventIntro =
+        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
       var legendCollectes = "projects";
       var legendRecoltes = "collected";
       var legendObjectif = "Goal";
@@ -22,6 +24,8 @@ $(document).ready(function () {
       var btnSee = "Bekijk alle projecten";
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
+      var eventIntro =
+        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
 
       var legendCollectes = "inzamelacties";
       var legendRecoltes = "ingezameld";
@@ -35,6 +39,8 @@ $(document).ready(function () {
       var btnSee = "Voir les collectes";
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
+      var eventIntro =
+        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
 
       var legendCollectes = "collectes";
       var legendRecoltes = "récoltés";
@@ -85,6 +91,12 @@ $(document).ready(function () {
   if ($("#projects-index")) {
     $("#projects-index .first-section h2").after(
       `<p class='text-center'>${projectIntro}</p>`
+    );
+  }
+
+  if ($("#events-index")) {
+    $("#events-index .first-section h2").after(
+      `<p class='text-center'>${eventIntros}</p>`
     );
   }
 

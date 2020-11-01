@@ -871,10 +871,12 @@ img.project-thumbnails {
 
 /* page projets avec recherche  */
 
+#events-index h2,
 #projects-index h2 {
   text-align: center;
 }
 
+#events-index h2 + p,
 #projects-index h2 + p {
   margin: 30px auto;
 }
