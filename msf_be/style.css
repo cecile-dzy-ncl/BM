@@ -232,6 +232,11 @@ small {
   width: 524px;
 }
 
+.banner.outils {
+  height: 395px;
+  background: url(https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/Bg-newsletter.jpg);
+}
+
 /* NAVBAR */
 
 #main-nav {
@@ -932,6 +937,19 @@ ul.pagination li button:hover {
   margin-bottom: 0;
   max-width: 71.25em;
 } */
+
+.outils-intro {
+  position: relative;
+}
+
+.outils-intro .wrapper {
+  position: absolute;
+  bottom: -170px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+}
 
 /* ------ RESPONSIVE ------ */
 
