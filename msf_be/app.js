@@ -7,6 +7,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "remaining";
       var btnSoutenir = "Support a fundraising event";
       var btnCreer = "Create a fundraising event";
+      var btnSee = "See all projects";
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
       var legendCollectes = "projects";
@@ -18,6 +19,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "resterende";
       var btnSoutenir = "Een crowdfunding steunen";
       var btnCreer = "Een crowdfunding creëren";
+      var btnSee = "Bekijk alle projecten";
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
 
@@ -30,6 +32,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "restants";
       var btnSoutenir = "Soutenir une collecte";
       var btnCreer = "Créer une collecte";
+      var btnSee = "Voir les collectes";
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
 
@@ -278,7 +281,7 @@ $(document).ready(function () {
           var remainingDaysBlock = `
           <div class=''>
           <h5 class='text-center'>${remainingDays}j</h5>
-          <p class='text-center'><small>restant</small></p>
+          <p class='text-center'><small>${remainingDaysLegend}</small></p>
           </div>
           `;
         } else {
@@ -290,8 +293,8 @@ $(document).ready(function () {
           <div class="card card-event">
           <img src="${event.banner_image}">
           <div class="card-event-btns">
-          <a href="${event.url.fr}" class="btn-bm bg-black white">Voir les collectes</a>
-          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">Créer une collecte</a>
+          <a href="${event.url.fr}" class="btn-bm bg-black white">${btnSee}</a>
+          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
           </div>
           <div class="card-event-details">
           <h4>${event.title.fr}</h4>
@@ -303,11 +306,11 @@ $(document).ready(function () {
           <div class='event-numbers d-flex mt-20'>
           <div class=''>
           <h5 class='text-center'>${event.projects_count}</h5>
-          <p class='text-center'><small>collectes</small></p>
+          <p class='text-center'><small>${legendCollectes}</small></p>
           </div>
           <div class=''>
           <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>collectés</small></p>
+          <p class='text-center'><small>${legendRecoltes}</small></p>
           </div>
           ${amountExpectedBlock}
           ${remainingDays}
