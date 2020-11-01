@@ -936,4 +936,12 @@ ul.pagination li button:hover {
   .stats {
     flex-direction: column;
   }
+
+  #how-to {
+    flex-direction: column;
+  }
+
+  #how-to > div {
+    width: 100%;
+  }
 }
