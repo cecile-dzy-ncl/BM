@@ -940,6 +940,7 @@ ul.pagination li button:hover {
 
 .outils-intro {
   position: relative;
+  margin-bottom: 150px;
 }
 
 .outils-intro .wrapper {
