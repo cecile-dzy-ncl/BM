@@ -947,6 +947,10 @@ ul.pagination li button:hover {
     background: white !important;
   }
 
+  #main-nav.expanded .menu-icon {
+    position: initial;
+  }
+
   .header-spacer,
   .btn-actions {
     display: none;
