@@ -27,7 +27,7 @@ $(document).ready(function () {
       break;
     default:
       var btnSoutenir = "Soutenir une collecte";
-      var btnCreer = "Soutenir une collecte";
+      var btnCreer = "Créer une collecte";
       break;
   }
 
