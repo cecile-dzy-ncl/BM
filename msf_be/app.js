@@ -12,6 +12,7 @@ $(document).ready(function () {
       var legendCollectes = "projects";
       var legendRecoltes = "collected";
       var legendObjectif = "Goal";
+      var legendExpected = "expected";
       break;
     case "nl":
       var remainingDaysLegend = "resterende";
@@ -23,6 +24,7 @@ $(document).ready(function () {
       var legendCollectes = "inzamelacties";
       var legendRecoltes = "ingezameld";
       var legendObjectif = "Doel";
+      var legendExpected = "verwachte";
       break;
     default:
       var remainingDaysLegend = "restants";
@@ -34,6 +36,7 @@ $(document).ready(function () {
       var legendCollectes = "collectes";
       var legendRecoltes = "récoltés";
       var legendObjectif = "Objectif";
+      var legendExpected = "attendus";
       break;
   }
 
@@ -261,7 +264,7 @@ $(document).ready(function () {
           var amountExpectedBlock = `
           <div class=''>
           <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>attendus</small></p>
+          <p class='text-center'><small>${legendExpected}</small></p>
           </div>`;
         } else {
           var amountExpectedBlock = "";
