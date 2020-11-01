@@ -952,6 +952,14 @@ ul.pagination li button:hover {
   border-radius: 15px;
 }
 
+#wrapper-ex .row-bm {
+  padding: 40px 0;
+}
+
+#wrapper-ex h4 {
+  text-transform: uppercase;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
