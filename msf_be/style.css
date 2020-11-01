@@ -209,6 +209,7 @@ small {
 
 .banner.homepage h2 {
   color: white !important;
+  text-shadow: var(--shadow);
 }
 
 .banner.homepage-footer {
