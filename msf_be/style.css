@@ -945,4 +945,8 @@ ul.pagination li button:hover {
     width: 100%;
     margin-bottom: 15px;
   }
+
+  .scrolling-wrapper .card {
+    width: 90%;
+  }
 }
