@@ -936,6 +936,12 @@ ul.pagination li button:hover {
   .btn-actions {
     display: none;
   }
+
+  header.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   /* SEARCHBAR */
   #bloc-cta {
     flex-direction: column;
