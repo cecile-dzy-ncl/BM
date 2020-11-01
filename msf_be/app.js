@@ -43,27 +43,30 @@ $(document).ready(function () {
   $("#banner_section").before(bannerMaintenance);
 
   // AJOUT NAV BUTTONS
-  var navButtons = $(".header-spacer nav[role='navigation']").html();
-  $("#header-header").before(
-    `<section id='first-header'><div class='row'></div></section>`
-  );
+  if (window.matchMedia("(min-width: 600px)").matches) {
+    /* La largeur minimum de l'affichage est 600 px inclus */
+    var navButtons = $(".header-spacer nav[role='navigation']").html();
+    $("#header-header").before(
+      `<section id='first-header'><div class='row'></div></section>`
+    );
 
-  $("#first-header > div").html(navButtons);
+    $("#first-header > div").html(navButtons);
 
-  $("#header-header > .row > .columns:last-child").after(
-    `<div class="btn-actions">
-    <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
-    <a class="bg-red" href="">${btnCreer}</a>
-    </div>`
-  );
+    $("#header-header > .row > .columns:last-child").after(
+      `<div class="btn-actions">
+        <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
+        <a class="bg-red" href="">${btnCreer}</a>
+        </div>`
+    );
 
-  $("#header-header > .row > .columns").removeClass(
-    "small-12 medium-12 large-4 large-8 columns"
-  );
+    $("#header-header > .row > .columns").removeClass(
+      "small-12 medium-12 large-4 large-8 columns"
+    );
 
-  $(".header-spacer > div").removeClass(
-    "small-12 medium-push-6 medium-pull-6 medium-6 large-reset-order large-6 columns"
-  );
+    $(".header-spacer > div").removeClass(
+      "small-12 medium-push-6 medium-pull-6 medium-6 large-reset-order large-6 columns"
+    );
+  }
 
   $(".section-my-event > .row > .small-12.medium-9.columns")
     .removeClass("medium-9")
