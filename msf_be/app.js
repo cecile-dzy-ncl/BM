@@ -121,7 +121,18 @@ $(document).ready(function () {
         function (response) {
           console.log(response);
 
-          $(".intro-my-event").before(`<h2>${response.title.fr}</h2>`);
+          switch (lang) {
+            case "en":
+              var eventTitle = response.title.en;
+              break;
+            case "nl":
+              var eventTitle = response.title.nl;
+              break;
+            default:
+              var eventTitle = response.title.fr;
+              break;
+          }
+          $(".intro-my-event").before(`<h2>${eventTitle}</h2>`);
 
           var eventProjectsNb = response.projects_count;
           $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
@@ -130,16 +141,6 @@ $(document).ready(function () {
             Number.parseInt(response.amount_collected, 10) / 100;
           var eventAmountExpected =
             Number.parseInt(response.expected_amount, 10) / 100;
-
-          // $(".event-recap_numbers").html(eventProjectsNb);
-          // $(".amount_collected .stat-nb span").html(
-          //   new Intl.NumberFormat("fr-FR", {
-          //     maximumFractionDigits: 0,
-          //     minimumFractionDigits: 0,
-          //     style: "currency",
-          //     currency: "EUR",
-          //   }).format(eventAmountCollected)
-          // );
 
           $(".event-recap_share").before($("#widget-new-project"));
           $("#widget-new-project a").addClass(
