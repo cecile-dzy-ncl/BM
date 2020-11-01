@@ -183,6 +183,7 @@ small {
   box-shadow: var(--shadow);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* .btn-bm.btn-bm-large {
