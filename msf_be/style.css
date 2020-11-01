@@ -932,4 +932,8 @@ ul.pagination li button:hover {
   #bloc-cta {
     flex-direction: column;
   }
+
+  .stats {
+    flex-direction: column;
+  }
 }
