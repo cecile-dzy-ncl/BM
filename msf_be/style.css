@@ -726,6 +726,10 @@ section#project_tabs + section .row {
   position: relative;
 }
 
+.tabs-content .active.content {
+  padding-top: 50px;
+}
+
 .project_event_description {
   max-width: 71.25rem;
   padding: 2rem 0;
@@ -738,16 +742,8 @@ section#project_tabs + section .row {
   /* text-align: right; */
 }
 
-.credits {
-  position: absolute;
-  left: 30px;
-  bottom: 0px;
-  opacity: 0.5;
-  font-style: italic;
-}
-
-.tabs-content .active.content {
-  padding-top: 50px;
+.project_event_description p {
+  margin-bottom: 10px;
 }
 
 /* ------ PAGE EVENT ------ */
