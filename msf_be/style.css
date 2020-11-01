@@ -1042,4 +1042,9 @@ ul.pagination li button:hover {
   #event-search {
     width: 100%;
   }
+
+  .outils-intro .wrapper {
+    position: relative;
+    bottom: 0;
+  }
 }
