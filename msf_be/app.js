@@ -2,6 +2,41 @@ $(document).ready(function () {
   $("body").addClass("msf-be");
   var lang = $("html").attr("lang");
 
+  switch (lang) {
+    case "en":
+      var remainingDaysLegend = "remaining";
+      var btnSoutenir = "Support a fundraising event";
+      var btnCreer = "Create a fundraising event";
+      var projectIntro =
+        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+      var legendCollectes = "projects";
+      var legendRecoltes = "collected";
+      var legendObjectif = "Goal";
+      break;
+    case "nl":
+      var remainingDaysLegend = "resterende";
+      var btnSoutenir = "Een crowdfunding steunen";
+      var btnCreer = "Een crowdfunding creëren";
+      var projectIntro =
+        "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
+
+      var legendCollectes = "inzamelacties";
+      var legendRecoltes = "ingezameld";
+      var legendObjectif = "Doel";
+      break;
+    default:
+      var remainingDaysLegend = "restants";
+      var btnSoutenir = "Soutenir une collecte";
+      var btnCreer = "Créer une collecte";
+      var projectIntro =
+        "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
+
+      var legendCollectes = "collectes";
+      var legendRecoltes = "récoltés";
+      var legendObjectif = "Objectif";
+      break;
+  }
+
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
@@ -15,21 +50,6 @@ $(document).ready(function () {
   );
 
   $("#first-header > div").html(navButtons);
-
-  switch (lang) {
-    case "en":
-      var btnSoutenir = "Support a fundraising event";
-      var btnCreer = "Create a fundraising event";
-      break;
-    case "nl":
-      var btnSoutenir = "Een crowdfunding steunen";
-      var btnCreer = "Een crowdfunding creëren";
-      break;
-    default:
-      var btnSoutenir = "Soutenir une collecte";
-      var btnCreer = "Créer une collecte";
-      break;
-  }
 
   $("#header-header > .row > .columns:last-child").after(
     `<div class="btn-actions">
@@ -55,20 +75,6 @@ $(document).ready(function () {
     .addClass("medium-12");
 
   if ($("#projects-index")) {
-    switch (lang) {
-      case "en":
-        var projectIntro =
-          "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
-        break;
-      case "nl":
-        var projectIntro =
-          "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
-        break;
-      default:
-        var projectIntro =
-          "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
-        break;
-    }
     $("#projects-index .first-section h2").after(
       `<p class='text-center'>${projectIntro}</p>`
     );
@@ -77,21 +83,6 @@ $(document).ready(function () {
   $(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
-
-      switch (lang) {
-        case "en":
-          var legendCollectes = "projects";
-          var legendRecoltes = "collected";
-          break;
-        case "nl":
-          var legendCollectes = "inzamelacties";
-          var legendRecoltes = "ingezameld";
-          break;
-        default:
-          var legendCollectes = "collectes";
-          var legendRecoltes = "récoltés";
-          break;
-      }
 
       $("section.event-head > .row > div:last-child").prepend(
         `
@@ -210,16 +201,16 @@ $(document).ready(function () {
                 <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
               </div>
               <div class="d-flex justify-between">
-                <p class="uppercase">${eventProgress}% collectés</p>
-                <p class="uppercase mediumgrey">Objectif: ${new Intl.NumberFormat(
-                  "fr-FR",
-                  {
-                    maximumFractionDigits: 0,
-                    minimumFractionDigits: 0,
-                    style: "currency",
-                    currency: "EUR",
-                  }
-                ).format(eventAmountExpected)}</p>
+                <p class="uppercase">${eventProgress}% ${legendCollectes}</p>
+                <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
+              "fr-FR",
+              {
+                maximumFractionDigits: 0,
+                minimumFractionDigits: 0,
+                style: "currency",
+                currency: "EUR",
+              }
+            ).format(eventAmountExpected)}</p>
               </div>`;
             $(".event-recap_progress").html(eventProgressBar);
           }
