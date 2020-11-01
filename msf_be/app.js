@@ -5,7 +5,7 @@ $(document).ready(function () {
   switch (lang) {
     case "en":
       var remainingDaysLegend = "remaining";
-      var btnSoutenir = "Support a fundraising event";
+      var btnSoutenir = "Support an event";
       var btnCreer = "Create a page";
       var btnSee = "See all projects";
       var projectIntro =
