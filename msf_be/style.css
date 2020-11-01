@@ -86,7 +86,8 @@
 }
 
 *,
-p {
+p,
+.top-bar-section ul li > a {
   color: var(--grey);
   font-family: "DINPro";
 }
