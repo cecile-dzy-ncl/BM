@@ -416,7 +416,7 @@ input[name="search"] {
 }
 
 .stat p,
-.stat span {
+.stat {
   text-align: center;
 }
 
