@@ -931,6 +931,11 @@ ul.pagination li button:hover {
   #main-nav {
     display: block;
   }
+
+  .header-spacer,
+  .btn-actions {
+    display: none;
+  }
   /* SEARCHBAR */
   #bloc-cta {
     flex-direction: column;
