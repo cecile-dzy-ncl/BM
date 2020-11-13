@@ -575,6 +575,18 @@ div#events-block .container-bm > div {
 .event-progressbar,
 .event-progress-perc {
   height: 20px;
+  position: relative;
+}
+
+.event-progress-perc.bg-red:after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px; /*changer par largeur de 15px */
+  background: var(--red);
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
 }
 
 .event-progressbar {
@@ -964,6 +976,19 @@ ul.pagination li button:hover {
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
+  .container-bm,
+  .container-large-bm,
+  .container-medium-bm,
+  .container-small-bm,
+  .container-xs-bm,
+  .container-xsmall-bm {
+    width: 90% !important;
+  }
+
+  #bloc-stats {
+    padding: 30px 0;
+  }
+
   #main-nav {
     display: block;
   }
