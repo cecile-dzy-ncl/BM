@@ -89,329 +89,329 @@ $(document).ready(function () {
     .removeClass("medium-11 medium-offset-1")
     .addClass("medium-12");
 
-  if ($("#projects-index")) {
-    $("#projects-index .first-section h2").after(
-      `<p class='text-center'>${projectIntro}</p>`
-    );
-  }
-
-  if ($("#events-index")) {
-    $("#events-index .first-section h2").after(
-      `<p class='text-center'>${eventIntro}</p>`
-    );
-  }
-
-  $(function () {
-    if ($("body").is("#events-show")) {
-      // ajout du bloc stats en début de page
-
-      $("section.event-head > .row > div:last-child").prepend(
-        `
-        <div class='event-recap'>
-          <div class='event-recap_numbers'>
-          <div class='w-25 collecte border-right'>
-          <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>${legendCollectes}</small></p>
-          </div>
-          <div class='w-50 recolte flex-grow-1'>
-          <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
-          </div>
-          </div>
-          <div class='event-recap_progress'></div>
-          <div class='event-recap_share'></div>
-        </div>
-        `
-      );
-
-      if ($(".event-inscription")) {
-        $(".event-recap_progress").after($(".event-inscription"));
-      }
-
-      $(".event-recap_numbers .recolte h5").html($(".current-amount").html());
-      $(".event-recap_share").html($(".block-share-container"));
-
-      var eventId = $("#events-show")[0]
-        .classList.value.match(/event_\d+/g)[0]
-        .split("_")[1];
-
-      if (eventId === "88") {
-        console.log("urgence");
-      }
-      $.get(
-        `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-        function (response) {
-          console.log(response);
-
-          switch (lang) {
-            case "en":
-              var eventTitle = response.title.en;
-              break;
-            case "nl":
-              var eventTitle = response.title.nl;
-              break;
-            default:
-              var eventTitle = response.title.fr;
-              break;
-          }
-          $(".intro-my-event").before(`<h2>${eventTitle}</h2>`);
-
-          var eventProjectsNb = response.projects_count;
-          $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
-
-          var eventAmountCollected =
-            Number.parseInt(response.amount_collected, 10) / 100;
-          var eventAmountExpected =
-            Number.parseInt(response.expected_amount, 10) / 100;
-
-          $(".event-recap_share").before($("#widget-new-project"));
-          $("#widget-new-project a").addClass(
-            "btn-bm bg-red white uppercase w-100"
-          );
-
-          var today = new Date();
-
-          if (response.end != null) {
-            var eventEndDate = new Date(response.end);
-            if (eventEndDate < today) {
-              var remainingDays = 0;
-              switch (lang) {
-                case "en":
-                  var remainingDaysLegend = "closed";
-                  break;
-                case "nl":
-                  var remainingDaysLegend = "afgewerkt";
-                  break;
-                default:
-                  var remainingDaysLegend = "terminé";
-                  break;
-              }
-            } else {
-              var remainingDays = Math.ceil(
-                (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-              );
-              switch (lang) {
-                case "en":
-                  var remainingDaysLegend = "remaining";
-                  break;
-                case "nl":
-                  var remainingDaysLegend = "resterende";
-                  break;
-                default:
-                  var remainingDaysLegend = "restants";
-                  break;
-              }
-            }
-
-            $(".event-recap .recolte").after(
-              `
-                <div class='w-25 days border-left'>
-                  <h5 class='text-center'>${remainingDays}j</h5>
-                  <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
-                </div>
-              `
-            );
-          }
-
-          if (response.expected_amount != null) {
-            var eventProgress = Math.round(
-              (eventAmountCollected / eventAmountExpected) * 100
-            );
-            console.log("eventProgress", eventProgress);
-            var eventProgressBar = `
-              <div class="event-progressbar bg-lightgrey">
-                <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
-              </div>
-              <div class="d-flex justify-between">
-                <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
-                <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
-              "fr-FR",
-              {
-                maximumFractionDigits: 0,
-                minimumFractionDigits: 0,
-                style: "currency",
-                currency: "EUR",
-              }
-            ).format(eventAmountExpected)}</p>
-              </div>`;
-            $(".event-recap_progress").html(eventProgressBar);
-          }
-        }
-      );
-    }
-  });
-
-  // if ($(".graph-bar")) {
-  //   console.log($(".graph-bar"));
-  //   $(".graph-bar").each(function () {
-  //     console.log(this);
-  //     this.css(
-  //       "background",
-  //       "linear-gradient(137deg, rgba(255,44,0,1) 0%, rgba(255,44,0,1) 50%, rgba(125,3,0,0.8561799719887955) 50%, rgba(0,0,0,0) 55%);"
-  //     );
-  //   });
+  // if ($("#projects-index")) {
+  //   $("#projects-index .first-section h2").after(
+  //     `<p class='text-center'>${projectIntro}</p>`
+  //   );
   // }
 
-  $(function () {
-    if ($("body").is("#indexs-index")) {
-      const injectCard = (eventCard, cardContainer) => {
-        // console.log(cardContainer);
-        $(cardContainer).append(eventCard);
-      };
+  // if ($("#events-index")) {
+  //   $("#events-index .first-section h2").after(
+  //     `<p class='text-center'>${eventIntro}</p>`
+  //   );
+  // }
 
-      const buildCard = (event, eventContainer) => {
-        // console.log(event);
-        var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-        var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
-          maximumFractionDigits: 0,
-          minimumFractionDigits: 0,
-          style: "currency",
-          currency: "EUR",
-        }).format(eventAmountCollected);
+  // $(function () {
+  //   if ($("body").is("#events-show")) {
+  //     // ajout du bloc stats en début de page
 
-        if (event.expected_amount) {
-          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-          var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
-            maximumFractionDigits: 0,
-            minimumFractionDigits: 0,
-            style: "currency",
-            currency: "EUR",
-          }).format(eventAmountExpected);
-          var amountExpectedBlock = `
-          <div class=''>
-          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>${legendExpected}</small></p>
-          </div>`;
-        } else {
-          var amountExpectedBlock = "";
-        }
-        // var today = new Date();
-        if (eventEndDate != null) {
-          var eventEndDate = new Date(event.end);
-          var remainingDays = Math.ceil(
-            (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-          );
-          var remainingDaysBlock = `
-          <div class=''>
-          <h5 class='text-center'>${remainingDays}j</h5>
-          <p class='text-center'><small>${remainingDaysLegend}</small></p>
-          </div>
-          `;
-        } else {
-          var remainingDays = "";
-        }
-        var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
+  //     $("section.event-head > .row > div:last-child").prepend(
+  //       `
+  //       <div class='event-recap'>
+  //         <div class='event-recap_numbers'>
+  //         <div class='w-25 collecte border-right'>
+  //         <h5 class='text-center'></h5>
+  //         <p class='text-center uppercase'><small>${legendCollectes}</small></p>
+  //         </div>
+  //         <div class='w-50 recolte flex-grow-1'>
+  //         <h5 class='text-center'></h5>
+  //         <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
+  //         </div>
+  //         </div>
+  //         <div class='event-recap_progress'></div>
+  //         <div class='event-recap_share'></div>
+  //       </div>
+  //       `
+  //     );
 
-        switch (lang) {
-          case "en":
-            var eventUrl = event.url.en;
-            var eventTitle = event.title.en;
-            var eventDescription = event.description.en;
-            break;
-          case "nl":
-            var eventUrl = event.url.nl;
-            var eventTitle = event.title.nl;
-            var eventDescription = event.description.nl;
-            break;
-          default:
-            var eventUrl = event.url.fr;
-            var eventTitle = event.title.fr;
-            var eventDescription = event.description.fr;
-            break;
-        }
+  //     if ($(".event-inscription")) {
+  //       $(".event-recap_progress").after($(".event-inscription"));
+  //     }
 
-        const card = `
-          <div class="card card-event">
-          <img src="${event.banner_image}">
-          <div class="card-event-btns">
-          <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
-          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
-          </div>
-          <div class="card-event-details">
-          <h4>${eventTitle}</h4>
-          <p>${eventDescription}</p>
-          <div>
-          <div class='event-progressbar bg-lightgrey'>
-          <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
-          </div> 
-          <div class='event-numbers d-flex mt-20'>
-          <div class=''>
-          <h5 class='text-center'>${event.projects_count}</h5>
-          <p class='text-center'><small>${legendCollectes}</small></p>
-          </div>
-          <div class=''>
-          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>${legendRecoltes}</small></p>
-          </div>
-          ${amountExpectedBlock}
-          ${remainingDays}
-          </div>
-          </div>
-          `;
-        injectCard(card, eventContainer);
-      };
+  //     $(".event-recap_numbers .recolte h5").html($(".current-amount").html());
+  //     $(".event-recap_share").html($(".block-share-container"));
 
-      const fetchData = (event, eventContainer) => {
-        $.get(
-          `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-          function (response) {
-            buildCard(response, eventContainer);
-          }
-        );
-      };
+  //     var eventId = $("#events-show")[0]
+  //       .classList.value.match(/event_\d+/g)[0]
+  //       .split("_")[1];
 
-      // 8 - Naissance,
-      // 10 - Mariage/Anniversaire de mariage,
-      // 9 - Anniversaire,
-      // 11 - In Memoriam,
-      // 5 - Evènement Sportif,
-      // Evènement Culturel
-      var collectesEvents = [8, 9, 10, 11, 5];
-      $("#collectes-scroll .scrolling-wrapper").html("");
-      $.each(collectesEvents, function (key, value) {
-        fetchData(value, "#collectes-scroll .scrolling-wrapper");
-        // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
-      });
+  //     if (eventId === "88") {
+  //       console.log("urgence");
+  //     }
+  //     $.get(
+  //       `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+  //       function (response) {
+  //         console.log(response);
 
-      // 85 - 20km 2021
-      // 86 - Ekiden 2021
-      var events = [85, 86];
-      $("#events-scroll .scrolling-wrapper").html("");
-      $.each(events, function (key, value) {
-        fetchData(value, "#events-scroll .scrolling-wrapper");
-        // injectCard("#events-scroll .scrolling-wrapper");
-      });
+  //         switch (lang) {
+  //           case "en":
+  //             var eventTitle = response.title.en;
+  //             break;
+  //           case "nl":
+  //             var eventTitle = response.title.nl;
+  //             break;
+  //           default:
+  //             var eventTitle = response.title.fr;
+  //             break;
+  //         }
+  //         $(".intro-my-event").before(`<h2>${eventTitle}</h2>`);
 
-      // 88 - COVID
-      var urgencesEvents = [88];
-      $("#urgences-scroll .scrolling-wrapper").html("");
-      $.each(urgencesEvents, function (key, value) {
-        fetchData(value, "#urgences-scroll .scrolling-wrapper");
-        // injectCard(value, "#urgences-scroll .scrolling-wrapper");
-      });
-    }
-  });
+  //         var eventProjectsNb = response.projects_count;
+  //         $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
 
-  // custom blocs
-  if ($("#events-show .event-head .custom-block")) {
-    $(".event-head").after($(".custom-block"));
-  }
+  //         var eventAmountCollected =
+  //           Number.parseInt(response.amount_collected, 10) / 100;
+  //         var eventAmountExpected =
+  //           Number.parseInt(response.expected_amount, 10) / 100;
 
-  $("#project-search").submit(function () {
-    event.preventDefault();
-    var project_search = $(this).find("input")[0].value;
-    sessionStorage.setItem("project_search", project_search);
-    console.log(sessionStorage);
-    window.location.href = `https://events.msf-azg.be/projects?search=${project_search}&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer`;
-  });
+  //         $(".event-recap_share").before($("#widget-new-project"));
+  //         $("#widget-new-project a").addClass(
+  //           "btn-bm bg-red white uppercase w-100"
+  //         );
 
-  $("#event-search").submit(function () {
-    event.preventDefault();
-    var event_search = $(this).find("input")[0].value;
-    sessionStorage.setItem("event_search", event_search);
-    console.log(sessionStorage);
-    window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
-  });
+  //         var today = new Date();
+
+  //         if (response.end != null) {
+  //           var eventEndDate = new Date(response.end);
+  //           if (eventEndDate < today) {
+  //             var remainingDays = 0;
+  //             switch (lang) {
+  //               case "en":
+  //                 var remainingDaysLegend = "closed";
+  //                 break;
+  //               case "nl":
+  //                 var remainingDaysLegend = "afgewerkt";
+  //                 break;
+  //               default:
+  //                 var remainingDaysLegend = "terminé";
+  //                 break;
+  //             }
+  //           } else {
+  //             var remainingDays = Math.ceil(
+  //               (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+  //             );
+  //             switch (lang) {
+  //               case "en":
+  //                 var remainingDaysLegend = "remaining";
+  //                 break;
+  //               case "nl":
+  //                 var remainingDaysLegend = "resterende";
+  //                 break;
+  //               default:
+  //                 var remainingDaysLegend = "restants";
+  //                 break;
+  //             }
+  //           }
+
+  //           $(".event-recap .recolte").after(
+  //             `
+  //               <div class='w-25 days border-left'>
+  //                 <h5 class='text-center'>${remainingDays}j</h5>
+  //                 <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
+  //               </div>
+  //             `
+  //           );
+  //         }
+
+  //         if (response.expected_amount != null) {
+  //           var eventProgress = Math.round(
+  //             (eventAmountCollected / eventAmountExpected) * 100
+  //           );
+  //           console.log("eventProgress", eventProgress);
+  //           var eventProgressBar = `
+  //             <div class="event-progressbar bg-lightgrey">
+  //               <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
+  //             </div>
+  //             <div class="d-flex justify-between">
+  //               <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
+  //               <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
+  //             "fr-FR",
+  //             {
+  //               maximumFractionDigits: 0,
+  //               minimumFractionDigits: 0,
+  //               style: "currency",
+  //               currency: "EUR",
+  //             }
+  //           ).format(eventAmountExpected)}</p>
+  //             </div>`;
+  //           $(".event-recap_progress").html(eventProgressBar);
+  //         }
+  //       }
+  //     );
+  //   }
+  // });
+
+  // // if ($(".graph-bar")) {
+  // //   console.log($(".graph-bar"));
+  // //   $(".graph-bar").each(function () {
+  // //     console.log(this);
+  // //     this.css(
+  // //       "background",
+  // //       "linear-gradient(137deg, rgba(255,44,0,1) 0%, rgba(255,44,0,1) 50%, rgba(125,3,0,0.8561799719887955) 50%, rgba(0,0,0,0) 55%);"
+  // //     );
+  // //   });
+  // // }
+
+  // $(function () {
+  //   if ($("body").is("#indexs-index")) {
+  //     const injectCard = (eventCard, cardContainer) => {
+  //       // console.log(cardContainer);
+  //       $(cardContainer).append(eventCard);
+  //     };
+
+  //     const buildCard = (event, eventContainer) => {
+  //       // console.log(event);
+  //       var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
+  //       var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
+  //         maximumFractionDigits: 0,
+  //         minimumFractionDigits: 0,
+  //         style: "currency",
+  //         currency: "EUR",
+  //       }).format(eventAmountCollected);
+
+  //       if (event.expected_amount) {
+  //         var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+  //         var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+  //           maximumFractionDigits: 0,
+  //           minimumFractionDigits: 0,
+  //           style: "currency",
+  //           currency: "EUR",
+  //         }).format(eventAmountExpected);
+  //         var amountExpectedBlock = `
+  //         <div class=''>
+  //         <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+  //         <p class='text-center'><small>${legendExpected}</small></p>
+  //         </div>`;
+  //       } else {
+  //         var amountExpectedBlock = "";
+  //       }
+  //       // var today = new Date();
+  //       if (eventEndDate != null) {
+  //         var eventEndDate = new Date(event.end);
+  //         var remainingDays = Math.ceil(
+  //           (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+  //         );
+  //         var remainingDaysBlock = `
+  //         <div class=''>
+  //         <h5 class='text-center'>${remainingDays}j</h5>
+  //         <p class='text-center'><small>${remainingDaysLegend}</small></p>
+  //         </div>
+  //         `;
+  //       } else {
+  //         var remainingDays = "";
+  //       }
+  //       var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
+
+  //       switch (lang) {
+  //         case "en":
+  //           var eventUrl = event.url.en;
+  //           var eventTitle = event.title.en;
+  //           var eventDescription = event.description.en;
+  //           break;
+  //         case "nl":
+  //           var eventUrl = event.url.nl;
+  //           var eventTitle = event.title.nl;
+  //           var eventDescription = event.description.nl;
+  //           break;
+  //         default:
+  //           var eventUrl = event.url.fr;
+  //           var eventTitle = event.title.fr;
+  //           var eventDescription = event.description.fr;
+  //           break;
+  //       }
+
+  //       const card = `
+  //         <div class="card card-event">
+  //         <img src="${event.banner_image}">
+  //         <div class="card-event-btns">
+  //         <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
+  //         <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
+  //         </div>
+  //         <div class="card-event-details">
+  //         <h4>${eventTitle}</h4>
+  //         <p>${eventDescription}</p>
+  //         <div>
+  //         <div class='event-progressbar bg-lightgrey'>
+  //         <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
+  //         </div>
+  //         <div class='event-numbers d-flex mt-20'>
+  //         <div class=''>
+  //         <h5 class='text-center'>${event.projects_count}</h5>
+  //         <p class='text-center'><small>${legendCollectes}</small></p>
+  //         </div>
+  //         <div class=''>
+  //         <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+  //         <p class='text-center'><small>${legendRecoltes}</small></p>
+  //         </div>
+  //         ${amountExpectedBlock}
+  //         ${remainingDays}
+  //         </div>
+  //         </div>
+  //         `;
+  //       injectCard(card, eventContainer);
+  //     };
+
+  //     const fetchData = (event, eventContainer) => {
+  //       $.get(
+  //         `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+  //         function (response) {
+  //           buildCard(response, eventContainer);
+  //         }
+  //       );
+  //     };
+
+  //     // 8 - Naissance,
+  //     // 10 - Mariage/Anniversaire de mariage,
+  //     // 9 - Anniversaire,
+  //     // 11 - In Memoriam,
+  //     // 5 - Evènement Sportif,
+  //     // Evènement Culturel
+  //     var collectesEvents = [8, 9, 10, 11, 5];
+  //     $("#collectes-scroll .scrolling-wrapper").html("");
+  //     $.each(collectesEvents, function (key, value) {
+  //       fetchData(value, "#collectes-scroll .scrolling-wrapper");
+  //       // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
+  //     });
+
+  //     // 85 - 20km 2021
+  //     // 86 - Ekiden 2021
+  //     var events = [85, 86];
+  //     $("#events-scroll .scrolling-wrapper").html("");
+  //     $.each(events, function (key, value) {
+  //       fetchData(value, "#events-scroll .scrolling-wrapper");
+  //       // injectCard("#events-scroll .scrolling-wrapper");
+  //     });
+
+  //     // 88 - COVID
+  //     var urgencesEvents = [88];
+  //     $("#urgences-scroll .scrolling-wrapper").html("");
+  //     $.each(urgencesEvents, function (key, value) {
+  //       fetchData(value, "#urgences-scroll .scrolling-wrapper");
+  //       // injectCard(value, "#urgences-scroll .scrolling-wrapper");
+  //     });
+  //   }
+  // });
+
+  // // custom blocs
+  // if ($("#events-show .event-head .custom-block")) {
+  //   $(".event-head").after($(".custom-block"));
+  // }
+
+  // $("#project-search").submit(function () {
+  //   event.preventDefault();
+  //   var project_search = $(this).find("input")[0].value;
+  //   sessionStorage.setItem("project_search", project_search);
+  //   console.log(sessionStorage);
+  //   window.location.href = `https://events.msf-azg.be/projects?search=${project_search}&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer`;
+  // });
+
+  // $("#event-search").submit(function () {
+  //   event.preventDefault();
+  //   var event_search = $(this).find("input")[0].value;
+  //   sessionStorage.setItem("event_search", event_search);
+  //   console.log(sessionStorage);
+  //   window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
+  // });
 
   // --------- RESPONSIVE ---------
 
