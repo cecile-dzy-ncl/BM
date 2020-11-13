@@ -65,10 +65,11 @@ $(document).ready(function () {
     $("#first-header > div").html(navButtons);
 
     $("#header-header > .row > .columns:last-child").after(
-      `<div class="btn-actions">
-        <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
-        <a class="bg-red" href="">${btnCreer}</a>
-        </div>`
+      "<div class='btn-actions'><a class='bg-grey' href='https://events.msf-azg.be/projects'>" +
+        btnSoutenir +
+        "</a><a class='bg-red' href=''>" +
+        btnCreer +
+        "</a></div>"
     );
 
     $("#header-header > .row > .columns").removeClass(
