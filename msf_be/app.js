@@ -223,12 +223,12 @@ $(document).ready(function () {
             );
             console.log("eventProgress", eventProgress);
             var eventProgressBar = `
-                      <div class="event-progressbar bg-lightgrey">
-                      <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
-                      </div>
-                      <div class="d-flex justify-between">
-                      <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
-                      <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
+              <div class="event-progressbar bg-lightgrey">
+              <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
+              </div>
+              <div class="d-flex justify-between">
+              <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
+              <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
               "fr-FR",
               {
                 maximumFractionDigits: 0,
@@ -237,12 +237,12 @@ $(document).ready(function () {
                 currency: "EUR",
               }
             ).format(eventAmountExpected)}</p>
-                        </div>`;
+            </div>`;
             $(".event-recap_progress").html(eventProgressBar);
           }
 
           if ($(".event-details .btn-donate")) {
-            $("#widget-new-project").after(".btn-donate");
+            $("#widget-new-project").after($(".btn-donate"));
           }
         }
       );
