@@ -465,6 +465,7 @@ $(document).ready(function () {
   setTimeout(function () {
     console.log("2000");
     $("#collectes-scroll .scrolling-wrapper").slick({
+      accessibility: true,
       autoplay: false,
       infinite: false,
       slidesToShow: 3,
@@ -472,9 +473,9 @@ $(document).ready(function () {
       dots: false,
       speed: 500,
       prevArrow:
-        '<buttton id="prev" class="controls"><i class="fas fa-arrow-left"></i></buttton>',
+        '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
       nextArrow:
-        '<buttton id="next" class="controls"><i class="fas fa-arrow-right"></i></buttton>',
+        '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
     });
   }, 2000);
 });
