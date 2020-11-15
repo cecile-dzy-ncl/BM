@@ -417,7 +417,7 @@ $(document).ready(function () {
 
       $("#prev").on("click", function () {
         console.log($(this));
-        console.log($(this).parentNode);
+        console.log($(this)[0].parentNode);
       });
     }
   });
