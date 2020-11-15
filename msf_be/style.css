@@ -486,19 +486,12 @@ div#events-block .container-bm > div {
   margin-bottom: 20px;
 }
 
-#collectes-scroll,
-#events-scroll,
-#urgences-scroll {
-  position: relative;
-}
-
 .scrolling-wrapper {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 0 10px;
   margin: 0 -10px;
-  position: relative;
 }
 
 .scrolling-wrapper .card {
@@ -570,7 +563,13 @@ div#events-block .container-bm > div {
   color: var(--red);
 }
 
-.scrolling-wrapper .controls {
+#collectes-scroll,
+#events-scroll,
+#urgences-scroll {
+  position: relative;
+}
+
+.block-scroll .controls {
   position: absolute;
   top: 50%;
   transform: translateX(-50%);
