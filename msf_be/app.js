@@ -471,8 +471,10 @@ $(document).ready(function () {
       slidesToScroll: 1,
       dots: false,
       speed: 500,
-      prevArrow: '<buttton id="prev" class="controls"><i class="fas fa-arrow-left"></i></buttton>'
-      nextArrow: '<buttton id="next" class="controls"><i class="fas fa-arrow-right"></i></buttton>'
+      prevArrow:
+        '<buttton id="prev" class="controls"><i class="fas fa-arrow-left"></i></buttton>',
+      nextArrow:
+        '<buttton id="next" class="controls"><i class="fas fa-arrow-right"></i></buttton>',
     });
   }, 2000);
 });
