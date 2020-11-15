@@ -556,6 +556,13 @@ div#events-block .container-bm > div {
   justify-content: space-evenly;
 }
 
+.card-event .event-numbers > div h5 {
+  color: var(--grey);
+}
+.card-event .event-numbers > div:last-of-type h5 {
+  color: var(--red);
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
