@@ -390,7 +390,7 @@ $(document).ready(function () {
       });
 
       if (collectesEvents.length > 3) {
-        $("#collectes-scroll .scrolling-wrapper").insertAdjacentHTML(`
+        $("#collectes-scroll .scrolling-wrapper").append(`
           <div id="prev" class="controls">prev</div>
           <div id="next" class="controls">next</div>
         `);
