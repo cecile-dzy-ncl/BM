@@ -370,21 +370,28 @@ $(document).ready(function () {
         fetchData(value, $("#collectes-scroll .scrolling-wrapper"));
       });
 
+      // je recupère les collectes
+      // pour chacune, je vais chercher la data
+      // je construis une carte
+      // je remplis l'array
+      // j'injecte l'array de cards dans le html
+      // si plus de 3 cards, je lance le slick
+
       if (collectesEvents.length > 3) {
         console.log("coucou");
         // $("#collectes-scroll").append(`
         //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
         //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         // `);
-        // $("#collectes-scroll .scrolling-wrapper").slick({
-        //   autoplay: false,
-        //   infinite: false,
-        //   slidesToShow: 3,
-        //   slidesToScroll: 3,
-        //   dots: false,
-        //   speed: 500,
-        // });
       }
+      $("#collectes-scroll .scrolling-wrapper").slick({
+        autoplay: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: false,
+        speed: 500,
+      });
 
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
