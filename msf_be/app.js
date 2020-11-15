@@ -388,6 +388,10 @@ $(document).ready(function () {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
         // injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
+
+      if (collectesEvent.length > 3) {
+        console.log(collectesEvents);
+      }
     }
   });
 
