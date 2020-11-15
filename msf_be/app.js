@@ -113,11 +113,11 @@ $(document).ready(function () {
         `
         <div class='event-recap'>
         <div class='event-recap_numbers'>
-        <div class='w-25 collecte border-right'>
+        <div class='collecte border-right'>
         <h5 class='text-center'></h5>
         <p class='text-center uppercase'><small>${legendCollectes}</small></p>
         </div>
-        <div class='w-50 recolte flex-grow-1'>
+        <div class='recolte'>
         <h5 class='text-center'></h5>
         <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
         </div>
@@ -209,7 +209,7 @@ $(document).ready(function () {
 
             $(".event-recap .recolte").after(
               `
-                    <div class='w-25 days border-left'>
+                    <div class='days border-left'>
                     <h5 class='text-center'>${remainingDays}j</h5>
                     <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
                     </div>
