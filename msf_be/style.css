@@ -569,7 +569,8 @@ div#events-block .container-bm > div {
   position: relative;
 }
 
-.block-scroll .controls {
+.block-scroll .controls,
+.slick-arrow {
   position: absolute;
   top: 50%;
   /* transform: translate(50%, -50%); */
@@ -584,12 +585,14 @@ div#events-block .container-bm > div {
   font-size: 20px;
 }
 
-.block-scroll .controls#prev {
+.block-scroll .controls#prev,
+.slick-prev {
   left: -2%;
   transform: translate(-100%, -50%);
 }
 
-.block-scroll .controls#next {
+.block-scroll .controls#next,
+.slick-next {
   right: 0;
   transform: translate(75%, -50%);
 }

@@ -468,9 +468,9 @@ $(document).ready(function () {
       autoplay: false,
       infinite: false,
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
       dots: false,
       speed: 500,
     });
-  }, 3000);
+  }, 200);
 });
