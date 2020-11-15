@@ -841,6 +841,10 @@ section#project_tabs + section .row {
   display: none;
 }
 
+.event-head #widget-new-project a {
+  font-size: 16px;
+}
+
 /* section.event-head,
 .section-my-event {
   width: 65%;
