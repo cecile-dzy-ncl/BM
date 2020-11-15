@@ -389,7 +389,7 @@ $(document).ready(function () {
         // injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      if (collectesEvent.length > 3) {
+      if (collectesEvents.length > 3) {
         console.log(collectesEvents);
       }
     }
