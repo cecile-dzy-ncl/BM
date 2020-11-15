@@ -492,6 +492,7 @@ div#events-block .container-bm > div {
   overflow-x: auto;
   padding: 0 10px;
   margin: 0 -10px;
+  position: relative;
 }
 
 .scrolling-wrapper .card {
@@ -561,6 +562,20 @@ div#events-block .container-bm > div {
 }
 .card-event .event-numbers > div:last-of-type h5 {
   color: var(--red);
+}
+
+.scrolling-wrapper .controls {
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.scrolling-wrapper .controls#prev {
+  left: 0;
+}
+
+.scrolling-wrapper .controls#next {
+  right: 0;
 }
 
 /* ------ PANEL ------ */
