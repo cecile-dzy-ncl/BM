@@ -575,11 +575,11 @@ div#events-block .container-bm > div {
   transform: translateX(-50%);
 }
 
-.scrolling-wrapper .controls#prev {
+.block-scroll .controls#prev {
   left: 0;
 }
 
-.scrolling-wrapper .controls#next {
+.block-scroll .controls#next {
   right: 0;
 }
 
