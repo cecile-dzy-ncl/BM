@@ -325,33 +325,33 @@ $(document).ready(function () {
         }
 
         const card = `
-                                    <div class="card card-event">
-                                    <img src="${event.banner_image}">
-                                    <div class="card-event-btns">
-                                    <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
-                                    <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
-                                    </div>
-                                    <div class="card-event-details">
-                                    <h4>${eventTitle}</h4>
-                                    <p>${eventDescription}</p>
-                                    <div>
-                                    <div class='event-progressbar bg-lightgrey'>
-                                    <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
-                                    </div> 
-                                    <div class='event-numbers d-flex mt-20'>
-                                    <div class=''>
-                                    <h5 class='text-center'>${event.projects_count}</h5>
-                                    <p class='text-center'><small>${legendCollectes}</small></p>
-                                    </div>
-                                    <div class=''>
-                                    <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-                                    <p class='text-center'><small>${legendRecoltes}</small></p>
-                                    </div>
-                                    ${amountExpectedBlock}
-                                    ${remainingDays}
-                                    </div>
-                                    </div>
-                                    `;
+          <div class="card card-event">
+          <img src="${event.banner_image}">
+          <div class="card-event-btns">
+          <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
+          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
+          </div>
+          <div class="card-event-details">
+          <h4>${eventTitle}</h4>
+          <p>${eventDescription}</p>
+          <div>
+          <div class='event-progressbar bg-lightgrey'>
+          <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
+          </div> 
+          <div class='event-numbers d-flex mt-20'>
+          <div class=''>
+          <h5 class='text-center'>${event.projects_count}</h5>
+          <p class='text-center'><small>${legendCollectes}</small></p>
+          </div>
+          <div class=''>
+          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+          <p class='text-center'><small>${legendRecoltes}</small></p>
+          </div>
+          ${amountExpectedBlock}
+          ${remainingDays}
+          </div>
+          </div>
+          `;
         injectCard(card, eventContainer);
       };
 
@@ -377,13 +377,13 @@ $(document).ready(function () {
       // j'injecte l'array de cards dans le html
       // si plus de 3 cards, je lance le slick
 
-      if (collectesEvents.length > 3) {
-        console.log("coucou");
-        // $("#collectes-scroll").append(`
-        //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-        //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-        // `);
-      }
+      // if (collectesEvents.length > 3) {
+      //   console.log("coucou");
+      //   // $("#collectes-scroll").append(`
+      //   //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+      //   //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+      //   // `);
+      // }
 
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
@@ -397,24 +397,24 @@ $(document).ready(function () {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      if (events.length > 3) {
-        $("#events-scroll").append(`
-        <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-        <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-        `);
-      }
+      // if (events.length > 3) {
+      //   $("#events-scroll").append(`
+      //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+      //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+      //   `);
+      // }
 
-      if (urgencesEvents.length > 3) {
-        $("#urgences-scroll").append(`
-        <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-        <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-        `);
-      }
+      // if (urgencesEvents.length > 3) {
+      //   $("#urgences-scroll").append(`
+      //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+      //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+      //   `);
+      // }
 
-      $("#prev").on("click", function () {
-        console.log($(this));
-        console.log($(this)[0].parentNode);
-      });
+      // $("#prev").on("click", function () {
+      //   console.log($(this));
+      //   console.log($(this)[0].parentNode);
+      // });
     }
   });
 
