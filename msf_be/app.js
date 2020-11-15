@@ -384,14 +384,6 @@ $(document).ready(function () {
         //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         // `);
       }
-      $("#collectes-scroll .scrolling-wrapper").slick({
-        autoplay: false,
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        dots: false,
-        speed: 500,
-      });
 
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
@@ -403,6 +395,14 @@ $(document).ready(function () {
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
+      });
+      $("#collectes-scroll .scrolling-wrapper").slick({
+        autoplay: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: false,
+        speed: 500,
       });
 
       if (events.length > 3) {
