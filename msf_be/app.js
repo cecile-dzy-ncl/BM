@@ -370,27 +370,6 @@ $(document).ready(function () {
         fetchData(value, $("#collectes-scroll .scrolling-wrapper"));
       });
 
-      if (collectesEvents.length > 3) {
-        setTimeout(function () {
-          console.log("2000");
-          $("#collectes-scroll .scrolling-wrapper").slick({
-            accessibility: true,
-            autoplay: false,
-            infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            dots: false,
-            speed: 500,
-            prevArrow:
-              '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
-            nextArrow:
-              '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
-          });
-        }, 2000);
-
-        //   console.log("coucou");
-      }
-
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
@@ -403,19 +382,37 @@ $(document).ready(function () {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      // if (events.length > 3) {
-      //   $("#events-scroll").append(`
-      //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-      //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-      //   `);
-      // }
+      const slickSettings = {
+        accessibility: true,
+        autoplay: false,
+        infinite: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        speed: 500,
+        prevArrow:
+          '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
+        nextArrow:
+          '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
+      };
 
-      // if (urgencesEvents.length > 3) {
-      //   $("#urgences-scroll").append(`
-      //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-      //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-      //   `);
-      // }
+      if (collectesEvents.length > 3) {
+        setTimeout(function () {
+          $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+        }, 2000);
+      }
+
+      if (events.length > 3) {
+        setTimeout(function () {
+          $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+        }, 2000);
+      }
+
+      if (urgencesEvents.length > 3) {
+        setTimeout(function () {
+          $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+        }, 2000);
+      }
     }
   });
 
@@ -457,22 +454,3 @@ $(document).ready(function () {
     // $("#events-show .event-stat").removeClass("border-right");
   }
 });
-
-// $(document).ready(function () {
-// setTimeout(function () {
-//   console.log("2000");
-//   $("#collectes-scroll .scrolling-wrapper").slick({
-//     accessibility: true,
-//     autoplay: false,
-//     infinite: false,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     dots: false,
-//     speed: 500,
-//     prevArrow:
-//       '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
-//     nextArrow:
-//       '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
-//   });
-// }, 2000);
-// });
