@@ -561,7 +561,7 @@ div#events-block .container-bm > div {
 .card-event .event-numbers > div h5 {
   color: var(--grey);
 }
-.card-event .event-numbers > div:last-of-type h5 {
+.card-event .amount-collected-title {
   color: var(--red);
 }
 

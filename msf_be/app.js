@@ -344,7 +344,7 @@ $(document).ready(function () {
           <p class='text-center'><small>${legendCollectes}</small></p>
           </div>
           <div class=''>
-          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+          <h5 class='text-center amount-collected-title'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>${legendRecoltes}</small></p>
           </div>
           ${amountExpectedBlock}
