@@ -401,16 +401,23 @@ $(document).ready(function () {
         `);
       }
 
-      // if (
-      //   collectesEvents.length > 3 ||
-      //   events.length > 3 ||
-      //   urgencesEvents.length > 3
-      // ) {
-      //   $("#collectes-scroll .scrolling-wrapper").insertAdjacentHTML(`
-      //     <div id="prev" class="controls">prev</div>
-      //     <div id="next" class="controls">next</div>
-      //   `);
-      // }
+      if (events.length > 3) {
+        $("#events-scroll").append(`
+          <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+          <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+        `);
+      }
+
+      if (urgencesEvents.length > 3) {
+        $("#urgences-scroll").append(`
+          <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+          <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+        `);
+      }
+
+      $("#dataTable tbody tr").on("click", function () {
+        console.log($(this).text());
+      });
     }
   });
 
