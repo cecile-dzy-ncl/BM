@@ -587,14 +587,14 @@ div#events-block .container-bm > div {
 
 .block-scroll .controls#prev,
 .slick-prev {
-  left: -2%;
+  left: 0;
   transform: translate(-100%, -50%);
 }
 
 .block-scroll .controls#next,
 .slick-next {
   right: 0;
-  transform: translate(75%, -50%);
+  transform: translate(100%, -50%);
 }
 
 /* ------ PANEL ------ */
