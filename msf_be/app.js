@@ -391,8 +391,12 @@ $(document).ready(function () {
           <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
           <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         `);
-        $("#collectes-scroll").slick({
-          dots: true,
+        $("#collectes-scroll .scrolling-wrapper").slick({
+          autoplay: false,
+          infinite: false,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          dots: false,
           speed: 500,
         });
       }
