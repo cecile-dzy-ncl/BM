@@ -390,6 +390,10 @@ $(document).ready(function () {
           <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
           <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         `);
+        $("#collectes-scroll").slick({
+          dots: true,
+          speed: 500,
+        });
       }
 
       if (events.length > 3) {
