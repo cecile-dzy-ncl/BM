@@ -570,7 +570,7 @@ div#events-block .container-bm > div {
 .card-event .event-numbers > div h5 {
   color: var(--grey);
 }
-.card-event .amount-collected-title {
+.card-event .event-numbers > div h5.amount-collected-title {
   color: var(--red);
 }
 
