@@ -364,12 +364,6 @@ $(document).ready(function () {
         );
       };
 
-      // 8 - Naissance,
-      // 10 - Mariage/Anniversaire de mariage,
-      // 9 - Anniversaire,
-      // 11 - In Memoriam,
-      // 5 - Evènement Sportif,
-      // Evènement Culturel
       var collectesEvents = [8, 9, 10, 11, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
@@ -377,8 +371,6 @@ $(document).ready(function () {
         // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
       });
 
-      // 85 - 20km 2021
-      // 86 - Ekiden 2021
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
@@ -386,7 +378,6 @@ $(document).ready(function () {
         // injectCard("#events-scroll .scrolling-wrapper");
       });
 
-      // 88 - COVID
       var urgencesEvents = [88];
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
@@ -422,9 +413,9 @@ $(document).ready(function () {
     }
   });
 
-    $('.your-class').slick({
-      setting-name: setting-value
-    });
+  // $('.your-class').slick({
+  //   setting-name: setting-value
+  // });
 
   // custom blocs
   if ($("#events-show .event-head .custom-block")) {
