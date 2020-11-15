@@ -365,24 +365,25 @@ $(document).ready(function () {
       };
 
       var collectesEvents = [8, 9, 10, 11, 5];
+      var collecteWrapper =
+        collectesEvents.length > 3
+          ? $("#collectes-scroll .scrolling-wrapper .slick-track")
+          : $("#collectes-scroll .scrolling-wrapper");
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
-        fetchData(value, "#collectes-scroll .scrolling-wrapper");
-        // console.log(injectCard("#collectes-scroll .scrolling-wrapper"));
+        fetchData(value, collecteWrapper);
       });
 
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
         fetchData(value, "#events-scroll .scrolling-wrapper");
-        // injectCard("#events-scroll .scrolling-wrapper");
       });
 
       var urgencesEvents = [88];
       $("#urgences-scroll .scrolling-wrapper").html("");
       $.each(urgencesEvents, function (key, value) {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
-        // injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
 
       if (collectesEvents.length > 3) {
