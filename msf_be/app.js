@@ -71,9 +71,9 @@ $(document).ready(function () {
 
     $("#header-header > .row > .columns:last-child").after(
       `<div class="btn-actions">
-        <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
-        <a class="bg-red" href="">${btnCreer}</a>
-        </div>`
+              <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
+              <a class="bg-red" href="">${btnCreer}</a>
+              </div>`
     );
 
     $("#header-header > .row > .columns").removeClass(
@@ -112,18 +112,18 @@ $(document).ready(function () {
       $("section.event-head > .row > div:last-child").prepend(
         `
         <div class='event-recap'>
-          <div class='event-recap_numbers'>
-          <div class='w-25 collecte border-right'>
-          <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>${legendCollectes}</small></p>
-          </div>
-          <div class='w-50 recolte flex-grow-1'>
-          <h5 class='text-center'></h5>
-          <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
-          </div>
-          </div>
-          <div class='event-recap_progress'></div>
-          <div class='event-recap_share'></div>
+        <div class='event-recap_numbers'>
+        <div class='w-25 collecte border-right'>
+        <h5 class='text-center'></h5>
+        <p class='text-center uppercase'><small>${legendCollectes}</small></p>
+        </div>
+        <div class='w-50 recolte flex-grow-1'>
+        <h5 class='text-center'></h5>
+        <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
+        </div>
+        </div>
+        <div class='event-recap_progress'></div>
+        <div class='event-recap_share'></div>
         </div>
         `
       );
@@ -209,11 +209,11 @@ $(document).ready(function () {
 
             $(".event-recap .recolte").after(
               `
-                <div class='w-25 days border-left'>
-                  <h5 class='text-center'>${remainingDays}j</h5>
-                  <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
-                </div>
-              `
+                    <div class='w-25 days border-left'>
+                    <h5 class='text-center'>${remainingDays}j</h5>
+                    <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
+                    </div>
+                    `
             );
           }
 
@@ -223,12 +223,12 @@ $(document).ready(function () {
             );
             console.log("eventProgress", eventProgress);
             var eventProgressBar = `
-              <div class="event-progressbar bg-lightgrey">
-                <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
-              </div>
-              <div class="d-flex justify-between">
-                <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
-                <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
+                      <div class="event-progressbar bg-lightgrey">
+                      <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
+                      </div>
+                      <div class="d-flex justify-between">
+                      <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
+                      <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
               "fr-FR",
               {
                 maximumFractionDigits: 0,
@@ -237,7 +237,7 @@ $(document).ready(function () {
                 currency: "EUR",
               }
             ).format(eventAmountExpected)}</p>
-              </div>`;
+                        </div>`;
             $(".event-recap_progress").html(eventProgressBar);
           }
         }
@@ -282,10 +282,10 @@ $(document).ready(function () {
             currency: "EUR",
           }).format(eventAmountExpected);
           var amountExpectedBlock = `
-          <div class=''>
-          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>${legendExpected}</small></p>
-          </div>`;
+                              <div class=''>
+                              <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+                              <p class='text-center'><small>${legendExpected}</small></p>
+                              </div>`;
         } else {
           var amountExpectedBlock = "";
         }
@@ -296,11 +296,11 @@ $(document).ready(function () {
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
           var remainingDaysBlock = `
-          <div class=''>
-          <h5 class='text-center'>${remainingDays}j</h5>
-          <p class='text-center'><small>${remainingDaysLegend}</small></p>
-          </div>
-          `;
+                                <div class=''>
+                                <h5 class='text-center'>${remainingDays}j</h5>
+                                <p class='text-center'><small>${remainingDaysLegend}</small></p>
+                                </div>
+                                `;
         } else {
           var remainingDays = "";
         }
@@ -325,33 +325,33 @@ $(document).ready(function () {
         }
 
         const card = `
-          <div class="card card-event">
-          <img src="${event.banner_image}">
-          <div class="card-event-btns">
-          <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
-          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
-          </div>
-          <div class="card-event-details">
-          <h4>${eventTitle}</h4>
-          <p>${eventDescription}</p>
-          <div>
-          <div class='event-progressbar bg-lightgrey'>
-          <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
-          </div> 
-          <div class='event-numbers d-flex mt-20'>
-          <div class=''>
-          <h5 class='text-center'>${event.projects_count}</h5>
-          <p class='text-center'><small>${legendCollectes}</small></p>
-          </div>
-          <div class=''>
-          <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>${legendRecoltes}</small></p>
-          </div>
-          ${amountExpectedBlock}
-          ${remainingDays}
-          </div>
-          </div>
-          `;
+                                    <div class="card card-event">
+                                    <img src="${event.banner_image}">
+                                    <div class="card-event-btns">
+                                    <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
+                                    <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
+                                    </div>
+                                    <div class="card-event-details">
+                                    <h4>${eventTitle}</h4>
+                                    <p>${eventDescription}</p>
+                                    <div>
+                                    <div class='event-progressbar bg-lightgrey'>
+                                    <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
+                                    </div> 
+                                    <div class='event-numbers d-flex mt-20'>
+                                    <div class=''>
+                                    <h5 class='text-center'>${event.projects_count}</h5>
+                                    <p class='text-center'><small>${legendCollectes}</small></p>
+                                    </div>
+                                    <div class=''>
+                                    <h5 class='text-center'>${eventAmountCollectedFormatted}</h5>
+                                    <p class='text-center'><small>${legendRecoltes}</small></p>
+                                    </div>
+                                    ${amountExpectedBlock}
+                                    ${remainingDays}
+                                    </div>
+                                    </div>
+                                    `;
         injectCard(card, eventContainer);
       };
 
@@ -396,26 +396,18 @@ $(document).ready(function () {
       $.each(urgencesEvents, function (key, value) {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
-      $("#collectes-scroll .scrolling-wrapper").slick({
-        autoplay: false,
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        dots: false,
-        speed: 500,
-      });
 
       if (events.length > 3) {
         $("#events-scroll").append(`
-          <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-          <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+        <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+        <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         `);
       }
 
       if (urgencesEvents.length > 3) {
         $("#urgences-scroll").append(`
-          <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-          <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+        <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+        <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
         `);
       }
 
@@ -467,4 +459,16 @@ $(document).ready(function () {
     // $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
     // $("#events-show .event-stat").removeClass("border-right");
   }
+});
+
+$(document).ready(function () {
+  console.log("prout");
+  $("#collectes-scroll .scrolling-wrapper").slick({
+    autoplay: false,
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: false,
+    speed: 500,
+  });
 });
