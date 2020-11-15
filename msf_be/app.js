@@ -463,7 +463,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   setTimeout(function () {
-    console.log("prout");
+    console.log("2000");
     $("#collectes-scroll .scrolling-wrapper").slick({
       autoplay: false,
       infinite: false,
