@@ -369,6 +369,7 @@ $(document).ready(function () {
         collectesEvents.length > 3
           ? $("#collectes-scroll .scrolling-wrapper .slick-track")
           : $("#collectes-scroll .scrolling-wrapper");
+      console.log(collecteWrapper);
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value, collecteWrapper);
