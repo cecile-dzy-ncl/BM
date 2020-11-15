@@ -415,8 +415,8 @@ $(document).ready(function () {
         `);
       }
 
-      $("#dataTable tbody tr").on("click", function () {
-        console.log($(this).text());
+      $("#prev").on("click", function () {
+        console.log($(this));
       });
     }
   });
