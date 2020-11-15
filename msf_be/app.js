@@ -472,5 +472,5 @@ $(document).ready(function () {
       dots: false,
       speed: 500,
     });
-  }, 200);
+  }, 2000);
 });
