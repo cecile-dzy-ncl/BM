@@ -462,13 +462,15 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  console.log("prout");
-  $("#collectes-scroll .scrolling-wrapper").slick({
-    autoplay: false,
-    infinite: false,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    dots: false,
-    speed: 500,
-  });
+  setTimeout(function () {
+    console.log("prout");
+    $("#collectes-scroll .scrolling-wrapper").slick({
+      autoplay: false,
+      infinite: false,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      dots: false,
+      speed: 500,
+    });
+  }, 3000);
 });
