@@ -620,8 +620,8 @@ div#events-block .container-bm > div {
   position: absolute;
   content: "";
   height: 20px;
-  width: 20px; /*changer par largeur de 15px */
-  background: var(--red);
+  width: 15px; /*changer par largeur de 15px */
+  /* background: var(--red); */
   top: 0;
   right: 0;
   transform: translateX(100%);

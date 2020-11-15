@@ -422,6 +422,10 @@ $(document).ready(function () {
     }
   });
 
+    $('.your-class').slick({
+      setting-name: setting-value
+    });
+
   // custom blocs
   if ($("#events-show .event-head .custom-block")) {
     $(".event-head").after($(".custom-block"));
