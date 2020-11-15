@@ -843,6 +843,7 @@ section#project_tabs + section .row {
 
 .event-head #widget-new-project a {
   font-size: 16px;
+  font-family: "DINPro";
 }
 
 /* section.event-head,
