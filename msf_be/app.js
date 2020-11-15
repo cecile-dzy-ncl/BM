@@ -389,13 +389,23 @@ $(document).ready(function () {
         // injectCard(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      if (
-        collectesEvents.length > 3 ||
-        events.length > 3 ||
-        urgencesEvents.length > 3
-      ) {
-        console.log(collectesEvents);
+      if (collectesEvents.length > 3) {
+        $("#collectes-scroll .scrolling-wrapper").insertAdjacentHTML(`
+          <div id="prev" class="controls">prev</div>
+          <div id="next" class="controls">next</div>
+        `);
       }
+
+      // if (
+      //   collectesEvents.length > 3 ||
+      //   events.length > 3 ||
+      //   urgencesEvents.length > 3
+      // ) {
+      //   $("#collectes-scroll .scrolling-wrapper").insertAdjacentHTML(`
+      //     <div id="prev" class="controls">prev</div>
+      //     <div id="next" class="controls">next</div>
+      //   `);
+      // }
     }
   });
 
