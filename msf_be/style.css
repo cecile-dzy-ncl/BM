@@ -431,6 +431,14 @@ input[name="search"] {
   text-align: center;
 }
 
+.stat {
+  width: 50%;
+}
+
+.stat:first-of-type {
+  border-right: 1px solid;
+}
+
 .stat span {
   font-size: 40px;
   font-family: "DINPro-black";
