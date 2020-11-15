@@ -365,14 +365,9 @@ $(document).ready(function () {
       };
 
       var collectesEvents = [8, 9, 10, 11, 5];
-      var collecteWrapper =
-        collectesEvents.length > 3
-          ? $("#collectes-scroll .scrolling-wrapper .slick-track")
-          : $("#collectes-scroll .scrolling-wrapper");
-      console.log(collecteWrapper);
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
-        fetchData(value, collecteWrapper);
+        fetchData(value, $("#collectes-scroll .scrolling-wrapper"));
       });
 
       if (collectesEvents.length > 3) {
