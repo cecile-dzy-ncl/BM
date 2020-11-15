@@ -114,6 +114,7 @@ p {
 .banner.homepage {
   height: 500px;
   text-align: initial;
+  justify-content: center;
 }
 
 .banner.homepage .banner-text {
