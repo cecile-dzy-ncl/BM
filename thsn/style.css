@@ -4,7 +4,6 @@ body {
   margin: 0;
 }
 
-
 /* ------------------- COLORS ------------------- */
 
 /*
@@ -25,46 +24,44 @@ yellow: #FEB700
 
 */
 
-
-
-
 .bg-red {
-  background: #C21B17;
+  background: #c21b17;
 }
 
 .red {
-  color: #C21B17;
+  color: #c21b17;
 }
 
 .bg-red_pastel {
-  background: rgba(194,27,23,0.15);
+  background: rgba(194, 27, 23, 0.15);
 }
 
 .bg-orange {
-  background: #FF7500;
+  background: #ff7500;
 }
 
 .orange {
-  color: #FF7500;
+  color: #ff7500;
 }
 
 .bg-purple {
-  background: #982B95;
+  background: #982b95;
 }
 
 .purple {
-  color: #982B95;
+  color: #982b95;
 }
 
 .bg-darkpurple {
-  background: #8E1430;
+  background: #8e1430;
 }
 
 .bg-secondary-color-blurred {
   background: white;
 }
 
-.main-text-color, body {
+.main-text-color,
+body {
   color: black;
 }
 
@@ -75,15 +72,17 @@ yellow: #FEB700
 /* -------------------- FONTS -------------------- */
 
 @font-face {
-  font-family: 'Rubrik';
-  src: url('https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik.otf') format('opentype');
+  font-family: "Rubrik";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'RubrikB';
-  src: url('https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik_SemiBold.otf') format('opentype');
+  font-family: "RubrikB";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik_SemiBold.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -126,31 +125,26 @@ strong {
   font-family: "RubrikB";
 }
 
-
-
-
-
 /* -------------------- BUTTONS -------------------- */
 
 .thsn .btn-bm {
-  border: 3px solid #C21B17;
+  border: 3px solid #c21b17;
   border-radius: 25px;
   font-size: 18px;
   line-height: 24px;
   padding: 5px 30px;
 }
 
-button, .button {
+button,
+.button {
   font-family: "Rubrik";
   border-radius: 25px;
 }
-
 
 /* -------------------- CONTAINERS -------------------- */
 .container-small-bm {
   width: 800px;
 }
-
 
 /* -------------------- BANNERS -------------------- */
 
@@ -165,14 +159,13 @@ button, .button {
 .homepage .banner h1 {
   font-size: 80px;
   line-height: 102px;
-  font-family: 'Rubrik';
+  font-family: "Rubrik";
 }
-
 
 /* -------------------- NAVBAR -------------------- */
 
 nav.top-bar#main-nav section.top-bar-section {
-  background: #C21B17 !important;
+  background: #c21b17 !important;
 }
 
 nav.top-bar#main-nav .top-bar-section ul li > a {
@@ -189,6 +182,10 @@ nav.top-bar .top-bar-section ul li > a:hover {
   content: none;
 }
 
+#header-header nav.top-bar .top-bar-section li.has-dropdown.not-click a:hover {
+  color: #c21b17 !important;
+  -webkit-text-stroke: 0;
+}
 
 /* -------------------- HOMEPAGE -------------------- */
 
@@ -197,7 +194,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .stats p.stat-nb {
-  font-family: 'RubrikB';
+  font-family: "RubrikB";
   font-size: 60px;
   line-height: 60px;
 }
@@ -212,7 +209,6 @@ nav.top-bar .top-bar-section ul li > a:hover {
   font-size: 16px;
   line-height: 23px;
 }
-
 
 /* -------------------- MAIN EVENTS -------------------- */
 
@@ -236,24 +232,23 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .main-event section#banner_section {
-    display: none;
+  display: none;
 }
 
 .main-event-banner {
-    height: 300px;
-    background-size: cover !important;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  height: 300px;
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .main-event-banner h1 {
-    color: white;
-    margin-top: 20px;
+  color: white;
+  margin-top: 20px;
 }
-
 
 /* -------------------- SUB EVENTS -------------------- */
 
@@ -278,7 +273,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .people .rounded {
-  border: 1px solid #C21B17;
+  border: 1px solid #c21b17;
 }
 
 section.section-my-event aside .aside-event-list {
@@ -305,7 +300,6 @@ section.section-my-event aside .donators .people p:last-child {
   font-family: Rubrik;
 }
 
-
 .sub-event .infos-money .small-12.large-6.columns {
   width: 100%;
 }
@@ -318,14 +312,13 @@ section.section-my-event aside .donators .people p:last-child {
 
 .projects-list .panel {
   border-radius: 20px;
-  border: 1px solid #F0F0F0;
+  border: 1px solid #f0f0f0;
 }
 
 .projects-list .panel h3 {
   font-size: 15px;
   line-height: 17px;
 }
-
 
 /* -------------------- PROJECT SHOW -------------------- */
 
@@ -337,7 +330,7 @@ h1#show_title {
 }
 
 .section-projet-details .columns.bg-secondary-color-blurred {
-  background: #C21B17;
+  background: #c21b17;
 }
 
 li.maybevideocontainer {
@@ -357,7 +350,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   height: 50px;
   min-height: auto;
   line-height: 50px;
-  background-color: #FAEB00 !important;
+  background-color: #faeb00 !important;
   color: black;
   font-size: 19px;
   text-transform: uppercase;
@@ -372,12 +365,20 @@ p#show_team {
   font-size: 15px;
 }
 
-#projects-show section.section-projet-details .project-detail-data .infos-money .chart-wrap.light .percent {
+#projects-show
+  section.section-projet-details
+  .project-detail-data
+  .infos-money
+  .chart-wrap.light
+  .percent {
   font-family: Rubrik;
   font-size: 30px;
 }
 
-#projects-show section.section-projet-details .project-detail-data .current-amount {
+#projects-show
+  section.section-projet-details
+  .project-detail-data
+  .current-amount {
   font-size: 50px;
 }
 
@@ -389,11 +390,20 @@ section.section-projet-details .project-detail-data .contributeurs span {
   color: white;
 }
 
-#projects-show .block-share-container .social-btns .social_network a .social_network_send,
-#projects-show .block-share-container .social-btns .social_network a .social_network_share {
+#projects-show
+  .block-share-container
+  .social-btns
+  .social_network
+  a
+  .social_network_send,
+#projects-show
+  .block-share-container
+  .social-btns
+  .social_network
+  a
+  .social_network_share {
   filter: invert(1);
 }
-
 
 .tabs dd > a {
   color: black;
@@ -426,28 +436,27 @@ section.section-projet-details .project-detail-data .contributeurs span {
   line-height: 19px;
 }
 
-
 #projects-show li.comment li {
-    border: none;
+  border: none;
 }
 
 .share-wrapper {
-    height: 35px;
+  height: 35px;
 }
 
 input.url-link {
-  border: 1px solid #B4B4B4;
+  border: 1px solid #b4b4b4;
   padding: 5px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   font-family: "Rubrik";
   /*width: 70%;*/
 }
 
 div#copy.url-btn {
-  border: 1px solid #B4B4B4;
+  border: 1px solid #b4b4b4;
   padding: 5px;
-  background: #F5F5F5;
-  color: #C21B17;
+  background: #f5f5f5;
+  color: #c21b17;
   font-family: "Rubrik";
   height: 35px;
   cursor: pointer;
@@ -459,29 +468,26 @@ div#copy.url-btn {
 
 #events-show .block-share-container,
 #projects-show .block-share-container {
-    padding: 0 0.5rem;
-    width: 83.33333%;
-    margin: auto;
+  padding: 0 0.5rem;
+  width: 83.33333%;
+  margin: auto;
 }
 
 .share-wrapper * {
-    margin: 0 !important;
-    height: 100% !important;
-    margin-bottom: 35px;
+  margin: 0 !important;
+  height: 100% !important;
+  margin-bottom: 35px;
 }
-
 
 /* -------------------- PROJECT SHOW -------------------- */
 
 #form-project .project-image-element-selected {
-    border: solid 2px #C21B17;
+  border: solid 2px #c21b17;
 }
-
 
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
-
   .homepage .banner {
     height: auto;
     padding: 20px 10px;
@@ -511,4 +517,3 @@ div#copy.url-btn {
     padding: 20px !important;
   }
 }
-
