@@ -386,6 +386,7 @@ $(document).ready(function () {
       });
 
       if (collectesEvents.length > 3) {
+        console.log("ciyciy");
         $("#collectes-scroll").append(`
           <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
           <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
