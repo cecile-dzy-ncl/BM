@@ -581,10 +581,11 @@ div#events-block .container-bm > div {
   box-shadow: var(--shadow);
   background: white;
   border-radius: 50%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  padding: 0;
 }
 
 .block-scroll .controls#prev,
