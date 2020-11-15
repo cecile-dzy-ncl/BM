@@ -375,6 +375,22 @@ $(document).ready(function () {
         fetchData(value, collecteWrapper);
       });
 
+      if (collectesEvents.length > 3) {
+        console.log("coucou");
+        // $("#collectes-scroll").append(`
+        //   <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
+        //   <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
+        // `);
+        // $("#collectes-scroll .scrolling-wrapper").slick({
+        //   autoplay: false,
+        //   infinite: false,
+        //   slidesToShow: 3,
+        //   slidesToScroll: 3,
+        //   dots: false,
+        //   speed: 500,
+        // });
+      }
+
       var events = [85, 86];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
@@ -386,22 +402,6 @@ $(document).ready(function () {
       $.each(urgencesEvents, function (key, value) {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
-
-      if (collectesEvents.length > 3) {
-        console.log("coucou");
-        $("#collectes-scroll").append(`
-          <div id="prev" class="controls"><i class="fas fa-arrow-left"></i></div>
-          <div id="next" class="controls"><i class="fas fa-arrow-right"></i></div>
-        `);
-        $("#collectes-scroll .scrolling-wrapper").slick({
-          autoplay: false,
-          infinite: false,
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          dots: false,
-          speed: 500,
-        });
-      }
 
       if (events.length > 3) {
         $("#events-scroll").append(`
