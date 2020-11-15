@@ -203,6 +203,12 @@ nav.top-bar .top-bar-section ul li > a:hover {
   padding-top: 0px;
 }
 
+/* -------------------- PAGE EVENTS -------------------- */
+
+.event-item .panel .event-image .wrap {
+  background-color: transparent;
+}
+
 /* -------------------- CONSEILS -------------------- */
 
 .conseils p {
