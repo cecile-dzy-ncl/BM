@@ -572,7 +572,7 @@ div#events-block .container-bm > div {
 .block-scroll .controls {
   position: absolute;
   top: 50%;
-  transform: translate(50%, -50%);
+  /* transform: translate(50%, -50%); */
   width: 40px;
   height: 40px;
   box-shadow: var(--shadow);
@@ -585,11 +585,13 @@ div#events-block .container-bm > div {
 }
 
 .block-scroll .controls#prev {
-  left: 0;
+  left: -2%;
+  transform: translate(-100%, -50%);
 }
 
 .block-scroll .controls#next {
   right: 0;
+  transform: translate(75%, -50%);
 }
 
 /* ------ PANEL ------ */
