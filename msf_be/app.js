@@ -55,6 +55,11 @@ $(document).ready(function () {
   $("#banner_section").before(bannerMaintenance);
 
   // AJOUT NAV BUTTONS
+
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    $("nav#main-nav").append($("#first-header .top-bar-section"));
+  }
+
   if (window.matchMedia("(min-width: 600px)").matches) {
     /* La largeur minimum de l'affichage est 600 px inclus */
     var navButtons = $(".header-spacer nav[role='navigation']").html();
