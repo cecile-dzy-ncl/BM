@@ -623,6 +623,9 @@ div#events-block .container-bm > div {
   top: 0;
   right: 0;
   transform: translateX(100%);
+  border-style: solid;
+  border-width: 20px 15px 0 0;
+  border-color: #ee0000 transparent transparent transparent;
 }
 
 .event-progressbar {
