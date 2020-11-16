@@ -384,6 +384,10 @@ input.icon-search.field-auto-search:focus {
   height: 35px;
 }
 
+footer .bottom-bar .left li:not(:last-child) a:after {
+  display: none;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
