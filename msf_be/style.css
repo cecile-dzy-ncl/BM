@@ -848,12 +848,13 @@ section#project_tabs + section .row {
 
 .project_event_description > div:first-of-type {
   max-width: 71.25rem;
+  padding-bottom: 2rem;
 }
 
 .project_event_description > div.bg-darkgrey > div {
   margin: 0 auto;
   max-width: 50.25rem;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .project_event_description > div.bg-darkgrey * {
