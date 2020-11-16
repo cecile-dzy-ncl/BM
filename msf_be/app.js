@@ -1,5 +1,10 @@
 $(document).ready(function () {
   $("body").addClass("msf-be");
+
+  $(
+    "<li class='nodropdown footer-link-menu'><a href='https://www.msf-azg.be/'>© msf-azg belgique</a></li>"
+  ).prependTo("footer .top-bar-section ul.left ul.center");
+
   var lang = $("html").attr("lang");
 
   switch (lang) {
