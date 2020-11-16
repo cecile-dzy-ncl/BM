@@ -861,6 +861,10 @@ section#project_tabs + section .row {
   color: white;
 }
 
+.project_event_description > div.bg-darkgrey h3 {
+  margin-bottom: 10px;
+}
+
 .project_event_description > div.bg-darkgrey img {
   margin-right: 30px;
 }
