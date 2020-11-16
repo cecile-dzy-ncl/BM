@@ -849,7 +849,7 @@ section#project_tabs + section .row {
   max-width: 71.25rem;
 }
 
-.project_event_description.columns > div:last-of-type {
+.project_event_description.columns > div:last-of-type > div {
   max-width: 50.25rem;
 }
 
