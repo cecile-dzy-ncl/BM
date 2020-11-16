@@ -392,19 +392,19 @@ $(document).ready(function () {
       if (collectesEvents.length > 3) {
         setTimeout(function () {
           $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 2000);
+        }, 500);
       }
 
       if (events.length > 3) {
         setTimeout(function () {
           $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 2000);
+        }, 500);
       }
 
       if (urgencesEvents.length > 3) {
         setTimeout(function () {
           $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 2000);
+        }, 500);
       }
     }
   });
