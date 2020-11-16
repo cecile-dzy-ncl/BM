@@ -852,6 +852,7 @@ section#project_tabs + section .row {
 .project_event_description > div.bg-darkgrey > div {
   margin: 0 auto;
   max-width: 50.25rem;
+  padding: 10px 0;
 }
 
 .project_event_description > div.bg-darkgrey * {
@@ -859,7 +860,7 @@ section#project_tabs + section .row {
 }
 
 .project_event_description > div.bg-darkgrey img {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 /* ------ PAGE EVENT ------ */
