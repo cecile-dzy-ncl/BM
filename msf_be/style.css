@@ -835,6 +835,24 @@ section#project_tabs + section .row {
   margin-bottom: 10px;
 }
 
+/* ------ PAGE COLLECTE ------ */
+
+.project_event_description.columns {
+  max-width: 100vw;
+  width: 100vw;
+}
+.project_event_description.columns > div {
+  margin: 0 auto;
+}
+
+.project_event_description.columns > div:first-of-type {
+  max-width: 71.25rem;
+}
+
+.project_event_description.columns > div:last-of-type {
+  max-width: 50.25rem;
+}
+
 /* ------ PAGE EVENT ------ */
 
 .intro-my-event:after {
