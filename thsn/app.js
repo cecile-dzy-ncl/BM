@@ -1,5 +1,5 @@
-$( document ).ready(function() {
-  console.log( "ready!" );
+$(document).ready(function () {
+  console.log("ready!");
 
   $("body").addClass("thsn");
 
@@ -7,18 +7,19 @@ $( document ).ready(function() {
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
   // $('#pages-show #tag-amount').html($('#tag-amount').text().split(" €")[0])
 
-
   // $(".project_boutons_give").html("Faire un don");
 
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
   // $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
 
   // AJOUT INTRO PAGE EVENTS
-  var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au profit de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href='https://collecter.fondation-arc.org/pages/contact' class='blue'>nous contacter</a> et à profiter de nos <a href='https://collecter.fondation-arc.org/pages/conseils' class='blue'>conseils et outils.</a></p></div>")
+  var textIntroEvents =
+    "<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au profit de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href='https://collecter.fondation-arc.org/pages/contact' class='blue'>nous contacter</a> et à profiter de nos <a href='https://collecter.fondation-arc.org/pages/conseils' class='blue'>conseils et outils.</a></p></div>";
   // $('.events .first-section').before(textIntroEvents);
 
   // AJOUT INTRO PAGE PROJETS
-  var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
+  var textIntroProjects =
+    "<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>";
   // $('.projects .first-section').before(textIntroProjects);
 
   // AJOUT WRAPPER OUTILS
@@ -37,77 +38,92 @@ $( document ).ready(function() {
   //var bannerMaintenance = ("<div class='maintenance p-5 bg-orange'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
   //$("#banner_section").before(bannerMaintenance);
 
-  $("<li class='nodropdown footer-link-menu'><a href='https://www.thehumansafetynet.org/fr/'>© THE HUMAN SAFETY NET</a></li>").prependTo("footer .top-bar-section ul.left ul.center")
+  $(
+    "<li class='nodropdown footer-link-menu'><a href='https://www.thehumansafetynet.org/fr/'>© THE HUMAN SAFETY NET</a></li>"
+  ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT BOUTON NAVBAR
   // $("#header-header ul.left").after("<div class='uppercase btn-bm bg-pink p-8'><a class='white' href='https://collecter.fondation-arc.org/projects'>Soutenir une collecte</a></div>");
 
   // AJOUT CLASS MAIN-EVENT & SUB-EVENT
-  if($("body#events-show.event_type_peer_to_peer")[0] != undefined) {
+  if ($("body#events-show.event_type_peer_to_peer")[0] != undefined) {
     if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
       console.log("sub-event");
       $("#events-show")[0].classList.add("sub-event");
-    } else if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 1) {
+    } else if (
+      $("#events-show")[0].classList.value.match(/event_\d/g).length === 1
+    ) {
       console.log("main-event");
       $("#events-show")[0].classList.add("main-event");
     }
   }
 
   // AJOUT wrapper outils sur main event
-  if($(".main-event")) {
+  if ($(".main-event")) {
     $(".wrapper-help").appendTo(".habillage");
   }
-
 
   // AJOUT DIV AVEC LE PARTAGE
 
   var pageUrl = window.location.href;
-
-  var shareDiv =  `<div class="d-flex mobile_flex-column justify-center align-items-center w-100 share-wrapper">\
+  var lang = $("html")[0].lang;
+  var cta = "COPIER LE LIEN";
+  switch (lang) {
+    case "fr":
+      var cta = "COPIER LE LIEN";
+      break;
+    case "es":
+      var cta = "COPIAR EL ENLACE";
+      break;
+    case "en":
+      var cta = "COPY THE LINK";
+      break;
+    default:
+      break;
+  }
+  var shareDiv = `<div class="d-flex mobile_flex-column justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link" type="text" value="${pageUrl}"> \
-  <div class='url-btn' id="copy">COPIER LE LIEN</div> \
+  <div class='url-btn' id="copy">${cta}</div> \
   </div>`;
 
   $(".social-btns").html(shareDiv);
 
-if($(".share-wrapper")[0]) {
+  if ($(".share-wrapper")[0]) {
+    function copy() {
+      event.preventDefault();
+      var copyText = document.querySelector(".url-link");
+      console.log(copyText);
+      copyText.select();
+      document.execCommand("copy");
 
-  function copy() {
-    event.preventDefault();
-    var copyText = document.querySelector(".url-link");
-    console.log(copyText);
-    copyText.select();
-    document.execCommand("copy");
-
-    try {
-      var successful = document.execCommand('copy');
-      var msg = successful ? 'successful' : 'unsuccessful';
-      console.log('Fallback: Copying text command was ' + msg);
-      $(".url-btn").html("LIEN COPIÉ");
-      setTimeout(function() {
-        $(".url-btn").html("COPIER LE LIEN");
-      }, 700);
-    } catch (err) {
-      console.error('Fallback: Oops, unable to copy', err);
+      try {
+        var successful = document.execCommand("copy");
+        var msg = successful ? "successful" : "unsuccessful";
+        console.log("Fallback: Copying text command was " + msg);
+        $(".url-btn").html("LIEN COPIÉ");
+        setTimeout(function () {
+          $(".url-btn").html("COPIER LE LIEN");
+        }, 700);
+      } catch (err) {
+        console.error("Fallback: Oops, unable to copy", err);
+      }
     }
+
+    document.querySelector("#copy").addEventListener("click", copy);
   }
 
-  document.querySelector("#copy").addEventListener("click", copy);
-}
+  if ($(".main-event .image_banner")[0]) {
+    var bannerImg = $(".image_banner")[0].src;
+    // var bannerValue = `${bannerImg}`;
+    $(".main-event-banner")[0].style.background = "url(" + bannerImg + ")";
+    $("#banner_section").before($(".main-event-banner"));
+  }
 
-if($(".main-event .image_banner")[0]) {
-  var bannerImg = $(".image_banner")[0].src;
-  // var bannerValue = `${bannerImg}`;
-  $(".main-event-banner")[0].style.background = "url("+ bannerImg +")";
-  $("#banner_section").before($(".main-event-banner"));
-}
+  // --------- RESPONSIVE ---------
 
+  var windowWidth = $(window).width();
 
-// --------- RESPONSIVE ---------
-
-  var windowWidth= $(window).width();
-
-  if(windowWidth < 500){
+  if (windowWidth < 500) {
     $("body").addClass("mobile");
     $(".stats .d-flex").removeClass("align-items-start");
     $("#pages-show.conseils-outils .bg-red_pastel").removeClass("p-70");
@@ -125,10 +141,4 @@ if($(".main-event .image_banner")[0]) {
     // // $(".mobile img.mln-30").removeClass("mln-30");
     // $(".mobile .bx-viewport").css('height', "auto");
   }
-
-
 });
-
-
-
-
