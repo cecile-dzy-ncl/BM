@@ -73,7 +73,7 @@ $(document).ready(function () {
       var cta = "COPIER LE LIEN";
       break;
     case "es":
-      var cta = "COPIAR EL ENLACE";
+      var cta = "COPIA";
       break;
     case "en":
       var cta = "COPY THE LINK";
