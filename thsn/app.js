@@ -86,6 +86,10 @@ $(document).ready(function () {
   <div class='url-btn' id="copy">${cta}</div> \
   </div>`;
 
+  if ($("html[lang='es'] #projects-index")) {
+    $("#search_status option[value='ended']")[0].label = "Cerrados";
+  }
+
   $(".social-btns").html(shareDiv);
 
   if ($(".share-wrapper")[0]) {
