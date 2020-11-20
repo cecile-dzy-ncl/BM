@@ -53,10 +53,6 @@ $(document).ready(function () {
   </div>`;
 
   if ($("html[lang='es'] #projects-index")) {
-    $("#search_status option[value='ended']")[0].label = "Cerrados";
-  }
-
-  if ($("html[lang='es'] #projects-index")) {
     var checkbox = $("#search_status option[value='ended']")[0];
     if (checkbox) {
       checkbox.label = "Cerrados"
