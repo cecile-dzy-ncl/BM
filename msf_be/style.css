@@ -622,6 +622,14 @@ div#events-block .container-bm > div {
   transform: translate(100%, -50%);
 }
 
+.events-tag div {
+  padding: 0 10px;
+}
+
+.events-tag div:first-of-type {
+  border-right: 1px solid var(--mediumgrey);
+}
+
 .events-tag div p:first-of-type {
   font-size: 22px;
   font-family: "DINPro_black";
