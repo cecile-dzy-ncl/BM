@@ -87,8 +87,10 @@ $(document).ready(function () {
 
   if ($(".main-event .image_banner")[0]) {
     var bannerImg = $(".image_banner")[0].src;
-    $(".main-event-banner")[0].style.background = "url(" + bannerImg + ")";
-    $("#banner_section").before($(".main-event-banner"));
+    $("#event-banner")[0].style.background = `url(${bannerImg})`;
+    // $(".main-event-banner")[0].style.background = `url(${bannerImg})`;
+    // $("#banner_section").before($(".main-event-banner"));
+    $("#banner_section").before($("#event-banner"));
   }
 
   // --------- RESPONSIVE ---------
