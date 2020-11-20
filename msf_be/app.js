@@ -393,7 +393,7 @@ $(document).ready(function () {
       if (collectesEvents.length > 3) {
         setTimeout(function () {
           $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 3000);
+        }, 300);
       }
 
       if (events.length > 3) {
