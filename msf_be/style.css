@@ -622,6 +622,15 @@ div#events-block .container-bm > div {
   transform: translate(100%, -50%);
 }
 
+.events-tag div p:first-of-type {
+  font-size: 22px;
+  font-family: "DINPro_black";
+}
+
+.events-tag div p:last-of-type {
+  font-size: 12px;
+}
+
 /* ------ PANEL ------ */
 
 .infos-money .infos-money-details .info-money.detail:first-child {
