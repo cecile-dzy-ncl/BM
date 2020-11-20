@@ -494,9 +494,9 @@ input[name="search"] {
   padding: 50px 0;
 }
 
-#events-block > .container-bm > .d-flex {
+/* #events-block > .container-bm > .d-flex {
   margin-bottom: 50px;
-}
+} */
 
 #events-block h3 {
   text-transform: uppercase;
