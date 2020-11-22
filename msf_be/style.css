@@ -1122,6 +1122,7 @@ dl#step_tab dd.active {
   padding: 50px;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 #new_project .row {
