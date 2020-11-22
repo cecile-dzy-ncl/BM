@@ -1156,12 +1156,31 @@ dl#step_tab dd {
 }
 
 #new_project .actions.row .large-3,
-#new_project .actions.row .btn {
+#new_project .actions.row .btn,
+#form-project input[type="text"],
+#form-project input[type="password"],
+#form-project input[type="date"],
+#form-project input[type="datetime"],
+#form-project input[type="datetime-local"],
+#form-project input[type="month"],
+#form-project input[type="week"],
+#form-project input[type="email"],
+#form-project input[type="number"],
+#form-project input[type="search"],
+#form-project input[type="tel"],
+#form-project input[type="time"],
+#form-project input[type="url"],
+#form-project input[type="color"],
+#form-project select {
   width: 100%;
 }
 
 #form-project {
   margin: 40px 0 100px;
+}
+
+#form-project .has-tip {
+  position: absolute;
 }
 
 /* ------ RESPONSIVE ------ */
