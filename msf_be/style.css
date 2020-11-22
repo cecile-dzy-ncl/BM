@@ -1113,7 +1113,11 @@ dl#step_tab dd {
   width: 33.33%;
   border-bottom: 5px solid var(--lightgrey);
   color: var(--grey);
-  backgroun: none;
+}
+
+dl#step_tab dd,
+dl#step_tab dd.active {
+  background: none;
 }
 
 dl#step_tab dd.active {
