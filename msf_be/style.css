@@ -1126,6 +1126,7 @@ dl#step_tab dd {
 
 #form-project dl#step_tab dd.active a {
   color: var(--grey);
+  font-family: "DINPro_bold";
 }
 
 #new_project {
