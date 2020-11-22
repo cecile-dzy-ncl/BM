@@ -1150,6 +1150,10 @@ dl#step_tab dd.active {
   width: 91%;
 }
 
+#form-project {
+  margin: 40px 0 100px;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
