@@ -1132,15 +1132,15 @@ dl#step_tab dd {
 #new_project {
   box-shadow: var(--shadow);
   padding: 50px;
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-end; */
   border-radius: 4px;
 }
 
-#new_project .row {
+/* #new_project .row {
   width: 50%;
-}
+} */
 
 #new_project input,
 #new_project select {
