@@ -431,6 +431,13 @@ $(document).ready(function () {
     window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
+  if ($("#projects-new")) {
+    var activeStepTitle = $(
+      "#projects-new #form-project #step_tab .active a.click_tabs"
+    );
+    console.log(activeStepTitle);
+  }
+
   // --------- RESPONSIVE ---------
 
   var windowWidth = $(window).width();
