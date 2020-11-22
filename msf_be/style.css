@@ -1105,9 +1105,9 @@ ul.pagination li button:hover {
 
 /* ------ FORMS ------ */
 
-dl#step_tab a {
+/* dl#step_tab a {
   display: none;
-}
+} */
 
 dl#step_tab dd {
   width: 33.33%;
