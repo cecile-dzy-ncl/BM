@@ -431,6 +431,11 @@ $(document).ready(function () {
     window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
+  function changeTitle(title) {
+    var activeStepTitleContent = title.innerHTML.split("-")[1];
+    $(".step-title").html(activeStepTitleContent);
+  }
+
   if ($("#projects-new")) {
     $("form#new_project").before($("#step_tab"));
     $("#projects-new .container-event").before(
@@ -441,10 +446,15 @@ $(document).ready(function () {
     )[0];
 
     if (activeStepTitle) {
-      var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
-      $(".step-title").html(activeStepTitleContent);
+      // var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
+      // $(".step-title").html(activeStepTitleContent);
+      changeTitle(activeStepTitle);
     }
     $("input#step").change(function () {
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      changeTitle(activeStepTitle);
       var stepNumber = $("input#step").value;
       console.log(stepNumber);
     });
