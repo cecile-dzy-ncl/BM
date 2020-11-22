@@ -435,6 +435,10 @@ $(document).ready(function () {
     var activeStepTitle = $(
       "#projects-new #form-project #step_tab .active a.click_tabs"
     )[0];
+    if (activeStepTitle) {
+      var activeStepTitleContent = activeStepTitle.innerHTML;
+      $("#step_tab").before(activeStepTitleContent);
+    }
     console.log(activeStepTitle.html);
     console.log(activeStepTitle.innerHTML);
   }
