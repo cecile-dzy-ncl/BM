@@ -434,8 +434,8 @@ $(document).ready(function () {
   if ($("#projects-new")) {
     var activeStepTitle = $(
       "#projects-new #form-project #step_tab .active a.click_tabs"
-    );
-    console.log(activeStepTitle);
+    )[0];
+    console.log(activeStepTitle.html());
   }
 
   // --------- RESPONSIVE ---------
