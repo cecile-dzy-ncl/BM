@@ -436,7 +436,7 @@ $(document).ready(function () {
       "#projects-new #form-project #step_tab .active a.click_tabs"
     )[0];
     if (activeStepTitle) {
-      var activeStepTitleContent = activeStepTitle.innerHTML;
+      var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
       $("#step_tab").before(activeStepTitleContent);
     }
     console.log(activeStepTitle.html);
