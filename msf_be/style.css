@@ -1133,6 +1133,7 @@ dl#step_tab dd.active {
   border: none;
   border-bottom: 2px solid var(--grey);
   box-shadow: none;
+  background: none;
 }
 
 /* ------ RESPONSIVE ------ */
