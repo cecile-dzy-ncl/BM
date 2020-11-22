@@ -459,39 +459,39 @@ $(document).ready(function () {
     //   console.log(stepNumber);
     // });
 
-    // $("form#new_project").change(function () {
-    //   var activeStepTitle = $(
-    //     "#projects-new #form-project #step_tab .active a.click_tabs"
-    //   )[0];
-    //   changeTitle(activeStepTitle);
-    //   var stepNumber = $("input#step")[0].value;
-    //   console.log("if form", stepNumber);
-    //   console.log("if form activeStepTitle", activeStepTitle);
-    // });
+    $("form#new_project").change(function () {
+      //   var activeStepTitle = $(
+      //     "#projects-new #form-project #step_tab .active a.click_tabs"
+      //   )[0];
+      //   changeTitle(activeStepTitle);
+      //   var stepNumber = $("input#step")[0].value;
+      //   console.log("if form", stepNumber);
+      //   console.log("if form activeStepTitle", activeStepTitle);
 
-    if ($("input#step")[0].value === "1") {
-      console.log("if 1", activeStepTitle);
-      // var activeStepTitle = $(
-      //   "#projects-new #form-project #step_tab .active a.click_tabs"
-      // )[0];
-      // changeTitle(activeStepTitle);
-    }
+      if ($("input#step")[0].value === "1") {
+        console.log("if 1", activeStepTitle);
+        // var activeStepTitle = $(
+        //   "#projects-new #form-project #step_tab .active a.click_tabs"
+        // )[0];
+        // changeTitle(activeStepTitle);
+      }
 
-    if ($("input#step")[0].value === "2") {
-      // var activeStepTitle = $(
-      //   "#projects-new #form-project #step_tab .active a.click_tabs"
-      // )[0];
-      // changeTitle(activeStepTitle);
-      console.log("if 2", activeStepTitle);
-    }
+      if ($("input#step")[0].value === "2") {
+        // var activeStepTitle = $(
+        //   "#projects-new #form-project #step_tab .active a.click_tabs"
+        // )[0];
+        // changeTitle(activeStepTitle);
+        console.log("if 2", activeStepTitle);
+      }
 
-    if ($("input#step")[0].value === "3") {
-      // var activeStepTitle = $(
-      //   "#projects-new #form-project #step_tab .active a.click_tabs"
-      // )[0];
-      // changeTitle(activeStepTitle);
-      console.log("if 3", activeStepTitle);
-    }
+      if ($("input#step")[0].value === "3") {
+        // var activeStepTitle = $(
+        //   "#projects-new #form-project #step_tab .active a.click_tabs"
+        // )[0];
+        // changeTitle(activeStepTitle);
+        console.log("if 3", activeStepTitle);
+      }
+    });
   }
 
   // --------- RESPONSIVE ---------
