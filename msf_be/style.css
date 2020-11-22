@@ -1154,12 +1154,9 @@ dl#step_tab dd {
   align-self: center;
 }
 
-#new_project .actions.row .large-3 {
-  width: 100%;
-}
-
+#new_project .actions.row .large-3,
 #new_project .actions.row .btn {
-  width: 91%;
+  width: 100%;
 }
 
 #form-project {
