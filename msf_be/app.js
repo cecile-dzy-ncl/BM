@@ -438,6 +438,7 @@ $(document).ready(function () {
 
   if ($("#projects-new")) {
     $(".tab-content").prepend($("#step_tab"));
+    $("#step_tab").after($("#error-message + .row"));
     //   $("#projects-new .container-event").before(
     //     "<h1 class='step-title text-center'></h1>"
     //   );
