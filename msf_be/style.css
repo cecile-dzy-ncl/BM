@@ -1112,6 +1112,7 @@ ul.pagination li button:hover {
 dl#step_tab dd {
   width: 33.33%;
   border-bottom: 5px solid var(--lightgrey);
+  color: var(--grey);
 }
 
 dl#step_tab dd.active {
