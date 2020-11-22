@@ -1117,7 +1117,7 @@ dl#step_tab dd {
 
 dl#step_tab dd a,
 dl#step_tab dd.active a {
-  background-color: none;
+  background-color: transparent;
 }
 
 dl#step_tab dd.active {
