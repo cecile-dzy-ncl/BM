@@ -1103,6 +1103,24 @@ ul.pagination li button:hover {
   text-transform: uppercase;
 }
 
+/* ------ FORMS ------ */
+
+dl#step_tab a {
+  display: none;
+}
+
+dl#step_tab dd {
+  width: 33.33%;
+}
+
+dl#step_tab dd.active {
+  border-bottom: 5px solid red;
+}
+
+#new_project {
+  box-shadow: var(--shadow);
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
