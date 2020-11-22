@@ -1116,7 +1116,7 @@ dl#step_tab dd {
 dl#step_tab dd.active {
   border-bottom: 5px solid var(--red);
 } */
-
+/* 
 #new_project {
   box-shadow: var(--shadow);
   padding: 50px;
@@ -1152,7 +1152,7 @@ dl#step_tab dd.active {
 
 #form-project {
   margin: 40px 0 100px;
-}
+} */
 
 /* ------ RESPONSIVE ------ */
 
