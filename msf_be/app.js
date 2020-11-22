@@ -467,6 +467,30 @@ $(document).ready(function () {
       var stepNumber = $("input#step").value;
       console.log(stepNumber);
     });
+
+    if ($("input#step").value === "1") {
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      changeTitle(activeStepTitle);
+      console.log(activeStepTitle);
+    }
+
+    if ($("input#step").value === "2") {
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      changeTitle(activeStepTitle);
+      console.log(activeStepTitle);
+    }
+
+    if ($("input#step").value === "3") {
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      changeTitle(activeStepTitle);
+      console.log(activeStepTitle);
+    }
   }
 
   // --------- RESPONSIVE ---------
