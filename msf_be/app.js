@@ -450,7 +450,7 @@ $(document).ready(function () {
       // $(".step-title").html(activeStepTitleContent);
       changeTitle(activeStepTitle);
     }
-    $("input#step")[0].change(function () {
+    $("input#step").change(function () {
       var activeStepTitle = $(
         "#projects-new #form-project #step_tab .active a.click_tabs"
       )[0];
@@ -464,7 +464,7 @@ $(document).ready(function () {
         "#projects-new #form-project #step_tab .active a.click_tabs"
       )[0];
       changeTitle(activeStepTitle);
-      var stepNumber = $("input#step").value;
+      var stepNumber = $("input#step")[0].value;
       console.log(stepNumber);
     });
 
