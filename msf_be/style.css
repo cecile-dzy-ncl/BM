@@ -1143,6 +1143,7 @@ dl#step_tab dd {
 } */
 
 #new_project input[type="text"],
+#new_project input[type="number"],
 #new_project select {
   border: none;
   border-bottom: 2px solid var(--grey);
