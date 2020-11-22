@@ -1138,6 +1138,10 @@ dl#step_tab dd.active {
   background: none;
 }
 
+#new_project .actions.row {
+  align-self: center;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
