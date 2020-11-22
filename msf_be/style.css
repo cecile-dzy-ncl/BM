@@ -1117,6 +1117,7 @@ dl#step_tab dd {
 #form-project dl#step_tab dd a,
 #form-project dl#step_tab dd.active a {
   background-color: transparent;
+  text-align: center;
 }
 
 #form-project dl#step_tab dd.active {
