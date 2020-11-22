@@ -1122,6 +1122,9 @@ dl#step_tab dd {
 
 #form-project dl#step_tab dd.active {
   border-color: var(--red);
+}
+
+#form-project dl#step_tab dd.active a {
   color: var(--grey);
 }
 
