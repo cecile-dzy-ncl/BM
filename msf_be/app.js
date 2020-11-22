@@ -436,6 +436,7 @@ $(document).ready(function () {
       "#projects-new #form-project #step_tab .active a.click_tabs"
     )[0];
     console.log(activeStepTitle.html);
+    console.log(activeStepTitle.innerHTML);
   }
 
   // --------- RESPONSIVE ---------
