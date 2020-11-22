@@ -1123,6 +1123,7 @@ dl#step_tab dd.active {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+  border-radius: 4px;
 }
 
 #new_project .row {
