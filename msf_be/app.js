@@ -437,7 +437,7 @@ $(document).ready(function () {
   // }
 
   if ($("#projects-new")) {
-    $("form#new_project").prepend($("#step_tab"));
+    $(".tab-content").prepend($("#step_tab"));
     //   $("#projects-new .container-event").before(
     //     "<h1 class='step-title text-center'></h1>"
     //   );
