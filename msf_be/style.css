@@ -1179,8 +1179,14 @@ dl#step_tab dd {
   margin: 40px 0 100px;
 }
 
+#form-project .controls {
+  position: relative;
+}
+
 #form-project .has-tip {
   position: absolute;
+  transform: translateX(-100%);
+  top: 0;
 }
 
 /* ------ RESPONSIVE ------ */
