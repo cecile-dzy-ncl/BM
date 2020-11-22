@@ -458,6 +458,15 @@ $(document).ready(function () {
       var stepNumber = $("input#step").value;
       console.log(stepNumber);
     });
+
+    $("form#new_project").change(function () {
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      changeTitle(activeStepTitle);
+      var stepNumber = $("input#step").value;
+      console.log(stepNumber);
+    });
   }
 
   // --------- RESPONSIVE ---------
