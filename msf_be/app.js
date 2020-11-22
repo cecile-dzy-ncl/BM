@@ -447,9 +447,8 @@ $(document).ready(function () {
       }
 
       $("form#new_project").before($("#step_tab"));
+      console.log(stepNumber);
     });
-
-    console.log(stepNumber);
   }
 
   // --------- RESPONSIVE ---------
