@@ -1111,10 +1111,11 @@ ul.pagination li button:hover {
 
 dl#step_tab dd {
   width: 33.33%;
+  border-bottom: 5px solid var(--lightgrey);
 }
 
 dl#step_tab dd.active {
-  border-bottom: 5px solid var(--red);
+  border-color: var(--red);
 }
 
 #new_project {
