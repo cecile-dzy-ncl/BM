@@ -438,9 +438,9 @@ $(document).ready(function () {
 
   if ($("#projects-new")) {
     $("form#new_project").before($("#step_tab"));
-    // $("#projects-new .container-event").before(
-    //   "<h1 class='step-title text-center'></h1>"
-    // );
+    $("#projects-new .container-event").before(
+      "<h1 class='step-title text-center'></h1>"
+    );
     var activeStepTitle = $(
       "#projects-new #form-project #step_tab .active a.click_tabs"
     )[0];
