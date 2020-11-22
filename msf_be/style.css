@@ -1119,6 +1119,13 @@ dl#step_tab dd.active {
 
 #new_project {
   box-shadow: var(--shadow);
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#new_project .row {
+  width: 50%;
 }
 
 /* ------ RESPONSIVE ------ */
