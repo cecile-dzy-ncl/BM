@@ -1114,7 +1114,7 @@ dl#step_tab dd {
 }
 
 dl#step_tab dd.active {
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid var(--red);
 }
 
 #new_project {
@@ -1126,6 +1126,13 @@ dl#step_tab dd.active {
 
 #new_project .row {
   width: 50%;
+}
+
+#new_project input,
+#new_project select {
+  border: none;
+  border-bottom: 2px solid var(--grey);
+  box-shadow: none;
 }
 
 /* ------ RESPONSIVE ------ */
