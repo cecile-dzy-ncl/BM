@@ -1115,8 +1115,8 @@ dl#step_tab dd {
   color: var(--grey);
 }
 
-dl#step_tab dd a,
-dl#step_tab dd.active a {
+#form-project dl#step_tab dd a,
+#form-project dl#step_tab dd.active a {
   background-color: transparent;
 }
 
