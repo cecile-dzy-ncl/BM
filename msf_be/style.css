@@ -1142,6 +1142,14 @@ dl#step_tab dd.active {
   align-self: center;
 }
 
+#new_project .actions.row .large-3 {
+  width: 100%;
+}
+
+#new_project .actions.row .btn {
+  width: 91%;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
