@@ -431,25 +431,25 @@ $(document).ready(function () {
     window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
-  function changeTitle(title) {
-    var activeStepTitleContent = title.innerHTML.split("-")[1];
-    $(".step-title").html(activeStepTitleContent);
-  }
+  // function changeTitle(title) {
+  //   var activeStepTitleContent = title.innerHTML.split("-")[1];
+  //   $(".step-title").html(activeStepTitleContent);
+  // }
 
   if ($("#projects-new")) {
     $("form#new_project").before($("#step_tab"));
-    $("#projects-new .container-event").before(
-      "<h1 class='step-title text-center'></h1>"
-    );
-    var activeStepTitle = $(
-      "#projects-new #form-project #step_tab .active a.click_tabs"
-    )[0];
+    // $("#projects-new .container-event").before(
+    //   "<h1 class='step-title text-center'></h1>"
+    // );
+    // var activeStepTitle = $(
+    //   "#projects-new #form-project #step_tab .active a.click_tabs"
+    // )[0];
 
-    if (activeStepTitle) {
-      // var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
-      // $(".step-title").html(activeStepTitleContent);
-      changeTitle(activeStepTitle);
-    }
+    // if (activeStepTitle) {
+    //   // var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
+    //   // $(".step-title").html(activeStepTitleContent);
+    //   changeTitle(activeStepTitle);
+    // }
     // $("input#step").change(function () {
     //   var activeStepTitle = $(
     //     "#projects-new #form-project #step_tab .active a.click_tabs"
@@ -459,37 +459,37 @@ $(document).ready(function () {
     //   console.log(stepNumber);
     // });
 
-    $("form#new_project").change(function () {
-      var activeStepTitle = $(
-        "#projects-new #form-project #step_tab .active a.click_tabs"
-      )[0];
-      changeTitle(activeStepTitle);
-      var stepNumber = $("input#step")[0].value;
-      console.log("if form", stepNumber);
-      console.log("if form activeStepTitle", activeStepTitle);
-    });
+    // $("form#new_project").change(function () {
+    //   var activeStepTitle = $(
+    //     "#projects-new #form-project #step_tab .active a.click_tabs"
+    //   )[0];
+    //   changeTitle(activeStepTitle);
+    //   var stepNumber = $("input#step")[0].value;
+    //   console.log("if form", stepNumber);
+    //   console.log("if form activeStepTitle", activeStepTitle);
+    // });
 
-    if ($("input#step").value === "1") {
-      var activeStepTitle = $(
-        "#projects-new #form-project #step_tab .active a.click_tabs"
-      )[0];
-      changeTitle(activeStepTitle);
+    if ($("input#step")[0].value === "1") {
       console.log("if 1", activeStepTitle);
+      // var activeStepTitle = $(
+      //   "#projects-new #form-project #step_tab .active a.click_tabs"
+      // )[0];
+      // changeTitle(activeStepTitle);
     }
 
-    if ($("input#step").value === "2") {
-      var activeStepTitle = $(
-        "#projects-new #form-project #step_tab .active a.click_tabs"
-      )[0];
-      changeTitle(activeStepTitle);
+    if ($("input#step")[0].value === "2") {
+      // var activeStepTitle = $(
+      //   "#projects-new #form-project #step_tab .active a.click_tabs"
+      // )[0];
+      // changeTitle(activeStepTitle);
       console.log("if 2", activeStepTitle);
     }
 
-    if ($("input#step").value === "3") {
-      var activeStepTitle = $(
-        "#projects-new #form-project #step_tab .active a.click_tabs"
-      )[0];
-      changeTitle(activeStepTitle);
+    if ($("input#step")[0].value === "3") {
+      // var activeStepTitle = $(
+      //   "#projects-new #form-project #step_tab .active a.click_tabs"
+      // )[0];
+      // changeTitle(activeStepTitle);
       console.log("if 3", activeStepTitle);
     }
   }
