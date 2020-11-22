@@ -439,6 +439,9 @@ $(document).ready(function () {
       var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
       $("#step_tab").before(activeStepTitleContent);
     }
+
+    $("form#new_project").before($("#step_tab"));
+
     console.log(activeStepTitle.html);
     console.log(activeStepTitle.innerHTML);
   }
