@@ -432,21 +432,24 @@ $(document).ready(function () {
   });
 
   if ($("#projects-new")) {
-    $("#projects-new .container-event").before(
-      "<h1 class='step-title text-center'></h1>"
-    );
-    var activeStepTitle = $(
-      "#projects-new #form-project #step_tab .active a.click_tabs"
-    )[0];
-    if (activeStepTitle) {
-      var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
-      $(".step-title").html(activeStepTitleContent);
-    }
+    $("input#step").change(function () {
+      var stepNumber = $("input#step").value;
 
-    $("form#new_project").before($("#step_tab"));
+      $("#projects-new .container-event").before(
+        "<h1 class='step-title text-center'></h1>"
+      );
+      var activeStepTitle = $(
+        "#projects-new #form-project #step_tab .active a.click_tabs"
+      )[0];
+      if (activeStepTitle) {
+        var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
+        $(".step-title").html(activeStepTitleContent);
+      }
 
-    console.log(activeStepTitle.html);
-    console.log(activeStepTitle.innerHTML);
+      $("form#new_project").before($("#step_tab"));
+    });
+
+    console.log(stepNumber);
   }
 
   // --------- RESPONSIVE ---------
