@@ -1043,6 +1043,7 @@ ul#events {
   justify-content: space-between;
   max-width: 71.25em;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 ul#events:before {
