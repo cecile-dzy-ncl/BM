@@ -1037,6 +1037,7 @@ ul#events {
   display: flex;
   flex-wrap: wrap;
   max-width: 71.25em;
+  margin: 0 auto;
 }
 
 ul#events .card-event {
