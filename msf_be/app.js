@@ -17,6 +17,10 @@ $(document).ready(function () {
       var legendRecoltes = "collected";
       var legendObjectif = "Goal";
       var legendExpected = "expected";
+      var helpTitle = "Need help?";
+      var helpContent =
+        "We'll be happy to help you define and create your campaign. Contact us if you have any questions. You can also check out our fundraising tips and advice that we've created for you.";
+      var helpBtn = "Tips & tricks";
       break;
     case "nl":
       var remainingDaysLegend = "resterende";
@@ -32,6 +36,10 @@ $(document).ready(function () {
       var legendRecoltes = "ingezameld";
       var legendObjectif = "Doel";
       var legendExpected = "verwachte";
+      var helpTitle = "Hulp nodig?";
+      var helpContent =
+        "Wij helpen u graag uw campagne te kiezen en te creëren. Contacteer ons met uw vragen. U kan ook de tips & tricks voor een geslaagde crowdfunding bekijken die we voor u hebben gebundeld.";
+      var helpBtn = "Tips & tricks";
       break;
     default:
       var remainingDaysLegend = "restants";
@@ -47,6 +55,10 @@ $(document).ready(function () {
       var legendRecoltes = "récoltés";
       var legendObjectif = "Objectif";
       var legendExpected = "attendus";
+      var helpTitle = "Besoin d'un coup de main ?";
+      var helpContent =
+        "Nous serons ravis de vous aider à définir et créer votre campagne. Contactez-nous si vous avez des questions. Vous pouvez également consulter nos astuces et conseils de collecte de fonds que nous avons créés pour vous.";
+      var helpBtn = "Trucs et astuces";
       break;
   }
 
@@ -54,6 +66,15 @@ $(document).ready(function () {
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
+
+  // AJOUT BANNER MAINTENANCE
+  var helpWrapper = `
+  <div class='wrapper-help'>
+  <h1 class='grey text-center'>${helpTitle}</h1>
+  <p class='grey text-center'>${helpContent}</p>
+  <a class='btn btn-bm bg-red white'>${helpBtn}</a>
+  </div>`;
+  $("#events_index #events").after(helpWrapper);
 
   // AJOUT NAV BUTTONS
 
