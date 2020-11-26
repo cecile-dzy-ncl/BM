@@ -1278,8 +1278,12 @@ dl#step_tab dd {
     margin-left: 0;
   }
 
-  .stats {
+  /* .stats {
     flex-direction: column;
+  } */
+
+  .stat span {
+    font-size: 22px;
   }
 
   #how-to {
