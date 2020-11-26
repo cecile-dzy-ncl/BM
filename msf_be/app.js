@@ -413,8 +413,10 @@ $(document).ready(function () {
         $.get(
           `https://events.msf-azg.be/api/events?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
+            console.log(response);
             $.each(response, function (key, value) {
               console.log(value);
+              console.log(value.first);
               // buildCard(value, eventContainer);
             });
           }
