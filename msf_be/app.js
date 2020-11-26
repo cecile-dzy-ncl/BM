@@ -251,7 +251,7 @@ $(document).ready(function () {
   });
 
   $(function () {
-    if ($("body").is("#indexs-index")) {
+    if ($("body").is("#indexs-index") || $("body").is("#events-index")) {
       const injectCard = (eventCard, cardContainer) => {
         // console.log(cardContainer);
         $(cardContainer).append(eventCard);
@@ -407,6 +407,19 @@ $(document).ready(function () {
           $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
         }, 500);
       }
+
+      const fetchDataEvents = (eventContainer) => {
+        console.log("fetchDataEvents");
+        $.get(
+          `https://events.msf-azg.be/api/events?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+          function (response) {
+            buildCard(response, eventContainer);
+          }
+        );
+      };
+
+      const eventsContainer = $("#events-index #events");
+      fetchDataEvents(eventsContainer);
     }
   });
 
