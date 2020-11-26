@@ -415,7 +415,7 @@ $(document).ready(function () {
           function (response) {
             $.each(response, function (key, value) {
               console.log(value);
-              buildCard(value, eventContainer);
+              // buildCard(value, eventContainer);
             });
           }
         );
