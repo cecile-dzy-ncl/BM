@@ -1033,6 +1033,14 @@ img.project-thumbnails {
   display: none;
 }
 
+ul#events {
+  display: flex;
+}
+
+ul#events .card-event {
+  width: 30%;
+}
+
 ul.pagination {
   text-align: center;
 }
