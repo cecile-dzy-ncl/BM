@@ -69,10 +69,12 @@ $(document).ready(function () {
 
   // AJOUT BANNER MAINTENANCE
   var helpWrapper = `
+  <div class='container-bm'>
   <div class='wrapper-help'>
   <h1 class='grey text-center'>${helpTitle}</h1>
   <p class='grey text-center'>${helpContent}</p>
   <a class='btn btn-bm bg-red white'>${helpBtn}</a>
+  </div>;
   </div>`;
   $("#events-index .section-events").after(helpWrapper);
 
