@@ -1041,6 +1041,10 @@ ul#events {
   margin: 0 auto;
 }
 
+ul#events:before {
+  display: none;
+}
+
 ul#events .card-event {
   width: 30%;
 }
