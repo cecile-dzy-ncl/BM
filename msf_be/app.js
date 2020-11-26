@@ -69,11 +69,11 @@ $(document).ready(function () {
 
   // AJOUT BANNER MAINTENANCE
   var helpWrapper = `
-  <div class='container-bm'>
-  <div class='wrapper-help'>
-  <h1 class='grey text-center'>${helpTitle}</h1>
+  <div class='container-small-bm my-80'>
+  <div class='wrapper-help d-flex flex-column'>
+  <h1 class='grey text-center mb-15'>${helpTitle}</h1>
   <p class='grey text-center'>${helpContent}</p>
-  <a class='btn btn-bm bg-red white'>${helpBtn}</a>
+  <a class='btn btn-bm bg-red white my-20'>${helpBtn}</a>
   </div>;
   </div>`;
   $("#events-index .section-events").after(helpWrapper);
