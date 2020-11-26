@@ -1050,7 +1050,8 @@ ul#events:before {
 }
 
 ul#events .card-event {
-  width: 30%;
+  width: 32%;
+  margin-bottom: 20px;
 }
 
 ul.pagination {
