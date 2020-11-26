@@ -82,6 +82,7 @@ $(document).ready(function () {
 
   if (window.matchMedia("(max-width: 600px)").matches) {
     $("nav#main-nav").append($("#first-header .top-bar-section"));
+    $("nav#main-nav").append($(".header-spacer .top-bar-section"));
   }
 
   if (window.matchMedia("(min-width: 600px)").matches) {
