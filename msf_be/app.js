@@ -12,7 +12,7 @@ $(document).ready(function () {
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
       var eventIntro =
-        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+        "Setting up your fundraising page takes only five minutes. Decide what you want to do and choose which campaign you want to get involved in. Choose a name, a photo, and you'll be ready to start raising money to help the people who need it most.";
       var legendCollectes = "projects";
       var legendRecoltes = "collected";
       var legendObjectif = "Goal";
@@ -26,7 +26,7 @@ $(document).ready(function () {
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
       var eventIntro =
-        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+        "Uw fondsenwervingspagina aanmaken neemt maar een paar minuten in beslag. Kies een naam, een foto, uw crowdfundingdoel en u kan meteen beginnen geld inzamelen voor de mensen die onze hulp het hardst nodig hebben.";
 
       var legendCollectes = "inzamelacties";
       var legendRecoltes = "ingezameld";
@@ -41,7 +41,7 @@ $(document).ready(function () {
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
       var eventIntro =
-        "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
+        "La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.";
 
       var legendCollectes = "collectes";
       var legendRecoltes = "récoltés";
