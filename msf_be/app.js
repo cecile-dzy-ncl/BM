@@ -74,7 +74,7 @@ $(document).ready(function () {
   <p class='grey text-center'>${helpContent}</p>
   <a class='btn btn-bm bg-red white'>${helpBtn}</a>
   </div>`;
-  $("#events_index .section-events").after(helpWrapper);
+  $("#events-index .section-events").after(helpWrapper);
 
   // AJOUT NAV BUTTONS
 
