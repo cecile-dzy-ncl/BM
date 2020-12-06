@@ -471,7 +471,7 @@ $(document).ready(function () {
         if (collectesEvents.length > 1) {
           setTimeout(function () {
             $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 100);
+          }, 1000);
         }
 
         if (events.length > 1) {
