@@ -1328,6 +1328,6 @@ dl#step_tab dd {
 
   .project_event_description > div,
   .project_event_description .bg-darkgrey img {
-    margin-bottom: 10px;
+    margin: 10px auto;
   }
 }
