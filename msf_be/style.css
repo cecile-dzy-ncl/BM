@@ -1361,7 +1361,7 @@ dl#step_tab dd {
 
   .block-scroll .controls#next,
   .slick-next {
-    right: 23px;
+    right: 10%;
   }
 
   .block-scroll .controls#prev,
