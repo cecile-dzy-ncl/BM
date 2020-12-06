@@ -433,24 +433,6 @@ $(document).ready(function () {
         ],
       };
 
-      if (collectesEvents.length > 3) {
-        setTimeout(function () {
-          $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 300);
-      }
-
-      if (events.length > 3) {
-        setTimeout(function () {
-          $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 500);
-      }
-
-      if (urgencesEvents.length > 3) {
-        setTimeout(function () {
-          $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 500);
-      }
-
       const fetchDataEvents = (eventContainer) => {
         console.log("fetchDataEvents");
         $.get(
@@ -464,6 +446,26 @@ $(document).ready(function () {
           }
         );
       };
+
+      if (window.matchMedia("(min-width: 600px)").matches) {
+        if (collectesEvents.length > 3) {
+          setTimeout(function () {
+            $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 300);
+        }
+
+        if (events.length > 3) {
+          setTimeout(function () {
+            $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 500);
+        }
+
+        if (urgencesEvents.length > 3) {
+          setTimeout(function () {
+            $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 500);
+        }
+      }
 
       if (window.matchMedia("(max-width: 600px)").matches) {
         if (collectesEvents.length > 1) {
