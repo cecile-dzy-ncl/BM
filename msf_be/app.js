@@ -465,6 +465,26 @@ $(document).ready(function () {
         );
       };
 
+      if (window.matchMedia("(max-width: 600px)").matches) {
+        if (collectesEvents.length > 1) {
+          setTimeout(function () {
+            $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 300);
+        }
+
+        if (events.length > 1) {
+          setTimeout(function () {
+            $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 500);
+        }
+
+        if (urgencesEvents.length > 1) {
+          setTimeout(function () {
+            $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+          }, 500);
+        }
+      }
+
       const eventsContainer = $("#events-index #events");
       fetchDataEvents(eventsContainer);
     }
