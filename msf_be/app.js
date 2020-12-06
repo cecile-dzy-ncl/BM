@@ -63,9 +63,9 @@ $(document).ready(function () {
   }
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance =
-    "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
-  $("#banner_section").before(bannerMaintenance);
+  // var bannerMaintenance =
+  //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
+  // $("#banner_section").before(bannerMaintenance);
 
   // AJOUT BANNER MAINTENANCE
   var helpWrapper = `
@@ -472,79 +472,11 @@ $(document).ready(function () {
     window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
-  // function changeTitle(title) {
-  //   var activeStepTitleContent = title.innerHTML.split("-")[1];
-  //   $(".step-title").html(activeStepTitleContent);
-  // }
-
-  if ($("#projects-new")) {
-    // $(".tab-content").prepend($("#step_tab"));
-    // $("#step_tab").after($("#error-message + .row"));
-    //   $("#projects-new .container-event").before(
-    //     "<h1 class='step-title text-center'></h1>"
-    //   );
-    //   var activeStepTitle = $(
-    //     "#projects-new #form-project #step_tab .active a.click_tabs"
-    //   )[0];
-    //   // if (activeStepTitle) {
-    //   //   // var activeStepTitleContent = activeStepTitle.innerHTML.split("-")[1];
-    //   //   // $(".step-title").html(activeStepTitleContent);
-    //   //   changeTitle(activeStepTitle);
-    //   // }
-    //   // $("input#step").change(function () {
-    //   //   var activeStepTitle = $(
-    //   //     "#projects-new #form-project #step_tab .active a.click_tabs"
-    //   //   )[0];
-    //   //   changeTitle(activeStepTitle);
-    //   //   var stepNumber = $("input#step")[0].value;
-    //   //   console.log(stepNumber);
-    //   // });
-    //   $("form#new_project").change(function () {
-    //     //   var activeStepTitle = $(
-    //     //     "#projects-new #form-project #step_tab .active a.click_tabs"
-    //     //   )[0];
-    //     //   changeTitle(activeStepTitle);
-    //     //   var stepNumber = $("input#step")[0].value;
-    //     //   console.log("if form", stepNumber);
-    //     //   console.log("if form activeStepTitle", activeStepTitle);
-    //     if ($("input#step")[0].value === "1") {
-    //       console.log("if 1", activeStepTitle);
-    //       // var activeStepTitle = $(
-    //       //   "#projects-new #form-project #step_tab .active a.click_tabs"
-    //       // )[0];
-    //       // changeTitle(activeStepTitle);
-    //     }
-    //     if ($("input#step")[0].value === "2") {
-    //       // var activeStepTitle = $(
-    //       //   "#projects-new #form-project #step_tab .active a.click_tabs"
-    //       // )[0];
-    //       // changeTitle(activeStepTitle);
-    //       console.log("if 2", activeStepTitle);
-    //     }
-    //     if ($("input#step")[0].value === "3") {
-    //       // var activeStepTitle = $(
-    //       //   "#projects-new #form-project #step_tab .active a.click_tabs"
-    //       // )[0];
-    //       // changeTitle(activeStepTitle);
-    //       console.log("if 3", activeStepTitle);
-    //     }
-    //   });
-  }
-
   // --------- RESPONSIVE ---------
 
   var windowWidth = $(window).width();
 
   if (windowWidth < 500) {
     $("body").addClass("mobile");
-    // $(".pl-370").removeClass("pl-370");
-    // $(".banner-text h2").removeClass("white").addClass("black");
-    // $(".banner-text p").removeClass("white");
-    // $(".campagne > div").removeClass("w-50");
-    // $(".compteur .border-right").removeClass("border-right").removeClass("border-white");
-    // $(".conseils-et-outils .bg-black .container-small-bm > .d-flex").remove();
-    // $(".a-propos .wrapper .w-20").addClass("mb-15").removeClass("w-20");
-    // $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
-    // $("#events-show .event-stat").removeClass("border-right");
   }
 });
