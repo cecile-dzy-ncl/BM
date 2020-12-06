@@ -1,3 +1,7 @@
 .bg-primary {
   background-color: var(--primary);
 }
+
+.container-small-bm {
+  width: 775px;
+}
