@@ -1406,4 +1406,16 @@ dl#step_tab dd {
   .steps .container-bm {
     width: 100% !important;
   }
+
+  .row.infos-money,
+  .row.infos-money + .row {
+    display: flex;
+  }
+
+  .infos-money .columns:first-of-type {
+    flex: 0 0 auto;
+  }
+  .infos-money .columns:first-of-type * {
+    text-align: left;
+  }
 }
