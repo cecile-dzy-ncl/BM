@@ -1091,8 +1091,13 @@ ul.pagination li button:hover {
 
 .custom-block {
   padding: 30px 0;
-  margin: 30px 0;
+  margin: 30px auto;
+  max-width: 71.25em;
+  /* margin: 0 auto; */
 }
+
+/* .custom-block {
+} */
 
 /* .custom-block .row {
   width: 100%;
