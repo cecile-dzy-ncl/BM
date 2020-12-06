@@ -1221,9 +1221,9 @@ dl#step_tab dd {
   top: 0;
 }
 
-/* ------ TABBLET ------ */
+/* ------ TABLETTE ------ */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
