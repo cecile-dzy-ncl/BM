@@ -1319,4 +1319,8 @@ dl#step_tab dd {
     position: relative;
     bottom: 0;
   }
+
+  .project_event_description > div {
+    flex-direction: column;
+  }
 }
