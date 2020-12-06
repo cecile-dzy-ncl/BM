@@ -1276,6 +1276,11 @@ dl#step_tab dd {
   .how-to_title {
     width: 50%;
   }
+
+  #how-to .btn-bm {
+    width: max-content;
+  }
+
   .scrolling-wrapper .card {
     width: 90%;
   }
