@@ -451,19 +451,19 @@ $(document).ready(function () {
         if (collectesEvents.length > 3) {
           setTimeout(function () {
             $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1500);
+          }, 1000);
         }
 
         if (events.length > 3) {
           setTimeout(function () {
             $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 1000);
         }
 
         if (urgencesEvents.length > 3) {
           setTimeout(function () {
             $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 1000);
         }
       }
 
@@ -477,13 +477,13 @@ $(document).ready(function () {
         if (events.length > 1) {
           setTimeout(function () {
             $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 1000);
         }
 
         if (urgencesEvents.length > 1) {
           setTimeout(function () {
             $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 1000);
         }
       }
 
