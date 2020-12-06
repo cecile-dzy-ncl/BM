@@ -1473,14 +1473,14 @@ dl#step_tab dd {
     font-size: 22px;
   }
 
-  #how-to {
+  /* #how-to {
     flex-direction: column;
   }
 
   #how-to > div {
     width: 100%;
     margin-bottom: 15px;
-  }
+  } */
 
   .scrolling-wrapper .card {
     width: 90%;
