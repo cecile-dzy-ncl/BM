@@ -1229,6 +1229,10 @@ dl#step_tab dd {
     width: 90% !important;
   }
 
+  h2 {
+    font-size: 20px;
+  }
+
   section#banner_section {
     margin-top: 77px;
   }
@@ -1351,6 +1355,12 @@ dl#step_tab dd {
   }
   .outils-intro {
     width: 100%;
+    margin-bottom: 0;
+  }
+
+  .outils-intro .wrapper {
+    margin-top: -25px;
+    width: 90%;
   }
 
   .event-head > .row {
