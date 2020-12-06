@@ -414,7 +414,7 @@ $(document).ready(function () {
           '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
         responsive: [
           {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
