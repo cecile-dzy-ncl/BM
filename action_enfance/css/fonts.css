@@ -1,0 +1,35 @@
+/* ------------------- FONTS ------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+@font-face {
+  font-family: "sensa";
+  src: url("https://cecile-dzy-ncl.github.io/BM/action_enface/fonts/SensaBrushDemo-Fill.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sensa";
+  src: url("https://cecile-dzy-ncl.github.io/BM/action_enface/fonts/SensaBrushDemo-Fill.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto";
+}
+
+.sensa {
+  font-family: "sensa";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed";
+}

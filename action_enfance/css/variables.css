@@ -1,0 +1,15 @@
+/* ------------------- COLORS ------------------- */
+
+:root {
+  --lightgrey: #f4f6f6;
+  --mediumgrey: #9b9b9b;
+  --grey: #3c4150;
+  --darkgrey: #253134;
+  --yellow: #edc455;
+  --blue: #46a0ba;
+  --dark-blue: #006cb6;
+  --pink: #da3869;
+  --green: #afca0b;
+  --shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  --primary: var(--blue);
+}
