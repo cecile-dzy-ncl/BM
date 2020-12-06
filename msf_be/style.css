@@ -1415,8 +1415,11 @@ dl#step_tab dd {
   .infos-money .columns:first-of-type {
     flex: 0 0 auto;
   }
-  #projects-show.mobile .infos-money .columns:first-of-type .current-amount,
-  #projects-show.mobile .infos-money .columns:first-of-type .objectif-amount {
+
+  #projects-show.mobile .current-amount,
+  #projects-show.mobile .objectif-amount,
+  #projects-show.mobile #show_days,
+  #projects-show.mobile .contributeurs p {
     text-align: left !important;
   }
 
