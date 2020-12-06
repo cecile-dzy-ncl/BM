@@ -1374,11 +1374,12 @@ dl#step_tab dd {
   }
 
   .section-my-event .first-section > div,
-  .section-my-event .first-section .projects-list {
+  .section-my-event .first-section .projects-list,
+  .section-my-event .first-section .projects-list li {
     padding: 0;
   }
 
-  .section-my-event .first-section .row {
+  #events-show .section-my-event .first-section .row {
     width: 100%;
     margin: 0 auto;
   }
