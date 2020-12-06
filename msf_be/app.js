@@ -451,7 +451,7 @@ $(document).ready(function () {
         if (collectesEvents.length > 3) {
           setTimeout(function () {
             $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 1500);
         }
 
         if (events.length > 3) {
@@ -471,7 +471,7 @@ $(document).ready(function () {
         if (collectesEvents.length > 1) {
           setTimeout(function () {
             $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 500);
+          }, 100);
         }
 
         if (events.length > 1) {
