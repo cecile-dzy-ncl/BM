@@ -1114,6 +1114,10 @@ ul.pagination li button:hover {
   margin-bottom: 150px;
 }
 
+.outils-intro h2 {
+  text-transform: uppercase;
+}
+
 .outils-intro .wrapper {
   position: absolute;
   bottom: -170px;
