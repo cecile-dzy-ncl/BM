@@ -8,3 +8,8 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+.steps h4,
+.steps p {
+  text-align: left;
+}
