@@ -1345,9 +1345,12 @@ dl#step_tab dd {
   }
 
   #banner_section .image_banner,
-  .first-section img {
+  .outils-intro img {
     height: 175px;
     object-fit: cover;
+  }
+  .outils-intro {
+    width: 100%;
   }
 
   .event-head > .row {
