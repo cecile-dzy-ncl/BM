@@ -1330,4 +1330,12 @@ dl#step_tab dd {
   .project_event_description .bg-darkgrey img {
     margin: 10px auto;
   }
+
+  .projet-head .rows .large-2 {
+    flex: 0 0 25%;
+  }
+
+  .projet-head .section-projet-details h1#show_title {
+    text-align: left !important;
+  }
 }
