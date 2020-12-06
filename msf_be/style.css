@@ -1344,7 +1344,8 @@ dl#step_tab dd {
     text-align: left !important;
   }
 
-  #banner_section .image_banner {
+  #banner_section .image_banner,
+  .first-section img {
     height: 175px;
     object-fit: cover;
   }
