@@ -1325,4 +1325,9 @@ dl#step_tab dd {
     flex-direction: column;
     padding: 20px;
   }
+
+  .project_event_description > div,
+  .project_event_description .bg-darkgrey img {
+    margin-bottom: 10px;
+  }
 }
