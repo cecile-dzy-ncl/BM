@@ -1,12 +1,12 @@
 /* ------------------- A ENLEVER EN PROD ------------------- */
 
-.maintenance {
+/* .maintenance {
+  margin-top: 115px;
+} */
+
+section#banner_section {
   margin-top: 115px;
 }
-
-/* section#banner_section {
-  margin-top: 160px;
-} */
 
 /* ------------------- FONTS ------------------- */
 
