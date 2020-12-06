@@ -1342,4 +1342,20 @@ dl#step_tab dd {
   .projet-head .section-projet-details h1#show_title {
     text-align: left !important;
   }
+
+  #banner_section .image_banner {
+    height: 175px;
+    object-fit: cover;
+  }
+
+  .event-head > .row {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .event-recap {
+    width: 100%;
+    margin: -40px auto 30px;
+  }
 }
