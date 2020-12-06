@@ -1358,7 +1358,7 @@ dl#step_tab dd {
     object-fit: cover;
   }
   .outils-intro {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 0;
   }
 
@@ -1401,5 +1401,9 @@ dl#step_tab dd {
   #events-show .section-my-event .first-section .row {
     width: 100%;
     margin: 0 auto;
+  }
+
+  .steps .container-bm {
+    width: 100% !important;
   }
 }
