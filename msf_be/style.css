@@ -522,6 +522,7 @@ div#events-block .container-bm > div {
   width: 30%;
   margin: 0px 10px 20px 10px;
   box-shadow: var(--shadow);
+  display: inline-block;
 }
 
 .card-event img {
