@@ -1,3 +1,9 @@
+.btn-bm {
+  width: max-content;
+  padding: 10px 30px;
+}
+
 .btn-primary {
   background: var(--blue);
+  font-family: "Barlow Condensed";
 }
