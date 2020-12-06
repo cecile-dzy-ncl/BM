@@ -1270,8 +1270,12 @@ dl#step_tab dd {
   #how-to > div {
     width: 100%;
     margin-bottom: 15px;
+    align-items: flex-start;
   }
 
+  .how-to_title {
+    width: 50%;
+  }
   .scrolling-wrapper .card {
     width: 90%;
   }
