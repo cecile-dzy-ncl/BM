@@ -1369,4 +1369,7 @@ dl#step_tab dd {
     left: 10%;
     z-index: 1;
   }
+  section.event-head {
+    padding: 0px;
+  }
 }
