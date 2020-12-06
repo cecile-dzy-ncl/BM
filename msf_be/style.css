@@ -1397,6 +1397,14 @@ dl#step_tab dd {
     top: -75px;
     right: 0;
   }
+
+  ul#events {
+    padding: 0 20px;
+  }
+
+  ul#events .card-event {
+    width: 100%;
+  }
 }
 
 /* ------ MOBILE ------ */
