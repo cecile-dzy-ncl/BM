@@ -1481,6 +1481,10 @@ dl#step_tab dd {
     font-size: 22px;
   }
 
+  .how-to_title {
+    width: 100%;
+  }
+
   /* #how-to {
     flex-direction: column;
   }
