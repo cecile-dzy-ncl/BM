@@ -1349,12 +1349,12 @@ dl#step_tab dd {
 
   .block-scroll .controls#next,
   .slick-next {
-    right: 10%;
+    right: 5%;
   }
 
   .block-scroll .controls#prev,
   .slick-prev {
-    left: 10%;
+    left: 5%;
     z-index: 1;
   }
   section.event-head {
@@ -1374,28 +1374,6 @@ dl#step_tab dd {
 
   .steps .container-bm {
     width: 100% !important;
-  }
-
-  .row.infos-money,
-  .row.infos-money + .row {
-    display: flex;
-  }
-
-  .infos-money .columns:first-of-type {
-    flex: 0 0 auto;
-  }
-
-  #projects-show.mobile .current-amount,
-  #projects-show.mobile .objectif-amount,
-  #projects-show.mobile #show_days,
-  #projects-show.mobile .contributeurs p {
-    text-align: left !important;
-  }
-
-  .infos-money .chart-wrap {
-    position: absolute;
-    top: -75px;
-    right: 0;
   }
 
   ul#events {
