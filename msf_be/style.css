@@ -1383,6 +1383,15 @@ dl#step_tab dd {
   ul#events .card-event {
     width: 100%;
   }
+
+  .event-head .row .columns {
+    width: 100%;
+  }
+
+  #projects li {
+    /* width: 48%; */
+    padding: 0 10px;
+  }
 }
 
 /* ------ MOBILE ------ */
