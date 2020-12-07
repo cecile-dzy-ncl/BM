@@ -1392,6 +1392,10 @@ dl#step_tab dd {
     /* width: 48%; */
     padding: 0 10px;
   }
+
+  #form-project .columns {
+    width: 90%;
+  }
 }
 
 /* ------ MOBILE ------ */
