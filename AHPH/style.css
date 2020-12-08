@@ -7,7 +7,6 @@ blue: #0061AF
 
 */
 
-
 /* BLACK */
 .ahph .black {
   color: #000000 !important;
@@ -15,25 +14,25 @@ blue: #0061AF
 
 /* CORAIL */
 .ahph .corail {
-  color: #FE5F5E !important;
+  color: #fe5f5e !important;
 }
 
 .ahph .bg-corail {
-  background: #FE5F5E !important;
+  background: #fe5f5e !important;
 }
 
 /* BLUE */
 .ahph .blue {
-  color: #0061AF !important;
+  color: #0061af !important;
 }
 
 .ahph .bg-blue {
-  background-color: #0061AF !important;
+  background-color: #0061af !important;
 }
 
 /* GREY */
 .ahph .bg-grey {
-  background-color: #FAFAFA !important;
+  background-color: #fafafa !important;
 }
 
 /* GENERAL */
@@ -81,8 +80,8 @@ p {
 }
 
 .main-header .button {
-  background-color: #0061AF;
-  border-color: #0061AF;
+  background-color: #0061af;
+  border-color: #0061af;
   text-transform: uppercase;
 }
 
@@ -99,15 +98,14 @@ p {
 }
 
 .button {
-    background-color: #0061AF;
-    border-color: #0061AF;
+  background-color: #0061af;
+  border-color: #0061af;
 }
-
 
 /* BANNERS & WRAPPERS */
 
 .banner.homepage {
-  background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefond2x.jpg);
+  background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/banniere.jpg);
   background-size: cover;
   height: 600px;
 }
@@ -124,7 +122,6 @@ p {
 .section-home-projects {
   background: #fafafa;
 }
-
 
 /* HEADER & FOOTER */
 
@@ -145,7 +142,7 @@ p {
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
-  background: #0061AF;
+  background: #0061af;
 }
 
 .section-projet-details .projet-head {
@@ -167,7 +164,7 @@ i.fa.fa-gift {
 }
 
 .section-projet-details .bg-secondary-color-blurred {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 .row.project-detail-data.p2p-detail-data {
@@ -177,8 +174,6 @@ i.fa.fa-gift {
 section.section-projet-details .projet-head .user {
   margin-right: 10px;
 }
-
-
 
 section.section-projet-details h1#show_title {
   color: #0061af;
@@ -197,8 +192,6 @@ p.team_by {
   box-shadow: none;
 }
 
-
-
 section.section-projet-details .project-detail-data .current-amount,
 #show_days span,
 .contributeurs span {
@@ -207,7 +200,10 @@ section.section-projet-details .project-detail-data .current-amount,
 }
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
-section.section-projet-details .project-detail-data .jours-restants .contributeurs {
+section.section-projet-details
+  .project-detail-data
+  .jours-restants
+  .contributeurs {
   margin-top: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -217,17 +213,17 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #FE5F5E;
+  background: #fe5f5e;
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #FE5F5E !important;
+  background: #fe5f5e !important;
 }
 
 #show_team {
-  background: #F3F5F0;
+  background: #f3f5f0;
 }
 
 .block-share-container h4 span {
@@ -240,10 +236,11 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 .block-share-container {
   padding-bottom: 3px;
-  background: #0061AF;
+  background: #0061af;
 }
 
-.social_network_send, .social_network_share,
+.social_network_send,
+.social_network_share,
 .ask_edit_project {
   filter: invert(1);
 }
@@ -256,7 +253,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: black;
   font-size: 14px;
   line-height: 22px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 .tabs dd.active a {
@@ -272,11 +269,10 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 section#project_tabs + section .row {
   max-width: 100%;
-  background : url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
+  background: url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/imagefondpiedpage2x.jpg");
   background-position: bottom center;
   background-size: cover;
 }
-
 
 .project_event_description {
   height: 600px;
@@ -302,15 +298,15 @@ ul.pagination li button.unavailable {
 
 /* PAGE EVENT */
 .event-head .intro-my-event * {
-    color: black !important;
+  color: black !important;
 }
 
 section.event-head {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #events-show .event-head .intro-my-event {
-    padding: 40px 30px;
+  padding: 40px 30px;
 }
 
 .event-head .intro-my-event:after {
@@ -321,24 +317,24 @@ section.event-head {
 }
 
 #events-show .block-share-container h4 span {
-    color: black;
+  color: black;
 }
 
 .event-head .details-my-event .infos-money,
 #events-show .block-share-container h4,
 .event-head .infos-money .chart-wrap .percent {
-    color: #0061af !important;
+  color: #0061af !important;
 }
 
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
-
   h1 {
     font-size: 30px;
   }
 
-  .banner, .banner.homepage {
+  .banner,
+  .banner.homepage {
     height: auto;
   }
 
@@ -363,7 +359,7 @@ section.event-head {
   }
 
   .projet-head .small-12:first-child {
-      width: auto;
+    width: auto;
   }
 
   .mobile .section-projet-details h1#show_title {
@@ -384,5 +380,4 @@ section.event-head {
     background-color: transparent;
     width: 100vw;
   }
-
 }
