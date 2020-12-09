@@ -1,0 +1,10 @@
+.events-ex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-ex {
+  width: 23%;
+  /* background: red; */
+}
