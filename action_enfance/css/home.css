@@ -6,6 +6,8 @@
 
 .event-ex {
   width: 23%;
+  box-shadow: var(--shadow);
+  padding: 5px;
   /* background: red; */
 }
 
