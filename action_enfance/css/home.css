@@ -49,15 +49,15 @@
   border-color: var(--dark-blue);
 }
 
-.event-ex#event-anniv:after {
+.event-ex#event-anniv .sensa:after {
   background: var(--blue);
 }
-.event-ex#event-memoriam:after {
+.event-ex#event-memoriam .sensa:after {
   background: var(--pink);
 }
-.event-ex#event-defi:after {
+.event-ex#event-defi .sensa:after {
   background: var(--green);
 }
-.event-ex#event-projets:after {
+.event-ex#event-projets .sensa:after {
   background: var(--dark-blue);
 }
