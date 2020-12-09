@@ -1,3 +1,7 @@
 .wrapper-help * {
   color: white;
 }
+
+.section-home-projects {
+  background: var(--lightgrey);
+}
