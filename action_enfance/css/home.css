@@ -8,3 +8,12 @@
   width: 23%;
   /* background: red; */
 }
+
+.event-ex img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.event-ex sensa {
+  border-bottom: 1px solid;
+}
