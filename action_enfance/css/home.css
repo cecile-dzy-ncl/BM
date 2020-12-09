@@ -20,6 +20,7 @@
 
 .event-ex .sensa {
   position: relative;
+  padding-bottom: 3px;
 }
 
 .event-ex .sensa:after {
@@ -27,7 +28,7 @@
   content: "";
   bottom: 0;
   left: 0;
-  width: 20px;
+  width: 30px;
   height: 2px;
 }
 
