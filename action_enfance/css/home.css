@@ -11,6 +11,7 @@
   border-top: 2px solid;
   display: flex;
   flex-direction: column;
+  font-family: "Barlow Condensed";
 }
 
 .event-ex img {
