@@ -9,6 +9,8 @@
   box-shadow: var(--shadow);
   padding: 20px;
   border-top: 2px solid;
+  display: flex;
+  flex-direction: column;
 }
 
 .event-ex img {
