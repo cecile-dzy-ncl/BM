@@ -16,6 +16,15 @@
   margin-right: 20px;
 }
 
-.event-ex sensa {
-  border-bottom: 1px solid;
+.event-ex .sensa {
+  position: relative;
+}
+
+.event-ex .sensa:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 2px;
 }
