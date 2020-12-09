@@ -29,6 +29,11 @@
   height: 2px;
 }
 
+.event-ex > p {
+  margin: 10px auto;
+  flex-grow: 1;
+}
+
 .event-ex#event-anniv {
   border-color: var(--blue);
 }
