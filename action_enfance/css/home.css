@@ -7,8 +7,8 @@
 .event-ex {
   width: 23%;
   box-shadow: var(--shadow);
-  padding: 5px;
-  /* background: red; */
+  padding: 20px;
+  border-top: 1px solid;
 }
 
 .event-ex img {
@@ -27,4 +27,30 @@
   left: 0;
   width: 20px;
   height: 2px;
+}
+
+.event-ex#event-anniv {
+  border-color: var(--blue);
+}
+.event-ex#event-memoriam {
+  border-color: var(--pink);
+}
+.event-ex#event-defi {
+  border-color: var(--green);
+}
+.event-ex#event-projets {
+  border-color: var(--dark-blue);
+}
+
+.event-ex#event-anniv:after {
+  background: var(--blue);
+}
+.event-ex#event-memoriam:after {
+  background: var(--pink);
+}
+.event-ex#event-defi:after {
+  background: var(--green);
+}
+.event-ex#event-projets:after {
+  background: var(--dark-blue);
 }
