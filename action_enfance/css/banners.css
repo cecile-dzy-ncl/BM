@@ -2,3 +2,16 @@
   background: url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/2.jpg");
   background-size: cover;
 }
+
+.banner.homepage .banner-text {
+  width: 30%;
+  margin-left: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  .banner.homepage .banner-text {
+    width: 90%;
+    margin-left: 0;
+    margin: 0 auto;
+  }
+}
