@@ -13,7 +13,7 @@
   flex-direction: column;
 }
 
-.event-ex p {
+.event-ex p:not(.sensa) {
   font-family: "Barlow Condensed";
   text-align: left;
 }
