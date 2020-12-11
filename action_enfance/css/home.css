@@ -16,6 +16,17 @@
 .event-ex p:not(.sensa) {
   font-family: "Barlow Condensed";
   text-align: left;
+  font-size: 18px;
+}
+
+.event-ex .link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.event-ex .link p {
+  font-weight: bold;
 }
 
 .event-ex img {
