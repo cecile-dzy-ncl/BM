@@ -11,6 +11,9 @@
   border-top: 2px solid;
   display: flex;
   flex-direction: column;
+}
+
+.event-ex p {
   font-family: "Barlow Condensed";
 }
 
