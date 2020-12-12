@@ -1232,9 +1232,21 @@ dl#step_tab dd {
 
 /* ------ WIDGET ------ */
 
+#events-widget {
+  position: relative;
+}
+
 #events-widget .event-image img {
   height: 200px;
   width: 100%;
+}
+
+#events-widget canvas {
+  height: 100px;
+  background: white;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 /* ------ TABLETTE ------ */
