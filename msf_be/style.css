@@ -857,17 +857,17 @@ section#project_tabs + section .row {
   padding-top: 50px;
 }
 
-.project_event_description {
-  max-width: 71.25rem;
-  padding: 2rem 0;
-  /* height: 600px; */
-  /* margin: 0 auto;
+/* .project_event_description { */
+/* max-width: 71.25rem; */
+/* padding: 2rem 0; */
+/* height: 600px; */
+/* margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   float: none !important; */
-  /* text-align: right; */
-}
+/* text-align: right; */
+/* } */
 
 .project_event_description p {
   margin-bottom: 10px;
@@ -882,7 +882,7 @@ section#project_tabs + section .row {
 }
 .project_event_description > div {
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .project_event_description > div:first-of-type {
