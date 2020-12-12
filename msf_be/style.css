@@ -1662,4 +1662,8 @@ dl#step_tab dd {
     top: -75px;
     right: 0;
   }
+
+  section.event-head h2 {
+    font-size: 25px;
+  }
 }
