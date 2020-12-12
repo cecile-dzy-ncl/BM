@@ -1463,6 +1463,10 @@ dl#step_tab dd {
     width: 90% !important;
   }
 
+  .btn-bm {
+    width: auto !important;
+  }
+
   h2 {
     font-size: 20px;
   }
