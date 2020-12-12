@@ -164,6 +164,9 @@ small {
   display: none;
 }
 
+.border-right {
+  border-right: 1px solid var(--mediumgrey);
+}
 /* CONTAINER */
 
 #events-show .habillage .row {
@@ -458,7 +461,7 @@ input[name="search"] {
 }
 
 .stat:first-of-type {
-  border-right: 1px solid;
+  border-right: 1px solid var(--mediumgrey);
 }
 
 .stat span {
@@ -921,7 +924,7 @@ section#project_tabs + section .row {
 
 .event-head #widget-new-project a {
   font-size: 16px;
-  font-family: "DINPro";
+  font-family: "DINPro_bold";
 }
 
 /* section.event-head,
