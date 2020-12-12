@@ -1230,6 +1230,13 @@ dl#step_tab dd {
   top: 0;
 }
 
+/* ------ WIDGET ------ */
+
+#events-widget .event-image img {
+  height: 200px;
+  width: 100%;
+}
+
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
