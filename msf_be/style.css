@@ -1589,8 +1589,7 @@ dl#step_tab dd {
 
   #banner_section .image_banner,
   .outils-intro img {
-    height: 175px;
-    object-fit: cover;
+    height: 215px;
   }
   .outils-intro {
     width: 100% !important;
