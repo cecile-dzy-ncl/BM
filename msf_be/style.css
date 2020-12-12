@@ -1076,6 +1076,7 @@ ul.pagination {
 ul.pagination li {
   display: inline-block;
   float: none;
+  font-size: 25px;
 }
 
 ul.pagination li a {
