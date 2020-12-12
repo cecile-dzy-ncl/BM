@@ -1081,8 +1081,8 @@ ul.pagination li a {
   padding: 0;
 }
 
-ul.pagination li a[rel="prev"],
-ul.pagination li a[rel="next"] {
+ul.pagination li:first-child a,
+ul.pagination li:last-child a {
   padding: 0 20px;
 }
 
