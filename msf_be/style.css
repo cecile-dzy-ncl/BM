@@ -893,7 +893,7 @@ section#project_tabs + section .row {
 .project_event_description > div.bg-darkgrey > div {
   margin: 0 auto;
   max-width: 50.25rem;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .project_event_description > div.bg-darkgrey * {
