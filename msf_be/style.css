@@ -1065,6 +1065,10 @@ ul#events .card-event {
   margin-bottom: 20px;
 }
 
+#projects_pager {
+  margin-bottom: 50px;
+}
+
 ul.pagination {
   text-align: center;
 }
@@ -1092,7 +1096,7 @@ ul.pagination li button.unavailable {
 }
 
 ul.pagination li.unavailable a {
-  color: var(--mediumgrey);
+  color: #c4c4c4;
 }
 
 ul.pagination li.unavailable.projects-paginate a {
