@@ -165,7 +165,7 @@ small {
 }
 
 .border-right {
-  border-right: 1px solid var(--mediumgrey);
+  border-color: var(--mediumgrey);
 }
 /* CONTAINER */
 
