@@ -1231,6 +1231,12 @@ dl#step_tab dd {
 
 /* ------ TABLETTE ------ */
 
+@media (max-width: 1040px) {
+  .medium-block-grid-2.projects-list {
+    padding: 0 1em;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container-bm,
   .container-large-bm,
