@@ -1078,6 +1078,7 @@ ul.pagination li a {
   background-color: transparent;
   color: var(--grey);
   font-family: "DINPro_bold";
+  padding: 0;
 }
 
 ul.pagination li.unavailable a,
