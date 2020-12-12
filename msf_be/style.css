@@ -1087,7 +1087,7 @@ ul.pagination li button.unavailable {
 }
 
 ul.pagination li.unavailable a {
-  color: var(--lightgrey);
+  color: var(--mediumgrey);
 }
 
 ul.pagination li.unavailable.projects-paginate a {
