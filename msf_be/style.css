@@ -1231,7 +1231,7 @@ dl#step_tab dd {
 
 /* ------ TABLETTE ------ */
 
-@media (max-width: 1040px) {
+@media (max-width: 1140px) {
   .medium-block-grid-2.projects-list {
     padding: 0 1em;
   }
