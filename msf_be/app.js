@@ -78,6 +78,7 @@ $(document).ready(function () {
   </div>`;
   $("#events-index .section-events").after(helpWrapper);
 
+  $("#events-widget .event-image").after($("#events-widget .chart-wrap"));
   // AJOUT NAV BUTTONS
 
   if (window.matchMedia("(max-width: 600px)").matches) {
