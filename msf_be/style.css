@@ -1095,7 +1095,7 @@ ul.pagination li.unavailable.projects-paginate a {
 
 ul.pagination li a:hover,
 ul.pagination li button:hover {
-  background-color: var(--red);
+  background-color: transparent;
 }
 
 /* ------ CUSTOM BLOCS ------ */
