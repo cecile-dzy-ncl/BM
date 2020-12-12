@@ -1245,8 +1245,9 @@ dl#step_tab dd {
   height: 100px;
   background: white;
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
+  border-radius: 50%;
 }
 
 /* ------ TABLETTE ------ */
