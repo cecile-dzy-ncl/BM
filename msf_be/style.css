@@ -1241,12 +1241,15 @@ dl#step_tab dd {
   width: 100%;
 }
 
-#events-widget canvas {
-  height: 100px;
-  background: white;
+#events-widget .chart-wrap {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+#events-widget canvas {
+  height: 100px;
+  background: white;
   border-radius: 50%;
 }
 
