@@ -1277,6 +1277,13 @@ dl#step_tab dd {
   }
 }
 
+@media (max-width: 869px) and (min-width: 641px) {
+  section.section-projet-details .project-detail-data .pledge-amount,
+  section.section-projet-details .project-detail-data .objectif-amount {
+    display: initial;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container-bm,
   .container-large-bm,
