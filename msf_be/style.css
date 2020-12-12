@@ -340,8 +340,13 @@ header.main-header {
   padding: 0 !important;
 }
 
-input.icon-search.field-auto-search:focus {
+/* input.icon-search.field-auto-search:focus {
   background: white;
+} */
+
+.field-auto-search,
+input[type="text"].field-auto-search:focus {
+  background: url("https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/search.png");
 }
 
 .header-spacer .search-query {
