@@ -1081,6 +1081,11 @@ ul.pagination li a {
   padding: 0;
 }
 
+ul.pagination li a[rel="prev"],
+ul.pagination li a[rel="next"] {
+  padding: 0 20px;
+}
+
 ul.pagination li.unavailable a,
 ul.pagination li button.unavailable {
   background-color: transparent;
