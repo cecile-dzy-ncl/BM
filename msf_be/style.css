@@ -882,6 +882,7 @@ section#project_tabs + section .row {
 }
 .project_event_description > div {
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 .project_event_description > div:first-of-type {
