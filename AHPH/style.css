@@ -105,14 +105,25 @@ p {
 /* BANNERS & WRAPPERS */
 
 .banner.homepage {
-  background: url(https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/banniere.jpg);
+  background: linear-gradient(
+      137deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("https://solidarite.fondationaphp.fr/cdn.iraiser.eu/pQP3GPOTza2uHGTgI9ZedJi0PrZ3I8vulVw8FxlSNuvve5IK9msV6fgpfWtXWak//iraiser_iraiser/origin/banniere.jpg");
   background-size: cover;
   height: 600px;
+  background-position: 100%;
 }
 
 .banner.homepage p {
   font-size: 17px;
   line-height: 24px;
+}
+
+.banner.homepage h2,
+.banner.homepage p {
+  text-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .banner.homepage .container-small-bm {
