@@ -1299,6 +1299,11 @@ dl#step_tab dd {
 }
 
 @media screen and (max-width: 768px) {
+  form.edit_project {
+    width: 90%;
+    margin: -30px auto 0;
+  }
+
   #project_tabs .tabs {
     display: flex;
   }
@@ -1411,7 +1416,7 @@ dl#step_tab dd {
 
   #banner_section .image_banner,
   .outils-intro img {
-    height: 335px;
+    height: 378px;
     object-fit: cover;
   }
   .outils-intro {
