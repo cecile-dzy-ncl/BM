@@ -1410,7 +1410,7 @@ dl#step_tab dd {
 
   #how-to > div {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     align-items: flex-start;
   }
 
@@ -1555,6 +1555,9 @@ dl#step_tab dd {
 /* ------ MOBILE ------ */
 
 @media screen and (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
   form.edit_project {
     margin-bottom: 30px;
   }
