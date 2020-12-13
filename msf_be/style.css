@@ -578,6 +578,11 @@ div#events-block .container-bm > div {
   display: inline-block;
 }
 
+.line {
+  height: auto;
+  margin: 0;
+}
+
 .card-event img {
   width: 100%;
   height: 200px;
