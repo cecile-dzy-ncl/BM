@@ -1311,6 +1311,7 @@ dl#step_tab dd {
 
 #events-widget .event-item {
   box-shadow: var(--shadow);
+  padding: 0;
 }
 
 #events-widget .event-image img {
