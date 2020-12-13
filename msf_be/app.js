@@ -434,16 +434,14 @@ $(document).ready(function () {
               slidesToScroll: 1,
             },
           },
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ],
       };
 
       const fetchDataEvents = (eventContainer) => {
         console.log("fetchDataEvents");
+        var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
         $.get(
-          `https://events.msf-azg.be/api/events?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+          `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
           function (response) {
             console.log(response.events);
             eventContainer.html("");
