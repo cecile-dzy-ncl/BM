@@ -1402,9 +1402,9 @@ dl#step_tab dd {
     margin: -30px auto 5px;
   }
 
-  section#banner_section {
+  /* section#banner_section {
     margin-top: 81px;
-  }
+  } */
 
   form.edit_project {
     width: 90%;
