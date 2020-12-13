@@ -471,11 +471,12 @@ input[name="search"] {
 }
 
 .stat:first-of-type {
-  border-right: 1px solid var(--mediumgrey);
+  border-right: 2px solid var(--mediumgrey);
 }
 
 .stat span {
   font-size: 40px;
+  line-height: 40px;
   font-family: "DINPro-black";
 }
 
