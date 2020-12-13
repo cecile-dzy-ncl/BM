@@ -1849,7 +1849,7 @@ dl#step_tab dd {
 
   .section-my-event .first-section > div,
   .section-my-event .first-section .projects-list,
-  .section-my-event .first-section .projects-list li {
+  #projects .section-my-event .first-section .projects-list li {
     padding: 0;
   }
 
