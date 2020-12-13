@@ -1381,8 +1381,13 @@ dl#step_tab dd {
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
+  h1,
+  h2 {
     font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
   }
 
   section.event-head h2 {
