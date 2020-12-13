@@ -1857,4 +1857,8 @@ dl#step_tab dd {
   .events-tag {
     display: none !important;
   }
+
+  #events-block h1 {
+    margin-bottom: 20px;
+  }
 }
