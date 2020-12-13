@@ -591,6 +591,10 @@ div#events-block .container-bm > div {
   margin-bottom: 10px;
 }
 
+.card-event .event-numbers p {
+  height: auto;
+}
+
 .card-event-btns {
   display: flex;
   width: 90%;

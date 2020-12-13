@@ -304,10 +304,11 @@ $(document).ready(function () {
             currency: "EUR",
           }).format(eventAmountExpected);
           var amountExpectedBlock = `
-                              <div class=''>
-                              <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-                              <p class='text-center'><small>${legendExpected}</small></p>
-                              </div>`;
+            <div class='line'></div>
+            <div class=''>
+              <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+              <p class='text-center'><small>${legendExpected}</small></p>
+            </div>`;
         } else {
           var amountExpectedBlock = "";
         }
@@ -318,11 +319,12 @@ $(document).ready(function () {
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
           var remainingDaysBlock = `
-                                <div class=''>
-                                <h5 class='text-center'>${remainingDays}j</h5>
-                                <p class='text-center'><small>${remainingDaysLegend}</small></p>
-                                </div>
-                                `;
+            <div class='line'></div>
+            <div class=''>
+              <h5 class='text-center'>${remainingDays}j</h5>
+              <p class='text-center'><small>${remainingDaysLegend}</small></p>
+            </div>
+            `;
         } else {
           var remainingDays = "";
         }
@@ -365,6 +367,7 @@ $(document).ready(function () {
           <h5 class='text-center'>${event.projects_count}</h5>
           <p class='text-center'><small>${legendCollectes}</small></p>
           </div>
+          <div class='line'></div>
           <div class=''>
           <h5 class='text-center amount-collected-title'>${eventAmountCollectedFormatted}</h5>
           <p class='text-center'><small>${legendRecoltes}</small></p>
