@@ -1548,6 +1548,10 @@ dl#step_tab dd {
     background: black;
   }
 
+  section.section-projet-details .project-detail-data .project_boutons_give {
+    padding-top: 0.25rem;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
