@@ -1680,16 +1680,20 @@ dl#step_tab dd {
     flex-direction: column;
   } */
 
+  .stats {
+    padding: 10px;
+  }
+
   .stat span {
     font-size: 22px;
   }
 
   .how-to_title {
     width: 100%;
+    margin: 30px 0 20px;
   }
 
   .how-to_title:not(:first-child) {
-    margin: 30px 0 20px;
   }
 
   /* #how-to {
