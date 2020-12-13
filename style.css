@@ -836,6 +836,11 @@ section.connexion {
   width: 100%;
 }
 
+#myTabContent #projects {
+  margin: 0 -0.625rem;
+
+}
+
 /* - container - */
 
 .container-xs-bm {
