@@ -1398,6 +1398,7 @@ dl#step_tab dd {
   #projects-new .tabs {
     width: 90%;
     margin: 0 auto;
+    padding: 50px;
   }
 
   form#front-search-filter .columns {
