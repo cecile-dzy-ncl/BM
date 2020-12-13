@@ -1266,6 +1266,10 @@ label {
 
 @media screen and (max-width: 500px) {
 
+  .modal-body iframe {
+    width: 100%;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
