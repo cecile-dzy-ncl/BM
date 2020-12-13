@@ -1067,7 +1067,7 @@ img.project-thumbnails {
 
 .projects-list .panel h3 {
   font-size: 18px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 15px !important;
 }
 
 .projects-list .panel h3 a {
