@@ -1728,6 +1728,7 @@ dl#step_tab dd {
 
   #events-block > .container-bm > .d-flex {
     flex-direction: column;
+    align-items: baseline;
   }
   #event-search {
     width: 100%;
