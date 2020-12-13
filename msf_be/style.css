@@ -1309,6 +1309,10 @@ dl#step_tab dd {
   position: relative;
 }
 
+#events-widget .event-item {
+  box-shadow: var(--shadow);
+}
+
 #events-widget .event-image img {
   height: 200px;
   width: 100%;
