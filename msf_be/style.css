@@ -1357,6 +1357,10 @@ dl#step_tab dd {
 }
 
 @media screen and (max-width: 768px) {
+  section#banner_section {
+    margin-top: 81px;
+  }
+
   form.edit_project {
     width: 90%;
     margin: -30px auto 0;
