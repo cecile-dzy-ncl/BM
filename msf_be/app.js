@@ -8,6 +8,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "remaining";
       var btnSoutenir = "<strong>Support</strong> an event";
       var btnCreer = "<strong>Create</strong> a page";
+      var btnCreerCard = "Create a page";
       var btnSee = "See all projects";
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
@@ -26,6 +27,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "resterende";
       var btnSoutenir = "Een crowdfunding <strong>steunen</strong>";
       var btnCreer = "Een crowdfunding <strong>creëren</strong>";
+      var btnCreerCard = "Een crowdfunding creëren";
       var btnSee = "Bekijk alle projecten";
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
@@ -45,6 +47,7 @@ $(document).ready(function () {
       var remainingDaysLegend = "restants";
       var btnSoutenir = "<strong>Soutenir</strong> une collecte";
       var btnCreer = "<strong>Créer</strong> une collecte";
+      var btnCreerCard = "Créer une collecte";
       var btnSee = "Voir les collectes";
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
@@ -348,7 +351,7 @@ $(document).ready(function () {
           <img src="${event.banner_image}">
           <div class="card-event-btns">
           <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
-          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreer}</a>
+          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreerCard}</a>
           </div>
           <div class="card-event-details">
           <h4>${eventTitle}</h4>
