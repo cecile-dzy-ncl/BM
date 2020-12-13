@@ -451,7 +451,7 @@ $(document).ready(function () {
             `https://events.msf-azg.be/api/events/${value}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
             function (response) {
               console.log(response);
-              buildCard(value, eventContainer);
+              buildCard(value, eventsContainer);
             }
           );
           // });
