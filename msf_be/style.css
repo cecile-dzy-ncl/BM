@@ -1325,9 +1325,16 @@ dl#step_tab dd {
   width: 120px;
 }
 
-#events-widget .teamcount {
+#events-widget .teamcount,
+#events-widget .infos-money span {
+  color: black;
+  font-family: "DINPro";
+}
+
+#events-widget .infos-money {
   font-size: 20px;
   width: 100%;
+  font-family: "DINPro";
 }
 
 #events-widget .teamcount i {
