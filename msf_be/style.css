@@ -1532,7 +1532,10 @@ dl#step_tab dd {
     width: 100%;
   }
 
-  section.section-projet-details .project-detail-data .infos-money .chart-wrap {
+  section.section-projet-details
+    .project-detail-data
+    .infos-money
+    .chart-wrap.light {
     height: 6.0625rem;
     width: 6.0625rem;
     border-radius: 50%;
