@@ -392,6 +392,7 @@ input[type="text"].field-auto-search:focus {
 
 .btn-actions a strong {
   font-size: 15px;
+  display: block;
 }
 
 .btn-actions a:hover {
