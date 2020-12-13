@@ -1514,6 +1514,10 @@ dl#step_tab dd {
 /* ------ MOBILE ------ */
 
 @media screen and (max-width: 500px) {
+  form.edit_project {
+    margin-bottom: 30px;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
