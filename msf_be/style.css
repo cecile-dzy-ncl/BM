@@ -503,6 +503,10 @@ input[name="search"] {
   /* font-size: 25px; */
 }
 
+.how-to_title .font-big {
+  font-family: "DINPro_black";
+}
+
 .how-to_title {
   display: flex;
   align-items: center;
