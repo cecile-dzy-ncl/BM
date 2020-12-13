@@ -458,7 +458,7 @@ input[name="search"] {
   box-shadow: var(--shadow);
   padding: 20px;
   margin-top: -60px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .stat p,
@@ -510,7 +510,7 @@ input[name="search"] {
 .how-to_title {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .how-to-content {
