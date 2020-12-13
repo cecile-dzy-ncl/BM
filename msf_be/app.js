@@ -356,7 +356,7 @@ $(document).ready(function () {
           <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreerCard}</a>
           </div>
           <div class="card-event-details">
-          <h4>${eventTitle}</h4>
+          <h4><a href="${eventUrl}">${eventTitle}</a></h4>
           <p>${eventDescription}</p>
           <div>
           <div class='event-progressbar bg-lightgrey'>
