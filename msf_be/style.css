@@ -1401,6 +1401,10 @@ dl#step_tab dd {
     padding: 50px;
   }
 
+  #projects-attachment #tab_new_user {
+    border-right: 0;
+  }
+
   form#front-search-filter .columns {
     width: 100%;
   }
