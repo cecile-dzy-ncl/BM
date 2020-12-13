@@ -1555,6 +1555,10 @@ dl#step_tab dd {
     padding-top: 0.25rem;
   }
 
+  ul.pagination li {
+    font-size: 18px;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
