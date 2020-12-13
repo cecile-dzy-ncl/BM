@@ -1329,7 +1329,12 @@ dl#step_tab dd {
 }
 
 #my-profile .tabs .active a {
-  color: #3c4150;
+  background-color: var(--mediumgrey);
+}
+
+#my-profile .tabs .active a,
+#my-profile .tabs a {
+  color: var(--grey);
 }
 
 #my-profile .projects-list .panel .thumbnail img {
