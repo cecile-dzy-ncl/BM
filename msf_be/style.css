@@ -1701,7 +1701,8 @@ dl#step_tab dd {
     margin: 30px 0 20px;
   }
 
-  .how-to_title:not(:first-child) {
+  #events-block h3 {
+    font-size: 15px;
   }
 
   /* #how-to {
