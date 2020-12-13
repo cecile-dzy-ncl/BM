@@ -98,7 +98,7 @@ $(document).ready(function () {
     $("#header-header > .row > .columns:last-child").after(
       `<div class="btn-actions">
               <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
-              <a class="bg-red" href="">${btnCreer}</a>
+              <a class="bg-red" href="https://events.msf-azg.be/events">${btnCreer}</a>
               </div>`
     );
 
