@@ -252,6 +252,11 @@ small {
   background: url(https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/Bg-newsletter.jpg);
 }
 
+form#project-search {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 /* NAVBAR */
 
 #main-nav {
