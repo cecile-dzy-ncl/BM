@@ -1390,6 +1390,10 @@ dl#step_tab dd {
     font-size: 20px;
   }
 
+  .attachment * {
+    margin-left: 0;
+  }
+
   form#front-search-filter .columns {
     width: 100%;
   }
