@@ -1681,6 +1681,10 @@ dl#step_tab dd {
     width: 100%;
   }
 
+  .how-to_title:not(:first-child) {
+    margin: 30px 0 20px;
+  }
+
   /* #how-to {
     flex-direction: column;
   }
