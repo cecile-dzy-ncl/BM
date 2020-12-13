@@ -1655,8 +1655,7 @@ dl#step_tab dd {
   }
 
   .project_event_description .bg-darkgrey img {
-    margin-right: 0;
-    margin: 10px auto;
+    margin: 0px auto 30px !important;
   }
 
   .projet-head .rows .large-2 {
