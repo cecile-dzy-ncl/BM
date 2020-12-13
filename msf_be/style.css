@@ -1660,6 +1660,14 @@ dl#step_tab dd {
     margin-bottom: 20px;
   }
 
+  .edit_project .actions {
+    margin-right: 0;
+  }
+
+  #form-project .attachment form * {
+    width: 100%;
+  }
+
   #project_tabs .tabs {
     flex-direction: column;
   }
