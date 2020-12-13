@@ -438,25 +438,12 @@ $(document).ready(function () {
       };
 
       if ($("body").is("#events-index")) {
-        console.log("fetchDataEvents");
-        console.log("fetchDataEvents3");
         const eventsContainer = $("#events-index #events");
         eventsContainer.html("");
         var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
 
         $.each(eventsList, function (key, value) {
-          console.log(value);
-
           fetchData(value, eventsContainer);
-          // const fetchDataEvents = (eventContainer) => {
-          // $.get(
-          //   `https://events.msf-azg.be/api/events/${value}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-          //   function (response) {
-          //     console.log(response);
-          //     buildCard(value, eventsContainer);
-          //   }
-          // );
-          // });
         });
       }
 
