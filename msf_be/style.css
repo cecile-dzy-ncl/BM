@@ -1321,13 +1321,17 @@ dl#step_tab dd {
 
 #events-widget .chart-wrap {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 120px;
+  bottom: -40%;
+  right: 15px;
+  width: 90px;
+  height: 90px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
 #events-widget .teamcount,
-#events-widget .infos-money span {
+#events-widget .infos-money .big {
   color: black;
   font-family: "DINPro";
 }
