@@ -1705,6 +1705,7 @@ dl#step_tab dd {
 
   #events-block h3 {
     font-size: 15px;
+    margin-bottom: 0;
   }
 
   /* #how-to {
