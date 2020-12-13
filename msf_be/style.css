@@ -1390,6 +1390,10 @@ dl#step_tab dd {
     font-size: 20px;
   }
 
+  form#front-search-filter .columns {
+    width: 100%;
+  }
+
   section.event-head h2 {
     font-size: 45px;
   }
