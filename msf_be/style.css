@@ -1518,6 +1518,10 @@ dl#step_tab dd {
     margin-bottom: 30px;
   }
 
+  #project_tabs .tabs {
+    flex-direction: column;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
