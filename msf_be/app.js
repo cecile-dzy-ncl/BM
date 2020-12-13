@@ -440,6 +440,7 @@ $(document).ready(function () {
       if ($("body").is("#events-index")) {
 
         console.log("fetchDataEvents");
+        console.log("fetchDataEvents2");
         eventContainer.html("");
         var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
         
