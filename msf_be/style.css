@@ -1354,7 +1354,8 @@ dl#step_tab dd {
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
-  .medium-block-grid-2.projects-list {
+  .medium-block-grid-2.projects-list,
+  section.section-events {
     padding: 0 1em;
   }
 
