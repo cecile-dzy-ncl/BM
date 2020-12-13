@@ -43,9 +43,9 @@ $(document).ready(function () {
       break;
     default:
       var remainingDaysLegend = "restants";
-      var btnSoutenir = "Soutenir une collecte";
+      var btnSoutenir = "<strong>Soutenir</strong> une collecte";
       var btnCreer = "<strong>Créer</strong> une collecte";
-      var btnSee = "<strong>Voir</strong> les collectes";
+      var btnSee = "Voir les collectes";
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
       var eventIntro =
