@@ -1836,7 +1836,11 @@ dl#step_tab dd {
     padding: 0 25px;
   }
 
-  .main-header .top-bar .toggle-topbar.menu-icon a span::after {
+  .main-header .top-bar .toggle-topbar.menu-icon a span {
+    color: transparent;
+  }
+
+  .main-header .top-bar .toggle-topbar.menu-icon a span:after {
     box-shadow: 0 0 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
   }
 }
