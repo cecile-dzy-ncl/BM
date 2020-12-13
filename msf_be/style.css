@@ -1814,9 +1814,11 @@ dl#step_tab dd {
 
   .banner.homepage h1 {
     font-size: 30px;
+    padding: 0 25px;
   }
 
   #indexs-index .banner.homepage h2 {
     font-size: 22px;
+    padding: 0 25px;
   }
 }
