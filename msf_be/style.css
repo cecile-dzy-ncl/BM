@@ -433,6 +433,10 @@ footer nav.top-bar.bottom-bar {
   background: none;
 }
 
+footer .top-bar-section ul li {
+  background: black;
+}
+
 /* SEARCHBAR */
 
 #bloc-cta .searchbar {
