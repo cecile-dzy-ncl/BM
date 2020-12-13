@@ -1325,6 +1325,15 @@ dl#step_tab dd {
   width: 120px;
 }
 
+#events-widget .teamcount {
+  font-size: 20px;
+  width: 100%;
+}
+
+#events-widget .teamcount i {
+  display: none;
+}
+
 #events-widget .button-group {
   position: static;
 }
