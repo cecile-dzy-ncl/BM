@@ -1406,6 +1406,10 @@ dl#step_tab dd {
     margin: 10px auto;
   } */
 
+  .projet-head .medium-9 {
+    background: white;
+  }
+
   .projet-head .rows .large-2 {
     flex: 0 0 25%;
   }
