@@ -1394,6 +1394,11 @@ dl#step_tab dd {
     margin-left: 0 !important;
   }
 
+  #form-project form {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   form#front-search-filter .columns {
     width: 100%;
   }
