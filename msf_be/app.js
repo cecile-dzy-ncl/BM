@@ -440,7 +440,8 @@ $(document).ready(function () {
       if ($("body").is("#events-index")) {
         console.log("fetchDataEvents");
         console.log("fetchDataEvents2");
-        eventContainer.html("");
+        const eventsContainer = $("#events-index #events");
+        eventsContainer.html("");
         var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
 
         $.each(eventsList, function (key, value) {
@@ -496,8 +497,7 @@ $(document).ready(function () {
         }
       }
 
-      const eventsContainer = $("#events-index #events");
-      fetchDataEvents(eventsContainer);
+      // fetchDataEvents(eventsContainer);
     }
   });
 
