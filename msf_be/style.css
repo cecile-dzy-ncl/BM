@@ -416,8 +416,9 @@ footer .bottom-bar .left li:not(:last-child) a:after {
 }
 
 footer nav.top-bar.bottom-bar {
-  width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
+  background: none;
 }
 
 /* SEARCHBAR */
@@ -1411,7 +1412,7 @@ dl#step_tab dd {
   }
 
   #how-to .btn-bm {
-    width: max-content;
+    width: 100% !important;
   }
 
   .scrolling-wrapper .card {
