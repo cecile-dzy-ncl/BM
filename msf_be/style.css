@@ -1526,6 +1526,12 @@ dl#step_tab dd {
     height: auto;
   }
 
+  .bx-wrapper img {
+    height: 260px;
+    object-fit: cover;
+    width: 100%;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
