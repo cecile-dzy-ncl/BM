@@ -1,0 +1,93 @@
+/* PAGE EVENT */
+
+#events-show .event-head > .row {
+  display: flex;
+  flex-direction: column;
+  background-color: white !important;
+}
+
+#events-show .event-head > .row > .columns,
+#events-show .event-stats {
+  width: 947px;
+  margin: 0 auto;
+}
+
+#events-show .event-stats {
+  display: flex;
+  margin-top: 50px;
+}
+
+.event-stat {
+  width: 50%;
+}
+
+.event-stat img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.event-stat span {
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.stat-nb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.event-head .details-my-event .button {
+  margin: 0;
+  width: fit-content;
+  padding: 0.75rem 3rem;
+}
+
+.event-head .intro-my-event * {
+  text-align: center !important;
+}
+
+.event-head .intro-my-event h1 {
+  margin-bottom: 30px;
+}
+
+.event-head .intro-my-event p {
+  color: black !important;
+}
+
+section.event-head {
+  margin-bottom: 50px;
+}
+
+#events-show .infos-money {
+  display: none;
+}
+
+#events-show .event-head .intro-my-event {
+  padding: 50px 30px 0;
+}
+
+.event-head .intro-my-event:after {
+  display: none;
+}
+
+#events-show .block-share-container h4 span {
+  color: black;
+}
+
+.event-head .details-my-event .infos-money,
+#events-show .block-share-container h4,
+.event-head .infos-money .chart-wrap .percent {
+  color: #e04e39 !important;
+}
+
+.event-progressbar,
+.event-progress-perc {
+  height: 20px;
+}
+
+.event-progressbar {
+  border-radius: 25px;
+  overflow: hidden;
+}
