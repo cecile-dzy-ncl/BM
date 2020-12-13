@@ -1702,7 +1702,7 @@ dl#step_tab dd {
     flex: 0 0 25%;
   }
 
-  .projet-head .section-projet-details h1#show_title {
+  .mobile .section-projet-details .projet-head h1#show_title {
     text-align: left !important;
   }
 
