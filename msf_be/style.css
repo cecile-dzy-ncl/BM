@@ -1361,6 +1361,7 @@ dl#step_tab dd {
 
 #events-widget .button-group li a.page-see {
   color: black;
+  box-shadow: var(--shadow);
 }
 
 #events-widget canvas {
