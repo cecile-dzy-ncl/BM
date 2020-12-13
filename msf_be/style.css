@@ -1532,6 +1532,22 @@ dl#step_tab dd {
     width: 100%;
   }
 
+  section.section-projet-details .project-detail-data .infos-money .chart-wrap {
+    height: 6.0625rem;
+    width: 6.0625rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 3px black;
+  }
+
+  section.section-projet-details
+    .project-detail-data
+    .infos-money
+    .chart-wrap
+    canvas {
+    background: black;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
