@@ -1376,6 +1376,14 @@ dl#step_tab dd {
 }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  .card-event-btns {
+    margin: -30px auto 5px;
+  }
+
   section#banner_section {
     margin-top: 81px;
   }
