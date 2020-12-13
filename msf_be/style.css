@@ -1283,6 +1283,11 @@ dl#step_tab dd {
   a.logo img {
     margin: 0 auto;
   }
+
+  #header-header > .row > div:nth-of-type(2) {
+    width: 45%;
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 869px) and (min-width: 641px) {
