@@ -1522,6 +1522,10 @@ dl#step_tab dd {
     flex-direction: column;
   }
 
+  #project_tabs .tabs dd a {
+    height: auto;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
