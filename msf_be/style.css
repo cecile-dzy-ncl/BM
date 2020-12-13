@@ -621,6 +621,10 @@ div#events-block .container-bm > div {
   padding: 0 20px 20px;
 }
 
+.card-event-details h4 a {
+  color: var(--grey);
+}
+
 .card-event {
   box-shadow: var(--shadow);
 }
