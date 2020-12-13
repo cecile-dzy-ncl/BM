@@ -1270,6 +1270,10 @@ label {
     width: 100%;
   }
 
+  #projects-widget .projects-list .panel .thumbnail {
+    background: white;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
