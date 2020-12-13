@@ -387,6 +387,11 @@ input[type="text"].field-auto-search:focus {
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  font-size: 12px;
+}
+
+.btn-actions a strong {
+  font-size: 15px;
 }
 
 .btn-actions a:hover {
