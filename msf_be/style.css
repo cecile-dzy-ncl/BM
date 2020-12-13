@@ -1354,6 +1354,10 @@ dl#step_tab dd {
   width: 100%;
 }
 
+#events-widget .button-group li a.page-see {
+  color: black;
+}
+
 #events-widget canvas {
   height: 100px;
   background: white;
