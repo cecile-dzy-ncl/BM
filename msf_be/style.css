@@ -1385,14 +1385,6 @@ dl#step_tab dd {
     font-size: 35px;
   }
 
-  h2 {
-    font-size: 25px;
-  }
-
-  p {
-    font-size: 15px;
-  }
-
   section.event-head h2 {
     font-size: 45px;
   }
@@ -1623,6 +1615,15 @@ dl#step_tab dd {
   h1 {
     font-size: 25px;
   }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
   form.edit_project {
     margin-bottom: 30px;
   }
