@@ -1390,7 +1390,7 @@ dl#step_tab dd {
     font-size: 20px;
   }
 
-  .attachment * {
+  .attachment form * {
     margin-left: 0 !important;
   }
 
