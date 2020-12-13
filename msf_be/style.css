@@ -1974,4 +1974,8 @@ dl#step_tab dd {
     padding: 5px;
     text-transform: uppercase;
   }
+
+  #main-nav .left li:first-child {
+    display: none;
+  }
 }
