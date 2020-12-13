@@ -1394,7 +1394,8 @@ dl#step_tab dd {
     margin-left: 0 !important;
   }
 
-  #form-project form {
+  #form-project form,
+  #projects-new .tabs {
     width: 90%;
     margin: 0 auto;
   }
