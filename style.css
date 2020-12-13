@@ -828,6 +828,11 @@ section.connexion {
     min-height: 300px;
 }
 
+#myTabContent #projects {
+  max-width: 71.25em;
+  margin: 0 auto;
+}
+
 /* - container - */
 
 .container-xs-bm {
@@ -1269,7 +1274,7 @@ label {
   #embedModal input {
     width: 100% !important;
   }
-  
+
   .modal-body iframe {
     width: 100%;
   }
