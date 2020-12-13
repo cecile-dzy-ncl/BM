@@ -1275,6 +1275,10 @@ dl#step_tab dd {
   .medium-block-grid-2.projects-list {
     padding: 0 1em;
   }
+
+  section.section-projet-details h1#show_title {
+    text-align: left;
+  }
 }
 
 @media (max-width: 869px) and (min-width: 641px) {
