@@ -1318,12 +1318,23 @@ dl#step_tab dd {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 120px;
 }
 
 #events-widget canvas {
   height: 100px;
   background: white;
   border-radius: 50%;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#events-widget span.percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
 }
 
 .bx-wrapper img {
