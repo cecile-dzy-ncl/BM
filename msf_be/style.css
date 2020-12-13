@@ -226,6 +226,7 @@ small {
 .banner.homepage h2 {
   color: white !important;
   text-shadow: var(--shadow);
+  font-family: "DINPro";
 }
 
 .banner.homepage-footer {
@@ -1809,5 +1810,13 @@ dl#step_tab dd {
 
   section.event-head h2 {
     font-size: 25px;
+  }
+
+  .banner.homepage h1 {
+    font-size: 30px;
+  }
+
+  .banner.homepage h2 {
+    font-size: 22px;
   }
 }
