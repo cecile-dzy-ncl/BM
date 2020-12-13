@@ -1391,7 +1391,7 @@ dl#step_tab dd {
   }
 
   .attachment * {
-    margin-left: 0;
+    margin-left: 0 !important;
   }
 
   form#front-search-filter .columns {
@@ -1613,7 +1613,7 @@ dl#step_tab dd {
   }
 
   #form-project .columns {
-    width: 90%;
+    width: 100%;
   }
 
   .project_event_description > div {
