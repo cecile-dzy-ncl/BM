@@ -1328,6 +1328,10 @@ dl#step_tab dd {
   position: fixed;
 }
 
+#my-profile .tabs .active a {
+  color: #3c4150;
+}
+
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
