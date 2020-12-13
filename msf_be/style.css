@@ -207,7 +207,7 @@ small {
 /* BANNER */
 
 .banner.homepage {
-  height: 738px;
+  height: 650px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/Homepage-Header.jpg);
   background-size: cover;
