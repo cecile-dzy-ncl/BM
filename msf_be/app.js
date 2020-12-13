@@ -333,18 +333,18 @@ $(document).ready(function () {
         switch (lang) {
           case "en":
             var eventUrl = event.url.en || url.en;
-            var eventTitle = event.title.en;
-            var eventDescription = event.description.en;
+            var eventTitle = event.title.en || title.en;
+            var eventDescription = event.description.en || description.en;
             break;
           case "nl":
             var eventUrl = event.url.nl || url.nl;
-            var eventTitle = event.title.nl;
-            var eventDescription = event.description.nl;
+            var eventTitle = event.title.nl || title.nl;
+            var eventDescription = event.description.nl || description.nl;
             break;
           default:
             var eventUrl = event.url.fr || url.fr;
-            var eventTitle = event.title.fr;
-            var eventDescription = event.description.fr;
+            var eventTitle = event.title.fr || title.fr;
+            var eventDescription = event.description.fr || description.fr;
             break;
         }
 
