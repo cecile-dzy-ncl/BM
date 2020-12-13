@@ -1604,7 +1604,7 @@ dl#step_tab dd {
   #main-nav.expanded {
     width: 100%;
     /* background: white; */
-    height: 100vh;
+    height: 100vh !important;
     width: 100vw;
     position: absolute;
     top: 0;
