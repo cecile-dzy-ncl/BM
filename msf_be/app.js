@@ -437,21 +437,24 @@ $(document).ready(function () {
         ],
       };
 
-      const fetchDataEvents = (eventContainer) => {
+      if ($("body").is("#events-index")) {
+
         console.log("fetchDataEvents");
         eventContainer.html("");
         var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
-
+        
         $.each(eventsList, function (key, value) {
-          $.get(
-            `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-            function (response) {
-              console.log(response.event);
-              buildCard(value, eventContainer);
-            }
-          );
-        });
-      };
+          // const fetchDataEvents = (eventContainer) => {
+            $.get(
+              `https://events.msf-azg.be/api/events/${value}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
+              function (response) {
+                console.log(response.event);
+                // buildCard(value, eventContainer);
+              }
+            );
+              // });
+        }
+      }
 
       if (window.matchMedia("(min-width: 600px)").matches) {
         if (collectesEvents.length > 3) {
