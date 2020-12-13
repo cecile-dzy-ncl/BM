@@ -512,6 +512,9 @@ $(document).ready(function () {
     window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
   });
 
+  if ($(".slick-initialized")) {
+    $(".slick-initialized").removeClass("slick-initialized");
+  }
   // --------- RESPONSIVE ---------
 
   var windowWidth = $(window).width();
