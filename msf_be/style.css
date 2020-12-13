@@ -1294,6 +1294,20 @@ dl#step_tab dd {
 }
 
 @media screen and (max-width: 768px) {
+  #project_tabs .tabs {
+    display: flex;
+  }
+
+  #project_tabs .tabs dd {
+    flex: 1 0 auto;
+    max-width: none;
+    text-align: center;
+  }
+
+  #project_tabs .tabs dd a {
+    height: 43px;
+  }
+
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
