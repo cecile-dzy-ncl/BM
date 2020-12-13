@@ -828,7 +828,8 @@ section.connexion {
     /* min-height: 300px; */
 }
 
-#myTabContent #projects {
+#myTabContent #projects, 
+#my-profile .first-section .columns {
   max-width: 71.25em;
   margin: 0 auto;
 }
