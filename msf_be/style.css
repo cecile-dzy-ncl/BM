@@ -1680,6 +1680,10 @@ dl#step_tab dd {
     flex-direction: column;
   } */
 
+  .banner.homepage {
+    height: 550px;
+  }
+
   .stats {
     padding: 10px;
   }
