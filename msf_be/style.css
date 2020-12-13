@@ -1400,7 +1400,7 @@ dl#step_tab dd {
     margin: 0 auto;
     padding: 50px;
   }
-  #projects-attachment .attachment {
+  #projects-attachment.attachment {
     margin: 0;
   }
 
