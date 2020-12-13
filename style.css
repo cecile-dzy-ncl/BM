@@ -825,7 +825,8 @@ section.connexion {
 
 #my-profile #myTab {
     padding-top: 20px;
-    /* min-height: 300px; */
+    margin-bottom: 50px;
+    /* min-height: 150px; */
 }
 
 #myTabContent #projects, 
