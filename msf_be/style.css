@@ -769,7 +769,7 @@ section.section-projet-details .project-detail-data .contributeurs span,
 section.section-projet-details .project-detail-data .jours-restants span {
   font-size: 29px;
   line-height: 27px;
-  font-family: "Open Sans";
+  font-family: "DINPro";
 }
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
@@ -787,7 +787,7 @@ section.section-projet-details .project-detail-data .contributeurs {
 
 section.section-projet-details .project_boutons_give {
   background: var(--red);
-  font-family: "Open Sans";
+  font-family: "DINPro_bold";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
@@ -830,11 +830,6 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   background: #f5f5f5;
   font-family: "DINPro_bold";
 }
-
-/* .tabs dd.active a {
-   background-color: var(--red); 
-   color: black; 
-} */
 
 .project_payment #list_payment .people p.money {
   color: var(--red);
