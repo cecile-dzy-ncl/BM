@@ -1225,6 +1225,10 @@ footer section ul.left li ul.center li {
   margin: auto;
 }
 
+#projects-show .block-share-container .social-btns {
+  margin: 0 0 25px 0;
+}
+
 label {
   text-align: left;
 }
