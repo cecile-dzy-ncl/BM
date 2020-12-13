@@ -1503,6 +1503,12 @@ label {
     width: 100%;
   }
 
+  #embedModal {
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 }
 
 
