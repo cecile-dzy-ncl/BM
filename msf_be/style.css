@@ -489,7 +489,7 @@ input[name="search"] {
 }
 
 .stat:first-of-type {
-  border-right: 2px solid var(--mediumgrey);
+  border-right: 2px solid var(--grey);
 }
 
 .stat span {
