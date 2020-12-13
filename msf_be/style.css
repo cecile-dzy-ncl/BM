@@ -356,7 +356,8 @@ header.main-header {
 } */
 
 .field-auto-search,
-input[type="text"].field-auto-search:focus {
+input[type="text"].field-auto-search:focus,
+form#project-search {
   background: url("https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/searchicon.png");
   background-size: contain;
   background-repeat: no-repeat;
