@@ -1332,6 +1332,10 @@ dl#step_tab dd {
   color: #3c4150;
 }
 
+#my-profile .projects-list .panel .thumbnail img {
+  width: 100%;
+}
+
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
