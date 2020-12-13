@@ -1385,6 +1385,10 @@ dl#step_tab dd {
     font-size: 35px;
   }
 
+  h2 {
+    font-size: 25px;
+  }
+
   section.event-head h2 {
     font-size: 45px;
   }
