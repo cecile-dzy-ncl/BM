@@ -1325,6 +1325,19 @@ dl#step_tab dd {
   width: 120px;
 }
 
+#events-widget .button-group {
+  position: static;
+}
+
+#events-widget .button-group li {
+  width: 90%;
+  margin: 5px auto;
+}
+
+#events-widget .button-group li a {
+  width: 100%;
+}
+
 #events-widget canvas {
   height: 100px;
   background: white;
