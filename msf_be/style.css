@@ -256,6 +256,7 @@ small {
 form#project-search {
   border-radius: 4px;
   overflow: hidden;
+  background: white;
 }
 
 /* NAVBAR */
