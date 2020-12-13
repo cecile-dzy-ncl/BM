@@ -624,6 +624,7 @@ div#events-block .container-bm > div {
 
 .card-event-details h4 a {
   color: var(--grey);
+  font-family: "DINPro_black";
 }
 
 .card-event {
