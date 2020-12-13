@@ -1385,8 +1385,7 @@ dl#step_tab dd {
     bottom: 0;
   }
 
-  .project_event_description > div,
-  .project_event_description .bg-darkgrey > div {
+  .project_event_description > div {
     flex-direction: column;
     padding: 20px;
   }
@@ -1607,7 +1606,6 @@ dl#step_tab dd {
     bottom: 0;
   }
 
-  .project_event_description > div,
   .project_event_description .bg-darkgrey > div {
     flex-direction: column;
     padding: 20px;
