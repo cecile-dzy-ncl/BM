@@ -1279,6 +1279,10 @@ dl#step_tab dd {
   section.section-projet-details h1#show_title {
     text-align: left;
   }
+
+  a.logo img {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 869px) and (min-width: 641px) {
