@@ -1380,6 +1380,10 @@ dl#step_tab dd {
     font-size: 35px;
   }
 
+  section.event-head h2 {
+    font-size: 45px;
+  }
+
   .card-event-btns {
     margin: -30px auto 5px;
   }
