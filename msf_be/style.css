@@ -1964,4 +1964,14 @@ dl#step_tab dd {
   #events-block h1 {
     margin-bottom: 20px;
   }
+
+  header.main-header a.button,
+  header.main-header a.button:hover {
+    color: var(--red);
+    background: white;
+    font-family: "DINPro";
+    font-size: 1.2rem;
+    padding: 5px;
+    text-transform: uppercase;
+  }
 }
