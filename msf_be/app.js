@@ -6,8 +6,8 @@ $(document).ready(function () {
   switch (lang) {
     case "en":
       var remainingDaysLegend = "remaining";
-      var btnSoutenir = "Support an event";
-      var btnCreer = "Create a page";
+      var btnSoutenir = "<strong>Support</strong> an event";
+      var btnCreer = "<strong>Create</strong> a page";
       var btnSee = "See all projects";
       var projectIntro =
         "Do you want to support the fundraising of a family member, a close friend, a colleague or an enterprise? We thank you in advance! You will find all fundraising pages below.";
@@ -24,8 +24,8 @@ $(document).ready(function () {
       break;
     case "nl":
       var remainingDaysLegend = "resterende";
-      var btnSoutenir = "Een crowdfunding steunen";
-      var btnCreer = "Een crowdfunding creëren";
+      var btnSoutenir = "Een crowdfunding <strong>steunen</strong>";
+      var btnCreer = "Een crowdfunding <strong>creëren</strong>";
       var btnSee = "Bekijk alle projecten";
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
@@ -44,8 +44,8 @@ $(document).ready(function () {
     default:
       var remainingDaysLegend = "restants";
       var btnSoutenir = "Soutenir une collecte";
-      var btnCreer = "Créer une collecte";
-      var btnSee = "Voir les collectes";
+      var btnCreer = "<strong>Créer</strong> une collecte";
+      var btnSee = "<strong>Voir</strong> les collectes";
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un collègue ou une entreprise ? Nous vous remercions d'orse et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
       var eventIntro =
