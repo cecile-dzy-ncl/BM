@@ -77,7 +77,7 @@ $(document).ready(function () {
   <h1 class='grey text-center mb-15'>${helpTitle}</h1>
   <p class='grey text-center'>${helpContent}</p>
   <a class='btn btn-bm bg-red white my-20' href="https://events.msf-azg.be/pages/107">${helpBtn}</a>
-  </div>;
+  </div>
   </div>`;
   $("#events-index .section-events").after(helpWrapper);
 
