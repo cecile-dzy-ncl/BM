@@ -332,17 +332,17 @@ $(document).ready(function () {
 
         switch (lang) {
           case "en":
-            var eventUrl = event.url.en;
+            var eventUrl = event.url.en || url.en;
             var eventTitle = event.title.en;
             var eventDescription = event.description.en;
             break;
           case "nl":
-            var eventUrl = event.url.nl;
+            var eventUrl = event.url.nl || url.nl;
             var eventTitle = event.title.nl;
             var eventDescription = event.description.nl;
             break;
           default:
-            var eventUrl = event.url.fr;
+            var eventUrl = event.url.fr || url.fr;
             var eventTitle = event.title.fr;
             var eventDescription = event.description.fr;
             break;
