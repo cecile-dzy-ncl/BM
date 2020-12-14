@@ -842,6 +842,10 @@ section.connexion {
 
 } */
 
+.habillage::after {
+  background-color: transparent;
+  width: 100vw;
+}
 /* - container - */
 
 .container-xs-bm {
