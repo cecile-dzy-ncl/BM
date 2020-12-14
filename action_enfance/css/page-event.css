@@ -33,6 +33,7 @@
 .event-stat span {
   font-size: 35px;
   line-height: 42px;
+  font-weight: 700;
 }
 
 .stat-nb {
