@@ -53,8 +53,8 @@
   text-align: center !important;
 }
 
-.event-head .intro-my-event h1 {
-  margin-bottom: 30px;
+#events-show h1 {
+  margin: 30px auto;
 }
 
 .event-head .intro-my-event p {
@@ -70,7 +70,7 @@ section.event-head {
 }
 
 #events-show .event-head .intro-my-event {
-  padding: 50px 30px 0;
+  padding: 30px;
 }
 
 .event-head .intro-my-event:after {
