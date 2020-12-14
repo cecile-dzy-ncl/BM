@@ -1,7 +1,7 @@
 /* PAGE EVENT */
 
 .event-head .intro-my-event {
-  color: var(--darkgrey);
+  color: black;
 }
 
 #events-show .event-head > .row {
