@@ -97,3 +97,14 @@ section.event-head {
   border-radius: 25px;
   overflow: hidden;
 }
+
+@media screen and (max-width: 500px) {
+  .event-head .intro-my-event:after {
+    content: none;
+  }
+
+  .event-stat {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
