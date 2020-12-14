@@ -16,3 +16,7 @@ form#event-search input {
   background-repeat: no-repeat;
   background-position: 98% 100%;
 }
+
+.blue {
+  color: var(--blue);
+}
