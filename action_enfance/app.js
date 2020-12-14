@@ -41,6 +41,7 @@ $(document).ready(function () {
           console.log("eventAmountCollected");
           console.log(eventAmountCollected);
 
+          $("#events-show .event-head").before(response.title.fr);
           $(".projects_count .stat-nb span").html(eventProjectsNb);
           $(".amount_collected .stat-nb span").html(
             new Intl.NumberFormat("fr-FR", {
