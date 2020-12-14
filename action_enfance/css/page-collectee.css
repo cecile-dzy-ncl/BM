@@ -1,0 +1,164 @@
+/* PAGE DE COLLECTE */
+
+#projects-show .bg-secondary-color-blurred {
+  background: #000000;
+}
+
+.section-projet-details .projet-head {
+  background: white;
+}
+
+section.section-projet-details .projet-head .rounded {
+  border: none;
+}
+
+.projet-head .rows {
+  display: flex;
+  align-items: center;
+}
+
+p.from_event,
+i.fa.fa-gift {
+  display: none;
+}
+
+.section-projet-details .bg-secondary-color-blurred {
+  background: #f0f0f0;
+}
+
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 43px;
+}
+
+section.section-projet-details .projet-head .user {
+  margin-right: 10px;
+}
+
+section.section-projet-details h1#show_title {
+  color: #e04e39;
+  font-size: 27px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+
+p.team_by {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
+/*  section.section-projet-details .project-detail-data .current-amount,*/
+section.section-projet-details .project-detail-data .contributeurs span,
+section.section-projet-details .project-detail-data .jours-restants span {
+  font-size: 29px;
+  line-height: 27px;
+  font-family: "Open Sans";
+}
+
+section.section-projet-details .project-detail-data .jours-restants #show_days,
+section.section-projet-details
+  .project-detail-data
+  .jours-restants
+  .contributeurs {
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+section.section-projet-details .project-detail-data .contributeurs {
+  margin-top: 0.65rem;
+}
+
+section.section-projet-details .project_boutons_give {
+  background: #e04e39;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  height: 50px;
+  /*line-height: 50px;*/
+  min-height: auto !important;
+  background: #e04e39 !important;
+}
+
+#show_team {
+  background: #f3f5f0;
+}
+
+.block-share-container h4 span {
+  color: white;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: transparent;
+}
+
+.block-share-container {
+  padding-bottom: 3px;
+  background: #000000;
+}
+
+.social_network_send,
+.social_network_share,
+.ask_edit_project {
+  filter: invert(1);
+}
+
+#project_tabs .bg-color-light {
+  background: white;
+}
+
+.tabs dd a {
+  color: black;
+  font-size: 14px;
+  line-height: 22px;
+  background: #f5f5f5;
+}
+
+.tabs dd.active a {
+  background-color: #000000;
+  color: white;
+}
+
+.project_payment #list_payment .people p.money {
+  color: #e04e39;
+}
+
+#show_description {
+  font-size: 19px;
+  line-height: 24px;
+  color: #000;
+}
+
+section#project_tabs + section .row {
+  max-width: 100%;
+  background: var(--darkgrey);
+  /* background: url("https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefondpiedpage.jpg"); */
+  background-position: bottom center;
+  background-size: cover;
+  position: relative;
+}
+
+.project_event_description {
+  height: 600px;
+  width: 400px;
+  margin-right: 150px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  float: right !important;
+  text-align: right;
+}
+
+.credits {
+  position: absolute;
+  left: 30px;
+  bottom: 0px;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+.tabs-content .active.content {
+  padding-top: 50px;
+}
