@@ -99,18 +99,3 @@ $(document).ready(function () {
     $("#events-show .event-stat").removeClass("border-right");
   }
 });
-
-// AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-// $('.section-home-projects').prepend('<h2 class="text-center mb-40 black">Exemples de campagnes en cours</h2>');
-
-// // AJOUT INTRO PAGE EVENTS
-// var textIntroEvents = ("<div class='container-small-bm mt-50'><h2 class='text-center black'>Deux minutes suffisent pour créer votre collecte.</h2><p>Choisissez ci-dessous dans quelle opération vous souhaitez vous inscrire, choisissez un titre pour votre projet, une photo et ça y’est, votre page de collecte est prête, vous pouvez commencer à collecter des dons au profit de la Fondation ARC pour la recherche sur le cancer.</p><p><strong>Une question ?</strong> N’hésitez pas à <a href='https://collecter.fondation-arc.org/contact_forms/new' class='blue'>nous contacter</a> et à profiter de nos <a href='https://collecter.fondation-arc.org/pages/conseils' class='blue'>conseils et outils.</a></p></div>")
-// $('.events .first-section').before(textIntroEvents);
-
-// // AJOUT INTRO PAGE PROJETS
-// var textIntroProjects = ("<div class='container-small-bm text-center mt-50'><h2 class='black'>Retrouver et soutenir une collecte</h2></div>")
-// $('.projects .first-section').before(textIntroProjects);
-
-// // AJOUT INTRO PAGE CONTACT
-// var textIntroContact = ("Pour toute question sur votre collecte ou sur la Fondation ARC, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone au 01 45 59 59 10.")
-//$('#contact_forms-new .first-section .small-11 p').html(textIntroContact);
