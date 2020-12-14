@@ -1,6 +1,6 @@
 /* PAGE EVENT */
 
-.event-head .intro-my-event {
+/* .event-head .intro-my-event {
   color: black;
 }
 
@@ -23,14 +23,15 @@
 
 .event-stat {
   width: 50%;
-}
+} */
+
 /* 
 .event-stat img {
   width: 50px;
   margin-right: 20px;
 } */
 
-.event-stat span {
+/* .event-stat span {
   font-size: 35px;
   line-height: 42px;
   font-weight: 700;
@@ -95,4 +96,4 @@ section.event-head {
 .event-progressbar {
   border-radius: 25px;
   overflow: hidden;
-}
+} */
