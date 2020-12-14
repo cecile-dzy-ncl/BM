@@ -35,7 +35,7 @@ section.section-projet-details .projet-head .user {
 }
 
 section.section-projet-details h1#show_title {
-  color: #e04e39;
+  color: var(--blue);
   font-size: 27px;
   line-height: 27px;
   margin: 0;
@@ -73,13 +73,13 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #e04e39;
+  background: var(--blue);
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #e04e39 !important;
+  background: var(--blue) !important;
 }
 
 #show_team {
@@ -122,7 +122,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .project_payment #list_payment .people p.money {
-  color: #e04e39;
+  color: var(--blue);
 }
 
 #show_description {
