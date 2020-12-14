@@ -1,5 +1,9 @@
 /* PAGE EVENT */
 
+.event-head .intro-my-event {
+  color: var(--darkgrey);
+}
+
 #events-show .event-head > .row {
   display: flex;
   flex-direction: column;
