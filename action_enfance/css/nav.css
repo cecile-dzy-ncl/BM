@@ -19,7 +19,8 @@ section.top-bar-section {
 }
 
 header .top-bar-section li:not(.has-form) a:not(.button) {
-  /* font-family: "DiodrumM" !important; */
+  font-family: "Barlow Condensed" !important;
+  font-weight: 700;
   color: black;
 }
 
