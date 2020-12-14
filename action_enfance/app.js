@@ -22,7 +22,7 @@ $(document).ready(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
       $("#events-show .habillage .intro-my-event").prepend(
-        '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><span class="orange"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="orange"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
+        '<div class="event-stats"><div class="event-stat projects_count border-right"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>'
       );
 
       var eventId = $("#events-show")[0]
@@ -61,7 +61,7 @@ $(document).ready(function () {
             var eventProgressBar = `
             <div class="container-xs-bm mt-50">
               <div class="event-progressbar bg-mediumgrey mb-20">
-                <div class="event-progress-perc bg-orange" style="width: ${eventProgress}%"></div>
+                <div class="event-progress-perc bg-blue" style="width: ${eventProgress}%"></div>
               </div>
               <div class="d-flex justify-between">
                 <p>${eventProgress}%</p>
