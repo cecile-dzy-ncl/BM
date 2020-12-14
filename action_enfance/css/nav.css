@@ -24,7 +24,8 @@ section.top-bar-section {
 
 header .top-bar-section li:not(.has-form) a:not(.button) {
   font-family: "Barlow Condensed" !important;
-  font-weight: 700;
+  font-weight: 500 !important;
+  font-size: 18px !important;
   color: black;
 }
 
