@@ -1,14 +1,7 @@
 section.section-my-event .projects-list .panel h3 a,
 section.section-my-event .projects-list .panel h3 a:hover,
-section.section-my-event
-  .projects-list
-  .panel
-  h3
-  a:focus
-  .projects-list
-  .panel
-  h3
-  a,
+section.section-my-event .projects-list .panel h3 a:focus,
+.projects-list .panel h3 a,
 .projects-list .panel h3 a:hover,
 .projects-list .panel h3 a:focus {
   font-weight: 500;
