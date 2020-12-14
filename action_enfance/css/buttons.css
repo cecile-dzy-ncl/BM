@@ -1,11 +1,10 @@
-.btn-bm {
-  width: max-content;
-  padding: 10px 30px;
-}
-
+.btn-bm,
 .btn-primary,
 button,
 .button {
+  width: max-content;
+  padding: 10px 30px;
   background: var(--blue);
   font-family: "Barlow Condensed";
+  font-size: 18px;
 }
