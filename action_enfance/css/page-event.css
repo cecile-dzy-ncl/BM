@@ -18,7 +18,7 @@
 
 #events-show .event-stats {
   display: flex;
-  margin: 35px 0;
+  margin: 35px auto;
 }
 
 .event-stat {
