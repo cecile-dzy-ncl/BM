@@ -1,5 +1,9 @@
 /* HEADER & FOOTER */
 
+#main-nav {
+  box-shadow: 0px 18px 12px -18px rgb(128, 128, 128, 0.37);
+}
+
 #header-header > .row {
   display: flex;
   align-items: center;
