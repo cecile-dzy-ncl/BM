@@ -437,16 +437,6 @@ $(document).ready(function () {
         ],
       };
 
-      if ($("body").is("#events-index")) {
-        const eventsContainer = $("#events-index #events");
-        // eventsContainer.html("");
-        var eventsList = [4, 5, 8, 9, 10, 11, 31, 85, 86, 88];
-
-        $.each(eventsList, function (key, value) {
-          // fetchData(value, eventsContainer);
-        });
-      }
-
       if (window.matchMedia("(min-width: 600px)").matches) {
         if (collectesEvents.length > 3) {
           setTimeout(function () {
@@ -487,6 +477,15 @@ $(document).ready(function () {
         }
       }
 
+      if ($("body").is("#events-index")) {
+        const eventsContainer = $("#events-index #events");
+        // eventsContainer.html("");
+        var eventsList = [4, 5, 8, 9, 10, 11, 31, 85, 86, 88];
+
+        // $.each(eventsList, function (key, value) {
+        // fetchData(value, eventsContainer);
+        // });
+      }
       // fetchDataEvents(eventsContainer);
     }
   });
