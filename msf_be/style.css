@@ -398,11 +398,14 @@ form#event-search input {
   color: white;
   height: 80px;
   padding: 15px;
-  /* display: flex; */
   align-items: center;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 25px;
+}
+
+html[lang="nl"] .btn-actions a {
+  padding: 5px;
 }
 
 .btn-actions a strong {
