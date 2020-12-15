@@ -1705,7 +1705,7 @@ dl#step_tab dd {
 
 /* ------ MOBILE ------ */
 
-@media only screen and (max-width: 640px) {
+/* @media only screen and (max-width: 640px) {
   footer .top-bar.bottom-bar {
     height: auto;
     width: 90%;
@@ -1728,7 +1728,7 @@ dl#step_tab dd {
   footer .title-area {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 500px) {
   footer .top-bar.bottom-bar section.top-bar-section ul .center {
