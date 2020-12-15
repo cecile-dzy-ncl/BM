@@ -1,5 +1,10 @@
 .banner.homepage {
-  background: url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/2.jpg");
+  background: linear-gradient(
+      137deg,
+      rgba(0, 22, 61, 0.1) 0%,
+      rgba(0, 22, 61, 0.4) 100%
+    ),
+    url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/2.jpg");
   background-size: cover;
 }
 
