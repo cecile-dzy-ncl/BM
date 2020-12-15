@@ -405,7 +405,7 @@ form#event-search input {
 }
 
 html[lang="nl"] .btn-actions a {
-  padding: 5px;
+  padding: 1px 5px;
 }
 
 .btn-actions a strong {
