@@ -1109,9 +1109,11 @@ img.project-thumbnails {
 }
 
 ul#events {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
   max-width: 71.25em;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -1121,10 +1123,10 @@ ul#events:before {
   display: none;
 }
 
-ul#events .card-event {
+/* ul#events .card-event {
   width: 32%;
   margin-bottom: 20px;
-}
+} */
 
 #projects_pager {
   margin-bottom: 50px;
@@ -1670,7 +1672,7 @@ dl#step_tab dd {
   }
 
   ul#events {
-    padding: 0 20px;
+    grid-template-columns: 2fr;
   }
 
   ul#events .card-event {
@@ -2045,5 +2047,9 @@ dl#step_tab dd {
 
   #main-nav .left li:first-child {
     display: none;
+  }
+
+  ul#events {
+    grid-template-columns: 1fr;
   }
 }
