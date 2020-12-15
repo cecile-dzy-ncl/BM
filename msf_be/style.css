@@ -1705,7 +1705,36 @@ dl#step_tab dd {
 
 /* ------ MOBILE ------ */
 
+@media only screen and (max-width: 640px) {
+  footer .top-bar.bottom-bar {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+  footer .top-bar.bottom-bar section.top-bar-section {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .top-bar.bottom-bar section.top-bar-section ul .center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .top-bar.bottom-bar section.top-bar-section .right li a img {
+    display: block;
+    margin: 0 auto;
+  }
+  footer .title-area {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 500px) {
+  footer .top-bar.bottom-bar section.top-bar-section ul .center {
+    flex-direction: column;
+  }
+
   h1 {
     font-size: 25px;
   }
