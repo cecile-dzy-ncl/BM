@@ -1280,6 +1280,12 @@ label {
 }
 
 
+@media screen and (max-width: 1040px) {
+  .container-bm {
+    width: 75%;
+  }
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
