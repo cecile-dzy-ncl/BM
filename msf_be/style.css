@@ -1672,7 +1672,7 @@ dl#step_tab dd {
   }
 
   ul#events {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   ul#events .card-event {
@@ -2050,6 +2050,6 @@ dl#step_tab dd {
   }
 
   ul#events {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
