@@ -440,7 +440,7 @@ $(document).ready(function () {
       if ($("body").is("#events-index")) {
         const eventsContainer = $("#events-index #events");
         eventsContainer.html("");
-        var eventsList = [5, 8, 9, 10, 11, 85, 86, 88];
+        var eventsList = [4, 5, 8, 9, 10, 11, 31, 85, 86, 88];
 
         $.each(eventsList, function (key, value) {
           fetchData(value, eventsContainer);
