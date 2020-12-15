@@ -1716,6 +1716,10 @@ dl#step_tab dd {
     font-size: 15px;
   }
 
+  .project_content br {
+    display: initial;
+  }
+
   form.edit_project {
     margin-bottom: 30px;
   }
