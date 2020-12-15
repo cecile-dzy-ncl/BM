@@ -1123,10 +1123,9 @@ ul#events:before {
   display: none;
 }
 
-/* ul#events .card-event {
-  width: 32%;
-  margin-bottom: 20px;
-} */
+#events-index #events_pager {
+  display: none;
+}
 
 #projects_pager {
   margin-bottom: 50px;
@@ -1181,18 +1180,6 @@ ul.pagination li button:hover {
   /* margin: 0 auto; */
 }
 
-/* .custom-block {
-} */
-
-/* .custom-block .row {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 71.25em;
-} */
-
 .outils-intro {
   position: relative;
   margin-bottom: 150px;
@@ -1221,10 +1208,6 @@ ul.pagination li button:hover {
 
 /* ------ FORMS ------ */
 
-/* dl#step_tab a {
-  display: none;
-} */
-
 dl#step_tab dd {
   width: 33.33%;
   border-bottom: 5px solid var(--lightgrey);
@@ -1248,15 +1231,8 @@ dl#step_tab dd {
 #new_project {
   box-shadow: var(--shadow);
   padding: 50px;
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end; */
   border-radius: 4px;
 }
-
-/* #new_project .row {
-  width: 50%;
-} */
 
 #new_project input[type="text"],
 #new_project input[type="number"],
@@ -1392,7 +1368,6 @@ dl#step_tab dd {
 }
 
 #my-profile .tabs .active a {
-  /* background-color: var(--mediumgrey); */
   color: var(--red);
 }
 
@@ -1482,10 +1457,6 @@ dl#step_tab dd {
     margin: -30px auto 5px;
   }
 
-  /* section#banner_section {
-    margin-top: 81px;
-  } */
-
   form.edit_project {
     width: 90%;
     margin: -30px auto 0;
@@ -1520,10 +1491,6 @@ dl#step_tab dd {
     width: 90% !important;
   }
 
-  /* h2 {
-    font-size: 20px;
-  } */
-
   #bloc-stats {
     padding: 30px 0;
   }
@@ -1541,10 +1508,6 @@ dl#step_tab dd {
   #bloc-cta .searchbar {
     margin-left: 0;
   }
-
-  /* .stats {
-    flex-direction: column;
-  } */
 
   .stat span {
     font-size: 30px;
@@ -1592,12 +1555,6 @@ dl#step_tab dd {
     flex-direction: column;
     padding: 20px;
   }
-
-  /* .project_event_description > div,
-  .project_event_description .bg-darkgrey img {
-    margin-right: 0;
-    margin: 10px auto;
-  } */
 
   section.section-projet-details {
     border-radius: 5px;
