@@ -2050,6 +2050,6 @@ dl#step_tab dd {
   }
 
   ul#events {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
