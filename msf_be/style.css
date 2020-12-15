@@ -1406,6 +1406,10 @@ dl#step_tab dd {
   width: 100%;
 }
 
+#projects-attachment.attachment {
+  margin: 0;
+}
+
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
@@ -1454,9 +1458,6 @@ dl#step_tab dd {
     width: 90%;
     margin: 0 auto;
     padding: 50px;
-  }
-  #projects-attachment.attachment {
-    margin: 0;
   }
 
   #projects-attachment #tab_new_user {
