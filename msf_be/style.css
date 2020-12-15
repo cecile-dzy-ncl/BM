@@ -1410,6 +1410,10 @@ dl#step_tab dd {
   margin: 0;
 }
 
+#tab_new_user {
+  padding-right: 1rem;
+}
+
 /* ------ TABLETTE ------ */
 
 @media (max-width: 1140px) {
@@ -1689,6 +1693,11 @@ dl#step_tab dd {
   .project_event_description > div {
     /* margin: 0 auto; */
     padding: 50px;
+  }
+
+  #tab_new_user {
+    padding-right: 0rem;
+    border-right: none;
   }
 }
 
