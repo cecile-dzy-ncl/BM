@@ -1164,6 +1164,12 @@ ul#events:before {
   width: 100%;
 }
 
+#events-widget .button-group li a.page-see {
+  background: var(--darkgrey);
+  color: white;
+  /* box-shadow: var(--shadow); */
+}
+
 #events-index #events_pager {
   display: none;
 }
