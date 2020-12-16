@@ -540,6 +540,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+  console.log("second document ready");
   const slickSettings = {
     accessibility: true,
     autoplay: false,
