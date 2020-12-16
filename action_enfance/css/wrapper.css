@@ -5,3 +5,11 @@
 .section-home-projects {
   background: var(--lightgrey);
 }
+
+#wrapper-transparence img {
+  margin-right: 20px;
+}
+
+#wrapper-transparence p {
+  text-align: left;
+}
