@@ -17,6 +17,7 @@
 .banner.homepage h1,
 .banner.homepage p {
   text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+  text-align: left;
 }
 
 @media screen and (max-width: 500px) {
