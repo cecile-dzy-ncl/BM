@@ -487,7 +487,7 @@ $(document).ready(function () {
 
       if ($("body").is("#events-index")) {
         $.each($("#events .panel .percent"), function (key, value) {
-          console.log(value.html.split("<small>"));
+          console.log(value.innerHTML.split("<small>"));
           console.log($(this));
         });
 
