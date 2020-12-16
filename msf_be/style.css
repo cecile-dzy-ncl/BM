@@ -559,6 +559,11 @@ input[name="search"] {
 #events-block .card-event {
   min-height: 425px;
 }
+
+#events-block .card-event.no-amount .card-event-details > p {
+  height: 66px;
+  -webkit-line-clamp: 3;
+}
 /* #events-block > .container-bm > .d-flex {
   margin-bottom: 50px;
 } */
