@@ -303,7 +303,7 @@ $(document).ready(function () {
               <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
             </div> 
           `;
-          var classNoAmount = "no-amount";
+          var classNoAmount = "";
           var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
           var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
             maximumFractionDigits: 0,
@@ -312,12 +312,13 @@ $(document).ready(function () {
             currency: "EUR",
           }).format(eventAmountExpected);
           var amountExpectedBlock = `
-            <div class='line'></div>
-            <div class=''>
-              <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-              <p class='text-center'><small>${legendExpected}</small></p>
-            </div>`;
+          <div class='line'></div>
+          <div class=''>
+          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
+          <p class='text-center'><small>${legendExpected}</small></p>
+          </div>`;
         } else {
+          var classNoAmount = "no-amount";
           var amountExpectedBlock = "";
           var progressBar = "";
         }
