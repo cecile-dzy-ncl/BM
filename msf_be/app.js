@@ -389,7 +389,7 @@ $(document).ready(function () {
         );
       };
 
-      var collectesEvents = [4, 8, 9, 10, 11, 5];
+      var collectesEvents = [8, 9, 10, 11, 4, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value, $("#collectes-scroll .scrolling-wrapper"));

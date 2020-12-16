@@ -1550,6 +1550,12 @@ dl#step_tab dd {
   #events-block > .container-bm > .d-flex {
     flex-direction: column;
   }
+
+  #events-block > .container-bm > .btn-bm {
+    display: flex;
+    flex-direction: column;
+  }
+
   #event-search {
     width: 100%;
   }
