@@ -1153,6 +1153,17 @@ ul#events:before {
   width: 100%;
 }
 
+.section-events .event-item .event-details .event-goup-btn {
+  position: absolute;
+  left: 2rem;
+  bottom: -1rem;
+  bottom: auto !important;
+  top: 0;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 100%;
+}
+
 #events-index #events_pager {
   display: none;
 }
