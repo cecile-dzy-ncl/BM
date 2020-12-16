@@ -1,8 +1,8 @@
 .banner.homepage {
   background: linear-gradient(
-      137deg,
-      rgba(0, 22, 61, 0.1) 0%,
-      rgba(0, 22, 61, 0.4) 100%
+      90deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
     ),
     url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/2.jpg");
   background-size: cover;
@@ -16,7 +16,7 @@
 
 .banner.homepage h1,
 .banner.homepage p {
-  text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
   text-align: left;
 }
 
