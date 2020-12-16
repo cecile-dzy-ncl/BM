@@ -13,3 +13,13 @@
 #wrapper-transparence p {
   text-align: left;
 }
+
+@media screen and (max-width: 500px) {
+  #wrapper-transparence img {
+    margin-right: 0px;
+  }
+
+  #wrapper-transparence p {
+    text-align: center;
+  }
+}
