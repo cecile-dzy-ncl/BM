@@ -415,7 +415,9 @@ $(document).ready(function () {
       );
       const event = new CustomEvent("cardsLoaded");
 
-      $("#collectes-scroll .scrolling-wrapper").dispatchEvent(event);
+      document
+        .querySelector("#collectes-scroll .scrolling-wrapper")
+        .dispatchEvent(event);
 
       const slickSettings = {
         accessibility: true,
