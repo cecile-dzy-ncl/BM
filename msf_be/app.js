@@ -423,75 +423,75 @@ $(document).ready(function () {
           "#collectes-scroll .scrolling-wrapper .card-event"
         )
       );
-      const slickSettings = {
-        accessibility: true,
-        autoplay: false,
-        infinite: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: false,
-        speed: 500,
-        prevArrow:
-          '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
-        nextArrow:
-          '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
-        responsive: [
-          {
-            breakpoint: 769,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-            },
-          },
-          {
-            breakpoint: 500,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      };
+      // const slickSettings = {
+      //   accessibility: true,
+      //   autoplay: false,
+      //   infinite: false,
+      //   slidesToShow: 3,
+      //   slidesToScroll: 1,
+      //   dots: false,
+      //   speed: 500,
+      //   prevArrow:
+      //     '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
+      //   nextArrow:
+      //     '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
+      //   responsive: [
+      //     {
+      //       breakpoint: 769,
+      //       settings: {
+      //         slidesToShow: 2,
+      //         slidesToScroll: 2,
+      //       },
+      //     },
+      //     {
+      //       breakpoint: 500,
+      //       settings: {
+      //         slidesToShow: 1,
+      //         slidesToScroll: 1,
+      //       },
+      //     },
+      //   ],
+      // };
 
-      if (window.matchMedia("(min-width: 600px)").matches) {
-        if (collectesEvents.length > 3) {
-          setTimeout(function () {
-            $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
+      // if (window.matchMedia("(min-width: 600px)").matches) {
+      //   if (collectesEvents.length > 3) {
+      //     setTimeout(function () {
+      //       $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
 
-        if (events.length > 3) {
-          setTimeout(function () {
-            $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
+      //   if (events.length > 3) {
+      //     setTimeout(function () {
+      //       $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
 
-        if (urgencesEvents.length > 3) {
-          setTimeout(function () {
-            $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
-      }
+      //   if (urgencesEvents.length > 3) {
+      //     setTimeout(function () {
+      //       $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
+      // }
 
-      if (window.matchMedia("(max-width: 600px)").matches) {
-        if (collectesEvents.length > 1) {
-          setTimeout(function () {
-            $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
+      // if (window.matchMedia("(max-width: 600px)").matches) {
+      //   if (collectesEvents.length > 1) {
+      //     setTimeout(function () {
+      //       $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
 
-        if (events.length > 1) {
-          setTimeout(function () {
-            $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
+      //   if (events.length > 1) {
+      //     setTimeout(function () {
+      //       $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
 
-        if (urgencesEvents.length > 1) {
-          setTimeout(function () {
-            $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-          }, 1000);
-        }
-      }
+      //   if (urgencesEvents.length > 1) {
+      //     setTimeout(function () {
+      //       $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+      //     }, 1000);
+      //   }
+      // }
 
       if ($("body").is("#events-index")) {
         const eventsContainer = $("#events-index #events");
@@ -536,5 +536,77 @@ $(document).ready(function () {
 
   if (windowWidth < 500) {
     $("body").addClass("mobile");
+  }
+});
+
+$(document).ready(function () {
+  const slickSettings = {
+    accessibility: true,
+    autoplay: false,
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    dots: false,
+    speed: 500,
+    prevArrow:
+      '<button id="prev" class="controls"><i class="fas fa-arrow-left"></i></button>',
+    nextArrow:
+      '<button id="next" class="controls"><i class="fas fa-arrow-right"></i></button>',
+    responsive: [
+      {
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+  if (window.matchMedia("(min-width: 600px)").matches) {
+    if (collectesEvents.length > 3) {
+      setTimeout(function () {
+        $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
+
+    if (events.length > 3) {
+      setTimeout(function () {
+        $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
+
+    if (urgencesEvents.length > 3) {
+      setTimeout(function () {
+        $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
+  }
+
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    if (collectesEvents.length > 1) {
+      setTimeout(function () {
+        $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
+
+    if (events.length > 1) {
+      setTimeout(function () {
+        $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
+
+    if (urgencesEvents.length > 1) {
+      setTimeout(function () {
+        $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+      }, 1000);
+    }
   }
 });
