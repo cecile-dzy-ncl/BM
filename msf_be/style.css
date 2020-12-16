@@ -602,7 +602,8 @@ div#events-block .container-bm > div {
   text-transform: uppercase;
   color: var(--grey);
   font-family: "DINPro_black";
-  margin-bottom: 10px;
+  height: 35px;
+  /* margin-bottom: 10px; */
 }
 
 .card-event .event-numbers p {
@@ -650,7 +651,7 @@ div#events-block .container-bm > div {
 }
 
 .card-event-details > p {
-  margin: 10px 0;
+  margin: 5px 0 10px;
 }
 
 .card-event h5 {
