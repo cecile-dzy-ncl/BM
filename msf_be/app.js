@@ -319,6 +319,7 @@ $(document).ready(function () {
             </div>`;
         } else {
           var amountExpectedBlock = "";
+          var progressBar = "";
         }
         // var today = new Date();
         if (eventEndDate != null) {
