@@ -572,42 +572,42 @@ $(document).ready(function () {
   };
 
   if (window.matchMedia("(min-width: 600px)").matches) {
-    if (collectesEvents.length > 3) {
-      setTimeout(function () {
-        $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (collectesEvents.length > 3) {
+    setTimeout(function () {
+      $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
 
-    if (events.length > 3) {
-      setTimeout(function () {
-        $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (events.length > 3) {
+    setTimeout(function () {
+      $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
 
-    if (urgencesEvents.length > 3) {
-      setTimeout(function () {
-        $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (urgencesEvents.length > 3) {
+    setTimeout(function () {
+      $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
   }
 
   if (window.matchMedia("(max-width: 600px)").matches) {
-    if (collectesEvents.length > 1) {
-      setTimeout(function () {
-        $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (collectesEvents.length > 1) {
+    setTimeout(function () {
+      $("#collectes-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
 
-    if (events.length > 1) {
-      setTimeout(function () {
-        $("#events-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (events.length > 1) {
+    setTimeout(function () {
+      $("#events-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
 
-    if (urgencesEvents.length > 1) {
-      setTimeout(function () {
-        $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-      }, 1000);
-    }
+    // if (urgencesEvents.length > 1) {
+    setTimeout(function () {
+      $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+    }, 1000);
+    // }
   }
 });
