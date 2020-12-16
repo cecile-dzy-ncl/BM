@@ -1068,9 +1068,12 @@ img.project-thumbnails {
   object-fit: cover;
 }
 
-.projects-list .panel {
+#projects-index .projects-list .panel {
   border-radius: 0;
   box-shadow: var(--shadow);
+  min-height: 414px;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects-list .panel h3 {

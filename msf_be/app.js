@@ -296,6 +296,14 @@ $(document).ready(function () {
         }).format(eventAmountCollected);
 
         if (event.expected_amount) {
+          var eventProgress =
+            (eventAmountCollected / eventAmountExpected) * 100;
+          var progressBar = `
+            <div class='event-progressbar bg-lightgrey'>
+              <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
+            </div> 
+          `;
+          var classNoAmount = "no-amount";
           var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
           var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
             maximumFractionDigits: 0,
@@ -328,7 +336,7 @@ $(document).ready(function () {
         } else {
           var remainingDays = "";
         }
-        var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
+        // var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
         switch (lang) {
           case "en":
@@ -349,7 +357,7 @@ $(document).ready(function () {
         }
 
         const card = `
-          <div class="card card-event">
+          <div class="card card-event ${classNoAmount}">
           <img src="${event.banner_image}">
           <div class="card-event-btns">
           <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
@@ -359,9 +367,7 @@ $(document).ready(function () {
           <h4><a href="${eventUrl}">${eventTitle}</a></h4>
           <p>${eventDescription}</p>
           <div>
-          <div class='event-progressbar bg-lightgrey'>
-          <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
-          </div> 
+          ${progressBar}
           <div class='event-numbers d-flex mt-20'>
           <div class=''>
           <h5 class='text-center'>${event.projects_count}</h5>
@@ -407,22 +413,6 @@ $(document).ready(function () {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      // document
-      //   .querySelector("#collectes-scroll .scrolling-wrapper")
-      //   .addEventListener("cardsLoaded", (event) => {
-      //     console.log(event);
-      //   });
-      // const event = new CustomEvent("cardsLoaded");
-
-      // document
-      //   .querySelector("#collectes-scroll .scrolling-wrapper")
-      //   .dispatchEvent(event);
-
-      // console.log(
-      //   document.querySelector(
-      //     "#collectes-scroll .scrolling-wrapper .card-event"
-      //   )
-      // );
       const slickSettings = {
         accessibility: true,
         autoplay: false,
