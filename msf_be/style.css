@@ -1146,6 +1146,7 @@ ul#events:before {
 #events li.event-item .panel {
   display: flex;
   flex-direction: column;
+  box-shadow: var(--shadow);
 }
 
 #events li.event-item .panel > div {
