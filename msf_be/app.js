@@ -490,7 +490,13 @@ $(document).ready(function () {
           const percent = value.innerHTML.split("<small>")[0];
           console.log(percent);
 
-          // console.log($(this));
+          var progressBarEvent = `
+            <div class='event-progressbar bg-lightgrey'>
+              <div class='event-progress-perc bg-red' style='width: ${percent}%'></div>
+            </div> 
+          `;
+
+          console.log($(this));
         });
 
         //   const eventsContainer = $("#events-index #events");
