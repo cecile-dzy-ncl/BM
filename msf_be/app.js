@@ -418,6 +418,11 @@ $(document).ready(function () {
         .querySelector("#collectes-scroll .scrolling-wrapper")
         .dispatchEvent(event);
 
+      console.log(
+        document.querySelector(
+          "#collectes-scroll .scrolling-wrapper .card-event"
+        )
+      );
       const slickSettings = {
         accessibility: true,
         autoplay: false,
