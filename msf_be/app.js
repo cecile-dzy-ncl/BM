@@ -389,7 +389,7 @@ $(document).ready(function () {
         );
       };
 
-      var collectesEvents = [8, 9, 10, 11, 5, 31];
+      var collectesEvents = [4, 8, 9, 10, 11, 5];
       $("#collectes-scroll .scrolling-wrapper").html("");
       $.each(collectesEvents, function (key, value) {
         fetchData(value, $("#collectes-scroll .scrolling-wrapper"));
@@ -480,7 +480,7 @@ $(document).ready(function () {
       if ($("body").is("#events-index")) {
         const eventsContainer = $("#events-index #events");
         eventsContainer.html("");
-        var eventsList = [4, 5, 8, 9, 10, 11, 31, 85, 86, 88];
+        var eventsList = [4, 5, 8, 9, 10, 11, 85, 86, 88];
 
         $.each(eventsList, function (key, value) {
           fetchData(value, eventsContainer);
