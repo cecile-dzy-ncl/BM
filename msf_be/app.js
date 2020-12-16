@@ -496,7 +496,7 @@ $(document).ready(function () {
             </div> 
           `;
 
-          console.log($(this));
+          console.log($(this).closest(".panel"));
         });
 
         //   const eventsContainer = $("#events-index #events");
