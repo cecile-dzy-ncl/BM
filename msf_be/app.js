@@ -407,12 +407,11 @@ $(document).ready(function () {
         fetchData(value, "#urgences-scroll .scrolling-wrapper");
       });
 
-      $("#collectes-scroll .scrolling-wrapper").addEventListener(
-        "cardsLoaded",
-        (event) => {
+      document
+        .querySelector("#collectes-scroll .scrolling-wrapper")
+        .addEventListener("cardsLoaded", (event) => {
           console.log(event);
-        }
-      );
+        });
       const event = new CustomEvent("cardsLoaded");
 
       document
