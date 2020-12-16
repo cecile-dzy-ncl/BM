@@ -610,6 +610,10 @@ div#events-block .container-bm > div {
   height: auto;
 }
 
+.card .event-numbers div:not(.line) {
+  flex-grow: 1;
+}
+
 .card-event-btns {
   display: flex;
   width: 90%;
