@@ -504,6 +504,9 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infos = $(this).find(".infos");
+        // $(this).find(".infos-money .location").prepend(infos);
+        $(this).find(".infos-money .daysleft").append(infos);
+        $(this).find(".infos-money .teamcount").prepend(infos);
         $(this).find(".infos-money").prepend(infos);
       });
     }
