@@ -504,6 +504,7 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infosDays = $(this).find(".infos .daysleft span").html();
+        console.log(infosDays);
         let infosTeamCount = $(this)
           .find(".infos .teamcount")
           .html()
