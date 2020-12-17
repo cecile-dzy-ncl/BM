@@ -1210,7 +1210,7 @@ ul#events:before {
 }
 
 #events .event-item .amount {
-  margin: 1rem;
+  margin: 0 auto 0.5rem;
 }
 
 #events .event-item .amount span.big {
