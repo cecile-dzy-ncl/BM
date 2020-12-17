@@ -1179,9 +1179,9 @@ ul#events:before {
   display: none;
 }
 
-#events-index #events_pager {
+/* #events-index #events_pager {
   display: none;
-}
+} */
 
 #projects_pager {
   margin-bottom: 50px;
