@@ -1190,7 +1190,8 @@ ul#events:before {
 #events .event-item h3 a {
   color: var(--darkgrey);
   text-transform: uppercase;
-  font-family: "DINPro_black";
+  font-family: "DINPro_bold";
+  font-size: 18px;
 }
 
 #events .event-item .amount span.big {
