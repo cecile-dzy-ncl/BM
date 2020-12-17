@@ -23,11 +23,7 @@
 }
 
 .banner.mission {
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.25) 0%,
-      rgba(0, 0, 0, 0.25) 100%
-    ),
+  background: linear-gradient(90deg, rgb(189 108 28) 0%, rgba(0, 0, 0, 0) 70%),
     url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/3.jpg");
   background-size: cover;
   background-position: center;
