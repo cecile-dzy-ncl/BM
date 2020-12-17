@@ -51,7 +51,7 @@
   padding: 20px;
 }
 
-.banner.creer h1 {
+.banner.creer + .wrapper .container-small-bm h1 {
   margin-bottom: 20px;
 }
 
