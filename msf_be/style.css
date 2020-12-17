@@ -932,11 +932,11 @@ section#project_tabs + section .row {
 }
 
 .project_event_description > div:first-of-type img {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .project_event_description p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 /* ------ PAGE COLLECTE ------ */
