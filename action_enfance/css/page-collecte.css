@@ -166,6 +166,14 @@ section#project_tabs + section .row {
   padding-top: 50px;
 }
 
+.project_event_description {
+  background: url(https://my.1001fontaines.com/cdn.iraiser.eu/m9MaVYwwkucRUTPdHQC4aeW+95lb7aQMc2sHX4S8lbbyAPa6k7LFwuu93H5DooKb/Alise_Andre/origin/picbackgroundfundraisingpage1001fontaines.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  height: 1000px;
+}
+
 @media screen and (max-width: 500px) {
   .projet-head .small-12:first-child {
     width: auto;
