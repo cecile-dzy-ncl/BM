@@ -1181,6 +1181,10 @@ ul#events:before {
   /* box-shadow: var(--shadow); */
 }
 
+#events .event-item .wrap {
+  height: 20rem;
+}
+
 #events .event-item .wrap .row {
   display: flex;
   flex-direction: column;
