@@ -1111,6 +1111,10 @@ img.project-thumbnails {
 
 /* page projets avec recherche  */
 
+.first-section .panel .row .small-12.columns {
+  padding: 0;
+}
+
 #events-index h2,
 #projects-index h2 {
   text-align: center;

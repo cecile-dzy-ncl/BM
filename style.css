@@ -1270,6 +1270,12 @@ label {
     margin-bottom: 15px;
 }
 
+#my-profile .projects-list .panel .thumbnail img {
+  width: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+
 /* ------ PAGE DE COLLECTE ------ */
 
 #projects-show .current-amount,
