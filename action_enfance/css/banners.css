@@ -44,6 +44,17 @@
   margin-left: 7%;
 }
 
+.banner.creer + .wrapper .container-small-bm {
+  margin-top: -120px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.banner.creer h1 {
+  margin-bottom: 20px;
+}
+
 /* .banner.creer .banner-text {
   back
   width: 30%;
