@@ -775,6 +775,10 @@ div#events-block .container-bm > div {
   overflow: hidden;
 }
 
+#projects .panel {
+  box-shadow: var(--shadow);
+}
+
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred,
