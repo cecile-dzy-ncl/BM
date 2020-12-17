@@ -1210,6 +1210,10 @@ ul#events:before {
 }
 
 #events .event-item .amount span.big {
+  margin: 1rem;
+}
+
+#events .event-item .amount span.big {
   font-family: "DINPro_bold";
   font-size: 18px;
 }
