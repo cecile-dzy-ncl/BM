@@ -1184,7 +1184,7 @@ ul#events:before {
 }
 
 #events .event-item .event-description {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 #events .event-item h3 a {
