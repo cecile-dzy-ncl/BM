@@ -155,12 +155,12 @@ section#project_tabs + section .row {
   background-position: bottom;
   height: 1000px;
   padding-top: 0;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  float: right !important;
-  text-align: right;
+  float: right !important; */
+  /* text-align: right; */
 }
 
 .credits {
