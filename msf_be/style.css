@@ -1243,6 +1243,10 @@ ul#events:before {
   align-items: center;
 }
 
+#events .event-item .event-progressbar {
+  margin-bottom: 30px;
+}
+
 #events .event-item .infos-money > div,
 #events .event-item .infos-money > p {
   flex: 1 1 auto;
