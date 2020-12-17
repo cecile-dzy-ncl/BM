@@ -509,12 +509,12 @@ $(document).ready(function () {
           .split(">")[2]
           .trim()
           .split(" ")[0];
-        if (infosTeamCount.lenght > 0) {
-          let infosTeamCount = "";
-        }
 
         if (infosAmountExp.lenght > 0) {
           let infosAmountExp = "";
+        }
+        if (infosDays.lenght > 0) {
+          let infosDays = "";
         }
         const infosAmount = $(this).find(".amount span").html();
         const infosAmountExp = $(this).find(".projets").html().trim(" ");
