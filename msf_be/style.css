@@ -1182,6 +1182,10 @@ ul#events:before {
   /* box-shadow: var(--shadow); */
 }
 
+#events li.event-item .daysleft i {
+  display: none;
+}
+
 #events .event-item .wrap {
   height: 20rem;
 }
