@@ -1167,8 +1167,12 @@ ul#events:before {
   width: fit-content;
 }
 
-.event-item .panel .event-image .wrap {
+#events .event-item .panel .event-image .wrap {
   height: 15rem;
+}
+
+#events .event-image img {
+  width: 100%;
 }
 
 #events .event-item .button-group li a.page-see {
