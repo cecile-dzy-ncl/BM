@@ -496,7 +496,8 @@ $(document).ready(function () {
             </div> 
           `;
 
-          console.log($(this).closest(".panel"));
+          console.log($(this).closest(".panel .wrap .row"));
+          $(this).closest(".panel .wrap .row").append(ProgressBarEvent);
         });
 
         //   const eventsContainer = $("#events-index #events");
