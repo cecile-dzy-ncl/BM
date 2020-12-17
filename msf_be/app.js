@@ -503,13 +503,13 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        const infosDays = $(this).find(".infos .daysleft span").innerHTML();
+        const infosDays = $(this).find(".infos .daysleft span").html();
         const infosTeamCount = $(this)
           .find(".infos .teamcount")
           .html()
           .split(" ");
-        const infosAmount = $(this).find(".amount").innerHTML();
-        const infosAmountExp = $(this).find(".projets").innerHTML().split(" ");
+        const infosAmount = $(this).find(".amount").html();
+        const infosAmountExp = $(this).find(".projets").html().split(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
 
         const cardNum = `
