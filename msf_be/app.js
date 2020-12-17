@@ -504,11 +504,14 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infosDays = $(this).find(".infos .daysleft span").html();
-        const infosTeamCount = $(".infos .teamcount")
+        let infosTeamCount = $(".infos .teamcount")
           .html()
           .split(">")[2]
           .trim()
           .split(" ")[0];
+        if (infosTeamCount.lenght > 0) {
+          let infosTeamCount = "";
+        }
         const infosAmount = $(this).find(".amount span").html();
         const infosAmountExp = $(this).find(".projets").html().trim(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
@@ -531,7 +534,7 @@ $(document).ready(function () {
           `;
         console.log(cardNum);
         console.log(infosTeamCount);
-        console.log(infosAmountExp);
+        console.log(infosAmount);
         console.log(infosAmountExp);
         console.log(infosDays);
         // $(this).find(".infos-money").prepend(infosTeamCount);
