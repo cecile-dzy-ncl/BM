@@ -504,13 +504,16 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infosDays = $(this).find(".infos .daysleft");
+        // const infosDays = $(this).find(".infos .daysleft");
         // console.log(infosDays);
-        let infosTeamCount = $(this)
-          .find(".infos .teamcount")
-          .html()
-          .split(">")[2]
-          .trim()
-          .split(" ")[0];
+        // let infosTeamCount = $(this)
+        //   .find(".infos .teamcount")
+        //   .html()
+        //   .split(">")[2]
+        //   .trim()
+        //   .split(" ")[0];
+        const infosTeamCount = $(this).find(".infos .teamcount");
+        console.log(infosTeamCount);
         const infosAmount = $(this).find(".amount span").html();
         let infosAmountExp = $(this).find(".projets").html().trim(" ");
 
