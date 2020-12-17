@@ -1183,7 +1183,7 @@ ul#events:before {
   display: none;
 }
 
-#events .event-item h3 {
+#events .event-item h3 a {
   color: var(--darkgrey);
   text-transform: uppercase;
   font-family: "DINPro_black";
