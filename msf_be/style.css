@@ -2134,6 +2134,10 @@ dl#step_tab dd {
     margin-bottom: 20px;
   }
 
+  html[lang="nl"] #events-block h1 {
+    word-break: break-all;
+  }
+
   header.main-header a.button,
   header.main-header a.button:hover {
     color: var(--red);
