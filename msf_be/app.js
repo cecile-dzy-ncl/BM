@@ -503,8 +503,8 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        const infosDays = $(this).find(".infos .daysleft").text();
-        console.log(infosDays);
+        // const infosDays = $(this).find(".infos .daysleft").text();
+        // console.log(infosDays);
         let infosTeamCount = $(this)
           .find(".infos .teamcount")
           .html()
@@ -534,7 +534,7 @@ $(document).ready(function () {
           <p class='text-center'><small>${legendRecoltes}</small></p>
           </div>
           ${infosAmountExp}
-          ${infosDays}
+      
           </div>
           </div>
           `;
