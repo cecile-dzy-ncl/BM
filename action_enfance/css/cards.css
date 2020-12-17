@@ -1,3 +1,5 @@
 .card-bm {
   width: 24%;
+  border-radius: 4px;
+  overflow: hidden;
 }
