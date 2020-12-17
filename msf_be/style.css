@@ -1226,8 +1226,8 @@ ul#events:before {
   font-size: 18px;
 }
 
-#events .event-item .infos-money {
-  display: flex;
+#events .event-item .wrap .row .infos-money {
+  /* display: flex; */
 }
 
 #events .event-item .infos-money > div,
