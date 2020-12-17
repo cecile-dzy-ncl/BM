@@ -1167,6 +1167,10 @@ ul#events:before {
   width: fit-content;
 }
 
+.event-item .panel .event-image .wrap {
+  height: 15rem;
+}
+
 #events .event-item .button-group li a.page-see {
   background: var(--darkgrey);
   color: white;
