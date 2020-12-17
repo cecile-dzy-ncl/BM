@@ -29,6 +29,7 @@
     url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/3.jpg");
   background-size: cover;
   background-position: center;
+  height: 400px;
 }
 
 @media screen and (max-width: 500px) {
