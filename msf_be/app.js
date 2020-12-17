@@ -504,7 +504,29 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infosDays = $(this).find(".infos .daysleft");
-        const infosTeamCount = $(this).find(".infos .teamcount");
+        const infosTeamCount = $(this)
+          .find(".infos .teamcount")
+          .innerHTML()
+          .split(" ");
+        const infosAmount = $(this).find(".amount").innerHTML();
+        const infosAmountExp = $(this).find(".projets").innerHTML().split(" ");
+
+        const cardNum = `
+          <div class='event-numbers d-flex mt-20'>
+          <div class=''>
+          <h5 class='text-center'>${infosTeamCount}</h5>
+          <p class='text-center'><small>${legendCollectes}</small></p>
+          </div>
+          <div class='line'></div>
+          <div class=''>
+          <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
+          <p class='text-center'><small>${legendRecoltes}</small></p>
+          </div>
+          ${amountExpectedBlock}
+          ${remainingDays}
+          </div>
+          </div>
+          `;
 
         $(this).find(".infos-money").prepend(infosTeamCount);
         $(this).find(".infos-money").append(infosDays);
