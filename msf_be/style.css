@@ -1163,6 +1163,9 @@ ul#events:before {
   transform: translate(-50%, -50%);
   left: 50%;
   width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #events .event-item .panel .event-image .wrap {
@@ -1173,9 +1176,14 @@ ul#events:before {
   width: 100%;
 }
 
+#events .event-item .button-group li {
+  width: 45%;
+}
+
 #events .event-item .button-group li a.page-see {
   background: var(--darkgrey);
   color: white;
+  margin-bottom: 0;
   /* box-shadow: var(--shadow); */
 }
 
