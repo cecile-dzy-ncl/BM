@@ -1152,6 +1152,7 @@ ul#events:before {
   display: flex;
   flex-direction: column;
   max-width: 100%;
+  border: 0;
 }
 
 #events li.event-item .panel > div {
