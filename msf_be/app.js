@@ -506,7 +506,7 @@ $(document).ready(function () {
         const infosDays = $(this).find(".infos .daysleft span").innerHTML();
         const infosTeamCount = $(this)
           .find(".infos .teamcount")
-          .innerHTML()
+          .html()
           .split(" ");
         const infosAmount = $(this).find(".amount").innerHTML();
         const infosAmountExp = $(this).find(".projets").innerHTML().split(" ");
