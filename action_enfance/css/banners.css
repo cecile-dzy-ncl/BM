@@ -31,8 +31,9 @@
 }
 
 .banner.mission .banner-text {
-  width: 42%;
+  width: 30%;
   margin-right: 60%;
+  margin-left: 7%;
 }
 
 .banner.mission h1,
