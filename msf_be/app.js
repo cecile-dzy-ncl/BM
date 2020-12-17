@@ -496,10 +496,12 @@ $(document).ready(function () {
             </div> 
           `;
 
-          console.log($(this).closest(".panel .wrap .row"));
           $(this).closest(".panel .wrap .row").append(progressBarEvent);
-          const infos = $(this).closest(".panel").find(".infos");
-          $(this).closest(".event-item .infos-money").prepend(infos);
+        });
+
+        $.each($("#events .panel"), function (key, value) {
+          const infos = $(this).find(".infos");
+          $(this).find(".infos-money").prepend(infos);
         });
       }
     }
