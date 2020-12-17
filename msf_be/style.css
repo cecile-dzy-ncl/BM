@@ -777,6 +777,7 @@ div#events-block .container-bm > div {
 
 #projects .panel {
   box-shadow: var(--shadow);
+  border-radius: 0;
 }
 
 /* PAGE DE COLLECTE */
