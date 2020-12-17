@@ -1175,6 +1175,10 @@ ul#events:before {
   flex-direction: column;
 }
 
+#events .event-item .chart-wrap {
+  display: none;
+}
+
 #events-index #events_pager {
   display: none;
 }
