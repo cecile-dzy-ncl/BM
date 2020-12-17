@@ -1156,6 +1156,10 @@ ul#events:before {
   width: 100%;
 }
 
+#events .event-item .event-details .wrap {
+  padding: 10px;
+}
+
 #events .event-item .event-details .event-goup-btn {
   position: absolute;
   bottom: auto !important;
