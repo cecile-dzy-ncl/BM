@@ -503,7 +503,7 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        // const infosDays = $(this).find(".infos .daysleft").text();
+        const infosDays = $(this).find(".infos .daysleft");
         // console.log(infosDays);
         let infosTeamCount = $(this)
           .find(".infos .teamcount")
@@ -517,9 +517,9 @@ $(document).ready(function () {
         if (infosAmountExp.lenght > 0) {
           let infosAmountExp = "";
         }
-        if (infosDays == undefined) {
-          let infosDays = "";
-        }
+        // if (infosDays == undefined) {
+        //   let infosDays = "";
+        // }
         // const  = $(this).find(".projets").innerHTML().split(" ");
 
         const cardNum = `
@@ -545,7 +545,13 @@ $(document).ready(function () {
         console.log(infosDays);
         // $(this).find(".infos-money").prepend(infosTeamCount);
         // $(this).find(".infos-money").append(infosDays);
-        $(this).find("medium-4 .infos-money").append(cardNum);
+
+        setTimeout(function () {
+          $(this).find("medium-4 .infos-money").append(cardNum);
+          // $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+        }, 1000);
+
+        // $(this).find("medium-4 .infos-money").append(cardNum);
       });
     }
   });
