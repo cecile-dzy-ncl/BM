@@ -28,8 +28,7 @@
 }
 
 .banner.creer {
-  background: linear-gradient(90deg, rgb(189 108 28) 0%, rgba(0, 0, 0, 0) 70%),
-    url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/3.jpg");
+  background: url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/5.jpg");
 }
 
 .banner.mission,
@@ -44,6 +43,13 @@
   margin-right: 60%;
   margin-left: 7%;
 }
+
+/* .banner.creer .banner-text {
+  back
+  width: 30%;
+  margin-right: 60%;
+  margin-left: 7%;
+} */
 
 .banner.mission h1,
 .banner.mission p {
