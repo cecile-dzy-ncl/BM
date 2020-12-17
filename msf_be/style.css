@@ -1193,6 +1193,7 @@ ul#events:before {
 #events .event-item .wrap .row {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 #events .event-item .wrap .row .columns {
