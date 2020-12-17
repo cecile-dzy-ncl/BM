@@ -508,7 +508,7 @@ $(document).ready(function () {
         // $(this).find
         const infosMoney = $(this).find(".infos-money");
         // $(this).find(".infos-money .location").prepend(infos);
-        $(this).find(".infos .daysleft").append(infosMoney);
+        // $(this).find(".infos .daysleft").append(infosMoney);
         // $(this).find(".infos .teamcount").prepend(infosMoney);
         // $(this).find(".infos-money").prepend(infosMoney);
       });
