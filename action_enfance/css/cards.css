@@ -3,3 +3,11 @@
   border-radius: 4px;
   overflow: hidden;
 }
+
+.card-bm-description {
+  justify-content: flex-start;
+}
+
+.card-bm-description > div p {
+  margin-bottom: 10px;
+}
