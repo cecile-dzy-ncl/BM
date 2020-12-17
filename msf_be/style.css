@@ -1159,13 +1159,11 @@ ul#events:before {
 
 #events .event-item .event-details .event-goup-btn {
   position: absolute;
-  left: 2rem;
-  bottom: -1rem;
   bottom: auto !important;
   top: 0;
   transform: translate(-50%, -50%);
   left: 50%;
-  width: 100%;
+  width: fit-content;
 }
 
 #events .event-item .button-group li a.page-see {
