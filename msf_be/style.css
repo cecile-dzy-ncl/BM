@@ -1209,11 +1209,12 @@ ul#events:before {
   font-size: 18px;
 }
 
-#events .event-item .amount span.big {
+#events .event-item .amount {
   margin: 1rem;
 }
 
 #events .event-item .amount span.big {
+  color: var(--darkgrey);
   font-family: "DINPro_bold";
   font-size: 18px;
 }
