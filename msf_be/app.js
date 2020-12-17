@@ -514,45 +514,46 @@ $(document).ready(function () {
         //   .split(" ")[0];
         const infosTeamCount = $(this).find(".infos .teamcount");
         console.log(infosTeamCount);
-        const infosAmount = $(this).find(".amount span").html();
-        let infosAmountExp = $(this).find(".projets").html().trim(" ");
+        // const infosAmount = $(this).find(".amount span").html();
+        // let infosAmountExp = $(this).find(".projets").html().trim(" ");
 
-        if (infosAmountExp.lenght > 0) {
-          let infosAmountExp = "";
-        }
+        // if (infosAmountExp.lenght > 0) {
+        //   let infosAmountExp = "";
+        // }
         // if (infosDays == undefined) {
         //   let infosDays = "";
         // }
         // const  = $(this).find(".projets").innerHTML().split(" ");
 
-        const cardNum = `
-          <div class='event-numbers d-flex mt-20'>
-          <div class=''>
-          <h5 class='text-center'>${infosTeamCount}</h5>
-          <p class='text-center'><small>${legendCollectes}</small></p>
-          </div>
-          <div class='line'></div>
-          <div class=''>
-          <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
-          <p class='text-center'><small>${legendRecoltes}</small></p>
-          </div>
-          ${infosAmountExp}
-      
-          </div>
-          </div>
-          `;
-        console.log(cardNum);
-        console.log(infosTeamCount);
-        console.log(infosAmount);
-        console.log(infosAmountExp);
-        console.log(infosDays);
+        // const cardNum = `
+        //   <div class='event-numbers d-flex mt-20'>
+        //   <div class=''>
+        //   <h5 class='text-center'>${infosTeamCount}</h5>
+        //   <p class='text-center'><small>${legendCollectes}</small></p>
+        //   </div>
+        //   <div class='line'></div>
+        //   <div class=''>
+        //   <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
+        //   <p class='text-center'><small>${legendRecoltes}</small></p>
+        //   </div>
+        //   ${infosAmountExp}
+
+        //   </div>
+        //   </div>
+        //   `;
+        // console.log(cardNum);
+        // console.log(infosTeamCount);
+        // console.log(infosAmount);
+        // console.log(infosAmountExp);
+        // console.log(infosDays);
         $(this).find(".infos-money").prepend(infosTeamCount);
+        $(this).find(".infos-money").append(infosDays);
         // $(this).find(".infos-money").append(infosDays);
 
-        setTimeout(function () {
-          $(this).find("medium-4 .infos-money").append(cardNum);
-          // $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-        }, 1000);
+        // setTimeout(function () {
+        //   $(this).find("medium-4 .infos-money").append(cardNum);
+        //   // $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+        // }, 1000);
 
         // $(this).find("medium-4 .infos-money").append(cardNum);
       });
