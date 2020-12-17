@@ -498,6 +498,7 @@ $(document).ready(function () {
 
           console.log($(this).closest(".panel .wrap .row"));
           $(this).closest(".panel .wrap .row").append(progressBarEvent);
+          console.log("test");
           console.log($(this).closest(".infos"));
           console.log($(this).closest(".infos-money"));
           $(this)
