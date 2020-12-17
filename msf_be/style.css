@@ -1226,6 +1226,15 @@ ul#events:before {
   font-size: 18px;
 }
 
+#events .event-item .infos-money {
+  display: flex;
+}
+
+#events .event-item .infos-money > div,
+#events .event-item .infos-money > p {
+  flex: 1 1 auto;
+}
+
 /* #events-index #events_pager {
   display: none;
 } */
@@ -2151,8 +2160,5 @@ dl#step_tab dd {
 
   ul#events {
     grid-template-columns: 1fr;
-  }
-
-  .custom-block .row {
   }
 }
