@@ -497,17 +497,9 @@ $(document).ready(function () {
           `;
 
           console.log($(this).closest(".panel .wrap .row"));
-          $(this).closest(".panel .wrap .row").append(ProgressBarEvent);
+          $(this).closest(".panel .wrap .row").append(progressBarEvent);
         });
-
-        //   const eventsContainer = $("#events-index #events");
-        //   eventsContainer.html("");
-        //   var eventsList = [4, 5, 8, 9, 10, 11, 85, 86, 88];
-        //   $.each(eventsList, function (key, value) {
-        //     fetchData(value, eventsContainer);
-        //   });
       }
-      // fetchDataEvents(eventsContainer);
     }
   });
 
