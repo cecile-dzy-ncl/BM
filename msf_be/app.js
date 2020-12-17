@@ -509,7 +509,7 @@ $(document).ready(function () {
           .split(">")[2]
           .trim()
           .split(" ")[0];
-        const infosAmount = $(this).find(".amount").html();
+        const infosAmount = $(this).find(".amount span").html();
         const infosAmountExp = $(this).find(".projets").html().split(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
 
@@ -530,6 +530,8 @@ $(document).ready(function () {
           </div>
           `;
         console.log(cardNum);
+        console.log(infosAmountExp);
+        console.log(infosDays);
         // $(this).find(".infos-money").prepend(infosTeamCount);
         // $(this).find(".infos-money").append(infosDays);
         $(this).find("medium-4 .infos-money").append(cardNum);
