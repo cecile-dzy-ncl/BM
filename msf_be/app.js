@@ -543,7 +543,7 @@ $(document).ready(function () {
         console.log(infosAmount);
         console.log(infosAmountExp);
         console.log(infosDays);
-        // $(this).find(".infos-money").prepend(infosTeamCount);
+        $(this).find(".infos-money").prepend(infosTeamCount);
         // $(this).find(".infos-money").append(infosDays);
 
         setTimeout(function () {
