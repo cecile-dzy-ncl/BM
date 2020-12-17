@@ -496,7 +496,10 @@ $(document).ready(function () {
           </div> 
         `;
 
-        $(this).closest(".panel .wrap").append(progressBarEvent);
+        $(this)
+          .closest(".panel .wrap")
+          .find(".medium-4")
+          .prepend(progressBarEvent);
       });
 
       $.each($("#events .panel"), function (key, value) {
