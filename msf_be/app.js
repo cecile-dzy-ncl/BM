@@ -515,7 +515,7 @@ $(document).ready(function () {
         if (infosAmountExp.lenght > 0) {
           let infosAmountExp = "";
         }
-        if (infosDays.lenght > 0) {
+        if (infosDays == undefined) {
           let infosDays = "";
         }
         // const  = $(this).find(".projets").innerHTML().split(" ");
