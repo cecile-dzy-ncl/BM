@@ -70,7 +70,7 @@ $(document).ready(function () {
   //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   // $("#banner_section").before(bannerMaintenance);
 
-  // AJOUT BANNER MAINTENANCE
+  // AJOUT HELP WRAPPER
   var helpWrapper = `
   <div class='container-small-bm my-80'>
   <div class='wrapper-help d-flex flex-column'>
@@ -82,8 +82,8 @@ $(document).ready(function () {
   $("#events-index .section-events").after(helpWrapper);
 
   $("#events-widget .event-image").append($("#events-widget .chart-wrap"));
-  // AJOUT NAV BUTTONS
 
+  // AJOUT NAV BUTTONS
   if (window.matchMedia("(max-width: 600px)").matches) {
     $("nav#main-nav").append($("#first-header .top-bar-section"));
     $("nav#main-nav").append($(".header-spacer .top-bar-section"));
@@ -484,26 +484,26 @@ $(document).ready(function () {
           }, 1000);
         }
       }
+    }
+    if ($("body").is("#events-index")) {
+      console.log("separé");
+      $.each($("#events .panel .percent"), function (key, value) {
+        const percent = value.innerHTML.split("<small>")[0];
+        console.log(percent);
 
-      if ($("body").is("#events-index")) {
-        $.each($("#events .panel .percent"), function (key, value) {
-          const percent = value.innerHTML.split("<small>")[0];
-          console.log(percent);
+        var progressBarEvent = `
+          <div class='event-progressbar bg-lightgrey'>
+            <div class='event-progress-perc bg-red' style='width: ${percent}%'></div>
+          </div> 
+        `;
 
-          var progressBarEvent = `
-            <div class='event-progressbar bg-lightgrey'>
-              <div class='event-progress-perc bg-red' style='width: ${percent}%'></div>
-            </div> 
-          `;
+        $(this).closest(".panel .wrap .row").append(progressBarEvent);
+      });
 
-          $(this).closest(".panel .wrap .row").append(progressBarEvent);
-        });
-
-        $.each($("#events .panel"), function (key, value) {
-          const infos = $(this).find(".infos");
-          $(this).find(".infos-money").prepend(infos);
-        });
-      }
+      $.each($("#events .panel"), function (key, value) {
+        const infos = $(this).find(".infos");
+        $(this).find(".infos-money").prepend(infos);
+      });
     }
   });
 
