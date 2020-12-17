@@ -503,7 +503,7 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        const infosDays = $(this).find(".infos .daysleft");
+        const infosDays = $(this).find(".infos .daysleft").html();
         console.log(infosDays);
         let infosTeamCount = $(this)
           .find(".infos .teamcount")
