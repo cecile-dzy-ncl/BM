@@ -1240,6 +1240,7 @@ ul#events:before {
 
 #events .event-item .wrap .row .infos-money {
   display: flex;
+  align-items: center;
 }
 
 #events .event-item .infos-money > div,
