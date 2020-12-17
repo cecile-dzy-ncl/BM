@@ -528,7 +528,7 @@ $(document).ready(function () {
           </div>
           </div>
           `;
-
+        console.log(cardNum);
         // $(this).find(".infos-money").prepend(infosTeamCount);
         // $(this).find(".infos-money").append(infosDays);
         $(this).find("medium-4 .infos-money").append(cardNum);
