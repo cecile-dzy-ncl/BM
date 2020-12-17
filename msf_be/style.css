@@ -1182,7 +1182,7 @@ ul#events:before {
   /* box-shadow: var(--shadow); */
 }
 
-#events li.event-item .daysleft i {
+#events li.event-item i {
   display: none;
 }
 
