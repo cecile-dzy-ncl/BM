@@ -512,6 +512,10 @@ $(document).ready(function () {
         if (infosTeamCount.lenght > 0) {
           let infosTeamCount = "";
         }
+
+        if (infosAmountExp.lenght > 0) {
+          let infosAmountExp = "";
+        }
         const infosAmount = $(this).find(".amount span").html();
         const infosAmountExp = $(this).find(".projets").html().trim(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
