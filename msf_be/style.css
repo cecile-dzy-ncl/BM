@@ -1246,6 +1246,7 @@ ul#events:before {
 #events .event-item .infos-money > div,
 #events .event-item .infos-money > p {
   flex: 1 1 auto;
+  margin-bottom: 0;
 }
 
 /* #events-index #events_pager {
