@@ -32,6 +32,11 @@
   height: 400px;
 }
 
+.banner.mission .banner-text {
+  width: 42%;
+  margin-right: 60%;
+}
+
 @media screen and (max-width: 500px) {
   .banner.homepage .banner-text {
     width: 90%;
