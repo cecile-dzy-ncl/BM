@@ -1170,6 +1170,11 @@ ul#events:before {
   /* box-shadow: var(--shadow); */
 }
 
+#events .event-item .wrap .row {
+  display: flex;
+  flex-direction: column;
+}
+
 #events-index #events_pager {
   display: none;
 }
