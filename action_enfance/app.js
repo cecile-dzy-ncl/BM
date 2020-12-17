@@ -29,54 +29,60 @@ $(document).ready(function () {
         .classList.value.match(/event_\d/g)[0]
         .split("_")[1];
 
-      $.get(
-        `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
-        function (response) {
-          console.log(response);
-          var eventProjectsNb = response.projects_count;
-          var eventAmountCollected =
-            Number.parseInt(response.amount_collected, 10) / 100;
-          var eventAmountExpected =
-            Number.parseInt(response.expected_amount, 10) / 100;
-          console.log("eventAmountCollected");
-          console.log(eventAmountCollected);
+      var amountTag = `<p><tag event_id='${eventId}'>$collected_amount</tag></p>`;
+      var projectTag = `<p><tag event_id='${eventId}'>$project_count</tag></p>`;
 
-          $("#events-show .event-head").prepend(
-            `<h1 class="text-center">${response.title.fr}</h1>`
-          );
-          $(".projects_count .stat-nb span").html(eventProjectsNb);
-          $(".amount_collected .stat-nb span").html(
-            new Intl.NumberFormat("fr-FR", {
-              maximumFractionDigits: 0,
-              minimumFractionDigits: 0,
-              style: "currency",
-              currency: "EUR",
-            }).format(eventAmountCollected)
-          );
-          if (response.expected_amount != null) {
-            var eventProgress = Math.round(
-              (eventAmountCollected / eventAmountExpected) * 100
-            );
-            console.log("eventProgress", eventProgress);
-            var eventProgressBar = `
-            <div class="container-xs-bm mt-50">
-              <div class="event-progressbar bg-mediumgrey mb-20">
-                <div class="event-progress-perc bg-blue" style="width: ${eventProgress}%"></div>
-              </div>
-              <div class="d-flex justify-between">
-                <p>${eventProgress}%</p>
-                <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
-                  maximumFractionDigits: 0,
-                  minimumFractionDigits: 0,
-                  style: "currency",
-                  currency: "EUR",
-                }).format(eventAmountExpected)}</p>
-              </div>
-            </div>`;
-            $(".event-stats").after(eventProgressBar);
-          }
-        }
-      );
+      console.log(amountTag);
+      console.log(projectTag);
+
+      // $.get(
+      //   `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
+      //   function (response) {
+      //     console.log(response);
+      //     var eventProjectsNb = response.projects_count;
+      //     var eventAmountCollected =
+      //       Number.parseInt(response.amount_collected, 10) / 100;
+      //     var eventAmountExpected =
+      //       Number.parseInt(response.expected_amount, 10) / 100;
+      //     console.log("eventAmountCollected");
+      //     console.log(eventAmountCollected);
+
+      //     $("#events-show .event-head").prepend(
+      //       `<h1 class="text-center">${response.title.fr}</h1>`
+      //     );
+      //     $(".projects_count .stat-nb span").html(eventProjectsNb);
+      //     $(".amount_collected .stat-nb span").html(
+      //       new Intl.NumberFormat("fr-FR", {
+      //         maximumFractionDigits: 0,
+      //         minimumFractionDigits: 0,
+      //         style: "currency",
+      //         currency: "EUR",
+      //       }).format(eventAmountCollected)
+      //     );
+      //     if (response.expected_amount != null) {
+      //       var eventProgress = Math.round(
+      //         (eventAmountCollected / eventAmountExpected) * 100
+      //       );
+      //       console.log("eventProgress", eventProgress);
+      //       var eventProgressBar = `
+      //       <div class="container-xs-bm mt-50">
+      //         <div class="event-progressbar bg-mediumgrey mb-20">
+      //           <div class="event-progress-perc bg-blue" style="width: ${eventProgress}%"></div>
+      //         </div>
+      //         <div class="d-flex justify-between">
+      //           <p>${eventProgress}%</p>
+      //           <p>Objectif: ${new Intl.NumberFormat("fr-FR", {
+      //             maximumFractionDigits: 0,
+      //             minimumFractionDigits: 0,
+      //             style: "currency",
+      //             currency: "EUR",
+      //           }).format(eventAmountExpected)}</p>
+      //         </div>
+      //       </div>`;
+      //       $(".event-stats").after(eventProgressBar);
+      //     }
+      //   }
+      // );
     }
   });
 
