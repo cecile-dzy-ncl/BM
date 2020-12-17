@@ -1143,6 +1143,10 @@ ul#events:before {
   display: none;
 }
 
+#events li.event-item {
+  padding: 0;
+}
+
 #events li.event-item .panel {
   display: flex;
   flex-direction: column;
