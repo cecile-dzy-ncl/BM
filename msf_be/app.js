@@ -503,13 +503,14 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        const infosDays = $(this).find(".infos .daysleft");
+        const infosDays = $(this).find(".infos .daysleft span").innerHTML();
         const infosTeamCount = $(this)
           .find(".infos .teamcount")
           .innerHTML()
           .split(" ");
         const infosAmount = $(this).find(".amount").innerHTML();
         const infosAmountExp = $(this).find(".projets").innerHTML().split(" ");
+        // const  = $(this).find(".projets").innerHTML().split(" ");
 
         const cardNum = `
           <div class='event-numbers d-flex mt-20'>
@@ -522,8 +523,8 @@ $(document).ready(function () {
           <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
           <p class='text-center'><small>${legendRecoltes}</small></p>
           </div>
-          ${amountExpectedBlock}
-          ${remainingDays}
+          ${infosAmountExp}
+          ${infosDays}
           </div>
           </div>
           `;
