@@ -1195,7 +1195,8 @@ ul#events:before {
 }
 
 #events .event-item .amount span.big {
-  font-family: "DINPro_black";
+  font-family: "DINPro_bold";
+  font-size: 18px;
 }
 
 /* #events-index #events_pager {
