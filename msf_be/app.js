@@ -503,14 +503,18 @@ $(document).ready(function () {
       });
 
       $.each($("#events .panel"), function (key, value) {
-        const infos = $(this).find(".infos");
-        const infosNumber = `<div class="event-nb"></div>`;
+        const infosDays = $(this).find(".infos .daysleft");
+        const infosTeamCount = $(this).find(".infos .teamcount");
+        // const infosTeamLocation = $(this).find(".infos");
+        // const infosMoney = $(this).find(".infos-money");
+        $(this).find(".infos-money").prepend(infosTeamCount);
+        $(this).find(".infos-money").append(infosDays);
+
         // $(this).find
-        const infosMoney = $(this).find(".infos-money");
+        // const infosNumber = `<div class="event-nb"></div>`;
         // $(this).find(".infos-money .location").prepend(infos);
         // $(this).find(".infos .daysleft").append(infosMoney);
         // $(this).find(".infos .teamcount").prepend(infosMoney);
-        // $(this).find(".infos-money").prepend(infosMoney);
       });
     }
   });
