@@ -504,10 +504,11 @@ $(document).ready(function () {
 
       $.each($("#events .panel"), function (key, value) {
         const infosDays = $(this).find(".infos .daysleft span").html();
-        const infosTeamCount = $(this)
-          .find(".infos .teamcount")
+        const infosTeamCount = $(".infos .teamcount")
           .html()
-          .split(" ");
+          .split(">")[2]
+          .trim()
+          .split(" ")[0];
         const infosAmount = $(this).find(".amount").html();
         const infosAmountExp = $(this).find(".projets").html().split(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
