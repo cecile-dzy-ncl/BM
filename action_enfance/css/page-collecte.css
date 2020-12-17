@@ -144,9 +144,17 @@ section#project_tabs + section .row {
 }
 
 .project_event_description {
-  /* height: 600px; */
-  /* width: 400px; */
-  /* margin-right: 150px !important; */
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/13.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  height: 1000px;
+  padding-top: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -165,14 +173,6 @@ section#project_tabs + section .row {
 
 .tabs-content .active.content {
   padding-top: 50px;
-}
-
-.project_event_description {
-  background: url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/13.jpg");
-  width: 100%;
-  background-size: cover;
-  background-position: bottom;
-  height: 1000px;
 }
 
 @media screen and (max-width: 500px) {
