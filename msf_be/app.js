@@ -509,6 +509,8 @@ $(document).ready(function () {
           .split(">")[2]
           .trim()
           .split(" ")[0];
+        const infosAmount = $(this).find(".amount span").html();
+        let infosAmountExp = $(this).find(".projets").html().trim(" ");
 
         if (infosAmountExp.lenght > 0) {
           let infosAmountExp = "";
@@ -516,8 +518,6 @@ $(document).ready(function () {
         if (infosDays.lenght > 0) {
           let infosDays = "";
         }
-        const infosAmount = $(this).find(".amount span").html();
-        const infosAmountExp = $(this).find(".projets").html().trim(" ");
         // const  = $(this).find(".projets").innerHTML().split(" ");
 
         const cardNum = `
