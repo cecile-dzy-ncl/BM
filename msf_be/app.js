@@ -531,6 +531,7 @@ $(document).ready(function () {
 
         $(this).find(".infos-money").prepend(infosTeamCount);
         $(this).find(".infos-money").append(infosDays);
+        $(this).find("medium-4 .infos-money").append(cardNum);
       });
     }
   });
