@@ -85,6 +85,7 @@ section.section-projet-details .project_boutons_give {
 
 #show_team {
   background: var(--blue);
+  color: white;
   font-style: italic;
 }
 
