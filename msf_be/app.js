@@ -498,9 +498,9 @@ $(document).ready(function () {
 
           console.log($(this).closest(".panel .wrap .row"));
           $(this).closest(".panel .wrap .row").append(progressBarEvent);
-          $(".event-item .infos-money").prepend(
-            $(this).closest(".event-item .event-description .infos")
-          );
+          $(this)
+            .closest(".event-item .infos-money")
+            .prepend($(this).closest(".event-item .event-description .infos"));
         });
       }
     }
