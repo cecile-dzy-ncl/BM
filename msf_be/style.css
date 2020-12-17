@@ -1175,6 +1175,10 @@ ul#events:before {
   flex-direction: column;
 }
 
+#events .event-item .wrap .row .columns {
+  width: 100%;
+}
+
 #events .event-item .chart-wrap {
   display: none;
 }
