@@ -52,7 +52,7 @@ $(document).ready(function () {
       var projectIntro =
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un.e collègue ou une entreprise ? Nous vous remercions d'ores et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
       var eventIntro =
-        "La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêt à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.";
+        "La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêts à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.";
 
       var legendCollectes = "collectes";
       var legendRecoltes = "récoltés";

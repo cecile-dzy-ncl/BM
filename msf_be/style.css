@@ -2152,4 +2152,7 @@ dl#step_tab dd {
   ul#events {
     grid-template-columns: 1fr;
   }
+
+  .custom-block .row {
+  }
 }
