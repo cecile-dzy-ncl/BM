@@ -1239,7 +1239,7 @@ ul#events:before {
 }
 
 #events .event-item .wrap .row .infos-money {
-  /* display: flex; */
+  display: flex;
 }
 
 #events .event-item .infos-money > div,
