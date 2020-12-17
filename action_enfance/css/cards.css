@@ -2,11 +2,11 @@
   width: 24%;
   border-radius: 4px;
   overflow: hidden;
-  padding: 20px;
 }
 
 .card-bm-description {
   justify-content: flex-start;
+  padding: 20px;
 }
 
 .card-bm-description > div p {
