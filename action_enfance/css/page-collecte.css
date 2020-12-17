@@ -1,7 +1,7 @@
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred {
-  background: #000000;
+  background: var(--blue);
 }
 
 .section-projet-details .projet-head {
@@ -73,13 +73,14 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: var(--blue);
+  background: white !important;
+  color: var(--blue) !important;
   font-family: "Open Sans";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: var(--blue) !important;
+  /* background: var(--blue) !important; */
 }
 
 #show_team {
@@ -96,7 +97,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 .block-share-container {
   padding-bottom: 3px;
-  background: #000000;
+  background: var(--blue);
 }
 
 .social_network_send,
@@ -117,7 +118,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: #000000;
+  background-color: var(--blue);
   color: white;
 }
 
