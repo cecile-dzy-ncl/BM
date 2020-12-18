@@ -2,7 +2,9 @@
   background: #f4f6f6;
 }
 
-#events-index .event-description * {
+#events-index .event-description a,
+#events-index .event-description p,
+#events-index .event-descripttion .infos * {
   text-align: left;
 }
 
