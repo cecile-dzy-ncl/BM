@@ -10,6 +10,7 @@
 
 #events-index .event-description .infos {
   display: flex;
+  margin-top: 10px;
 }
 
 #events-index .event-description .infos .teamcount {
