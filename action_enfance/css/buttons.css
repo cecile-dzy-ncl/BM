@@ -18,6 +18,7 @@ button:hover,
 .button:focus,
 .btn-bm:focus {
   background-color: #388095;
+  border-color: #388095;
 }
 
 .btn-bm-border:hover,
