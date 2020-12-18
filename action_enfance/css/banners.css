@@ -15,8 +15,6 @@
 }
 
 .banner.homepage h1,
-.banner.mission h1,
-.banner.mission p,
 .banner.homepage p {
   text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -37,19 +35,21 @@
   height: 500px;
 }
 
-.banner.mission .banner-text {
+/* .banner.mission .banner-text {
   width: 30%;
   margin-right: 60%;
   margin-left: 7%;
-}
+} */
 
-.banner.creer + .wrapper .container-small-bm {
+.banner.creer + .wrapper .container-small-bm,
+.banner.mission + .wrapper .container-small-bm {
   margin-top: -120px;
   background: white;
   border-radius: 8px;
   padding: 20px 40px;
 }
 
+.banner.mission + .wrapper .container-small-bm h1,
 .banner.creer + .wrapper .container-small-bm h1 {
   margin-bottom: 20px;
 }
@@ -61,10 +61,10 @@
   margin-left: 7%;
 } */
 
-.banner.mission h1,
+/* .banner.mission h1,
 .banner.mission p {
   color: white;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .banner.homepage .banner-text {
