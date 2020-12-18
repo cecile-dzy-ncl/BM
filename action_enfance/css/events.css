@@ -4,5 +4,5 @@
 
 #events-index .event-description p,
 #events-index .event-description a {
-  background: #f4f6f6;
+  text-align: left;
 }
