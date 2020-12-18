@@ -21,3 +21,11 @@ button,
   border-color: var(--blue);
   color: var(--blue);
 }
+
+.page-see {
+  background-color: transparent !important;
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--blue);
+  color: var(--blue);
+}
