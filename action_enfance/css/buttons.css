@@ -8,13 +8,22 @@ button,
   border-radius: 0;
   border-width: 2px;
   border-color: var(--blue) !important;
-}
-
-.btn-bm,
-button,
-.button {
   font-weight: 700;
   font-family: "Barlow Condensed";
+}
+
+.button:hover,
+.btn-bm:hover,
+button:hover,
+.button:focus,
+.btn-bm:focus {
+  background-color: #388095;
+}
+
+.btn-bm-border:hover,
+.btn-bm-border:focus {
+  border-color: #388095;
+  color: #388095;
 }
 
 .btn-primary,
