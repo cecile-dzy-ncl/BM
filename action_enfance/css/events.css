@@ -6,3 +6,11 @@
 #events-index .event-description h3 {
   text-align: left;
 }
+
+#events-index .event-description .infos {
+  display: flex;
+}
+
+#events-index .event-description .infos .teamcount {
+  order: 1;
+}
