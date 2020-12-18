@@ -18,7 +18,7 @@ button:hover,
 .button:focus,
 .btn-bm:focus {
   background-color: #388095;
-  border-color: #388095;
+  border-color: #388095 !important;
 }
 
 .btn-bm-border:hover,
