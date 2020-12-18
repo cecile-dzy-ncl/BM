@@ -25,3 +25,7 @@
 #events-index .event-description .infos .location {
   order: 3;
 }
+
+#events-index .event-item .event-group-btn li {
+  margin: 0;
+}
