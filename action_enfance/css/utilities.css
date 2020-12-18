@@ -36,3 +36,7 @@ form#event-search input {
 .bg-darkblue {
   background-color: var(--dark-blue);
 }
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome !important;
+}
