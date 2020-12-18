@@ -5,7 +5,7 @@ button,
   width: max-content;
   padding: 10px 30px;
   font-size: 20px !important;
-  border-radius: 0;
+  border-radius: 0 !important;
   border-width: 2px;
   border-color: var(--blue) !important;
   font-weight: 700;
