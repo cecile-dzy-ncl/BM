@@ -2,8 +2,7 @@
   background: #f4f6f6;
 }
 
-#events-index .event-description p,
-#events-index .event-description h3 {
+#events-index .event-description * {
   text-align: left;
 }
 
@@ -13,4 +12,12 @@
 
 #events-index .event-description .infos .teamcount {
   order: 1;
+}
+
+#events-index .event-description .infos .daysleft {
+  order: 2;
+}
+
+#events-index .event-description .infos .location {
+  order: 3;
 }
