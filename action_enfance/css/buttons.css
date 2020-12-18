@@ -19,6 +19,7 @@ button:hover,
 .btn-bm:focus {
   background-color: #388095;
   border-color: #388095 !important;
+  transition: all 300ms ease-out;
 }
 
 .btn-bm-border:hover,
