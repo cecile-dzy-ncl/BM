@@ -10,7 +10,7 @@ button,
   border-color: var(--blue) !important;
   font-weight: 700;
   font-family: "Barlow Condensed";
-  transition: all 300ms ease-out;
+  transition: background-color 300ms ease-out, border-color 300ms ease-out;
 }
 
 .button:hover,
