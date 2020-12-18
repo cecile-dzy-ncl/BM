@@ -26,6 +26,6 @@
   order: 3;
 }
 
-#events-index .event-item .event-group-btn li {
+#events-index .event-item ul li {
   margin: 0;
 }
