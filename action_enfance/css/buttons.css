@@ -10,6 +10,7 @@ button,
   border-color: var(--blue) !important;
   font-weight: 700;
   font-family: "Barlow Condensed";
+  transition: all 300ms ease-out;
 }
 
 .button:hover,
@@ -19,7 +20,6 @@ button:hover,
 .btn-bm:focus {
   background-color: #388095;
   border-color: #388095 !important;
-  transition: all 300ms ease-out;
 }
 
 .btn-bm-border:hover,
