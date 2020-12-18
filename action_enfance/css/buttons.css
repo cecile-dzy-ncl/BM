@@ -16,3 +16,8 @@ button,
 .button {
   background: var(--blue);
 }
+
+.btn-bm-border {
+  border-color: var(--blue);
+  color: var(--blue);
+}
