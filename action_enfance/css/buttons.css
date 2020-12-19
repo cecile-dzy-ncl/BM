@@ -46,3 +46,8 @@ button,
   border-color: var(--blue) !important;
   color: var(--blue);
 }
+
+.page-see:hover,
+.page-see:focus {
+  color: var(--blue);
+}
