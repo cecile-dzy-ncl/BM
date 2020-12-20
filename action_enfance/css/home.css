@@ -103,4 +103,8 @@
   .events-ex {
     flex-direction: column;
   }
+
+  .event-ex {
+    width: 100%;
+  }
 }
