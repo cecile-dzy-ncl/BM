@@ -91,6 +91,10 @@
   color: white;
 }
 
+.event-ex a {
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   .section-home-projects .button {
     width: 80%;
