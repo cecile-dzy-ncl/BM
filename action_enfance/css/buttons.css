@@ -71,3 +71,7 @@ button,
   background-color: white;
   color: var(--blue);
 }
+
+.wrapper-help .btn-bm {
+  margin: 30px auto 50px;
+}
