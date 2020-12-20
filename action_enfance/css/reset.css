@@ -5,3 +5,13 @@
   margin: 0px auto 10px;
   text-align: center;
 }
+
+/* bouton depublication ou suppression page de collecte */
+.ChoixPublication {
+  width: auto;
+}
+
+.ChoixPublication > div > a {
+  line-height: initial;
+  width: 100%;
+}
