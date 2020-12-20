@@ -39,6 +39,11 @@ button,
   color: var(--blue);
 }
 
+.bg-primary .btn-bm-border {
+  border-color: white;
+  color: white;
+}
+
 .page-see {
   background-color: transparent !important;
   border-width: 2px;
