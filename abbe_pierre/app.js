@@ -186,6 +186,7 @@ $(document).ready(function () {
     $(".a-propos .wrapper .w-20").addClass("mb-15").removeClass("w-20");
     $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
     $("#events-show .event-stat").removeClass("border-right");
+    $("#indexs-index .compteur .border-right").removeClass("border-right");
     $(".camp-photo").removeClass("w-50");
     // $(".steps").removeClass("pt-150").removeClass("pb-100");
     // $(".a-propos .steps").removeClass("w-50");
