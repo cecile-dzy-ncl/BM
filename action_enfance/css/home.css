@@ -25,6 +25,10 @@
   align-items: center;
 }
 
+.event-ex .link a {
+  color: black;
+}
+
 .event-ex .link p {
   font-weight: bold;
 }
@@ -79,7 +83,7 @@
   background: var(--dark-blue);
 }
 
-.event-ex span {
+.event-ex .link span {
   background: var(--yellow);
   height: 20px;
   width: 20px;
@@ -88,10 +92,6 @@
   align-items: center;
   justify-content: center;
   margin-left: 5px;
-  color: white;
-}
-
-.event-ex a {
   color: white;
 }
 
