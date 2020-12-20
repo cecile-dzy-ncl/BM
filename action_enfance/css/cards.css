@@ -13,3 +13,12 @@
 .card-bm-description > div p {
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 500px) {
+  .card-bm {
+    min-height: auto;
+  }
+  .card-bm-description {
+    padding: 20px !important;
+  }
+}
