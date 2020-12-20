@@ -50,7 +50,7 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   color: white;
 }
 
-header .top-bar-section li.nodropdown:last-child a {
+header .top-bar-section li.nodropdown:first-child a {
   color: var(--blue);
 }
 
