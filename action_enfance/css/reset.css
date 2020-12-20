@@ -11,7 +11,7 @@
   width: auto;
 }
 
-.ChoixPublication > div > a {
+div.ChoixPublication > div > a {
   line-height: initial;
   width: 100%;
 }
