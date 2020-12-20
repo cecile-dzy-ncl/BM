@@ -16,6 +16,12 @@
 
 #events-index .event-description .infos .teamcount {
   order: 1;
+  display: flex;
+  align-items: baseline;
+}
+
+#events-index .event-description .infos .teamcount i {
+  margin-right: 10px;
 }
 
 #events-index .event-description .infos .daysleft {
