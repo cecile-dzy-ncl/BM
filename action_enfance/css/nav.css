@@ -38,7 +38,7 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   background-color: white;
   color: black;
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
 }
 
 .main-header
@@ -47,7 +47,7 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   .dropdown
   li:not(.has-form)
   a:not(.button):first-child {
-  border-bottom: none;
+  border-top: none;
 }
 
 .main-header
