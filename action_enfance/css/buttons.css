@@ -66,3 +66,8 @@ button,
   background: none;
   color: var(--blue);
 }
+
+#projects-show .notifications_intro #end {
+  background-color: white;
+  color: var(--blue);
+}
