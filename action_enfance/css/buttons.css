@@ -56,3 +56,13 @@ button,
 .page-see:focus {
   color: var(--blue);
 }
+
+.section-home-projects a.button {
+  float: none !important;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 70px;
+  background: none;
+  color: var(--blue);
+}
