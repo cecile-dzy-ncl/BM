@@ -46,6 +46,15 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   .top-bar-section
   .dropdown
   li:not(.has-form)
+  a:not(.button):first-child {
+  border-bottom: none;
+}
+
+.main-header
+  #main-nav
+  .top-bar-section
+  .dropdown
+  li:not(.has-form)
   a:not(.button):hover {
   color: white;
 }
