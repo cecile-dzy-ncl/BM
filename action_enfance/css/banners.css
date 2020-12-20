@@ -12,6 +12,7 @@
 .banner.homepage .banner-text {
   width: 42%;
   margin-left: 60%;
+  color: white;
 }
 
 .banner.homepage h1,
@@ -67,14 +68,6 @@
 } */
 
 @media screen and (max-width: 500px) {
-  .banner.homepage .banner-text {
-    width: 90%;
-    margin-left: 0;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 500px) {
   .banner,
   .banner.homepage {
     height: auto;
@@ -84,11 +77,16 @@
   .banner.homepage {
     background-size: cover;
     background-position: left;
-    background-repeat: no-repeat;
-    background-color: white;
+    /* background-repeat: no-repeat;
+    background-color: white; */
   }
 
-  .banner.homepage img {
-    filter: invert(1);
+  .banner.homepage .banner-text {
+    width: 90%;
+    margin-left: 0;
+    margin: 0 auto;
   }
+  /* .banner.homepage img {
+    filter: invert(1);
+  } */
 }
