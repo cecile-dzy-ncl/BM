@@ -4,7 +4,7 @@ $(document).ready(function () {
   $("body").addClass("action-enfance");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
+  // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
   $(".credits").appendTo("section#project_tabs + section .row");
