@@ -40,8 +40,8 @@ button,
 }
 
 .bg-primary .btn-bm-border {
-  border-color: white;
-  color: white;
+  border-color: white !important;
+  color: white !important;
 }
 
 .page-see {
