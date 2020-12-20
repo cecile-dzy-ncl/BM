@@ -99,4 +99,8 @@
   .section-home-projects .button {
     width: 80%;
   }
+
+  .events-ex {
+    flex-direction: column;
+  }
 }
