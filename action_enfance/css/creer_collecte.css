@@ -1,6 +1,7 @@
 .inscription-step {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .inscription-step span {
@@ -14,6 +15,7 @@
   justify-content: center;
   font-size: 40px;
   font-family: "Sensa";
+  margin-right: 30px;
 }
 
 .inscription-step h3,
