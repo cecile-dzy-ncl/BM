@@ -36,7 +36,7 @@ $(document).ready(function () {
       console.log(projectTag);
 
       $.get(
-        `https://cagnottes.fondation-abbe-pierre.fr/api/events/${eventId}?api_id=48dae0f816515defTAHDFBPTZUKLDWVB&api_secret=da68652cbe796d3d79503c3df0619e18`,
+        `https://cagnotte.actionenfance.org/api/events/${eventId}?api_id=acb9c68ff72c7202URIKRBXSQEDTXLPU&api_secret=483f946c2f27fb303740c3e5d517ab78`,
         function (response) {
           console.log(response);
           var eventProjectsNb = response.projects_count;
