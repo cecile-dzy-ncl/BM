@@ -62,6 +62,10 @@
   object-position: center;
 }
 
+#projects-show #banner_section .image_banner {
+  display: none;
+}
+
 /* .banner.creer .banner-text {
   back
   width: 30%;
