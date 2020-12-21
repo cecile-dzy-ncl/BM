@@ -15,10 +15,14 @@
   justify-content: center;
   font-size: 40px;
   font-family: "Sensa";
-  margin-right: 30px;
+  margin-right: 50px;
 }
 
 .inscription-step h3,
 .inscription-step p {
   text-align: left;
+}
+
+.inscription-step a {
+  color: black;
 }
