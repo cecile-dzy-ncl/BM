@@ -15,3 +15,8 @@
   font-size: 40px;
   font-family: "Sensa";
 }
+
+.inscription-step h3,
+.inscription-step p {
+  text-align: left;
+}
