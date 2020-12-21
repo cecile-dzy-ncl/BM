@@ -1,0 +1,17 @@
+.inscription-step {
+  display: flex;
+  align-items: center;
+}
+
+.inscription-step span {
+  background: var(--yellow);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Sensa";
+}
