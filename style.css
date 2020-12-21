@@ -1285,6 +1285,13 @@ label {
     text-align: left !important;
 }
 
+.bx-wrapper img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 @media screen and (max-width: 1040px) {
   .container-bm {
