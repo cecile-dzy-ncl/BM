@@ -146,7 +146,7 @@ section#project_tabs + section .row {
 .project_event_description {
   background: linear-gradient(
       180deg,
-      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 20%,
       rgba(255, 255, 255, 0) 60%
     ),
     url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/event-sportif.jpg");
