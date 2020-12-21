@@ -15,3 +15,9 @@ div.ChoixPublication > div > a {
   line-height: initial;
   width: 100%;
 }
+
+@media (max-width: 1024px) {
+  section.section-projet-details h1#show_title {
+    text-align: left;
+  }
+}
