@@ -67,6 +67,7 @@ header .top-bar-section li.nodropdown:first-child a {
   display: none;
 }
 
+footer .top-bar.expanded .title-area,
 footer .top-bar-section ul li {
   background: black;
 }
