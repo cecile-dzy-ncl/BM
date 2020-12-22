@@ -1565,7 +1565,11 @@ label {
   .block-share-container h4 span:before,
   .block-share-container h4 span:after {
     width: 2rem;
-}
+  }
+
+  .tabs dd.active a {
+    border-right: 0;
+  }
 
 }
 
