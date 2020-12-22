@@ -22,4 +22,13 @@
   #wrapper-transparence p {
     text-align: center;
   }
+
+  #principes .container-bm > .d-flex {
+    flex-direction: column;
+  }
+
+  #principes .container-bm > .d-flex .w-30 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
