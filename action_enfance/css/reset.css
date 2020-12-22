@@ -31,3 +31,9 @@ div.ChoixPublication > div > a {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 40.063em) {
+  .top-bar img {
+    display: initial;
+  }
+}

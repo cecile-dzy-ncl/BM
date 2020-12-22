@@ -80,4 +80,9 @@ footer .top-bar-section ul li {
   #main-nav section.top-bar-section li:not(:last-child).has-dropdown.moved {
     position: static;
   }
+
+  footer section.top-bar-section {
+    flex-direction: column;
+    text-align: center;
+  }
 }
