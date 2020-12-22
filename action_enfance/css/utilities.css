@@ -47,7 +47,7 @@ form#event-search input {
 }
 
 @media screen and (max-width: 500px) {
-  .container-small-bm {
+  /* .container-small-bm {
     width: 90%;
-  }
+  } */
 }
