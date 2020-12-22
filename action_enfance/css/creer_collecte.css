@@ -26,3 +26,14 @@
 .inscription-step a {
   color: black;
 }
+
+@media screen and (max-width: 500px) {
+  .inscription-step {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inscription-step span {
+    margin-right: 0px;
+  }
+}
