@@ -2185,4 +2185,7 @@ dl#step_tab dd {
   ul#events {
     grid-template-columns: 1fr;
   }
+  footer .top-bar img {
+    display: initial;
+  }
 }
