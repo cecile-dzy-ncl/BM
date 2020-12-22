@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  console.log("ready!");
-
   $("body").addClass("action-enfance");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
