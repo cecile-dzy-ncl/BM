@@ -45,3 +45,9 @@ form#event-search input {
 .projects-list .panel .link-to-user .fa {
   font-size: 10px !important;
 }
+
+@media screen and (max-width: 500px) {
+  .container-small-bm {
+    width: 90%;
+  }
+}

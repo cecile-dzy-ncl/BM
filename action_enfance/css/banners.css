@@ -36,12 +36,6 @@
   height: 500px;
 }
 
-/* .banner.mission .banner-text {
-  width: 30%;
-  margin-right: 60%;
-  margin-left: 7%;
-} */
-
 .banner.creer + .wrapper .container-small-bm,
 .banner.mission + .wrapper .container-small-bm {
   margin-top: -120px;
@@ -76,8 +70,6 @@
   .banner.homepage {
     background-size: cover;
     background-position: left;
-    /* background-repeat: no-repeat;
-    background-color: white; */
   }
 
   .banner.homepage .banner-text {
@@ -85,7 +77,9 @@
     margin-left: 0;
     margin: 0 auto;
   }
-  /* .banner.homepage img {
-    filter: invert(1);
-  } */
+
+  .banner.creer + .wrapper .container-small-bm,
+  .banner.mission + .wrapper .container-small-bm {
+    padding: 20px;
+  }
 }
