@@ -24,11 +24,10 @@
 .event-stat {
   width: 50%;
 }
-/* 
-.event-stat img {
-  width: 50px;
-  margin-right: 20px;
-} */
+
+.projects_count {
+  border-right: 1px solid;
+}
 
 .event-stat span {
   font-size: 35px;
@@ -106,5 +105,9 @@ section.event-head {
   .event-stat {
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .projects_count {
+    border-right: 0;
   }
 }
