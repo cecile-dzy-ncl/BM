@@ -136,31 +136,21 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 section#project_tabs + section .row {
   max-width: 100%;
-  background: var(--darkgrey);
-  /* background: url("https://cagnottes.fondation-abbe-pierre.fr/cdn.iraiser.eu/I39oA4rMH9qdybsOpBgq0iwzVt7FMRAsvHp9T9pmvz+9lRcfTzKeuu6wlx2lJCDc/Cecile_Dezy/origin/imagefondpiedpage.jpg"); */
-  background-position: bottom center;
-  background-size: cover;
-  position: relative;
-}
-
-.project_event_description {
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 1) 20%,
       rgba(255, 255, 255, 0) 60%
     ),
     url("https://cagnotte.actionenfance.org/cdn.iraiser.eu/BUmjf8IUA8KMOQMJuilLjjJnA4B2w4x/HxjOtlRHgf+NacUXD1xb3V0o3OeyGIcE/Cecile_Dezy/origin/event-sportif.jpg");
-  width: 100%;
   background-size: cover;
   background-position: bottom;
+  position: relative;
+}
+
+.project_event_description {
+  /* width: 100%; */
   height: 1000px;
   padding-top: 0;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  float: right !important; */
-  /* text-align: right; */
 }
 
 .credits {
