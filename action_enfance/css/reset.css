@@ -33,7 +33,7 @@ div.ChoixPublication > div > a {
 }
 
 @media only screen and (max-width: 40.063em) {
-  .top-bar img {
+  footer .top-bar img {
     display: initial;
   }
 }
