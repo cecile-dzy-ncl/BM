@@ -25,3 +25,9 @@ div.ChoixPublication > div > a {
     height: 100%;
   }
 }
+
+@media (max-width: 1024px) {
+  .gritter-item .button {
+    width: 100%;
+  }
+}
