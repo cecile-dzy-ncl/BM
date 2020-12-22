@@ -67,6 +67,10 @@ header .top-bar-section li.nodropdown:first-child a {
   display: none;
 }
 
+footer .top-bar-section ul li {
+  background: black;
+}
+
 @media screen and (max-width: 500px) {
   #header-header > .row {
     flex-direction: column;
