@@ -1562,6 +1562,11 @@ label {
     transform: translateX(-50%);
   }
 
+  .block-share-container h4 span:before,
+  .block-share-container h4 span:after {
+    width: 2rem;
+}
+
 }
 
 
