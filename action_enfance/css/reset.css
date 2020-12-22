@@ -20,4 +20,8 @@ div.ChoixPublication > div > a {
   section.section-projet-details h1#show_title {
     text-align: left;
   }
+
+  .projects-list .panel .thumbnail img {
+    height: 100%;
+  }
 }
