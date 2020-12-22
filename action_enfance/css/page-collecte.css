@@ -194,4 +194,8 @@ section#project_tabs + section .row {
     width: 100%;
     margin-bottom: 15px;
   }
+
+  .new-gift-button .project_boutons_give {
+    margin-top: 0 !important;
+  }
 }
