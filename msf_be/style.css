@@ -1247,7 +1247,7 @@ ul#events:before {
 }
 
 #events .event-item p {
-  font-size: 15rem;
+  font-size: 15px;
 }
 
 #events .event-item h3 {
