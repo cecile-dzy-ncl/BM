@@ -489,7 +489,7 @@ $(document).ready(function () {
       console.log("separé");
       $.each($("#events .panel .percent"), function (key, value) {
         const percent = value.innerHTML.split("<small>")[0];
-
+        console.log(percent);
         var progressBarEvent = `
           <div class='event-progressbar bg-lightgrey'>
             <div class='event-progress-perc bg-red' style='width: ${percent}%'></div>
