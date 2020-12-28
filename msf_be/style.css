@@ -2192,4 +2192,21 @@ dl#step_tab dd {
   footer .top-bar img {
     display: initial;
   }
+
+  #events .event-item .event-details .event-goup-btn {
+    width: 90%;
+  }
+
+  #events .button-group.radius > * {
+    margin: 0;
+  }
+
+  #events
+    .section-events
+    .event-item
+    .event-details
+    .event-goup-btn
+    .page-create {
+    margin-bottom: 0px;
+  }
 }
