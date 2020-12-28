@@ -246,6 +246,7 @@ $(document).ready(function () {
             );
           }
 
+          console.log(response.expected_amount);
           if (response.expected_amount != null) {
             var eventProgress = Math.round(
               (eventAmountCollected / eventAmountExpected) * 100
