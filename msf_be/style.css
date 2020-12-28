@@ -1259,6 +1259,10 @@ ul#events:before {
   flex-direction: column;
 }
 
+#events .event-item .infos-money > * {
+  margin-bottom: 1rem;
+}
+
 #events .event-item .event-progressbar {
   margin-bottom: 30px;
 }
