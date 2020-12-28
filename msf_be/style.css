@@ -1170,7 +1170,7 @@ ul#events:before {
   top: 0;
   transform: translate(-50%, -50%);
   left: 50%;
-  width: fit-content;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
