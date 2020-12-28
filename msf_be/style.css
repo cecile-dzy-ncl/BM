@@ -2238,7 +2238,7 @@ dl#step_tab dd {
     margin-bottom: 0px;
   }
 
-  .event-item .event-details .wrap {
+  #events .event-item .event-details .wrap {
     height: 21rem;
     padding: 30px !important;
   }
