@@ -1264,7 +1264,7 @@ ul#events:before {
 }
 
 #events .event-item .infos-money > * {
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 #events .event-item .event-description p {
