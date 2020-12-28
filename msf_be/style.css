@@ -1218,7 +1218,7 @@ ul#events:before {
 }
 
 #events .event-item .event-description {
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 
 #events .event-item .event-details .medium-7 {
