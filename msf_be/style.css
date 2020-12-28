@@ -1228,8 +1228,8 @@ ul#events:before {
 #events .event-item h3 a {
   color: var(--darkgrey);
   text-transform: uppercase;
-  font-family: "DINPro_bold";
-  font-size: 18px;
+  font-family: "DINPro_black";
+  font-size: 20px;
 }
 
 #events .event-item .amount {
@@ -1250,10 +1250,9 @@ ul#events:before {
   font-size: 15px;
 }
 
-#events .event-item h3 {
+/* #events .event-item h3 {
   font-size: 18px;
-  font-family: "DINPro_black";
-}
+} */
 
 #events .event-item .wrap .row .infos-money {
   display: flex;
