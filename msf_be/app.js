@@ -194,8 +194,6 @@ $(document).ready(function () {
 
           var eventAmountCollected =
             Number.parseInt(response.amount_collected, 10) / 100;
-          var eventAmountExpected =
-            Number.parseInt(response.expected_amount, 10) / 100;
 
           $(".event-recap_share").before($("#widget-new-project"));
           $("#widget-new-project a").addClass(
@@ -238,16 +236,18 @@ $(document).ready(function () {
 
             $(".event-recap .recolte").after(
               `
-                    <div class='days border-left'>
-                    <h5 class='text-center'>${remainingDays}j</h5>
-                    <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
-                    </div>
-                    `
+              <div class='days border-left'>
+              <h5 class='text-center'>${remainingDays}j</h5>
+              <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
+              </div>
+              `
             );
           }
 
           console.log(response.expected_amount);
           if (response.expected_amount != null) {
+            var eventAmountExpected =
+              Number.parseInt(response.expected_amount, 10) / 100;
             var eventProgress = Math.round(
               (eventAmountCollected / eventAmountExpected) * 100
             );
@@ -267,7 +267,7 @@ $(document).ready(function () {
                 currency: "EUR",
               }
             ).format(eventAmountExpected)}</p>
-            </div>`;
+                                    </div>`;
             $(".event-recap_progress").html(eventProgressBar);
           }
 
