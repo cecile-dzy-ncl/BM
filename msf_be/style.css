@@ -1249,20 +1249,20 @@ ul#events:before {
 
 #events .event-item .wrap .row .infos-money {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
 #events .event-item .event-progressbar {
   margin-bottom: 30px;
 }
 
-#events .event-item .infos-money > div,
+/* #events .event-item .infos-money > div,
 #events .event-item .infos-money > p {
   flex: 1 1 auto;
   margin-bottom: 0;
   max-width: 50%;
   width: auto !important;
-}
+} */
 
 /* #events-index #events_pager {
   display: none;
