@@ -1174,6 +1174,7 @@ ul#events:before {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
 
 #events .event-item .panel .event-image .wrap {
