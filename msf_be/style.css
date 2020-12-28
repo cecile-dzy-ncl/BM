@@ -1199,9 +1199,9 @@ ul#events:before {
   display: none;
 }
 
-#events .event-item .wrap {
+/* #events .event-item .wrap {
   height: 20rem;
-}
+} */
 
 #events .event-item .wrap .row {
   display: flex;
