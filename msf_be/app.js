@@ -296,7 +296,10 @@ $(document).ready(function () {
           currency: "EUR",
         }).format(eventAmountCollected);
 
-        if (event.expected_amount) {
+        if (response.expected_amount != null) {
+          console.log("ugh");
+          var eventAmountExpected =
+            Number.parseInt(response.expected_amount, 10) / 100;
           var eventProgress =
             (eventAmountCollected / eventAmountExpected) * 100;
           var progressBar = `
