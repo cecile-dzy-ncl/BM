@@ -1242,6 +1242,10 @@ ul#events:before {
   font-size: 18px;
 }
 
+#events .event-item .page-create {
+  margin-bottom: 0;
+}
+
 #events .event-item h3 {
   font-size: 18px;
   font-family: "DINPro_black";
