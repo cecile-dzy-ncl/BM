@@ -21,6 +21,10 @@ section.section-my-event .projects-list .panel h3 a:focus,
   line-height: normal;
 }
 
+.panel .caption {
+  padding: 10px 0;
+}
+
 .projects-list .panel h3 a,
 .projects-list .panel h3 a:focus,
 .projects-list .panel h3 a:hover {
