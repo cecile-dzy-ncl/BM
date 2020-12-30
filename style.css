@@ -1526,7 +1526,7 @@ label {
   #projects-show .notifications_intro {
     margin: auto !important;
     width: 80%;
-    left: 0;
+    transform: translateX(-50%);
   }
 
   .gritter-without-image p {
