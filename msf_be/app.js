@@ -624,80 +624,85 @@ $(document).ready(function () {
     }
 
     $("li.event-item").each(function () {
-      //projet
-      var teamcount = $(this).find(".infos-money .teamcount").html();
-      var testTeamCount = $.trim(teamcount);
-      if (testTeamCount == "") {
-        var projectLine = "";
-      } else {
-        teamcount = teamcount.split("</i>");
-        teamcount = teamcount[1].split("\n");
-        var nbr_projet = $.trim(teamcount[1]);
-        var text_projet = $.trim(teamcount[2]);
-        var projectLine =
-          "<div><h5 class='text-center'>" +
-          nbr_projet +
-          "</h5><p class='text-center'><small>" +
-          texte["collectes"] +
-          "</small></p></div><div class='line'></div>";
-      }
-
-      // récolte
-      var amount = $(this).find(".infos-money .amount .big").html();
-      // objectif
-      var objectif = $(this).find(".infos-money .projets").html();
-      objectif = objectif.split("€");
-      var amount_objectif = $.trim(objectif[0]);
-      if (amount_objectif == "") {
-        var amount_objectif = "";
-        $(this).addClass("no-amount");
-      } else {
-        if (lang_choosed == "nl") {
-          amount_objectif = objectif[1].split(texte["to_split_objectif"]);
-          amount_objectif = $.trim(amount_objectif[0]);
-          amount_objectif =
-            "<div class='line'></div><div class=''><h5 class='text-center'>" +
-            amount_objectif +
-            " €</h5><p class='text-center'><small>" +
-            texte["objectif"] +
-            "</small></p></div></div>";
-        } else {
-          amount_objectif = amount_objectif.split(texte["to_split_objectif"]);
-          amount_objectif = $.trim(amount_objectif[1]);
-          amount_objectif =
-            "<div class='line'></div><div class=''><h5 class='text-center'>" +
-            amount_objectif +
-            " €</h5><p class='text-center'><small>" +
-            texte["objectif"] +
-            "</small></p></div></div>";
+      var events = $('ul#events');
+    if(events.length){
+        var lang_choosed = $('html').attr('lang');
+        if(lang_choosed == "nl"){
+            var texte = { 
+                        collectes : 'inzamelacties',
+                        recolte : 'ingezameld',
+                        objectif : 'verwachte',
+                        to_split_objectif : 'ingezameld' };
+        } else if(lang_choosed == "fr") {
+            var texte = { 
+                        collectes : 'collectes',
+                        recolte : 'récoltés',
+                        objectif : 'attendus',
+                        to_split_objectif : 'Objectif' };
+        }else{
+            var texte = { 
+                        collectes : 'projects',
+                        recolte : 'collected',
+                        objectif : 'expected',
+                        to_split_objectif : 'Goal' };
         }
-      }
+    
+        $( "li.event-item" ).each(function() {
+            //projet
+            var teamcount = $(this).find('.teamcount').html();
+            var testTeamCount = $.trim(teamcount);
+            if( testTeamCount == "" ){ 
+                var projectLine = "";
+            }else{
+                teamcount = teamcount.split("</i>");
+                teamcount = teamcount[1].split("\n");
+                var nbr_projet = $.trim(teamcount[1]);
+                var text_projet = $.trim(teamcount[2]);
+                var projectLine = "<div><h5 class='text-center'>" + nbr_projet + "</h5><p class='text-center'><small>" + texte['collectes'] + "</small></p></div><div class='line'></div>";
+            }
 
-      /*day
-          var daysleft = $(this).find('.infos-money .daysleft').html();
-          if( $(this).find('.infos-money .daysleft span').length ){ 		
-              daysleft = daysleft.split("<span>");
-             daysleft = daysleft[1].split("</span>");
-              daysleft = $.trim(daysleft[0]);
-           }else{
-              daysleft = "pasDInfo";
-          }*/
-
-      //build the line
-      var line = "<div class='event-numbers d-flex mt-20'>" + projectLine;
-      line =
-        line +
-        "<div class=''><h5 class='text-center amount-collected-title'>" +
-        amount;
-      line =
-        line +
-        "</h5><p class='text-center'><small>" +
-        texte["recolte"] +
-        "</small></p></div>";
-      line = line + amount_objectif;
-      $(this).find(".infos-money").css("display", "none");
-      $(this).find(".infos-money").after(line);
-    });
-  } else {
-  }
+            // récolte
+            var amount = $(this).find('.infos-money .amount .big').html();
+            // objectif
+            var objectif = $(this).find('.infos-money .projets').html();
+            objectif = objectif.split("€");
+            var amount_objectif = $.trim(objectif[0]);
+            if( amount_objectif == "" ){ 		
+                var amount_objectif = "";
+                $(this).addClass('no-amount');
+             }else{
+                if(lang_choosed == "nl"){
+                    amount_objectif = objectif[1].split(texte['to_split_objectif']);
+                    amount_objectif = $.trim(amount_objectif[0]);
+                    amount_objectif = "<div class='line'></div><div class=''><h5 class='text-center'>" + amount_objectif + " €</h5><p class='text-center'><small>" + texte['objectif'] + "</small></p></div></div>";
+                }else{
+                    amount_objectif = amount_objectif.split(texte['to_split_objectif']);
+                    amount_objectif = $.trim(amount_objectif[1]);
+                    amount_objectif = "<div class='line'></div><div class=''><h5 class='text-center'>" + amount_objectif + " €</h5><p class='text-center'><small>" + texte['objectif'] + "</small></p></div></div>";
+                }
+           
+            }
+    
+            /*day
+            var daysleft = $(this).find('.infos-money .daysleft').html();
+            if( $(this).find('.infos-money .daysleft span').length ){ 		
+                daysleft = daysleft.split("<span>");
+               daysleft = daysleft[1].split("</span>");
+                daysleft = $.trim(daysleft[0]);
+             }else{
+                daysleft = "pasDInfo";
+            }*/
+    
+            //build the line 
+            var line = "<div class='event-numbers d-flex mt-20'>" + projectLine;
+            line = line + "<div class=''><h5 class='text-center amount-collected-title'>" + amount;
+            line = line + "</h5><p class='text-center'><small>" + texte['recolte'] + "</small></p></div>";
+            line = line + amount_objectif;
+            $(this).find('.infos-money').css("display", "none");
+            $(this).find('.infos-money').after( line )
+        });
+    }
+    else{
+    
+    }
 });
