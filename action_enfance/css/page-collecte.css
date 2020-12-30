@@ -206,4 +206,11 @@ section.section-projet-details .project-detail-data .contributeurs i {
   .project_event_description .border-top {
     width: 80%;
   }
+
+  #projects-show .current-amount,
+  #projects-show .objectif-amount,
+  #projects-show #show_days,
+  #projects-show .contributeurs p {
+    text-align: center !important;
+  }
 }
