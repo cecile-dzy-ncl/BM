@@ -23,10 +23,6 @@ $(document).ready(function () {
         .classList.value.match(/event_\d/g)[0]
         .split("_")[1];
 
-      $("#events-show .habillage .intro-my-event").prepend(
-        `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
-      );
-
       // var amountTag = `<tag event_id='${eventId}'>$collected_amount</tag>`;
       // var projectTag = `<tag event_id='${eventId}'>$project_count</tag>`;
 
@@ -38,6 +34,15 @@ $(document).ready(function () {
         function (response) {
           console.log(response);
           var eventProjectsNb = response.projects_count;
+          if (eventProjectsNb < 2) {
+            $("#events-show .habillage .intro-my-event").prepend(
+              `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>page de collecte créée</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
+            );
+          } else {
+            $("#events-show .habillage .intro-my-event").prepend(
+              `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="blue"></span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
+            );
+          }
           var eventAmountCollected =
             Number.parseInt(response.amount_collected, 10) / 100;
           var eventAmountExpected =
