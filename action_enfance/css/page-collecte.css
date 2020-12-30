@@ -165,6 +165,10 @@ section#project_tabs + section .row {
   padding-top: 50px;
 }
 
+#projects-show .contributeurs p {
+  text-align: center !important;
+}
+
 section.section-projet-details .project-detail-data .contributeurs i {
   font-size: 2.9rem !important;
   margin: 0 1.25rem 2px 0;
