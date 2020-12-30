@@ -95,6 +95,10 @@
   color: white;
 }
 
+a.logo img {
+  height: 90px;
+}
+
 @media screen and (max-width: 500px) {
   .section-home-projects .button {
     width: 80%;
