@@ -502,7 +502,7 @@ $(document).ready(function () {
         $(this)
           .closest(".panel .wrap")
           .find(".event-description")
-          .after(progressBarEvent);
+          .append(progressBarEvent);
       });
 
       // $.each($("#events .panel"), function (key, value) {
@@ -695,7 +695,7 @@ $(document).ready(function () {
         texte["recolte"] +
         "</small></p></div>";
       line = line + amount_objectif;
-      $(this).find(".infos-money").replaceWith(line);
+      $(this).find(".infos-money").append(line);
     });
   } else {
   }
