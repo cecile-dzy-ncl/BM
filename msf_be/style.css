@@ -1268,13 +1268,6 @@ ul#events:before {
   margin-bottom: 0.2rem;
 }
 
-#events .event-item .event-description p {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
 #events .event-item .event-progressbar {
   margin-bottom: 30px;
 }
