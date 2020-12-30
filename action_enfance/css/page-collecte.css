@@ -176,6 +176,7 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 .project_event_description .border-top {
   width: 50%;
+  border-color: #bcbcbc !important;
 }
 
 @media screen and (max-width: 500px) {
