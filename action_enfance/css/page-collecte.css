@@ -199,9 +199,9 @@ section.section-projet-details .project-detail-data .contributeurs i {
     margin-bottom: 15px;
   }
 
-  .new-gift-button .project_boutons_give {
+  /* .new-gift-button .project_boutons_give {
     margin-top: 0 !important;
-  }
+  } */
 
   .project_event_description .border-top {
     width: 80%;
