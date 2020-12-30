@@ -64,6 +64,10 @@ h1#show_title {
   text-align: left;
 }
 
+.first-section h1 {
+  margin-bottom: 40px;
+}
+
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 30px;
