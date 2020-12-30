@@ -695,7 +695,8 @@ $(document).ready(function () {
         texte["recolte"] +
         "</small></p></div>";
       line = line + amount_objectif;
-      $(this).find(".infos-money").append(line);
+      $(this).find(".infos-money").css("display", "none");
+      $(this).find(".infos-money").after(line);
     });
   } else {
   }
