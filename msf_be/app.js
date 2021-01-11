@@ -27,13 +27,12 @@ $(document).ready(function () {
       var remainingDaysLegend = "resterende";
       var btnSoutenir = "<strong>Steun een</strong>inzamelactie";
       var btnCreer = "<strong>Creëer een</strong>inzamelactie";
-      var btnCreerCard = "Een crowdfunding creëren";
+      var btnCreerCard = "Een inzamelactie creëren";
       var btnSee = "Bekijk alle projecten";
       var projectIntro =
         "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
       var eventIntro =
         "Uw fondsenwervingspagina aanmaken neemt maar een paar minuten in beslag. Kies een naam, een foto, uw crowdfundingdoel en u kan meteen beginnen geld inzamelen voor de mensen die onze hulp het hardst nodig hebben.";
-
       var legendCollectes = "inzamelacties";
       var legendRecoltes = "ingezameld";
       var legendObjectif = "Doel";
@@ -53,7 +52,6 @@ $(document).ready(function () {
         "Vous souhaitez soutenir la collecte d'un membre de votre famille, un proche, un.e collègue ou une entreprise ? Nous vous remercions d'ores et déjà pour ce geste ! Vous retrouverez toutes les pages de collectes ci-dessous.";
       var eventIntro =
         "La configuration de votre page de collecte de fonds ne prend que cinq minutes. Décidez quoi faire et choisissez dans quelle campagne mondiale vous souhaitez vous impliquer. Choisissez un nom, une photo et juste comme ça, vous serez prêts à commencer à collecter des fonds pour aider les personnes qui en ont le plus besoin.";
-
       var legendCollectes = "collectes";
       var legendRecoltes = "récoltés";
       var legendObjectif = "Objectif";
@@ -268,15 +266,11 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#indexs-index") || $("body").is("#events-index")) {
-      /* const injectCard = (eventCard, cardContainer) => { */
       const injectCard = function (eventCard, cardContainer) {
-        // console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
 
-      /* const buildCard = (event, eventContainer) => {*/
       const buildCard = function (event, eventContainer) {
-        // console.log(event);
         var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
@@ -313,7 +307,6 @@ $(document).ready(function () {
           var amountExpectedBlock = "";
           var progressBar = "";
         }
-        // var today = new Date();
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
           var remainingDays = Math.ceil(
@@ -328,7 +321,6 @@ $(document).ready(function () {
         } else {
           var remainingDays = "";
         }
-        // var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
         switch (lang) {
           case "en":
@@ -384,12 +376,11 @@ $(document).ready(function () {
         injectCard(card, eventContainer);
       };
 
-      /*const fetchData = (event, eventContainer) => {*/
       const fetchData = function (event, eventContainer) {
         var UrlToGetInfo =
           "https://events.msf-azg.be/api/events/" +
           event +
-          "api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
+          "?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
         $.get(UrlToGetInfo, function (response) {
           buildCard(response, eventContainer);
         });
@@ -497,62 +488,6 @@ $(document).ready(function () {
           .find(".event-description")
           .append(progressBarEvent);
       });
-
-      // $.each($("#events .panel"), function (key, value) {
-      //   const infosDays = $(this).find(".infos .daysleft");
-      //   // const infosDays = $(this).find(".infos .daysleft");
-      //   // console.log(infosDays);
-      //   // let infosTeamCount = $(this)
-      //   //   .find(".infos .teamcount")
-      //   //   .html()
-      //   //   .split(">")[2]
-      //   //   .trim()
-      //   //   .split(" ")[0];
-      //   const infosTeamCount = $(this).find(".infos .teamcount");
-      //   console.log(infosTeamCount);
-      //   // const infosAmount = $(this).find(".amount span").html();
-      //   // let infosAmountExp = $(this).find(".projets").html().trim(" ");
-
-      //   // if (infosAmountExp.lenght > 0) {
-      //   //   let infosAmountExp = "";
-      //   // }
-      //   // if (infosDays == undefined) {
-      //   //   let infosDays = "";
-      //   // }
-      //   // const  = $(this).find(".projets").innerHTML().split(" ");
-
-      //   // const cardNum = `
-      //   //   <div class='event-numbers d-flex mt-20'>
-      //   //   <div class=''>
-      //   //   <h5 class='text-center'>${infosTeamCount}</h5>
-      //   //   <p class='text-center'><small>${legendCollectes}</small></p>
-      //   //   </div>
-      //   //   <div class='line'></div>
-      //   //   <div class=''>
-      //   //   <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
-      //   //   <p class='text-center'><small>${legendRecoltes}</small></p>
-      //   //   </div>
-      //   //   ${infosAmountExp}
-
-      //   //   </div>
-      //   //   </div>
-      //   //   `;
-      //   // console.log(cardNum);
-      //   // console.log(infosTeamCount);
-      //   // console.log(infosAmount);
-      //   // console.log(infosAmountExp);
-      //   // console.log(infosDays);
-      //   $(this).find(".infos-money").prepend(infosTeamCount);
-      //   $(this).find(".infos-money").append(infosDays);
-      //   // $(this).find(".infos-money").append(infosDays);
-
-      //   // setTimeout(function () {
-      //   //   $(this).find("medium-4 .infos-money").append(cardNum);
-      //   //   // $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
-      //   // }, 1000);
-
-      //   // $(this).find("medium-4 .infos-money").append(cardNum);
-      // });
     }
   });
 
@@ -672,15 +607,15 @@ $(document).ready(function () {
       }
 
       /*day
-          var daysleft = $(this).find('.infos-money .daysleft').html();
-          if( $(this).find('.infos-money .daysleft span').length ){ 		
-              daysleft = daysleft.split("<span>");
-             daysleft = daysleft[1].split("</span>");
-              daysleft = $.trim(daysleft[0]);
-           }else{
-              daysleft = "pasDInfo";
-          }
-      */
+            var daysleft = $(this).find('.infos-money .daysleft').html();
+            if( $(this).find('.infos-money .daysleft span').length ){ 		
+                daysleft = daysleft.split("<span>");
+               daysleft = daysleft[1].split("</span>");
+                daysleft = $.trim(daysleft[0]);
+             }else{
+                daysleft = "pasDInfo";
+            }
+        */
 
       //build the line
       var line = "<div class='event-numbers d-flex mt-20'>" + projectLine;
