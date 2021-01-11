@@ -268,12 +268,14 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#indexs-index") || $("body").is("#events-index")) {
-      const injectCard = (eventCard, cardContainer) => {
+      /* const injectCard = (eventCard, cardContainer) => { */
+      const injectCard = function (eventCard, cardContainer) {
         // console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
 
-      const buildCard = (event, eventContainer) => {
+      /* const buildCard = (event, eventContainer) => {*/
+      const buildCard = function (event, eventContainer) {
         // console.log(event);
         var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
@@ -382,11 +384,12 @@ $(document).ready(function () {
         injectCard(card, eventContainer);
       };
 
-      const fetchData = (event, eventContainer) => {
+      /*const fetchData = (event, eventContainer) => {*/
+      const fetchData = function (event, eventContainer) {
         var UrlToGetInfo =
           "https://events.msf-azg.be/api/events/" +
           event +
-          "?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
+          "api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
         $.get(UrlToGetInfo, function (response) {
           buildCard(response, eventContainer);
         });
