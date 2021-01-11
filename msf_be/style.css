@@ -1,13 +1,3 @@
-/* ------------------- A ENLEVER EN PROD ------------------- */
-
-/* .maintenance {
-  margin-top: 115px;
-} */
-
-section#banner_section {
-  margin-top: 115px;
-}
-
 /* ------------------- FONTS ------------------- */
 
 @font-face {
@@ -168,6 +158,10 @@ small {
 
 .border-right {
   border-color: var(--mediumgrey);
+}
+
+section#banner_section {
+  margin-top: 115px;
 }
 /* CONTAINER */
 

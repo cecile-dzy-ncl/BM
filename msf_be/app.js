@@ -25,12 +25,12 @@ $(document).ready(function () {
       break;
     case "nl":
       var remainingDaysLegend = "resterende";
-      var btnSoutenir = "Een crowdfunding <strong>steunen</strong>";
-      var btnCreer = "Een crowdfunding <strong>creëren</strong>";
+      var btnSoutenir = "<strong>Steun een</strong>inzamelactie";
+      var btnCreer = "<strong>Creëer een</strong>inzamelactie";
       var btnCreerCard = "Een crowdfunding creëren";
       var btnSee = "Bekijk alle projecten";
       var projectIntro =
-        "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
+        "Wilt u een inzamelactie van een familielid, een dierbare, een collega of een bedrijf steunen? Alvast heel hartelijk bedankt voor dit gebaar! Hieronder vindt u alle fondsenwervingspagina's.";
       var eventIntro =
         "Uw fondsenwervingspagina aanmaken neemt maar een paar minuten in beslag. Kies een naam, een foto, uw crowdfundingdoel en u kan meteen beginnen geld inzamelen voor de mensen die onze hulp het hardst nodig hebben.";
 
@@ -71,14 +71,14 @@ $(document).ready(function () {
   // $("#banner_section").before(bannerMaintenance);
 
   // AJOUT HELP WRAPPER
-  var helpWrapper = `
-  <div class='container-small-bm my-80'>
-  <div class='wrapper-help d-flex flex-column'>
-  <h1 class='grey text-center mb-15'>${helpTitle}</h1>
-  <p class='grey text-center'>${helpContent}</p>
-  <a class='btn btn-bm bg-red white my-20' href="https://events.msf-azg.be/pages/107">${helpBtn}</a>
-  </div>
-  </div>`;
+  var helpWrapper =
+    "<div class='container-small-bm my-80'><div class='wrapper-help d-flex flex-column'><h1 class='grey text-center mb-15'>" +
+    helpTitle +
+    "</h1><p class='grey text-center'>" +
+    helpContent +
+    "</p><a class='btn btn-bm bg-red white my-20' href='https://events.msf-azg.be/pages/107'>" +
+    helpBtn +
+    "</a></div></div>";
   $("#events-index .section-events").after(helpWrapper);
 
   $("#events-widget .event-image").append($("#events-widget .chart-wrap"));
@@ -97,13 +97,13 @@ $(document).ready(function () {
     );
 
     $("#first-header > div").html(navButtons);
-
-    $("#header-header > .row > .columns:last-child").after(
-      `<div class="btn-actions">
-              <a class="bg-grey" href="https://events.msf-azg.be/projects">${btnSoutenir}</a>
-              <a class="bg-red" href="https://events.msf-azg.be/events">${btnCreer}</a>
-              </div>`
-    );
+    var btnMenuToAppend =
+      "<div class='btn-actions'><a class='bg-grey' href='https://events.msf-azg.be/projects'>" +
+      btnSoutenir +
+      "</a><a class='bg-red' href='https://events.msf-azg.be/events'>" +
+      btnCreer +
+      "</a></div>";
+    $("#header-header > .row > .columns:last-child").after(btnMenuToAppend);
 
     $("#header-header > .row > .columns").removeClass(
       "small-12 medium-12 large-4 large-8 columns"
@@ -123,39 +123,26 @@ $(document).ready(function () {
     .addClass("medium-12");
 
   if ($("#projects-index")) {
-    $("#projects-index .first-section h2").after(
-      `<p class='text-center'>${projectIntro}</p>`
-    );
+    var projectsIndexToAppend =
+      "<p class='text-center'>" + projectIntro + "</p>";
+    $("#projects-index .first-section h2").after(projectsIndexToAppend);
   }
 
   if ($("#events-index")) {
-    $("#events-index .first-section h2").after(
-      `<p class='text-center'>${eventIntro}</p>`
-    );
+    var eventIndexToAppend = "<p class='text-center'>" + eventIntro + "</p>";
+    $("#events-index .first-section h2").after(eventIndexToAppend);
   }
 
   $(function () {
     if ($("body").is("#events-show")) {
       // ajout du bloc stats en début de page
-
-      $("section.event-head > .row > div:last-child").prepend(
-        `
-        <div class='event-recap'>
-        <div class='event-recap_numbers'>
-        <div class='collecte border-right'>
-        <h5 class='text-center'></h5>
-        <p class='text-center uppercase'><small>${legendCollectes}</small></p>
-        </div>
-        <div class='recolte'>
-        <h5 class='text-center'></h5>
-        <p class='text-center uppercase'><small>${legendRecoltes}</small></p>
-        </div>
-        </div>
-        <div class='event-recap_progress'></div>
-        <div class='event-recap_share'></div>
-        </div>
-        `
-      );
+      var blockStats =
+        "<div class='event-recap'><div class='event-recap_numbers'><div class='collecte border-right'><h5 class='text-center'></h5><p class='text-center uppercase'><small>" +
+        legendCollectes +
+        "</small></p></div><div class='recolte'><h5 class='text-center'></h5><p class='text-center uppercase'><small>" +
+        legendRecoltes +
+        "</small></p></div></div><div class='event-recap_progress'></div><div class='event-recap_share'></div></div>";
+      $("section.event-head > .row > div:last-child").prepend(blockStats);
 
       if ($(".event-inscription")) {
         $(".event-recap_progress").after($(".event-inscription"));
@@ -171,111 +158,111 @@ $(document).ready(function () {
       if (eventId === "88") {
         console.log("urgence");
       }
-      $.get(
-        `https://events.msf-azg.be/api/events/${eventId}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-        function (response) {
-          console.log(response);
-
-          switch (lang) {
-            case "en":
-              var eventTitle = response.title.en;
-              break;
-            case "nl":
-              var eventTitle = response.title.nl;
-              break;
-            default:
-              var eventTitle = response.title.fr;
-              break;
-          }
-          $(".intro-my-event").before(`<h2>${eventTitle}</h2>`);
-
-          var eventProjectsNb = response.projects_count;
-          $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
-
-          var eventAmountCollected =
-            Number.parseInt(response.amount_collected, 10) / 100;
-
-          $(".event-recap_share").before($("#widget-new-project"));
-          $("#widget-new-project a").addClass(
-            "btn-bm bg-red white uppercase w-100"
-          );
-
-          var today = new Date();
-
-          if (response.end != null) {
-            var eventEndDate = new Date(response.end);
-            if (eventEndDate < today) {
-              var remainingDays = 0;
-              switch (lang) {
-                case "en":
-                  var remainingDaysLegend = "closed";
-                  break;
-                case "nl":
-                  var remainingDaysLegend = "afgewerkt";
-                  break;
-                default:
-                  var remainingDaysLegend = "terminé";
-                  break;
-              }
-            } else {
-              var remainingDays = Math.ceil(
-                (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-              );
-              switch (lang) {
-                case "en":
-                  var remainingDaysLegend = "remaining";
-                  break;
-                case "nl":
-                  var remainingDaysLegend = "resterende";
-                  break;
-                default:
-                  var remainingDaysLegend = "restants";
-                  break;
-              }
-            }
-
-            $(".event-recap .recolte").after(
-              `
-              <div class='days border-left'>
-              <h5 class='text-center'>${remainingDays}j</h5>
-              <p class='text-center uppercase'><small>${remainingDaysLegend}</small></p>
-              </div>
-              `
-            );
-          }
-
-          console.log(response.expected_amount);
-          if (response.expected_amount != null) {
-            var eventAmountExpected =
-              Number.parseInt(response.expected_amount, 10) / 100;
-            var eventProgress = Math.round(
-              (eventAmountCollected / eventAmountExpected) * 100
-            );
-            console.log("eventProgress", eventProgress);
-            var eventProgressBar = `
-              <div class="event-progressbar bg-lightgrey">
-              <div class="event-progress-perc bg-red" style="width: ${eventProgress}%"></div>
-              </div>
-              <div class="d-flex justify-between">
-              <p class="uppercase">${eventProgress}% ${legendRecoltes}</p>
-              <p class="uppercase mediumgrey">${legendObjectif}: ${new Intl.NumberFormat(
-              "fr-FR",
-              {
-                maximumFractionDigits: 0,
-                minimumFractionDigits: 0,
-                style: "currency",
-                currency: "EUR",
-              }
-            ).format(eventAmountExpected)}</p>
-                                    </div>`;
-            $(".event-recap_progress").html(eventProgressBar);
-          }
-
-          if ($(".event-details .btn-donate")) {
-            $("#widget-new-project").after($(".btn-donate"));
-          }
+      var linkToGetInfo =
+        "https://events.msf-azg.be/api/events/" +
+        eventId +
+        "?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
+      $.get(linkToGetInfo, function (response) {
+        console.log(response);
+        switch (lang) {
+          case "en":
+            var eventTitle = response.title.en;
+            break;
+          case "nl":
+            var eventTitle = response.title.nl;
+            break;
+          default:
+            var eventTitle = response.title.fr;
+            break;
         }
-      );
+        var titleToAdd = "<h2>" + eventTitle + "</h2>";
+        $(".intro-my-event").before(titleToAdd);
+
+        var eventProjectsNb = response.projects_count;
+        $(".event-recap_numbers .collecte h5").html(eventProjectsNb);
+
+        var eventAmountCollected =
+          Number.parseInt(response.amount_collected, 10) / 100;
+
+        $(".event-recap_share").before($("#widget-new-project"));
+        $("#widget-new-project a").addClass(
+          "btn-bm bg-red white uppercase w-100"
+        );
+
+        var today = new Date();
+
+        if (response.end != null) {
+          var eventEndDate = new Date(response.end);
+          if (eventEndDate < today) {
+            var remainingDays = 0;
+            switch (lang) {
+              case "en":
+                var remainingDaysLegend = "closed";
+                break;
+              case "nl":
+                var remainingDaysLegend = "afgewerkt";
+                break;
+              default:
+                var remainingDaysLegend = "terminé";
+                break;
+            }
+          } else {
+            var remainingDays = Math.ceil(
+              (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+            );
+            switch (lang) {
+              case "en":
+                var remainingDaysLegend = "remaining";
+                break;
+              case "nl":
+                var remainingDaysLegend = "resterende";
+                break;
+              default:
+                var remainingDaysLegend = "restants";
+                break;
+            }
+          }
+          var recolteToAppend =
+            "<div class='days border-left'><h5 class='text-center'>" +
+            remainingDays +
+            "j</h5><p class='text-center uppercase'><small>" +
+            remainingDaysLegend +
+            "</small></p></div>";
+          $(".event-recap .recolte").after(recolteToAppend);
+        }
+
+        console.log(response.expected_amount);
+        if (response.expected_amount != null) {
+          var eventAmountExpected =
+            Number.parseInt(response.expected_amount, 10) / 100;
+          var eventProgress = Math.round(
+            (eventAmountCollected / eventAmountExpected) * 100
+          );
+          console.log("eventProgress", eventProgress);
+          var eventProgressBar =
+            "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width: " +
+            eventProgress +
+            "%'></div></div><div class='d-flex justify-between'><p class='uppercase'>" +
+            eventProgress +
+            "% " +
+            legendRecoltes +
+            "</p><p class='uppercase mediumgrey'>" +
+            legendObjectif +
+            ": " +
+            new Intl.NumberFormat("fr-FR", {
+              maximumFractionDigits: 0,
+              minimumFractionDigits: 0,
+              style: "currency",
+              currency: "EUR",
+            }).format(eventAmountExpected) +
+            "</p></div>";
+          $(".event-recap_progress").html(eventProgressBar);
+        }
+
+        if ($(".event-details .btn-donate")) {
+          $("#widget-new-project").after($(".btn-donate"));
+        }
+      });
     }
   });
 
@@ -301,11 +288,10 @@ $(document).ready(function () {
             Number.parseInt(event.expected_amount, 10) / 100;
           var eventProgress =
             (eventAmountCollected / eventAmountExpected) * 100;
-          var progressBar = `
-            <div class='event-progressbar bg-lightgrey'>
-              <div class='event-progress-perc bg-red' style='width: ${eventProgress}%'></div>
-            </div> 
-          `;
+          var progressBar =
+            "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
+            eventProgress +
+            "%'></div></div>";
           var classNoAmount = "";
           var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
           var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
@@ -314,12 +300,12 @@ $(document).ready(function () {
             style: "currency",
             currency: "EUR",
           }).format(eventAmountExpected);
-          var amountExpectedBlock = `
-          <div class='line'></div>
-          <div class=''>
-          <h5 class='text-center'>${eventAmountExpectedFormatted}</h5>
-          <p class='text-center'><small>${legendExpected}</small></p>
-          </div>`;
+          var amountExpectedBlock =
+            "<div class='line'></div><div class=''><h5 class='text-center'>" +
+            eventAmountExpectedFormatted +
+            "</h5><p class='text-center'><small>" +
+            legendExpected +
+            "</small></p></div>";
         } else {
           var classNoAmount = "no-amount";
           var amountExpectedBlock = "";
@@ -331,13 +317,12 @@ $(document).ready(function () {
           var remainingDays = Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           );
-          var remainingDaysBlock = `
-            <div class='line'></div>
-            <div class=''>
-              <h5 class='text-center'>${remainingDays}j</h5>
-              <p class='text-center'><small>${remainingDaysLegend}</small></p>
-            </div>
-            `;
+          var remainingDaysBlock =
+            "<div class='line'></div><div class=''><h5 class='text-center'>" +
+            remainingDays +
+            "j</h5><p class='text-center'><small>" +
+            remainingDaysLegend +
+            "</small></p></div>";
         } else {
           var remainingDays = "";
         }
@@ -361,43 +346,50 @@ $(document).ready(function () {
             break;
         }
 
-        const card = `
-          <div class="card card-event ${classNoAmount}">
-          <img src="${event.banner_image}">
-          <div class="card-event-btns">
-          <a href="${eventUrl}" class="btn-bm bg-black white">${btnSee}</a>
-          <a href="https://events.msf-azg.be/projects/new?event_id=${event.id}" class="btn-bm bg-red white">${btnCreerCard}</a>
-          </div>
-          <div class="card-event-details">
-          <h4><a href="${eventUrl}">${eventTitle}</a></h4>
-          <p>${eventDescription}</p>
-          <div>
-          ${progressBar}
-          <div class='event-numbers d-flex mt-20'>
-          <div class=''>
-          <h5 class='text-center'>${event.projects_count}</h5>
-          <p class='text-center'><small>${legendCollectes}</small></p>
-          </div>
-          <div class='line'></div>
-          <div class=''>
-          <h5 class='text-center amount-collected-title'>${eventAmountCollectedFormatted}</h5>
-          <p class='text-center'><small>${legendRecoltes}</small></p>
-          </div>
-          ${amountExpectedBlock}
-          ${remainingDays}
-          </div>
-          </div>
-          `;
+        const card =
+          "<div class='card card-event " +
+          classNoAmount +
+          "'><img src='" +
+          event.banner_image +
+          "'><div class='card-event-btns'><a href='" +
+          eventUrl +
+          "' class='btn-bm bg-black white'>" +
+          btnSee +
+          "</a><a href='https://events.msf-azg.be/projects/new?event_id=" +
+          event.id +
+          "' class='btn-bm bg-red white'>" +
+          btnCreerCard +
+          "</a></div><div class='card-event-details'><h4><a href='" +
+          eventUrl +
+          "'>" +
+          eventTitle +
+          "</a></h4><p>" +
+          eventDescription +
+          "</p><div>" +
+          progressBar +
+          "<div class='event-numbers d-flex mt-20'><div class=''><h5 class='text-center'>" +
+          event.projects_count +
+          "</h5><p class='text-center'><small>" +
+          legendCollectes +
+          "</small></p></div><div class='line'></div><div class=''><h5 class='text-center amount-collected-title'>" +
+          eventAmountCollectedFormatted +
+          "</h5><p class='text-center'><small>" +
+          legendRecoltes +
+          "</small></p></div>" +
+          amountExpectedBlock +
+          remainingDays +
+          "</div></div>";
         injectCard(card, eventContainer);
       };
 
       const fetchData = (event, eventContainer) => {
-        $.get(
-          `https://events.msf-azg.be/api/events/${event}?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8`,
-          function (response) {
-            buildCard(response, eventContainer);
-          }
-        );
+        var UrlToGetInfo =
+          "https://events.msf-azg.be/api/events/" +
+          event +
+          "?api_id=7b22e2a84173efacQFVJQBOHUISTHNNI&api_secret=b0d584cb2bba825cdaa6104c503883c8";
+        $.get(UrlToGetInfo, function (response) {
+          buildCard(response, eventContainer);
+        });
       };
 
       var collectesEvents = [8, 9, 10, 11, 4, 5];
@@ -493,12 +485,10 @@ $(document).ready(function () {
       $.each($("#events .panel .percent"), function (key, value) {
         const percent = value.innerHTML.split("<small>")[0];
         console.log(percent);
-        var progressBarEvent = `
-          <div class='event-progressbar bg-lightgrey'>
-            <div class='event-progress-perc bg-red' style='width: ${percent}%'></div>
-          </div> 
-        `;
-
+        var progressBarEvent =
+          "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width: " +
+          percent +
+          "%'></div></div>";
         $(this)
           .closest(".panel .wrap")
           .find(".event-description")
@@ -573,7 +563,10 @@ $(document).ready(function () {
     var project_search = $(this).find("input")[0].value;
     sessionStorage.setItem("project_search", project_search);
     console.log(sessionStorage);
-    window.location.href = `https://events.msf-azg.be/projects?search=${project_search}&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer`;
+    window.location.href =
+      "https://events.msf-azg.be/projects?search=" +
+      project_search +
+      "&search_lang=&search_status=&search_event_id=&search_scope=peer_to_peer";
   });
 
   $("#event-search").submit(function () {
@@ -581,7 +574,10 @@ $(document).ready(function () {
     var event_search = $(this).find("input")[0].value;
     sessionStorage.setItem("event_search", event_search);
     console.log(sessionStorage);
-    window.location.href = `https://events.msf-azg.be/events?search=${event_search}&search_place=&search_status=`;
+    window.location.href =
+      "https://events.msf-azg.be/events?search=" +
+      event_search +
+      "&search_place=&search_status=";
   });
 
   if ($(".slick-initialized")) {
@@ -633,7 +629,6 @@ $(document).ready(function () {
         teamcount = teamcount.split("</i>");
         teamcount = teamcount[1].split("\n");
         var nbr_projet = $.trim(teamcount[1]);
-        var text_projet = $.trim(teamcount[2]);
         var projectLine =
           "<div><h5 class='text-center'>" +
           nbr_projet +
@@ -681,7 +676,8 @@ $(document).ready(function () {
               daysleft = $.trim(daysleft[0]);
            }else{
               daysleft = "pasDInfo";
-          }*/
+          }
+      */
 
       //build the line
       var line = "<div class='event-numbers d-flex mt-20'>" + projectLine;
