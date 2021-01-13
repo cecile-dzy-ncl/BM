@@ -74,9 +74,9 @@ $(document).ready(function () {
     helpTitle +
     "</h1><p class='grey text-center'>" +
     helpContent +
-    "</p><a class='btn btn-bm bg-red white my-20' href='https://events.msf-azg.be/pages/107'>" +
+    "</p><div class='block_button_see_all'><a class='btn btn-bm bg-red white my-20' href='https://events.msf-azg.be/pages/107'>" +
     helpBtn +
-    "</a></div></div>";
+    "</a></div></div></div>";
   $("#events-index .section-events").after(helpWrapper);
 
   $("#events-widget .event-image").append($("#events-widget .chart-wrap"));
@@ -266,11 +266,15 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#indexs-index") || $("body").is("#events-index")) {
+      /* const injectCard = (eventCard, cardContainer) => { */
       const injectCard = function (eventCard, cardContainer) {
+        // console.log(cardContainer);
         $(cardContainer).append(eventCard);
       };
 
+      /* const buildCard = (event, eventContainer) => {*/
       const buildCard = function (event, eventContainer) {
+        // console.log(event);
         var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
         var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
           maximumFractionDigits: 0,
@@ -280,8 +284,7 @@ $(document).ready(function () {
         }).format(eventAmountCollected);
 
         if (event.expected_amount != null) {
-          var eventAmountExpected =
-            Number.parseInt(event.expected_amount, 10) / 100;
+          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
           var eventProgress =
             (eventAmountCollected / eventAmountExpected) * 100;
           var progressBar =
@@ -307,6 +310,7 @@ $(document).ready(function () {
           var amountExpectedBlock = "";
           var progressBar = "";
         }
+        // var today = new Date();
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
           var remainingDays = Math.ceil(
@@ -321,6 +325,7 @@ $(document).ready(function () {
         } else {
           var remainingDays = "";
         }
+        // var eventProgress = (eventAmountCollected / eventAmountExpected) * 100;
 
         switch (lang) {
           case "en":
@@ -376,6 +381,7 @@ $(document).ready(function () {
         injectCard(card, eventContainer);
       };
 
+      /*const fetchData = (event, eventContainer) => {*/
       const fetchData = function (event, eventContainer) {
         var UrlToGetInfo =
           "https://events.msf-azg.be/api/events/" +
@@ -488,6 +494,62 @@ $(document).ready(function () {
           .find(".event-description")
           .append(progressBarEvent);
       });
+
+      // $.each($("#events .panel"), function (key, value) {
+      //   const infosDays = $(this).find(".infos .daysleft");
+      //   // const infosDays = $(this).find(".infos .daysleft");
+      //   // console.log(infosDays);
+      //   // let infosTeamCount = $(this)
+      //   //   .find(".infos .teamcount")
+      //   //   .html()
+      //   //   .split(">")[2]
+      //   //   .trim()
+      //   //   .split(" ")[0];
+      //   const infosTeamCount = $(this).find(".infos .teamcount");
+      //   console.log(infosTeamCount);
+      //   // const infosAmount = $(this).find(".amount span").html();
+      //   // let infosAmountExp = $(this).find(".projets").html().trim(" ");
+
+      //   // if (infosAmountExp.lenght > 0) {
+      //   //   let infosAmountExp = "";
+      //   // }
+      //   // if (infosDays == undefined) {
+      //   //   let infosDays = "";
+      //   // }
+      //   // const  = $(this).find(".projets").innerHTML().split(" ");
+
+      //   // const cardNum = `
+      //   //   <div class='event-numbers d-flex mt-20'>
+      //   //   <div class=''>
+      //   //   <h5 class='text-center'>${infosTeamCount}</h5>
+      //   //   <p class='text-center'><small>${legendCollectes}</small></p>
+      //   //   </div>
+      //   //   <div class='line'></div>
+      //   //   <div class=''>
+      //   //   <h5 class='text-center amount-collected-title'>${infosAmount}</h5>
+      //   //   <p class='text-center'><small>${legendRecoltes}</small></p>
+      //   //   </div>
+      //   //   ${infosAmountExp}
+
+      //   //   </div>
+      //   //   </div>
+      //   //   `;
+      //   // console.log(cardNum);
+      //   // console.log(infosTeamCount);
+      //   // console.log(infosAmount);
+      //   // console.log(infosAmountExp);
+      //   // console.log(infosDays);
+      //   $(this).find(".infos-money").prepend(infosTeamCount);
+      //   $(this).find(".infos-money").append(infosDays);
+      //   // $(this).find(".infos-money").append(infosDays);
+
+      //   // setTimeout(function () {
+      //   //   $(this).find("medium-4 .infos-money").append(cardNum);
+      //   //   // $("#urgences-scroll .scrolling-wrapper").slick(slickSettings);
+      //   // }, 1000);
+
+      //   // $(this).find("medium-4 .infos-money").append(cardNum);
+      // });
     }
   });
 
@@ -607,15 +669,15 @@ $(document).ready(function () {
       }
 
       /*day
-            var daysleft = $(this).find('.infos-money .daysleft').html();
-            if( $(this).find('.infos-money .daysleft span').length ){ 		
-                daysleft = daysleft.split("<span>");
-               daysleft = daysleft[1].split("</span>");
-                daysleft = $.trim(daysleft[0]);
-             }else{
-                daysleft = "pasDInfo";
-            }
-        */
+          var daysleft = $(this).find('.infos-money .daysleft').html();
+          if( $(this).find('.infos-money .daysleft span').length ){ 		
+              daysleft = daysleft.split("<span>");
+             daysleft = daysleft[1].split("</span>");
+              daysleft = $.trim(daysleft[0]);
+           }else{
+              daysleft = "pasDInfo";
+          }
+      */
 
       //build the line
       var line = "<div class='event-numbers d-flex mt-20'>" + projectLine;
