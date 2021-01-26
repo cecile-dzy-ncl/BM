@@ -1,0 +1,54 @@
+.bg-primary {
+  background-color: #671c3d;
+  background-color: var(--primary);
+}
+
+.container-small-bm {
+  width: 775px;
+}
+
+.field-auto-search,
+input[type="text"].field-auto-search:focus,
+form#project-search input,
+form#event-search input {
+  background-color: white;
+  background: url("https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/searchicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 98% 100%;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-darkblue {
+  background-color: var(--dark-blue);
+}
+
+.fa {
+  font: normal normal normal 20px/1 FontAwesome !important;
+  font-size: 2rem;
+}
+
+.projects-list .panel .link-to-user .fa {
+  font-size: 10px !important;
+}
+
+@media screen and (max-width: 500px) {
+  /* .container-small-bm {
+    width: 90%;
+  } */
+}

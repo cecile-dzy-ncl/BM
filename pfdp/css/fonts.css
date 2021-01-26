@@ -1,0 +1,70 @@
+/* ------------------- FONTS ------------------- */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
+@font-face {
+  font-family: "sensa";
+  src: url("https://cecile-dzy-ncl.github.io/BM/action_enface/fonts/SensaBrushDemo-Fill.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sensa";
+  src: url("https://cecile-dzy-ncl.github.io/BM/action_enfance/fonts/SensaBrushDemo-Fill.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+p {
+  font-family: "Montserrat";
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-family: "Barlow Condensed"; */
+}
+
+h1 {
+  /* font-size: 40px; */
+}
+h2 {
+  /* font-size: 30px;
+  margin-bottom: 28px; */
+  color: black;
+}
+h3 {
+  /* font-size: 28px;
+  margin-bottom: 22px; */
+  color: black;
+}
+/* 
+.first-section h1 {
+  margin-bottom: 40px;
+} */
+
+@media screen and (max-width: 500px) {
+  h1 {
+    /* font-size: 30px; */
+  }
+
+  h1#show_title {
+    text-align: center;
+  }
+}
