@@ -1,0 +1,29 @@
+/* - colors - */
+
+.white {
+  color: #fff !important;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-grey {
+  background-color: #f5f5f5 !important;
+}
+
+.bg-lightgrey {
+  background-color: #fafafa !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.bg-black * {
+  color: #fff !important;
+}
