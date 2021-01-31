@@ -67,3 +67,6 @@
 .br-6 {
   border-radius: 6px;
 }
+
+@media screen and (max-width: 500px) {
+}

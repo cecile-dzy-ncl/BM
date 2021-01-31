@@ -2,10 +2,21 @@ div#wrapper {
   background: white;
 }
 
+#wrapper .global-container {
+  padding-bottom: 2.625rem;
+}
+
 .wrapper {
   width: 100%;
   padding: 35px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.wrapper [class*="column"] + [class*="column"]:last-child {
+  float: none !important;
+}
+
+@media screen and (max-width: 500px) {
 }

@@ -1,0 +1,10 @@
+@media screen and (max-width: 500px) {
+  .mobile .stats-event {
+    height: auto;
+  }
+
+  .mobile .stats-event-1,
+  .mobile .stats-event-2 {
+    width: 80%;
+  }
+}

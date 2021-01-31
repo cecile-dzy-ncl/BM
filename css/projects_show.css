@@ -1,0 +1,121 @@
+/* ------ PAGE DE COLLECTE ------ */
+
+#projects-show .current-amount,
+#projects-show .objectif-amount,
+#projects-show #show_days,
+#projects-show .contributeurs p {
+  text-align: left !important;
+}
+
+.bx-wrapper img {
+  max-width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projet-head .medium-3 {
+  display: none;
+}
+
+.projet-head .medium-9 {
+  width: 100%;
+}
+
+#projects-show .block-share-container .social-btns {
+  margin: 0 0 25px 0;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+  #projects-widget .projects-list .panel .thumbnail {
+    background: white;
+  }
+
+  .section-projet-details .bx-wrapper .bx-viewport {
+    height: auto !important;
+  }
+
+  .mobile .project-img img {
+    height: auto !important;
+  }
+
+  .donators {
+    margin: 0 !important;
+  }
+
+  .donators li {
+    padding: 15px 0px !important;
+  }
+
+  .project_payment #list_payment .people {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project_payment #list_payment .people .columns {
+    width: 100%;
+  }
+
+  .project_payment #list_payment .people blockquote {
+    margin: auto !important;
+    float: none;
+    margin-top: 10px !important;
+  }
+
+  .project_payment #list_payment .people .date,
+  .project_payment #list_payment .people .name,
+  .project_payment #list_payment .people .money {
+    padding: 0 !important;
+  }
+
+  #projects-show.mobile .current-amount,
+  #projects-show.mobile .objectif-amount,
+  #projects-show.mobile #show_days,
+  #projects-show.mobile .contributeurs p {
+    text-align: center !important;
+  }
+
+  .mobile #project_tabs .tabs-content {
+    padding: 0 30px;
+  }
+
+  .mobile .project_boutons_give {
+    margin-top: 35px !important;
+  }
+
+  .mobile .section-projet-details h1#show_title {
+    text-align: center !important;
+    line-height: 26px !important;
+    margin-bottom: 10px !important;
+  }
+
+  li.maybevideocontainer {
+    height: auto;
+  }
+
+  #projects-show .notifications_intro {
+    margin: auto !important;
+    width: 80%;
+    transform: translateX(-50%);
+  }
+
+  .gritter-without-image p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input#project_title {
+    width: 70vw !important;
+  }
+
+  .block-share-container h4 span:before,
+  .block-share-container h4 span:after {
+    width: 2rem;
+  }
+
+  .tabs dd.active a {
+    border-right: 0;
+  }
+}

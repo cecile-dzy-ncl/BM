@@ -1,0 +1,42 @@
+.progress {
+  border: none;
+  background: none;
+}
+
+.infos-money .progress .graph-bar {
+  border-radius: 0;
+}
+
+.step {
+  width: 76px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 22px;
+}
+
+@media screen and (max-width: 500px) {
+  .steps .w-50 {
+    width: 100%;
+  }
+
+  .phone {
+    margin: auto !important;
+  }
+
+  .mobile .project-img img {
+    height: auto !important;
+  }
+
+  .mobile .options {
+    padding: 20px 0 !important;
+  }
+
+  .mobile .options .d-flex:first-child {
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .mobile .options .d-flex {
+    padding: 0;
+  }
+}

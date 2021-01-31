@@ -73,3 +73,6 @@ footer section ul.left li ul.center li {
 .top-bar-section ul li > a {
   font-weight: 400 !important;
 }
+
+@media screen and (max-width: 500px) {
+}

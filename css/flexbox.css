@@ -42,3 +42,13 @@
 .align-items-center {
   align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+  .mobile_flex-column {
+    flex-direction: column;
+  }
+
+  .mobile_flex-column-reverse {
+    flex-direction: column-reverse;
+  }
+}

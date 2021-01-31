@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px) {
+  .mobile .event-goup-btn {
+    flex-direction: column;
+  }
+
+  .mobile .event-item .event-details .wrap {
+    padding: 30px 30px 0 30px !important;
+  }
+
+  .section-events .event-item .infos-money .amount {
+    margin-top: 10px;
+  }
+
+  .mobile
+    .section-events
+    .event-item
+    .event-details
+    .event-goup-btn
+    .page-create {
+    margin-bottom: 15px;
+  }
+}

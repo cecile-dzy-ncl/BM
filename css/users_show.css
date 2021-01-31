@@ -1,0 +1,26 @@
+/* ------ PROFIL ------ */
+
+.subhead .small-9 * {
+  text-align: left !important;
+}
+
+.subhead {
+  padding: 20px 0 !important;
+}
+
+#overview br {
+  display: none;
+}
+
+#overview h1 {
+  margin-bottom: 15px;
+}
+
+#my-profile .projects-list .panel .thumbnail img {
+  width: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) {
+  #embedModal input {
+    width: 100% !important;
+  }
+
+  .modal-body iframe {
+    width: 100%;
+  }
+
+  #embedModal {
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

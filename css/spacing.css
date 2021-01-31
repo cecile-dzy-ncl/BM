@@ -407,3 +407,9 @@
   padding-left: 80px;
   padding-right: 80px;
 }
+
+@media screen and (max-width: 500px) {
+  .pl-320 {
+    padding-left: 0px;
+  }
+}

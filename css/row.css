@@ -1,0 +1,12 @@
+.row-bm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row.bg-color-light-blurred.first-section {
+  background: #fff;
+  /*padding-top: 20px;*/
+}
+
+@media screen and (max-width: 500px) {
+}

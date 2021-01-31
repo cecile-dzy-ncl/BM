@@ -24,4 +24,8 @@ label {
   br {
     display: none;
   }
+
+  .mobile_d-none {
+    display: none;
+  }
 }

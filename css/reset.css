@@ -98,3 +98,10 @@ section.section-my-event .row,
   max-width: 71.25em;
   margin: 0 auto;
 }
+
+.fa-gift {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+}

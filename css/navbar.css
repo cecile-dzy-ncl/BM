@@ -1,0 +1,24 @@
+.top-bar-section ul li > a,
+footer a,
+.projects-list a,
+.event-description a,
+#projects_pager a,
+#project_tabs a,
+.project-detail-data.p2p-detail-data a {
+  text-decoration: none;
+}
+
+section.top-bar-section {
+  background: #f0f0f0 !important;
+}
+
+section#header-header {
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 500px) {
+  #main-nav .top-bar-section li:not(.has-form) a:not(.button) {
+    font-weight: 300;
+    padding: 5px;
+  }
+}

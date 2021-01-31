@@ -17,3 +17,28 @@
 .card-bm-description > * {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 500px) {
+  .card-bm {
+    width: 100% !important;
+    margin: 7px auto;
+  }
+
+  .card-bm-description {
+    height: 240px !important;
+    padding: 0 15px !important;
+  }
+
+  .projects-list {
+    width: 100%;
+    margin: auto;
+  }
+
+  .project-bm {
+    height: auto !important;
+  }
+
+  .mobile .project-bm img {
+    width: 100% !important;
+  }
+}
