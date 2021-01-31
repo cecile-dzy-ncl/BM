@@ -1,0 +1,93 @@
+/* --- OVERWRITE IRAISER --- */
+
+/* - menu - */
+
+header.main-header section#header-header {
+  box-shadow: none;
+}
+
+.row-1 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e6ebeb;
+}
+
+.row-2 {
+  height: 47px;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-2 a {
+  /*color: #000;*/
+  text-decoration: none;
+}
+
+.line {
+  box-sizing: border-box;
+  height: 16px;
+  border: 0.5px solid #000000;
+  margin: 60px;
+}
+
+#main-nav section.top-bar-section li:not(:last-child) {
+  position: relative;
+}
+
+#main-nav section.top-bar-section li:not(:last-child):after {
+  background: #000 !important;
+  content: "";
+  height: 22px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  right: 0;
+}
+
+section.connexion {
+  padding-top: 20px;
+}
+
+#my-profile #myTab {
+  /* padding-top: 20px; */
+  margin-bottom: 25px !important;
+  padding: 1rem 0.25rem;
+  /* min-height: 150px; */
+}
+
+#myTabContent #projects,
+#my-profile .first-section .small-7.columns {
+  max-width: 71.25em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* #myTabContent #projects {
+    margin: 0 -0.625rem;
+  
+  } */
+
+.habillage::after {
+  background-color: transparent;
+  width: 100vw;
+}
+
+.habillage .row .row,
+.habillage .section-projets .row,
+.habillage .section-home-projects .row,
+.section-projet-details,
+#project_tabs,
+section.project_event_description,
+section.event-head,
+section.section-my-event .row,
+.stats-event,
+#footer-collecte {
+  max-width: 71.25em;
+  margin: 0 auto;
+}

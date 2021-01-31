@@ -1,9 +1,43 @@
-.container-bm {
-  width: 960px;
+/* - container - */
+
+.container-bm,
+.container-xs-bm,
+.container-xsmall-bm,
+.container-small-bm,
+.container-medium-bm,
+.container-large-bm {
   margin: 0 auto;
+}
+
+.container-xs-bm {
+  width: 560px;
 }
 
 .container-small-bm {
   width: 750px;
-  margin: 0 auto;
+}
+
+.container-medium-bm {
+  width: 960px;
+}
+
+.container-bm {
+  width: 1140px;
+}
+
+.container-full-bm {
+  width: 100vw;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+  .container-bm,
+  .container-large-bm,
+  .container-medium-bm,
+  .container-small-bm,
+  .container-xs-bm,
+  .container-xsmall-bm {
+    width: 80% !important;
+  }
 }

@@ -1,0 +1,73 @@
+/* - text - */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.text-initial {
+  text-transform: initial !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.text-deco-none {
+  text-decoration: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-light {
+  font-weight: lighter;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-28 {
+  font-size: 28px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.font-40 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+}
+
+.font-50 {
+  font-size: 50px;
+  line-height: 55px;
+  margin: 0;
+}
+
+.font-60 {
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+}

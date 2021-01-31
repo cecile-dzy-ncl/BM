@@ -1,0 +1,31 @@
+/* BUTTONS */
+
+.btn-bm {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px auto;
+  text-decoration: none;
+  display: block;
+}
+
+.btn-bm.btn-bm-border {
+  background-color: transparent !important;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn-bm.btn-bm-large {
+  width: 360px !important;
+}
+
+.btn-bm.btn-bm-xlarge {
+  width: 420px !important;
+}
+
+.admin_button.button {
+  width: auto;
+}
+
+#form-contact input.button {
+  margin-bottom: 50px;
+}

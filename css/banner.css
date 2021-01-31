@@ -1,0 +1,9 @@
+/* BANNER */
+
+.banner {
+  background-size: cover;
+  height: 631px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
