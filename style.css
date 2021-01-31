@@ -1,9 +1,11 @@
 @import url("css/banner.css");
 @import url("css/border.css");
 @import url("css/buttons.css");
+@import url("css/card.css");
 @import url("css/colors.css");
 @import url("css/container.css");
 @import url("css/flexbox.css");
+@import url("css/footer.css");
 @import url("css/image.css");
 @import url("css/reset.css");
 @import url("css/sizes.css");
@@ -12,57 +14,14 @@
 @import url("css/utilities.css");
 @import url("css/wrapper.css");
 
-.brbl-100 {
-  border-radius: 0 0 0 100px;
-}
-
-.brtr-100 {
-  border-radius: 0 100px 0 0;
-}
-
-.br-trbl-100 {
-  border-radius: 0 100px 0 100px;
-}
-
-.brbl-60 {
-  border-radius: 0 0 0 60px;
-}
-
-.brtr-60 {
-  border-radius: 0 60px 0 0;
-}
-
-.brtop-6 {
-  border-radius: 6px 6px 0 0;
-}
-
-.brbottom-6 {
-  border-radius: 0 0 6px 6px;
-}
-
-.br-6 {
-  border-radius: 6px;
-}
-
 .section-home-projects {
   background: #f0f0f0;
   padding-top: 25px;
 }
 
-div#wrapper {
-  background: white;
-}
-
 #indexs-index .intro {
   padding: 0;
   margin: 0;
-}
-
-.habillage .row {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .progress {
@@ -74,11 +33,6 @@ div#wrapper {
   border-radius: 0;
 }
 
-.container {
-  padding: 0 !important;
-  color: #000;
-}
-
 .top-bar-section ul li > a,
 footer a,
 .projects-list a,
@@ -87,16 +41,6 @@ footer a,
 #project_tabs a,
 .project-detail-data.p2p-detail-data a {
   text-decoration: none;
-}
-
-.top-bar-section a:hover,
-.main-header
-  .top-bar-section
-  ul
-  li:hover:not(.has-form)
-  > a
-  .top-bar-section
-  a.active {
 }
 
 .row.bg-color-light-blurred.first-section {
@@ -155,180 +99,12 @@ section#header-header {
   justify-content: space-between;
 }
 
-.card-bm {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-bm-img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-bm-description {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.card-bm-description > * {
-  margin: 0 auto;
-}
-
 .wrapper [class*="column"] + [class*="column"]:last-child {
   float: none !important;
 }
 
 #wrapper .global-container {
   padding-bottom: 2.625rem;
-}
-
-/* FOOTER */
-
-footer {
-  margin-top: -2.625rem;
-  height: 48px;
-}
-
-footer,
-footer .top-bar-section li:not(.has-form) a:not(.button),
-footer .top-bar-section li:not(.has-form) a:not(.button):hover {
-  background-color: #000;
-}
-
-footer .bottom-bar .left li:not(:last-child) a {
-  position: relative;
-}
-
-footer .bottom-bar .left li:not(:last-child) a:after {
-  background: #fff !important;
-  content: "";
-  height: 22px;
-  width: 1px;
-  position: absolute;
-  bottom: 11px;
-  right: 0;
-}
-
-footer a:hover {
-  color: white !important ;
-}
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-footer .top-bar-section ul.right {
-  display: block;
-}
-
-footer ul.right img {
-  width: 146px;
-}
-
-footer section.top-bar-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #000 !important;
-}
-
-footer .top-bar-section ul {
-  min-height: auto;
-}
-
-footer section ul.left li {
-  display: none;
-}
-
-footer section ul.left li:last-child {
-  display: block !important;
-}
-
-footer section ul.left li:first-child,
-footer section ul.left li:nth-child(2) {
-  display: none;
-}
-
-footer section ul.left li ul.center li {
-  display: block;
-}
-
-.top-bar-section ul li > a {
-  font-weight: 400 !important;
-}
-
-/* HEIGHTS */
-
-.h-0 {
-  height: 0px;
-}
-
-.h-50 {
-  height: 50%;
-}
-
-.h-315 {
-  height: 315px;
-}
-
-.h-360 {
-  height: 360px;
-}
-
-.h-350 {
-  height: 350px;
-}
-
-.h-335 {
-  height: 335px;
-}
-
-.h-100 {
-  height: 100% !important;
-}
-
-.h-300 {
-  height: 300px;
-}
-
-.h-560 {
-  height: 560px;
-}
-
-.h-500 {
-  height: 500px;
-}
-
-.h-850 {
-  height: 850px;
-}
-
-.h-1000p {
-  height: 1000px;
-}
-
-.top-n40 {
-  top: -40px;
-}
-
-.top-n75 {
-  top: -75px;
-}
-
-.top-n100 {
-  top: -100px;
-}
-
-/* WRAPPERS */
-
-.wrapper {
-  width: 100%;
-  padding: 35px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .step {
@@ -353,10 +129,6 @@ footer section ul.left li ul.center li {
 
 #projects-show .block-share-container .social-btns {
   margin: 0 0 25px 0;
-}
-
-label {
-  text-align: left;
 }
 
 /* ------ PROFIL ------ */
@@ -399,11 +171,11 @@ label {
   object-fit: cover;
 }
 
-@media screen and (max-width: 1040px) {
+/* @media screen and (max-width: 1040px) {
   .container-bm {
     width: 75%;
   }
-}
+} */
 
 /* ------ RESPONSIVE ------ */
 

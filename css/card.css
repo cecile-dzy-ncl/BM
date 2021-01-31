@@ -1,0 +1,19 @@
+.card-bm {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bm-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-bm-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card-bm-description > * {
+  margin: 0 auto;
+}

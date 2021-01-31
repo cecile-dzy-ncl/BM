@@ -33,3 +33,37 @@
 .border-0 {
   border: none !important;
 }
+
+/* border-radius */
+
+.brbl-100 {
+  border-radius: 0 0 0 100px;
+}
+
+.brtr-100 {
+  border-radius: 0 100px 0 0;
+}
+
+.br-trbl-100 {
+  border-radius: 0 100px 0 100px;
+}
+
+.brbl-60 {
+  border-radius: 0 0 0 60px;
+}
+
+.brtr-60 {
+  border-radius: 0 60px 0 0;
+}
+
+.brtop-6 {
+  border-radius: 6px 6px 0 0;
+}
+
+.brbottom-6 {
+  border-radius: 0 0 6px 6px;
+}
+
+.br-6 {
+  border-radius: 6px;
+}

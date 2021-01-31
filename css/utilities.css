@@ -13,3 +13,15 @@
 .d-none {
   display: none !important;
 }
+
+label {
+  text-align: left;
+}
+
+/* ------ RESPONSIVE ------ */
+
+@media screen and (max-width: 500px) {
+  br {
+    display: none;
+  }
+}

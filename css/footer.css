@@ -1,0 +1,75 @@
+/* FOOTER */
+
+footer {
+  margin-top: -2.625rem;
+  height: 48px;
+}
+
+footer,
+footer .top-bar-section li:not(.has-form) a:not(.button),
+footer .top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #000;
+}
+
+footer .bottom-bar .left li:not(:last-child) a {
+  position: relative;
+}
+
+footer .bottom-bar .left li:not(:last-child) a:after {
+  background: #fff !important;
+  content: "";
+  height: 22px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  right: 0;
+}
+
+footer a:hover {
+  color: white !important ;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+footer .top-bar-section ul.right {
+  display: block;
+}
+
+footer ul.right img {
+  width: 146px;
+}
+
+footer section.top-bar-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000 !important;
+}
+
+footer .top-bar-section ul {
+  min-height: auto;
+}
+
+footer section ul.left li {
+  display: none;
+}
+
+footer section ul.left li:last-child {
+  display: block !important;
+}
+
+footer section ul.left li:first-child,
+footer section ul.left li:nth-child(2) {
+  display: none;
+}
+
+footer section ul.left li ul.center li {
+  display: block;
+}
+
+.top-bar-section ul li > a {
+  font-weight: 400 !important;
+}

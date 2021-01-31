@@ -29,6 +29,11 @@
   width: 100vw;
 }
 
+.container {
+  padding: 0 !important;
+  color: #000;
+}
+
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
