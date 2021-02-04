@@ -310,7 +310,7 @@ a {
 /* PAGES DE COLLECTE */
 
 
-.section-projet-details > .bg-color-light, 
+.section-projet-details > .bg-color-light:not(.projet-head), 
 .arc li.maybevideocontainer, 
 .projet-head .bg-color-light {
   background-color: #009cbb;
