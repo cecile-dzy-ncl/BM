@@ -309,8 +309,11 @@ a {
 
 /* PAGES DE COLLECTE */
 
+
+.section-projet-details > .bg-color-light, 
+.arc li.maybevideocontainer, 
 .projet-head .bg-color-light {
-    background-color: #009cbb;
+  background-color: #009cbb;
 }
 
 .projet-head {
@@ -726,6 +729,10 @@ section#header-header .top-bar-section .button.left {
 
 @media screen and (max-width: 500px) {
 
+
+  .arc .bx-wrapper img {
+    object-fit: contain;
+  }
 
   .arc .banner {
     background: white;

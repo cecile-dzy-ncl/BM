@@ -1,24 +1,10 @@
 /* ------------------- FONTS ------------------- */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
-@font-face {
-  font-family: "sensa";
-  src: url("https://cecile-dzy-ncl.github.io/BM/action_enface/fonts/SensaBrushDemo-Fill.otf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
-@font-face {
-  font-family: "sensa";
-  src: url("https://cecile-dzy-ncl.github.io/BM/action_enfance/fonts/SensaBrushDemo-Fill.otf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-} */
 
 p {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0;
 }
 
@@ -38,17 +24,30 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Barlow Condensed"; */
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1 {
   /* font-size: 40px; */
 }
+
 h2 {
   /* font-size: 30px;
   margin-bottom: 28px; */
   color: black;
 }
+
+h2.intertitre {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2.intertitre:before {
+  width: 20px;
+  height: 6px;
+  background-color: var(--red);
+}
+
 h3 {
   /* font-size: 28px;
   margin-bottom: 22px; */

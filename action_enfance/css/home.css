@@ -1,3 +1,7 @@
+.section-home-projects { /* a enlever ensuite */
+  padding-top: 0px;
+}
+
 .events-ex {
   display: flex;
   justify-content: space-between;
