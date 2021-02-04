@@ -4,5 +4,31 @@
 }
 
 .stat-card {
-  
+  /* color: grey; */
+  width: 28%;
+}
+
+.stat-number {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 70px !important;
+  color: white;
+  -webkit-text-stroke: 2.5px var(--blue);
+  text-align: center;
+  display: block;
+
+}
+
+.stat-text {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+  .stat-container {
+    /* width: 80%; */
+    flex-direction: column;
+  }
+  .stat-card {
+    width: 100%;
+  }
 }
