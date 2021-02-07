@@ -18,3 +18,27 @@
   --shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   --primary: var(--burgundy);
 }
+
+.burgundy {
+  background-color: var(--burgundy);
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.darkergrey {
+  background-color: var(--darkergrey);
+}

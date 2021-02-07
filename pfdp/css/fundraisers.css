@@ -20,27 +20,31 @@
   position: absolute;
   height: 75px;
   width: 75%;
-  background-color: var(--red);
+  /* background-color: var(--red); */
   border-radius: 0px 300px 300px 0px;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   z-index:5;
+  display: flex;
 }
+
+.pill-icon {
+}
+
 .pill-text {
-  font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-  display: flex;
   align-items: center;
   color: #FFFFFF;
   padding-left: 50px;
 }
 
 .card-bottom {
-  /* height: 50%; */
-  max-width: 100%;
-  padding: 15% 5% 10% 5%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 5% 0 5%;
   background-color: var(--lightergrey);
   position: absolute;
   top: 50%;
@@ -48,10 +52,7 @@
 }
 
 .card-text {
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-/* line-height: 20px; */
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -67,5 +68,8 @@ font-weight: normal;
   }
   .card-text{
     font-size: 14px;;
+  }
+  .card-bottom {
+    padding: 20px 5% 0 5%;
   }
 }
