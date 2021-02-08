@@ -38,6 +38,7 @@
   align-items: center;
   color: #FFFFFF;
   padding-left: 50px;
+  box-sizing:border-box;
 }
 
 .card-bottom {
