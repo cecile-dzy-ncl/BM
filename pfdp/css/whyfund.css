@@ -1,0 +1,50 @@
+.whyfund-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.whyfund-card {
+  width: 30%;
+  /* border: 1px solid black; */
+  display: flex;
+  /* position: relative; */
+}
+
+.whyfund-number-border {
+  font-family: "Montserrat";
+  margin: 0px;
+  font-size: 200px;
+  color:transparent;
+  -webkit-text-stroke: 3px var(--burgundy);
+  position: absolute;
+  top: 4px;
+  left: -7px;
+}
+
+.whyfund-number-fill {
+  margin: 0px;
+  font-size: 200px;
+  color: var(--red);
+}
+
+span {
+  margin: 0px;
+  font-size: 200px;
+  color: var(--red);
+  font-family: "Montserrat";
+  position: relative;
+}
+
+span::before {
+  /* content: "2"; */
+  content: attr(data-number);
+  font-family: "Montserrat";
+  margin: 0px;
+  font-size: 200px;
+  color:transparent;
+  -webkit-text-stroke: 3px var(--burgundy);
+  position: absolute;
+  top: 4px;
+  left: -7px;
+}
