@@ -105,4 +105,15 @@ span.why-fund::before {
   h1#show_title {
     text-align: center;
   }
+
+  span.why-fund {
+    font-size: 130px;
+    min-width: 25%;
+  }
+  
+  span.why-fund::before {
+    font-size: 130px;
+    min-width: 25%;
+  }
+
 }

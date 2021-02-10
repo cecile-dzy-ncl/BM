@@ -31,7 +31,12 @@ form#event-search input {
 }
 
 @media screen and (max-width: 500px) {
-  /* .container-small-bm {
-    width: 90%;
-  } */
+  .compteur {
+    flex-direction: column;
+  }
+
+  .compteur > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
