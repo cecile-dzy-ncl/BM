@@ -1,6 +1,5 @@
-.bg-primary {
-  background-color: #671c3d;
-  background-color: var(--primary);
+* {
+  box-sizing: border-box;
 }
 
 .container-small-bm {
@@ -16,26 +15,6 @@ form#event-search input {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 98% 100%;
-}
-
-.blue {
-  color: var(--blue);
-}
-
-.bg-blue {
-  background-color: var(--blue);
-}
-
-.bg-green {
-  background-color: var(--green);
-}
-
-.bg-pink {
-  background-color: var(--pink);
-}
-
-.bg-darkblue {
-  background-color: var(--dark-blue);
 }
 
 .fa {

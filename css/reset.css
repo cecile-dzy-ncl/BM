@@ -99,7 +99,7 @@ section.section-my-event .row,
   margin: 0 auto;
 }
 
-.fa-gift {
+#projects-show .fa-gift {
   display: none;
 }
 

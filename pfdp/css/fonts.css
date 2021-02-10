@@ -1,12 +1,6 @@
 /* ------------------- FONTS ------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
-
-
-p {
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap");
 
 h1,
 h2,
@@ -16,25 +10,32 @@ h5,
 h6,
 p {
   text-align: left;
+  margin-top: 0;
 }
 
 h1,
-h2,
-h3,
 h4,
-h5,
 h6 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+h2,
+h3,
+h5,
+p,
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
-  /* font-size: 40px; */
+  font-size: 40px;
+  line-height: 40px;
 }
 
 h2 {
-  /* font-size: 30px;
-  margin-bottom: 28px; */
-  color: black;
+  font-size: 32px;
+  line-height: 39px;
+  /* color: black; */
 }
 
 h2.intertitre {
@@ -49,14 +50,32 @@ h2.intertitre:before {
 }
 
 h3 {
-  /* font-size: 28px;
-  margin-bottom: 22px; */
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
   color: black;
 }
-/* 
-.first-section h1 {
-  margin-bottom: 40px;
-} */
+
+h4 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+span {
+  font-size: 70px;
+  line-height: 85px;
+}
 
 @media screen and (max-width: 500px) {
   h1 {

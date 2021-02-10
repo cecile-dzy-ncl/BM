@@ -1,0 +1,52 @@
+.blue {
+  color: var(--blue);
+}
+
+.burgundy {
+  color: var(--burgundy);
+}
+
+.bg-primary {
+  background-color: #671c3d;
+  background-color: var(--primary);
+}
+
+.bg-blue {
+  background-color: #0cbaee;
+  background-color: var(--blue);
+}
+
+.bg-green {
+  background-color: #30a878;
+  background-color: var(--green);
+}
+
+/* .bg-pink {
+  background-color: #0cbaee;
+  background-color: var(--pink);
+} */
+
+/* .bg-darkblue {
+  background-color: #0cbaee;
+  background-color: var(--dark-blue);
+} */
+
+.bg-burgundy {
+  background-color: #671c3d;
+  background-color: var(--burgundy);
+}
+
+.bg-red {
+  background-color: #e52645;
+  background-color: var(--red);
+}
+
+.bg-yellow {
+  background-color: #fcc749;
+  background-color: var(--yellow);
+}
+
+.bg-darkergrey {
+  background-color: #373632;
+  background-color: var(--darkergrey);
+}
