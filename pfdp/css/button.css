@@ -1,0 +1,16 @@
+.btn-bm {
+  color: white;
+  padding: 30px;
+  border-radius: 53px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 500px) {
+  
+  .btn-bm {
+    padding: 15px;
+  }
+}

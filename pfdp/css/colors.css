@@ -1,0 +1,35 @@
+.blue {
+  color: var(--blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+}
+
+.bg-darkblue {
+  background-color: var(--dark-blue);
+}
+
+.bg-burgundy {
+  background-color: var(--burgundy);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-darkergrey {
+  background-color: var(--darkergrey);
+}
