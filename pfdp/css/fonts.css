@@ -77,6 +77,26 @@ span.stat-number {
   line-height: 85px;
 }
 
+span.why-fund {
+  margin: 0px;
+  font-size: 200px;
+  color: var(--red);
+  font-family: "Montserrat";
+  position: relative;
+}
+
+span.why-fund::before {
+  content: attr(data-number);
+  font-family: "Montserrat";
+  margin: 0px;
+  font-size: 200px;
+  color:transparent;
+  -webkit-text-stroke: 3px var(--burgundy);
+  position: absolute;
+  top: 4px;
+  left: -7px;
+}
+
 @media screen and (max-width: 500px) {
   h1 {
     /* font-size: 30px; */
@@ -85,4 +105,15 @@ span.stat-number {
   h1#show_title {
     text-align: center;
   }
+
+  span.why-fund {
+    font-size: 130px;
+    min-width: 25%;
+  }
+  
+  span.why-fund::before {
+    font-size: 130px;
+    min-width: 25%;
+  }
+
 }
