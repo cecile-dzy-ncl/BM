@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.compteur > div {
+  width: 30%;
+}
+
 .container-small-bm {
   width: 775px;
 }
