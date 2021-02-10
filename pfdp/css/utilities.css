@@ -4,6 +4,8 @@
 
 .compteur > div {
   width: 30%;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 .container-small-bm {
