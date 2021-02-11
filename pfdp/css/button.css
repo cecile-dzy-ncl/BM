@@ -8,8 +8,26 @@
   text-transform: none;
 }
 
+.big-pill {
+  width: 90%;
+  border-radius: 0px 230px 230px 0px;
+}
+
+.pill-white {
+  border: 1px solid white;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm {
     padding: 15px;
+  }
+
+  .big-pill {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .big-pill>div {
+    padding: 0px;
+    margin: 0px auto;
   }
 }

@@ -32,6 +32,22 @@ form#event-search input {
   font-size: 10px !important;
 }
 
+.pl-20pct {
+  padding-left: 20%;
+}
+
+.w-90pct {
+  width: 90%;
+}
+
+.shape {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  content: ' \25CF';
+  background: red;
+}
+
 @media screen and (max-width: 500px) {
   .compteur {
     flex-direction: column;
