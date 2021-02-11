@@ -26,6 +26,14 @@ form#event-search input {
   font-size: 10px !important;
 }
 
+.pl-20pct {
+  padding-left: 20%;
+}
+
+.w-90pct {
+  width: 90%;
+}
+
 @media screen and (max-width: 500px) {
   /* .container-small-bm {
     width: 90%;
