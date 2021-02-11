@@ -21,4 +21,13 @@
   .btn-bm {
     padding: 15px;
   }
+
+  .big-pill {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .big-pill>div {
+    padding: 0px;
+    margin: 0px auto;
+  }
 }
