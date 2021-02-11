@@ -34,6 +34,14 @@ form#event-search input {
   width: 90%;
 }
 
+.shape {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  content: ' \25CF';
+  background: red;
+}
+
 @media screen and (max-width: 500px) {
   /* .container-small-bm {
     width: 90%;
