@@ -79,6 +79,11 @@
   /* color: #ffffff; */
 }
 
+.pill img {
+  height: 25px;
+  margin-right: 20px;
+}
+
 .card-bottom {
   height: 50%;
   display: flex;
