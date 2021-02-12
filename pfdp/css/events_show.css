@@ -35,6 +35,11 @@
   width: 100%;
 }
 
+#events-show .block-share-container .social-btns {
+  margin: 0 auto 50px !important;
+  display: flex;
+}
+
 @media screen and (max-width: 500px) {
   .intro-my-event {
     width: 75%;
