@@ -116,6 +116,10 @@ span.stat-number {
     font-size: 24px;
   }
 
+  span.stat-number {
+    font-size: 60px;
+  }
+
   .why-fund span {
     font-size: 130px;
     min-width: 25%;
