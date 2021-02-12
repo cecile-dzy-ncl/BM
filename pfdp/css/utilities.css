@@ -44,8 +44,8 @@ form#event-search input {
   height: 55px;
   width: 55px;
   border-radius: 50%;
-  content: ' \25CF';
-  background: red;
+  /* content: ' \25CF'; */
+  /* background: red; */
 }
 
 @media screen and (max-width: 500px) {

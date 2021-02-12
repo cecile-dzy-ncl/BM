@@ -72,13 +72,6 @@ p {
   line-height: 20px;
 }
 
-span.title {
-  font-size: 40px;
-  line-height: 40px;
-  font-family: "Josefin Sans", sans-serif;
-  text-align: start !important;
-}
-
 span.stat-number {
   font-size: 70px;
   line-height: 85px;

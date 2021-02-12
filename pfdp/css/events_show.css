@@ -1,0 +1,7 @@
+#events-show #banner_section {
+  margin-bottom: 2rem;
+}
+
+#events-show #banner_section > .row {
+  max-width: 100%;
+}
