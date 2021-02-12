@@ -40,6 +40,14 @@ form#event-search input {
   width: 90%;
 }
 
+.pill-radius {
+  border-radius: 0px 350px 350px 0px;
+}
+
+.pill-radius-r {
+  border-radius: 350px 0px 0px 350px;
+}
+
 .shape {
   height: 55px;
   width: 55px;
