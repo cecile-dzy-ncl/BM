@@ -116,4 +116,12 @@
   .card-bottom {
     padding: 20px 5% 0 5%;
   }
+
+  .pill {
+    padding-left: 12px;
+  }
+
+  .pill img {
+    margin-right: 12px;
+  }
 }
