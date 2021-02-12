@@ -79,3 +79,27 @@ section.section-projet-details .team_by {
 #projects-show section#banner_section {
   display: none;
 }
+
+#projects-show .section-projet-details > .row:last-of-type {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  #projects-show .section-projet-details > .row:last-of-type {
+    flex-direction: column;
+  }
+
+  .projet-head > .columns:first-of-type .small-12.medium-2.large-2.columns {
+    display: none;
+  }
+
+  section.section-projet-details .team_by {
+    text-align: center;
+    float: none !important;
+  }
+
+  #projects-show .project_event_description {
+    padding: 1rem 2rem;
+  }
+}
