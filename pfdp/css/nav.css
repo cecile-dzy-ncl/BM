@@ -23,10 +23,10 @@ section.top-bar-section {
 }
 
 header .top-bar-section li:not(.has-form) a:not(.button) {
-  /* font-family: "Barlow Condensed" !important; */
-  font-weight: 500 !important;
-  font-size: 18px !important;
-  color: black;
+  font-family: "Montserrat" !important;
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  color: #545454;
 }
 
 .main-header
@@ -58,10 +58,6 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   a:not(.button):hover {
   color: white;
 }
-
-/* header .top-bar-section li.nodropdown:first-child a {
-  color: var(--blue);
-} */
 
 #main-nav section.top-bar-section li:not(:last-child):after {
   display: none;
