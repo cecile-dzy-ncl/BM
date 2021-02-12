@@ -75,3 +75,7 @@ section.section-projet-details .team_by {
   padding: 2rem 5rem;
   background: #f0f0f0;
 }
+
+#projects-show section#banner_section {
+  display: none;
+}
