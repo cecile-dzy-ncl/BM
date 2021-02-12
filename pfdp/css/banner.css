@@ -1,7 +1,7 @@
 #indexs-index .banner.homepage .banner-text {
   width: 35%;
   margin: 0 0 0 50%;
-  max-height: 290px;
+  /* max-height: 290px; */
   position: initial;
   background-color: transparent;
 }
@@ -14,4 +14,15 @@
 
 .banner.homepage .banner-title {
   text-align: left;
+  position: relative;
+}
+
+.banner.homepage .banner-title:after {
+  content: "";
+  position: absolute;
+  background: url("https://collecter.petitsfreresdespauvres.fr/cdn.iraiser.eu/dK+y9Y0kxwRuebwOLklx7LLsEkP8toQ69NrsP9gRopr2N8g7khIIWnSL3h0yDmW//Cecile_Dezy/origin/PFDPlien.png");
+  height: 20px;
+  width: 50px;
+  bottom: 0;
+  left: 0;
 }
