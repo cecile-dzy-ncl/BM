@@ -33,10 +33,12 @@
   color: black;
   position: relative;
   transition: all 0.3s;
+  border-radius: 0;
 }
 
 #indexs-index .card:hover {
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
+  box-shadow: 3px 3px 0px #dcd4d4;
 }
 
 .card a {
