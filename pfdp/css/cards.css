@@ -39,6 +39,10 @@
   transform: scale(1.02);
 }
 
+#indexs-index .card a {
+  color: black;
+}
+
 .card-top {
   height: 50%;
   width: 100%;
@@ -60,14 +64,19 @@
 
 .pill-icon {
   margin-right: 1rem;
-  color: white;
+  /* color: white; */
   font-size: 20px;
+}
+
+.pill-icon a,
+.pill-text a {
+  color: white;
 }
 
 .pill-text {
   font-weight: 500;
   font-size: 24px;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 .card-bottom {
