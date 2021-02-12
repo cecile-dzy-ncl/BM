@@ -3,6 +3,7 @@
   margin: 0 0 0 50%;
   position: initial;
   background-color: transparent;
+  margin-bottom: 100px;
 }
 
 .banner.homepage span.title {
@@ -25,10 +26,23 @@
 @media screen and (max-width: 500px) {
   .banner.homepage {
     background-size: cover;
+    background-position: center;
+    align-items: flex-start;
   }
 
   #indexs-index .banner.homepage .banner-text {
     width: 100%;
-    margin: 0;
+    margin: 50px 0 150px;
+  }
+
+  .banner.homepage span.title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #indexs-index .banner.homepage .banner-text h1 {
+    font-size: 45px;
+    line-height: initial;
+    margin-top: 10px;
   }
 }
