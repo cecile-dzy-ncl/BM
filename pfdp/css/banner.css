@@ -14,3 +14,8 @@
 .banner.homepage .banner-title {
   text-align: left;
 }
+
+.banner.homepage {
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+    url("https://cdn.iraiser.eu/dK+y9Y0kxwRuebwOLklx7LLsEkP8toQ69NrsP9gRopr2N8g7khIIWnSL3h0yDmW//Cecile_Dezy/origin/BANNIERE-2-ivana-marseille.jpg");
+}
