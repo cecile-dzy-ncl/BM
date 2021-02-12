@@ -69,3 +69,9 @@ section.section-projet-details .team_by {
 .tabs .tab-title.active a {
   color: #fff;
 }
+
+#projects-show .project_event_description {
+  width: 100%;
+  padding: 2rem 5rem;
+  background: #f0f0f0;
+}
