@@ -27,9 +27,16 @@
   grid-gap: 1.5rem;
 }
 
-.card {
+#indexs-index .card {
   min-height: 450px;
+  cursor: pointer;
+  color: black;
   position: relative;
+  transition: all 0.3s;
+}
+
+#indexs-index .card:hover {
+  transform: scale(1.02);
 }
 
 .card-top {
