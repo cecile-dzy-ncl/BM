@@ -43,6 +43,14 @@
   align-items: center;
 }
 
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
 @media screen and (max-width: 500px) {
   .mobile_flex-column {
     flex-direction: column;
