@@ -5,3 +5,18 @@
 #events-show #banner_section > .row {
   max-width: 100%;
 }
+
+#events-show .event-head .block-share-container {
+  display: block;
+}
+
+.projects-list .panel h3 {
+  font-size: 20px;
+}
+
+.projects-list .panel {
+  padding: 0;
+  border-width: 0;
+  position: relative;
+  background: var(--lightergrey);
+}
