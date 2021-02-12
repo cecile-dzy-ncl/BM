@@ -21,3 +21,14 @@
   background-size: 130%;
   background-position: right;
 }
+
+@media screen and (max-width: 500px) {
+  .banner.homepage {
+    background-size: cover;
+  }
+
+  #indexs-index .banner.homepage .banner-text {
+    width: 100%;
+    margin: 0;
+  }
+}
