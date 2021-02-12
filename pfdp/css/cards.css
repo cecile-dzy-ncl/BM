@@ -39,7 +39,7 @@
   transform: scale(1.02);
 }
 
-#indexs-index .card a {
+.card a {
   color: black;
 }
 
@@ -68,8 +68,8 @@
   font-size: 20px;
 }
 
-.pill-icon a,
-.pill-text a {
+.card .pill-icon a,
+.card .pill-text a {
   color: white;
 }
 
