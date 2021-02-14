@@ -2,3 +2,25 @@
 .wrapper-cta h3 {
   margin-bottom: 30px;
 }
+
+/* wrapper help */
+.big-pill {
+  width: 90%;
+  border-radius: 0px 300px 300px 0px;
+}
+
+.big-pill .btn-bm-border:hover {
+  background: white;
+  color: var(--green);
+}
+
+@media screen and (max-width: 500px) {
+  .big-pill {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .big-pill > div {
+    padding: 0px;
+    margin: 0px auto;
+  }
+}
