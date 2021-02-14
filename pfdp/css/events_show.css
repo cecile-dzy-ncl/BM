@@ -40,6 +40,30 @@
   display: flex;
 }
 
+.section-my-event .first-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-my-event .first-section > .columns:last-of-type {
+  width: 100%;
+}
+
+ul.donators {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0 80px;
+}
+
+ul.donators li {
+  width: 20%;
+}
+
+section.section-my-event aside h3,
+section.section-my-event aside #widget-count-gift {
+  text-align: left !important;
+}
+
 @media screen and (max-width: 500px) {
   .intro-my-event {
     width: 75%;
