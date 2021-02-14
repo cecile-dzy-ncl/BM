@@ -9,6 +9,16 @@
   text-transform: none;
 }
 
+.section-home-projects a.button {
+  float: none !important;
+  margin: 0 auto 35px;
+  display: block;
+  width: fit-content;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm {
     padding: 1rem 2rem;
