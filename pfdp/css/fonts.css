@@ -65,7 +65,7 @@ h2.intertitre span#link1:after {
   z-index: -1;
 }
 
-h2.intertitre span#link3:after {
+h2.intertitre span#link1:before {
   content: "";
   position: absolute;
   height: 40px;
