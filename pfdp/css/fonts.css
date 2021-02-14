@@ -155,7 +155,8 @@ span.stat-number {
   }
 
   h2.intertitre span:before,
-  h2.intertitre span:after {
-    content: none;
+  h2.intertitre span:after,
+  h2.intertitre br {
+    display: none;
   }
 }
