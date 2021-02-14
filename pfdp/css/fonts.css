@@ -49,6 +49,7 @@ h2.intertitre span {
   text-align: center;
   background: white;
   padding: 0 15px;
+  z-index: 0;
 }
 
 h2.intertitre span#link1:after {
