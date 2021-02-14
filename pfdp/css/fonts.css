@@ -55,7 +55,7 @@ h2.intertitre span {
 h2.intertitre span#link1:after {
   content: "";
   position: absolute;
-  height: 32px;
+  height: 40px;
   width: 150px;
   border-radius: 50px;
   background: white;
@@ -68,7 +68,7 @@ h2.intertitre span#link1:after {
 h2.intertitre span#link3:after {
   content: "";
   position: absolute;
-  height: 32px;
+  height: 40px;
   width: 150px;
   border-radius: 50px;
   background: white;
@@ -78,29 +78,6 @@ h2.intertitre span#link3:after {
   border: 5px solid red;
   z-index: -1;
 }
-/* 
-h2.intertitre {
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  width: fit-content;
-  margin: auto;
-  background: white;
-  z-index: 10;
-}
-h2.intertitre:before {
-  content: "";
-  width: 80px;
-  height: 40px;
-  /* background-color: var(--red); */
-  left: -25px;
-  top: 50%;
-  position: absolute;
-  border-radius: 30px;
-  border: 3px solid var(--red);
-  z-index: -2;
-} */
 
 h3 {
   font-weight: 600;
