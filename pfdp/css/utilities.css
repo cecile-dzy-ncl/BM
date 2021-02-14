@@ -58,6 +58,13 @@ form#event-search input {
   /* background: red; */
 }
 
+.step {
+  font-size: 14px;
+  width: fit-content;
+  padding: 0.25rem 1rem;
+  height: auto;
+}
+
 @media screen and (max-width: 500px) {
   .compteur {
     flex-direction: column;
@@ -72,13 +79,13 @@ form#event-search input {
     border-radius: 0px;
     width: 100%;
   }
-  
+
   .pill-radius-r {
     border-radius: 0px;
     border: none;
     width: 100%;
   }
-  #wrapper-ex.div{
+  #wrapper-ex.div {
     width: 100%;
   }
 }
