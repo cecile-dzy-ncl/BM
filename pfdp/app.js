@@ -18,8 +18,6 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#events-show")) {
-      // ajout du bloc stats en début de page
-
       var eventProjectsNb = $("body#events-show").find("#projects").length;
       var amountRaised = $("body#events-show").find(".current-amount").html();
 
