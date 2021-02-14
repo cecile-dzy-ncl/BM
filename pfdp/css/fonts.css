@@ -154,6 +154,10 @@ span.stat-number {
     min-width: 25%;
   }
 
+  h2.intertitre span {
+    padding: 0;
+  }
+
   h2.intertitre span:before,
   h2.intertitre span:after,
   h2.intertitre br {
