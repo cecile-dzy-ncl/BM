@@ -6,6 +6,10 @@
   color: var(--burgundy);
 }
 
+.red {
+  color: var(--red);
+}
+
 .bg-primary {
   background-color: #671c3d;
   background-color: var(--primary);

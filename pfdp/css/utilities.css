@@ -40,6 +40,16 @@ form#event-search input {
   width: 90%;
 }
 
+.pill-radius {
+  border-radius: 0px 350px 350px 0px;
+}
+
+.pill-radius-r {
+  border-radius: 350px 0px 0px 350px;
+  border: 3px solid var(--burgundy);
+  border-right: none;
+}
+
 .shape {
   height: 55px;
   width: 55px;
@@ -56,5 +66,19 @@ form#event-search input {
   .compteur > div {
     width: 100%;
     margin-bottom: 25px;
+  }
+
+  .pill-radius {
+    border-radius: 0px;
+    width: 100%;
+  }
+  
+  .pill-radius-r {
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+  }
+  #wrapper-ex.div{
+    width: 100%;
   }
 }
