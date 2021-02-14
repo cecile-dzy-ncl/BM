@@ -52,6 +52,7 @@ h2.intertitre span {
   z-index: 0;
 }
 
+h2.intertitre span#link1:before,
 h2.intertitre span#link1:after {
   content: "";
   position: absolute;
@@ -59,24 +60,19 @@ h2.intertitre span#link1:after {
   width: 150px;
   border-radius: 50px;
   background: white;
-  right: -50px;
-  top: 50%;
   border: 5px solid red;
   z-index: -1;
 }
 
 h2.intertitre span#link1:before {
-  content: "";
-  position: absolute;
-  height: 40px;
-  width: 150px;
-  border-radius: 50px;
-  background: white;
-  left: 50px;
-  top: -20px;
+  left: 90px;
+  top: 60px;
   transform: translateX(-100%);
-  border: 5px solid red;
-  z-index: -1;
+}
+
+h2.intertitre span#link1:after {
+  right: -50px;
+  top: 50%;
 }
 
 h3 {
@@ -156,5 +152,10 @@ span.stat-number {
   .why-fund span:before {
     font-size: 130px;
     min-width: 25%;
+  }
+
+  h2.intertitre span:before,
+  h2.intertitre span:after {
+    content: none;
   }
 }
