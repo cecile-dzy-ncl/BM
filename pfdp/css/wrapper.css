@@ -10,7 +10,7 @@
 }
 
 .big-pill .btn-bm-border:hover {
-  background: white;
+  background: white !important;
   color: var(--green);
 }
 
