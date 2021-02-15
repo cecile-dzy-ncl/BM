@@ -99,13 +99,45 @@
   background-color: var(--lightergrey);
 }
 
+
+/* ********** TESTIMONIALS ******************* */
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.testimonial {
+  min-width: 288px;
+  min-height: 288px;
+}
+
+.testimonial-text{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.testimonial-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+
+
 @media screen and (max-width: 500px) {
   .cards {
     grid-template-columns: 1fr;
   }
   .card {
-    /* min-height: 338px; */
-    /* margin-bottom: 50px; */
   }
   .pill-text {
     font-size: 20px;
@@ -124,4 +156,12 @@
   .pill img {
     margin-right: 12px;
   }
+  
+  .testimonials {
+    display: grid;
+    grid-template-columns: none;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+
 }
