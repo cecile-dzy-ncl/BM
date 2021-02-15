@@ -12,9 +12,9 @@ $(document).ready(function () {
   // $(".credits").appendTo("section#project_tabs + section .row");
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance =
-    "<div class='maintenance p-5 bg-burgundy'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
-  $("#banner_section").before(bannerMaintenance);
+  // var bannerMaintenance =
+  // "<div class='maintenance p-5 bg-burgundy'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
+  // $("#banner_section").before(bannerMaintenance);
 
   $(function () {
     if ($("body").is("#events-show")) {
