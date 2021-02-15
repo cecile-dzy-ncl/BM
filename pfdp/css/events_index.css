@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+  .event-item .panel .event-image {
+    z-index: 1;
+  }
+  .event-item .panel .event-image .wrap {
+    background-color: transparent;
+  }
+
+  .section-events .event-item .event-description {
+    margin-top: 4px;
+  }
+
+  .section-events .event-item .event-details {
+    margin-top: -20px;
+  }
+}
