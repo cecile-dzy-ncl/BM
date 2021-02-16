@@ -65,6 +65,10 @@ form#event-search input {
   height: auto;
 }
 
+input[type="submit"] {
+  border-radius: 30px;
+}
+
 @media screen and (max-width: 500px) {
   .compteur {
     flex-direction: column;
