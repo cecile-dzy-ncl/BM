@@ -167,6 +167,11 @@
   
   .testimonials {
     grid-template-columns: none;
+    max-height: none;
+  }
+
+  .testimonial {
+    max-height: 300px;
   }
 
 }
