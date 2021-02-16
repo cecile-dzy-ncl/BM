@@ -108,11 +108,18 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  max-height: 570px;
 }
 
 .testimonial {
   min-width: 288px;
   min-height: 288px;
+}
+
+.testimonial img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .testimonial-text{
