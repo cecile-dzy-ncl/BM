@@ -69,6 +69,18 @@ input[type="submit"] {
   border-radius: 30px;
 }
 
+#cookies-iraiser {
+  width: 350px;
+}
+
+#cookies-iraiser p {
+  margin: 0 auto;
+  float: none;
+  font-size: 1rem;
+  width: 90%;
+  word-break: break-all;
+}
+
 @media screen and (max-width: 500px) {
   .compteur {
     flex-direction: column;
