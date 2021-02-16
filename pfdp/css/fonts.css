@@ -60,7 +60,7 @@ h2.intertitre span#link1:after {
   width: 150px;
   border-radius: 50px;
   background: white;
-  border: 5px solid red;
+  border: 5px solid #e52645;
   z-index: -1;
 }
 
