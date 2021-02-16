@@ -159,10 +159,7 @@
   }
   
   .testimonials {
-    display: grid;
     grid-template-columns: none;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
   }
 
 }
