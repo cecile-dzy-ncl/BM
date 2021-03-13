@@ -1,3 +1,7 @@
 .bg-orange {
   background-color: var(--orange);
 }
+
+.orange {
+  color: var(--orange);
+}
