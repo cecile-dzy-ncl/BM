@@ -6,9 +6,18 @@
 
 .banner.homepage {
   background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/mainimagearc.jpg");
+  justify-content: flex-start;
 }
 
 .banner.homepage .banner-text {
-  width: 522px;
+  width: 575px;
+  margin-left: 390px;
   text-align: left;
+}
+
+@media screen and (max-width: 500px) {
+  .banner.homepage .banner-text {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
