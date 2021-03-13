@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css?family=Acme");
+
+/* Général */
+body {
+  background-color: #2d3b69;
+}
+p {
+  line-height: 1.75rem;
+}
+
+#wrapper {
+  border: 10px solid #fdc689;
+}
+
+i.fa {
+  display: none;
+}
+
+body.projects-index .section-projets {
+  margin-top: 3em;
+}
+
+body#indexs-index div.intro {
+  background: #ffffff;
+}
+
+.habillage::after {
+  background-image: none;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Acme";
+}
+.button {
+  background-color: #e79a80;
+  border-color: transparent;
+  border-radius: 5px;
+  color: #2d3b69;
+}
+.button:hover {
+  background-color: #fdc689;
+  color: #2d3b69;
+}
+
+#form-project input[type="text"],
+#form-project input[type="password"],
+#form-project input[type="date"],
+#form-project input[type="datetime"],
+#form-project input[type="datetime-local"],
+#form-project input[type="month"],
+#form-project input[type="week"],
+#form-project input[type="email"],
+#form-project input[type="number"],
+#form-project input[type="search"],
+#form-project input[type="tel"],
+#form-project input[type="time"],
+#form-project input[type="url"],
+#form-project input[type="color"],
+#form-project select {
+  width: 100%;
+}
+
+/* Header */
+header.main-header,
+header.main-header #header-header {
+  background-color: transparent;
+}
+
+#header-header .row {
+  padding: 2em 0;
+}
+
+header.main-header .top-bar-section {
+  background: none !important;
+}
+
+header.main-header div.header-spacer div:first-child {
+  display: none !important;
+}
+header.main-header .navbar-search {
+  display: none !important;
+}
+header.main-header nav.top-bar .left {
+  float: none !important;
+}
+
+header.main-header nav.top-bar-section {
+  background-color: transparent !important;
+}
+
+#header-header .top-bar-section li a {
+  text-align: left;
+}
+header.main-header nav.top-bar a.button {
+  background-color: #fff;
+  border-color: transparent;
+  color: #2d3b69;
+  border-radius: 5px;
+}
+#header-header .top-bar .left {
+  width: auto;
+}
+
+header.main-header nav.top-bar a.button:hover {
+  color: #2d3b69;
+  background-color: #e79a80;
+}
+
+header.main-header a.admin_button {
+  background-color: #fdc689;
+  color: #2d3b69;
+  z-index: 10000;
+  border-radius: 0px !important;
+}
+header.main-header a.admin_button:hover {
+  background-color: #e79a80;
+  color: #2d3b69;
+}
+
+header.main-header nav.top-bar ul.left li a {
+  background: transparent !important;
+}
+header.main-header nav.top-bar .top-bar-section ul li.has-dropdown > a {
+  color: #fff !important;
+}
+header.main-header .dropdown li:not(.has-form):not(.active) a:not(.button) {
+  color: #2d3b69 !important;
+}
+header.main-header nav.top-bar ul.dropdown li a:hover {
+  background-color: #fdc689 !important;
+}
+
+header.main-header .top-bar-section {
+  background-color: transparent;
+}
+
+/* Menu principal */
+header.main-header #main-nav {
+  box-shadow: none;
+  background: #fdc689 !important;
+}
+header.main-header .top-bar-section {
+}
+
+header.main-header .top-bar-section ul.center {
+  display: block;
+  max-width: 71.25em;
+  text-align: left;
+  margin: 0 auto;
+  background: #fdc689;
+}
+
+#main-nav > section > ul > li {
+  border-right: none;
+  background: #fdc689;
+}
+
+#main-nav > section > ul > li > a {
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #2d3b69;
+  text-shadow: none;
+  letter-spacing: 0;
+  background-color: #fdc689;
+  font-size: 16px;
+}
+
+#main-nav > section > ul > li.nodropdown:hover,
+#main-nav > section > ul > li.nodropdown:hover a,
+#main-nav > section > ul > li.nodropdown > a:hover,
+#main-nav > section > ul > li > a:hover {
+  background-color: #e79a80 !important;
+}
+
+#main-nav > section > ul > li:last-child a {
+  background-color: #e79a80 !important;
+}
+#main-nav > section > ul > li:last-child a:hover {
+  background-color: #fdc689 !important;
+}
+
+/* Corps des Pages */
+.bg-color-light-blurred {
+  background-color: #eee;
+}
+
+/* Accueil */
+body#indexs-index div.intro {
+  background: transparent;
+  /*padding:0;*/
+  margin: 0;
+}
+.soutenir h1 {
+  color: #fdc689;
+  line-height: 1.3;
+}
+.soutenir p {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+/* Banniere */
+
+#projects-new #banner_section,
+#projects-show #banner_section {
+  display: none;
+}
+
+/*Page Pandathlon */
+.event_type_peer_to_peer.event_66 .bg-secondary-color-blurred {
+  background-color: #eee;
+  padding-top: 1em;
+}
+.event_type_peer_to_peer.event_66 .section-my-event .first-section {
+  background-color: #fdc689;
+}
+/*.event_type_peer_to_peer.event_66 .event-head{
+	padding-top:543px;
+	background:url('https://cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/banniere.jpg') no-repeat top center;
+	background-size: 1140px 543px}*/
+
+.event_type_peer_to_peer.event_66 .aside-event-list {
+  display: none;
+}
+.event_type_peer_to_peer.event_66 #widget-new-project .button {
+  border-radius: 5px;
+}
+.people .secondary-color {
+  color: #2d3b69 !important;
+}
+
+/* Page connexion */
+.-new h1 {
+  padding-bottom: 2em;
+}
+
+/* Page profil */
+#my-profile .tabs a {
+  color: #2d3b69;
+}
+#my-profile .tabs .active a {
+  color: #2d3b69;
+  background-color: #e79a80;
+}
+input.button {
+  color: #2d3b69 !important;
+}
+
+/* Page liste équipe */
+body .bg-color-light {
+  background-color: #eee;
+}
+body.projects-index .first-section #front-search-filter {
+  display: none;
+}
+body.projects-index .first-section .panel {
+  background-color: transparent !important;
+  border: none;
+}
+body.projects-index .first-section .panel h1 {
+  text-indent: -9999px;
+}
+body.projects-index .first-section .panel h1:before {
+  text-indent: 0;
+  content: "Les équipes de Pandathlètes à soutenir !";
+  float: left;
+  color: #fdc689;
+}
+.projects-list .panel h3 a,
+section.section-projet-details h1#show_title {
+  /*font-family:'Acme' !important;*/
+  font-family: "Helvetica", "Arial", sans-serif !important;
+  font-weight: bold;
+  color: #2d3b69;
+}
+.projects-list .panel h3 a,
+.projects-list .panel h3 a:hover,
+.projects-list .panel h3 a:focus {
+  font-size: 16px;
+}
+ul.pagination li.unavailable a,
+ul.pagination li.unavailable a:hover {
+  opacity: 0.5;
+  background-color: #707070;
+  color: #fff !important;
+}
+ul.pagination li.projects-paginate.unavailable a {
+  opacity: 1;
+  background-color: #eee;
+  color: #707070 !important;
+}
+ul.pagination li.unavailable a,
+ul.pagination li button.unavailable {
+  color: #707070;
+}
+ul.pagination li a,
+ul.pagination li button {
+  background-color: #707070;
+}
+
+/* Page équipe */
+section.section-projet-details .project-detail-data {
+  color: #2d3b69 !important;
+}
+section.section-projet-details .infos-money .chart-wrap .percent {
+  color: #2d3b69;
+}
+section.section-projet-details h1#show_title {
+  text-align: left;
+  font-size: 28px;
+}
+.bg-primary-color {
+}
+.project_boutons_join.bg-color-dark {
+  background-color: transparent !important;
+  color: #2d3b69 !important;
+}
+.projet-head .from_event i.fa {
+  display: none;
+}
+.projet-head .from_event a {
+  display: block;
+  background: url("https://cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/soutenir.png")
+    no-repeat center left;
+  background-size: 72px 72px;
+  padding: 25px 0px 25px 90px;
+  min-height: 42px;
+  color: #2d3b69;
+}
+
+h1#show_title {
+  padding: 1em 0;
+  color: #2d3b69;
+}
+.bg-color-light {
+  background-color: #fff;
+}
+section.section-projet-details .project-detail-data .project_boutons_give {
+  font-family: "Acme";
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #2d3b69;
+  background-color: #e79a80 !important;
+  border-radius: 5px;
+  min-height: 3.5rem;
+}
+section.section-projet-details
+  .project-detail-data
+  .project_boutons_give:hover {
+  background-color: #fdc689 !important;
+}
+section.section-projet-details .project-detail-data .project_boutons_give i.fa {
+  display: none;
+}
+#show_team a {
+  margin-top: 1em;
+  background-color: #e79a80;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  margin-top: 1.5em;
+  color: #2d3b69;
+  font-family: "Acme";
+}
+#show_team a:hover {
+  background-color: #fdc689;
+}
+li.maybevideocontainer {
+  height: auto;
+  background-color: transparent;
+}
+.ui-accordion .ui-accordion-content {
+  height: auto !important;
+}
+
+/*.block-share div:nth-child(4){display: none;}*/
+.tabs dd.active a {
+  background-color: #fdc689;
+  color: #2d3b69;
+}
+
+/* Tunnel inscription page 1 */
+.projects-new #step_content .row div.preview-action,
+.projects-new #step_content .row div.actions,
+.projects-new #step_content .row div {
+  text-align: center;
+}
+.projects-new #step_content form#new_project .row div {
+  text-align: left;
+}
+#form-project .tabs .active a {
+  background-color: #fff;
+  color: #2d3b69;
+}
+#form-project .tabs a {
+  background-color: #ccc;
+  color: #2d3b69;
+}
+#form-project .tabs {
+  text-align: center;
+}
+#form-project .tabs dd {
+  float: none;
+  display: inline-block;
+  margin-bottom: 10px !important;
+}
+/*form#new-project input{width:100%;}*/
+.projects-new #step_content form#new_project .row div.preview-action,
+.projects-new #step_content form#new_project .row div.large-centered {
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #fdc689;
+}
+footer .top-bar-section ul li,
+footer .top-bar-section ul li a {
+  color: #2d3b69;
+}
+footer .top-bar-section li:not(.has-form) a:not(.button),
+footer .top-bar-section ul li {
+  background-color: transparent;
+}
+footer .top-bar-section li a:hover,
+footer .top-bar-section ul li a:hover {
+  background-color: transparent !important;
+  text-decoration: underline;
+  color: #2d3b69 !important;
+}
+footer ul.right {
+  padding-top: 1em;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+  header.main-header a.logo img {
+    margin: 0 !important;
+  }
+  /*#header-header .top-bar .left {float:none !important;}*/
+}
+
+@media screen and (min-width: 1025px) {
+  #main-nav > section > ul > li:last-child,
+  #main-nav > section > ul > li:last-child a {
+    float: right;
+  }
+  header.main-header .top-bar-section {
+    text-align: right;
+  }
+  body#indexs-index div.intro {
+    padding: 0;
+  }
+  div.soutenir.large-8,
+  div.soutenir.large-4 {
+    display: table-cell;
+    float: none !important;
+    vertical-align: middle;
+  }
+  section.section-projet-details h1#show_title {
+    text-align: left;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1199px) {
+  nav#main-nav section.top-bar-section > ul > li a {
+    max-width: none;
+  }
+  div.header-spacer {
+    display: flex;
+    flex-direction: row;
+  }
+  div.header-spacer div.medium-6 {
+    display: inline-block;
+    width: 100% !important;
+    float: none !important;
+    right: auto !important;
+    left: auto !important;
+  }
+  header.main-header .top-bar-section {
+    text-align: right;
+    padding-right: 3em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  #main-nav > section > ul > li > a {
+    padding: 0 0.3em;
+    font-size: 13px;
+  }
+  /*header.main-header .top-bar-section {text-align: center;}*/
+  div.soutenir.large-8,
+  div.soutenir.large-4 {
+    display: table-cell;
+    float: none !important;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  /*header.main-header .top-bar-section{text-align:center;}*/
+  .top-bar {
+    background-color: transparent !important;
+  }
+  .top-bar#main-nav {
+    background-color: #fff !important;
+  }
+  section.top-bar-section {
+    text-align: center;
+  }
+  h1#show_title {
+    padding: 0 0;
+  }
+  section.section-projet-details .from_event {
+    margin-right: 0;
+  }
+  section.section-projet-details .from_event.right {
+    float: none !important;
+    text-align: center;
+    margin-top: 1em;
+  }
+  .projet-head .from_event a {
+    /*background: none;*/
+    padding: 75px 0px 25px 0;
+    background-position: top center;
+  }
+  ul.pagination {
+    text-align: center;
+  }
+  ul.pagination li {
+    display: inline-block;
+    float: none;
+  }
+  footer nav.top-bar {
+    display: none;
+  }
+  div.soutenir.large-8,
+  div.soutenir.large-4 {
+  }
+  section.section-projet-details h1#show_title {
+    text-align: center;
+  }
+  header.main-header .dropdown li:not(.has-form):not(.active) a:not(.button) {
+    color: #fff !important;
+  }
+
+  .bx-viewport {
+    height: auto !important;
+  }
+  .block-share-container h4.text-center {
+    display: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+}

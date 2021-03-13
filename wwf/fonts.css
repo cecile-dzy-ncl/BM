@@ -1,0 +1,170 @@
+/* ------------------- FONTS ------------------- */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&family=Source+Serif+Pro&display=swap");
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Source Serif Pro', serif; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: left;
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h5,
+p,
+span {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 39px;
+}
+
+h2.intertitre {
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: black;
+}
+
+h2.intertitre span {
+  position: relative;
+  text-align: center;
+  background: white;
+  padding: 0 15px;
+  z-index: 0;
+}
+
+h2.intertitre span#link1:before,
+h2.intertitre span#link1:after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 150px;
+  border-radius: 50px;
+  background: white;
+  border: 5px solid #e52645;
+  z-index: -1;
+}
+
+h2.intertitre span#link1:before {
+  left: 90px;
+  top: 60px;
+  transform: translateX(-100%);
+}
+
+h2.intertitre span#link1:after {
+  right: -50px;
+  top: 50%;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  color: black;
+}
+
+h4 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+span.stat-number {
+  font-size: 70px;
+  line-height: 85px;
+}
+
+.why-fund h5 {
+  margin-bottom: 1rem;
+}
+
+.why-fund span {
+  margin: 0px;
+  font-size: 200px;
+  color: var(--red);
+  position: relative;
+  font-weight: 600;
+  line-height: 140px;
+}
+
+.why-fund span:before {
+  content: attr(data-number);
+  font-family: "Montserrat";
+  margin: 0px;
+  font-size: 200px;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--burgundy);
+  position: absolute;
+  top: 4px;
+  left: -7px;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    /* font-size: 30px; */
+  }
+
+  h1#show_title {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  span.stat-number {
+    font-size: 60px;
+  }
+
+  .why-fund span {
+    font-size: 130px;
+    min-width: 25%;
+  }
+
+  .why-fund span:before {
+    font-size: 130px;
+    min-width: 25%;
+  }
+
+  h2.intertitre span {
+    padding: 0;
+  }
+
+  h2.intertitre span:before,
+  h2.intertitre span:after,
+  h2.intertitre br {
+    display: none;
+  }
+}
