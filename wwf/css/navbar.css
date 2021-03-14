@@ -1,0 +1,17 @@
+section.top-bar-section {
+  background: #fff !important;
+}
+
+#main-nav > section > ul > li {
+  border: none;
+  background-color: transparent;
+}
+
+#main-nav > section > ul > li > a {
+  color: black;
+  font-family: "WWFRegular";
+  letter-spacing: 0px;
+  text-shadow: none;
+  display: block;
+  font-size: 22px;
+}
