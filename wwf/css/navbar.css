@@ -15,3 +15,7 @@ section.top-bar-section {
   display: block;
   font-size: 22px;
 }
+
+#main-nav section.top-bar-section li:not(:last-child):after {
+  display: none;
+}
