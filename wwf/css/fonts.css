@@ -37,54 +37,18 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
-  line-height: 39px;
+  font-size: 40px;
+  line-height: 40px;
   color: black;
   text-transform: uppercase;
-}
-
-h2.intertitre {
-  text-align: center;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: black;
-}
-
-h2.intertitre span {
-  position: relative;
-  text-align: center;
-  background: white;
-  padding: 0 15px;
-  z-index: 0;
-}
-
-h2.intertitre span#link1:before,
-h2.intertitre span#link1:after {
-  content: "";
-  position: absolute;
-  height: 40px;
-  width: 150px;
-  border-radius: 50px;
-  background: white;
-  border: 5px solid #e52645;
-  z-index: -1;
-}
-
-h2.intertitre span#link1:before {
-  left: 90px;
-  top: 60px;
-  transform: translateX(-100%);
-}
-
-h2.intertitre span#link1:after {
-  right: -50px;
-  top: 50%;
 }
 
 h3 {
   font-weight: 600;
   font-size: 32px;
+  line-height: 40px;
   color: black;
+  text-transform: uppercase;
 }
 
 h4 {
