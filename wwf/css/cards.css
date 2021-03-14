@@ -8,3 +8,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.campagne-card span {
+  text-transform: uppercase;
+}
