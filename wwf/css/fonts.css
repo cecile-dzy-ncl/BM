@@ -97,6 +97,10 @@ h5 {
   line-height: 29px;
 }
 
+h6.step {
+  font-size: 16px;
+}
+
 p {
   margin-bottom: 0;
   font-size: 16px;
