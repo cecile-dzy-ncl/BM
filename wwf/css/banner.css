@@ -19,6 +19,10 @@
   font-family: "Source Serif Pro", serif;
 }
 
+.wrapper-steps {
+  background: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/fondwwf.png");
+}
+
 @media screen and (max-width: 500px) {
   .banner.homepage .banner-text {
     width: 100%;
