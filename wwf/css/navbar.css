@@ -1,3 +1,7 @@
+#main-nav {
+  box-shadow: none;
+}
+
 section.top-bar-section {
   background: #fff !important;
 }
