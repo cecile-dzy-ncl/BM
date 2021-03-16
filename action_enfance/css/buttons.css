@@ -11,6 +11,7 @@ button,
   font-weight: 700;
   font-family: "Barlow Condensed";
   transition: background-color 300ms ease-out, border-color 300ms ease-out;
+  display: block;
 }
 
 .button:hover,
