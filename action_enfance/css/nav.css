@@ -59,7 +59,7 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   color: white;
 }
 
-header .top-bar-section li.nodropdown:first-child a {
+header .top-bar-section li a.active {
   color: var(--blue);
 }
 
