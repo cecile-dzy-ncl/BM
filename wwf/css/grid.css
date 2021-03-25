@@ -8,6 +8,7 @@
 
 .grid-mission div {
   height: 344px;
+  background-size: cover;
 }
 
 .grid-mission > div:nth-child(1) {
