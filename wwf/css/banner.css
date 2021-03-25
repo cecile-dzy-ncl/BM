@@ -2,14 +2,10 @@
 
 .banner {
   height: 720px;
-}
-
-.banner.homepage {
-  background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/mainimagearc.jpg");
   justify-content: flex-start;
 }
 
-.banner.homepage .banner-text {
+.banner .banner-text {
   width: 575px;
   /* margin-left: 390px; */
   text-align: left;
@@ -19,13 +15,21 @@
   font-family: "Source Serif Pro", serif;
 }
 
+.banner.homepage {
+  background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/mainimagearc.jpg");
+}
+
+.banner.mission {
+  background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/mainimageballon.jpg");
+}
+
 .wrapper-step {
   background: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/fondwwf.png");
   background-size: cover;
 }
 
 @media screen and (max-width: 500px) {
-  .banner.homepage .banner-text {
+  .banner .banner-text {
     width: 100%;
     margin-left: 0px;
   }
