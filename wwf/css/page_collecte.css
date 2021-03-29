@@ -137,6 +137,7 @@ section#project_tabs + section .row {
   background-position: bottom center;
   background-size: cover;
   position: relative;
+  padding: 100px 0;
 }
 
 /* .project_event_description {
