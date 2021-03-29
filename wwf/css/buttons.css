@@ -9,3 +9,7 @@
   background-color: var(--orange);
   border-color: var(--orange);
 }
+
+a {
+  color: var(--orange);
+}
