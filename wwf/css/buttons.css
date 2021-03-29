@@ -3,3 +3,9 @@
   font-family: "WWFRegular";
   font-size: 22px;
 }
+
+.button,
+.button {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
