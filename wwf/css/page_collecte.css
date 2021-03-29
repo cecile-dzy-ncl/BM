@@ -139,7 +139,7 @@ section#project_tabs + section .row {
   position: relative;
 }
 
-.project_event_description {
+/* .project_event_description {
   height: 600px;
   width: 400px;
   margin-right: 150px !important;
@@ -148,7 +148,7 @@ section#project_tabs + section .row {
   justify-content: center;
   float: right !important;
   text-align: right;
-}
+} */
 
 .credits {
   position: absolute;
