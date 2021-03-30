@@ -164,3 +164,20 @@ section#project_tabs + section .row {
 .tabs-content .active.content {
   padding-top: 50px;
 }
+
+section.section-projet-details .project_boutons_give {
+  font-family: "WWFRegular";
+  background-color: var(--orange) !important;
+}
+
+section.section-projet-details
+  .project-detail-data
+  .infos-money
+  .chart-wrap.light
+  .percent,
+#projects-show .current-amount,
+#projects-show .objectif-amount,
+#projects-show #show_days,
+#projects-show .contributeurs p {
+  font-family: "WWFRegular";
+}
