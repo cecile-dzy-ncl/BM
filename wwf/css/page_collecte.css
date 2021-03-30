@@ -176,8 +176,7 @@ section.section-projet-details
   .chart-wrap.light
   .percent,
 #projects-show .current-amount,
-#projects-show .objectif-amount,
 #projects-show #show_days,
-#projects-show .contributeurs p {
+#projects-show .contributeurs span {
   font-family: "WWFRegular";
 }
