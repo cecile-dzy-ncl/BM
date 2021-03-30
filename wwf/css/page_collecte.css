@@ -124,7 +124,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .project_payment #list_payment .people p.money {
-  color: #e04e39;
+  color: var(--orange);
 }
 
 #show_description {

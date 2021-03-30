@@ -13,3 +13,7 @@
 a {
   color: var(--orange);
 }
+
+section.section-projet-details .project_boutons_give {
+  background-color: var(--orange) !important;
+}
