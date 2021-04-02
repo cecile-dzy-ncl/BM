@@ -40,7 +40,6 @@ section.section-projet-details h1#show_title {
   font-size: 30px;
   line-height: 40px;
   margin: 0;
-  margin-bottom: 9px;
   text-transform: uppercase;
 }
 
@@ -58,6 +57,7 @@ section.section-projet-details .project-detail-data .current-amount {
   font-size: 60px;
   line-height: 89px;
 }
+
 /*  section.section-projet-details .project-detail-data .current-amount,*/
 section.section-projet-details .project-detail-data .contributeurs span,
 section.section-projet-details .project-detail-data .jours-restants span {
