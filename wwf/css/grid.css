@@ -34,3 +34,15 @@
   grid-area: 3 / 2 / 4 / 3;
   background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/climat2x.png");
 }
+
+@media screen and (max-width: 1140px) {
+  .campagnes-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .campagnes-grid {
+    grid-template-columns: 1fr;
+  }
+}
