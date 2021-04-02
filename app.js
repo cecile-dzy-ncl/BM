@@ -9,13 +9,11 @@ $(document).ready(function () {
     $("body").addClass("homepage");
   }
 
-  $(function () {
-    if (location.pathname != "/") {
-      $('a[href^="' + location.pathname + '"]').addClass("active");
-    } else {
-      $('a[href="/"]').addClass("active");
-    }
-  });
+  if (location.pathname != "/") {
+    $('a[href^="' + location.pathname + '"]').addClass("active");
+  } else {
+    $('a[href="/"]').addClass("active");
+  }
 
   // $("footer ul.right img").attr("src", "https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/poweredbyiraiser2x.png")
   $("footer ul.right img").attr(
