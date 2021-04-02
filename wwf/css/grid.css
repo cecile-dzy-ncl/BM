@@ -38,7 +38,15 @@
 .wrapper-impact {
 }
 
-.wrapper-impact h2 {
+.list-impact h2 {
   font-size: 32px;
   text-transform: none;
+}
+
+.list-impact img {
+  width: 30%;
+}
+
+.list-impact {
+  display: flex;
 }
