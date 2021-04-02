@@ -35,18 +35,16 @@
   background-image: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/climat2x.png");
 }
 
-.wrapper-impact {
+.list-impact {
+  display: flex;
+  align-items: center;
 }
-
 .list-impact h2 {
   font-size: 32px;
   text-transform: none;
 }
 
 .list-impact img {
-  width: 30%;
-}
-
-.list-impact {
-  display: flex;
+  width: 387px;
+  margin-right: 75px;
 }
