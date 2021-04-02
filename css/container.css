@@ -37,6 +37,12 @@
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
+  .container-bm {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .container-bm,
   .container-large-bm,
   .container-medium-bm,
