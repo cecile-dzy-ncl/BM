@@ -41,6 +41,7 @@ section.section-projet-details h1#show_title {
   line-height: 40px;
   margin: 0;
   margin-bottom: 9px;
+  text-transform: uppercase;
 }
 
 p.team_by {
