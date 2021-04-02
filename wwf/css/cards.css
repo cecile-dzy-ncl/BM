@@ -30,4 +30,9 @@
 .step-card .step {
   background-color: var(--orange);
   color: white;
+  margin: 12px auto;
+}
+
+.step-card * {
+  text-align: center;
 }
