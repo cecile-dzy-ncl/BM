@@ -20,7 +20,8 @@ section.top-bar-section {
   font-size: 22px;
 }
 
-#main-nav > section > ul > li > a:hover {
+#main-nav > section > ul > li > a:hover,
+#main-nav > section > ul > li > a.active {
   background-color: transparent !important;
   color: var(--orange);
 }
