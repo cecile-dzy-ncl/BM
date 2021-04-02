@@ -23,6 +23,10 @@
   text-align: center;
 }
 
+.step-card {
+  margin-bottom: 70px;
+}
+
 .step-card .step {
   background-color: var(--orange);
   color: white;
