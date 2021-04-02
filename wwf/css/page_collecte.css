@@ -54,6 +54,10 @@ p.team_by {
   box-shadow: none;
 }
 
+section.section-projet-details .project-detail-data .current-amount {
+  font-size: 60px;
+  line-height: 89px;
+}
 /*  section.section-projet-details .project-detail-data .current-amount,*/
 section.section-projet-details .project-detail-data .contributeurs span,
 section.section-projet-details .project-detail-data .jours-restants span {
