@@ -6,6 +6,11 @@
   margin-bottom: 15px;
 }
 
+.dash.dash-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .banner .dash {
   background-color: white;
 }
