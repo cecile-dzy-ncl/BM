@@ -22,3 +22,8 @@
   color: white;
   text-align: center;
 }
+
+.step-card .step {
+  background-color: var(--orange);
+  color: white;
+}
