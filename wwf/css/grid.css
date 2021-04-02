@@ -38,7 +38,9 @@
 .list-impact {
   display: flex;
   align-items: center;
+  margin-bottom: 19px;
 }
+
 .list-impact h2 {
   font-size: 32px;
   text-transform: none;
