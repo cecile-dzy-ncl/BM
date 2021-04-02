@@ -53,6 +53,17 @@
   margin-right: 75px;
 }
 
+@media screen and (max-width: 1140px) {
+  .list-impact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .list-impact img {
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .list-impact {
     flex-direction: column;
