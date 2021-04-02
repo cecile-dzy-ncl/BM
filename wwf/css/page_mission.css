@@ -1,0 +1,49 @@
+.banner.impact + .wrapper {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.list-impact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.list-impact h2 {
+  font-size: 40px;
+  text-transform: none;
+  margin-bottom: 25px;
+}
+
+.list-impact img {
+  width: 387px;
+  height: 238px;
+  margin-right: 75px;
+}
+
+@media screen and (max-width: 1140px) {
+  .banner.impact + .wrapper {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+
+  .list-impact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .list-impact img {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .list-impact {
+    flex-direction: column;
+  }
+
+  .list-impact img {
+    width: 100%;
+    margin-right: 0;
+  }
+}
