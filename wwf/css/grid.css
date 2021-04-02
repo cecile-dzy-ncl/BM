@@ -60,5 +60,6 @@
 
   .list-impact img {
     width: 100%;
+    margin-right: 0;
   }
 }
