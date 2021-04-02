@@ -32,6 +32,12 @@
   background-size: cover;
 }
 
+@media screen and (max-width: 1140px) {
+  .banner .banner-text {
+    margin-left: 60px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .banner .banner-text {
     width: 100%;
