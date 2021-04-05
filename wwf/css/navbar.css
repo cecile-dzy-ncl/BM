@@ -33,3 +33,8 @@ section.top-bar-section {
 #header-header .top-bar {
   display: flex;
 }
+
+#header-header .top-bar .left {
+  width: 100%;
+  display: flex;
+}
