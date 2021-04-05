@@ -11,6 +11,10 @@
   text-align: left;
 }
 
+.banner .banner-text * {
+  color: white;
+}
+
 .banner .banner-text p {
   font-family: "Source Serif Pro", serif;
 }
