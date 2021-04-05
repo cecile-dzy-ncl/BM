@@ -1,7 +1,8 @@
 /* PAGE DE COLLECTE */
 
 #projects-show .bg-secondary-color-blurred,
-.section-projet-details > .row > .bg-color-light {
+.section-projet-details > .row > .bg-color-light,
+.section-projet-details > .bg-color-light {
   background: #000000;
 }
 
