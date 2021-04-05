@@ -188,3 +188,11 @@ section.section-projet-details
 #projects-show .contributeurs span {
   font-family: "WWFRegular";
 }
+
+@media screen and (max-width: 500px) {
+  .project_event_description .w-50,
+  .project_event_description iframe {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
