@@ -2,3 +2,7 @@
 #form-project .tabs .active a {
   background-color: black;
 }
+
+#form-project .tabs .active a {
+  padding: 16px 40px;
+}
