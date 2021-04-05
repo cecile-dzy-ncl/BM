@@ -11,10 +11,12 @@ $(document).ready(function () {
     "<li class='nodropdown footer-link-menu'><a href='https://www.wwf.fr/'>© WWF</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
-  $("#main-nav section.top-bar-section li:last-of-type").addClass("btn-bm");
-  $(".header-spacer .top-bar.left").append(
-    $("#main-nav section.top-bar-section li:last-of-type")
-  );
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    $("#main-nav section.top-bar-section li:last-of-type").addClass("btn-bm");
+    $(".header-spacer .top-bar.left").append(
+      $("#main-nav section.top-bar-section li:last-of-type")
+    );
+  }
 
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
