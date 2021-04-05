@@ -38,7 +38,8 @@
 }
 
 /* CARDS DE LA PAGE EVENT */
-.event-item .panel {
+.event-item .panel,
+.event-item .panel .event-image .wrap {
   background: #f0f0f0;
 }
 
