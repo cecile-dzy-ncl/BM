@@ -15,5 +15,16 @@ form#new_project {
 
 form#new_project .row:nth-of-type(6),
 form#new_project .actions.row {
-  width: 50%;
+  width: 40%;
+}
+
+form#new_project .actions.row .columns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-project .controls .g-recaptcha {
+  margin: 0 0;
 }
