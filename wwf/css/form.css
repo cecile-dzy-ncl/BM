@@ -32,4 +32,5 @@ form#new_project .actions.row .columns {
 
 form#new_project .button {
   margin: 0;
+  width: 200px;
 }
