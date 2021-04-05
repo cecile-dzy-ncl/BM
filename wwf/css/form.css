@@ -1,6 +1,7 @@
 #form-project .tabs a,
 #form-project .tabs .active a {
   background-color: black;
+  border-radius: 0;
 }
 
 #form-project .tabs .active a {
