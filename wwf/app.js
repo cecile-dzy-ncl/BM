@@ -12,6 +12,10 @@ $(document).ready(function () {
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   $("section.top-bar-section li:last-of-type").addClass("btn-bm");
+  $(".header-spacer section.top-bar-section .button").after(
+    $("section.top-bar-section li:last-of-type")
+  );
+
   // AJOUT BANNER MAINTENANCE
   var bannerMaintenance =
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
