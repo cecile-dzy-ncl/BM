@@ -36,3 +36,12 @@
 .step-card * {
   text-align: center;
 }
+
+/* CARDS DE LA PAGE EVENT */
+.event-item .panel {
+  background: #f0f0f0;
+}
+
+.event-description a {
+  color: black;
+}
