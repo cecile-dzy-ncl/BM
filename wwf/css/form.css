@@ -7,3 +7,13 @@
 #form-project .tabs .active a {
   padding: 16px 40px;
 }
+
+form#new_project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form#new_project .row:nth-of-type(6),
+form#new_project .actions.row {
+  width: 50%;
+}
