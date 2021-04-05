@@ -41,8 +41,13 @@ section.top-bar-section {
 
 li.btn-bm {
   margin: 0;
+  padding: 0 20px;
 }
 
 li.btn-bm a {
   color: white;
+}
+
+a.logo img {
+  margin-top: 10px;
 }
