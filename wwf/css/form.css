@@ -29,3 +29,7 @@ form#new_project .actions.row .columns {
 #form-project .controls .g-recaptcha {
   margin: 0 0;
 }
+
+form#new_project .button {
+  margin: 0;
+}
