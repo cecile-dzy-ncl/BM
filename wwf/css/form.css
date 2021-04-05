@@ -1,0 +1,4 @@
+#form-project .tabs a,
+#form-project .tabs .active a {
+  background-color: black;
+}
