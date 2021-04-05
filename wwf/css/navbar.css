@@ -29,3 +29,7 @@ section.top-bar-section {
 #main-nav section.top-bar-section li:not(:last-child):after {
   display: none;
 }
+
+#header-header .top-bar {
+  display: flex;
+}
