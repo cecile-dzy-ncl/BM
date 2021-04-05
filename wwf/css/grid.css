@@ -45,4 +45,16 @@
   .campagnes-grid {
     grid-template-columns: 1fr;
   }
+
+  .grid-mission {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .grid-mission > div:nth-child(1),
+  .grid-mission > div:nth-child(2),
+  .grid-mission > div:nth-child(3),
+  .grid-mission > div:nth-child(4),
+  .grid-mission > div:nth-child(5) {
+    grid-area: auto;
+  }
 }
