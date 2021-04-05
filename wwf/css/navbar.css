@@ -58,7 +58,7 @@ a.logo img {
   margin-top: 10px;
 }
 
-.top-bar .toggle-topbar.menu-icon a span:hover:after {
+.top-bar .toggle-topbar.menu-icon a span:after {
   box-shadow: 0 0px 0 1px #888, 0 7px 0 1px #888, 0 14px 0 1px #888;
 }
 
