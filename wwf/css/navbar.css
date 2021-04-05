@@ -31,6 +31,10 @@ section.top-bar-section {
   display: none;
 }
 
+header.main-header #header-header {
+  margin-bottom: 0;
+}
+
 #header-header .top-bar {
   display: flex;
 }
