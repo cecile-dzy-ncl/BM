@@ -19,3 +19,9 @@ a {
 .button:focus {
   background-color: #ec5b12 !important;
 }
+
+.header-spacer section.top-bar-section .button {
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+}
