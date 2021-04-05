@@ -7,10 +7,15 @@
 .button,
 .button {
   font-family: "WWFRegular";
-  background-color: var(--orange);
+  background-color: var(--orange) !important;
   border-color: var(--orange);
 }
 
 a {
   color: var(--orange);
+}
+
+.button:hover,
+.button:focus {
+  background-color: orange !important;
 }
