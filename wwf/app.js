@@ -13,7 +13,7 @@ $(document).ready(function () {
 
   $("section.top-bar-section li:last-of-type").addClass("btn-bm");
   $(".header-spacer .top-bar.left").append(
-    $("section.top-bar-section li:last-of-type")
+    $("#main-nav section.top-bar-section li:last-of-type")
   );
 
   // AJOUT BANNER MAINTENANCE
