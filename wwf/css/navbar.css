@@ -38,3 +38,11 @@ section.top-bar-section {
   width: 100%;
   display: flex;
 }
+
+li.btn-bm {
+  margin: 0;
+}
+
+li.btn-bm a {
+  color: white;
+}
