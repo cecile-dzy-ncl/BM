@@ -12,7 +12,7 @@ $(document).ready(function () {
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   $("section.top-bar-section li:last-of-type").addClass("btn-bm");
-  $(".header-spacer section.top-bar-section .button").after(
+  $(".header-spacer .top-bar.left").append(
     $("section.top-bar-section li:last-of-type")
   );
 
