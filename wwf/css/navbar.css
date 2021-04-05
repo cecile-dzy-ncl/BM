@@ -57,3 +57,11 @@ li.btn-bm a:hover {
 a.logo img {
   margin-top: 10px;
 }
+
+.top-bar .toggle-topbar.menu-icon a span:hover:after {
+  box-shadow: 0 0px 0 1px #888, 0 7px 0 1px #888, 0 14px 0 1px #888;
+}
+
+.top-bar.expanded .title-area {
+  background: #f0f0f0;
+}
