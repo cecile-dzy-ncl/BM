@@ -11,6 +11,7 @@
 form#new_project {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 300px;
 }
 
 form#new_project .row:nth-of-type(6),
