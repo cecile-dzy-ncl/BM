@@ -15,7 +15,9 @@ a {
   color: var(--orange);
 }
 
+.btn-bm:hover,
+.btn-bm:focus,
 .button:hover,
 .button:focus {
-  background-color: orange !important;
+  background-color: #ec5b12 !important;
 }
