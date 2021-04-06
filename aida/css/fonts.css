@@ -17,6 +17,7 @@
 body,
 * {
   font-family: "Helvetica" !important;
+  text-align: center;
 }
 
 h1,
@@ -28,4 +29,8 @@ h4 {
 
 h1 {
   font-size: 4rem;
+}
+
+p {
+  text-align: center;
 }
