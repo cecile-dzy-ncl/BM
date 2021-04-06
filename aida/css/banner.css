@@ -7,6 +7,10 @@
   background: var(--red);
 }
 
+.banner.homepage > * {
+  width: 50%;
+}
+
 .banner.homepage .banner-text * {
   color: white;
   text-align: left;
