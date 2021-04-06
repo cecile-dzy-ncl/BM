@@ -5,7 +5,7 @@
 
 .banner.homepage {
   background: var(--red);
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .banner.homepage > * {
