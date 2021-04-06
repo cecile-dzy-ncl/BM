@@ -6,9 +6,21 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("https://cecile-dzy-ncl.github.io/BM/aida/fonts/Helvetica.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
 h4 {
   font-family: "Jellee";
+}
+
+body {
+  font-family: "Helvetica";
 }
