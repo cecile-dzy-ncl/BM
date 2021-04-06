@@ -7,7 +7,8 @@ button,
   border-color: var(--red);
 }
 
-.btn-bm-border {
+.btn-bm-border,
+.btn-bm-border:hover {
   border-color: black;
   color: black;
 }
