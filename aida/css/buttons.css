@@ -3,10 +3,15 @@ button,
 .button {
   padding: 8px 32px;
   font-family: "WWFRegular";
-  font-size: 22px;
+  font-size: 18px;
   font-family: "WWFRegular";
   background-color: var(--red) !important;
   border-color: var(--red);
+}
+
+.btn-bm-border {
+  border-color: black;
+  color: black;
 }
 
 a {
