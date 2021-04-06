@@ -21,6 +21,10 @@
   margin-bottom: 50px;
 }
 
+.banner.homepage .banner-text p {
+  font-size: 2rem;
+}
+
 .banner.homepage img {
   height: 100%;
   object-fit: cover;
