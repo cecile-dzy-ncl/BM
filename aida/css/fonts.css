@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Jellee";
+  src: url("https://cecile-dzy-ncl.github.io/BM/aida/fonts/Jellee-Roman.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Jellee";
+}
