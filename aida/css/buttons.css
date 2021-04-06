@@ -7,7 +7,11 @@ button,
   border-color: var(--red);
 }
 
-.btn-bm-border,
+.btn-bm-border {
+  border-color: rgb(19, 0, 0);
+  color: rgb(19, 0, 0);
+}
+
 .btn-bm-border:hover {
   border-color: black;
   color: black;
