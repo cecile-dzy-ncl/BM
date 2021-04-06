@@ -1,0 +1,14 @@
+.btn-bm,
+button,
+.button {
+  padding: 8px 32px;
+  font-family: "WWFRegular";
+  font-size: 22px;
+  font-family: "WWFRegular";
+  background-color: var(--orange) !important;
+  border-color: var(--orange);
+}
+
+a {
+  color: var(--orange);
+}
