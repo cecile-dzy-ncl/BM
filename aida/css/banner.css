@@ -5,11 +5,14 @@
 
 .banner.homepage {
   background: var(--red);
-  padding-left: 100px;
 }
 
 .banner.homepage > * {
   width: 50%;
+}
+
+.banner.homepage .banner-tex {
+  padding-left: 100px;
 }
 
 .banner.homepage .banner-text * {
