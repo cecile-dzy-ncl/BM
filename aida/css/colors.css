@@ -1,0 +1,7 @@
+.bg-red {
+  background: var(--red);
+}
+
+.bg-darkred {
+  background: var(--darkred);
+}
