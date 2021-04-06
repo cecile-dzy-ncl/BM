@@ -65,3 +65,8 @@ a.logo img {
 .top-bar.expanded .title-area {
   background: #f0f0f0;
 }
+
+a[href="/users/sign_in"] {
+  background-color: transparent !important;
+  color: black !important;
+}
