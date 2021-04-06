@@ -1,0 +1,4 @@
+#main-nav > section > ul > li > a:hover,
+#main-nav > section > ul > li > a.active {
+  color: var(--red);
+}
