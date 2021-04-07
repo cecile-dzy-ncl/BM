@@ -81,13 +81,12 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: var(--red);
-  font-family: "Helvetica";
+  background: white;
+  font-family: "Jellee";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: var(--red) !important;
 }
 
 #show_team {
@@ -173,11 +172,6 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   padding-top: 50px;
 }
 
-section.section-projet-details .project_boutons_give {
-  font-family: "WWFRegular";
-  background-color: var(--orange) !important;
-}
-
 section.section-projet-details
   .project-detail-data
   .infos-money
@@ -186,7 +180,7 @@ section.section-projet-details
 #projects-show .current-amount,
 #projects-show #show_days,
 #projects-show .contributeurs span {
-  font-family: "WWFRegular";
+  font-family: "Jellee";
 }
 
 @media screen and (max-width: 500px) {
