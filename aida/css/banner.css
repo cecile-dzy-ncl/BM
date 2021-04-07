@@ -51,4 +51,12 @@
   .banner.homepage > * {
     width: 100%;
   }
+
+  .banner.homepage h1 {
+    margin-bottom: 25px;
+  }
+
+  .banner.homepage .banner-text p {
+    font-size: 1.5rem;
+  }
 }
