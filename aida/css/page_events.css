@@ -1,3 +1,12 @@
 .event-item .panel {
   background: var(--lightergrey);
 }
+
+.section-events .event-item .event-description .infos {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.section-events .event-item .event-description .infos > div {
+  text-align: left !important;
+}
