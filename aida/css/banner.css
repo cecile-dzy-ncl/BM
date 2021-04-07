@@ -40,5 +40,10 @@
 @media screen and (max-width: 500px) {
   .banner.homepage {
     flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .banner.homepage .banner-text {
+    padding-left: 0;
   }
 }
