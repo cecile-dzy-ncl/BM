@@ -48,6 +48,10 @@
     padding: 25px;
   }
 
+  .banner.homepage .banner-text * {
+    text-align: center;
+  }
+
   .banner.homepage > * {
     width: 100%;
   }
