@@ -7,5 +7,5 @@
 }
 
 .bg-grey {
-  background: #f0f0f0;
+  background: var(--lightergrey);
 }
