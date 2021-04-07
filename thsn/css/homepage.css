@@ -7,3 +7,12 @@
   width: 36px;
   margin-right: 16px;
 }
+
+.country {
+  margin-bottom: 0;
+}
+
+.country a {
+  color: black;
+  font-size: 14px;
+}
