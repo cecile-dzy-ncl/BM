@@ -1,3 +1,7 @@
+#events-show iframe {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
 .country-title {
   position: relative;
   margin: 40px 0;
