@@ -67,6 +67,10 @@ section.section-projet-details .project-detail-data .jours-restants span {
   font-family: "Helvetica";
 }
 
+#projects-show #show_days small {
+  font-family: "Helvetica";
+}
+
 section.section-projet-details .project-detail-data .jours-restants #show_days,
 section.section-projet-details
   .project-detail-data
