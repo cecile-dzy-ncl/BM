@@ -55,8 +55,8 @@ $(document).ready(function () {
   if ($("html[lang='es'] #projects-index")) {
     var checkbox = $("#search_status option[value='ended']")[0];
     if (checkbox) {
-      checkbox.label = "Cerrados"
-    };
+      checkbox.label = "Cerrados";
+    }
   }
 
   $(".social-btns").html(shareDiv);
@@ -85,13 +85,13 @@ $(document).ready(function () {
     document.querySelector("#copy").addEventListener("click", copy);
   }
 
-  if ($(".main-event .image_banner")[0]) {
-    var bannerImg = $(".image_banner")[0].src;
-    $(".main-event-banner")[0].style.background = `url(${bannerImg})`;
-    $("#banner_section").before($(".main-event-banner"));
-    // $("#event-banner")[0].style.background = `url(${bannerImg})`;
-    // $("#banner_section").before($("#event-banner"));
-  }
+  // if ($(".main-event .image_banner")[0]) {
+  //   var bannerImg = $(".image_banner")[0].src;
+  //   $(".main-event-banner")[0].style.background = `url(${bannerImg})`;
+  //   $("#banner_section").before($(".main-event-banner"));
+  //   // $("#event-banner")[0].style.background = `url(${bannerImg})`;
+  //   // $("#banner_section").before($("#event-banner"));
+  // }
 
   // --------- RESPONSIVE ---------
 
