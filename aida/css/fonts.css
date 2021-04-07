@@ -23,8 +23,8 @@
 }
 
 body,
-* {
-  font-family: "Helvetica" !important;
+p {
+  font-family: "Helvetica";
   text-align: center;
 }
 
