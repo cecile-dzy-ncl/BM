@@ -1,6 +1,9 @@
 .country-title {
-  color: red;
   position: relative;
+}
+
+.country-title h1 {
+  color: #c21b17;
 }
 
 .country-title img {
