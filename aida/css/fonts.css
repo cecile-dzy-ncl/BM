@@ -25,6 +25,10 @@
 body,
 p {
   font-family: "Helvetica";
+}
+
+body.homepage,
+body.homepage p {
   text-align: center;
 }
 
