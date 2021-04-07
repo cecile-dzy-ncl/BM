@@ -45,7 +45,7 @@
 
   .banner.homepage .banner-text {
     padding-left: 0;
-    padding: 10px 25px;
+    padding: 25px;
   }
 
   .banner.homepage > * {
@@ -58,5 +58,6 @@
 
   .banner.homepage .banner-text p {
     font-size: 1.5rem;
+    margin-bottom: 0;
   }
 }
