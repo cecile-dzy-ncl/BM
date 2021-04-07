@@ -122,17 +122,17 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   font-size: 14px;
   line-height: 22px;
   background: #f5f5f5;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 600;
 }
 
 .tabs dd.active a {
-  background-color: var(--orange);
+  background-color: var(--red);
   color: white;
 }
 
 .project_payment #list_payment .people p.money {
-  color: var(--orange);
+  color: var(--red);
 }
 
 #show_description {
@@ -141,14 +141,14 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: #000;
 }
 
-section#project_tabs + section .row {
+/* section#project_tabs + section .row {
   max-width: 100%;
   background: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/fondwwf.png");
   background-position: bottom center;
   background-size: cover;
   position: relative;
   padding: 100px 0;
-}
+} */
 
 /* .project_event_description {
   height: 600px;
