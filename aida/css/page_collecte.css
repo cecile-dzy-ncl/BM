@@ -3,7 +3,7 @@
 #projects-show .bg-secondary-color-blurred,
 .section-projet-details > .row > .bg-color-light,
 .section-projet-details > .bg-color-light:last-of-type {
-  background: #000000;
+  background: var(--red);
 }
 
 .section-projet-details .projet-head {
@@ -37,7 +37,7 @@ section.section-projet-details .projet-head .user {
 }
 
 section.section-projet-details h1#show_title {
-  color: #e04e39;
+  color: var(--red);
   font-size: 30px;
   line-height: 40px;
   margin: 0;
@@ -64,7 +64,7 @@ section.section-projet-details .project-detail-data .contributeurs span,
 section.section-projet-details .project-detail-data .jours-restants span {
   font-size: 29px;
   line-height: 27px;
-  font-family: "Open Sans";
+  font-family: "Helvetica";
 }
 
 section.section-projet-details .project-detail-data .jours-restants #show_days,
@@ -81,13 +81,13 @@ section.section-projet-details .project-detail-data .contributeurs {
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #e04e39;
-  font-family: "Open Sans";
+  background: var(--red);
+  font-family: "Helvetica";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #e04e39 !important;
+  background: var(--red) !important;
 }
 
 #show_team {
