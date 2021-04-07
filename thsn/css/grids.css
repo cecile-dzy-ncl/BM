@@ -4,8 +4,15 @@
   grid-gap: 1rem;
 }
 
+.grid-countries {
+  display: grid;
+  grid-template-columns: 2fr, 1fr;
+  grid-gap: 1rem;
+}
+
 @media screen and (max-width: 500px) {
-  .grid-stats {
+  .grid-stats,
+  .grid-countries {
     grid-template-columns: repeat(1, 1fr);
   }
 }
