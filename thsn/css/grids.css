@@ -8,11 +8,16 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 1rem;
+  margin-bottom: 100px;
 }
 
 @media screen and (max-width: 500px) {
   .grid-stats,
   .grid-countries {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-countries {
+    margin-bottom: 50px;
   }
 }
