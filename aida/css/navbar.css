@@ -1,5 +1,6 @@
 #main-nav section.top-bar-section {
   background: #fff !important;
+  border-bottom: 1px solid lightgray;
 }
 
 #main-nav > section > ul > li > a {
