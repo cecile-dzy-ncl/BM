@@ -22,6 +22,7 @@
 
 .country-project {
   display: flex;
+  height: 570px;
 }
 
 .country-project > * {
