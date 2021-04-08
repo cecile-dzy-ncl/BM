@@ -6,6 +6,10 @@
   border-color: white;
 }
 
+.wrapper.help h2 {
+  text-transform: uppercase;
+}
+
 .wrapper.help .btn-bm {
   text-transform: none;
 }
