@@ -65,24 +65,6 @@ body {
   background-color: white;
 }
 
-/* -------------------- FONTS -------------------- */
-
-@font-face {
-  font-family: "Rubrik";
-  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "RubrikB";
-  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik_SemiBold.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 h1 {
   font-family: "Rubrik";
   font-size: 24px;

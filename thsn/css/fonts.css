@@ -1,0 +1,33 @@
+/* -------------------- FONTS -------------------- */
+
+@font-face {
+  font-family: "Rubrik";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RubrikB";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/Rubrik_SemiBold.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/LucidaGrande.ttf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lucida";
+  src: url("https://cecile-dzy-ncl.github.io/BM/thsn/fonts/LucidaGrandeBold.ttf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
