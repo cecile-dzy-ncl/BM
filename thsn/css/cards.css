@@ -14,7 +14,7 @@
   border-color: white;
 }
 
-.country-project.bg-red a:not(".btn-bm") {
+.country-project.bg-red p a {
   text-decoration: underline;
 }
 
