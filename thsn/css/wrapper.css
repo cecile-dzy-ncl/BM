@@ -13,3 +13,10 @@
 .wrapper.help .btn-bm {
   text-transform: none;
 }
+
+.wrapper.help img {
+  display: block;
+  margin: auto;
+  width: 70px;
+  margin-bottom: 30px;
+}
