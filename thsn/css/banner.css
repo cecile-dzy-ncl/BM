@@ -7,8 +7,6 @@
   justify-content: center;
 }
 
-.homepage .banner h1 {
-  font-size: 80px;
-  line-height: 102px;
-  font-family: "Rubrik";
+.homepage .banner img {
+  width: 495px;
 }
