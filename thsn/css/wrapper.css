@@ -5,3 +5,7 @@
 .wrapper.bg-orange .btn-bm {
   border-color: white;
 }
+
+.wrapper.help .btn-bm {
+  text-transform: none;
+}
