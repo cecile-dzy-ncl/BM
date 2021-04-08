@@ -19,22 +19,3 @@
   position: absolute;
   left: 0;
 }
-
-.country-project {
-  display: flex;
-  align-items: center;
-  height: 570px;
-  background-color: #f3f3f3;
-}
-
-.country-project > * {
-  width: 50%;
-}
-
-.country-project img {
-  height: 100%;
-}
-
-.country-project > div {
-  padding: 100px;
-}
