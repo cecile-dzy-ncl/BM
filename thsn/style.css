@@ -127,22 +127,6 @@ strong {
   font-family: "RubrikB";
 }
 
-/* -------------------- BUTTONS -------------------- */
-
-.thsn .btn-bm {
-  border: 3px solid #c21b17;
-  border-radius: 25px;
-  font-size: 18px;
-  line-height: 24px;
-  padding: 5px 30px;
-}
-
-button,
-.button {
-  font-family: "Rubrik";
-  border-radius: 25px;
-}
-
 /* -------------------- CONTAINERS -------------------- */
 .container-small-bm {
   width: 800px;

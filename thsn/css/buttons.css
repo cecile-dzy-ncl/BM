@@ -1,0 +1,17 @@
+/* -------------------- BUTTONS -------------------- */
+
+.thsn .btn-bm {
+  border: 3px solid var(--red);
+  background: none;
+  color: var(--red);
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 5px 30px;
+}
+
+button,
+.button {
+  font-family: "Rubrik";
+  border-radius: 25px;
+}
