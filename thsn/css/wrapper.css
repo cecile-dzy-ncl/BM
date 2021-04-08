@@ -10,7 +10,8 @@
   text-transform: uppercase;
 }
 
-.wrapper.help .btn-bm {
+.wrapper.help .btn-bm,
+.wrapper.download .btn-bm {
   text-transform: none;
 }
 
