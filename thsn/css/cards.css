@@ -32,3 +32,8 @@
 .country-project > div {
   padding: 130px;
 }
+
+.country-project .btn-bm {
+  font-family: "Lucida";
+  text-transform: uppercase;
+}
