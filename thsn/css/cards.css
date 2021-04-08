@@ -16,6 +16,7 @@
 
 .country-project.bg-red p a {
   text-decoration: underline;
+  margin-top: 10px;
 }
 
 .country-project > * {
