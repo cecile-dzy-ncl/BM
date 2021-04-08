@@ -30,3 +30,7 @@
 .country-project > * {
   width: 50%;
 }
+
+.country-project img {
+  height: 100%;
+}
