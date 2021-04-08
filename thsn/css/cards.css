@@ -10,6 +10,10 @@
   color: white;
 }
 
+.country-project.bg-red .btn-bm {
+  border-color: white;
+}
+
 .country-project > * {
   width: 50%;
 }
