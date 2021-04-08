@@ -19,3 +19,7 @@
   position: absolute;
   left: 0;
 }
+
+.wrapper.country-projects {
+  display: block;
+}
