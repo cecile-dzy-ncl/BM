@@ -19,3 +19,11 @@
   position: absolute;
   left: 0;
 }
+
+.country-project {
+  display: flex;
+}
+
+.country-project > * {
+  width: 50%;
+}
