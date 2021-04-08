@@ -1,0 +1,7 @@
+.wrapper.bg-orange * {
+  color: white;
+}
+
+.wrapper.bg-orange .btn-bm {
+  border-color: white;
+}
