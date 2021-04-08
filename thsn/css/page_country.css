@@ -34,3 +34,7 @@
 .country-project img {
   height: 100%;
 }
+
+.country-project > div {
+  padding: 50pxs;
+}
