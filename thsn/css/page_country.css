@@ -23,6 +23,7 @@
 .country-project {
   display: flex;
   height: 570px;
+  background-color: #f3f3f3;
 }
 
 .country-project > * {
