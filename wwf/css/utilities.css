@@ -15,6 +15,15 @@
   background-color: white;
 }
 
+.section-events .event-item .event-description .infos {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.section-events .event-item .event-description .infos > div {
+  text-align: left !important;
+}
+
 @media screen and (max-width: 500px) {
   .steps img {
     height: auto !important;
