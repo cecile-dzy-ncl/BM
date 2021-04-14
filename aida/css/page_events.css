@@ -1,3 +1,5 @@
+/* PAGE EVENTS */
+
 .event-item .panel {
   background: var(--lightergrey);
 }
@@ -9,4 +11,49 @@
 
 .section-events .event-item .event-description .infos > div {
   text-align: left !important;
+}
+
+#events-index h1,
+.infos-money .chart-wrap {
+  display: none;
+}
+
+#events-index .first-section {
+  padding-top: 0;
+}
+
+.section-events .event-item .event-details {
+  background: #f5f5f5;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-create,
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  width: 250px;
+  border-radius: 0;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-create {
+  border: 2px solid var(--red);
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see,
+.section-home-projects .button {
+  background-color: transparent;
+  border: 2px solid #1c1d33;
+  color: #1c1d33;
+}
+
+.event-details .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-events .event-item .event-description .infos,
+.section-events .event-item .infos-money .projets {
+  display: none;
+}
+
+.event-details .medium-7,
+.event-details .medium-4 {
+  width: 100%;
 }
