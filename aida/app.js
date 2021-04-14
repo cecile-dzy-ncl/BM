@@ -14,6 +14,25 @@ $(document).ready(function () {
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
+  // AJOUT INTRO PAGE EVENTS
+  var textIntroEvents = `
+    <div class='container-small-bm mt-50'>
+      <h2 class='text-center black'>
+        Deux minutes suffisent pour créer votre collecte.
+      </h2>
+      <p>
+      Choisissez en dessous dans quelle rubrique vous souhaitez vous engager, puis mettez en place le projet qui vous correspond le mieux.
+      </p>
+      <p>
+      Le principe est simple : s’engager par le sport et créer une page de collecte de fonds pour soutenir les jeunes touchés par un cancer.
+      </p>
+        <p>
+          <strong>Une question ?</strong>
+          N’hésitez pas à <a href='/contact_forms/new' class='blue'>nous contacter</a> et à profiter de nos <a href='/pages/conseils-outils' class='blue'>conseils et outils.</a>
+        </p>
+      </div>";
+  $(".events .first-section").before(textIntroEvents);
+
   // --------- RESPONSIVE ---------
 
   // var windowWidth = $(window).width();
