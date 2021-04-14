@@ -30,7 +30,7 @@ $(document).ready(function () {
           <strong>Une question ?</strong>
           N’hésitez pas à <a href='/contact_forms/new' class='blue'>nous contacter</a> et à profiter de nos <a href='/pages/conseils-outils' class='blue'>conseils et outils.</a>
         </p>
-      </div>";
+      </div>`;
   $(".events .first-section").before(textIntroEvents);
 
   // --------- RESPONSIVE ---------
