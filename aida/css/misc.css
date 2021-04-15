@@ -23,6 +23,7 @@
 
   .steps .card {
     margin: 15px 0 !important;
+    padding: 10px 20px;
   }
 
   .steps .w-66,
