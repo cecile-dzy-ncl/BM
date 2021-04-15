@@ -16,8 +16,8 @@ $(document).ready(function () {
 
   // AJOUT INTRO PAGE EVENTS
   var textIntroEvents = `
-    <div class='container-small-bm mt-50'>
-      <h2 class='text-center black'>
+    <div class='container-bm mt-50'>
+      <h2 class='text-center red'>
         Deux minutes suffisent pour créer votre collecte.
       </h2>
       <p>
