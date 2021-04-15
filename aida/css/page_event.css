@@ -1,3 +1,7 @@
+.event-head {
+  margin-bottom: 50px;
+}
+
 .event-head .bg-secondary-color-blurred {
   background-color: white;
 }
