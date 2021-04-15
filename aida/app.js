@@ -44,6 +44,64 @@ $(document).ready(function () {
  </div></div>`;
   $("#events-index .section-events").after(wrapperOutils);
 
+  var challengeInf = `
+  <li class="event-item">
+  <div class="row small-collapse panel">
+    <div class="large-4 columns event-image">
+      <div class="wrap">
+        <a href="/events/challenge-individuel" class="active"><img alt="Capturedecran2021 04 02a11.04.48" class="image_avatar_event" src="https://collecter.associationaida.org/cdn.iraiser.eu/rVU1rvKtygDFflUNVfq+j05p2W0rrZgK5cZXqrMvdMGtRxbkuISsZl8iv4eUec/g/Cecile_Dezy/thumbnail/Capturedecran2021-04-02a11.04.48.png"></a>
+      </div>
+    </div>
+    <div class="large-8 columns event-details">
+      <div class="wrap">
+        <div class="row">
+          <div class="medium-7 columns">
+            <div class="event-description">
+              <h3>
+                <a href="/events/challenge-individuel" class="active">Challenge individuel ou entre amis</a>
+              </h3>
+              <p>
+                </p><p>Seul, entre amis, ou avec vos proches, lancez-vous un challenge, un défi à réaliser, et partagez votre page de collecte. Créez votre page de collecte ou associez vous à une collecte existante en cliquant ci-dessous.</p>
+              <p></p>
+              <div class="row collapse infos">
+                <div class="small-4 columns text-center daysleft">
+                </div>
+                <div class="small-4 columns text-center location">
+                </div>
+                <div class="small-4 columns text-center teamcount">
+                  <i class="fa fa-file-text-o fa-3x secondary-color"></i>
+                  1
+                  projet
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="medium-4 columns text-center">
+            <div class="infos-money">
+
+              <p class="amount text-center">
+                <span class="big">0 €</span>
+              </p>
+              <p class="projets text-center">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="button-group radius event-goup-btn">
+        <li>
+            <a class="button page-create" href="/projects/new?event_id=5">Créer ma page</a>
+        </li>
+        <li>
+          <a class="button page-see active" href="/events/challenge-individuel">Voir les pages</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</li>
+`;
+  $("#events .event-item:first-of-type").before(challengeInf);
+
   // --------- RESPONSIVE ---------
 
   // var windowWidth = $(window).width();
