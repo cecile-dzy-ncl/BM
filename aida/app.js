@@ -57,9 +57,9 @@ $(document).ready(function () {
         <div class="row">
           <div class="medium-7 columns">
             <div class="event-description">
-              <h3>
+              <h class="mb-30">
                 <a href="#" class="active">Challenge influenceurs</a>
-              </h3>
+              </h>
               <p>Rejoignez le défi d’un influencer et encouragez le à réaliser son objectif et à se dépasser en participant à sa collecte. Vous pouvez également faire une page de collecte et réaliser vous-même son challenge.</p>
             </div>
           </div>
