@@ -29,4 +29,8 @@
   #events-show .event-head > .row > .columns {
     width: 100% !important;
   }
+
+  .country-project.bg-red .btn-bm {
+    width: auto;
+  }
 }
