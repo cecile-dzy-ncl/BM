@@ -48,12 +48,16 @@ h2 {
   font-size: 2.5rem;
 }
 
+.conseils-outils h2 {
+  font-size: 2rem;
+}
+
 .steps h2 {
   font-size: 1.5rem;
   position: relative;
 }
 
-.pages-show.conseils .steps h2:after {
+.conseils-outils .steps h2:after {
   content: "";
   position: absolute;
   height: 10px;
