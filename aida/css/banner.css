@@ -54,8 +54,8 @@
 }
 
 .histoire-text {
-  width: 70%;
-  margin-right: 30px;
+  width: 60%;
+  /* margin-right: 30px; */
 }
 
 @media screen and (max-width: 500px) {
