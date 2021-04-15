@@ -43,6 +43,10 @@
     height: auto;
   }
 
+  .country-title {
+    margin: 0;
+  }
+
   .country-title img {
     position: relative;
     margin-bottom: 40px;
