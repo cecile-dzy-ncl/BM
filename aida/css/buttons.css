@@ -29,3 +29,9 @@ div.ChoixPublication .button {
   line-height: 12px;
   padding: 5px;
 }
+
+.banner.about .btn-bm {
+  background-color: white;
+  border-color: white;
+  color: var(--red);
+}
