@@ -41,5 +41,14 @@
 @media screen and (max-width: 500px) {
   .country-project {
     flex-direction: column;
+    height: auto;
+  }
+  .country-project img {
+    width: 100%;
+  }
+
+  .country-project > div {
+    padding: 35px;
+    width: 100%;
   }
 }
