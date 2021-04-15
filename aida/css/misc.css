@@ -12,13 +12,12 @@
   }
 
   .steps .text-left .container-small-bm,
-  .homepage .steps .text-left {
+  .homepage .steps .text-left:nth-child(odd) {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
 
-  .steps .text-right .container-small-bm,
-  .homepage .steps .text-right {
+  .steps .text-right .container-small-bm {
     /* flex-direction: column-reverse; */
     align-items: flex-end;
   }
