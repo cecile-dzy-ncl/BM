@@ -5,3 +5,9 @@
 .container-large-bm {
   width: 80%;
 }
+
+@media screen and (max-width: 500px) {
+  .steps .w-66 {
+    width: 100%;
+  }
+}
