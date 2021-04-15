@@ -30,7 +30,7 @@ div.ChoixPublication .button {
   padding: 5px;
 }
 
-.banner.about .btn-bm {
+.banner.about .banner-text .btn-bm {
   background-color: white !important;
   border-color: white !important;
   color: var(--red) !important;
