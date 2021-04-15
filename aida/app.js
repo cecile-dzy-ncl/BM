@@ -49,7 +49,7 @@ $(document).ready(function () {
   <div class="row small-collapse panel">
     <div class="large-4 columns event-image">
       <div class="wrap">
-        <a href="/events/challenge-individuel" class="active"><img alt="Capturedecran2021 04 02a11.04.48" class="image_avatar_event" src="https://collecter.associationaida.org/cdn.iraiser.eu/rVU1rvKtygDFflUNVfq+j05p2W0rrZgK5cZXqrMvdMGtRxbkuISsZl8iv4eUec/g/Cecile_Dezy/thumbnail/Capturedecran2021-04-02a11.04.48.png"></a>
+        <a href="/events/challenge-individuel" class="active"><img alt="challenge influenceurs" class="image_avatar_event" src="https://collecter.associationaida.org/cdn.iraiser.eu/rVU1rvKtygDFflUNVfq+j05p2W0rrZgK5cZXqrMvdMGtRxbkuISsZl8iv4eUec/g/Cecile_Dezy/origin/393FFE9A-92F2-4C47-93E2-902B2E09677C2.JPG"></a>
       </div>
     </div>
     <div class="large-8 columns event-details">
