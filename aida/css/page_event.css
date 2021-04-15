@@ -1,5 +1,5 @@
-.event-head {
-  margin-bottom: 50px;
+.section-my-event {
+  margin-top: 50px;
 }
 
 .event-head .bg-secondary-color-blurred {
@@ -18,4 +18,8 @@
 
 .event-head .intro-my-event:after {
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.infos-money .infos-money-details .info-money.detail {
+  color: var(--red);
 }
