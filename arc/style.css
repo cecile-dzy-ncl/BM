@@ -1,45 +1,65 @@
 /* ------------------- FONTS ------------------- */
 
 @font-face {
-  font-family: 'museo';
-  src: url('https://cecile-dzy-ncl.github.io/BM/arc/fonts/museosans_500-webfont.woff') format('woff');
+  font-family: "museo";
+  src: url("https://cecile-dzy-ncl.github.io/BM/arc/fonts/museosans_500-webfont.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family:"museo-sans";
-  src:url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-  font-display:auto;
-  font-style:normal;
-  font-weight:300;
+  font-family: "museo-sans";
+  src: url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/620bf8/00000000000000000000e7fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
 }
 
 @font-face {
-  font-family:"museo-sans";
-  src:url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
-  font-display:auto;
-  font-style:italic;
-  font-weight:300;
+  font-family: "museo-sans";
+  src: url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/5cca6d/00000000000000000000e802/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 300;
 }
 
 @font-face {
-  font-family:"museo-sans";
-  src:url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
-  font-display:auto;
-  font-style:normal;
-  font-weight:700;
+  font-family: "museo-sans";
+  src: url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e3ca36/00000000000000000000e805/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
 }
 
 @font-face {
-  font-family:"museo-sans";
+  font-family: "museo-sans";
 
-  src:url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  src: url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/2841b6/00000000000000000000e806/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
 
-  font-display:auto;
-  font-style:italic;
-  font-weight:700;
-
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
 }
 
 .museo {
@@ -64,32 +84,32 @@ yellow: #FEB700
 /* BLACK */
 
 .arc .black {
-  color: #1C1D33 !important;
+  color: #1c1d33 !important;
 }
 
 /* BLUE */
 .arc .blue {
-  color: #009CBB !important;
+  color: #009cbb !important;
 }
 
 .arc .bg-blue {
-  background-color: #009CBB !important;
+  background-color: #009cbb !important;
 }
 
 .arc .border-blue {
-  border-color: #009CBB !important;
+  border-color: #009cbb !important;
 }
 
 .arc .lightblue {
-  color: #E9F4FD !important;
+  color: #e9f4fd !important;
 }
 
 .arc .bg-lightblue {
-  background-color: #E9F4FD !important;
+  background-color: #e9f4fd !important;
 }
 
 .arc .border-lightblue {
-  border-color: #E9F4FD !important;
+  border-color: #e9f4fd !important;
 }
 
 .arc .darkblue {
@@ -107,61 +127,58 @@ yellow: #FEB700
 /* PINK */
 
 .arc .pink {
-  color: #C32762 !important;
+  color: #c32762 !important;
 }
 
 .arc .bg-pink {
-  background-color: #C32762 !important;
+  background-color: #c32762 !important;
 }
 
 .arc .pink-tdr {
-  color: #ED217C !important;
+  color: #ed217c !important;
 }
 
 .arc .bg-pink-tdr {
-  background-color: #ED217C !important;
+  background-color: #ed217c !important;
 }
 
 /* GREEN */
 
 .arc .green {
-  color: #4CA76B !important;
+  color: #4ca76b !important;
 }
 
 .arc .bg-green {
-  background-color: #4CA76B !important;
+  background-color: #4ca76b !important;
 }
 
 .arc .border-green {
-  border-color: #4CA76B !important;
+  border-color: #4ca76b !important;
 }
 
 /* YELLOW */
 
 .arc .yellow {
-  color: #FDB913 !important;
+  color: #fdb913 !important;
 }
 
 .arc .bg-yellow {
-  background-color: #FDB913 !important;
+  background-color: #fdb913 !important;
 }
-
-
 
 /* ORANGE */
 
 .arc .orange {
-  color: #E85252 !important;
+  color: #e85252 !important;
 }
 
 .arc .bg-orange {
-  background-color: #E85252 !important;
+  background-color: #e85252 !important;
 }
 
 /*.bg-secondary-color-blurred {
 background-color: #124D66;
 }*/
-
 
 /* GENERAL */
 
@@ -212,6 +229,10 @@ a {
   border-width: 2px;
 }
 
+.wrapper-help .btn-bm {
+  margin: auto;
+  display: block;
+}
 
 /* BANNERS */
 
@@ -235,7 +256,12 @@ a {
 }
 
 .triathlon-des-roses-2020 .banner {
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.6) 100%), url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/a-proposimagearc.jpg);
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/a-proposimagearc.jpg);
   background-size: cover;
 }
 
@@ -244,14 +270,18 @@ a {
   background-size: cover;
 }
 
-
 .marathon-de-paris-fr .banner {
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.85) 100%), url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/bannermarathon.png);
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.85) 100%
+    ),
+    url(https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/bannermarathon.png);
   background-size: cover;
 }
 
 .marathon-de-paris-fr .banner h1 {
-  color: #005B42;
+  color: #005b42;
 }
 
 .banner-text {
@@ -290,7 +320,7 @@ a {
 
 .bg-pattern .steps h2:after,
 .steps.bg-grey h2:after {
-  background: #009CBB;
+  background: #009cbb;
 }
 
 .a-propos .steps h2.white:after,
@@ -306,12 +336,10 @@ a {
   width: 32%;
 }
 
-
 /* PAGES DE COLLECTE */
 
-
-.section-projet-details > .bg-color-light:not(.projet-head), 
-.arc li.maybevideocontainer, 
+.section-projet-details > .bg-color-light:not(.projet-head),
+.arc li.maybevideocontainer,
 .projet-head .bg-color-light {
   background-color: #009cbb;
 }
@@ -335,15 +363,15 @@ a {
 }
 
 .project_boutons_give {
-  background: #C32762 !important;
+  background: #c32762 !important;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: normal;
   text-align: center;
   margin-top: 0 !important;
-  min-height: auto  !important;
-  line-height: 50px  !important;
-  padding-top: 0  !important;
+  min-height: auto !important;
+  line-height: 50px !important;
+  padding-top: 0 !important;
 }
 
 .row.project-detail-data.p2p-detail-data {
@@ -356,7 +384,7 @@ a {
 }
 
 .block-share-container {
-  background-color: #009CBB;
+  background-color: #009cbb;
   padding: 27px;
 }
 
@@ -370,7 +398,7 @@ a {
 }
 
 #projects-widget #wrapper {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 #projects-show .current-amount {
@@ -379,7 +407,7 @@ a {
 }
 
 #projects-show .section-projet-details .bg-secondary-color-blurred {
-  background-color: #009CBB;
+  background-color: #009cbb;
 }
 
 #projects-show #show_days span,
@@ -421,9 +449,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
   align-items: center;
 }
 
-
 #events-show .event-head .intro-my-event {
-    padding: 40px 30px;
+  padding: 40px 30px;
 }
 
 .event-head .intro-my-event {
@@ -454,7 +481,6 @@ section.section-projet-details .project-detail-data .contributeurs i {
 
 /* PAGE EVENTS */
 
-
 #events-index h1,
 .infos-money .chart-wrap {
   display: none;
@@ -465,7 +491,7 @@ section.section-projet-details .project-detail-data .contributeurs i {
 }
 
 .section-events .event-item .event-details {
-  background: #f5F5F5;
+  background: #f5f5f5;
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-create,
@@ -481,8 +507,8 @@ section.section-projet-details .project-detail-data .contributeurs i {
 .section-events .event-item .event-details .event-goup-btn .page-see,
 .section-home-projects .button {
   background-color: transparent;
-  border: 2px solid #1C1D33;
-  color: #1C1D33;
+  border: 2px solid #1c1d33;
+  color: #1c1d33;
 }
 
 .event-details .row {
@@ -495,10 +521,10 @@ section.section-projet-details .project-detail-data .contributeurs i {
   display: none;
 }
 
-.event-details .medium-7, .event-details .medium-4 {
+.event-details .medium-7,
+.event-details .medium-4 {
   width: 100%;
 }
-
 
 ul#events {
   display: flex;
@@ -506,35 +532,35 @@ ul#events {
 }
 
 li.event-item:nth-of-type(1) {
-    order: 3;
+  order: 3;
 }
 
 li.event-item:nth-of-type(2) {
-    order: 1;
+  order: 1;
 }
 
 li.event-item:nth-of-type(3) {
-    order: 8;
+  order: 8;
 }
 
 li.event-item:nth-of-type(4) {
-    order: 5;
+  order: 5;
 }
 
 li.event-item:nth-of-type(5) {
-    order: 6;
+  order: 6;
 }
 
 li.event-item:nth-of-type(6) {
-    order: 7;
+  order: 7;
 }
 
 li.event-item:nth-of-type(7) {
-    order: 4;
+  order: 4;
 }
 
 li.event-item:nth-of-type(8) {
-    order: 2;
+  order: 2;
 }
 
 .event-item .panel .event-details .wrap {
@@ -559,7 +585,7 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .section-events .event-item .infos-money .amount {
-  color: #009CBB;
+  color: #009cbb;
   font-size: 30px;
   line-height: 36px;
   font-weight: normal;
@@ -575,25 +601,25 @@ ul.button-group.radius.event-goup-btn {
 }
 
 .projects-list .panel {
-    background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 .homepage .projects-list .panel {
-    background: #FFF;
+  background: #fff;
 }
 
 .section-home-projects .button {
-    display: block;
-    margin: 0 auto 40px;
-    float: none !important;
-    width: 20%;
-    text-transform: uppercase;
+  display: block;
+  margin: 0 auto 40px;
+  float: none !important;
+  width: 20%;
+  text-transform: uppercase;
 }
 
 /* CONSEILS OUTILS */
 
 .pages-show.conseils .steps h2:after {
-  background: #009CBB;
+  background: #009cbb;
 }
 
 /* FORMS */
@@ -634,7 +660,7 @@ ul.button-group.radius.event-goup-btn {
 #form-project input[type="url"],
 #form-project input[type="color"],
 #form-project select {
-  border-color: #1C1D33;
+  border-color: #1c1d33;
   background-color: white;
   width: 100%;
 }
@@ -658,12 +684,13 @@ ul.button-group.radius.event-goup-btn {
 #projects-new input[type="url"],
 #projects-new input[type="color"],
 #projects-new select,
-#projects-new .habillage label, #projects-new .habillage p {
+#projects-new .habillage label,
+#projects-new .habillage p {
   font-size: 19px;
   line-height: 24px;
 }
 
-#projects-new  .large-3 {
+#projects-new .large-3 {
   width: 100%;
 }
 
@@ -677,7 +704,7 @@ header.main-header .header-spacer {
   align-items: center;
   justify-content: center;
   display: flex;
-  padding: 20px 0
+  padding: 20px 0;
 }
 
 .arc #main-nav .top-bar-section {
@@ -716,7 +743,6 @@ section#header-header .top-bar-section .button.left {
   font-weight: 600;
 }
 
-
 #form-project .tabs a {
   background-color: #009cbb;
 }
@@ -728,8 +754,6 @@ section#header-header .top-bar-section .button.left {
 /* ------ RESPONSIVE ------ */
 
 @media screen and (max-width: 500px) {
-
-
   .arc .bx-wrapper img {
     object-fit: contain;
   }
@@ -748,7 +772,7 @@ section#header-header .top-bar-section .button.left {
 
   .arc .card-bm-description {
     height: auto !important;
-    padding: 20px 18px!important;
+    padding: 20px 18px !important;
   }
 
   .card {
@@ -779,5 +803,5 @@ section#header-header .top-bar-section .button.left {
 
   .projet-head .small-12.medium-9.columns {
     background: white;
-}
+  }
 }
