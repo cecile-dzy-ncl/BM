@@ -3,19 +3,23 @@
   width: 100vw;
 }
 
-.banner.homepage {
+.banner.homepage,
+.banner.about {
   background: var(--red);
 }
 
+.banner.about > *,
 .banner.homepage > * {
   width: 50%;
 }
 
-.banner.homepage .banner-text {
+.banner.homepage .banner-text,
+.banner.about .banner-text {
   padding-left: 100px;
 }
 
-.banner.homepage .banner-text * {
+.banner.homepage .banner-text *,
+.banner.about .banner-text * {
   color: white;
   text-align: left;
 }
@@ -28,7 +32,8 @@
   font-size: 2rem;
 }
 
-.banner.homepage img {
+.banner.homepage img,
+.banner.about img {
   height: 100%;
   object-fit: cover;
 }
