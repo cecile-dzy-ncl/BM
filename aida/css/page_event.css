@@ -27,3 +27,7 @@
 .projects-list .panel {
   background: #f0f0f0;
 }
+
+.projects-list .panel.radius {
+  border-radius: 0px;
+}
