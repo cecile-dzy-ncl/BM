@@ -59,25 +59,30 @@
 }
 
 @media screen and (max-width: 500px) {
-  .banner.homepage {
+  .banner.homepage,
+  .banner.about {
     flex-direction: column-reverse;
     height: auto;
   }
 
-  .banner.homepage .banner-text {
+  .banner.homepage .banner-text,
+  .banner.about .banner-text {
     padding-left: 0;
     padding: 25px;
   }
 
-  .banner.homepage .banner-text * {
+  .banner.homepage .banner-text *,
+  .banner.about .banner-text * {
     text-align: center;
   }
 
-  .banner.homepage > * {
+  .banner.homepage > *,
+  .banner.about > * {
     width: 100%;
   }
 
-  .banner.homepage h1 {
+  .banner.homepage h1,
+  .banner.about h1 {
     margin-bottom: 25px;
   }
 
