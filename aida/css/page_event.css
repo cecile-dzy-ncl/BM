@@ -6,7 +6,8 @@
   background-color: white;
 }
 
-#events-show .block-share-container h4 span:before {
+#events-show .block-share-container h4 span:before,
+#events-show .block-share-container h4 span:after {
   background-color: var(--red);
 }
 
