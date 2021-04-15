@@ -11,12 +11,14 @@
     width: 100% !important;
   }
 
-  .steps .text-left .container-small-bm {
+  .steps .text-left .container-small-bm,
+  .homepage .steps .text-left {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
 
-  .steps .text-right .container-small-bm {
+  .steps .text-right .container-small-bm,
+  .homepage .steps .text-right {
     /* flex-direction: column-reverse; */
     align-items: flex-end;
   }
