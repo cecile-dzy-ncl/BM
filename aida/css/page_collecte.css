@@ -204,4 +204,7 @@ section.section-projet-details
     float: none !important;
     text-align: center;
   }
+  section.section-projet-details .team_by {
+    text-align: center;
+  }
 }
