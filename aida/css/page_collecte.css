@@ -195,4 +195,9 @@ section.section-projet-details
     width: 100%;
     margin-bottom: 30px;
   }
+
+  .projet-head .rows {
+    display: flex;
+    flex-direction: column;
+  }
 }
