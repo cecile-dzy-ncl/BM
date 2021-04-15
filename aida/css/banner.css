@@ -53,6 +53,11 @@
   background-size: 63%;
 }
 
+.histoire-text {
+  width: 70%;
+  margin-right: 30px;
+}
+
 @media screen and (max-width: 500px) {
   .banner.homepage {
     flex-direction: column-reverse;
