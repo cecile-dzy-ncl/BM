@@ -16,6 +16,11 @@
     align-items: flex-start;
   }
 
+  .steps .text-right .container-small-bm {
+    /* flex-direction: column-reverse; */
+    align-items: flex-end;
+  }
+
   .steps .w-66 {
     width: 100%;
   }
