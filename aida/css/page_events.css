@@ -4,6 +4,10 @@
   background: var(--lightergrey);
 }
 
+.section-events .event-item .event-description h3 {
+  text-align: center;
+}
+
 .section-events .event-item .event-description .infos {
   flex-direction: row-reverse;
   display: flex;
