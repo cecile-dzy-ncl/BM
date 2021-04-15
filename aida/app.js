@@ -67,7 +67,7 @@ $(document).ready(function () {
       </div>
       <ul class="button-group radius event-goup-btn">
         <li>
-          <a class="button btn-bm-border" href="#">Découvrir les challenges</a>
+          <a class="button btn-bm-border page-create white" href="#">Découvrir les challenges</a>
         </li>
       </ul>
     </div>
