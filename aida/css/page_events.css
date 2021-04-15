@@ -31,7 +31,7 @@
 }
 
 .section-events .event-item .event-details .event-goup-btn {
-  bottom: 0px;
+  bottom: 30px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,8 @@
 }
 
 .section-events .event-item .event-description .infos,
-.section-events .event-item .infos-money .projets {
+.section-events .event-item .infos-money .projets,
+.event-details .medium-4 {
   display: none;
 }
 
