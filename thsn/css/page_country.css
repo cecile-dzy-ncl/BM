@@ -42,4 +42,9 @@
   #events-show iframe {
     height: auto;
   }
+
+  .country-title img {
+    position: relative;
+    margin-bottom: 40px;
+  }
 }
