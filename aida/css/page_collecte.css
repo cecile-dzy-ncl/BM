@@ -200,4 +200,8 @@ section.section-projet-details
     display: flex;
     flex-direction: column;
   }
+  section.section-projet-details .projet-head .user {
+    float: none !important;
+    text-align: center;
+  }
 }
