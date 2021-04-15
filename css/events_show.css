@@ -31,4 +31,9 @@
   #events-show.mobile .event-head > .row {
     height: auto;
   }
+
+  .event-image img {
+    width: 100%;
+    object-position: center;
+  }
 }
