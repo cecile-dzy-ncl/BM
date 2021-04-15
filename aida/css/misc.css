@@ -21,6 +21,10 @@
     align-items: flex-end;
   }
 
+  .steps .card {
+    margin: 15px 0 !important;
+  }
+
   .steps .w-66,
   .w-50.steps,
   .histoire-text {
