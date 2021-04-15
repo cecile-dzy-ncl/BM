@@ -35,3 +35,9 @@ div.ChoixPublication .button {
   border-color: white !important;
   color: var(--red) !important;
 }
+
+@media screen and (max-width: 500px) {
+  .btn-bm {
+    width: 100% !important;
+  }
+}
