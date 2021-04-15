@@ -32,5 +32,6 @@
 
   .main-event .btn-bm {
     width: auto;
+    border-radius: 50px;
   }
 }
