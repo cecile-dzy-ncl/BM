@@ -23,3 +23,7 @@
 .infos-money .infos-money-details .info-money.detail {
   color: grey;
 }
+
+.projects-list .panel {
+  background: #f0f0f0;
+}
