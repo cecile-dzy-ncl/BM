@@ -42,6 +42,10 @@
   background: url("https://collecter.associationaida.org/cdn.iraiser.eu/rVU1rvKtygDFflUNVfq+j05p2W0rrZgK5cZXqrMvdMGtRxbkuISsZl8iv4eUec/g/Cecile_Dezy/origin/layoutquadri2x.png");
 }
 
+.a-propos .bg-pattern {
+  background-size: 63%;
+}
+
 @media screen and (max-width: 500px) {
   .banner.homepage {
     flex-direction: column-reverse;
