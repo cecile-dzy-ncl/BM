@@ -31,7 +31,7 @@ div.ChoixPublication .button {
 }
 
 .banner.about .btn-bm {
-  background-color: white;
-  border-color: white;
-  color: var(--red);
+  background-color: white !important;
+  border-color: white !important;
+  color: var(--red) !important;
 }
