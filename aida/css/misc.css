@@ -21,7 +21,8 @@
     align-items: flex-end;
   }
 
-  .steps .w-66 {
+  .steps .w-66,
+  .w-50.steps {
     width: 100%;
   }
 }
