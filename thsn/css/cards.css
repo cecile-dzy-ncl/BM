@@ -37,3 +37,9 @@
   font-family: "Lucida";
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 500px) {
+  .country-project {
+    flex-direction: column;
+  }
+}
