@@ -58,42 +58,16 @@ $(document).ready(function () {
           <div class="medium-7 columns">
             <div class="event-description">
               <h3>
-                <a href="/events/challenge-individuel" class="active">Challenge individuel ou entre amis</a>
+                <a href="#" class="active">Challenge influenceurs</a>
               </h3>
-              <p>
-                </p><p>Seul, entre amis, ou avec vos proches, lancez-vous un challenge, un défi à réaliser, et partagez votre page de collecte. Créez votre page de collecte ou associez vous à une collecte existante en cliquant ci-dessous.</p>
-              <p></p>
-              <div class="row collapse infos">
-                <div class="small-4 columns text-center daysleft">
-                </div>
-                <div class="small-4 columns text-center location">
-                </div>
-                <div class="small-4 columns text-center teamcount">
-                  <i class="fa fa-file-text-o fa-3x secondary-color"></i>
-                  1
-                  projet
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="medium-4 columns text-center">
-            <div class="infos-money">
-
-              <p class="amount text-center">
-                <span class="big">0 €</span>
-              </p>
-              <p class="projets text-center">
-              </p>
+              <p>Rejoignez le défi d’un influencer et encouragez le à réaliser son objectif et à se dépasser en participant à sa collecte. Vous pouvez également faire une page de collecte et réaliser vous-même son challenge.</p>
             </div>
           </div>
         </div>
       </div>
       <ul class="button-group radius event-goup-btn">
         <li>
-            <a class="button page-create" href="/projects/new?event_id=5">Créer ma page</a>
-        </li>
-        <li>
-          <a class="button page-see active" href="/events/challenge-individuel">Voir les pages</a>
+          <a class="button btn-bm-border" href="#">Découvrir les challenges</a>
         </li>
       </ul>
     </div>
