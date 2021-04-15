@@ -68,6 +68,11 @@ h2 {
   background: var(--red);
 }
 
+.steps h2.text-right:after {
+  right: 0;
+  left: auto;
+}
+
 h3 a,
 h3 a:hover,
 h3 a:focus {
