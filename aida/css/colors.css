@@ -9,3 +9,7 @@
 .bg-grey {
   background: var(--lightergrey);
 }
+
+.bg-darkblue {
+  background-color: #233355;
+}
