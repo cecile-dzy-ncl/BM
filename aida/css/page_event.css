@@ -5,3 +5,12 @@
 .event-head .bg-secondary-color-blurred {
   background-color: white;
 }
+
+#events-show .block-share-container h4 span:before {
+  background-color: var(--red);
+}
+
+.event-head .details-my-event .infos-money .current-amount {
+  color: var(--red);
+  font-family: "Jellee";
+}

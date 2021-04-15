@@ -5,6 +5,7 @@ button,
   font-size: 18px;
   background-color: var(--red) !important;
   border-color: var(--red);
+  font-family: "Helvetica";
 }
 
 .btn-bm-border {
