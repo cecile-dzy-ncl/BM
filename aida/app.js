@@ -39,7 +39,7 @@ $(document).ready(function () {
  <div class="container-small-bm">
  <img alt="" class="d-block mx-auto mb-30" src="https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/arc-icondiscuss2x.png" style="height: 50px;">
  <h2 class="white text-center"><span class="font-300">BESOIN D'AIDE ? </span>Contactez-nous !</h2>
- <a class="white text-center" href="mailto:allezleschampions@associationaida.org">allezleschampions@associationaida.org</a>
+ <p><a class="white text-center" href="mailto:allezleschampions@associationaida.org">allezleschampions@associationaida.org</a></p>
  <p class="white text-center">Vous pouvez également nous contacter par téléphone au 06 32 71 00 10</p>
  </div></div>`;
   $("#events-index .section-events").after(wrapperOutils);
