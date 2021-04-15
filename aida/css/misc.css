@@ -22,7 +22,8 @@
   }
 
   .steps .w-66,
-  .w-50.steps {
+  .w-50.steps,
+  .histoire-text {
     width: 100%;
   }
 }
