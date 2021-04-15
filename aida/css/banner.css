@@ -13,8 +13,7 @@
   width: 50%;
 }
 
-.banner.homepage .banner-text,
-.banner.about .banner-text {
+.banner.homepage .banner-text {
   padding-left: 100px;
 }
 
@@ -22,6 +21,14 @@
 .banner.about .banner-text * {
   color: white;
   text-align: left;
+}
+
+.banner.about .banner-text {
+  padding: 30px 50px;
+}
+
+.banner.about h2 {
+  font-size: 1.75rem;
 }
 
 .banner.homepage h1 {
