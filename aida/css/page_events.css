@@ -1,5 +1,9 @@
 /* PAGE EVENTS */
 
+#events {
+  margin-bottom: 100px;
+}
+
 .event-item .panel {
   background: var(--lightergrey);
 }
