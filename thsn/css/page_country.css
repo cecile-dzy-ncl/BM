@@ -24,3 +24,9 @@
 .wrapper.country-projects {
   display: block;
 }
+
+@media screen and (max-width: 500px) {
+  #events-show .event-head > .row > .columns {
+    width: auto !important;
+  }
+}
