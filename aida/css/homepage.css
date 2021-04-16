@@ -14,3 +14,7 @@
 .steps h6 {
   font-size: 1.15rem;
 }
+
+.section-home-projects .panel.radius {
+  background: white;
+}
