@@ -108,7 +108,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .block-share-container {
-  /* padding-bottom: 3px; */
+  padding-bottom: 0px;
   background: var(--red);
 }
 
@@ -189,6 +189,9 @@ section.section-projet-details
   font-family: "Jellee";
 }
 
+#projects-show .block-share-container h4 span {
+  color: white;
+}
 @media screen and (max-width: 500px) {
   .project_event_description .w-50,
   .project_event_description iframe {

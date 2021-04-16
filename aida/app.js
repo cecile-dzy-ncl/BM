@@ -74,7 +74,7 @@ $(document).ready(function () {
   </div>
 </li>
 `;
-  $("#events .event-item:first-of-type").before(challengeInf);
+  // $("#events .event-item:first-of-type").before(challengeInf);
 
   // --------- RESPONSIVE ---------
 
