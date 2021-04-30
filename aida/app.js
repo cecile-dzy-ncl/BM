@@ -10,9 +10,9 @@ $(document).ready(function () {
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT BANNER MAINTENANCE
-  var bannerMaintenance =
-    "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
-  $("#banner_section").before(bannerMaintenance);
+  // var bannerMaintenance =
+  //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
+  // $("#banner_section").before(bannerMaintenance);
 
   // AJOUT INTRO PAGE EVENTS
   var textIntroEvents = `
@@ -34,15 +34,15 @@ $(document).ready(function () {
   $(".events .first-section").before(textIntroEvents);
 
   // AJOUT WRAPPER OUTILS
-  var wrapperOutils = `<!-- BLOC OUTILS -->
- <div class="wrapper wrapper-help bg-darkblue">
- <div class="container-small-bm">
- <img alt="" class="d-block mx-auto mb-30" src="https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/arc-icondiscuss2x.png" style="height: 50px;">
- <h2 class="white text-center"><span class="font-300">BESOIN D'AIDE ? </span>Contactez-nous !</h2>
- <p><a class="white text-center" href="mailto:allezleschampions@associationaida.org">allezleschampions@associationaida.org</a></p>
- <p class="white text-center">Vous pouvez également nous contacter par téléphone au 06 32 71 00 10</p>
- </div></div>`;
-  $("#events-index .section-events").after(wrapperOutils);
+  //   var wrapperOutils = `<!-- BLOC OUTILS -->
+  //  <div class="wrapper wrapper-help bg-darkblue">
+  //  <div class="container-small-bm">
+  //  <img alt="" class="d-block mx-auto mb-30" src="https://collecter.fondation-arc.org/cdn.iraiser.eu/8v+/iZhRxdeu2BVNVycHEZ06vL2iKxpZId225sg6zFv3invHFgijE79b/k15iwJG/Simon_Romain/origin/arc-icondiscuss2x.png" style="height: 50px;">
+  //  <h2 class="white text-center"><span class="font-300">BESOIN D'AIDE ? </span>Contactez-nous !</h2>
+  //  <p><a class="white text-center" href="mailto:allezleschampions@associationaida.org">allezleschampions@associationaida.org</a></p>
+  //  <p class="white text-center">Vous pouvez également nous contacter par téléphone au 06 32 71 00 10</p>
+  //  </div></div>`;
+  //   $("#events-index .section-events").after(wrapperOutils);
 
   var challengeInf = `
   <li class="event-item">
