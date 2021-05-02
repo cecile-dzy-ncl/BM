@@ -107,4 +107,9 @@
   .nos-actions iframe {
     height: 200px;
   }
+
+  .nos-actions h2 {
+    font-size: 26px;
+    line-height: normal;
+  }
 }
