@@ -14,6 +14,10 @@
   color: var(--green);
 }
 
+.big-pill a {
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   .big-pill {
     width: 100%;
