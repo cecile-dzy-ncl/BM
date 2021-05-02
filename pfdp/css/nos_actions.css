@@ -104,6 +104,10 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .grid-stats {
+    grid-gap: 2rem;
+  }
+
   .nos-actions iframe {
     height: 200px;
   }
@@ -111,5 +115,10 @@
   .nos-actions h2 {
     font-size: 26px;
     line-height: normal;
+  }
+
+  .action h2:after {
+    width: 100vw;
+    right: 0;
   }
 }
