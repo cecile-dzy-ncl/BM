@@ -1,0 +1,9 @@
+.action {
+  margin-bottom: 65px;
+}
+
+.action h2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 400;
+}
