@@ -9,6 +9,10 @@
   position: relative;
 }
 
+.action p {
+  margin-bottom: 15px;
+}
+
 .action h2:after {
   content: "";
   position: absolute;
