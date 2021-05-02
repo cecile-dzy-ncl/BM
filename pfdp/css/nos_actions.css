@@ -53,6 +53,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5rem;
+}
+
+.grid-stats p {
   text-align: center;
 }
 
@@ -60,7 +63,6 @@
   color: var(--red);
   font-weight: 600;
   font-size: 30px;
-  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
