@@ -6,6 +6,32 @@
   color: black;
   text-transform: uppercase;
   font-weight: 400;
+  position: relative;
+}
+
+.action h2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 80vw;
+  right: -6vw;
+  bottom: -5px;
+}
+
+.action h2:after:nth-last-of-type(1) {
+  background: var(--red);
+}
+
+.action h2:after:nth-last-of-type(2) {
+  background: var(--yellow);
+}
+
+.action h2:after:nth-last-of-type(3) {
+  background: var(--green);
+}
+
+.action h2:after:nth-last-of-type(4) {
+  background: var(--blue);
 }
 
 .action p strong {
