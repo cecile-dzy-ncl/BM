@@ -41,4 +41,6 @@
 .action .btn-bm-border {
   border-color: black;
   color: black;
+  margin: auto;
+  display: block;
 }
