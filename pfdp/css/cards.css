@@ -45,6 +45,10 @@
   color: black;
 }
 
+.card p {
+  border-bottom: 0;
+}
+
 .card-top {
   height: 50%;
   width: 100%;
@@ -99,7 +103,6 @@
   background-color: var(--lightergrey);
 }
 
-
 /* ********** TESTIMONIALS ******************* */
 
 .testimonials {
@@ -116,13 +119,13 @@
   min-height: 288px;
 }
 
-.testimonial img{
+.testimonial img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.testimonial-text{
+.testimonial-text {
   width: 80%;
   height: 100%;
   display: flex;
@@ -137,9 +140,6 @@
   font-size: 18px;
   margin-bottom: 20px;
 }
-
-
-
 
 @media screen and (max-width: 500px) {
   .cards {
@@ -164,7 +164,7 @@
   .pill img {
     margin-right: 12px;
   }
-  
+
   .testimonials {
     grid-template-columns: none;
     max-height: none;
@@ -173,5 +173,4 @@
   .testimonial {
     max-height: 300px;
   }
-
 }
