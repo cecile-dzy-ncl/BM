@@ -81,6 +81,10 @@
   text-align: center;
 }
 
+.block-diff img {
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 500px) {
   .grid-stats,
   .grid-diff {
