@@ -48,3 +48,21 @@
   margin: auto;
   display: block;
 }
+
+.grid-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.stat-nb {
+  color: var(--red);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .grid-stats {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
