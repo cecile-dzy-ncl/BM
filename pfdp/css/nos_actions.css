@@ -18,19 +18,19 @@
   bottom: -5px;
 }
 
-.action h2:after:nth-last-of-type(1) {
+.action h2:nth-last-of-type(1):after {
   background: var(--red);
 }
 
-.action h2:after:nth-last-of-type(2) {
+.action h2:nth-last-of-type(2):after {
   background: var(--yellow);
 }
 
-.action h2:after:nth-last-of-type(3) {
+.action h2:nth-last-of-type(3):after {
   background: var(--green);
 }
 
-.action h2:after:nth-last-of-type(4) {
+.action h2:nth-last-of-type(4):after {
   background: var(--blue);
 }
 
