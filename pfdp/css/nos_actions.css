@@ -1,3 +1,7 @@
+.nos-actions iframe {
+  width: 100%;
+}
+
 .action {
   margin-bottom: 65px;
 }
