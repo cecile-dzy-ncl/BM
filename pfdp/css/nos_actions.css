@@ -37,3 +37,8 @@
 .action p strong {
   font-weight: 600;
 }
+
+.action .btn-bm-border {
+  border-color: black;
+  color: black;
+}
