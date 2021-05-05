@@ -25,8 +25,9 @@
   position: absolute;
   height: 2px;
   width: 80vw;
-  right: -6vw;
+  right: 0;
   bottom: -5px;
+  transform: translateX(0vw);
 }
 
 .action:nth-of-type(1) h2:after {
