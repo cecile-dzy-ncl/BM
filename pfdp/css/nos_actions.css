@@ -57,23 +57,6 @@
   display: block;
 }
 
-.grid-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5rem;
-}
-
-.grid-stats *,
-.grid-diff * {
-  text-align: center;
-}
-
-.stat-nb {
-  color: var(--red);
-  font-weight: 600;
-  font-size: 30px;
-}
-
 .grid-diff {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -97,6 +80,13 @@
 
 .block-diff p {
   margin-bottom: 0;
+}
+
+.stats img {
+  width: 80%;
+  margin: 0 auto;
+  /* text-align: center; */
+  display: block;
 }
 
 @media screen and (max-width: 500px) {
