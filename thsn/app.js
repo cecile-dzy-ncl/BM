@@ -35,21 +35,52 @@ $(document).ready(function () {
   var lang = $("html")[0].lang;
   var cta = "COPIER LE LIEN";
   switch (lang) {
-    case "fr":
-      var cta = "COPIER LE LIEN";
+    case "bg":
+      var cta = "копирайте връзката";
       break;
-    case "es":
-      var cta = "COPIA";
+    case "cs":
+      var cta = "zkopírujte odkaz";
+      break;
+    case "de":
+      var cta = "Kopieren Sie den Link";
       break;
     case "en":
       var cta = "COPY THE LINK";
       break;
+    case "es":
+      var cta = "COPIA EL ENLACE";
+      break;
+    case "fr":
+      var cta = "COPIER LE LIEN";
+      break;
+    case "hk":
+      var cta = "复制链接";
+      break;
+    case "hu":
+      var cta = "másolja a linket";
+      break;
+    case "it":
+      var cta = "copia il link";
+      break;
+    case "lat":
+      var cta = "copia el enlace";
+      break;
+    case "sk":
+      var cta = "skopírujte odkaz";
+      break;
+    case "sr":
+      var cta = "kopirajte vezu";
+      break;
+    case "tr":
+      var cta = "bağlantıyı kopyala";
+      break;
     default:
+      var cta = "COPY THE LINK";
       break;
   }
   var shareDiv = `<div class="d-flex mobile_flex-column justify-center align-items-center w-100 share-wrapper">\
   <input class="url-link" type="text" value="${pageUrl}"> \
-  <div class='url-btn' id="copy">${cta}</div> \
+  <div class='url-btn uppercase' id="copy">${cta}</div> \
   </div>`;
 
   if ($("html[lang='es'] #projects-index")) {
