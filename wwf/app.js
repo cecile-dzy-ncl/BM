@@ -24,9 +24,12 @@ $(document).ready(function () {
     eventsList.each(function () {
       const eventId = $(this).find(".page-create")[0].href.split("=")[1];
       console.log(eventId);
-      $(this).find(
-        ".page-see"
-      ).href = `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`;
+      $(this)
+        .find(".page-see")
+        .attr(
+          href,
+          `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`
+        );
     });
   }
 
