@@ -24,9 +24,9 @@
   text-align: left !important;
 }
 
-.section-events .event-item .event-details .event-goup-btn .page-see {
+/* .section-events .event-item .event-details .event-goup-btn .page-see {
   display: none;
-}
+} */
 
 @media screen and (max-width: 500px) {
   .steps img {
