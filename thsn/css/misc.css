@@ -3,3 +3,7 @@
   margin-right: auto;
   max-width: 71.25em;
 }
+
+#events-show .block-share-container .social-btns {
+  margin-left: 0;
+}
