@@ -25,7 +25,7 @@ $(document).ready(function () {
       const eventId = $(this).find(".page-create")[0].href.split("=")[1];
       console.log($(this).find(".page-see"));
       $(this)
-        .find(".page-see")
+        .find(".page-see")[0]
         .attr(
           href,
           `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`
