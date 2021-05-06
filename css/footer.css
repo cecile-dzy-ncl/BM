@@ -75,4 +75,7 @@ footer section ul.left li ul.center li {
 }
 
 @media screen and (max-width: 500px) {
+  footer section.top-bar-section {
+    flex-direction: column;
+  }
 }
