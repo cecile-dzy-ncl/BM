@@ -41,6 +41,7 @@
 
   #events-show iframe {
     height: auto;
+    width: 100%;
   }
 
   .country-title {
