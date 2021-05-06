@@ -22,7 +22,7 @@ $(document).ready(function () {
     var eventsList = $("#events .event-item");
     console.log(eventsList);
     eventsList.each(function () {
-      const eventId = $(this).find(".page-create").href;
+      const eventId = $(this).find(".page-create")[0].href;
       console.log(eventId);
     });
   }
