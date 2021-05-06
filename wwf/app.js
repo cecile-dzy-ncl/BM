@@ -22,8 +22,8 @@ $(document).ready(function () {
     var eventsList = $("#events .event-item");
     console.log(eventsList);
     eventsList.each(function () {
-      $(this).find(".page-create");
-      console.log($(this).find(".page-create"));
+      const eventId = $(this).find(".page-create").href;
+      console.log(eventId);
     });
   }
 
