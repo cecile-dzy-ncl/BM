@@ -21,6 +21,9 @@ $(document).ready(function () {
   if ($("body").is("#events-index")) {
     var eventsList = $("#events .event-item");
     console.log(eventsList);
+    eventsList.each(function () {
+      $(this).addClass("foo");
+    });
   }
 
   // AJOUT BANNER MAINTENANCE
