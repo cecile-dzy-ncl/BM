@@ -19,7 +19,8 @@ $(document).ready(function () {
   }
 
   if ($("body").is("#events-index")) {
-    console.log("ok on y est");
+    var eventsList = $("#events .event-item");
+    console.log(eventsList);
   }
 
   // AJOUT BANNER MAINTENANCE
