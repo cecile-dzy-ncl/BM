@@ -23,7 +23,7 @@ $(document).ready(function () {
     console.log(eventsList);
     eventsList.each(function () {
       const eventId = $(this).find(".page-create")[0].href.split("=")[1];
-      console.log(eventId);
+      console.log($(this).find(".page-see"));
       $(this)
         .find(".page-see")
         .attr(
