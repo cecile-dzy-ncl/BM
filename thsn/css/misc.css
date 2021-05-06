@@ -1,4 +1,5 @@
-/* footer .top-bar-section {
-  display: flex;
-  flex-direction: column; 
-} */
+.event-head > .row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 71.25em;
+}
