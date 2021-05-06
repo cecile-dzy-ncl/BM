@@ -4,6 +4,7 @@
 
 .orange,
 .big {
+  color: #e75a0b;
   color: var(--orange);
 }
 
