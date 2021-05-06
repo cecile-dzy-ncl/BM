@@ -22,7 +22,8 @@ $(document).ready(function () {
     var eventsList = $("#events .event-item");
     console.log(eventsList);
     eventsList.each(function () {
-      $(this).addClass("foo");
+      $(this).find(".page-create");
+      console.log($(this).find(".page-create"));
     });
   }
 
