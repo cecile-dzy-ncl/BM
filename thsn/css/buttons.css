@@ -15,3 +15,10 @@ button,
   display: block;
   width: max-content;
 }
+
+.manage-links .button {
+  font-size: 12px;
+  line-height: normal;
+  padding: 5px;
+  width: auto;
+}
