@@ -1,7 +1,7 @@
 .country-project {
   display: flex;
   align-items: center;
-  min-height: 570px;
+  height: 570px;
   background-color: #f3f3f3;
   margin-bottom: 50px;
 }
