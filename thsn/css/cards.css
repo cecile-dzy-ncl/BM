@@ -36,6 +36,7 @@
 .country-project .btn-bm {
   font-family: "Lucida";
   text-transform: uppercase;
+  width: auto;
 }
 
 @media screen and (max-width: 500px) {
