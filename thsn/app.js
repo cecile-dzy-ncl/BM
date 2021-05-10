@@ -54,7 +54,7 @@ $(document).ready(function () {
       var cta = "COPIER LE LIEN";
       break;
     case "hk":
-      var cta = "复制链接";
+      var cta = "複製鏈接";
       break;
     case "hu":
       var cta = "másolja a linket";
