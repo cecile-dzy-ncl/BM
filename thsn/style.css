@@ -412,7 +412,7 @@ div#copy.url-btn {
   font-family: "Rubrik";
   height: 35px;
   cursor: pointer;
-  width: 200px;
+  min-width: 200px;
   text-align: center;
   font-size: 15px;
   line-height: 26px;
