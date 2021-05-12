@@ -104,9 +104,9 @@ $(document).ready(function () {
         var successful = document.execCommand("copy");
         var msg = successful ? "successful" : "unsuccessful";
         console.log("Fallback: Copying text command was " + msg);
-        $(".url-btn").html("LIEN COPIÉ");
+        $(".url-btn").html("LINK COPIED");
         setTimeout(function () {
-          $(".url-btn").html("COPIER LE LIEN");
+          $(".url-btn").html(cta);
         }, 700);
       } catch (err) {
         console.error("Fallback: Oops, unable to copy", err);
