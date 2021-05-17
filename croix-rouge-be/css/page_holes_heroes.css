@@ -8,13 +8,13 @@
   text-align: left;
 }
 
+.event_7 .event-head .small-12.medium-6.columns:last-child,
+.event_7 .section_my_event {
+  display: none;
+}
+
 .compteur-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
-}
-
-.event_7 .event-head .small-12.medium-6.columns:last-child,
-.event_7 .section_my_event {
-  display: none;
 }
