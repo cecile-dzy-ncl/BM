@@ -1,6 +1,9 @@
+.banner {
+  background-size: cover;
+}
+
 .banner.homepage {
   background: url("https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBI89yV9+42UgBZRwjQeygwg/Cecile_Dezy/origin/mainimageH4H.jpg");
-  background-size: cover;
   display: flex;
   align-items: center;
 }
