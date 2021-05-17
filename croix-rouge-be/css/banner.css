@@ -23,6 +23,11 @@
   margin-bottom: 50px;
 }
 
+.banner.homepage .banner-text p {
+  font-size: 22px;
+  line-height: 26px;
+}
+
 .banner.homepage .banner-text .btn-bm {
   margin: initial;
 }
