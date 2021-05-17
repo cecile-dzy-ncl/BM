@@ -48,7 +48,7 @@ $(document).ready(function () {
       console.log(response);
     });
   };
-  if ($("body").is(".event_7.main_event")) {
+  if ($("body").is(".event_7.main-event")) {
     fetchData();
   }
 
