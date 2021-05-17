@@ -8,7 +8,8 @@
 .banner.homepage .banner-text {
   max-width: 571px;
   margin: 0 0 0 25%;
-  /* position: initial; */
-  /* background-color: transparent; */
-  /* margin-bottom: 100px; */
+}
+
+.banner.homepage .banner-text * {
+  color: white;
 }
