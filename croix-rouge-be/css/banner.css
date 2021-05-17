@@ -8,15 +8,18 @@
   align-items: center;
 }
 
+.banner .banner-text {
+  margin: 0 0 0 15%;
+}
+
 .banner.homepage .banner-text {
   max-width: 600px;
-  margin: 0 0 0 15%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.banner.homepage .banner-text * {
+.banner .banner-text * {
   color: white;
   text-align: left;
 }
