@@ -3,6 +3,6 @@
 }
 
 #projects-show .project_boutons_give {
-  background: var(--red);
-  color: white;
+  background: white;
+  color: var(--red);
 }
