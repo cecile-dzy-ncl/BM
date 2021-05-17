@@ -1,6 +1,6 @@
 #projects-show .section-projet-details .projet-head + .row,
 #projects-show .section-projet-details .bg-secondary-color-blurred {
-  background: var(--red);
+  background-color: var(--red);
 }
 
 #projects-show .project_boutons_give {
