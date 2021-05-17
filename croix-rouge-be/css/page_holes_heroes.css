@@ -21,4 +21,10 @@
 
 .compteur-nb * {
   color: black;
+  text-align: center;
+}
+
+.compteur-nb h2 {
+  font-size: 50px;
+  line-height: 60px;
 }
