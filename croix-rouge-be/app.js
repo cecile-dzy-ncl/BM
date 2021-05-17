@@ -48,8 +48,9 @@ $(document).ready(function () {
       console.log(response);
     });
   };
-
-  fetchData();
+  if ($("body").is(".event_7.main_event")) {
+    fetchData();
+  }
 
   // const cardClub =
   //   "<div class='card card-club'><img src='" +
