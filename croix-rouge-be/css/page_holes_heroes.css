@@ -1,15 +1,15 @@
-.event_7 section.event-head,
-.event_7 section.event-head .columns {
+.event_7.main-event section.event-head,
+.event_7.main-event section.event-head .columns {
   max-width: 100%;
   width: 100%;
 }
 
-.event_7 section.event-head h1 {
+.event_7.main-event section.event-head h1 {
   text-align: left;
 }
 
-.event_7 .event-head .small-12.medium-6.columns:last-child,
-.event_7 .section-my-event {
+.event_7.main-event .event-head .small-12.medium-6.columns:last-child,
+.event_7.main-event .section-my-event {
   display: none;
 }
 
