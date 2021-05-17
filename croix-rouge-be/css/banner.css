@@ -16,6 +16,6 @@
 }
 
 .banner.homepage .banner-text h1,
-.banner.homepage .banner-text p {
+.banner.homepage .banner-text p:last-child {
   margin-bottom: 50px;
 }
