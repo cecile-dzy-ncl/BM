@@ -1,5 +1,6 @@
 #projects-show .section-projet-details .projet-head + .row,
-#projects-show .section-projet-details .bg-secondary-color-blurred {
+#projects-show .section-projet-details .bg-secondary-color-blurred,
+#projects-show .section-projet-details .block-share-container {
   background-color: var(--red);
 }
 
