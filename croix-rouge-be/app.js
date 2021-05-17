@@ -42,7 +42,8 @@ $(document).ready(function () {
   }
 
   const holesEvents = [9, 10, 11];
-  const holesPodiumEvents = [];
+  const holesEventsList = [];
+  const holesPodiumEventsList = [];
 
   const buildEventCard = (event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
@@ -53,6 +54,8 @@ $(document).ready(function () {
     $.get(url, function (response) {
       console.log(response);
       console.log(response.amount_collected);
+      holesEventsList.push(response);
+      console.log(holesEventsList);
     });
   };
   if ($("body").is(".event_7.main-event")) {
