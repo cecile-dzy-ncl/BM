@@ -14,3 +14,8 @@
   color: white;
   text-align: left;
 }
+
+.banner.homepage .banner-text h1,
+.banner.homepage .banner-text p {
+  margin-bottom: 50px;
+}
