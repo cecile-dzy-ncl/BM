@@ -14,6 +14,19 @@ $(document).ready(function () {
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
+  // AJOUT CLASS MAIN-EVENT & SUB-EVENT
+  if ($("body").is("#events-show.event_type_peer_to_peer")) {
+    if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
+      console.log("sub-event");
+      $("#events-show")[0].classList.add("sub-event");
+    } else if (
+      $("#events-show")[0].classList.value.match(/event_\d/g).length === 1
+    ) {
+      console.log("main-event");
+      $("#events-show")[0].classList.add("main-event");
+    }
+  }
+
   // $("#events .event-item:first-of-type").before(challengeInf);
 
   // --------- RESPONSIVE ---------
