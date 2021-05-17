@@ -39,5 +39,6 @@
 .banner.hole_heroes {
   background: url("https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBI89yV9+42UgBZRwjQeygwg/Cecile_Dezy/origin/mainimageH4H2x.jpg");
   background-size: cover;
+  background-position: center;
   height: 291px;
 }
