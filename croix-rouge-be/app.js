@@ -57,10 +57,9 @@ $(document).ready(function () {
       holesEventsList.push(response);
       console.log("holesEventsList 1", holesEventsList);
       holesEventsList.sort((a, b) =>
-        a.parseInt(a.amount_collected, 10) > b.parseInt(b.amount_collected, 10)
+        a.amount_collected > b.amount_collected
           ? 1
-          : a.parseInt(a.amount_collected, 10) ===
-            b.parseInt(b.amount_collected, 10)
+          : a.amount_collected === b.amount_collected
           ? a.id > b.id
             ? 1
             : -1
