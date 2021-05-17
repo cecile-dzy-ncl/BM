@@ -1,4 +1,7 @@
+@import "./variables.css";
+
 @import "./banner.css";
+@import "./buttons.css";
 @import "./fonts.css";
 @import "./misc.css";
 @import "./navbar.css";
