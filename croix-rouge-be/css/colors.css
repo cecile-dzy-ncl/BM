@@ -5,3 +5,7 @@
 .bg-red {
   background: var(--red);
 }
+
+.bg-grey {
+  background: var(--mediumgrey);
+}
