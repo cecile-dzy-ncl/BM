@@ -13,9 +13,16 @@
 .banner.homepage .banner-text * {
   color: white;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .banner.homepage .banner-text h1,
 .banner.homepage .banner-text p:last-child {
   margin-bottom: 50px;
+}
+
+.banner.homepage .banner-text .btn-bm {
+  margin: initial;
 }
