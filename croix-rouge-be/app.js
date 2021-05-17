@@ -55,6 +55,7 @@ $(document).ready(function () {
       console.log(response);
       console.log(response.amount_collected);
       holesEventsList.push(response);
+      console.log("holesEventsList 1", holesEventsList);
       holesEventsList.sort((a, b) =>
         a.parseInt(a.amount_collected, 10) > b.parseInt(b.amount_collected, 10)
           ? 1
@@ -65,7 +66,7 @@ $(document).ready(function () {
             : -1
           : -1
       );
-      console.log(holesEventsList);
+      console.log("holesEventsList sorted", holesEventsList);
     });
   };
   if ($("body").is(".event_7.main-event")) {
