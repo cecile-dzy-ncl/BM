@@ -6,7 +6,7 @@ $(document).ready(function () {
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
   $(
-    "<li class='nodropdown footer-link-menu'><a href='https://associationaida.org/' target='_blank'>© Association Aïda</a></li>"
+    "<li class='nodropdown footer-link-menu'><a href='https://media.ifrc.org/ifrc/' target='_blank'>© Belgian Red Cross</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT BANNER MAINTENANCE
