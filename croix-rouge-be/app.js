@@ -43,7 +43,6 @@ $(document).ready(function () {
 
   const holesEvents = [9, 10, 11];
   const holesEventsList = [];
-  const holesPodiumEventsList = [];
 
   const buildEventCard = (event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
@@ -56,16 +55,22 @@ $(document).ready(function () {
       console.log(response.amount_collected);
       holesEventsList.push(response);
       console.log("holesEventsList 1", holesEventsList);
-      holesEventsList.sort((a, b) =>
-        a.amount_collected > b.amount_collected
-          ? 1
-          : a.amount_collected === b.amount_collected
-          ? a.id > b.id
-            ? 1
-            : -1
-          : -1
+      const holesPodiumEventsList = holesEventsList.map((event) =>
+        Object.assign({}, event, {
+          amount: parseInt(event.amount_collected, 10),
+        })
       );
+      // holesEventsList.sort((a, b) =>
+      //   a.amount_collected > b.amount_collect
+      //     ? 1
+      //     : a.amount_collect === b.amount_collect
+      //     ? a.id > b.id
+      //       ? 1
+      //       : -1
+      //     : -1
+      // );
       console.log("holesEventsList sorted", holesEventsList);
+      console.log("holesEventsList podium", holesPodiumEventsList);
     });
   };
   if ($("body").is(".event_7.main-event")) {
