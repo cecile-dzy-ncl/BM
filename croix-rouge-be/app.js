@@ -53,7 +53,7 @@ $(document).ready(function () {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
     console.log("event", event);
     const eventCard = `
-    <div class="eventCard">
+    <div class="eventCard ${index === 0 ? "winner" : ""}">
     <span>#${index + 1}</span>
     <img src="/" alt="club profile picture/>
     <div>
