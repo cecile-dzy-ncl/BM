@@ -28,3 +28,8 @@
   font-size: 50px;
   line-height: 60px;
 }
+
+.eventCard {
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
+}

@@ -51,11 +51,10 @@ $(document).ready(function () {
 
   const buildEventCard = (index, event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-    console.log("index", index);
-    console.log("eventAmountCollected", event.id, eventAmountCollected);
+    console.log("event", event);
     const eventCard = `
     <div class="eventCard bg-grey">
-    <span>#</span>
+    <span>#${index + 1}</span>
     <img src="/" alt="club profile picture/>
     <div></div>
     ${eventAmountCollected}
