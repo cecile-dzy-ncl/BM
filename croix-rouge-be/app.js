@@ -55,6 +55,9 @@ $(document).ready(function () {
     console.log("eventAmountCollected", event.id, eventAmountCollected);
     const eventCard = `
     <div class="eventCard bg-grey">
+    <span>#${}</span>
+    <img src="${}" alt="club profile picture/>
+    <div></div>
     ${eventAmountCollected}
     </div>
     `;
