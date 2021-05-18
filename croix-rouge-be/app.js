@@ -53,14 +53,18 @@ $(document).ready(function () {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
     console.log("event", event);
     const eventCard = `
-    <a href="${event.url[lang]}">
     <div class="eventCard">
     <span>#${index + 1}</span>
     <img src="/" alt="club profile picture/>
-    <div></div>
-    ${eventAmountCollected}
+    <div>
+    <h3>${event.title[lang]}</h3>
+    <p>${event.manifold_count} joueurs inscrits</p>
+    <p>${eventAmountCollected} euros collectés</p>
     </div>
+    <a href="${event.url[lang]}">${btnSeeMore}
     </a>
+    
+    </div>
     `;
     injectEventCard(eventCard);
   };
