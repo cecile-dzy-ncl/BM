@@ -70,7 +70,7 @@ $(document).ready(function () {
           : -1
       );
       console.log("holesEventsList sorted", holesEventsList);
-      console.log("holesEventsList podium", holesPodiumEventsList);
+      // console.log("holesEventsList podium", holesPodiumEventsList);
     });
   };
   if ($("body").is(".event_7.main-event")) {
