@@ -49,11 +49,12 @@ $(document).ready(function () {
     EventCardList.append(card);
   };
 
-  const buildEventCard = (event) => {
+  const buildEventCard = (index, event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
+    console.log("index", index);
     console.log("eventAmountCollected", event.id, eventAmountCollected);
     const eventCard = `
-    <div>
+    <div class="eventCard bg-grey">
     ${eventAmountCollected}
     </div>
     `;
@@ -78,7 +79,7 @@ $(document).ready(function () {
           : -1
       );
       $.each(holesEventsList, function (key, value) {
-        buildEventCard(value);
+        buildEventCard(key, value);
       });
       console.log("holesEventsList sorted", holesEventsList);
     });
