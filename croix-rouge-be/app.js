@@ -63,7 +63,7 @@ $(document).ready(function () {
       holesEventsList.sort((a, b) =>
         a.amount_collected > b.amount_collected
           ? 1
-          : a.amount_collect === b.amount_collected
+          : a.amount_collected === b.amount_collected
           ? a.id > b.id
             ? 1
             : -1
