@@ -44,9 +44,20 @@ $(document).ready(function () {
   const holesEvents = [9, 10, 11];
   const holesEventsList = [];
 
+  const injectEventCard = (card) => {
+    var EventCardList = $("#event_card_list");
+    EventCardList.insertAdjacentHTML("beforeend", card);
+  };
+
   const buildEventCard = (event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
     console.log("eventAmountCollected", event.id, eventAmountCollected);
+    const eventCard = `
+    <div>
+    ${eventAmountCollected}
+    </div>
+    `;
+    injectEventCard(eventCard);
   };
 
   const fetchData = (event) => {
