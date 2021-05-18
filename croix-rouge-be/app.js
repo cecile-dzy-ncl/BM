@@ -46,7 +46,7 @@ $(document).ready(function () {
 
   const injectEventCard = (card) => {
     var EventCardList = $("#event_card_list");
-    EventCardList.insertAdjacentHTML("beforeend", card);
+    EventCardList.append(card);
   };
 
   const buildEventCard = (event) => {
