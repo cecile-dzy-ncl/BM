@@ -61,7 +61,7 @@ $(document).ready(function () {
     <p>${event.manifold_count} joueurs inscrits</p>
     <p>${eventAmountCollected} euros collectés</p>
     </div>
-    <a href="${event.url[lang]}">${btnSeeMore}
+    <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
     </a>
     
     </div>
