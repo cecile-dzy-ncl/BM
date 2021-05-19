@@ -74,22 +74,22 @@ $(document).ready(function () {
     $.get(url, function (response) {
       console.log(response);
       console.log(response.amount_collected);
-      holesEventsList.push(response);
-      console.log("holesEventsList 1", holesEventsList);
+      console.log("response.subevents", response.subevents);
+      // holesEventsList.push(response);
 
-      holesEventsList.sort((a, b) =>
-        a.amount_collected > b.amount_collected
-          ? 1
-          : a.amount_collected === b.amount_collected
-          ? a.id > b.id
-            ? 1
-            : -1
-          : -1
-      );
-      $.each(holesEventsList, function (key, value) {
-        buildEventCard(key, value);
-      });
-      console.log("holesEventsList sorted", holesEventsList);
+      // holesEventsList.sort((a, b) =>
+      //   a.amount_collected > b.amount_collected
+      //     ? 1
+      //     : a.amount_collected === b.amount_collected
+      //     ? a.id > b.id
+      //       ? 1
+      //       : -1
+      //     : -1
+      // );
+      // $.each(holesEventsList, function (key, value) {
+      //   buildEventCard(key, value);
+      // });
+      // console.log("holesEventsList sorted", holesEventsList);
     });
   };
 
