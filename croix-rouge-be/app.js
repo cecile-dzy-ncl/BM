@@ -76,7 +76,7 @@ $(document).ready(function () {
       console.log(response.amount_collected);
       console.log("response.subevents", response.subevents);
       // holesEventsList.push(response);
-      
+
       // holesEventsList.sort((a, b) =>
       //   a.amount_collected > b.amount_collected
       //     ? 1
@@ -87,24 +87,23 @@ $(document).ready(function () {
       //     : -1
       // );
       // $.each(holesEventsList, function (key, value) {
-        //   buildEventCard(key, value);
-        // });
-        // console.log("holesEventsList sorted", holesEventsList);
-      });
-    };
-    
-    if ($("body").is(".event_7.main-event")) {
+      //   buildEventCard(key, value);
+      // });
+      // console.log("holesEventsList sorted", holesEventsList);
+    });
+  };
+
+  if ($("body").is(".event_7.main-event")) {
     var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
       console.log(response);
       console.log("response.subevents", response.subevents);
-      });
-    };
-    
-    // $.each(holesEvents, function (key, value) {
-    //   fetchData(value);
-    // });
+    });
   }
+
+  // $.each(holesEvents, function (key, value) {
+  //   fetchData(value);
+  // });
 
   // const cardClub =
   //   "<div class='card card-club'><img src='" +
