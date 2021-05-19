@@ -95,10 +95,10 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    fetchData(7);
+    const subEvents = fetchData(7);
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
-    $.each(response.subevents, function (event) {
+    $.each(subEvents, function (event) {
       fetchData(event);
     });
     // });
