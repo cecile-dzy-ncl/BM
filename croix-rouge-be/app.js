@@ -96,11 +96,12 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     const subEvents = fetchData(7);
+    console.log(subEvents);
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
-    $.each(subEvents, function (key, value) {
-      fetchData(value);
-    });
+    // $.each(subEvents, function (key, value) {
+    //   fetchData(value);
+    // });
     // });
     // var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   }
