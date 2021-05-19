@@ -72,9 +72,10 @@ $(document).ready(function () {
   const fetchData = (event) => {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      console.log(response);
-      console.log(response.amount_collected);
-      console.log("response.subevents", response.subevents);
+      return response;
+      // console.log(response);
+      // console.log(response.amount_collected);
+      // console.log("response.subevents", response.subevents);
       // holesEventsList.push(response);
 
       // holesEventsList.sort((a, b) =>
@@ -94,16 +95,15 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
+    fetchData(7);
     $.get(url, function (response) {
-      console.log(response);
       console.log("response.subevents", response.subevents);
+      $.each(response.subevents, function (event) {
+        fetchData(event);
+      });
     });
+    // var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   }
-
-  // $.each(holesEvents, function (key, value) {
-  //   fetchData(value);
-  // });
 
   // const cardClub =
   //   "<div class='card card-club'><img src='" +
