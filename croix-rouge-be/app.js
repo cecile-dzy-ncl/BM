@@ -74,19 +74,19 @@ $(document).ready(function () {
       console.log("subevent", response);
       holesEventsList.push(response);
       console.log("holesEventsList", holesEventsList);
-      // holesEventsList.sort((a, b) =>
-      //   a.amount_collected > b.amount_collected
-      //     ? 1
-      //     : a.amount_collected === b.amount_collected
-      //     ? a.id > b.id
-      //       ? 1
-      //       : -1
-      //     : -1
-      // );
-      // $.each(holesEventsList, function (key, value) {
-      //   buildEventCard(key, value);
-      // });
-      // console.log("holesEventsList sorted", holesEventsList);
+      holesEventsList.sort((a, b) =>
+        a.amount_collected > b.amount_collected
+          ? 1
+          : a.amount_collected === b.amount_collected
+          ? a.id > b.id
+            ? 1
+            : -1
+          : -1
+      );
+      $.each(holesEventsList, function (key, value) {
+        buildEventCard(key, value);
+      });
+      console.log("holesEventsList sorted", holesEventsList);
     });
   };
 
