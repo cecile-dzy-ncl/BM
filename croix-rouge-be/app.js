@@ -42,7 +42,7 @@ $(document).ready(function () {
   }
 
   const holesEventsList = [];
-  var eventCardList = $("#event_card_list")[0];
+  var eventCardList = $("#event_card_list");
 
   const injectEventCard = (card) => {
     eventCardList.append(card);
