@@ -81,8 +81,8 @@ $(document).ready(function () {
     $.get(url, function (response) {
       console.log("main event", response);
 
-      $.each(response.subevents, (event) => {
-        fetchSubEvent(event);
+      $.each(response.subevents, (key, value) => {
+        fetchSubEvent(value);
       });
 
       // holesEventsList.sort((a, b) =>
