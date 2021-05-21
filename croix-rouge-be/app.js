@@ -69,9 +69,10 @@ $(document).ready(function () {
     injectEventCard(eventCard);
   };
 
-  const fetchData = (event) => {
-    var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
+  const fetchMainEvent = () => {
+    var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
+      console.log(response);
       return response;
       // console.log(response);
       // console.log(response.amount_collected);
@@ -95,8 +96,7 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    const subEvents = fetchData(7);
-    console.log(subEvents);
+    fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
     // $.each(subEvents, function (key, value) {
