@@ -42,10 +42,10 @@ $(document).ready(function () {
   }
 
   const holesEventsList = [];
+  var eventCardList = $("#event_card_list");
 
   const injectEventCard = (card) => {
-    var EventCardList = $("#event_card_list");
-    EventCardList.append(card);
+    eventCardList.append(card);
   };
 
   const buildEventCard = (index, event) => {
@@ -102,6 +102,7 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
+    eventCardList.html("");
     fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
