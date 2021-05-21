@@ -69,15 +69,21 @@ $(document).ready(function () {
     injectEventCard(eventCard);
   };
 
+  const fetchSubEvent = (event) => {
+    var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
+    $.get(url, function (response) {
+      console.log("subevent", response);
+    });
+  };
+
   const fetchMainEvent = () => {
     var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      console.log(response);
-      return response;
-      // console.log(response);
-      // console.log(response.amount_collected);
-      // console.log("response.subevents", response.subevents);
-      // holesEventsList.push(response);
+      console.log("main event", response);
+
+      $.each(response.subevents, (event) => {
+        fetchSubEvent(event);
+      });
 
       // holesEventsList.sort((a, b) =>
       //   a.amount_collected > b.amount_collected
