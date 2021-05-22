@@ -102,8 +102,9 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    $("#event_card_list")[0].html("");
+    // $("#event_card_list")[0].html("");
     console.log($("#event_card_list"));
+    console.log($("#event_card_list")[0]);
     fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
