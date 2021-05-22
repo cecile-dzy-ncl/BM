@@ -53,7 +53,7 @@ $(document).ready(function () {
     const eventCard = `
     <div class="eventCard ${index === 0 ? "winner" : ""}">
     <span>#${index + 1}</span>
-    <img src="/" alt="club profile picture"/>
+    <img src="${event.avatar}" alt="club profile picture"/>
     <div>
     <h3>${event.title[lang]}</h3>
     <p>${event.manifold_count} joueurs inscrits</p>
