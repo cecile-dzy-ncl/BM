@@ -41,7 +41,6 @@ $(document).ready(function () {
       break;
   }
 
-  const holesEventsList = [];
   var eventCardList = $("#event_card_list");
 
   const injectEventCard = (card) => {
@@ -69,6 +68,7 @@ $(document).ready(function () {
   };
 
   const fetchSubEvent = (event) => {
+    const holesEventsList = [];
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
       console.log("subevent", response);
@@ -102,9 +102,7 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    // $("#event_card_list")[0].html("");
-    console.log($("#event_card_list"));
-    console.log($("#event_card_list")[0]);
+    $("#event_card_list").html("");
     fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
