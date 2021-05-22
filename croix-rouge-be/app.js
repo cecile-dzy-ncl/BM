@@ -42,6 +42,35 @@ $(document).ready(function () {
   }
 
   var eventCardList = $("#event_card_list");
+  var playersCardList = $("#players_card_list");
+
+  const injectCard = (container, card) => {
+    container.append(card);
+  };
+
+  const buildPlayerCard = (index, event) => {
+    var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
+    console.log("event", event);
+    const eventCard = `
+    <div class="eventCard ${index === 0 ? "winner" : ""}">
+    <span>#${index + 1}</span>
+    <img src="${
+      event.avatar
+        ? event.avatar
+        : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
+    }" alt="club profile picture"/>
+    <div>
+    <h3>${event.title[lang]}</h3>
+    <p>${event.manifold_count} joueurs inscrits</p>
+    <p>${eventAmountCollected} euros collectés</p>
+    </div>
+    <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
+    </a>
+    
+    </div>
+    `;
+    injectCard(playersCardList, eventCard);
+  };
 
   const fetchBestPlayers = () => {
     var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&order=amount&limit=10`;
@@ -50,12 +79,9 @@ $(document).ready(function () {
 
       $.each(response.subevents, (key, value) => {
         console.log(value);
+        buildPlayerCard(value);
       });
     });
-  };
-
-  const injectEventCard = (card) => {
-    eventCardList.append(card);
   };
 
   const buildEventCard = (index, event) => {
@@ -75,16 +101,14 @@ $(document).ready(function () {
     
     </div>
     `;
-    injectEventCard(eventCard);
+    injectCard(eventCardList, eventCard);
   };
 
   const fetchSubEvent = (event) => {
     const holesEventsList = [];
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      console.log("subevent", response);
       holesEventsList.push(response);
-      console.log("holesEventsList", holesEventsList);
       holesEventsList.sort((a, b) =>
         a.amount_collected > b.amount_collected
           ? 1
@@ -97,15 +121,12 @@ $(document).ready(function () {
       $.each(holesEventsList, function (key, value) {
         buildEventCard(key, value);
       });
-      console.log("holesEventsList sorted", holesEventsList);
     });
   };
 
   const fetchMainEvent = () => {
     var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      console.log("main event", response);
-
       $.each(response.subevents, (key, value) => {
         fetchSubEvent(value);
       });
@@ -116,13 +137,6 @@ $(document).ready(function () {
     $("#event_card_list").html("");
     fetchMainEvent();
     fetchBestPlayers();
-    // $.get(url, function (response) {
-    //   console.log("response.subevents", response.subevents);
-    // $.each(subEvents, function (key, value) {
-    //   fetchData(value);
-    // });
-    // });
-    // var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   }
 
   // const cardClub =
