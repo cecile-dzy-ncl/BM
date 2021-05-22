@@ -102,7 +102,7 @@ $(document).ready(function () {
   };
 
   if ($("body").is(".event_7.main-event")) {
-    eventCardList.html("");
+    $("#event_card_list").html("");
     fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
