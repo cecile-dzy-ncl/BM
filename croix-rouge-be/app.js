@@ -48,21 +48,21 @@ $(document).ready(function () {
     container.append(card);
   };
 
-  const buildPlayerCard = (index, event) => {
-    var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-    console.log("event", event);
-    const eventCard = `
-    <div class="eventCard ${index === 0 ? "winner" : ""}">
+  const buildPlayerCard = (index, player) => {
+    var playerAmountCollected = parseInt(player.amount_collected, 10) / 100;
+    console.log("player", player);
+    const playerCard = `
+    <div class="playerCard ${index === 0 ? "winner" : ""}">
     <span>#${index + 1}</span>
     <img src="${
-      event.avatar
-        ? event.avatar
+      player.avatar
+        ? player.avatar
         : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
     }" alt="club profile picture"/>
     <div>
-    <h3>${event.title[lang]}</h3>
-    <p>${event.manifold_count} joueurs inscrits</p>
-    <p>${eventAmountCollected} euros collectés</p>
+    <h3>${player.title[lang]}</h3>
+    <p>${player.manifold_count} joueurs inscrits</p>
+    <p>${playerAmountCollected} euros collectés</p>
     </div>
     <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
     </a>
@@ -77,7 +77,7 @@ $(document).ready(function () {
     $.get(url, function (response) {
       console.log("best 10 players", response);
 
-      $.each(response.subevents, (key, value) => {
+      $.each(response.projects, (key, value) => {
         console.log(value);
         buildPlayerCard(value);
       });
