@@ -60,11 +60,11 @@ $(document).ready(function () {
         : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
     }" alt="club profile picture"/>
     <div>
-    <h3>${player.title[lang]}</h3>
-    <p>${player.manifold_count} joueurs inscrits</p>
+    <h3>${player.creator}</h3>
+    <!-- <p>${player.manifold_count}</p> nom du club -->
     <p>${playerAmountCollected} euros collectés</p>
     </div>
-    <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
+    <a class="btn-bm btn-bm-border" href="${player.url[lang]}">${btnSeeMore}
     </a>
     
     </div>
