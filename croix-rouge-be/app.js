@@ -69,7 +69,7 @@ $(document).ready(function () {
     
     </div>
     `;
-    injectCard(playersCardList, eventCard);
+    injectCard(playersCardList, playerCard);
   };
 
   const fetchBestPlayers = () => {
