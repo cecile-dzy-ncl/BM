@@ -103,6 +103,7 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
+    console.log($("#event_card_list"));
     fetchMainEvent();
     // $.get(url, function (response) {
     //   console.log("response.subevents", response.subevents);
