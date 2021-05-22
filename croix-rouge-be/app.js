@@ -49,7 +49,8 @@ $(document).ready(function () {
   };
 
   const buildPlayerCard = (index, player) => {
-    var playerAmountCollected = parseInt(player.amount_collected, 10) / 100;
+    var playerAmountCollected =
+      (player.desired_amount - player.remaining_amount) / 100;
     console.log("player", player);
     const playerCard = `
     <div class="playerCard ${index === 0 ? "winner" : ""}">
