@@ -81,7 +81,7 @@ $(document).ready(function () {
       $.each(response.projects, (key, value) => {
         console.log("player api response", response);
         console.log(value);
-        buildPlayerCard(value);
+        buildPlayerCard(key, value);
       });
     });
   };
