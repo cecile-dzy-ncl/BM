@@ -76,11 +76,7 @@ $(document).ready(function () {
   const fetchBestPlayers = () => {
     var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&order=amount&limit=10`;
     $.get(url, function (response) {
-      console.log(response);
-      console.log(response.projects);
       $.each(response.projects, (key, value) => {
-        console.log("player api response", response);
-        console.log(value);
         buildPlayerCard(key, value);
       });
     });
@@ -88,19 +84,21 @@ $(document).ready(function () {
 
   const buildEventCard = (index, event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-    console.log("event", event);
     const eventCard = `
     <div class="eventCard ${index === 0 ? "winner" : ""}">
     <span>#${index + 1}</span>
-    <img src="${event.avatar}" alt="club profile picture"/>
+    <img src="${
+      player.avatar
+        ? player.avatar
+        : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
+    }" alt="club profile picture"/>
     <div>
     <h3>${event.title[lang]}</h3>
     <p>${event.manifold_count} joueurs inscrits</p>
     <p>${eventAmountCollected} euros collectés</p>
     </div>
     <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
-    </a>
-    
+    </a>s
     </div>
     `;
     injectCard(eventCardList, eventCard);
