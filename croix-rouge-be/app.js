@@ -49,8 +49,9 @@ $(document).ready(function () {
   };
 
   const buildPlayerCard = (index, player) => {
-    var playerAmountCollected = player.current_amount / 100;
     console.log("player", player);
+    console.log("holesEventsList", holesEventsList);
+    var playerAmountCollected = player.current_amount / 100;
     const playerCard = `
     <div class="playerCard ${index === 0 ? "winner" : ""}">
     <span>#${index + 1}</span>
@@ -75,10 +76,7 @@ $(document).ready(function () {
   const fetchBestPlayers = () => {
     var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&order=amount&limit=10`;
     $.get(url, function (response) {
-      console.log("best 10 players", response);
-
       $.each(response.projects, (key, value) => {
-        console.log(value);
         buildPlayerCard(value);
       });
     });
