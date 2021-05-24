@@ -1,5 +1,6 @@
 $(document).ready(function async() {
   $("body").addClass("hole-heroes");
+  console.log("coucou");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
