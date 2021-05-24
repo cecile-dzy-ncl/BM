@@ -128,9 +128,10 @@
   color: white;
 }
 
-.playerCard.top3 .player_RankImg img {
+.playerCard.top3 .player_RankImg {
   position: relative;
 }
+
 .playerCard.top3 .player_RankImg img {
   width: 270px;
   height: 270px;
