@@ -139,7 +139,7 @@ $(document).ready(function () {
     fetchMainEvent();
     console.log(holesEventsList);
     holesEventsList.splice(0, arr.length);
-    console.log("holesEventsList clean up", holesEventsList);
+    console.log("holesEventsList spliced up", holesEventsList);
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
