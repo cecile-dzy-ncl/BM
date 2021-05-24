@@ -142,9 +142,9 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  events.forEach((event) => {
-    console.log(event);
-    // buildEventCard(event, index);
+  events.forEach((event, index) => {
+    console.log(event, index);
+    buildEventCard(event, index);
   });
 };
 
