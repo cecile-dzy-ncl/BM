@@ -112,4 +112,11 @@
 .playerCard.top3 .player_RankImg {
   width: 270px;
   height: 270px;
+  position: relative;
+}
+
+.playerCard.top3 .player_RankImg span {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
