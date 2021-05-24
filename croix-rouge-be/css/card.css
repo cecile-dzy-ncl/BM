@@ -176,3 +176,11 @@
 .player_amount {
   color: var(--red);
 }
+
+.player_infos h3 {
+  text-align: left;
+}
+
+p.player_amount {
+  text-align: center;
+}
