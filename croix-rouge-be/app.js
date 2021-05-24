@@ -44,12 +44,6 @@ $(document).ready(function () {
   var eventCardList = $("#event_card_list");
   var playersCardList = $("#players_card_list");
 
-  var eventsList = [];
-  var eventsSortedList = [];
-
-  console.log("eventsList", eventsList);
-  console.log("eventsSortedList", eventsSortedList);
-
   const injectCard = (container, card) => {
     container.append(card);
   };
@@ -122,7 +116,7 @@ $(document).ready(function () {
   const fetchSubEvent = (event) => {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      eventsList.push(response);
+      return response;
       // eventsList.sort((a, b) =>
       //   a.amount_collected > b.amount_collected
       //     ? 1
@@ -136,15 +130,23 @@ $(document).ready(function () {
       //   buildEventCard(key, value);
       // });
     });
+  };
+
+  const fetchSubEvents = (ids) => {
+    const eventsList = [];
+    $.each(ids, (key, value) => {
+      eventsList.push(fetchSubEvent(value));
+    });
     console.log(eventsList);
   };
 
   const fetchMainEvent = () => {
     var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      $.each(response.subevents, (key, value) => {
-        fetchSubEvent(value);
-      });
+      fetchSubEvents(response.subevents);
+      // $.each(response.subevents, (key, value) => {
+      //   fetchSubEvent(value);
+      // });
     });
   };
 
