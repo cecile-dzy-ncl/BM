@@ -78,7 +78,7 @@ const buildPlayerCard = (index, player, eventsList) => {
   console.log(player);
   console.log(eventsList);
   var playerAmountCollected = player.current_amount / 100;
-  var clubName = eventsList.find((x) => x.id === player.event_id).title[lang];
+  var clubName = eventsList.find((x) => x.id === player.event_id)?.title[lang];
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
