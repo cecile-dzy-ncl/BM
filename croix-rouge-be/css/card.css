@@ -129,7 +129,7 @@
   color: white;
 }
 
-.playerCard.top3 .player_RankImg {
+.playerCard.top3 .player_RankImg img {
   width: 270px;
   height: 270px;
   margin: 0;
