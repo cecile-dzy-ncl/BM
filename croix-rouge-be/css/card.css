@@ -33,13 +33,13 @@
   display: none;
 }
 
-.eventCard h3:nth-child(-n + 3) {
-  font-size: 30px;
-  line-height: 36px;
+.eventCard p:nth-child(-n + 3) {
+  display: block;
 }
 
 .eventCard h3:nth-child(-n + 3) {
-  display: block;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 .eventCard btn-bm.btn-bm-border {
