@@ -95,14 +95,23 @@ const buildPlayerCard = async (index, player, eventsList) => {
   <div>
   <h3>${player.creator}</h3>
   <p class="player_club">${clubName}</p>
-  ${index > 2 ? "</div>" : ""}
-  <p class="player_amount">${playerAmountCollected}€ collectés</p>
-  ${index < 3 ? "</div>" : ""}
-  <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
-    player.url[lang]
-  }">${btnSeeMore}
-  </a>
-  
+  ${
+    index > 2
+      ? `
+      </div><div><p class=player_amount'>${playerAmountCollected}€ collectés</p>
+      <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
+          player.url[lang]
+        }">${btnSeeMore}
+      </a>
+      </div>`
+      : `
+      <p class=player_amount'>${playerAmountCollected}€ collectés</p></div>
+      <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
+          player.url[lang]
+        }">${btnSeeMore}
+      </a>
+      </div>`
+  }
   </div>
   `;
   injectCard(playersCardList, playerCard);
