@@ -43,6 +43,8 @@ $(document).ready(function () {
 
   var eventCardList = $("#event_card_list");
   var playersCardList = $("#players_card_list");
+  let holesEventsList = [];
+  console.log("holesEventsList", holesEventsList);
 
   const injectCard = (container, card) => {
     container.append(card);
@@ -103,8 +105,6 @@ $(document).ready(function () {
     `;
     injectCard(eventCardList, eventCard);
   };
-
-  let holesEventsList = [];
 
   const fetchSubEvent = (event) => {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
