@@ -156,6 +156,9 @@
   display: none;
 }
 
+.playerCard p {
+  margin: 0;
+}
 .player_club {
   text-transform: uppercase;
 }
