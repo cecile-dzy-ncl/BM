@@ -136,8 +136,10 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
-    holesEventsList = [];
     fetchMainEvent();
+    console.log(holesEventsList);
+    holesEventsList = [];
+    console.log(holesEventsList);
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
