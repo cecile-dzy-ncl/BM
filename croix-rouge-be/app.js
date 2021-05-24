@@ -58,7 +58,7 @@ $(document).ready(function () {
     var playerAmountCollected = player.current_amount / 100;
     console.log(player);
     console.log(eventsList);
-    var clubName = eventsList.find((x) => x.id === player.event_id).title[lang];
+    var clubName = eventsList.find((x) => x.id === player.event_id);
     const playerCard = `
     <div class="playerCard ${
       index === 0 ? "winner top3" : index < 3 ? "top3" : ""
