@@ -140,40 +140,6 @@ $(document).ready(function () {
     fetchBestPlayers();
   }
 
-  // const cardClub =
-  //   "<div class='card card-club'><img src='" +
-  //   event.banner_image +
-  //   "'><div class='card-event-btns'><a href='" +
-  //   eventUrl +
-  //   "' class='btn-bm'>" +
-  //   btnSeeMore +
-  //   "</a><a href='https://events.msf-azg.be/projects/new?event_id=" +
-  //   event.id +
-  //   "' class='btn-bm bg-red white'>" +
-  //   btnCreerCard +
-  //   "</a></div><div class='card-event-details'><h4><a href='" +
-  //   eventUrl +
-  //   "'>" +
-  //   eventTitle +
-  //   "</a></h4><p>" +
-  //   eventDescription +
-  //   "</p><div>" +
-  //   progressBar +
-  //   "<div class='event-numbers d-flex mt-20'><div class=''><h5 class='text-center'>" +
-  //   event.projects_count +
-  //   "</h5><p class='text-center'><small>" +
-  //   legendCollectes +
-  //   "</small></p></div><div class='line'></div><div class=''><h5 class='text-center amount-collected-title'>" +
-  //   eventAmountCollectedFormatted +
-  //   "</h5><p class='text-center'><small>" +
-  //   legendRecoltes +
-  //   "</small></p></div>" +
-  //   amountExpectedBlock +
-  //   remainingDays +
-  //   "</div></div>";
-
-  // $("#events .event-item:first-of-type").before(challengeInf);
-
   // --------- RESPONSIVE ---------
 
   // var windowWidth = $(window).width();
