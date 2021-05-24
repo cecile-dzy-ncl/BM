@@ -71,7 +71,7 @@ $(document).ready(function () {
     <!-- <p>${player.manifold_count}</p> nom du club -->
     <p>${playerAmountCollected} euros collectés</p>
     </div>
-    <a class="btn-bm white ${index === 0 ? "btn-bm-border" : ""}" href="${
+    <a class="btn-bm white ${index > 0 ? "btn-bm-border" : ""}" href="${
       player.url[lang]
     }">${btnSeeMore}
     </a>
