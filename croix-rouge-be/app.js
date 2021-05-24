@@ -44,7 +44,11 @@ $(document).ready(function () {
   var eventCardList = $("#event_card_list");
   var playersCardList = $("#players_card_list");
   let holesEventsList = [];
+  let eventsList = [];
+  let eventsSortedList = [];
   console.log("holesEventsList", holesEventsList);
+  console.log("eventsList", eventsList);
+  console.log("eventsSortedList", eventsSortedList);
 
   const injectCard = (container, card) => {
     container.append(card);
@@ -109,8 +113,8 @@ $(document).ready(function () {
   const fetchSubEvent = (event) => {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
-      holesEventsList.push(response);
-      holesEventsList.sort((a, b) =>
+      eventsList.push(response);
+      eventsSortedList = eventsList.sort((a, b) =>
         a.amount_collected > b.amount_collected
           ? 1
           : a.amount_collected === b.amount_collected
@@ -119,7 +123,7 @@ $(document).ready(function () {
             : -1
           : -1
       );
-      $.each(holesEventsList, function (key, value) {
+      $.each(eventsSortedList, function (key, value) {
         buildEventCard(key, value);
       });
     });
@@ -137,10 +141,13 @@ $(document).ready(function () {
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
     console.log("holesEventsList before fetchMainEvent", holesEventsList);
+    console.log("eventsList before fetchMainEvent", eventsList);
     fetchMainEvent();
     console.log("holesEventsList after fetchMainEvent", holesEventsList);
+    console.log("eventsList after fetchMainEvent", eventsSortedList);
     holesEventsList.splice(0, holesEventsList.length);
     console.log("holesEventsList spliced up", holesEventsList);
+    console.log("eventsList spliced up", eventsSortedList);
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
