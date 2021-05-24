@@ -44,6 +44,7 @@
 
 .eventCard p {
   display: none;
+  margin-bottom: 0;
 }
 
 .eventCard p.top3 {
