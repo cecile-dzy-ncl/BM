@@ -184,3 +184,10 @@
 p.player_amount {
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .eventCard,
+  .playerCard {
+    flex-direction: column;
+  }
+}
