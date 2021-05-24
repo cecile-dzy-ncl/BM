@@ -42,7 +42,7 @@
   display: block;
 }
 
-.eventCard .btn-bm.btn-bm-border {
+.eventCard.winner .btn-bm.btn-bm-border {
   border-color: color;
   border-width: 2px;
   border-style: solid;
