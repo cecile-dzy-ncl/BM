@@ -137,7 +137,7 @@ const buildEventCard = (event, index) => {
   </div>
   `;
 
-  injectCard(document.querySelector("#event_card_list"), eventCard);
+  injectCard($("#event_card_list"), eventCard);
 };
 
 const buildEvents = (events) => {
