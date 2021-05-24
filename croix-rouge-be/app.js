@@ -50,8 +50,6 @@ $(document).ready(function () {
 
   const buildPlayerCard = (index, player) => {
     var playerAmountCollected = player.current_amount / 100;
-    console.log(player);
-    console.log(eventsList);
     var clubName = eventsList.find((x) => x.id === player.event_id);
     const playerCard = `
     <div class="playerCard ${
