@@ -175,7 +175,7 @@ const fetchSubEvents = (ids) => {
   Promise.all(promises).then((results) => {
     buildEvents(results);
     fetchBestPlayers(results);
-    $("club_nb").innerHTML = results.length;
+    $("#club_nb").innerHTML = results.length;
   });
 };
 
