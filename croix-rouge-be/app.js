@@ -49,8 +49,6 @@ $(document).ready(function () {
   };
 
   const buildPlayerCard = (index, player) => {
-    console.log("player", player);
-    console.log("holesEventsList", holesEventsList);
     var playerAmountCollected = player.current_amount / 100;
     const playerCard = `
     <div class="playerCard ${index === 0 ? "winner" : index < 3 ? "top3" : ""}">
@@ -124,6 +122,7 @@ $(document).ready(function () {
       $.each(holesEventsList, function (key, value) {
         buildEventCard(key, value);
       });
+      holesEventsList = [];
     });
   };
 
@@ -139,7 +138,6 @@ $(document).ready(function () {
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
     fetchMainEvent();
-    holesEventsList = [];
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
