@@ -1,5 +1,5 @@
 .eventCard img,
-.player_RankImg {
+.player_RankImg img {
   object-fit: cover;
   border-radius: 50%;
 }
@@ -133,6 +133,7 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
+  background: white;
 }
 
 .playerCard.top3 .player_RankImg {
