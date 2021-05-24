@@ -1,3 +1,9 @@
+.eventCard img,
+.player_RankImg {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .eventCard {
   display: flex;
   justify-content: stretch;
@@ -46,8 +52,6 @@
   margin: 0 34px;
   height: 50px;
   width: 50px;
-  object-fit: cover;
-  border-radius: 50%;
 }
 
 .eventCard h3 {
@@ -103,4 +107,9 @@
 }
 
 .playerCard.winner {
+}
+
+.playerCard.top3 .player_RankImg {
+  width: 270px;
+  height: 270px;
 }

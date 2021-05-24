@@ -60,12 +60,14 @@ $(document).ready(function () {
     <div class="playerCard ${
       index === 0 ? "winner top3" : index < 3 ? "top3" : ""
     }">
+    <div class="player_RankImg">
     <span>#${index + 1}</span>
     <img src="${
       player.avatar
         ? player.avatar
         : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
     }" alt="club profile picture"/>
+    </div>
     <div>
     <h3>${player.creator}</h3>
     <!-- <p>${player.manifold_count}</p> nom du club -->
