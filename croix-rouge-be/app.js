@@ -155,7 +155,7 @@ const fetchSubEvents = (ids) => {
   const eventsList = [];
 
   ids.forEach(async (id) => {
-    let response = fetch(
+    let response = await fetch(
       `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`
     );
     event = await response.json();
