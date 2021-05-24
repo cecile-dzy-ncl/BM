@@ -155,3 +155,11 @@
 .playerCard.top3 .player_RankImg > span span {
   display: none;
 }
+
+.player_club {
+  text-transform: uppercase;
+}
+
+.player_amount {
+  color: var(--red);
+}
