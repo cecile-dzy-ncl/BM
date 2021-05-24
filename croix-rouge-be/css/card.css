@@ -106,10 +106,12 @@
   text-align: center;
 }
 
-.playerCard span {
+.playerCard.top span {
   width: 70px;
   height: 70px;
   box-shadow: 0 10px 30px grey;
+  display: flex;
+  place-items: center;
 }
 
 .playerCard.winner span {
