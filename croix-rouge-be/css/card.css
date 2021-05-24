@@ -43,7 +43,8 @@
   font-weight: bold;
 }
 
-.eventCard > div {
+.eventCard > div,
+.player_infos {
   flex-grow: 1;
 }
 

@@ -92,7 +92,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
         : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
     }" alt="club profile picture"/>
   </div>
-  <div>
+  <div class="player_infos">
   <h3>${player.creator}</h3>
   <p class="player_club">${clubName}</p>
   ${
