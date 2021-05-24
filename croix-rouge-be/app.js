@@ -138,24 +138,22 @@ const buildEventCard = (event, index) => {
   `;
 
   console.log(eventCard);
-
   injectCard(document.querySelector("#event_card_list"), eventCard);
 };
 
 const buildEvents = (events) => {
-  events
-    .sort((a, b) =>
-      a.amount_collected > b.amount_collected
+  const sortedEvents = events.sort((a, b) =>
+    a.amount_collected > b.amount_collected
+      ? 1
+      : a.amount_collected === b.amount_collected
+      ? a.id > b.id
         ? 1
-        : a.amount_collected === b.amount_collected
-        ? a.id > b.id
-          ? 1
-          : -1
         : -1
-    )
-    .forEach((event, index) => {
-      buildEventCard(event, index);
-    });
+      : -1
+  );
+  sortedEvents.forEach((event, index) => {
+    buildEventCard(event, index);
+  });
 };
 
 const fetchSubEvents = (ids) => {
