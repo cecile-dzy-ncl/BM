@@ -80,9 +80,6 @@ const buildPlayerCard = async (index, player, eventsList) => {
   // prettier-ignore
   const clubName = player.event_id === 7 ? "Holes for Heroes" : eventsList.find((x) => x.id === player.event_id).title[lang];
 
-  // const response = await fetch(".....");
-  // const player = await response.json();
-
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
@@ -91,7 +88,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
   <span><span>#</span>${index + 1}</span>
   <img src="${
     player.avatar
-      ? player.avatar
+      ? player.users_of_team[0].avatar
       : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
   }" alt="club profile picture"/>
   </div>
