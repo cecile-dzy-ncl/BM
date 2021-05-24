@@ -3,3 +3,8 @@
   color: white;
   padding: 12px 60px;
 }
+
+.btn-bm-border {
+  border-color: var(--red);
+  color: var(--red);
+}
