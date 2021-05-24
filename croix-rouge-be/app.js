@@ -53,7 +53,7 @@ $(document).ready(function () {
     console.log("holesEventsList", holesEventsList);
     var playerAmountCollected = player.current_amount / 100;
     const playerCard = `
-    <div class="playerCard ${index === 0 ? "winner" : ""}">
+    <div class="playerCard ${index === 0 ? "winner" : index < 3 ? "top3" : ""}">
     <span>#${index + 1}</span>
     <img src="${
       player.avatar
@@ -85,7 +85,7 @@ $(document).ready(function () {
   const buildEventCard = (index, event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
     const eventCard = `
-    <div class="eventCard ${index === 0 ? "winner" : ""}">
+    <div class="eventCard ${index === 0 ? "winner" : index < 3 ? "top3" : ""}">
     <span>#${index + 1}</span>
     <img src="${
       event.avatar
