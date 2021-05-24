@@ -135,8 +135,8 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
-    $("#players_card_list").html("");
     fetchMainEvent();
+    $("#players_card_list").html("");
     fetchBestPlayers();
   }
 
