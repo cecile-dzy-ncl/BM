@@ -131,10 +131,11 @@ $(document).ready(function () {
     });
   };
 
-  const fetchSubEvents = (ids) => {
+  const fetchSubEvents = async (ids) => {
     const eventsList = [];
     $.each(ids, (key, value) => {
-      eventsList.push(fetchSubEvent(value));
+      let event = await fetchSubEvent(value);
+      eventsList.push(event);
     });
     console.log(eventsList);
   };
