@@ -116,6 +116,7 @@ const fetchBestPlayers = () => {
 };
 
 const buildEventCard = (event, index) => {
+  console.log(event);
   var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
   const eventCard = `
   <div class="eventCard ${
@@ -143,7 +144,6 @@ const buildEventCard = (event, index) => {
 
 const buildEvents = (events) => {
   events.forEach((event, index) => {
-    console.log(event, index);
     buildEventCard(event, index);
   });
   // $.each(events, (key, value) => {
