@@ -6,6 +6,7 @@
   background: var(--lightgrey);
   border: 1px solid lightgray;
   margin-bottom: 30px;
+  color: black;
 }
 
 .eventCard.winner {
