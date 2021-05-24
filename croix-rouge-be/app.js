@@ -147,10 +147,22 @@ const buildEventCard = (index, event) => {
 //   });
 // };
 
-const fetchSubEvents = (ids) => {
-  console.log("fetchSubevents");
-  console.log(typeof ids);
+const buildEvents = (events) => {
+  events.sort((a, b) =>
+    a.amount_collected > b.amount_collected
+      ? 1
+      : a.amount_collected === b.amount_collected
+      ? a.id > b.id
+        ? 1
+        : -1
+      : -1
+  );
+  $.each(events, function (key, value) {
+    buildEventCard(key, value);
+  });
+};
 
+const fetchSubEvents = (ids) => {
   const eventsList = [];
   ids.forEach(async (id) => {
     let event = await fetch(
@@ -159,33 +171,12 @@ const fetchSubEvents = (ids) => {
     eventsList.push(event);
   });
 
-  console.log(eventsList);
+  buildEvents(eventsList);
 };
 
 const fetchMainEvent = () => {
-  console.log("fetchMainEvent");
   var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   $.get(url, function (response) {
     fetchSubEvents(response.subevents);
   });
 };
-
-// if ($("body").is(".event_7.main-event")) {
-//   $("#event_card_list").html("");
-//   $("#players_card_list").html("");
-//   fetchMainEvent();
-//   fetchBestPlayers();
-// }
-
-// eventsList.sort((a, b) =>
-//   a.amount_collected > b.amount_collected
-//     ? 1
-//     : a.amount_collected === b.amount_collected
-//     ? a.id > b.id
-//       ? 1
-//       : -1
-//     : -1
-// );
-// $.each(eventsList, function (key, value) {
-//   buildEventCard(key, value);
-// });
