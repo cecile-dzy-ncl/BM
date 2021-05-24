@@ -3,6 +3,13 @@
   justify-content: stretch;
   align-items: center;
   padding: 30px;
+  background: var(--lightgrey);
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
+}
+
+.eventCard.winner {
+  background: var(--red);
 }
 
 .eventCard span {
