@@ -123,6 +123,7 @@ $(document).ready(function () {
             : -1
           : -1
       );
+      console.log("eventsSortedList after sort", eventsSortedList);
       $.each(eventsSortedList, function (key, value) {
         buildEventCard(key, value);
       });
@@ -142,7 +143,7 @@ $(document).ready(function () {
     $("#event_card_list").html("");
     console.log("eventsList before fetchMainEvent", eventsList);
     fetchMainEvent();
-    console.log("eventsList after fetchMainEvent", eventsSortedList);
+    console.log("eventsSortedList after fetchMainEvent", eventsSortedList);
     eventsSortedList.splice(0, eventsSortedList.length);
     console.log("eventsList spliced up", eventsSortedList);
     $("#players_card_list").html("");
