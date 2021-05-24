@@ -95,7 +95,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
   <div>
   <h3>${player.creator}</h3>
   <p class="player_club">${clubName}</p>
-  ${index < 3 ? "</div>" : ""}
+  ${index > 3 ? "</div>" : ""}
   <p class="player_amount">${playerAmountCollected}€ collectés</p>
   ${index < 3 ? "" : "</div>"}
   <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
