@@ -28,3 +28,10 @@
   font-size: 30px;
   line-height: 36px;
 }
+
+.eventCard btn-bm.btn-bm-border {
+  border-color: color;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+}
