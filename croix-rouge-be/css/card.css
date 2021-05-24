@@ -14,3 +14,7 @@
 .eventCard > div {
   flex-grow: 1;
 }
+
+.eventCard img {
+  margin: 0 34px;
+}
