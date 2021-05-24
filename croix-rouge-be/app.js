@@ -141,29 +141,29 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  events.forEach((event, index) => {
-    buildEventCard(event, index);
-  });
+  events
+    .sort((a, b) =>
+      a.amount_collected > b.amount_collected
+        ? 1
+        : a.amount_collected === b.amount_collected
+        ? a.id > b.id
+          ? 1
+          : -1
+        : -1
+    )
+    .forEach((event, index) => {
+      buildEventCard(event, index);
+    });
 };
 
 const fetchSubEvents = (ids) => {
-  const eventsList = [];
   // prettier-ignore
   const urls = ids.map(id => `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`)
-  console.log(urls);
 
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
     buildEvents(results);
   });
-
-  // ids.forEach(async (id) => {
-  //   // prettier-ignore
-  //   let response = await fetch(`https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`);
-  //   event = await response.json();
-  //   eventsList.push(event);
-  //   buildEvents(eventsList);
-  // });
 };
 
 const fetchMainEvent = () => {
