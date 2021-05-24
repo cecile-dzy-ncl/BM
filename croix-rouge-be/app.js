@@ -75,6 +75,7 @@ const injectCard = (container, card) => {
 };
 
 const buildPlayerCard = (index, player, eventsList) => {
+  console.log(player);
   var playerAmountCollected = player.current_amount / 100;
   var clubName = eventsList.find((x) => x.id === player.event_id);
   const playerCard = `
