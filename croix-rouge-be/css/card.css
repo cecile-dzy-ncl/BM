@@ -106,7 +106,15 @@
   text-align: center;
 }
 
-.playerCard.winner {
+.playerCard span {
+  width: 70px;
+  height: 70px;
+  box-shadow: 0 10px 30px grey;
+}
+
+.playerCard.winner span {
+  background: var(--red);
+  color: white;
 }
 
 .playerCard.top3 .player_RankImg {
