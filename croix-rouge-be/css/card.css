@@ -33,6 +33,11 @@
   flex-grow: 1;
 }
 
+.eventCard.top3 img {
+  height: 50px;
+  width: 50px;
+}
+
 .eventCard img {
   margin: 0 34px;
   height: 150px;
