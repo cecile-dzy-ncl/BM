@@ -143,20 +143,19 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  const sortedEvents = events.sort((a, b) =>
-    a.amount_collected > b.amount_collected
-      ? 1
-      : a.amount_collected === b.amount_collected
-      ? a.id > b.id
+  events
+    .sort((a, b) =>
+      a.amount_collected > b.amount_collected
         ? 1
+        : a.amount_collected === b.amount_collected
+        ? a.id > b.id
+          ? 1
+          : -1
         : -1
-      : -1
-  );
-  console.log(sortedEvents);
-  //   .forEach((event, index) => {
-  //     console.log(event);
-  //     buildEventCard(event, index);
-  //   });
+    )
+    .forEach((event, index) => {
+      buildEventCard(event, index);
+    });
 };
 
 const fetchSubEvents = (ids) => {
