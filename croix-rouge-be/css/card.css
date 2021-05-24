@@ -48,7 +48,8 @@
   width: 150px;
 }
 
-.eventCard img {
+.eventCard img,
+.playerCard img {
   margin: 0 34px;
   height: 50px;
   width: 50px;
@@ -131,6 +132,7 @@
 .playerCard.top3 .player_RankImg {
   width: 270px;
   height: 270px;
+  margin: 0;
   position: relative;
 }
 
