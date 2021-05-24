@@ -146,7 +146,7 @@ const buildEvents = (events) => {
     console.log(event, index);
     buildEventCard(event, index);
   });
-  $each(events, (key, value) => {
+  $.each(events, (key, value) => {
     console.log(key, value);
   });
 };
