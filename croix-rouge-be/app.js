@@ -122,7 +122,6 @@ $(document).ready(function () {
       $.each(holesEventsList, function (key, value) {
         buildEventCard(key, value);
       });
-      holesEventsList = [];
     });
   };
 
@@ -137,6 +136,7 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
+    holesEventsList = [];
     fetchMainEvent();
     $("#players_card_list").html("");
     fetchBestPlayers();
