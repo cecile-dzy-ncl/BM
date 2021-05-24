@@ -77,8 +77,7 @@ const injectCard = (container, card) => {
 
 const buildPlayerCard = (index, player) => {
   var playerAmountCollected = player.current_amount / 100;
-  // var clubName = eventsList.find((x) => x.id === player.event_id);
-  var clubName = "test";
+  var clubName = eventsList.find((x) => x.id === player.event_id);
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
