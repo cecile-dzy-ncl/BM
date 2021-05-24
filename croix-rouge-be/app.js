@@ -58,7 +58,7 @@ $(document).ready(function () {
     var playerAmountCollected = player.current_amount / 100;
     console.log(player);
     console.log(eventsList);
-    // var clubName = eventsList.find((x) => x.id === player).name;
+    var clubName = eventsList.find((x) => x.id === player.event_id).title[lang];
     const playerCard = `
     <div class="playerCard ${
       index === 0 ? "winner top3" : index < 3 ? "top3" : ""
@@ -73,7 +73,7 @@ $(document).ready(function () {
     </div>
     <div>
     <h3>${player.creator}</h3>
-    <!-- <p>${player.manifold_count}</p> nom du club -->
+    <p>${clubName}</p>
     <p>${playerAmountCollected} euros collectés</p>
     </div>
     <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
