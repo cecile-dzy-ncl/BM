@@ -74,10 +74,15 @@ const injectCard = (container, card) => {
   container.append(card);
 };
 
-const buildPlayerCard = (index, player, eventsList) => {
+const buildPlayerCard = async (index, player, eventsList) => {
+  console.log(player);
   const playerAmountCollected = player.current_amount / 100;
   // prettier-ignore
   const clubName = player.event_id === 7 ? "Holes for Heroes" : eventsList.find((x) => x.id === player.event_id).title[lang];
+
+  // const response = await fetch(".....");
+  // const player = await response.json();
+
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
