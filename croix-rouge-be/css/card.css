@@ -10,6 +10,7 @@
 
 .eventCard.winner {
   background: var(--red);
+  color: white;
 }
 
 .eventCard span {
