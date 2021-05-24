@@ -148,18 +148,19 @@ const buildEventCard = (index, event) => {
 // };
 
 const buildEvents = (events) => {
-  events.sort((a, b) =>
-    a.amount_collected > b.amount_collected
-      ? 1
-      : a.amount_collected === b.amount_collected
-      ? a.id > b.id
+  events
+    .sort((a, b) =>
+      a.amount_collected > b.amount_collected
         ? 1
+        : a.amount_collected === b.amount_collected
+        ? a.id > b.id
+          ? 1
+          : -1
         : -1
-      : -1
-  );
-  $.each(events, function (key, value) {
-    buildEventCard(key, value);
-  });
+    )
+    .forEach((event, index) => {
+      buildEventCard(index, event);
+    });
 };
 
 const fetchSubEvents = (ids) => {
