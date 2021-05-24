@@ -195,4 +195,8 @@ p.player_amount {
     max-width: 100%;
     width: 100%;
   }
+
+  .eventCard.top3 img {
+    margin: 16px;
+  }
 }
