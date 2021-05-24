@@ -197,7 +197,10 @@ p.player_amount {
     margin-bottom: 30px;
   }
 
-  .playerCard p {
+  .eventCard p,
+  .eventCard h3,
+  .playerCard p,
+  .playerCard h3 {
     text-align: center;
   }
 
