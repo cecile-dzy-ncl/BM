@@ -1,0 +1,5 @@
+.eventCard {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}

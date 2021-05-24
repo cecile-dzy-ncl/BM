@@ -98,7 +98,7 @@ $(document).ready(function () {
     <p>${eventAmountCollected} euros collectés</p>
     </div>
     <a class="btn-bm btn-bm-border" href="${event.url[lang]}">${btnSeeMore}
-    </a>s
+    </a>
     </div>
     `;
     injectCard(eventCardList, eventCard);
