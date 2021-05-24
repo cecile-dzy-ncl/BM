@@ -23,13 +23,13 @@
 }
 
 .eventCard.top3 span {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 .eventCard span {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .eventCard > div {
@@ -37,36 +37,36 @@
 }
 
 .eventCard.top3 img {
-  height: 50px;
-  width: 50px;
+  height: 150px;
+  width: 150px;
 }
 
 .eventCard img {
   margin: 0 34px;
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .eventCard h3 {
   text-transform: uppercase;
-  font-size: 30px;
-  line-height: 36px;
-}
-
-.eventCard.top3 h3 {
   font-size: 20px;
   line-height: 24px;
 }
 
+.eventCard.top3 h3 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
 .eventCard p {
-  display: block;
+  display: none;
   margin-bottom: 0;
 }
 
 .eventCard.top3 p {
-  display: none;
+  display: block;
 }
 
 .eventCard.winner .btn-bm.btn-bm-border {

@@ -85,7 +85,9 @@ $(document).ready(function () {
   const buildEventCard = (index, event) => {
     var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
     const eventCard = `
-    <div class="eventCard ${index === 0 ? "winner" : index < 3 ? "top3" : ""}">
+    <div class="eventCard ${
+      index === 0 ? "winner top3" : index < 3 ? "top3" : ""
+    }">
     <span>#${index + 1}</span>
     <img src="${
       event.avatar
