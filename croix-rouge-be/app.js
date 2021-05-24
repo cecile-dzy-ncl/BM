@@ -61,7 +61,7 @@ $(document).ready(function () {
       index === 0 ? "winner top3" : index < 3 ? "top3" : ""
     }">
     <div class="player_RankImg">
-    <span>#${index + 1}</span>
+    <span><span>#</span>${index + 1}</span>
     <img src="${
       player.avatar
         ? player.avatar

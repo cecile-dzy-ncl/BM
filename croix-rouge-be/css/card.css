@@ -136,8 +136,12 @@
   position: relative;
 }
 
-.playerCard.top3 .player_RankImg span {
+.playerCard.top3 .player_RankImg > span {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.playerCard.top3 .player_RankImg > span span {
+  display: none;
 }
