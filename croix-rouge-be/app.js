@@ -142,11 +142,10 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  console.log(events);
-  // events.forEach((event, index) => {
-  //   console.log(event, index);
-  //   buildEventCard(event, index);
-  // });
+  events.forEach((event, index) => {
+    console.log(event, index);
+    buildEventCard(event, index);
+  });
   // $.each(events, (key, value) => {
   //   console.log(key, value);
   // });
