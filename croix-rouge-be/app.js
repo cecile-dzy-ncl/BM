@@ -136,8 +136,9 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
+    console.log("holesEventsList before fetchMainEvent", holesEventsList);
     fetchMainEvent();
-    console.log(holesEventsList);
+    console.log("holesEventsList after fetchMainEvent", holesEventsList);
     holesEventsList.splice(0, holesEventsList.length);
     console.log("holesEventsList spliced up", holesEventsList);
     $("#players_card_list").html("");
