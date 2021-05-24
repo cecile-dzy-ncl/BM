@@ -43,10 +43,10 @@ $(document).ready(function () {
 
   var eventCardList = $("#event_card_list");
   var playersCardList = $("#players_card_list");
-  // let holesEventsList = [];
+
   var eventsList = [];
   var eventsSortedList = [];
-  // console.log("holesEventsList", holesEventsList);
+
   console.log("eventsList", eventsList);
   console.log("eventsSortedList", eventsSortedList);
 
@@ -150,11 +150,8 @@ $(document).ready(function () {
 
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
-    console.log("eventsList before fetchMainEvent", eventsList);
     fetchMainEvent();
-    console.log("eventsSortedList after fetchMainEvent", eventsSortedList);
     eventsSortedList.splice(0, eventsSortedList.length);
-    console.log("eventsList spliced up", eventsSortedList);
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
