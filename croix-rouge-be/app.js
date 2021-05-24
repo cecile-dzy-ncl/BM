@@ -85,19 +85,19 @@ const buildPlayerCard = async (index, player, eventsList) => {
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
   }">
   <div class="player_RankImg">
-  <span><span>#</span>${index + 1}</span>
-  <img src="${
-    player.users_of_team[0].avatar
-      ? player.users_of_team[0].avatar
-      : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
-  }" alt="club profile picture"/>
+    <span><span>#</span>${index + 1}</span>
+    <img src="${
+      player.users_of_team[0].avatar
+        ? player.users_of_team[0].avatar
+        : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
+    }" alt="club profile picture"/>
   </div>
   <div>
   <h3>${player.creator}</h3>
   <p class="player_club">${clubName}</p>
-  ${index > 3 ? "</div>" : ""}
+  ${index > 2 ? "</div>" : ""}
   <p class="player_amount">${playerAmountCollected}€ collectés</p>
-  ${index < 3 ? "" : "</div>"}
+  ${index < 3 ? "</div>" : ""}
   <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
     player.url[lang]
   }">${btnSeeMore}
