@@ -68,7 +68,7 @@ switch (lang) {
     break;
 }
 
-var eventCardList = $("#event_card_list");
+// var eventCardList = $("#event_card_list");
 var playersCardList = $("#players_card_list");
 
 const injectCard = (container, card) => {
@@ -138,24 +138,26 @@ const buildEventCard = (event, index) => {
   `;
 
   console.log(eventCard);
-  injectCard(eventCardList, eventCard);
+
+  injectCard(document.querySelector("#event_card_list"), eventCard);
 };
 
 const buildEvents = (events) => {
-  events
-    .sort((a, b) =>
-      a.amount_collected > b.amount_collected
+  const sortedEvents = events.sort((a, b) =>
+    a.amount_collected > b.amount_collected
+      ? 1
+      : a.amount_collected === b.amount_collected
+      ? a.id > b.id
         ? 1
-        : a.amount_collected === b.amount_collected
-        ? a.id > b.id
-          ? 1
-          : -1
         : -1
-    )
-    .forEach((event, index) => {
-      console.log(event);
-      buildEventCard(event, index);
-    });
+      : -1
+  );
+  console.log(sortedEvents);
+
+  //   .forEach((event, index) => {
+  //     console.log(event);
+  //     buildEventCard(event, index);
+  //   });
 };
 
 const fetchSubEvents = (ids) => {
