@@ -11,7 +11,7 @@
 
 .eventCard.winner {
   background: var(--red);
-  color: white !important;
+  color: white;
 }
 
 .eventCard.winner h3,
