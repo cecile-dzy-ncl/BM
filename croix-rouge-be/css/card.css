@@ -10,3 +10,7 @@
   font-weight: bold;
   line-height: 60px;
 }
+
+.eventCard > div {
+  flex-grow: 1;
+}
