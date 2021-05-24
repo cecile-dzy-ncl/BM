@@ -142,6 +142,7 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
+  console.log(events);
   // events.forEach((event, index) => {
   //   console.log(event, index);
   //   buildEventCard(event, index);
@@ -161,8 +162,7 @@ const fetchSubEvents = (ids) => {
     eventsList.push(event);
   });
 
-  console.log(eventsList);
-  // buildEvents(eventsList);
+  buildEvents(eventsList);
 };
 
 const fetchMainEvent = () => {
