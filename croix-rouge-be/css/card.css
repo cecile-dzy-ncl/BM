@@ -165,8 +165,11 @@
 }
 
 .playerCard.top3 .player_club {
-  text-align: center;
   text-transform: uppercase;
+}
+
+.playerCard.top3 p {
+  text-align: center;
 }
 
 .player_amount {
