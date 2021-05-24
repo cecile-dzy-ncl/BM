@@ -156,6 +156,10 @@
   display: none;
 }
 
+.playerCard h3 {
+  margin-bottom: 12px;
+}
+
 .playerCard p {
   margin: 0;
   text-align: center;
