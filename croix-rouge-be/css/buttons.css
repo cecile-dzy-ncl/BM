@@ -1,4 +1,5 @@
 .btn-bm {
   background-color: var(--red);
+  color: white;
   padding: 12px 60px;
 }
