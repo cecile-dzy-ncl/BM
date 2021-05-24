@@ -50,7 +50,6 @@ $(document).ready(function () {
     $("#event_card_list").html("");
     $("#players_card_list").html("");
     fetchMainEvent();
-    fetchBestPlayers();
   }
 });
 
@@ -75,7 +74,7 @@ const injectCard = (container, card) => {
   container.append(card);
 };
 
-const buildPlayerCard = (index, player) => {
+const buildPlayerCard = (index, player, eventsList) => {
   var playerAmountCollected = player.current_amount / 100;
   var clubName = eventsList.find((x) => x.id === player.event_id);
   const playerCard = `
@@ -105,11 +104,11 @@ const buildPlayerCard = (index, player) => {
   injectCard(playersCardList, playerCard);
 };
 
-const fetchBestPlayers = () => {
+const fetchBestPlayers = (eventsList) => {
   var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&order=amount&limit=10`;
   $.get(url, function (response) {
     $.each(response.projects, (key, value) => {
-      buildPlayerCard(key, value);
+      buildPlayerCard(key, value, eventsList);
     });
   });
 };
@@ -162,6 +161,7 @@ const fetchSubEvents = (ids) => {
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
     buildEvents(results);
+    fetchBestPlayers(results);
   });
 };
 
