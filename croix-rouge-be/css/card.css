@@ -70,9 +70,14 @@
   display: block;
 }
 
+.eventCard .btn-bm.btn-bm-border {
+  padding: 6px 80px;
+}
+
 .eventCard.winner .btn-bm.btn-bm-border {
-  border-color: color;
-  border-width: 2px;
-  border-style: solid;
   color: white;
+}
+
+.eventCard.top3 .btn-bm.btn-bm-border {
+  padding: 12px 80px;
 }
