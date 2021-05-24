@@ -115,7 +115,7 @@ const fetchBestPlayers = () => {
   });
 };
 
-const buildEventCard = (index, event) => {
+const buildEventCard = (event, index) => {
   var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
   const eventCard = `
   <div class="eventCard ${
@@ -136,16 +136,10 @@ const buildEventCard = (index, event) => {
   </a>
   </div>
   `;
+
+  console.log(eventCard);
   injectCard(eventCardList, eventCard);
 };
-
-// const fetchSubEvent = (event) => {
-//   var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
-//   $.get(url, function (response) {
-//     console.log(response);
-//     return response;
-//   });
-// };
 
 const buildEvents = (events) => {
   events
@@ -159,7 +153,8 @@ const buildEvents = (events) => {
         : -1
     )
     .forEach((event, index) => {
-      buildEventCard(index, event);
+      console.log(event);
+      buildEventCard(event, index);
     });
 };
 
