@@ -46,6 +46,12 @@ $(document).ready(function () {
   //   $("#events-show .event-stat").removeClass("border-right");
   //   $("#indexs-index .compteur .border-right").removeClass("border-right");
   // }
+  if ($("body").is(".event_7.main-event")) {
+    $("#event_card_list").html("");
+    $("#players_card_list").html("");
+    fetchMainEvent();
+    fetchBestPlayers();
+  }
 });
 
 var lang = $("html").attr("lang");
@@ -164,12 +170,12 @@ const fetchMainEvent = () => {
   });
 };
 
-if ($("body").is(".event_7.main-event")) {
-  $("#event_card_list").html("");
-  $("#players_card_list").html("");
-  fetchMainEvent();
-  fetchBestPlayers();
-}
+// if ($("body").is(".event_7.main-event")) {
+//   $("#event_card_list").html("");
+//   $("#players_card_list").html("");
+//   fetchMainEvent();
+//   fetchBestPlayers();
+// }
 
 // eventsList.sort((a, b) =>
 //   a.amount_collected > b.amount_collected
