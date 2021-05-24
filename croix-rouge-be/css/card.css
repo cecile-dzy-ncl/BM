@@ -162,10 +162,10 @@
 
 .playerCard p {
   margin: 0;
-  text-align: center;
 }
 
-.player_club.top3 {
+.playerCard.top3 .player_club {
+  text-align: center;
   text-transform: uppercase;
 }
 
