@@ -29,9 +29,17 @@
   line-height: 24px;
 }
 
+.eventCard p {
+  display: none;
+}
+
 .eventCard h3:nth-child(-n + 3) {
   font-size: 30px;
   line-height: 36px;
+}
+
+.eventCard h3:nth-child(-n + 3) {
+  display: block;
 }
 
 .eventCard btn-bm.btn-bm-border {
