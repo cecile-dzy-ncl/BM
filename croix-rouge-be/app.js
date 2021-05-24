@@ -141,8 +141,6 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  document.querySelector("#event_card_list").innerHTML = "";
-
   events.forEach((event, index) => {
     buildEventCard(event, index);
   });
@@ -156,7 +154,7 @@ const fetchSubEvents = (ids) => {
 
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
-    console.log(results);
+    buildEvents(results);
   });
 
   // ids.forEach(async (id) => {
