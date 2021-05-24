@@ -18,3 +18,9 @@
 .eventCard img {
   margin: 0 34px;
 }
+
+.eventCard h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
