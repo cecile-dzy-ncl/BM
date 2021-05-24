@@ -37,3 +37,11 @@
   margin-top: 75px;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 500px) {
+  .compteur-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 12px;
+  }
+}
