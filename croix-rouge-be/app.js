@@ -138,7 +138,7 @@ $(document).ready(function () {
     $("#event_card_list").html("");
     fetchMainEvent();
     console.log(holesEventsList);
-    holesEventsList = [];
+    holesEventsList.length = 0;
     console.log(holesEventsList);
     $("#players_card_list").html("");
     fetchBestPlayers();
