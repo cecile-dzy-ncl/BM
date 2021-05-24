@@ -151,6 +151,7 @@ const buildEvents = (events) => {
         : -1
       : -1
   );
+  console.log(sortedEvents);
   sortedEvents.forEach((event, index) => {
     console.log(event);
     // buildEventCard(event, index);
