@@ -38,7 +38,7 @@
   line-height: 24px;
 }
 
-.eventCard h3.top3 {
+.eventCard.top3 h3 {
   font-size: 30px;
   line-height: 36px;
 }
@@ -48,7 +48,7 @@
   margin-bottom: 0;
 }
 
-.eventCard p.top3 {
+.eventCard.top3 p {
   display: block;
 }
 
