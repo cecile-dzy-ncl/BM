@@ -116,7 +116,7 @@
 .playerCard.top3 span {
   width: 70px;
   height: 70px;
-  box-shadow: 0 10px 30px grey;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
