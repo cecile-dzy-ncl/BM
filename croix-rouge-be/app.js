@@ -57,7 +57,9 @@ $(document).ready(function () {
   const buildPlayerCard = (index, player) => {
     var playerAmountCollected = player.current_amount / 100;
     const playerCard = `
-    <div class="playerCard ${index === 0 ? "winner" : index < 3 ? "top3" : ""}">
+    <div class="playerCard ${
+      index === 0 ? "winner top3" : index < 3 ? "top3" : ""
+    }">
     <span>#${index + 1}</span>
     <img src="${
       player.avatar
