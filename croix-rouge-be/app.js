@@ -167,8 +167,9 @@ const fetchSubEvents = (ids) => {
       `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`
     );
 
-    let data = await JSON.parse(response);
-    console.log(data);
+    console.log(typeof response);
+    // let data = await JSON.parse(response);
+    // console.log(data);
     // eventsList.push(event);
   });
 
