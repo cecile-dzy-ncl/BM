@@ -114,6 +114,7 @@ $(document).ready(function () {
   const fetchSubEvent = (event) => {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
+      console.log(response);
       return response;
       // eventsList.sort((a, b) =>
       //   a.amount_collected > b.amount_collected
@@ -151,7 +152,7 @@ $(document).ready(function () {
   if ($("body").is(".event_7.main-event")) {
     $("#event_card_list").html("");
     fetchMainEvent();
-    eventsSortedList.splice(0, eventsSortedList.length);
+    // eventsSortedList.splice(0, eventsSortedList.length);
     $("#players_card_list").html("");
     fetchBestPlayers();
   }
