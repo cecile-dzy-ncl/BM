@@ -142,20 +142,7 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  const sortedEvents = events.sort((a, b) =>
-    a.amount_collected > b.amount_collected
-      ? 1
-      : a.amount_collected === b.amount_collected
-      ? a.id > b.id
-        ? 1
-        : -1
-      : -1
-  );
-  console.log(sortedEvents);
-  console.log(sortedEvents.length);
-  console.log(typeof sortedEvents);
-
-  sortedEvents.forEach((event) => {
+  events.forEach((event) => {
     console.log(event);
     // buildEventCard(event, index);
   });
