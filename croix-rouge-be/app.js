@@ -142,13 +142,13 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  events.forEach((event, index) => {
-    console.log(event, index);
-    buildEventCard(event, index);
-  });
-  $.each(events, (key, value) => {
-    console.log(key, value);
-  });
+  // events.forEach((event, index) => {
+  //   console.log(event, index);
+  //   buildEventCard(event, index);
+  // });
+  // $.each(events, (key, value) => {
+  //   console.log(key, value);
+  // });
 };
 
 const fetchSubEvents = (ids) => {
@@ -157,12 +157,13 @@ const fetchSubEvents = (ids) => {
   ids.forEach((id) => {
     let response = fetch(
       `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`
-    )
-      .then((response) => response.json())
-      .then((event) => eventsList.push(event));
+    );
+    event = await response.json();
+    eventsList.push(event);
   });
 
-  buildEvents(eventsList);
+  console.log(eventsList);
+  // buildEvents(eventsList);
 };
 
 const fetchMainEvent = () => {
