@@ -81,6 +81,7 @@
 
 .eventCard.winner .btn-bm.btn-bm-border {
   color: white;
+  border-color: white;
 }
 
 .eventCard.top3 .btn-bm.btn-bm-border {
