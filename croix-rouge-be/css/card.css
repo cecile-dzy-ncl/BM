@@ -34,22 +34,22 @@
 
 .eventCard h3 {
   text-transform: uppercase;
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.eventCard.top3 h3 {
   font-size: 30px;
   line-height: 36px;
 }
 
+.eventCard.top3 h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
 .eventCard p {
-  display: none;
+  display: block;
   margin-bottom: 0;
 }
 
 .eventCard.top3 p {
-  display: block;
+  display: none;
 }
 
 .eventCard.winner .btn-bm.btn-bm-border {
