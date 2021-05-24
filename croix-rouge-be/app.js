@@ -44,8 +44,8 @@ $(document).ready(function () {
   var eventCardList = $("#event_card_list");
   var playersCardList = $("#players_card_list");
   // let holesEventsList = [];
-  let eventsList = [];
-  let eventsSortedList = [];
+  var eventsList = [];
+  var eventsSortedList = [];
   // console.log("holesEventsList", holesEventsList);
   console.log("eventsList", eventsList);
   console.log("eventsSortedList", eventsSortedList);
@@ -56,6 +56,9 @@ $(document).ready(function () {
 
   const buildPlayerCard = (index, player) => {
     var playerAmountCollected = player.current_amount / 100;
+    console.log(player);
+    console.log(eventsList);
+    // var clubName = eventsList.find((x) => x.id === player).name;
     const playerCard = `
     <div class="playerCard ${
       index === 0 ? "winner top3" : index < 3 ? "top3" : ""
