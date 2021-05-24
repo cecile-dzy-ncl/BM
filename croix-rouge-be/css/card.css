@@ -3,3 +3,9 @@
   justify-content: stretch;
   align-items: center;
 }
+
+.eventCard span {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+}
