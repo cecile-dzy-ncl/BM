@@ -131,7 +131,7 @@ $(document).ready(function () {
     $.get(url, function (response) {
       $("#event_card_list").html("");
       console.log($("#event_card_list"));
-      $.each(response.subevents, (key, value) => {
+      $.each(response.subevents, (value) => {
         fetchSubEvent(value);
       });
     });
