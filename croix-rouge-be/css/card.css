@@ -81,3 +81,22 @@
 .eventCard.top3 .btn-bm.btn-bm-border {
   padding: 12px 80px;
 }
+
+#players_card_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.playerCard.top3 {
+  max-width: 270px;
+  width: 30%;
+  flex-direction: column;
+}
+
+.playerCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
