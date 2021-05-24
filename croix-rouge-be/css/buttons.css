@@ -4,7 +4,17 @@
   padding: 12px 60px;
 }
 
+.btn-bm:hover {
+  color: white;
+  background-color: #cc1d00;
+}
+
 .btn-bm-border {
   border-color: var(--red);
   color: var(--red);
+}
+
+.btn-bm-border:hover {
+  border-color: #cc1d00;
+  color: #cc1d00;
 }
