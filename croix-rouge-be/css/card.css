@@ -158,7 +158,9 @@
 
 .playerCard p {
   margin: 0;
+  text-align: center;
 }
+
 .player_club {
   text-transform: uppercase;
 }
