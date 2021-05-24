@@ -118,7 +118,8 @@
   height: 70px;
   box-shadow: 0 10px 30px grey;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .playerCard.winner span {
