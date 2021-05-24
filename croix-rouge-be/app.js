@@ -123,20 +123,20 @@ $(document).ready(function () {
     var url = `https://help.redcross.be/api/events/${event}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
     $.get(url, function (response) {
       eventsList.push(response);
-      eventsSortedList = eventsList.sort((a, b) =>
-        a.amount_collected > b.amount_collected
-          ? 1
-          : a.amount_collected === b.amount_collected
-          ? a.id > b.id
-            ? 1
-            : -1
-          : -1
-      );
-      console.log("eventsSortedList after sort", eventsSortedList);
-      $.each(eventsSortedList, function (key, value) {
-        buildEventCard(key, value);
-      });
+      // eventsList.sort((a, b) =>
+      //   a.amount_collected > b.amount_collected
+      //     ? 1
+      //     : a.amount_collected === b.amount_collected
+      //     ? a.id > b.id
+      //       ? 1
+      //       : -1
+      //     : -1
+      // );
+      // $.each(eventsList, function (key, value) {
+      //   buildEventCard(key, value);
+      // });
     });
+    console.log(eventsList);
   };
 
   const fetchMainEvent = () => {
