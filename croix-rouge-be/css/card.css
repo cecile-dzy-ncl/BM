@@ -92,21 +92,28 @@
   justify-content: space-between;
 }
 
-.playerCard.top3 {
-  max-width: 270px;
-  width: 30%;
-  flex-direction: column;
-}
-
 .playerCard {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 30px;
+  background: var(--lightgrey);
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
 }
 
-.playerCard.top span {
+.playerCard.top3 {
+  max-width: 270px;
+  width: 30%;
+  flex-direction: column;
+  padding: 0px;
+  background: none;
+  border: 0;
+}
+
+.playerCard.top3 span {
   width: 70px;
   height: 70px;
   box-shadow: 0 10px 30px grey;
