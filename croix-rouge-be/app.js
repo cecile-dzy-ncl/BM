@@ -152,9 +152,9 @@ const buildEvents = (events) => {
       : -1
   );
   console.log(sortedEvents);
-  sortedEvents.forEach((event, index) => {
-    console.log(event);
-  });
+  // sortedEvents.forEach((event, index) => {
+  //   console.log(event);
+  // });
   $.each(sortedEvents, (key, value) => {
     buildEventCard(key, value);
   });
