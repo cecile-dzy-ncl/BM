@@ -207,4 +207,10 @@ p.player_amount {
   .eventCard img {
     margin: 16px;
   }
+
+  .eventCard .btn-bm.btn-bm-border,
+  .eventCard.top3 .btn-bm.btn-bm-border,
+  .playerCard .btn-bm.btn-bm-border {
+    padding: 12px 55px;
+  }
 }
