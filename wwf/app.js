@@ -26,7 +26,7 @@ $(document).ready(function () {
       $(this)
         .find(".page-see")[0]
         .attr(
-          href,
+          "href",
           `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`
         );
     });
