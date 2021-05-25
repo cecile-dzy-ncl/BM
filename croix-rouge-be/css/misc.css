@@ -5,3 +5,7 @@
 .container-small-bm {
   width: 947px;
 }
+
+.aside-event-list {
+  display: none;
+}
