@@ -5,8 +5,6 @@ $(document).ready(function () {
   $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
-  //   $(".credits").appendTo("section#project_tabs + section .row");
-
   $(
     "<li class='nodropdown footer-link-menu'><a href='https://www.wwf.fr/'>© WWF</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
@@ -24,6 +22,7 @@ $(document).ready(function () {
     eventsList.each(function () {
       const eventId = $(this).find(".page-create")[0].href.split("=")[1];
       console.log($(this).find(".page-see"));
+      console.log($(this).find(".page-see")[0]);
       $(this)
         .find(".page-see")[0]
         .attr(
