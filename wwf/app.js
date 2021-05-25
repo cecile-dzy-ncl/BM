@@ -24,7 +24,7 @@ $(document).ready(function () {
       console.log($(this).find(".page-see"));
       console.log($(this).find(".page-see")[0]);
       $(this)
-        .find(".page-see")[0]
+        .find(".page-see")
         .attr(
           "href",
           `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`
