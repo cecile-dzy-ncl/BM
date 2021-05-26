@@ -65,6 +65,9 @@ $(document).ready(function () {
     case "lat":
       var cta = "copia el enlace";
       break;
+    case "pl":
+      var cta = "skopiuj link";
+      break;
     case "sk":
       var cta = "skopírujte odkaz";
       break;
