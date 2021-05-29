@@ -46,13 +46,13 @@ var lang = $("html").attr("lang");
 switch (lang) {
   case "en":
     var btnSeeMore = "See more";
-    var players = "See more";
+    var players = "registered players";
     var amount = "See more";
     break;
   case "nl":
     var btnSeeMore = "See more";
-    var players = "See more";
-    var amount = "See more";
+    var players = "ingeschreven spelers";
+    var amount = "euros verzameld";
     break;
   default:
     var btnSeeMore = "Voir plus";
