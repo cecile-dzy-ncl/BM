@@ -48,16 +48,19 @@ switch (lang) {
     var btnSeeMore = "See more";
     var players = "registered players";
     var amount = "euros raised";
+    var raised = "raised";
     break;
   case "nl":
     var btnSeeMore = "See more";
     var players = "ingeschreven spelers";
     var amount = "euros verzameld";
+    var raised = "verzameld";
     break;
   default:
     var btnSeeMore = "Voir plus";
     var players = "joueurs inscrits";
     var amount = "euros collectés";
+    var raised = "collectés";
     break;
 }
 
@@ -91,7 +94,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
   ${
     index > 2
       ? `
-      </div><div><p class='player_amount'>${playerAmountCollected}€ collectés</p>
+      </div><div><p class='player_amount'>${playerAmountCollected}€ ${raised}</p>
       <a class="btn-bm ${index > 0 ? "btn-bm-border" : ""}" href="${
           player.url[lang]
         }">${btnSeeMore}
