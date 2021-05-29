@@ -47,7 +47,7 @@ switch (lang) {
   case "en":
     var btnSeeMore = "See more";
     var players = "registered players";
-    var amount = "See more";
+    var amount = "euros raised";
     break;
   case "nl":
     var btnSeeMore = "See more";
