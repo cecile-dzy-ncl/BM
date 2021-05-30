@@ -7,6 +7,14 @@ section.top-bar-section {
   background: #fff !important;
 }
 
+header.main-header .top-bar-section ul {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 71.25em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #main-nav > section > ul > li {
   border: none;
   background-color: transparent;
