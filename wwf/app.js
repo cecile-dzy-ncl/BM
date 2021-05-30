@@ -6,7 +6,7 @@ $(document).ready(function () {
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
   $(
-    "<li class='nodropdown footer-link-menu'><a href='https://www.wwf.fr/'>© WWF</a></li>"
+    "<li class='nodropdown footer-link-menu'><a href='https://www.wwf.fr/'>© 2021 WWF</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   if (window.matchMedia("(min-width: 600px)").matches) {
