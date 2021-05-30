@@ -79,3 +79,9 @@ a[href="/users/sign_in"]:hover {
   background-color: transparent !important;
   color: black !important;
 }
+
+@media screen and (max-width: 500px) {
+  header.main-header .top-bar-section ul {
+    flex-direction: column;
+  }
+}
