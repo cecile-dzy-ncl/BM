@@ -96,11 +96,11 @@ small {
 }
 
 .font-bold {
-  font-family: "LucidaB";
+  font-family: "Lucida";
 }
 
 strong {
-  font-family: "LucidaB";
+  font-family: "Lucida";
 }
 
 /* -------------------- CONTAINERS -------------------- */
@@ -140,7 +140,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .stats p.stat-nb {
-  font-family: "LucidaB";
+  font-family: "RubrikB";
   font-size: 60px;
   line-height: 60px;
 }
@@ -244,12 +244,12 @@ section.section-my-event aside .donators .people p {
 }
 
 section.section-my-event aside .donators .people p:last-child {
-  font-family: "LucidaB";
+  font-family: "RubrikB";
   margin-top: 1rem;
 }
 
 .infos-money .current-amount {
-  font-family: Lucida;
+  font-family: "Lucida";
 }
 
 .sub-event .infos-money .small-12.large-6.columns {
@@ -323,7 +323,7 @@ p#show_team {
   .infos-money
   .chart-wrap.light
   .percent {
-  font-family: Lucida;
+  font-family: "Lucida";
   font-size: 30px;
 }
 
@@ -335,7 +335,7 @@ p#show_team {
 }
 
 section.section-projet-details .project-detail-data .contributeurs span {
-  font-family: Lucida;
+  font-family: "Lucida";
 }
 
 #projects-show .block-share-container h4 span {
