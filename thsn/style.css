@@ -66,27 +66,27 @@ body {
 }
 
 h1 {
-  font-family: "Rubrik";
+  font-family: "Lucida";
   font-size: 24px;
   line-height: 30px;
 }
 
 h2 {
-  font-family: "Rubrik";
+  font-family: "Lucida";
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
 
 h3 {
-  font-family: "Rubrik";
+  font-family: "Lucida";
   font-size: 24px;
   line-height: 24px;
   text-align: center;
 }
 
 p {
-  font-family: "Rubrik";
+  font-family: "Lucida";
   text-align: center;
 }
 
@@ -96,11 +96,11 @@ small {
 }
 
 .font-bold {
-  font-family: "RubrikB";
+  font-family: "LucidaB";
 }
 
 strong {
-  font-family: "RubrikB";
+  font-family: "LucidaB";
 }
 
 /* -------------------- CONTAINERS -------------------- */
@@ -116,7 +116,7 @@ nav.top-bar#main-nav section.top-bar-section {
 
 nav.top-bar#main-nav .top-bar-section ul li > a {
   color: white;
-  font-family: "Rubrik";
+  font-family: "Lucida";
 }
 
 nav.top-bar .top-bar-section ul li > a:hover {
@@ -140,7 +140,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .stats p.stat-nb {
-  font-family: "RubrikB";
+  font-family: "LucidaB";
   font-size: 60px;
   line-height: 60px;
 }
@@ -244,12 +244,12 @@ section.section-my-event aside .donators .people p {
 }
 
 section.section-my-event aside .donators .people p:last-child {
-  font-family: "RubrikB";
+  font-family: "LucidaB";
   margin-top: 1rem;
 }
 
 .infos-money .current-amount {
-  font-family: Rubrik;
+  font-family: Lucida;
 }
 
 .sub-event .infos-money .small-12.large-6.columns {
@@ -306,7 +306,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   color: black;
   font-size: 19px;
   text-transform: uppercase;
-  font-family: "Rubrik";
+  font-family: "Lucida";
 }
 
 section.section-projet-details .projet-head .user {
@@ -323,7 +323,7 @@ p#show_team {
   .infos-money
   .chart-wrap.light
   .percent {
-  font-family: Rubrik;
+  font-family: Lucida;
   font-size: 30px;
 }
 
@@ -335,7 +335,7 @@ p#show_team {
 }
 
 section.section-projet-details .project-detail-data .contributeurs span {
-  font-family: Rubrik;
+  font-family: Lucida;
 }
 
 #projects-show .block-share-container h4 span {
@@ -400,7 +400,7 @@ input.url-link {
   border: 1px solid #b4b4b4;
   padding: 5px;
   background: #f5f5f5;
-  font-family: "Rubrik";
+  font-family: "Lucida";
   /*width: 70%;*/
 }
 
@@ -409,7 +409,7 @@ div#copy.url-btn {
   padding: 5px;
   background: #f5f5f5;
   color: #c21b17;
-  font-family: "Rubrik";
+  font-family: "Lucida";
   height: 35px;
   cursor: pointer;
   min-width: 200px;
