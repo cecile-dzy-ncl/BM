@@ -26,8 +26,8 @@ header .top-bar-section li:not(.has-form) a:not(.button) {
   color: #545454;
 }
 
-header .top-bar-section li:not(.has-form) a:not(.button):hover,
-header .top-bar-section li:not(.has-form) a:not(.button).active {
+.main-header .top-bar-section ul li:hover:not(.has-form) > a:hover,
+.main-header .top-bar-section ul li:hover:not(.has-form) > a.active {
   color: var(--red);
 }
 
