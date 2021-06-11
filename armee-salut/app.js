@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("body").addClass("aida");
+  $("body").addClass("armee-salut");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);

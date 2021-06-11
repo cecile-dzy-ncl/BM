@@ -1,0 +1,23 @@
+/* -------------------- BUTTONS -------------------- */
+
+.btn-bm,
+button,
+.button {
+  border: 3px solid var(--blue);
+  background: none;
+  color: var(--blue);
+  font-size: 18px;
+  line-height: 26px;
+  padding: 5px 50px;
+  border-radius: 25px;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+}
+
+.manage-links .button {
+  font-size: 12px;
+  line-height: normal;
+  padding: 5px;
+  width: auto;
+}
