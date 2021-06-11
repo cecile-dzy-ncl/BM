@@ -7,7 +7,7 @@ button,
   border-style: solid;
   border-color: var(--blue);
   background: var(--blue);
-  color: var(--blue);
+  color: white;
   font-size: 18px;
   line-height: 26px;
   padding: 5px 50px;
