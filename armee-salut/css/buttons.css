@@ -34,6 +34,7 @@ button:hover,
 #end {
   border-color: var(--blue);
   background: none;
+  background-color: transparent;
   color: var(--blue);
   transition: background 0.3s ease;
 }
