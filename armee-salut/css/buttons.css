@@ -47,6 +47,12 @@ button:hover,
   border-color: white;
 }
 
+.btn-bm-border.white:hover {
+  border-color: white;
+  background: white;
+  color: var(--blue);
+}
+
 .manage-links .button {
   font-size: 12px;
   line-height: normal;
