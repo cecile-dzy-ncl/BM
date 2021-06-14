@@ -79,6 +79,15 @@ footer .top-bar-section ul li {
   color: var(--red) !important;
 }
 
+.main-header
+  #main-nav
+  .top-bar-section
+  .dropdown
+  li:not(.has-form)
+  a:not(.button):hover {
+  background-color: white;
+}
+
 @media screen and (max-width: 500px) {
   #header-header > .row {
     flex-direction: column;
