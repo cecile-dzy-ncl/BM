@@ -19,6 +19,14 @@ button,
   text-transform: none;
 }
 
+.btn-bm-border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--blue);
+  background: none;
+  color: var(--blue);
+}
+
 .manage-links .button {
   font-size: 12px;
   line-height: normal;
