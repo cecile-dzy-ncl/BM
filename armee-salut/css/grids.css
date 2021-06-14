@@ -16,16 +16,5 @@
 .grid-homepage {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2rem;
-  /* background: var(--blue);
-  color: white; */
+  grid-gap: 3rem;
 }
-
-/* .grid-homepage > div {
-  display: flex;
-  flex-direction: column;
-}
-
-.grid-homepage p {
-  flex-grow: 1;
-} */
