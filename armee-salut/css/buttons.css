@@ -49,8 +49,8 @@ button:hover,
 
 .btn-bm-border.white:hover {
   border-color: white;
-  background: white;
-  color: var(--blue);
+  background: white !important;
+  color: var(--blue) !important;
 }
 
 .manage-links .button {
