@@ -26,6 +26,7 @@ button:hover,
 .button:hover {
   border-color: var(--darkblue);
   background: var(--darkblue);
+  color: white;
 }
 
 .btn-bm-border {
