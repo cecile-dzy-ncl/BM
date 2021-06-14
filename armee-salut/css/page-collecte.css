@@ -68,7 +68,8 @@ section.section-projet-details .project-detail-data .jours-restants span {
   font-family: "Roboto Condensed";
 }
 
-section.section-projet-details .project-detail-data .jours-restants small {
+section.section-projet-details .project-detail-data .jours-restants small,
+.block-share-container h4 span {
   font-family: "Source Sans Pro";
 }
 
