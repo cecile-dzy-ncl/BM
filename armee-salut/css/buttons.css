@@ -30,7 +30,8 @@ button:hover,
   color: white;
 }
 
-.btn-bm-border {
+.btn-bm-border,
+#end {
   border-color: var(--blue);
   background: none;
   color: var(--blue);
