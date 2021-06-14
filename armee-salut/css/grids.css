@@ -3,3 +3,12 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
 }
+
+.grid-entreprise > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-entreprise > p {
+  flex-grow: 1;
+}
