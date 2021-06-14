@@ -39,7 +39,8 @@ button:hover,
   transition: background 0.3s ease;
 }
 
-.btn-bm-border:hover {
+.btn-bm-border:hover,
+#projects-show .notifications_intro #end:hover {
   border-color: var(--darkblue);
   background: var(--darkblue);
   color: white;
