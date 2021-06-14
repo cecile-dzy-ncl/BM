@@ -82,17 +82,17 @@ section.section-projet-details
 }
 
 section.section-projet-details .project-detail-data .contributeurs {
-  margin-top: 0.65rem;
+  margin-top: 0.75rem;
 }
 
 section.section-projet-details .project_boutons_give {
-  background: #e04e39;
+  background: var(--red);
   font-family: "Source Sans Pro";
   text-transform: uppercase;
   height: 50px;
   /*line-height: 50px;*/
   min-height: auto !important;
-  background: #e04e39 !important;
+  background: var(--red) !important;
 }
 
 #show_team {
