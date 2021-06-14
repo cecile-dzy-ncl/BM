@@ -128,12 +128,12 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: var(--orange);
+  background-color: var(--red);
   color: white;
 }
 
 .project_payment #list_payment .people p.money {
-  color: var(--orange);
+  color: var(--red);
 }
 
 #show_description {
@@ -176,7 +176,7 @@ section#project_tabs + section .row {
 
 section.section-projet-details .project_boutons_give {
   font-family: "Roboto Condensed";
-  background-color: var(--orange) !important;
+  background-color: var(--red) !important;
 }
 
 section.section-projet-details
