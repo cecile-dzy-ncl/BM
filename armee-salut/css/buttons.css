@@ -31,7 +31,7 @@ button:hover,
 }
 
 .btn-bm-border,
-#end {
+#projects-show .notifications_intro #end {
   border-color: var(--blue);
   background: none;
   background-color: transparent;
