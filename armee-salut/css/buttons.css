@@ -21,10 +21,23 @@ button,
   text-transform: none;
 }
 
+.btn-bm:hover,
+button:hover,
+.button:hover {
+  border-color: var(--darkblue);
+  background: var(--darkblue);
+}
+
 .btn-bm-border {
   border-color: var(--blue);
   background: none;
   color: var(--blue);
+}
+
+.btn-bm-border:hover {
+  border-color: var(--darkblue);
+  background: var(--darkblue);
+  color: white;
 }
 
 .btn-bm-border.white {
