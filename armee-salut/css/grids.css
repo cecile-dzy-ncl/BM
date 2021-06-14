@@ -9,6 +9,6 @@
   flex-direction: column;
 }
 
-.grid-entreprise > p {
+.grid-entreprise p {
   flex-grow: 1;
 }
