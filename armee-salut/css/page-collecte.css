@@ -42,6 +42,7 @@ section.section-projet-details h1#show_title {
   line-height: 40px;
   margin: 0;
   text-transform: uppercase;
+  text-align: left;
 }
 
 p.team_by {
@@ -174,7 +175,7 @@ section#project_tabs + section .row {
 }
 
 section.section-projet-details .project_boutons_give {
-  font-family: "WWFRegular";
+  font-family: "Roboto Condensed";
   background-color: var(--orange) !important;
 }
 
@@ -186,7 +187,7 @@ section.section-projet-details
 #projects-show .current-amount,
 #projects-show #show_days,
 #projects-show .contributeurs span {
-  font-family: "WWFRegular";
+  font-family: "Roboto Condensed";
 }
 
 @media screen and (max-width: 500px) {
