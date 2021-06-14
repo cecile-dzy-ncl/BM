@@ -2,7 +2,8 @@
 
 .btn-bm,
 button,
-.button {
+.button,
+.projet-tabs .content .button {
   border-width: 1px;
   border-style: solid;
   border-color: var(--blue);
