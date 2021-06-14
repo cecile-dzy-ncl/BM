@@ -128,7 +128,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 .tabs dd.active a {
-  background-color: var(--red);
+  background-color: var(--darkred);
   color: white;
 }
 
@@ -142,14 +142,14 @@ section.section-projet-details .project-detail-data .project_boutons_join {
   color: #000;
 }
 
-section#project_tabs + section .row {
+/* section#project_tabs + section .row {
   max-width: 100%;
   background: url("https://soutenir.wwf.fr/cdn.iraiser.eu/lQuyif/aaQ3Y8HJC0z2azVNBKQs1e/Ruc8hr2mYMTlyfxDmyTgTeN370Ksewuyio/Jean_Lachaize/origin/fondwwf.png");
   background-position: bottom center;
   background-size: cover;
   position: relative;
   padding: 100px 0;
-}
+} */
 
 /* .project_event_description {
   height: 600px;
