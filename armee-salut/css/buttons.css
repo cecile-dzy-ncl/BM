@@ -19,6 +19,7 @@ button,
   width: max-content;
   font-weight: 600;
   text-transform: none;
+  transition: background 0.3s ease;
 }
 
 .btn-bm:hover,
@@ -33,6 +34,7 @@ button:hover,
   border-color: var(--blue);
   background: none;
   color: var(--blue);
+  transition: background 0.3s ease;
 }
 
 .btn-bm-border:hover {
