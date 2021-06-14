@@ -17,8 +17,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
-  background: var(--blue);
-  color: white;
+  /* background: var(--blue);
+  color: white; */
 }
 
 /* .grid-homepage > div {
