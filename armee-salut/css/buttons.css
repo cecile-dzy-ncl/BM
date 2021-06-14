@@ -31,7 +31,11 @@ button:hover,
 }
 
 .btn-bm-border,
-#projects-show .notifications_intro #end {
+#projects-show .notifications_intro #end,
+.projet-tabs .content ul li a.button,
+.projet-tabs .content ul li a,
+.projet-tabs .content ul li.button,
+.projet-tabs .content .button {
   border-color: var(--blue);
   background: none;
   background-color: transparent;
@@ -40,7 +44,11 @@ button:hover,
 }
 
 .btn-bm-border:hover,
-#projects-show .notifications_intro #end:hover {
+#projects-show .notifications_intro #end:hover,
+.projet-tabs .content ul li a.button:hover,
+.projet-tabs .content ul li a:hover,
+.projet-tabs .content ul li.button:hover,
+.projet-tabs .content .button:hover {
   border-color: var(--darkblue);
   background: var(--darkblue);
   color: white;
