@@ -10,18 +10,18 @@ button,
   color: white;
   font-size: 18px;
   line-height: 26px;
-  padding: 5px 50px;
+  padding: 12px 40px;
   border-radius: 8px;
   margin: 0 auto;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: max-content;
   font-weight: 600;
   text-transform: none;
 }
 
 .btn-bm-border {
-  border-width: 1px;
-  border-style: solid;
   border-color: var(--blue);
   background: none;
   color: var(--blue);
