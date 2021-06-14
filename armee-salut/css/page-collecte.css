@@ -68,6 +68,10 @@ section.section-projet-details .project-detail-data .jours-restants span {
   font-family: "Roboto Condensed";
 }
 
+section.section-projet-details .project-detail-data .jours-restants small {
+  font-family: "Source Sans Pro";
+}
+
 section.section-projet-details .project-detail-data .jours-restants #show_days,
 section.section-projet-details
   .project-detail-data
