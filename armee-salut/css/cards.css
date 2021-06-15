@@ -13,3 +13,9 @@
   font-weight: 400;
   font-size: 28px;
 }
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
