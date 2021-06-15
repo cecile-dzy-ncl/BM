@@ -1,0 +1,8 @@
+.project-card {
+  background: var(--lightgrey);
+  border-radius: 4px;
+}
+
+.project-card * {
+  text-align: left;
+}
