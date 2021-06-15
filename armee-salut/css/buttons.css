@@ -52,7 +52,7 @@ button:hover,
 .projet-tabs .content .button:hover {
   border-color: var(--darkblue);
   background: var(--darkblue);
-  background-color: var(--darkblue);
+  background-color: var(--darkblue) !important;
   color: white;
 }
 
