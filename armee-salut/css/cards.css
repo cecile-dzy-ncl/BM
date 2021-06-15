@@ -10,4 +10,6 @@
 
 .project-card h3 {
   color: var(--red);
+  font-weight: 400;
+  font-size: 28px;
 }
