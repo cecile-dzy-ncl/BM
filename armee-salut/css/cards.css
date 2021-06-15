@@ -7,3 +7,7 @@
 .project-card * {
   text-align: left;
 }
+
+.project-card h3 {
+  color: var(--red);
+}
