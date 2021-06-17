@@ -11,6 +11,8 @@
   height: 100%;
   width: 66%;
   flex-shrink: 0;
+  object-fit: cover;
+  object-position: top;
 }
 
 .banner.homepage h1 {
