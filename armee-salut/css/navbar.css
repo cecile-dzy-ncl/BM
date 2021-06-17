@@ -88,6 +88,7 @@ footer .top-bar-section ul li {
 header.main-header .dropdown li:not(.has-form):not(.active) a:not(.button) {
   background-color: white;
   text-align: left !important;
+  color: var(--darkgrey);
 }
 
 @media screen and (max-width: 500px) {
