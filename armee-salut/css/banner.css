@@ -27,6 +27,7 @@
 
 .banner.secondary {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .banner.secondary h1 {
