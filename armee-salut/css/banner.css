@@ -33,6 +33,7 @@
   position: absolute;
   background: var(--red);
   color: white;
+  padding: 8px 24px;
   left: 50%;
   bottom: 0;
   transform: translate(-50%);
