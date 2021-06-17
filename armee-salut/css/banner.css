@@ -24,3 +24,15 @@
 .banner.homepage h1 span {
   font-weight: 400;
 }
+
+.banner.secondary {
+  position: relative;
+}
+
+.banner.secondary h1 {
+  position: absolute;
+  background: var(--red);
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
