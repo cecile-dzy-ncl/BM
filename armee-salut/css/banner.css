@@ -1,3 +1,11 @@
 .banner {
   height: 444px;
 }
+
+.banner.homepage {
+  display: flex;
+}
+
+.banner.homepage img {
+  height: 100%;
+}
