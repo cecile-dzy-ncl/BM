@@ -32,6 +32,7 @@
 .banner.secondary h1 {
   position: absolute;
   background: var(--red);
+  color: white;
   left: 50%;
   bottom: 0;
   transform: translate(-50%);
