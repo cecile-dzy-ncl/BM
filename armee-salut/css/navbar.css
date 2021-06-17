@@ -84,7 +84,8 @@ footer .top-bar-section ul li {
   .top-bar-section
   .dropdown
   li:not(.has-form)
-  a:not(.button):hover {
+  a:not(.button):hover,
+header.main-header .dropdown li:not(.has-form):not(.active) a:not(.button) {
   background-color: white;
   text-align: left !important;
 }
