@@ -86,6 +86,7 @@ footer .top-bar-section ul li {
   li:not(.has-form)
   a:not(.button):hover {
   background-color: white;
+  text-align: left !important;
 }
 
 @media screen and (max-width: 500px) {
