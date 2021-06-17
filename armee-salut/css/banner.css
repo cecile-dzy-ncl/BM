@@ -18,6 +18,7 @@
 .banner.homepage h1 {
   color: white;
   text-align: left !important;
+  margin: 0 64px;
 }
 
 .banner.homepage h1 span {
