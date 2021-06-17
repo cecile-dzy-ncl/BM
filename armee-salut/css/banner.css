@@ -17,7 +17,7 @@
 
 .banner.homepage h1 {
   color: white;
-  text-align: left;
+  text-align: left !important;
 }
 
 .banner.homepage h1 span {
