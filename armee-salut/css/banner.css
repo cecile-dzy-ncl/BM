@@ -16,3 +16,7 @@
 .banner.homepage h1 {
   color: white;
 }
+
+.banner.homepage h1 span {
+  font-weight: 400;
+}
