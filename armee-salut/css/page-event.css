@@ -1,0 +1,26 @@
+/* PAGE EVENT */
+
+.event-head .intro-my-event {
+  color: black;
+}
+
+#events-show .event-head > .row {
+  display: flex;
+  flex-direction: column;
+  background-color: white !important;
+}
+
+#events-show .event-head > .row > .columns,
+#events-show .event-stats {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#events-show .event-stats {
+  display: flex;
+  margin: 35px auto;
+}
+
+.event-stat {
+  width: 50%;
+}
