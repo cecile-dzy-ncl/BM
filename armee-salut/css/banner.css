@@ -12,13 +12,13 @@
   width: 66%;
   flex-shrink: 0;
   object-fit: cover;
-  object-position: top;
+  object-position: 100% 30%;
 }
 
 .banner.homepage h1 {
   color: white;
   text-align: left !important;
-  margin: 0 64px;
+  margin: 0 50px;
 }
 
 .banner.homepage h1 span {
