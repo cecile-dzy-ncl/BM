@@ -78,6 +78,12 @@ section.section-my-event aside #widget-count-gift {
   color: black;
 }
 
+.stat-nb span {
+  font-size: 40px;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+}
+
 section.section-my-event .projects-list .panel h3 a,
 section.section-my-event .projects-list .panel h3 a:hover,
 section.section-my-event .projects-list .panel h3 a:focus {
