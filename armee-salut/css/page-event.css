@@ -26,10 +26,10 @@
   width: 75%;
   margin: 0 auto;
 }
-
+/* 
 .event-head > .row:last-of-type > .small-12.medium-6.columns:first-of-type {
   display: none;
-}
+} */
 
 .event-head > .row:last-of-type > .small-12.medium-6.columns:last-of-type {
   width: 100%;
