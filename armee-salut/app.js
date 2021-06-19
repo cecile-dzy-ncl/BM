@@ -14,6 +14,25 @@ $(document).ready(function () {
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
+  $(function () {
+    if ($("body").is("#events-show")) {
+      var eventProjectsNb = $("body#events-show").find("#projects").length;
+      var amountRaised = $("body#events-show").find(".current-amount").html();
+
+      // just need to style the event-stats
+
+      if (eventProjectsNb < 2) {
+        $("#events-show .habillage .intro-my-event").prepend(
+          `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span class="red">${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>page de collecte créée</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="red">${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
+        );
+      } else {
+        $("#events-show .habillage .intro-my-event").prepend(
+          `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span class="red">${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span class="red">${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
+        );
+      }
+    }
+  });
+
   // --------- RESPONSIVE ---------
 
   // var windowWidth = $(window).width();
