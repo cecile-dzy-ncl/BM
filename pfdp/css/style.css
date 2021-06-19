@@ -1,9 +1,9 @@
-@import "../css/utilities.css";
 @import "../css/variables.css";
+@import "../css/colors.css";
+@import "../css/utilities.css";
 @import "../css/banner.css";
 @import "../css/button.css";
 @import "../css/cards.css";
-@import "../css/colors.css";
 @import "../css/events_index.css";
 @import "../css/events_show.css";
 @import "../css/fonts.css";

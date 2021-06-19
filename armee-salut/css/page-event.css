@@ -68,6 +68,10 @@ section.section-my-event aside #widget-count-gift {
   text-align: left !important;
 }
 
+.event-stat {
+  color: black;
+}
+
 @media screen and (max-width: 500px) {
   .intro-my-event {
     width: 75%;
