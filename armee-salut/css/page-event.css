@@ -88,6 +88,11 @@ section.section-my-event aside #widget-count-gift {
   display: none;
 }
 
+.event-head .details-my-event .button {
+  width: fit-content;
+  margin: 20px auto;
+}
+
 section.section-my-event .projects-list .panel h3 a,
 section.section-my-event .projects-list .panel h3 a:hover,
 section.section-my-event .projects-list .panel h3 a:focus {
