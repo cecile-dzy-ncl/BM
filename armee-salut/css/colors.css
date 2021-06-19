@@ -24,3 +24,7 @@
 .bg-blue {
   background: var(--blue);
 }
+
+.red {
+  color: var(--red);
+}

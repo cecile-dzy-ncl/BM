@@ -68,6 +68,12 @@ section.section-my-event aside #widget-count-gift {
   text-align: left !important;
 }
 
+.event-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .event-stat {
   color: black;
 }
