@@ -35,7 +35,7 @@
   display: none;
 } */
 
-.event-head > .row:last-of-type > .small-12.medium-6.columns:last-of-type {
+.event-head > .row:last-of-type > .small-12.medium-6.columns {
   width: 100%;
 }
 
