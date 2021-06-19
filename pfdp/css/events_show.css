@@ -21,6 +21,12 @@
   /* background: var(--lightergrey); */
 }
 
+section.section-my-event .projects-list .panel h3 a,
+section.section-my-event .projects-list .panel h3 a:hover,
+section.section-my-event .projects-list .panel h3 a:focus {
+  color: var(--darkblue);
+}
+
 .intro-my-event {
   text-align: center;
   width: 75%;
