@@ -72,6 +72,21 @@ section.section-my-event aside #widget-count-gift {
   color: black;
 }
 
+section.section-my-event .projects-list .panel h3 a,
+section.section-my-event .projects-list .panel h3 a:hover,
+section.section-my-event .projects-list .panel h3 a:focus {
+  color: var(--darkblue);
+}
+
+section.section-my-event
+  .projects-list
+  .panel
+  .infos-money
+  .infos-money-details
+  .info-money.detail {
+  color: var(--darkblue);
+}
+
 @media screen and (max-width: 500px) {
   .intro-my-event {
     width: 75%;
