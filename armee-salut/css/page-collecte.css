@@ -100,9 +100,9 @@ section.section-projet-details .project_boutons_give {
   background: #f3f5f0;
 }
 
-/* .block-share-container h4 span {
-  color: white;
-} */
+.block-share-container h4 span {
+  color: black;
+}
 
 #events-show .block-share-container h4 span:after,
 #events-show .block-share-container h4 span:before {
