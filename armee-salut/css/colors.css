@@ -25,6 +25,10 @@
   background: var(--blue);
 }
 
+.bg-red {
+  background: var(--red);
+}
+
 .red {
   color: var(--red);
 }
