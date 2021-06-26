@@ -1,3 +1,7 @@
 .grid-howto p {
   text-align: left;
 }
+
+.grid-howto h6 {
+  color: black;
+}
