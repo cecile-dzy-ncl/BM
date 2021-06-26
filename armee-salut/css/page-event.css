@@ -86,6 +86,7 @@ section.section-my-event aside #widget-count-gift {
   font-size: 40px;
   font-family: "Roboto Condensed";
   font-weight: 700;
+  color: var(--blue);
 }
 
 .details-my-event .infos-money {
