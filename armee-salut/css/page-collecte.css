@@ -106,7 +106,7 @@ section.section-projet-details .project_boutons_give {
 
 #events-show .block-share-container h4 span:after,
 #events-show .block-share-container h4 span:before {
-  background-color: var(--red);
+  background-color: #bbbbbb;
 }
 
 section.section-projet-details .project-detail-data .project_boutons_join {
