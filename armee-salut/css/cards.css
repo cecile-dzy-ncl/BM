@@ -35,6 +35,7 @@
 
 .lancer-une-collecte .project-card {
   background: white;
+  border: 1px solid var(--lightergrey);
 }
 
 .lancer-une-collecte .project-card h3 {
