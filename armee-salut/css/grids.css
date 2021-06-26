@@ -41,7 +41,8 @@
 
 @media screen and (max-width: 500px) {
   .grid-projects,
-  .grid-compteur {
+  .grid-compteur,
+  .grid-howto {
     grid-template-columns: 1fr;
   }
 }
