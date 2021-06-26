@@ -36,3 +36,7 @@
 .lancer-une-collecte .project-card {
   background: white;
 }
+
+.lancer-une-collecte .project-card h3 {
+  color: var(--blue);
+}
