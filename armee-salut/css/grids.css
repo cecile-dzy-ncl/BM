@@ -26,8 +26,16 @@
   margin-bottom: 35px;
 }
 
+.grid-compteur {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 35px;
+}
+
 @media screen and (max-width: 500px) {
-  .grid-projects {
+  .grid-projects,
+  .grid-compteur {
     grid-template-columns: 1fr;
   }
 }
