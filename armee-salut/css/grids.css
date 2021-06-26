@@ -30,12 +30,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
-  margin-bottom: 35px;
 }
 
 .grid-compteur * {
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 @media screen and (max-width: 500px) {
