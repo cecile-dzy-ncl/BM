@@ -29,6 +29,10 @@
   flex-direction: column-reverse;
 }
 
+.event-head .intro-my-event h1 {
+  color: black;
+}
+
 .event-head .row {
   background: white;
 }
