@@ -43,7 +43,7 @@
   background: var(--mediumgrey);
 }
 
-.lancer-une-collecte .project-card h3 {
+.lancer-une-collecte .project-card h3 a {
   color: var(--blue);
 }
 
@@ -51,7 +51,7 @@
   height: 240px;
 }
 
-.lancer-une-collecte .project-card a,
-.lancer-une-collecte .project-card a:hover {
+.lancer-une-collecte .project-card p a,
+.lancer-une-collecte .project-card p a:hover {
   color: black;
 }
