@@ -57,3 +57,20 @@
 .lancer-une-collecte .project-card p a:hover {
   color: black;
 }
+
+.campagne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+  /* width: 1146px; */
+  /* margin: 0px auto 100px auto; */
+}
+
+.camp-description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
