@@ -10,3 +10,12 @@
 .grid-howto img {
   margin-bottom: 20px;
 }
+
+#wrapper-ex h4 {
+  font-family: "Roboto Condensed";
+}
+
+.step {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
