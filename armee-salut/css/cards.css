@@ -49,6 +49,7 @@
 
 .lancer-une-collecte .project-card img {
   height: 240px;
+  object-fit: cover;
 }
 
 .lancer-une-collecte .project-card p a,
