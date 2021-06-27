@@ -54,6 +54,8 @@
   flex-wrap: wrap;
   gap: 1rem;
   background-color: var(--lightgrey);
+  height: 600px;
+  padding: 50px;
 }
 
 .grid-publics > div {
