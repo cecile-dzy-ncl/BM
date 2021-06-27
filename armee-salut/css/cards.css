@@ -67,6 +67,10 @@
   /* margin: 0px auto 100px auto; */
 }
 
+.campagne:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .camp-description {
   height: 100%;
   display: flex;
