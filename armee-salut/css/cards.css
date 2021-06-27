@@ -41,3 +41,7 @@
 .lancer-une-collecte .project-card h3 {
   color: var(--blue);
 }
+
+.lancer-une-collecte .project-card img {
+  height: 240px;
+}
