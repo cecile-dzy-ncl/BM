@@ -52,7 +52,6 @@
 .grid-publics {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   background-color: var(--lightgrey);
   width: 400px;
   margin: auto;
@@ -67,6 +66,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.grid-publics img {
+  height: 90px;
 }
 
 @media screen and (max-width: 500px) {
