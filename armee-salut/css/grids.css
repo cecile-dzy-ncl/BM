@@ -43,9 +43,16 @@
   margin: 0;
 }
 
+.grid-actions {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+
 @media screen and (max-width: 500px) {
   .grid-projects,
   .grid-compteur,
+  .grid-actions,
   .grid-howto {
     grid-template-columns: 1fr;
   }
