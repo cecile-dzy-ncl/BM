@@ -6,3 +6,11 @@
 .section-home-projects {
   margin-bottom: 60px;
 }
+
+.section-my-event .first-section {
+  display: block;
+}
+
+.section-my-event .first-section > .columns:last-of-type {
+  width: auto;
+}
