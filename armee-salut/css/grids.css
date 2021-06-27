@@ -68,6 +68,10 @@
   justify-content: center;
 }
 
+.grid-publics > div:nth-child(even) {
+  border-left: 1px solid black;
+}
+
 .grid-publics img {
   height: 90px;
 }
