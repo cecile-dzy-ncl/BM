@@ -1,0 +1,9 @@
+.ideas .container-small-bm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ideas img {
+  width: 300px;
+}
