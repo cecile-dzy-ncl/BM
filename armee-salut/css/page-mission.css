@@ -13,3 +13,29 @@
   margin-left: 30px;
   text-align: left;
 }
+
+.grid-publics > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-publics > div:nth-child(even) {
+  border-left: 1px solid var(--grey);
+}
+
+.grid-publics > div:nth-child(1),
+.grid-publics > div:nth-child(2) {
+  border-bottom: 1px solid var(--grey);
+}
+
+.grid-publics img {
+  height: 90px;
+}
+
+.grid-actions h3 {
+  text-align: center;
+  color: white;
+}
