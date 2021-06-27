@@ -38,6 +38,10 @@
   border: 2px solid var(--mediumgrey);
 }
 
+.lancer-une-collecte .project-card:hover {
+  background: var(--mediumgrey);
+}
+
 .lancer-une-collecte .project-card h3 {
   color: var(--blue);
 }
