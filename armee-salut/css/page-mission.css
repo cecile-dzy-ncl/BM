@@ -7,3 +7,7 @@
 .ideas img {
   width: 300px;
 }
+
+.ideas p {
+  margin-bottom: 0px;
+}
