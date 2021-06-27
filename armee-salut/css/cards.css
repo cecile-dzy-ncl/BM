@@ -50,3 +50,7 @@
 .lancer-une-collecte .project-card img {
   height: 240px;
 }
+
+.lancer-une-collecte .project-card a {
+  color: black;
+}
