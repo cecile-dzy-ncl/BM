@@ -50,13 +50,14 @@
 }
 
 .grid-publics {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   background-color: var(--lightgrey);
 }
 
 .grid-publics > div {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
