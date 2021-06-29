@@ -6,7 +6,7 @@ $(document).ready(function () {
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
   $(
-    "<li class='nodropdown footer-link-menu'><a href='https://www.armeedusalut.fr/' target='_blank'>© Fondation Armée du Salut</a></li>"
+    "<li class='nodropdown footer-link-menu'><a href='https://www.armeedusalut.fr/' target='_blank'>© Fondation de l'Armée du Salut</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT BANNER MAINTENANCE
