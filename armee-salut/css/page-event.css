@@ -113,6 +113,11 @@ section.section-my-event
   color: var(--darkblue);
 }
 
+.event_7 .details-my-event,
+.event_8 .details-my-event {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   .intro-my-event {
     width: 75%;
