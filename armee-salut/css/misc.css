@@ -1,0 +1,7 @@
+.placeholder-gif {
+  height: 470px;
+}
+img {
+  height: 100%;
+  object-fit: cover;
+}
