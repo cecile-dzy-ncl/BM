@@ -3,6 +3,8 @@
   background-size: cover;
   display: flex;
   align-items: center;
+
+  height: calc(100vh - 143px);
 }
 
 .banner .banner-text {
