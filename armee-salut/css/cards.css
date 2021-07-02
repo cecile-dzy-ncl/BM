@@ -79,3 +79,12 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+  .campagne {
+    flex-direction: column;
+  }
+  .campagne:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+}
