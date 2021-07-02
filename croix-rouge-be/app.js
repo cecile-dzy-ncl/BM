@@ -178,6 +178,8 @@ const fetchSubEvents = (ids) => {
 const fetchMainEvent = () => {
   var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   $.get(url, function (response) {
+    console.log(response.subevents);
+    console.log(response.subevents.slice(0, 10));
     fetchSubEvents(response.subevents);
   });
 };
