@@ -14,3 +14,7 @@ ul.pagination {
   display: flex;
   justify-content: center;
 }
+
+.section-events .event-item .event-details {
+  border-left: 1px solid rgba(128, 128, 128, 0.43);
+}

@@ -188,7 +188,7 @@ p.player_amount {
 }
 
 .event-item .panel {
-  box-shadow: 2px 2px 30px rgb(128, 128, 128, 0.43);
+  box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.43);
 }
 
 @media screen and (max-width: 500px) {
