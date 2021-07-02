@@ -59,7 +59,7 @@
   border-radius: 4px;
 }
 
-.lancer-une-collecte .project-card p a,
+.lancer-une-collecte .project-card p a:not(.see-more),
 .lancer-une-collecte .project-card p a:hover {
   color: black;
 }
