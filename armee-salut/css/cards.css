@@ -33,6 +33,12 @@
   font-size: 20px;
 }
 
+.see-more {
+  color: var(--darkblue);
+  font-size: 16px;
+  text-decoration: underline;
+}
+
 .lancer-une-collecte .project-card {
   background: white;
   border: 2px solid var(--mediumgrey);
