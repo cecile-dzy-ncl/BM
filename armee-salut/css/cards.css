@@ -72,6 +72,11 @@
   flex-direction: row-reverse;
 }
 
+.camp-description,
+.camp-photo {
+  width: 50%;
+}
+
 .camp-description {
   height: 100%;
   display: flex;
@@ -83,8 +88,14 @@
 @media screen and (max-width: 500px) {
   .campagne {
     flex-direction: column;
+    height: auto;
   }
   .campagne:nth-child(even) {
     flex-direction: column-reverse;
+  }
+
+  .camp-description,
+  .camp-photo {
+    width: 100%;
   }
 }
