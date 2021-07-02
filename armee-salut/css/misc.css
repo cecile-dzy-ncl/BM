@@ -8,15 +8,16 @@
   object-fit: cover;
 }
 
-.collectes-dediees-fr iframe {
-  width: 100%;
-  height: auto;
-}
-
-#wrapper-ex img {
-  display: none;
-}
-
 #wrapper-ex .step {
   font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .collectes-dediees-fr iframe {
+    width: 100%;
+    height: auto;
+  }
+  #wrapper-ex img {
+    display: none;
+  }
 }
