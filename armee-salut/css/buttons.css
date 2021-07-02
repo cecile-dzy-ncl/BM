@@ -73,6 +73,10 @@ button:hover,
   width: auto;
 }
 
+.section-home-projects .button {
+  float: none !important;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm,
   button,
