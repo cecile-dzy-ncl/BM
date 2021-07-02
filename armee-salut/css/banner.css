@@ -47,3 +47,9 @@
   object-fit: cover;
   object-position: center;
 }
+
+@media screen and (max-width: 500px) {
+  .banner.homepage {
+    flex-direction: column;
+  }
+}
