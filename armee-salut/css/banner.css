@@ -51,5 +51,10 @@
 @media screen and (max-width: 500px) {
   .banner.homepage {
     flex-direction: column;
+    height: auto;
+  }
+
+  .banner.homepage img {
+    width: 100%;
   }
 }
