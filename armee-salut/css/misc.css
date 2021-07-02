@@ -6,3 +6,7 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+.collectes-dediees-fr iframe {
+  width: 100%;
+}
