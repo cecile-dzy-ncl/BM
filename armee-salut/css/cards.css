@@ -86,13 +86,14 @@
 }
 
 @media screen and (max-width: 500px) {
-  .campagne {
+  .campagne,
+  .campagne:nth-child(even) {
     flex-direction: column;
     height: auto;
   }
-  .campagne:nth-child(even) {
+  /* .campagne:nth-child(even) {
     flex-direction: column-reverse;
-  }
+  } */
 
   .camp-description,
   .camp-photo {
