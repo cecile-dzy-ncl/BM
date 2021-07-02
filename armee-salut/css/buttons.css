@@ -72,3 +72,13 @@ button:hover,
   padding: 5px;
   width: auto;
 }
+
+@media screen and (max-width: 500px) {
+  .btn-bm,
+  button,
+  .button,
+  .projet-tabs .content .button {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+}
