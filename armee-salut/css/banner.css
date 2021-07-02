@@ -39,6 +39,7 @@
   bottom: -25px;
   transform: translate(-50%);
   text-transform: uppercase;
+  width: fit-content;
 }
 
 .banner.secondary img {
