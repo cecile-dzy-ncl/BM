@@ -63,6 +63,7 @@
 .eventCard.top3 h3 {
   font-size: 30px;
   line-height: 36px;
+  padding-right: 16px;
 }
 
 .eventCard p {
