@@ -9,3 +9,8 @@
 .aside-event-list {
   display: none;
 }
+
+ul.pagination {
+  display: flex;
+  justify-content: center;
+}
