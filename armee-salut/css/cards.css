@@ -64,6 +64,10 @@
   color: black;
 }
 
+.lancer-une-collecte .project-card p:last-child {
+  margin-bottom: 0px;
+}
+
 .campagne {
   display: flex;
   justify-content: center;
