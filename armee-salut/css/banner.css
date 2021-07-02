@@ -30,16 +30,23 @@
   margin-bottom: 32px;
 }
 
-.banner.secondary h1 {
+.banner.secondary div {
   position: absolute;
   background: var(--red);
-  color: white;
   padding: 8px 24px;
   left: 50%;
   bottom: -25px;
   transform: translate(-50%);
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  text-overflow: unset;
+  word-break: break-word;
+}
+
+.banner.secondary h1 {
+  color: white;
   text-transform: uppercase;
-  width: fit-content;
 }
 
 .banner.secondary img {
