@@ -11,3 +11,11 @@ img {
   width: 100%;
   height: auto;
 }
+
+#wrapper-ex img {
+  display: none;
+}
+
+#wrapper-ex .step {
+  font-weight: bold;
+}
