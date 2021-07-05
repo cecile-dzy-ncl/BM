@@ -12,6 +12,13 @@
   font-weight: bold;
 }
 
+.wrapper-help-header {
+  width: 65%;
+  margin: 0 auto 24px;
+}
+
+
+
 @media screen and (max-width: 500px) {
   .collectes-dediees-fr iframe {
     width: 100%;
@@ -19,5 +26,8 @@
   }
   #wrapper-ex img {
     display: none;
+  }
+  .wrapper-help-header {
+    width: 100%;
   }
 }

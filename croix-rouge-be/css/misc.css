@@ -19,13 +19,3 @@ ul.pagination {
   border-left: 1px solid rgba(128, 128, 128, 0.43);
 }
 
-.wrapper-help-header {
-  width: 65%;
-  margin: 0 auto 24px;
-}
-
-@media screen and (max-width: 500px) {
-  .wrapper-help-header {
-    width: 100%;
-  }
-}
