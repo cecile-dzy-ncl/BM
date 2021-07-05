@@ -18,3 +18,8 @@
   border-color: #cc1d00;
   color: #cc1d00;
 }
+
+.btn-bm-border.black,
+.btn-bm-border:hover.black {
+  border-color: black;
+}

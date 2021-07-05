@@ -18,3 +18,14 @@ ul.pagination {
 .section-events .event-item .event-details {
   border-left: 1px solid rgba(128, 128, 128, 0.43);
 }
+
+.wrapper-help-header {
+  width: 50%;
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper-help-header {
+    width: 100%;
+  }
+}
