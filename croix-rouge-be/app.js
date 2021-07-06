@@ -178,7 +178,7 @@ const fetchSubEvents = (ids) => {
 const getClubsNb = (subevents) => {
   var clubNb = subevents.length;
   console.log('clubNb', clubNb);
-  document.querySelectorAll("club_nb").forEach((nb) => {
+  document.querySelectorAll(".club_nb").forEach((nb) => {
     nb.innerText = clubNb;
   })
 }
