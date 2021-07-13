@@ -75,7 +75,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
   const playerAmountCollected = player.current_amount / 100;
   // prettier-ignore
   const clubName = player.event_id === 7 ? "Holes for Heroes" : eventsList.find((x) => x.id === player.event_id).title[lang];
-
+  console.log("player", player);
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
@@ -86,7 +86,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
       player.users_of_team[0].avatar
         ? player.users_of_team[0].avatar
         : "https://help.redcross.be/cdn.iraiser.eu/ch/vdrzIM224J80PqBVfikjruyXvm+tWBQ7A0+NbdBKBS+g3U4N+XSKsN8JAO/Ig/Marie-Dominique_Remion/avatar/CRBHolesforHeroes-pictogolfeur.png"
-    }" alt="club profile picture"/>
+    }" alt="player profile picture"/>
   </div>
   <div class="player_infos">
   <h3>${player.creator}</h3>
@@ -166,7 +166,7 @@ const buildEvents = (events) => {
 const fetchSubEvents = (ids) => {
   // prettier-ignore
   const urls = ids.map(id => `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`)
-  
+
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
     buildEvents(results);
@@ -177,11 +177,11 @@ const fetchSubEvents = (ids) => {
 
 const getClubsNb = (subevents) => {
   var clubNb = subevents.length;
-  console.log('clubNb', clubNb);
+  console.log("clubNb", clubNb);
   document.querySelectorAll(".club_nb").forEach((nb) => {
     nb.innerText = clubNb;
-  })
-}
+  });
+};
 
 const fetchMainEvent = () => {
   var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
