@@ -75,7 +75,6 @@ const buildPlayerCard = async (index, player, eventsList) => {
   const playerAmountCollected = player.current_amount / 100;
   // prettier-ignore
   const clubName = player.event_id === 7 ? "Holes for Heroes" : eventsList.find((x) => x.id === player.event_id).title[lang];
-  console.log("player", player);
   const playerCard = `
   <div class="playerCard ${
     index === 0 ? "winner top3" : index < 3 ? "top3" : ""
