@@ -148,11 +148,7 @@ const buildEventCard = (event, index) => {
 
 const buildEvents = (events) => {
   events
-    .sort((a, b) =>
-      a.amount_collected > b.amount_collected
-        ? 1
-        : a.amount_collected === b.amount_collected
-    )
+    .sort((a, b) => (a.amount_collected > b.amount_collected ? 1 : -1))
     .forEach((event, index) => {
       buildEventCard(event, index);
     });
