@@ -152,10 +152,6 @@ const buildEvents = (events) => {
       a.amount_collected > b.amount_collected
         ? 1
         : a.amount_collected === b.amount_collected
-        ? a.id > b.id
-          ? 1
-          : -1
-        : -1
     )
     .forEach((event, index) => {
       buildEventCard(event, index);
