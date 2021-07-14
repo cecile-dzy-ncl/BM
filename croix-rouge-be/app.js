@@ -165,7 +165,7 @@ const buildEvents = (events) => {
 const fetchSubEvents = (ids) => {
   // prettier-ignore
   const urls = ids.map(id => `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`)
-
+  console.log("urls", urls);
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
     buildEvents(results);
@@ -186,11 +186,6 @@ const fetchMainEvent = () => {
   var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   $.get(url, function (response) {
     console.log("response", response);
-    console.log(
-      response.sort((a, b) =>
-        a.amount_collected > b.amount_collected ? 1 : -1
-      )
-    );
     fetchSubEvents(response.subevents.slice(0, 10));
     getClubsNb(response.subevents);
   });
