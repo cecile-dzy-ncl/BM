@@ -113,7 +113,7 @@ const buildPlayerCard = async (index, player, eventsList) => {
 };
 
 const fetchBestPlayers = (eventsList) => {
-  var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&order=amount&limit=10`;
+  var url = `https://help.redcross.be/api/events/7/projects?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870&sort=amount&limit=10`;
   $.get(url, function (response) {
     $.each(response.projects, (key, value) => {
       buildPlayerCard(key, value, eventsList);
