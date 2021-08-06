@@ -34,7 +34,7 @@ $(document).ready(function () {
     $(".nb_kiosks span").html(montantWaterKiosks + " Water Kiosks");
   }
 
-  $(".project_boutons_give").html("Faire un don");
+  // $(".project_boutons_give").html("Faire un don");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   $("#nb_kiosks").html(+" Water Kiosks");
@@ -1481,9 +1481,11 @@ $(document).ready(function () {
                 },
                 t = "transition";
 
-              cssObj["-webkit-" + t] = cssObj["-moz-" + t] = cssObj[
-                "-o-" + t
-              ] = cssObj[t] = transition;
+              cssObj["-webkit-" + t] =
+                cssObj["-moz-" + t] =
+                cssObj["-o-" + t] =
+                cssObj[t] =
+                  transition;
 
               newImg.css(cssObj);
               return newImg;
