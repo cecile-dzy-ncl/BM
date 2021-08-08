@@ -185,7 +185,11 @@ const buildEvents = (events) => {
   }
 
   // console.log(sortArrayOfObjects(events, amount_collected));
-
+  const entries = Object.entries(events);
+  const sorted = entries.sort(
+    (a, b) => a[amount_collected] - b[amount_collected]
+  );
+  console.log("sorted", sorted);
   events
     .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
     .forEach((event, index) => {
@@ -199,11 +203,6 @@ const fetchSubEvents = (ids) => {
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
 
   Promise.all(promises).then((results) => {
-    console.log(
-      "results sorted",
-      results.sort((a, b) => a.id - b.id)
-    );
-    console.log(typeof results);
     buildEvents(results);
     fetchBestPlayers(results);
   });
@@ -219,7 +218,7 @@ const getClubsNb = (subevents) => {
 const fetchMainEvent = () => {
   var url = `https://help.redcross.be/api/events/7?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`;
   $.get(url, function (response) {
-    fetchSubEvents(response.subevents.sort((a, b) => b - a));
+    fetchSubEvents(response.subevents);
     getClubsNb(response.subevents);
   });
 };
