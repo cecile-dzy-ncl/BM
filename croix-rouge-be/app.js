@@ -151,7 +151,8 @@ const buildEvents = (events) => {
   console.log("entries", entries);
   const sorted = entries
     .sort((a, b) => b[1].amount_collected - a[1].amount_collected)
-    .slice(0, 10);
+    .slice(0, 10)
+    .map((event) => event[1]);
 
   console.log("sorted", sorted);
 
