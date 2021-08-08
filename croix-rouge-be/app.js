@@ -148,7 +148,13 @@ const buildEventCard = (event, index) => {
 
 const buildEvents = (events) => {
   events.map((e) => {
-    console.log(`event`, e.id, e.amount_collected);
+    console.log(
+      `event id / amount / manifold / team`,
+      e.id,
+      e.amount_collected,
+      e.manifold_count,
+      e.team_count
+    );
   });
   console.log(
     "events sorted id",
