@@ -151,16 +151,20 @@ const buildEvents = (events) => {
     console.log(`event`, e.id, e.amount_collected);
   });
   console.log(
-    "events sorted id",
-    events.sort((a, b) => (a.id - b.id ? 1 : -1))
+    "events sorted id parse",
+    events.sort((a, b) => (parseInt(a.id) - parseInt(b.id) ? 1 : -1))
   );
   console.log(
-    "events sorted asc",
-    events.sort((a, b) => (a.amount_collected - b.amount_collected ? 1 : -1))
+    "events sorted asc parse",
+    events.sort((a, b) =>
+      parseInt(a.amount_collected) - parseInt(b.amount_collected) ? 1 : -1
+    )
   );
   console.log(
-    "events sorted desc",
-    events.sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
+    "events sorted desc parse",
+    events.sort((a, b) =>
+      parseInt(b.amount_collected) - parseInt(a.amount_collected) ? 1 : -1
+    )
   );
   events
     .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
