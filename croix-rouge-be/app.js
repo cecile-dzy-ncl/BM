@@ -221,7 +221,7 @@ const fetchMainEvent = () => {
     console.log("response no slice", response.subevents);
     console.log(
       "response no slice sort",
-      response.subevents.sort((a, b) => b.amount_collected - a.amount_collected)
+      response.subevents.sort((a, b) => b - a)
     );
     fetchSubEvents(response.subevents);
     getClubsNb(response.subevents);
