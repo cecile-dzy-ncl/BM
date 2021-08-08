@@ -150,7 +150,7 @@ const buildEvents = (events) => {
   console.log("events", events);
   console.log(
     "events sorted",
-    events.sort((a, b) => (a.amount_collected > b.amount_collected ? 1 : -1))
+    events.sort((a, b) => (b.amount_collected > a.amount_collected ? 1 : -1))
   );
   events
     .sort((a, b) => (a.amount_collected > b.amount_collected ? 1 : -1))
