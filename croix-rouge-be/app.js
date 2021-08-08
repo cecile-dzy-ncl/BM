@@ -165,6 +165,7 @@ const fetchSubEvents = (ids) => {
   console.log("urls", urls);
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
   Promise.all(promises).then((results) => {
+    console.log(`results`, results);
     buildEvents(results);
     fetchBestPlayers(results);
     $("#club_nb").html(results.length);
@@ -173,7 +174,6 @@ const fetchSubEvents = (ids) => {
 
 const getClubsNb = (subevents) => {
   var clubNb = subevents.length;
-  console.log("clubNb", clubNb);
   document.querySelectorAll(".club_nb").forEach((nb) => {
     nb.innerText = clubNb;
   });
