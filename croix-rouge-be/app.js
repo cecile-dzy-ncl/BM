@@ -153,6 +153,8 @@ const buildEvents = (events) => {
     (a, b) => b[1].amount_collected - a[1].amount_collected
   );
 
+  console.log("sorted", sorted);
+
   sorted.forEach((event, index) => {
     buildEventCard(event, index);
   });
