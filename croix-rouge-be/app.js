@@ -149,7 +149,7 @@ const buildEventCard = (event, index) => {
 const buildEvents = (events) => {
   console.log("events", events);
   console.log(
-    "events sorted 2",
+    "events sorted 3",
     events.sort((a, b) => (a.amount_collected < b.amount_collected ? 1 : -1))
   );
   events
