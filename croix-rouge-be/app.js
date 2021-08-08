@@ -166,6 +166,20 @@ const buildEvents = (events) => {
       parseInt(b.amount_collected) - parseInt(a.amount_collected) ? 1 : -1
     )
   );
+  console.log();
+
+  function sortArrayOfObjects(arrayToSort, key) {
+    function compareObjects(a, b) {
+      if (a[key] < b[key]) return -1;
+      if (a[key] > b[key]) return 1;
+      return 0;
+    }
+
+    return arrayToSort.sort(compareObjects);
+  }
+
+  console.log(sortArrayOfObjects(events, amount_collected));
+
   events
     .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
     .forEach((event, index) => {
