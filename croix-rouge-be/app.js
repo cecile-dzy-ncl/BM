@@ -199,6 +199,10 @@ const fetchSubEvents = (ids) => {
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
 
   Promise.all(promises).then((results) => {
+    console.log(
+      "results sorted",
+      results.sort((a, b) => a.id - b.id)
+    );
     buildEvents(results);
     fetchBestPlayers(results);
   });
