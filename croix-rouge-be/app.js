@@ -151,6 +151,10 @@ const buildEvents = (events) => {
     console.log(`event`, e.id, e.amount_collected);
   });
   console.log(
+    "events sorted id",
+    events.sort((a, b) => (a.id - b.id ? 1 : -1))
+  );
+  console.log(
     "events sorted asc",
     events.sort((a, b) => (a.amount_collected - b.amount_collected ? 1 : -1))
   );
