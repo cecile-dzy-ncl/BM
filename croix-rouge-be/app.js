@@ -203,6 +203,7 @@ const fetchSubEvents = (ids) => {
       "results sorted",
       results.sort((a, b) => a.id - b.id)
     );
+    console.log(typeof results);
     buildEvents(results);
     fetchBestPlayers(results);
   });
