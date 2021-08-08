@@ -151,8 +151,8 @@ const buildEvents = (events) => {
     console.log(`event`, e.id, e.amount_collected);
   });
   console.log(
-    "events sorted id parse",
-    events.sort((a, b) => (parseInt(a.id) - parseInt(b.id) ? 1 : -1))
+    "events sorted id",
+    events.sort((a, b) => a.id - b.id)
   );
   console.log(
     "events sorted asc parse",
