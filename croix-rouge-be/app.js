@@ -186,10 +186,11 @@ const buildEvents = (events) => {
 
   // console.log(sortArrayOfObjects(events, amount_collected));
   const entries = Object.entries(events);
-  const sorted = entries.sort(
-    (a, b) => a[amount_collected] - b[amount_collected]
-  );
-  console.log("sorted", sorted);
+  console.log("entries", entries);
+  // const sorted = entries.sort(
+  //   (a, b) => a[amount_collected] - b[amount_collected]
+  // );
+  // console.log("sorted", sorted);
   events
     .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
     .forEach((event, index) => {
