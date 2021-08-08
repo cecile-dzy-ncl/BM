@@ -149,9 +149,9 @@ const buildEventCard = (event, index) => {
 const buildEvents = (events) => {
   const entries = Object.entries(events);
   console.log("entries", entries);
-  const sorted = entries.sort(
-    (a, b) => b[1].amount_collected - a[1].amount_collected
-  );
+  const sorted = entries
+    .sort((a, b) => b[1].amount_collected - a[1].amount_collected)
+    .slice(0, 10);
 
   console.log("sorted", sorted);
 
