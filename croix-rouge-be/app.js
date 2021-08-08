@@ -147,55 +147,15 @@ const buildEventCard = (event, index) => {
 };
 
 const buildEvents = (events) => {
-  events.map((e) => {
-    console.log(
-      `event id / amount / manifold / team`,
-      e.id,
-      e.amount_collected,
-      e.manifold_count,
-      e.team_count
-    );
-  });
-  console.log(
-    "events sorted id",
-    events.sort((a, b) => a.id - b.id)
-  );
-  console.log(
-    "events sorted asc parse",
-    events.sort((a, b) =>
-      parseInt(a.amount_collected) - parseInt(b.amount_collected) ? 1 : -1
-    )
-  );
-  console.log(
-    "events sorted desc parse",
-    events.sort((a, b) =>
-      parseInt(b.amount_collected) - parseInt(a.amount_collected) ? 1 : -1
-    )
-  );
-  console.log(events[0].amount_collected);
-
-  function sortArrayOfObjects(arrayToSort, key) {
-    function compareObjects(a, b) {
-      if (a[key] < b[key]) return -1;
-      if (a[key] > b[key]) return 1;
-      return 0;
-    }
-
-    return arrayToSort.sort(compareObjects);
-  }
-
-  // console.log(sortArrayOfObjects(events, amount_collected));
   const entries = Object.entries(events);
   console.log("entries", entries);
   const sorted = entries.sort(
-    (a, b) => a[1].amount_collected - b[1].amount_collected
+    (a, b) => b[1].amount_collected - a[1].amount_collected
   );
-  console.log("sorted", sorted);
-  events
-    .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
-    .forEach((event, index) => {
-      buildEventCard(event, index);
-    });
+
+  sorted.forEach((event, index) => {
+    buildEventCard(event, index);
+  });
 };
 
 const fetchSubEvents = (ids) => {
