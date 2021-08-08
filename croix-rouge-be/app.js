@@ -149,11 +149,11 @@ const buildEventCard = (event, index) => {
 const buildEvents = (events) => {
   console.log("events", events);
   console.log(
-    "events sorted 3",
-    events.sort((a, b) => (a.amount_collected < b.amount_collected ? 1 : -1))
+    "events sorted",
+    events.sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
   );
   events
-    .sort((a, b) => (a.amount_collected > b.amount_collected ? 1 : -1))
+    .sort((a, b) => (b.amount_collected - a.amount_collected ? 1 : -1))
     .forEach((event, index) => {
       buildEventCard(event, index);
     });
@@ -161,14 +161,12 @@ const buildEvents = (events) => {
 
 const fetchSubEvents = (ids) => {
   // prettier-ignore
-  const urls = ids.map(id => `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`)
-  console.log("urls", urls);
+  const urls = ids.map(id => `https://help.redcross.be/api/events/${id}?api_id=d1e5432ae7ad6e34WDIDLZYKXTKQUKAD&api_secret=a35d14f0b5371808e6c19236cf7ec870`);
   const promises = urls.map((url) => fetch(url).then((res) => res.json()));
+
   Promise.all(promises).then((results) => {
-    console.log(`results`, results);
     buildEvents(results);
     fetchBestPlayers(results);
-    $("#club_nb").html(results.length);
   });
 };
 
