@@ -17,7 +17,11 @@
   margin: 0 auto 24px;
 }
 
-
+.compteur-nb {
+  font-family: "Roboto Condensed";
+  font-size: 33px;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 500px) {
   .collectes-dediees-fr iframe {
