@@ -21,6 +21,7 @@
   font-family: "Roboto Condensed";
   font-size: 33px;
   font-weight: bold;
+  line-height: 1.4;
 }
 
 @media screen and (max-width: 500px) {
