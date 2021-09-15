@@ -2,9 +2,19 @@
   text-align: left;
 }
 
-.grid-howto h6 {
+.grid-howto .step-howto {
+  color: #006b8f;
+  font-family: "Source Sans Pro";
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.grid-howto h3 {
   color: black;
   font-weight: bold;
+  font-family: "Source Sans Pro";
+  font-size: 19px;
 }
 
 .grid-howto img {
