@@ -2,10 +2,12 @@
   background: var(--lightgrey);
   border-radius: 4px;
   padding: 12px;
+  position: relative;
 }
 
 .project-card * {
   text-align: left;
+  color: var(--blue);
 }
 
 .project-card p {
@@ -19,7 +21,7 @@
   margin-top: 15px;
 }
 
-.project-card > img {
+.project-card img {
   width: 100%;
   height: 150px;
   object-fit: cover;
