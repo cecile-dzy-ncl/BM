@@ -8,6 +8,7 @@
   font-size: 23px;
   font-weight: bold;
   line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .grid-howto h3 {
@@ -15,7 +16,6 @@
   font-weight: bold;
   font-family: "Source Sans Pro";
   font-size: 19px;
-  margin-bottom: 0;
 }
 
 .grid-howto img {
