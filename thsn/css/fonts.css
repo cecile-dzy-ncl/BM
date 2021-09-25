@@ -39,5 +39,5 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Raleway";
+  font-family: "Raleway" !important;
 }
