@@ -24,7 +24,9 @@ button,
   width: auto;
 }
 
-#projects-show .notifications_intro #next {
+#projects-show .notifications_intro #next,
+.main-header .button,
+.main-header .button {
   background: #c21b17;
   border-color: #c21b17;
 }
