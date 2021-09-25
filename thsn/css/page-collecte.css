@@ -1,3 +1,7 @@
 .tabs dd.active a {
   background-color: #c21b17;
 }
+
+h1#show_title {
+  text-align: left;
+}
