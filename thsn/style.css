@@ -66,27 +66,27 @@ body {
 }
 
 h1 {
-  font-family: "Lucida";
+  font-family: "Raleway";
   font-size: 24px;
   line-height: 30px;
 }
 
 h2 {
-  font-family: "Lucida";
+  font-family: "Raleway";
   font-size: 30px;
   line-height: 30px;
   text-align: center;
 }
 
 h3 {
-  font-family: "Lucida";
+  font-family: "Raleway";
   font-size: 24px;
   line-height: 24px;
   text-align: center;
 }
 
 p {
-  font-family: "Lucida";
+  font-family: "Raleway";
   text-align: center;
 }
 
@@ -96,11 +96,11 @@ small {
 }
 
 .font-bold {
-  font-family: "Lucida";
+  font-family: "Raleway";
 }
 
 strong {
-  font-family: "Lucida";
+  font-family: "Raleway";
 }
 
 /* -------------------- CONTAINERS -------------------- */
@@ -140,7 +140,7 @@ nav.top-bar .top-bar-section ul li > a:hover {
 }
 
 .stats p.stat-nb {
-  font-family: "RubrikB" !important;
+  font-family: "RubrikB";
   font-size: 55px;
   line-height: 60px;
 }
