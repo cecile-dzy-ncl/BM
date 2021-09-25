@@ -1,4 +1,5 @@
-.grid-stats {
+.grid-stats,
+.grid-stats-country {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
