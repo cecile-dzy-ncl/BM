@@ -19,4 +19,12 @@
 .banner .banner-country h1 {
   color: #c21b17;
   font-size: 48px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .banner .banner-country h1 {
+    width: 80%;
+  }
 }
