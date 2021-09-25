@@ -250,7 +250,7 @@ section.section-my-event aside .donators .people p:last-child {
 }
 
 .infos-money .current-amount {
-  font-family: "Lucida";
+  font-family: "Raleway";
 }
 
 .sub-event .infos-money .small-12.large-6.columns {
@@ -307,7 +307,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   color: black;
   font-size: 19px;
   text-transform: uppercase;
-  font-family: "Lucida";
+  font-family: "Raleway";
 }
 
 section.section-projet-details .projet-head .user {
@@ -324,7 +324,7 @@ p#show_team {
   .infos-money
   .chart-wrap.light
   .percent {
-  font-family: "Lucida";
+  font-family: "Raleway";
   font-size: 30px;
 }
 
@@ -336,7 +336,7 @@ p#show_team {
 }
 
 section.section-projet-details .project-detail-data .contributeurs span {
-  font-family: "Lucida";
+  font-family: "Raleway";
 }
 
 #projects-show .block-share-container h4 span {
@@ -401,7 +401,7 @@ input.url-link {
   border: 1px solid #b4b4b4;
   padding: 5px;
   background: #f5f5f5;
-  font-family: "Lucida";
+  font-family: "Raleway";
   /*width: 70%;*/
 }
 
@@ -410,7 +410,7 @@ div#copy.url-btn {
   padding: 5px;
   background: #f5f5f5;
   color: #c21b17;
-  font-family: "Lucida";
+  font-family: "Raleway";
   height: 35px;
   cursor: pointer;
   min-width: 200px;
