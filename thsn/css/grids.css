@@ -1,8 +1,11 @@
-.grid-stats,
-.grid-stats-country {
+.grid-stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
+}
+
+.grid-stats-country {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-countries {
