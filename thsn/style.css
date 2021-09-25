@@ -116,7 +116,8 @@ nav.top-bar#main-nav section.top-bar-section {
 
 nav.top-bar#main-nav .top-bar-section ul li > a {
   color: white;
-  font-family: "Lucida";
+  font-family: "Raleway";
+  font-weight: bold;
 }
 
 nav.top-bar .top-bar-section ul li > a:hover {
