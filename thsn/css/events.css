@@ -7,6 +7,8 @@
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-create {
-  border: 3px solid red;
+  background: #c21b17;
+  border: 3px solid #c21b17;
   border-radius: 25px;
+  color: white;
 }
