@@ -31,3 +31,8 @@
   font-weight: bold;
   font-style: normal;
 }
+
+h1,
+.panel h1 {
+  color: #c21b17;
+}
