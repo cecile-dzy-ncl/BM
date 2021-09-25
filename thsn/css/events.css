@@ -14,6 +14,12 @@
   margin-right: 10px;
 }
 
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: white;
+  border: 3px solid #c21b17;
+  border-radius: 25px;
+}
+
 .section-events .event-item .event-description h3 {
   text-align: left;
   color: #c21b17;
