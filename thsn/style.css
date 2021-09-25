@@ -117,7 +117,7 @@ nav.top-bar#main-nav section.top-bar-section {
 nav.top-bar#main-nav .top-bar-section ul li > a {
   color: white;
   font-family: "Raleway";
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 nav.top-bar .top-bar-section ul li > a:hover {
