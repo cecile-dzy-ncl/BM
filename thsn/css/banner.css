@@ -11,12 +11,12 @@
   width: 495px;
 }
 
-.banner .banner-country {
+.homepage .banner.banner-country {
   background: url("https://thsnfr.igive.iraiser.eu/cdn.iraiser.eu/5miKfcHy40ZK5avGcRYj/toywXWDWaibbOVbPUzMA7uIhPeP8rqFTiEIlX9ratc2/Cecile_DEZY/origin/herobackground3x.png");
   height: 420px;
 }
 
-.banner .banner-country h1 {
+.homepage .banner.banner-country h1 {
   color: #c21b17;
   font-size: 48px;
   width: 50%;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .banner .banner-country h1 {
+  .homepage .banner.banner-country h1 {
     width: 80%;
   }
 }
