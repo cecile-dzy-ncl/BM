@@ -68,7 +68,7 @@
 #custom-events-list .event-item .panel .page-see {
   border-color: #c21b17;
   border-radius: 25px;
-  border-left: 3px;
+  border-left-width: 3px;
 }
 
 #custom-events-list .event-item .panel .infos,
