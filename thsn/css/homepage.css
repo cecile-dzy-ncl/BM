@@ -49,6 +49,10 @@
   width: 100%;
 }
 
+#custom-events-list .event-item .panel .event-details {
+  padding: 20px;
+}
+
 #custom-events-list p {
   font-size: 16px;
 }
