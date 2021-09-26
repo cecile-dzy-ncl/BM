@@ -17,3 +17,8 @@
 section.event-head {
   margin-top: 30px;
 }
+
+.thsn-country .event-head > .row .columns:first-of-type {
+  padding-right: 30px;
+  border-right: 1px solid #d8d8d8;
+}
