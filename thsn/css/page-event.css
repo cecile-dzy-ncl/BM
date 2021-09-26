@@ -4,6 +4,10 @@
   color: #c21b17;
 }
 
-#events-show h1 {
+#events-show .intro-my-event h1 {
   color: #c21b17;
+}
+
+#events-show .intro-my-event * {
+  text-align: left;
 }
