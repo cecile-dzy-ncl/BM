@@ -30,3 +30,12 @@ button,
   background: #c21b17;
   border-color: #c21b17;
 }
+
+.thsn .btn-bm:hover,
+button:hover,
+.button:hover,
+#projects-show .notifications_intro #next:hover,
+.main-header .button:hover,
+.main-header .button:focus {
+  border-color: #941512;
+}
