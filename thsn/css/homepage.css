@@ -69,6 +69,7 @@
   border-color: #c21b17;
   border-radius: 25px;
   border-left-width: 3px;
+  font-size: 14px;
 }
 
 #custom-events-list h3 + p,
