@@ -57,6 +57,10 @@
   font-size: 16px;
 }
 
+#custom-events-list .event-item .panel .page-see {
+  border-color: #c21b17;
+}
+
 #custom-events-list .event-item .panel .infos,
 #custom-events-list .event-item .panel .page-create,
 #custom-events-list .event-item .panel .medium-4 {
