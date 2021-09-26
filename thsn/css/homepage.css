@@ -27,3 +27,9 @@
 .country + hr {
   margin: 1.05rem 0 1.05rem;
 }
+
+#custom-events-list > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
