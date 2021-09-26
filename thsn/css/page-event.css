@@ -13,3 +13,7 @@
 #events-show .intro-my-event * {
   text-align: left;
 }
+
+section.event-head {
+  margin-top: 30px;
+}
