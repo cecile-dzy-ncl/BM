@@ -1,0 +1,3 @@
+header.main-header .dropdown li:not(.has-form):not(.active) a:not(.button) {
+  background-color: #c21b17;
+}
