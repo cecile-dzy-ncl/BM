@@ -1,7 +1,14 @@
 $(document).ready(function () {
   console.log("ready!");
 
-  $("body").addClass("thsn");
+  if (
+    window.location.href.includes("thsnfr.igive") ||
+    window.location.href.includes("act.thehumansafetynet")
+  ) {
+    $("body").addClass("thsn thsn-global");
+  } else {
+    $("body").addClass("thsn thsn-country");
+  }
 
   // AJOUT BANNER MAINTENANCE
   //var bannerMaintenance = ("<div class='maintenance p-5 bg-orange'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>");
