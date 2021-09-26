@@ -34,6 +34,10 @@
   gap: 10px;
 }
 
+#custom-events-list .event-item .panel {
+  background: #f3f3f3;
+}
+
 #custom-events-list .event-item .panel .columns {
   width: 100%;
 }
