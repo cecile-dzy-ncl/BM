@@ -31,6 +31,10 @@ button,
   border-color: #c21b17;
 }
 
+input[type="submit"] {
+  border-radius: 25px;
+}
+
 .thsn .btn-bm:hover,
 button:hover,
 .button:hover,
