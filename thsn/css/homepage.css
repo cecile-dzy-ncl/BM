@@ -81,8 +81,9 @@
   background: #ff7500;
 }
 
-.wrapper-help .btn-border {
+.wrapper-help .btn-bm {
   border-color: #fff;
+  color: #fff;
 }
 
 @media screen and (max-width: 500px) {
