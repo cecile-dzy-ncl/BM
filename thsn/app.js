@@ -2,7 +2,7 @@ $(document).ready(function () {
   console.log("ready!");
 
   if (
-    window.location.href.includes("thsnfr.igive") ||
+    window.location.href.includes("thsn.igive") ||
     window.location.href.includes("act.thehumansafetynet")
   ) {
     $("body").addClass("thsn thsn-global");
