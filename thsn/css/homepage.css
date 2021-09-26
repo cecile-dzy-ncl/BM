@@ -77,6 +77,10 @@
   background: #ff7500;
 }
 
+.wrapper-help .btn-border {
+  border-color: #fff;
+}
+
 @media screen and (max-width: 500px) {
   #custom-events-list > div {
     grid-template-columns: 1fr;
