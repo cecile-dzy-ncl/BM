@@ -122,7 +122,7 @@ nav.top-bar#main-nav .top-bar-section ul li > a {
 
 nav.top-bar .top-bar-section ul li > a:hover {
   color: white;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 0.7px white;
 }
 
 #main-nav section.top-bar-section li:not(:last-child):after {
