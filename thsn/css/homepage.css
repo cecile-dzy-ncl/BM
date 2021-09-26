@@ -84,6 +84,13 @@
 .wrapper-help .btn-bm {
   border-color: #fff;
   color: #fff;
+  text-transform: none;
+}
+
+.wrapper-help .btn-bm:hover {
+  background-color: #ff7500;
+  border-color: #ff7500;
+  color: #fff;
 }
 
 @media screen and (max-width: 500px) {
