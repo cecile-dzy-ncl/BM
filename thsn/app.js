@@ -19,12 +19,18 @@ $(document).ready(function () {
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT CLASS MAIN-EVENT & SUB-EVENT
-  if ($("body#events-show.event_type_peer_to_peer")[0] != undefined) {
-    if ($("#events-show")[0].classList.value.match(/event_\d/g).length === 2) {
+  if (
+    $("body#events-show.thsn-global.event_type_peer_to_peer")[0] != undefined
+  ) {
+    if (
+      $("#events-show.thsn-global")[0].classList.value.match(/event_\d/g)
+        .length === 2
+    ) {
       console.log("sub-event");
       $("#events-show")[0].classList.add("sub-event");
     } else if (
-      $("#events-show")[0].classList.value.match(/event_\d/g).length === 1
+      $("#events-show.thsn-global")[0].classList.value.match(/event_\d/g)
+        .length === 1
     ) {
       console.log("main-event");
       $("#events-show")[0].classList.add("main-event");
