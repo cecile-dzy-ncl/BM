@@ -26,9 +26,11 @@ button,
 
 #projects-show .notifications_intro #next,
 .main-header .button,
-.main-header .button {
+.main-header .button,
+.event-head .details-my-event .button {
   background: #c21b17;
   border-color: #c21b17;
+  color: white;
 }
 
 input[type="submit"] {
@@ -42,6 +44,7 @@ button:hover,
 .main-header .button:hover,
 .main-header .button:focus {
   border-color: #941512;
+  background-color: #941512;
 }
 
 .button:hover,
