@@ -50,6 +50,7 @@
 }
 
 #custom-events-list .event-item .panel .infos,
+#custom-events-list .event-item .panel .page-create,
 #custom-events-list .event-item .panel .medium-4 {
   display: none;
 }
