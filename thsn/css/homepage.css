@@ -61,6 +61,8 @@
 
 #custom-events-list .event-item .panel .event-goup-btn li {
   margin: auto;
+  display: block;
+  float: none;
 }
 
 #custom-events-list h3 {
