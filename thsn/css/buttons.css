@@ -53,7 +53,9 @@ button:hover,
   border-color: #c21b17;
 }
 
+.projet-tabs .content .button,
 #projects-show .notifications_intro #end {
   background: white;
   color: #c21b17;
+  border-color: #c21b17;
 }
