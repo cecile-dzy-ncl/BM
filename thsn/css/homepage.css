@@ -34,6 +34,10 @@
   gap: 10px;
 }
 
+#custom-events-list .event-item .panel .columns {
+  width: 100%;
+}
+
 @media screen and (max-width: 500px) {
   #custom-events-list > div {
     grid-template-columns: 1fr;
