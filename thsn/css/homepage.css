@@ -71,6 +71,7 @@
   border-left-width: 3px;
 }
 
+#custom-events-list h3 + p,
 #custom-events-list .event-item .panel .infos,
 #custom-events-list .event-item .panel .page-create,
 #custom-events-list .event-item .panel .medium-4 {
