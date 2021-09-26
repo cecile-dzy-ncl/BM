@@ -31,3 +31,7 @@
 .section-events .event-item .big {
   color: #c21b17;
 }
+
+.section-events .event-item .event-description p {
+  text-align: left;
+}
