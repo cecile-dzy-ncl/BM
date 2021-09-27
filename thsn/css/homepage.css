@@ -97,10 +97,14 @@
   text-transform: none;
 }
 
-.wrapper-help .btn-bm:hover {
-  background-color: #ff7500;
-  border-color: #ff7500;
+.wrapper-help .btn-bm a {
   color: #fff;
+}
+
+.wrapper-help .btn-bm:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff7500;
 }
 
 @media screen and (max-width: 500px) {
