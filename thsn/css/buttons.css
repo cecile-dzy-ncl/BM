@@ -42,7 +42,9 @@ button:hover,
 .button:hover,
 #projects-show .notifications_intro #next:hover,
 .main-header .button:hover,
-.main-header .button:focus {
+.main-header .button:focus,
+.section-events .event-item .event-details .event-goup-btn .page-create:hover,
+.section-events .event-item .event-details .event-goup-btn .page-create:focus {
   border-color: #941512;
   background-color: #941512;
 }
@@ -64,4 +66,25 @@ button:hover,
   font-size: 14px;
   padding: 5px 25px;
   height: auto;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-create {
+  background: #c21b17;
+  border: 3px solid #c21b17;
+  border-radius: 25px;
+  color: white;
+  margin-right: 10px;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: white;
+  border: 3px solid #c21b17;
+  border-radius: 25px;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see:hover,
+.section-events .event-item .event-details .event-goup-btn .page-see:focus {
+  background-color: #c21b17;
+  border: 3px solid #c21b17;
+  color: white;
 }
