@@ -39,13 +39,15 @@ section.section-projet-details .projet-head .user {
 section.section-projet-details h1#show_title {
   color: var(--red);
   font-size: 30px;
-  line-height: 40px;
+  line-height: 34px;
   margin: 0;
   text-transform: uppercase;
   text-align: left !important;
+  margin-top: 10px;
 }
 
-p.team_by {
+section.section-projet-details .team_by {
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 22px;
   color: #1c1d33;
