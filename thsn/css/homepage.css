@@ -126,4 +126,7 @@
   #custom-events-list ul {
     width: 80% !important;
   }
+  #custom-events-list .event-item {
+    width: 100%;
+  }
 }
