@@ -29,9 +29,12 @@
 }
 
 #custom-events-list ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
+  width: 1140px;
+  margin: auto;
 }
 
 #custom-events-list .event-item {
@@ -108,7 +111,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  #custom-events-list > div {
-    grid-template-columns: 1fr;
+  #custom-events-list ul {
+    width: 80% !important;
   }
 }
