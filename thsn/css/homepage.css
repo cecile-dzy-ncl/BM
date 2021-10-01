@@ -116,9 +116,11 @@
 .wrapper-help .btn-bm:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #ff7500;
 }
 
+.wrapper-help .btn-bm:hover a {
+  color: #ff7500;
+}
 @media screen and (max-width: 500px) {
   #custom-events-list ul {
     width: 80% !important;
