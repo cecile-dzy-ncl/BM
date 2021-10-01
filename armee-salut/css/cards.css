@@ -5,6 +5,15 @@
   position: relative;
 }
 
+.projets-locaux .project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.projets-locaux .project-card p {
+  flex-grow: 1;
+}
+
 .project-card * {
   text-align: left;
   color: var(--blue);
