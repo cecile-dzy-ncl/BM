@@ -36,4 +36,9 @@ section.event-head {
   .section-my-event .small-offset-1 {
     margin-left: 0 !important;
   }
+
+  .thsn-country .event-head > .row .columns:first-of-type {
+    padding-right: 0px;
+    border-right: none;
+  }
 }
