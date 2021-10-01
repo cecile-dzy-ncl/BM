@@ -46,6 +46,10 @@
   height: auto;
 }
 
+.event-item .panel .event-details .wrap {
+  padding-bottom: 0.5rem;
+}
+
 #custom-events-list .event-item .panel {
   display: flex;
   flex-direction: column;
