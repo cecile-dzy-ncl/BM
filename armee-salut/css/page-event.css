@@ -10,6 +10,10 @@
   display: block;
 }
 
+#events-show .block-share-container h4 span {
+  color: black;
+}
+
 .projects-list .panel h3 {
   font-size: 20px;
 }
