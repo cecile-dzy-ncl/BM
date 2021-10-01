@@ -123,6 +123,17 @@
   color: #ff7500;
 }
 @media screen and (max-width: 500px) {
+  .homepage .banner.banner-country {
+    background-image: none;
+    height: auto;
+  }
+
+  .homepage .banner.banner-country h1 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
   #custom-events-list > ul {
     width: 80% !important;
   }
