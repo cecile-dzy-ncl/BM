@@ -16,7 +16,7 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#events-show")) {
-      var eventProjectsNb = $("body#events-show").find("#projects").length;
+      var eventProjectsNb = $("body#events-show").find("#projects li").length;
       var amountRaised = $("body#events-show").find(".current-amount").html();
 
       // just need to style the event-stats
