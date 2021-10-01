@@ -32,7 +32,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
   width: 1140px;
   margin: auto;
 }
@@ -65,7 +65,7 @@
 }
 
 #custom-events-list .event-item .panel .event-details {
-  padding: 20px;
+  padding: 0 20px 25px;
 }
 
 #custom-events-list .event-description {
