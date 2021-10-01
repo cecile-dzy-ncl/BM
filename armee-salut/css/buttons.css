@@ -66,6 +66,10 @@ button:hover,
   color: var(--blue) !important;
 }
 
+.btn-bm-border.black:hover {
+  color: white !important;
+}
+
 .manage-links .button {
   font-size: 12px;
   line-height: normal;
