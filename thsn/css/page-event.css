@@ -22,3 +22,7 @@ section.event-head {
   padding-right: 30px;
   border-right: 1px solid #d8d8d8;
 }
+
+.infos-money .infos-money-details .info-money.detail {
+  color: #c21b17;
+}
