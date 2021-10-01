@@ -61,6 +61,10 @@
   /* width: 25%; */
 }
 
+section.section-my-event aside .aside-event-list {
+  display: none;
+}
+
 ul.donators {
   display: flex;
   flex-wrap: wrap;
@@ -71,10 +75,10 @@ ul.donators li {
   width: 20%;
 }
 
-section.section-my-event aside h3,
+/* section.section-my-event aside h3,
 section.section-my-event aside #widget-count-gift {
   text-align: left !important;
-}
+} */
 
 .event-stats {
   display: flex;
