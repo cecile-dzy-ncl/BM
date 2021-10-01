@@ -28,7 +28,7 @@
   margin: 1.05rem 0 1.05rem;
 }
 
-#custom-events-list ul {
+#custom-events-list > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,6 +39,11 @@
 
 #custom-events-list .event-item {
   list-style: none;
+  width: 30%;
+}
+
+#custom-events-list .event-item .wrap {
+  height: auto;
 }
 
 #custom-events-list .event-item .panel {
