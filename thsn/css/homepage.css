@@ -123,7 +123,7 @@
   color: #ff7500;
 }
 @media screen and (max-width: 500px) {
-  #custom-events-list ul {
+  #custom-events-list > ul {
     width: 80% !important;
   }
   #custom-events-list .event-item {
