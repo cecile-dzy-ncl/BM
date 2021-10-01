@@ -34,7 +34,7 @@
   justify-content: center;
   gap: 20px;
   width: 1140px;
-  margin: auto;
+  margin: 0 auto 40px;
 }
 
 #custom-events-list .event-item {
