@@ -129,4 +129,8 @@
   #custom-events-list .event-item {
     width: 100%;
   }
+
+  .wrapper-help .btn-bm {
+    width: initial;
+  }
 }
