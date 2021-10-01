@@ -27,7 +27,7 @@ $(document).ready(function () {
         );
       } else {
         $("#events-show .habillage .intro-my-event").prepend(
-          `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span >${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>page de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span >${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
+          `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span >${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>pages de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span >${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
         );
       }
     }
