@@ -31,3 +31,9 @@ section.event-head {
 #events-show .block-share-container h4 span:before {
   background-color: grey;
 }
+
+@media screen and (max-width: 500px) {
+  .section-my-event .small-offset-1 {
+    margin-left: 0 !important;
+  }
+}
