@@ -12,5 +12,5 @@
 }
 
 .section-my-event .first-section > .columns:last-of-type {
-  width: auto;
+  /* width: auto; */
 }

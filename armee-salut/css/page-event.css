@@ -58,7 +58,7 @@
 }
 
 .section-my-event .first-section > .columns:last-of-type {
-  width: 100%;
+  /* width: 25%; */
 }
 
 ul.donators {
