@@ -47,7 +47,7 @@
 }
 
 .event-item .panel .event-details .wrap {
-  padding-bottom: 0.5rem;
+  padding: 0 0.5rem;
 }
 
 #custom-events-list .event-item .panel {
@@ -61,6 +61,7 @@
 
 #custom-events-list .event-item .panel .columns {
   width: 100%;
+  padding: 0;
 }
 
 #custom-events-list .event-item .panel .event-details {
