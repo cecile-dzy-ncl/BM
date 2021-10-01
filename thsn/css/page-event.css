@@ -26,3 +26,8 @@ section.event-head {
 .infos-money .infos-money-details .info-money.detail {
   color: #c21b17;
 }
+
+#events-show .block-share-container h4 span:after,
+#events-show .block-share-container h4 span:before {
+  background-color: grey;
+}
