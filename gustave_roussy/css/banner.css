@@ -22,6 +22,11 @@
   color: white;
 }
 
+.banner-text h1,
+.banner-text p {
+  margin-bottom: 32px;
+}
+
 .banner-text .btn-bm {
   margin: 0;
 }
