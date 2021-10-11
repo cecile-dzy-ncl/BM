@@ -9,9 +9,14 @@
 
 .homepage .banner-text {
   width: 560px;
-  margin-right: 150px;
+  margin-left: 120px;
+  z-index: 1;
   /* height: 65%; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+}
+
+.banner-text * {
+  text-align: left;
 }
