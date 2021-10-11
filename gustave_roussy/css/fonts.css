@@ -9,3 +9,12 @@ h2 {
   font-family: "DIN Pro Regular";
   text-align: center;
 }
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+input[type="text"] {
+  font-family: "Open Sans";
+}
