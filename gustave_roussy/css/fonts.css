@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "DIN Pro Regular";
+  src: url("https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Regular.otf");
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-family: "DIN Pro Regular";
+  text-align: center;
+}
