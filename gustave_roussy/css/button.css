@@ -4,6 +4,6 @@
 }
 
 .btn-bm[class*="bg"],
-.btn-bm[class*="bg"]:hover {
+.btn-bm[class*="bg"] a:hover {
   color: #fff;
 }
