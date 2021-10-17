@@ -1,5 +1,33 @@
+header.main-header #header-header {
+  display: none;
+}
+
 #main-nav {
   background-color: #254aba;
   display: flex;
   align-items: center;
+}
+
+#main-nav .top-bar-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search {
+  width: 42px;
+  transition: width 0.4s ease;
+}
+
+.navbar-search.open {
+  width: 200px;
+}
+
+.field-auto-search,
+input[type="text"].field-auto-search:focus,
+form#project-search input,
+form#event-search input {
+  background: url("https://events.msf-azg.be/cdn.iraiser.eu/aNFYkuVTIVlbfsFwyLwdumXCfF7Vt32hLYoBxP08oQonh4p2FZDdlnIA1Q8Tioa+/Cecile_Dezy/origin/searchicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 98% 100%;
 }
