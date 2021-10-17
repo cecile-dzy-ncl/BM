@@ -40,3 +40,24 @@ section#project_tabs {
   line-height: 32px;
   margin-bottom: 0;
 }
+
+.new-gift-button {
+  background-color: #4f81ff !important;
+  border-radius: 0;
+}
+
+#crowdfundind-tabs {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
+.project_content {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+.project_content * {
+  width: 46%;
+}
