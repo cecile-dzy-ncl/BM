@@ -1,0 +1,22 @@
+#indexs-index #projects {
+  background: #edf1ff;
+  padding: 30px 20px 20px;
+}
+
+.panel.radius {
+  border-radius: 0px;
+}
+
+.infos-money .progress .graph-barBack {
+  border-radius: 0px;
+  background-color: #4f81ff;
+}
+
+.infos-money .progress .graph-bar {
+  border-radius: 0px;
+  background-color: #254aba;
+}
+
+.infos-money .infos-money-details .info-money.detail {
+  color: #254aba;
+}

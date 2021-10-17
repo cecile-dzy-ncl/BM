@@ -1,0 +1,10 @@
+.button,
+.button {
+  background-color: #254aba;
+  border-color: #254aba;
+}
+
+.button:hover {
+  background-color: #133495;
+  border-color: #133495;
+}
