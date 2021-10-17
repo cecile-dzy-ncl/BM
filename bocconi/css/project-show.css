@@ -1,0 +1,42 @@
+#projects-show section#project_tabs .row {
+  max-width: 100%;
+}
+
+section#project_tabs {
+  height: 457px;
+  overflow: hidden;
+}
+
+#projects-show section#project_tabs .row aside {
+  background-color: #254aba;
+  width: 50%;
+  margin-left: 0;
+}
+
+#project_tabs > .row > img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#projects-show section#project_tabs > .row {
+  display: flex;
+}
+
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos {
+  border-bottom: 0;
+  display: flex;
+}
+
+.project-details-custom * {
+  color: white;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
