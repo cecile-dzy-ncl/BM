@@ -13,7 +13,7 @@ $(document).ready(function () {
 
   document.querySelector(".icon-search").addEventListener("click", (event) => {
     const navbar = document.querySelector(".navbar-search");
-    if (navbar.classList.includes("open")) {
+    if (navbar.classList.contains("open")) {
       navbar.classList.remove("open");
     } else {
       navbar.classList.add("open");
