@@ -11,6 +11,7 @@ header.main-header #header-header {
 #main-nav .top-bar-section {
   display: flex;
   align-items: center;
+  background-color: #254aba;
 }
 
 .navbar-search {
