@@ -26,7 +26,8 @@ header.main-header #header-header {
   top: 15%;
   right: 0;
   background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-  /* background-size: 65%;
+  background-size: contain;
+  /* 
   background-repeat: no-repeat;
   background-position: 100% 50%; */
 }
