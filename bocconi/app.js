@@ -11,9 +11,9 @@ $(document).ready(function () {
   $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
   $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
 
-  // document.querySelector(".icon-search").addEventListener("click", (event) => {
-  //   document.querySelector(".navbar-search").classList.add("open");
-  // });
+  document.querySelector(".icon-search").addEventListener("click", (event) => {
+    document.querySelector(".navbar-search").classList.add("open");
+  });
 
   // if ($("#project_tabs")) {
   //   $("#project_tabs").after($("#crowdfundind-tabs"));
