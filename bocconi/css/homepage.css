@@ -10,3 +10,14 @@
     width: 100%; */
   background-color: #254aba !important;
 }
+
+#indexs-index h1 {
+  font-size: 48px;
+  line-height: 52px;
+  margin-bottom: 30px;
+  margin-top: 145px;
+}
+
+#indexs-index .btn-bm {
+  margin-bottom: 65px;
+}
