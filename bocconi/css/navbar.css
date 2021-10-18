@@ -17,9 +17,20 @@ header.main-header #header-header {
   background-color: #254aba !important;
 }
 
+.navbar-search:after {
+  content: "";
+  height: 30px;
+  width: 30px;
+  background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
 .navbar-search {
   width: 42px;
   transition: width 0.4s ease;
+  position: relative;
 }
 
 .navbar-search.open {
@@ -48,7 +59,7 @@ form#event-search input {
   box-shadow: none;
 }
 
-.field-auto-search,
+/* .field-auto-search,
 input[type="text"].field-auto-search:focus,
 form#project-search input,
 form#event-search input {
@@ -56,7 +67,7 @@ form#event-search input {
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: 100% 50%;
-}
+} */
 
 a.logo img {
   width: 188px;
