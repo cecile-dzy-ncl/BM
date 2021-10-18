@@ -48,3 +48,7 @@ a.logo img {
 .main-header .top-bar-section .has-dropdown > a:after {
   border-color: white transparent transparent transparent;
 }
+
+.top-bar-section ul li > a {
+  padding: 12px 0 12px 0;
+}
