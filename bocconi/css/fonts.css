@@ -8,7 +8,10 @@ h5,
 p,
 blockquote,
 input,
-.top-bar-section ul li > a {
+.top-bar-section ul li > a,
+#projects-show section#projet-details h1,
+#projects-show section#tab-nav .row .tabs dd.active a,
+#projects-show section#tab-nav .row .tabs .tab-title.active a {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
