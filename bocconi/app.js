@@ -23,14 +23,14 @@ $(document).ready(function () {
     });
   }
 
-  // if ($("#project_tabs")) {
-  //   $("#project_tabs").after($("#crowdfundind-tabs"));
-  //   $(".block-infos").prepend("<div class='project-details-custom'></div>");
+  if ($("#project_tabs")) {
+    $("#project_tabs").after($("#crowdfundind-tabs"));
+    $(".block-infos").prepend("<div class='project-details-custom'></div>");
 
-  //   $(".project-details-custom").prepend($(".current-amount"));
-  //   $(".project-details-custom").append($(".objectif-amount"));
-  //   $(".project-details-custom").append($(".jours-restants"));
-  //   $(".project-details-custom").append($(".contributeurs"));
-  //   $(".project-details-custom").append($(".new-gift-button"));
-  // }
+    $(".project-details-custom").prepend($(".current-amount"));
+    $(".project-details-custom").append($(".objectif-amount"));
+    $(".project-details-custom").append($(".jours-restants"));
+    $(".project-details-custom").append($(".contributeurs"));
+    $(".project-details-custom").append($(".new-gift-button"));
+  }
 });
