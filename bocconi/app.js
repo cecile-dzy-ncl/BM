@@ -12,7 +12,12 @@ $(document).ready(function () {
   $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
 
   document.querySelector(".icon-search").addEventListener("click", (event) => {
-    document.querySelector(".navbar-search").classList.add("open");
+    const navbar = document.querySelector(".navbar-search");
+    if (navbar.classList.includes("open")) {
+      navbar.classList.remove("open");
+    } else {
+      navbar.classList.add("open");
+    }
   });
 
   // if ($("#project_tabs")) {
