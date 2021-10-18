@@ -12,3 +12,9 @@ input,
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
+
+#indexs-index h1 {
+  font-size: 48px;
+  line-height: 52px;
+  margin-bottom: 30px;
+}
