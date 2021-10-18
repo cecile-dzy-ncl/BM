@@ -6,21 +6,23 @@ $(document).ready(function () {
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Our platform is currently being updated, we apologise for the inconvenience.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
-  $("indexs-index").prepend($(".admin_button"));
-  $("nav#main-nav .top-bar-section").prepend($(".front-logo"));
-  $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
-  $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
+  if (window.matchMedia("(min-width: 600px)").matches) {
+    $("indexs-index").prepend($(".admin_button"));
+    $("nav#main-nav .top-bar-section").prepend($(".front-logo"));
+    $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
+    $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
 
-  if (document.querySelector(".navbar-search")) {
-    const navbar = document.querySelector(".navbar-search");
+    if (document.querySelector(".navbar-search")) {
+      const navbar = document.querySelector(".navbar-search");
 
-    navbar.addEventListener("click", (event) => {
-      if (navbar.classList.contains("open")) {
-        navbar.classList.remove("open");
-      } else {
-        navbar.classList.add("open");
-      }
-    });
+      navbar.addEventListener("click", (event) => {
+        if (navbar.classList.contains("open")) {
+          navbar.classList.remove("open");
+        } else {
+          navbar.classList.add("open");
+        }
+      });
+    }
   }
 
   // if ($("#project_tabs")) {
