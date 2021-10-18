@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   $("indexs-index").prepend($(".admin_button"));
   $("nav#main-nav .top-bar-section").prepend($(".front-logo"));
-  // $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
+  $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
   // $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
 
   // document.querySelector(".icon-search").addEventListener("click", (event) => {
