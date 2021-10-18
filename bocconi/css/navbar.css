@@ -30,8 +30,13 @@ header.main-header #header-header {
   border-bottom: 1px solid white;
 }
 
-.navbar-search.open .field-auto-search::placeholder {
+.navbar-search .field-auto-search::placeholder {
   opacity: 0;
+}
+
+.navbar-search.open .field-auto-search::placeholder {
+  opacity: 1;
+  color: white;
 }
 
 .field-auto-search,
