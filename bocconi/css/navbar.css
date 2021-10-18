@@ -6,6 +6,8 @@ header.main-header #header-header {
   background-color: #254aba;
   display: flex;
   align-items: center;
+  height: 80px;
+  padding: 20px;
 }
 
 #main-nav .top-bar-section {
