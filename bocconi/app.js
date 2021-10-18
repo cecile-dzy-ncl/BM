@@ -11,14 +11,17 @@ $(document).ready(function () {
   $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
   $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
 
-  document.querySelector(".icon-search").addEventListener("click", (event) => {
+  if (document.querySelector(".navbar-search")) {
     const navbar = document.querySelector(".navbar-search");
-    if (navbar.classList.contains("open")) {
-      navbar.classList.remove("open");
-    } else {
-      navbar.classList.add("open");
-    }
-  });
+
+    navbar.addEventListener("click", (event) => {
+      if (navbar.classList.contains("open")) {
+        navbar.classList.remove("open");
+      } else {
+        navbar.classList.add("open");
+      }
+    });
+  }
 
   // if ($("#project_tabs")) {
   //   $("#project_tabs").after($("#crowdfundind-tabs"));

@@ -21,10 +21,14 @@ header.main-header #header-header {
   content: "";
   height: 30px;
   width: 30px;
-  background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-  background-size: 65%;
+  background: none;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  /* background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png"); */
+  /* background-size: 65%;
   background-repeat: no-repeat;
-  background-position: 100% 50%;
+  background-position: 100% 50%; */
 }
 
 .navbar-search {
