@@ -38,6 +38,7 @@ form#event-search input {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 98% 100%;
+  background-color: transparent;
 }
 
 a.logo img {
