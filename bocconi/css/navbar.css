@@ -32,3 +32,8 @@ form#event-search input {
   background-repeat: no-repeat;
   background-position: 98% 100%;
 }
+
+a.logo img {
+  height: 45px;
+  margin-top: 0;
+}
