@@ -4,7 +4,16 @@
   border-color: #254aba;
 }
 
-.button:hover {
+.button:hover,
+.btn-bm:hover {
   background-color: #133495;
   border-color: #133495;
+  color: white;
+}
+
+.btn-bm {
+  background-color: #254aba;
+  border-color: #254aba;
+  color: white;
+  padding: 18px;
 }
