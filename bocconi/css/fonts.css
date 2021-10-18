@@ -9,4 +9,5 @@ p,
 blockquote,
 input {
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: normal;
 }
