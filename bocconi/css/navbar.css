@@ -43,7 +43,7 @@ header.main-header #header-header {
 input[type="text"].field-auto-search:focus,
 form#project-search input,
 form#event-search input {
-  background-color: transparent;
+  background-color: transparent !important;
   border: 0;
   box-shadow: none;
 }
@@ -53,9 +53,9 @@ input[type="text"].field-auto-search:focus,
 form#project-search input,
 form#event-search input {
   background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-  background-size: contain;
+  background-size: 65%;
   background-repeat: no-repeat;
-  background-position: 98% 100%;
+  background-position: 100% 50%;
 }
 
 a.logo img {
