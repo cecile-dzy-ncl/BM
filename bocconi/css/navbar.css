@@ -1,93 +1,95 @@
-header.main-header #header-header {
-  display: none;
-}
+@media only screen and (min-width: 600px) {
+  header.main-header #header-header {
+    display: none;
+  }
 
-#main-nav {
-  background-color: #254aba;
-  display: flex;
-  align-items: center;
-  height: 80px;
-  padding: 20px;
-}
+  #main-nav {
+    background-color: #254aba;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+  }
 
-#main-nav .top-bar-section {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  background-color: #254aba !important;
-}
+  #main-nav .top-bar-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #254aba !important;
+  }
 
-.navbar-search:after {
-  content: "";
-  height: 30px;
-  width: 30px;
-  /* background: none; */
-  position: absolute;
-  top: 15%;
-  right: 0;
-  background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-  background-size: contain;
-  /* 
-  background-repeat: no-repeat;
-  background-position: 100% 50%; */
-}
+  .navbar-search:after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    /* background: none; */
+    position: absolute;
+    top: 15%;
+    right: 0;
+    background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
+    background-size: contain;
+    /* 
+    background-repeat: no-repeat;
+    background-position: 100% 50%; */
+  }
 
-.navbar-search {
-  width: 42px;
-  transition: width 0.4s ease;
-  position: relative;
-}
+  .navbar-search {
+    width: 42px;
+    transition: width 0.4s ease;
+    position: relative;
+  }
 
-.navbar-search.open {
-  width: 200px;
-}
+  .navbar-search.open {
+    width: 200px;
+  }
 
-.navbar-search.open .field-auto-search {
-  border-bottom: 1px solid white !important;
-}
+  .navbar-search.open .field-auto-search {
+    border-bottom: 1px solid white !important;
+  }
 
-.navbar-search .field-auto-search::placeholder {
-  opacity: 0;
-}
+  .navbar-search .field-auto-search::placeholder {
+    opacity: 0;
+  }
 
-.navbar-search.open .field-auto-search::placeholder {
-  opacity: 1;
-  color: white;
-}
+  .navbar-search.open .field-auto-search::placeholder {
+    opacity: 1;
+    color: white;
+  }
 
-.field-auto-search,
-input[type="text"].field-auto-search:focus,
-form#project-search input,
-form#event-search input {
-  background-color: transparent !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  background: none !important;
-}
+  .field-auto-search,
+  input[type="text"].field-auto-search:focus,
+  form#project-search input,
+  form#event-search input {
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none !important;
+  }
 
-/* .field-auto-search,
-input[type="text"].field-auto-search:focus,
-form#project-search input,
-form#event-search input {
-  background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-  background-size: 65%;
-  background-repeat: no-repeat;
-  background-position: 100% 50%;
-} */
+  /* .field-auto-search,
+  input[type="text"].field-auto-search:focus,
+  form#project-search input,
+  form#event-search input {
+    background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+  } */
 
-a.logo img {
-  width: 188px;
-  margin-top: 0;
-}
+  a.logo img {
+    width: 188px;
+    margin-top: 0;
+  }
 
-#main-nav section.top-bar-section li:not(:last-child):after {
-  content: none;
-}
+  #main-nav section.top-bar-section li:not(:last-child):after {
+    content: none;
+  }
 
-.main-header .top-bar-section .has-dropdown > a:after {
-  border-color: white transparent transparent transparent;
-}
+  .main-header .top-bar-section .has-dropdown > a:after {
+    border-color: white transparent transparent transparent;
+  }
 
-.top-bar-section ul li > a {
-  padding: 12px 0 12px 0;
+  .top-bar-section ul li > a {
+    padding: 12px 0 12px 0;
+  }
 }
