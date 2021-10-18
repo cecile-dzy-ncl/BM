@@ -22,16 +22,16 @@ header.main-header #header-header {
   transition: width 0.4s ease;
 }
 
-.navbar-search::placeholder {
-  opacity: 0;
-}
-
 .navbar-search.open {
   width: 200px;
 }
 
 .navbar-search.open .field-auto-search {
   border-bottom: 1px solid white;
+}
+
+.navbar-search.open .field-auto-search::placeholder {
+  opacity: 0;
 }
 
 .field-auto-search,
