@@ -12,7 +12,11 @@ input,
 #projects-show section#projet-details h1,
 #projects-show section#tab-nav .row .tabs dd.active a,
 #projects-show section#tab-nav .row .tabs .tab-title.active a,
-#main-nav a.button.left {
+#main-nav a.button.left,
+button,
+.button,
+.infos-money .infos-money-details .info-money.detail,
+.infos-money {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
