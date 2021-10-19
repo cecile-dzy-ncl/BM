@@ -6,6 +6,11 @@
 #indexs-index section.section-home-projects p {
   color: #254aba;
   margin-bottom: 0;
+  font-size: 22px;
+}
+
+#indexs-index #projects {
+  margin-top: 22px;
 }
 
 .panel.radius {
@@ -24,5 +29,4 @@
 
 .infos-money .infos-money-details .info-money.detail {
   color: #254aba;
-  font-size: 22px;
 }
