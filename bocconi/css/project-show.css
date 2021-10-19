@@ -6,7 +6,7 @@
   margin: auto;
 }
 
-section#project_tabs {
+/* section#project_tabs {
   height: 457px;
   overflow: hidden;
 }
@@ -65,4 +65,4 @@ section#project_tabs {
 
 .project_content * {
   width: 46%;
-}
+} */
