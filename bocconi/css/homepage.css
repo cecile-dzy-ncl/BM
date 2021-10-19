@@ -31,7 +31,8 @@
 
 .tag-home {
   padding: 10px;
-  border-top: 1px solid #254aba;
-  border-right: 1px solid #254aba;
-  border-bottom: 1px solid #254aba;
+  color: #254aba;
+  border-top: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
 }
