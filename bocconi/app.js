@@ -27,7 +27,7 @@ $(document).ready(function () {
   }
 
   if ($("#project_tabs")) {
-    $("#project_tabs").after($("#crowdfundind-tabs"));
+    // $("#project_tabs").after($("#crowdfundind-tabs"));
     $(".block-infos").prepend("<div class='project-details-custom'></div>");
 
     $(".project-details-custom").prepend($(".current-amount"));
