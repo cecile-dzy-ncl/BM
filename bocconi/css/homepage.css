@@ -37,6 +37,8 @@
   border-bottom: 1px solid #d8d8d8;
   position: relative;
   margin-left: 25px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .tag-home:after {
