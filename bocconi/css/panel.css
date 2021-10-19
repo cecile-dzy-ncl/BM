@@ -3,6 +3,11 @@
   padding: 30px 20px 20px;
 }
 
+#indexs-index section.section-home-projects p {
+  color: #254aba;
+  margin-bottom: 0;
+}
+
 .panel.radius {
   border-radius: 0px;
 }
@@ -19,4 +24,5 @@
 
 .infos-money .infos-money-details .info-money.detail {
   color: #254aba;
+  font-size: 22px;
 }
