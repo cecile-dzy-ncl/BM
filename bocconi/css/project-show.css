@@ -10,6 +10,8 @@
   color: #254aba;
   text-align: left;
   font-size: 48px;
+  max-width: 62.5rem;
+  margin: auto;
 }
 
 /* section#project_tabs {
