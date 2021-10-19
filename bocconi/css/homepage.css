@@ -36,3 +36,27 @@
   border-right: 1px solid #d8d8d8;
   border-bottom: 1px solid #d8d8d8;
 }
+
+.tag-home:after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: var(--sizearrow) solid transparent;
+  border-right-color: white;
+  transform: translateY(-50%);
+}
+
+.tag-home:before {
+  content: "";
+  position: absolute;
+  left: -45px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 22px solid transparent;
+  border-right-color: var(--bordercolor);
+  transform: translateY(-50%);
+}
