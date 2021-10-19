@@ -22,6 +22,7 @@ section#project_tabs {
 
 #projects-show section#project_tabs > .row {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 #projects-show
