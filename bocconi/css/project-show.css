@@ -2,6 +2,10 @@
   max-width: 100%;
 }
 
+#projects-show .habillage.no-banner section#tab-nav .row {
+  margin: auto;
+}
+
 section#project_tabs {
   height: 457px;
   overflow: hidden;
