@@ -1,4 +1,4 @@
-#indexs-index section.section-home-projects .row {
+#indexs-index section.section-home-projects > .row {
   background: #edf1ff;
   padding: 30px 20px 20px;
 }
