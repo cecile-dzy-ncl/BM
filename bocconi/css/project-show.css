@@ -6,6 +6,11 @@
   margin: auto;
 }
 
+#projects-show section#projet-details h1 {
+  color: #254aba;
+  text-align: left;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
