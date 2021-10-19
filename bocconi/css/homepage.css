@@ -28,3 +28,10 @@
 #indexs-index .btn-bm {
   margin-bottom: 65px;
 }
+
+.tag-home {
+  padding: 10px;
+  border-top: 1px solid #254aba;
+  border-right: 1px solid #254aba;
+  border-bottom: 1px solid #254aba;
+}
