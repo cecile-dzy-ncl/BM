@@ -14,8 +14,15 @@
 #indexs-index h1 {
   font-size: 48px;
   line-height: 52px;
-  margin-bottom: 30px;
   margin-top: 145px;
+  margin-bottom: 30px;
+}
+
+#indexs-index h1 {
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 95px;
+  margin-bottom: 50px;
 }
 
 #indexs-index .btn-bm {
