@@ -11,7 +11,8 @@ input,
 .top-bar-section ul li > a,
 #projects-show section#projet-details h1,
 #projects-show section#tab-nav .row .tabs dd.active a,
-#projects-show section#tab-nav .row .tabs .tab-title.active a {
+#projects-show section#tab-nav .row .tabs .tab-title.active a,
+#main-nav a.button.left {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
