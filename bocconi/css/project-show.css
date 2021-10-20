@@ -24,6 +24,14 @@
   border-color: transparent #edf1ff transparent transparent;
 }
 
+.project_payment #list_payment .people .name {
+  color: #254aba;
+}
+
+.project_payment #list_payment .people .name strong {
+  font-weight: 400;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
