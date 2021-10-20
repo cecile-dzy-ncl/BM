@@ -105,4 +105,9 @@
     text-transform: initial !important;
     font-size: 16px;
   }
+
+  header.main-header + div,
+  header.main-header + section {
+    margin-top: 80px !important;
+  }
 }
