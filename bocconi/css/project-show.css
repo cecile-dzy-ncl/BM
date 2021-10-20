@@ -16,7 +16,11 @@
 
 .project_payment #list_payment .people blockquote {
   background-color: #edf1ff;
-  color: #4c4c4c;
+  color: #254aba;
+}
+
+.project_payment #list_payment .people blockquote:before {
+  border-color: transparent #edf1ff transparent transparent;
 }
 
 /* section#project_tabs {
