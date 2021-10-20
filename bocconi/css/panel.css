@@ -29,4 +29,13 @@
 
 .infos-money .infos-money-details .info-money.detail {
   color: #254aba;
+  font-weight: 600 !important;
+}
+
+.row.infos-money-details > .columns:first-of-type {
+  text-align: left !important;
+}
+
+.row.infos-money-details > .columns:last-of-type {
+  text-align: right !important;
 }
