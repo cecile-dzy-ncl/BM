@@ -40,6 +40,7 @@
   margin-top: 20px;
   display: inline-block;
   background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/tag.png");
+  background-size: cover;
 }
 
 /* .tag-home:after {
