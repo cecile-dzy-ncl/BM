@@ -32,6 +32,11 @@
   font-weight: 400;
 }
 
+.project_payment #list_payment .people {
+  display: flex;
+  align-items: center;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
