@@ -27,7 +27,10 @@
     top: 15%;
     right: 0;
     background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/icn-search3x.png");
-    background-size: contain;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
     /* 
     background-repeat: no-repeat;
     background-position: 100% 50%; */
