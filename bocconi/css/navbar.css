@@ -113,4 +113,14 @@
   header.main-header + section {
     margin-top: 80px !important;
   }
+
+  .admin_button.button {
+    width: auto;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    background: red;
+    z-index: 3000;
+    display: block !important;
+  }
 }

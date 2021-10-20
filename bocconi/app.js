@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   if (window.matchMedia("(min-width: 600px)").matches) {
     console.log("moins de 600");
-    $("indexs-index").prepend($(".admin_button"));
+    $("nav#main-nav").append($(".admin_button"));
     $("nav#main-nav .top-bar-section").prepend($(".front-logo"));
     $("nav#main-nav .top-bar-section ul.center").after($(".top-bar.left"));
     $("nav#main-nav > .top-bar-section").append($(".navbar-search"));
