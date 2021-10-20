@@ -34,5 +34,10 @@
   content: "";
   background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/arrow.png");
   position: absolute;
-  right: 0;
+  right: 14px;
+  width: 18px;
+  height: 14px;
+  background-size: contain;
+  top: 50%;
+  transform: translateY(-50%);
 }
