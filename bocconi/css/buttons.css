@@ -24,3 +24,15 @@
   width: 18px;
   margin-left: 10px;
 }
+
+.section-home-projects a.button {
+  position: relative;
+  padding-right: 40px;
+}
+
+.section-home-projects a.button:after {
+  content: "";
+  background: url("https://give.unibocconi.it/cdn.iraiser.eu/WOONHzZzQmvohOMIXAIqRlmgXubdF6My/B9OO/j4aimZx35eWR2wMOiIjk9qTzZC/Cecile_Dezy/origin/arrow.png");
+  position: absolute;
+  right: 0;
+}
