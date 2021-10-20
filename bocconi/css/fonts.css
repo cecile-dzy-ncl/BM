@@ -17,7 +17,14 @@ button,
 .button,
 .infos-money .infos-money-details .info-money.detail,
 .infos-money,
-.project_payment #list_payment .people blockquote {
+.project_payment #list_payment .people blockquote,
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-share-container
+  h4 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }

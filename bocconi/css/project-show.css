@@ -53,6 +53,16 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   border-radius: 0;
 }
 
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-share-container
+  h4 {
+  color: white;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
