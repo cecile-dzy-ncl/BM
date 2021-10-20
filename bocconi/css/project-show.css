@@ -17,6 +17,7 @@
 .project_payment #list_payment .people blockquote {
   background-color: #edf1ff;
   color: #254aba;
+  border-left: 1px solid #edf1ff;
 }
 
 .project_payment #list_payment .people blockquote:before {
