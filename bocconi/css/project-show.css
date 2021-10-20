@@ -14,6 +14,11 @@
   margin: auto;
 }
 
+.project_payment #list_payment .people blockquote {
+  background-color: #edf1ff;
+  color: #4c4c4c;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
