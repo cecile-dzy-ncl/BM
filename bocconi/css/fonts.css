@@ -32,6 +32,28 @@ button,
   .project-detail-data
   .block-infos
   .jours-restants
+  p,
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos
+  .current-amount,
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos
+  .objectif-amount,
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos
+  .contributeurs
   p {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;

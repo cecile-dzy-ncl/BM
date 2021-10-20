@@ -67,6 +67,15 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   filter: contrast(0.2);
 }
 
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos
+  i:before {
+  color: white;
+}
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
