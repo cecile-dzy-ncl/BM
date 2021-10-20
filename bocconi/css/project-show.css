@@ -12,6 +12,7 @@
   font-size: 48px;
   max-width: 62.5rem;
   margin: auto;
+  margin-top: 40px;
 }
 
 .project_payment #list_payment .people blockquote {
@@ -39,6 +40,10 @@
 
 .project_payment #list_payment .people .rounded {
   margin-bottom: 0;
+}
+
+#projects-show section#project_tabs .row aside {
+  background-color: #254aba;
 }
 
 /* section#project_tabs {
