@@ -34,6 +34,7 @@
 .infos-money .infos-money-details .info-money.detail {
   color: #254aba;
   font-weight: 600 !important;
+  font-size: 14px;
 }
 
 .row.infos-money-details > .columns:first-of-type {
