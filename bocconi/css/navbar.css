@@ -117,10 +117,8 @@
   .admin_button.button {
     width: auto;
     position: fixed;
-    top: 200px;
+    top: 120px;
     right: 0;
-    background: red;
-    z-index: 3000;
-    display: block !important;
+    background: #254ab9;
   }
 }
