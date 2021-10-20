@@ -76,6 +76,18 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   i:before {
   color: white;
 }
+
+#projects-show .crowdfunding section#tab-nav .row .tabs dd.active a,
+#projects-show .crowdfunding section#tab-nav .row .tabs .tab-title.active a,
+#projects-show section#tab-nav.crowdfunding .row .tabs dd.active a:after,
+#projects-show
+  section#tab-nav.crowdfunding
+  .row
+  .tabs
+  .tab-title.active
+  a:after {
+  background-color: #254aba;
+}
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
