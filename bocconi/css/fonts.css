@@ -16,7 +16,8 @@ input,
 button,
 .button,
 .infos-money .infos-money-details .info-money.detail,
-.infos-money {
+.infos-money,
+.project_payment #list_payment .people blockquote {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
