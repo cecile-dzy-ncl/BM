@@ -37,6 +37,10 @@
   align-items: center;
 }
 
+.project_payment #list_payment .people .rounded {
+  margin-bottom: 0;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
