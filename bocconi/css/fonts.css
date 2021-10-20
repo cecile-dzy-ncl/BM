@@ -24,7 +24,15 @@ button,
   aside
   .project-detail-data
   .block-share-container
-  h4 {
+  h4,
+#projects-show
+  section#project_tabs
+  .row
+  aside
+  .project-detail-data
+  .block-infos
+  .jours-restants
+  p {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }

@@ -63,6 +63,10 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   color: white;
 }
 
+.chart canvas {
+  filter: contrast(0.2);
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
