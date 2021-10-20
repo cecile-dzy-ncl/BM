@@ -27,6 +27,10 @@
   background-color: #254aba;
 }
 
+.row.infos-money-details {
+  margin: auto 0.75rem !important;
+}
+
 .infos-money .infos-money-details .info-money.detail {
   color: #254aba;
   font-weight: 600 !important;
