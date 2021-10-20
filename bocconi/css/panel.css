@@ -43,3 +43,14 @@
 .row.infos-money-details > .columns:last-of-type {
   text-align: right !important;
 }
+
+.projects-list .panel h3 a,
+.projects-list .panel h3 a:hover,
+.projects-list .panel h3 a:focus {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.projects-list .panel .link-to-user a {
+  font-size: 16px;
+}
