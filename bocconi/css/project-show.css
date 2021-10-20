@@ -47,6 +47,12 @@
   color: white;
 }
 
+a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.active {
+  background: #4f81ff !important;
+  border-color: #4f81ff !important;
+  border-radius: 0;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
