@@ -39,5 +39,16 @@ p,
 blockquote,
 input[type="text"] {
   font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
   color: #3e3643;
+  text-align: center;
 }
