@@ -1,12 +1,14 @@
 @font-face {
-  font-family: "DIN Pro Regular";
-  src: url("https://soutenir.aide-et-action.org/libs.iraiser.eu/users/aideetaction/DINPro-Regular.otf");
+  font-family: "DIN Pro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/DINPro.otf")
+    format("opentype");
   font-weight: normal;
+  font-style: normal;
 }
 
 h1,
 h2 {
-  /* font-family: "DIN Pro Regular"; */
+  font-family: "DIN Pro";
   text-align: center;
 }
 
