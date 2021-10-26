@@ -3,6 +3,12 @@
   padding: 16px 40px;
 }
 
+.btn-bm,
+button,
+.button {
+  font-family: "DIN Pro";
+}
+
 .btn-bm[class*="bg"],
 .btn-bm[class*="bg"] a:hover {
   color: #fff;
