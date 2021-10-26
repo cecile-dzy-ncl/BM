@@ -1,3 +1,9 @@
 .wrapper-help {
   border-color: white;
 }
+
+.wrapper-help .btn-bm {
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
