@@ -8,6 +8,7 @@
 .btn-bm,
 button,
 .button {
+  text-transform: uppercase;
   font-family: "DIN Pro";
 }
 
