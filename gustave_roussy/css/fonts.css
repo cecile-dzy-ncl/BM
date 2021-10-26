@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "DIN Pro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Medium.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
 h1,
 h2 {
   font-family: "DIN Pro";
@@ -15,6 +23,12 @@ h2 {
 h1 {
   font-size: 46px;
   line-height: 52px;
+}
+
+H2 {
+  font-size: 34px;
+  font-weight: 600;
+  /* line-height: 52px; */
 }
 
 h3,
