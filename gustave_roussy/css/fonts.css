@@ -37,7 +37,8 @@ h5,
 h6,
 p,
 blockquote,
-input[type="text"] {
+input[type="text"],
+.top-bar-section ul li > a {
   font-family: "Open Sans";
 }
 
