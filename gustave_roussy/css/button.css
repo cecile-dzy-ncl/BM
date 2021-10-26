@@ -25,4 +25,7 @@ button,
   padding: 16px 40px;
   font-weight: 600;
   font-size: 18px;
+  margin: 0 auto 40px;
+  display: block;
+  width: fit-content;
 }
