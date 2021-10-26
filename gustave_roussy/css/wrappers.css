@@ -2,6 +2,10 @@
   border-color: white;
 }
 
+.wrapper-help * {
+  text-align: center;
+}
+
 .wrapper-help .btn-bm {
   width: fit-content;
   display: block;
