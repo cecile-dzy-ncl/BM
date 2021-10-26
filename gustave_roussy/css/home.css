@@ -9,9 +9,3 @@
 .stats .nb {
   font-weight: bold;
 }
-
-.section-home-projects .button {
-  float: none !important;
-  background-color: transparent;
-  border: 1px solid #3e3643;
-}
