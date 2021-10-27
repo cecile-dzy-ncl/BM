@@ -5,6 +5,7 @@
 .banner img {
   position: absolute;
   inset: 0;
+  width: 100%;
 }
 
 .homepage .banner-text {
