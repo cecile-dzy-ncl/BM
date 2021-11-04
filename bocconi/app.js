@@ -30,7 +30,7 @@ $(document).ready(function () {
     $("#project_tabs").after($("#crowdfundind-tabs"));
     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     console.log($(".project_content img:first-of-type"));
-    $(".project_content img:first-of-type").prepend(".project-details-custom");
+    $(".project-details-custom").prepend(".project_content img:first-of-type");
     $(".project-details-custom").prepend(
       $("#projects-show section#project_tabs .row aside")
     );
