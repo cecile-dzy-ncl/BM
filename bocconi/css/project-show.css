@@ -123,6 +123,9 @@ section#tab-nav {
 
 #projects-show .block-share-container {
   background-color: transparent;
+}
+
+#projects-show .block-share-container h4 {
   color: white;
 }
 
