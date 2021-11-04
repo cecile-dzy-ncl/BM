@@ -28,9 +28,9 @@ $(document).ready(function () {
 
   if ($("#project_tabs")) {
     $("#project_tabs").after($("#crowdfundind-tabs"));
-    $(".block-infos").prepend("<div class='project-details-custom'></div>");
+    $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     console.log($(".project_content img:first-of-type"));
-    $(".project_content img:first-of-type").prepend("#crowdfundind-tabs");
+    $(".project_content img:first-of-type").prepend(".project-details-custom");
     // $(".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
     // $(".project-details-custom").append($(".jours-restants"));
