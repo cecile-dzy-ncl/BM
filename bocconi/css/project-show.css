@@ -88,6 +88,15 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   a:after {
   background-color: #254aba;
 }
+
+.custom-first {
+  display: flex;
+}
+
+.custom-first > * {
+  width: 50%;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
