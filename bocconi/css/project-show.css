@@ -117,6 +117,14 @@ section#tab-nav {
   margin-bottom: 35px;
 }
 
+.row.project-detail-data.crowdfunding-detail-data {
+  padding-top: 30px;
+}
+
+#projects-show .block-share-container {
+  background-color: transparent;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
