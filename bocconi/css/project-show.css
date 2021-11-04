@@ -98,6 +98,11 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   width: 50%;
 }
 
+#crowdfundind-tabs {
+  max-width: 62.5rem;
+  margin: auto;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
@@ -143,10 +148,6 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   border-radius: 0;
 }
 
-#crowdfundind-tabs {
-  max-width: 62.5rem;
-  margin: auto;
-}
 
 .project_content {
   display: flex;
