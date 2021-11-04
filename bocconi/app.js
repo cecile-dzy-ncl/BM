@@ -32,7 +32,7 @@ $(document).ready(function () {
     console.log($(".project_content img:first-of-type"));
     $(".project_content img:first-of-type").prepend(".project-details-custom");
     $(".project-details-custom").prepend(
-      "#projects-show section#project_tabs .row aside"
+      $("#projects-show section#project_tabs .row aside")
     );
     // $(".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
