@@ -2,9 +2,9 @@ $(document).ready(function () {
   $("body").addClass("bocconi");
 
   // AJOUT BANNER MAINTENANCE
-  // var bannerMaintenance =
-  //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Our platform is currently being updated, we apologise for the inconvenience.</p></div>";
-  // $("#banner_section").before(bannerMaintenance);
+  var bannerMaintenance =
+    "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Our platform is currently being updated, we apologise for the inconvenience.</p></div>";
+  $("#banner_section").before(bannerMaintenance);
 
   if (window.matchMedia("(min-width: 600px)").matches) {
     console.log("moins de 600");
@@ -27,7 +27,7 @@ $(document).ready(function () {
   }
 
   if ($("#project_tabs")) {
-    // $("#project_tabs").after($("#crowdfundind-tabs"));
+    $("#project_tabs").after($("#crowdfundind-tabs"));
     $(".block-infos").prepend("<div class='project-details-custom'></div>");
 
     // $(".project-details-custom").prepend($(".current-amount"));
