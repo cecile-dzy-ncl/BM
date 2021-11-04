@@ -31,7 +31,7 @@ $(document).ready(function () {
     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     $(".project-details-custom").prepend("<div class='custom-first'></div>");
     console.log($(".project_content img:first-of-type"));
-    $(".custom-first").prepend(".project_content img:first-of-type");
+    $(".custom-first").prepend($(".project_content img:first-of-type"));
     $(".custom-first").prepend(
       $("#projects-show section#project_tabs .row aside")
     );
