@@ -113,6 +113,10 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   border-radius: 0;
 }
 
+section#tab-nav {
+  margin-bottom: 35px;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
