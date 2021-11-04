@@ -42,7 +42,7 @@
   margin-bottom: 0;
 }
 
-#projects-show section#project_tabs .row aside {
+#projects-show section#project_tabs aside {
   background-color: #254aba;
   color: white;
 }
@@ -91,6 +91,7 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
 
 .custom-first {
   display: flex;
+  background: #254aba;
 }
 
 .custom-first > * {
