@@ -40,6 +40,7 @@ $(document).ready(function () {
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
     $(".project-text").html($(".project_inner"));
     $(".tabs-content").before($("#tab-nav"));
+    $("#tab-nav dd:nth-of-type(2)").click();
 
     // $( ".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
