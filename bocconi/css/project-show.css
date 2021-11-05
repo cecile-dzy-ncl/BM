@@ -160,6 +160,10 @@ ul.pagination li button.unavailable {
   color: white;
 }
 
+#projects-show .tabs-content .active.content .news_inner {
+  overflow: visible;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
