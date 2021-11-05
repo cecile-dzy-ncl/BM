@@ -139,6 +139,10 @@ section#tab-nav {
   color: #254aba;
 }
 
+.tabs-content .content {
+  padding: 0;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
