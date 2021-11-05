@@ -19,6 +19,7 @@
   background-color: #edf1ff;
   color: #254aba;
   border-left: 1px solid #edf1ff;
+  margin-bottom: 0;
 }
 
 .project_payment #list_payment .people blockquote:before {
@@ -36,6 +37,9 @@
 .project_payment #list_payment .people {
   display: flex;
   align-items: center;
+  border-top: 1px solid lightgrey;
+  margin: 0;
+  padding: 10px 0;
 }
 
 .project_payment #list_payment .people .rounded {
