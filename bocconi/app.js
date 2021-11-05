@@ -34,6 +34,9 @@ $(document).ready(function () {
     $(".custom-first").append(
       $("#projects-show section#project_tabs .row aside")
     );
+    $("#crowdfundind-tabs").prepend(
+      "<div class='project-custom-description'></div>"
+    );
     // $(".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
     // $(".project-details-custom").append($(".jours-restants"));
