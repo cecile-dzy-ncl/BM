@@ -39,7 +39,9 @@ $(document).ready(function () {
     );
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
     $(".project-text").html($(".project_inner"));
-    // $(".project-details-custom").prepend($(".current-amount"));
+    $(".tabs-content").before($("#tab-nav"));
+
+    // $( ".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
     // $(".project-details-custom").append($(".jours-restants"));
     // $(".project-details-custom").append($(".contributeurs"));
