@@ -155,6 +155,11 @@ section#tab-nav {
   width: 45%;
 }
 
+ul.pagination li.unavailable a,
+ul.pagination li button.unavailable {
+  color: white;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
