@@ -35,7 +35,7 @@ $(document).ready(function () {
       $("#projects-show section#project_tabs .row aside")
     );
     $("#crowdfundind-tabs").prepend(
-      "<div class='project-custom-description'></div>"
+      "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
     );
     // $(".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
