@@ -143,6 +143,14 @@ section#tab-nav {
   padding: 0;
 }
 
+.project_content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 620px;
+  grid-column-gap: 20px;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
