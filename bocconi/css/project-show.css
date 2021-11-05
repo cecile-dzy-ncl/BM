@@ -151,6 +151,10 @@ section#tab-nav {
   grid-column-gap: 20px;
 }
 
+.project_content > div {
+  width: 45%;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
