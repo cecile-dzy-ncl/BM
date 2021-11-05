@@ -38,6 +38,7 @@ $(document).ready(function () {
       "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
     );
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
+    $(".project-text").html($(".project_inner"));
     // $(".project-details-custom").prepend($(".current-amount"));
     // $(".project-details-custom").append($(".objectif-amount"));
     // $(".project-details-custom").append($(".jours-restants"));
