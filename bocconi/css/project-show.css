@@ -133,6 +133,11 @@ section#tab-nav {
   color: white;
 }
 
+.project-custom-description h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
