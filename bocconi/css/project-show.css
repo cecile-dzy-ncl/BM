@@ -173,7 +173,7 @@ ul.pagination li button.unavailable {
   background: #254aba;
 }
 
-#tab-nav dd.active a {
+#projects-show section#tab-nav .row .tabs dd > a {
   color: white;
 }
 
