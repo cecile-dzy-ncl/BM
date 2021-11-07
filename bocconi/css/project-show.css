@@ -276,6 +276,14 @@ span.percent.mediumpercent {
   margin: 0;
 }
 
+.block-share-container .social-btns .social_network {
+  filter: invert(1);
+}
+
+a.new-gift-button {
+  font-weight: normal;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
