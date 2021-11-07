@@ -198,6 +198,11 @@ ul.pagination li button.unavailable {
   display: none;
 }
 
+.data-custom {
+  display: flex;
+  justify-content: center;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
