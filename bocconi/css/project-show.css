@@ -135,6 +135,11 @@ section#tab-nav {
   margin-right: 20px;
 }
 
+#projects-show .block-share-container .social-btns .social_network {
+  width: 18%;
+  margin-right: 4px;
+}
+
 .project-custom-description h2 {
   margin-top: 100px;
   margin-bottom: 50px;
