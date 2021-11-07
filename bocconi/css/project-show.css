@@ -168,6 +168,7 @@ ul.pagination li button.unavailable {
   border-radius: 25px;
   border: 1px solid #254aba;
   margin-right: 16px;
+  padding: 9px 75px;
 }
 
 #projects-show section#tab-nav .row .tabs dd.active {
