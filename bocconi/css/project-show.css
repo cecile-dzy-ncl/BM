@@ -207,7 +207,7 @@ ul.pagination li button.unavailable {
   font-size: 22px;
 }
 
-.current-amount {
+.data-custom .current-amount {
   font-size: 32px;
   margin-bottom: 0;
 }
