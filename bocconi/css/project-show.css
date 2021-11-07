@@ -298,6 +298,10 @@ a.new-gift-button:after {
   transform: translateY(-50%);
 }
 
+#contributor:not(.active) {
+  display: none;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
