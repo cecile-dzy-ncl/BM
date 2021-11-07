@@ -177,6 +177,10 @@ ul.pagination li button.unavailable {
   color: white;
 }
 
+#projects-show .habillage.no-banner section#tab-nav .row {
+  border: none;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
