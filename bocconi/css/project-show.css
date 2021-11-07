@@ -170,8 +170,11 @@ ul.pagination li button.unavailable {
   margin-right: 16px;
 }
 
-#projects-show section#tab-nav .row .tabs dd.active > a {
+#projects-show section#tab-nav .row .tabs dd.active {
   background: #254aba;
+}
+
+#projects-show section#tab-nav .row .tabs dd.active > a {
   color: white;
 }
 
