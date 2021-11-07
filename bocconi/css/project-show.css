@@ -205,13 +205,14 @@ ul.pagination li button.unavailable {
 
 .current-amount {
   font-size: 32px;
-  line-height: 38px;
+  margin-bottom: 0;
 }
 
 #show_desired_amount {
   font-size: 22px;
   line-height: 38px;
   position: relative;
+  margin-bottom: 60px;
 }
 
 #show_desired_amount:after {
