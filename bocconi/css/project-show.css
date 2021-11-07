@@ -203,6 +203,10 @@ ul.pagination li button.unavailable {
   justify-content: center;
 }
 
+.data-custom p {
+  font-size: 22px;
+}
+
 .current-amount {
   font-size: 32px;
   margin-bottom: 0;
@@ -224,6 +228,10 @@ ul.pagination li button.unavailable {
   width: 200px;
   background: white;
   opacity: 0.2;
+}
+
+p#show_days {
+  margin-bottom: 0;
 }
 
 /* section#project_tabs {
