@@ -181,6 +181,7 @@ ul.pagination li button.unavailable {
 
 #projects-show section#tab-nav .row .tabs dd > a {
   color: #254aba;
+  padding: 0;
 }
 
 #projects-show .habillage.no-banner section#tab-nav .row {
