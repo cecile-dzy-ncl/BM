@@ -181,6 +181,10 @@ ul.pagination li button.unavailable {
   border: none;
 }
 
+#projects-show section#tab-nav.crowdfunding .row .tabs dd.active a:after {
+  display: none;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
