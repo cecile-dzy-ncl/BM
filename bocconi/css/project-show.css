@@ -211,6 +211,16 @@ ul.pagination li button.unavailable {
 #show_desired_amount {
   font-size: 22px;
   line-height: 38px;
+  position: relative;
+}
+
+#show_desired_amount:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 1px;
+  width: 200px;
+  background: white;
 }
 
 /* section#project_tabs {
