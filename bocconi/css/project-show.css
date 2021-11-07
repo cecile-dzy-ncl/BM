@@ -138,6 +138,7 @@ section#tab-nav {
 #projects-show .block-share-container .social-btns .social_network {
   width: 18%;
   margin-right: 4px;
+  filter: invert(1);
 }
 
 .project-custom-description h2 {
@@ -274,10 +275,6 @@ span.percent.mediumpercent {
 
 #projects-show .block-share-container .social-btns {
   margin: 0;
-}
-
-.block-share-container .social-btns .social_network {
-  filter: invert(1);
 }
 
 a.new-gift-button {
