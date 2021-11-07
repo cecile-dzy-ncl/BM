@@ -203,6 +203,16 @@ ul.pagination li button.unavailable {
   justify-content: center;
 }
 
+.current-amount {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#show_desired_amount {
+  font-size: 22px;
+  line-height: 38px;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
