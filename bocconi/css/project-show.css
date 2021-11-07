@@ -263,6 +263,7 @@ span.percent.mediumpercent {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 32px;
 }
 
 /* section#project_tabs {
