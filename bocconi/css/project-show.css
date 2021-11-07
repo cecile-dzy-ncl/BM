@@ -164,6 +164,15 @@ ul.pagination li button.unavailable {
   overflow: visible;
 }
 
+#tab-nav dd {
+  border-radius: 25px;
+}
+
+#tab-nav dd.active {
+  background: #254aba;
+  color: white;
+}
+
 /* section#project_tabs {
   height: 457px;
   overflow: hidden;
