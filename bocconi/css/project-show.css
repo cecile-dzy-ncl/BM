@@ -218,9 +218,11 @@ ul.pagination li button.unavailable {
   content: "";
   position: absolute;
   left: 0;
+  bottom: -30px;
   height: 1px;
   width: 200px;
   background: white;
+  opacity: 0.2;
 }
 
 /* section#project_tabs {
