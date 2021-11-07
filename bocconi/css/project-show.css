@@ -169,12 +169,13 @@ ul.pagination li button.unavailable {
   border: 1px solid #254aba;
 }
 
-#tab-nav dd.active {
+#projects-show section#tab-nav .row .tabs dd.active > a {
   background: #254aba;
+  color: white;
 }
 
 #projects-show section#tab-nav .row .tabs dd > a {
-  color: white;
+  color: #254aba;
 }
 
 #projects-show .habillage.no-banner section#tab-nav .row {
