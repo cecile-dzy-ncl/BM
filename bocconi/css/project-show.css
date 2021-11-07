@@ -266,7 +266,7 @@ span.chart {
 
 span.percent.mediumpercent {
   position: absolute;
-  z-index: 1000;
+  z-index: 10;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
