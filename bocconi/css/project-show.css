@@ -170,6 +170,9 @@ ul.pagination li button.unavailable {
 
 #tab-nav dd.active {
   background: #254aba;
+}
+
+#tab-nav dd.active a {
   color: white;
 }
 
