@@ -164,6 +164,10 @@ ul.pagination li button.unavailable {
   overflow: visible;
 }
 
+#tab-nav dd:first-child {
+  display: none;
+}
+
 #tab-nav dd {
   border-radius: 25px;
   border: 1px solid #254aba;
