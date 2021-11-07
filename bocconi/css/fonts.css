@@ -56,7 +56,8 @@ button,
   .contributeurs
   p,
 #projects-show section#tab-nav .row .tabs dd > a,
-#projects-show section#tab-nav .row .tabs .tab-title > a {
+#projects-show section#tab-nav .row .tabs .tab-title > a,
+.block-share-container h4 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
 }
