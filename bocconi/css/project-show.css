@@ -132,6 +132,7 @@ section#tab-nav {
 
 #projects-show .block-share-container h4 {
   color: white;
+  margin-right: 20px;
 }
 
 .project-custom-description h2 {
@@ -264,6 +265,10 @@ span.percent.mediumpercent {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 32px;
+}
+
+#projects-show .block-share-container .social-btns {
+  margin: 0;
 }
 
 /* section#project_tabs {
