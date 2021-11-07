@@ -278,7 +278,7 @@ span.percent.mediumpercent {
 }
 
 a.new-gift-button {
-  font-weight: normal;
+  font-weight: normal !important;
 }
 
 a.new-gift-button {
