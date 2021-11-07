@@ -165,7 +165,7 @@ ul.pagination li button.unavailable {
   overflow: visible;
 }
 
-#tab-nav dd:first-child {
+#tab-nav dd:first-of-type {
   display: none;
 }
 
