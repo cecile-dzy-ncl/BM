@@ -108,8 +108,7 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
 }
 
 #projects-show section#project_tabs aside .project-detail-data .block-infos {
-  border-bottom: 0;
-  display: flex;
+  display: none;
 }
 
 .new-gift-button {
@@ -233,6 +232,20 @@ ul.pagination li button.unavailable {
 
 p#show_days {
   margin-bottom: 0;
+}
+
+form.edit_project,
+form.edit_project > .row,
+form.edit_project > .row > .columns {
+  height: 100%;
+}
+
+.row.project-detail-data.crowdfunding-detail-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
 }
 
 /* section#project_tabs {
