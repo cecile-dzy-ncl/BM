@@ -42,10 +42,10 @@ $(document).ready(function () {
     $(".tabs-content").before($("#tab-nav"));
     $("#tab-nav dd:nth-of-type(2) a").click();
 
-    // $( ".project-details-custom").prepend($(".current-amount"));
-    // $(".project-details-custom").append($(".objectif-amount"));
-    // $(".project-details-custom").append($(".jours-restants"));
-    // $(".project-details-custom").append($(".contributeurs"));
-    // $(".project-details-custom").append($(".new-gift-button"));
+    $(".crowdfunding-detail-data").prepend($(".current-amount"));
+    $(".crowdfunding-detail-data").prepend($(".objectif-amount"));
+    $(".crowdfunding-detail-data").prepend($(".jours-restants"));
+    $(".crowdfunding-detail-data").prepend($(".contributeurs"));
+    $(".crowdfunding-detail-data").prepend($(".new-gift-button"));
   }
 });
