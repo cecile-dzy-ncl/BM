@@ -51,7 +51,7 @@ $(document).ready(function () {
     $(".data-details-custom").append($(".objectif-amount"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".data-details-custom").append($(".contributeurs"));
-    $(".data-details-custom").append($(".new-gift-button"));
+    // $(".data-details-custom").append($(".new-gift-button"));
     $(".data-custom").append($(".chart-wrap"));
   }
 });
