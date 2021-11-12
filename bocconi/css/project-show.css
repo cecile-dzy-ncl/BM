@@ -208,6 +208,11 @@ ul.pagination li button.unavailable {
 .data-custom {
   display: flex;
   justify-content: center;
+  width: 100%;
+}
+
+.data-details-custom {
+  flex-grow: 1;
 }
 
 .data-custom p {
@@ -253,6 +258,7 @@ form.edit_project > .row > .columns {
   align-items: center;
   height: 100%;
   justify-content: space-between;
+  padding: 30px;
 }
 
 .chart-wrap {
