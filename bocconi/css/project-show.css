@@ -151,7 +151,7 @@ section#tab-nav {
   padding: 0;
 }
 
-.project_content {
+/* .project_content {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -161,7 +161,7 @@ section#tab-nav {
 
 .project_content > * {
   width: 45%;
-}
+} */
 
 ul.pagination li.unavailable a,
 ul.pagination li button.unavailable {
@@ -285,9 +285,7 @@ span.percent {
 
 a.new-gift-button {
   font-weight: normal !important;
-}
-
-a.new-gift-button {
+  border-radius: 0 !important;
   position: relative;
   padding-right: 55px;
 }
