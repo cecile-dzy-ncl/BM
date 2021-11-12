@@ -270,7 +270,7 @@ span.chart {
   color: white !important;
 }
 
-span.percent.mediumpercent {
+span.percent {
   position: absolute;
   z-index: 10;
   top: 50%;
