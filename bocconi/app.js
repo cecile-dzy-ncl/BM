@@ -26,36 +26,36 @@ $(document).ready(function () {
     }
   }
 
-  if ($("#project_tabs")) {
-    $("#project_tabs").after($("#crowdfundind-tabs"));
-    $("#project_tabs").prepend("<div class='project-details-custom'></div>");
-    $(".project-details-custom").prepend("<div class='custom-first'></div>");
-    console.log(!$(".project_content img:first-of-type"));
+  //   if ($("#project_tabs")) {
+  //     $("#project_tabs").after($("#crowdfundind-tabs"));
+  //     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
+  //     $(".project-details-custom").prepend("<div class='custom-first'></div>");
+  //     console.log(!$(".project_content img:first-of-type"));
 
-    if ($(".project_content img:first-of-type")) {
-      $(".custom-first").prepend($(".project_content img:first-of-type"));
-    }
+  //     if ($(".project_content img:first-of-type")) {
+  //       $(".custom-first").prepend($(".project_content img:first-of-type"));
+  //     }
 
-    $(".custom-first").append(
-      $("#projects-show section#project_tabs .row aside")
-    );
-    $("#crowdfundind-tabs").prepend(
-      "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
-    );
-    $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
-    $(".project-text").html($(".project_inner"));
-    $(".tabs-content").before($("#tab-nav"));
-    $("#tab-nav dd:nth-of-type(2) a").click();
-    $(".crowdfunding-detail-data").prepend(
-      $(
-        "<div class='data-custom'><div class='data-details-custom'></div></div>"
-      )
-    );
-    $(".data-details-custom").prepend($(".current-amount"));
-    $(".data-details-custom").append($(".objectif-amount"));
-    $(".data-details-custom").append($(".jours-restants"));
-    $(".data-details-custom").append($(".contributeurs"));
-    $(".data-details-custom").append($(".block-infos .new-gift-button"));
-    $(".data-custom").append($(".chart-wrap"));
-  }
+  //     $(".custom-first").append(
+  //       $("#projects-show section#project_tabs .row aside")
+  //     );
+  //     $("#crowdfundind-tabs").prepend(
+  //       "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
+  //     );
+  //     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
+  //     $(".project-text").html($(".project_inner"));
+  //     $(".tabs-content").before($("#tab-nav"));
+  //     $("#tab-nav dd:nth-of-type(2) a").click();
+  //     $(".crowdfunding-detail-data").prepend(
+  //       $(
+  //         "<div class='data-custom'><div class='data-details-custom'></div></div>"
+  //       )
+  //     );
+  //     $(".data-details-custom").prepend($(".current-amount"));
+  //     $(".data-details-custom").append($(".objectif-amount"));
+  //     $(".data-details-custom").append($(".jours-restants"));
+  //     $(".data-details-custom").append($(".contributeurs"));
+  //     $(".data-details-custom").append($(".block-infos .new-gift-button"));
+  //     $(".data-custom").append($(".chart-wrap"));
+  //   }
 });
