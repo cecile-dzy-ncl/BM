@@ -335,4 +335,14 @@ a.new-gift-button:after {
     justify-content: center;
     margin-bottom: 30px;
   }
+
+  a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.active {
+    margin: auto;
+    display: flex;
+    width: fit-content;
+  }
+
+  #projects-show .block-share-container .block-share {
+    padding: 0;
+  }
 }
