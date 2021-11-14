@@ -333,5 +333,6 @@ a.new-gift-button:after {
   .chart-wrap {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
   }
 }
