@@ -329,4 +329,9 @@ a.new-gift-button:after {
   #crowdfundind-tabs {
     padding: 0 30px;
   }
+
+  .chart-wrap {
+    display: flex;
+    justify-content: center;
+  }
 }
