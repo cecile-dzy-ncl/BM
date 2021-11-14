@@ -19,7 +19,7 @@
   margin-left: auto;
   margin-right: 100px;
   /* height: 65%; */
-  /* align-items: flex-start; */
+  align-items: flex-end;
 }
 
 .homepage .banner-text {
