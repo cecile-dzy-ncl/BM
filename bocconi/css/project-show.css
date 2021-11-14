@@ -342,7 +342,15 @@ a.new-gift-button:after {
     width: fit-content;
   }
 
-  #projects-show .block-share-container .block-share {
+  #projects-show x.block-share-container .block-share {
     padding: 0;
+  }
+
+  #projects-show section#tab-nav {
+    display: block;
+  }
+
+  #projects-show section#tab-nav .row .tabs dd.active {
+    margin-bottom: 20px !important;
   }
 }
