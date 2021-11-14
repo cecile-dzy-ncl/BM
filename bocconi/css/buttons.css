@@ -2,6 +2,7 @@
 .button {
   background-color: #254aba;
   border-color: #254aba;
+  color: white;
 }
 
 .button:hover,
