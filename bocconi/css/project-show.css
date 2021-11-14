@@ -353,4 +353,8 @@ a.new-gift-button:after {
   #projects-show section#tab-nav .row .tabs dd.active {
     margin-bottom: 20px !important;
   }
+
+  .tabs-content > .content {
+    display: none;
+  }
 }
