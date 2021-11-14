@@ -64,3 +64,10 @@
   border-right-color: #d8d8d8;
   transform: translateY(-50%);
 } */
+
+@media screen and (max-width: 500px) {
+  a.logo img {
+    filter: invert(64%) sepia(11%) saturate(6462%) hue-rotate(200deg)
+      brightness(77%) contrast(114%);
+  }
+}
