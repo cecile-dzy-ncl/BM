@@ -320,4 +320,8 @@ a.new-gift-button:after {
   .custom-first > * {
     width: 100%;
   }
+
+  #crowdfundind-tabs {
+    padding: 0 30px;
+  }
 }
