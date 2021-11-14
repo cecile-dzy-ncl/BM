@@ -65,7 +65,7 @@
   transform: translateY(-50%);
 } */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   a.logo img {
     filter: invert(64%) sepia(11%) saturate(6462%) hue-rotate(200deg)
       brightness(77%) contrast(114%);
