@@ -312,46 +312,8 @@ a.new-gift-button:after {
   display: none;
 }
 
-/* section#project_tabs {
-  height: 457px;
-  overflow: hidden;
+@media screen and (max-width: 500px) {
+  .custom-first {
+    flex-direction: column;
+  }
 }
-
-#projects-show section#project_tabs .row aside {
-  background-color: #254aba;
-  width: 50%;
-  margin-left: 0;
-}
-
-#project_tabs > .row > img {
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-#projects-show section#project_tabs > .row {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-
-.project-details-custom * {
-  color: white;
-  font-size: 22px;
-  line-height: 32px;
-  margin-bottom: 0;
-}
-
-
-
-.project_content {
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  flex-wrap: wrap;
-}
-
-.project_content * {
-  width: 46%;
-} */
