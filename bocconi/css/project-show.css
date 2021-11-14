@@ -316,4 +316,8 @@ a.new-gift-button:after {
   .custom-first {
     flex-direction: column;
   }
+
+  .custom-first > * {
+    width: 100%;
+  }
 }
