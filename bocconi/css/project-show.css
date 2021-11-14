@@ -357,4 +357,9 @@ a.new-gift-button:after {
   .tabs-content > .content {
     display: none;
   }
+
+  .project_payment #list_payment .people .name,
+  .project_payment #list_payment .people .date {
+    text-align: center;
+  }
 }
