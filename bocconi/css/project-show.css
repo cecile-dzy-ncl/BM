@@ -313,8 +313,13 @@ a.new-gift-button:after {
 }
 
 @media screen and (max-width: 500px) {
-  .custom-first {
+  .custom-first,
+  #projects-show .block-share-container {
     flex-direction: column;
+  }
+
+  .data-custom {
+    flex-direction: column-reverse;
   }
 
   .custom-first > * {
