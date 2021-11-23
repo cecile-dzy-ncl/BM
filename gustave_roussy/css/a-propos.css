@@ -1,8 +1,10 @@
-.intro {
+.intro,
+.don-confiance {
   display: flex;
 }
 
-.intro-text {
+.intro-text,
+.don-confiance p {
   text-align: left;
 }
 
