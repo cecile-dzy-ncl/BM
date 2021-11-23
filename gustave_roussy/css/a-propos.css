@@ -14,6 +14,8 @@
 
 .intro-chiffres div {
   text-align: center;
+  background: white;
+  padding: 10px;
 }
 
 .intro-chiffres span {
