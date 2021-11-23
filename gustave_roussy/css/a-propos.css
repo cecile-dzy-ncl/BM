@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.intro-text {
+  text-align: left;
+}
+
 @media screen and (max-width: 500px) {
   .intro {
     flex-direction: column;
