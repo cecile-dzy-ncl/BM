@@ -42,3 +42,42 @@
   bottom: 12px;
   position: absolute;
 }
+
+.campagne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 570px;
+  margin-bottom: 35px;
+  /* width: 1146px; */
+  /* margin: 0px auto 100px auto; */
+}
+
+.camp-description,
+.camp-photo {
+  width: 50%;
+}
+
+.camp-description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .campagne,
+  .campagne:nth-child(even) {
+    flex-direction: column;
+    height: auto;
+  }
+  /* .campagne:nth-child(even) {
+    flex-direction: column-reverse;
+  } */
+
+  .camp-description,
+  .camp-photo {
+    width: 100%;
+  }
+}
