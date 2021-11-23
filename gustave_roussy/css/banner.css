@@ -13,13 +13,13 @@
 }
 
 .banner-text {
-  width: 560px;
+  width: 455px;
   z-index: 1;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: 100px;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .banner.homepage {
@@ -27,9 +27,10 @@
 }
 
 .homepage .banner-text {
+  width: 560px;
   margin-right: auto;
   margin-left: 120px;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 
 .banner-text * {
