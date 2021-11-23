@@ -3,7 +3,7 @@
   display: flex;
 }
 
-.intro-text,
+.intro-text p,
 .don-confiance p {
   text-align: left;
 }
