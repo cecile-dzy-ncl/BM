@@ -58,6 +58,10 @@
   width: 50%;
 }
 
+.camp-photo img {
+  width: 100%;
+}
+
 .camp-description {
   height: 100%;
   display: flex;
