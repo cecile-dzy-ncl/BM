@@ -3,6 +3,10 @@
   display: flex;
 }
 
+.intro-text {
+  width: 70%;
+}
+
 .intro-text p,
 .don-confiance p {
   text-align: left;
