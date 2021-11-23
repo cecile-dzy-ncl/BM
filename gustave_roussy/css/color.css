@@ -44,3 +44,7 @@
 .pink {
   color: var(--pink);
 }
+
+.bg-pattern {
+  background: url("https://collecter.gustaveroussy.fr/cdn.iraiser.eu/Dcp782shD5vxB1dJKeW8GD+0ia/vCe2vk/43cMDLn9Jf6SMzw0z7g0OpeXtFTkr//Cecile_Dezy/origin/pattern.png");
+}
