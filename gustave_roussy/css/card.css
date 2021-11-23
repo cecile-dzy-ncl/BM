@@ -65,6 +65,9 @@
   align-items: center;
   justify-content: center;
 }
+.camp-description * {
+  text-align: left;
+}
 
 @media screen and (max-width: 500px) {
   .campagne,
