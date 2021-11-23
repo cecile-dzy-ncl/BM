@@ -12,6 +12,18 @@
   text-align: left;
 }
 
+.intro-chiffres div {
+  text-align: center;
+}
+
+.intro-chiffres span {
+  font-size: 15px;
+}
+
+.intro-chiffres .brush {
+  font-size: 44px;
+}
+
 @media screen and (max-width: 500px) {
   .intro,
   .don-confiance {
