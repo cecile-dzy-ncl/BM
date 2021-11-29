@@ -339,6 +339,7 @@ a.new-gift-button:after {
   a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.active {
     margin: auto;
     display: flex;
+    justify-content: center;
     width: fit-content;
   }
 
