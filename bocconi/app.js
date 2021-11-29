@@ -56,5 +56,6 @@ $(document).ready(function () {
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
     $(".data-custom").append($(".chart-wrap"));
+    $(".chart").data("color", "");
   }
 });
