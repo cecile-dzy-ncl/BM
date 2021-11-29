@@ -362,4 +362,9 @@ a.new-gift-button:after {
   .project_payment #list_payment .people .date {
     text-align: center;
   }
+
+  #show_desired_amount:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
