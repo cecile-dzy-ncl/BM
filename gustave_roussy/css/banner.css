@@ -46,3 +46,7 @@
 .banner-text .btn-bm {
   margin: 0;
 }
+
+.intro .container {
+  width: 100%;
+}
