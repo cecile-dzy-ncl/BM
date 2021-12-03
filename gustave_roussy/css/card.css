@@ -24,6 +24,10 @@
   margin-bottom: 14px;
 }
 
+.project-card a {
+  text-decoration: underline;
+}
+
 .project-card img {
   width: 100%;
   height: 250px;
