@@ -1,6 +1,7 @@
 .intro,
 .don-confiance {
   display: flex;
+  align-items: center;
 }
 
 .intro-text {
@@ -10,6 +11,11 @@
 .intro-text p,
 .don-confiance p {
   text-align: left;
+}
+
+.don-confiance p {
+  margin-bottom: 0;
+  margin-left: 30px;
 }
 
 .intro-chiffres div {
