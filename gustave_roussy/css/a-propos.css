@@ -38,10 +38,10 @@
 
 .intro-chiffres span {
   font-size: 15px;
-  color: var(--pink);
 }
 
 .intro-chiffres .brush {
+  color: var(--pink);
   font-size: 44px;
 }
 
