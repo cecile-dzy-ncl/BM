@@ -14,6 +14,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "brusher";
+  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/Brusher.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brush {
+  font-family: "brusher";
+}
+
 h1,
 h2 {
   font-family: "DIN Pro";
