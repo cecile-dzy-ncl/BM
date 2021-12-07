@@ -32,6 +32,10 @@
   padding: 10px;
 }
 
+.intro-chiffres p {
+  margin-bottom: 0;
+}
+
 .intro-chiffres span {
   font-size: 15px;
 }
