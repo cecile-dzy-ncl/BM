@@ -4,8 +4,12 @@
   align-items: center;
 }
 
+.intro {
+  justify-content: space-between;
+}
+
 .intro-text {
-  width: 70%;
+  width: 60%;
 }
 
 .intro-text p,
