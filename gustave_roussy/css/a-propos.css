@@ -1,10 +1,10 @@
 .intro,
 .don-confiance {
   display: flex;
-  align-items: center;
 }
 
 .intro {
+  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -15,6 +15,10 @@
 .intro-text p,
 .don-confiance p {
   text-align: left;
+}
+
+.don-confiance {
+  align-items: center;
 }
 
 .don-confiance p {
