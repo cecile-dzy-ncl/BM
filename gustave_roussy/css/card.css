@@ -99,6 +99,10 @@
   align-items: center;
 }
 
+.programme img {
+  width: 136px;
+}
+
 .programme .brush {
   font-size: 45px;
 }
