@@ -26,6 +26,7 @@ $(document).ready(function () {
   }
 
   if ($("#project_tabs")) {
+    $("#show_title").append($("#form_title"));
     $("#project_tabs").after($("#crowdfundind-tabs"));
     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     $(".project-details-custom").prepend("<div class='custom-first'></div>");
