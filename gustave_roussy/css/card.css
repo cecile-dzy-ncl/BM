@@ -113,6 +113,10 @@
   font-size: 45px;
 }
 
+#wrapper-events .project-card {
+  background: white;
+}
+
 @media screen and (max-width: 500px) {
   .campagne,
   .campagne:nth-child(even) {
