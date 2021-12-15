@@ -16,4 +16,7 @@
 .wrapper-events h2 span {
   background: var(--pink);
   color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
