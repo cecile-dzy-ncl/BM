@@ -42,6 +42,7 @@ $(document).ready(function () {
       "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
     );
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
+    $(".project-custom-description").append($(".group_edit_project"));
     $(".project-text").html($(".project_inner"));
     $(".tabs-content").before($("#tab-nav"));
     $("#tab-nav dd:nth-of-type(2) a").click();
@@ -52,7 +53,6 @@ $(document).ready(function () {
     );
     $(".data-details-custom").prepend($(".current-amount"));
     $(".data-details-custom").append($(".objectif-amount"));
-    $(".data-details-custom").append($(".group_edit_project"));
     $(".data-details-custom").append($(".update_project"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".data-details-custom").append($(".contributeurs"));
