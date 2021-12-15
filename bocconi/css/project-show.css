@@ -318,6 +318,7 @@ a.new-gift-button:after {
 
 .block-edit {
   display: flex;
+  align-items: center;
 }
 
 .block-edit li {
