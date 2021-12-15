@@ -55,9 +55,10 @@ $(document).ready(function () {
       )
     );
     $(".data-details-custom").prepend($(".current-amount"));
-    $(".data-details-custom").append($(".objectif-amount"));
-    $(".objectif-amount").append($("#form_desired_amount"));
-    $(".objectif-amount").append($("#edit_desired_amount"));
+    $(".data-details-custom").append($("<div id='bloc-desired-amount'></div>"));
+    $("#bloc-desired-amount").append($(".objectif-amount"));
+    $("#bloc-desired-amount").append($("#form_desired_amount"));
+    $("#bloc-desired-amount").append($("#edit_desired_amount"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".jours-restants").append($("#form_days"));
     $(".jours-restants").append($("#edit_days"));

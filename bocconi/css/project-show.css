@@ -312,6 +312,10 @@ a.new-gift-button:after {
   display: none;
 }
 
+#form_days {
+  width: 90%;
+}
+
 @media screen and (max-width: 500px) {
   .custom-first,
   #projects-show .block-share-container {
