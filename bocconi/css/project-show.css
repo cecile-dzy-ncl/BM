@@ -320,6 +320,10 @@ a.new-gift-button:after {
   margin-bottom: 60px;
 }
 
+#form_title {
+  margin: auto;
+}
+
 .block-edit {
   display: flex;
   align-items: center;
