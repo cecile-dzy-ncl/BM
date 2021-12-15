@@ -30,10 +30,12 @@
   text-align: center;
   background: white;
   padding: 10px;
+  margin: 10px 0;
 }
 
 .intro-chiffres p {
   margin-bottom: 0;
+  margin-top: -12px;
 }
 
 .intro-chiffres span {
