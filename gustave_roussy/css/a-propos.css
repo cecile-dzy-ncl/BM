@@ -55,6 +55,7 @@
 .intro-chiffres .brush {
   color: var(--pink);
   font-size: 44px;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 500px) {
