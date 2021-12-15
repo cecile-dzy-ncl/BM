@@ -57,6 +57,7 @@ $(document).ready(function () {
     $(".data-details-custom").append($(".jours-restants"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
+    $(".data-details-custom").append($(".ask_edit_project"));
     $(".data-custom").append($(".chart-wrap"));
     $(".chart").data("color", "");
   }
