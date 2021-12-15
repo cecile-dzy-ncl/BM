@@ -29,6 +29,8 @@ $(document).ready(function () {
     $("#show_title").wrap($("<div id='block-title' class='block-edit'></div>"));
     $("#block-title").append($("#form_title"));
     $("#block-title").append($("#edit_title"));
+    $("#block-title").append($(".projet-head .group_edit_project"));
+
     $("#project_tabs").after($("#crowdfundind-tabs"));
     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     $(".project-details-custom").prepend("<div class='custom-first'></div>");
