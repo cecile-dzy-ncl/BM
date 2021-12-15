@@ -63,9 +63,13 @@ $(document).ready(function () {
     $("#block-desired-amount").append($("#form_desired_amount"));
     $("#block-desired-amount").append($("#edit_desired_amount"));
     $("#block-desired-amount").append($(".infos-money .group_edit_project"));
-    $(".data-details-custom").append($(".jours-restants"));
-    $(".jours-restants").append($("#form_days"));
-    $(".jours-restants").append($("#edit_days"));
+
+    $(".data-details-custom").append(
+      $("<div id='block-days' class='block-edit'></div>")
+    );
+    $("#block-days").append($(".jours-restants"));
+    $("#block-days").append($("#form_days"));
+    $("#block-days").append($("#edit_days"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
     // $(".data-details-custom").append($(".ask_edit_project"));
