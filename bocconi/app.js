@@ -27,6 +27,7 @@ $(document).ready(function () {
 
   if ($("#project_tabs")) {
     $("#show_title").append($("#form_title"));
+    $("#show_title").append($("#edit_title"));
     $("#project_tabs").after($("#crowdfundind-tabs"));
     $("#project_tabs").prepend("<div class='project-details-custom'></div>");
     $(".project-details-custom").prepend("<div class='custom-first'></div>");
@@ -43,7 +44,8 @@ $(document).ready(function () {
       "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
     );
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
-    $(".project-custom-description").append($(".group_edit_project"));
+    $(".project-custom-description").append($("#form_description"));
+    $(".project-custom-description").append($("#edit_description"));
     $(".project-text").html($(".project_inner"));
     $(".tabs-content").before($("#tab-nav"));
     $("#tab-nav dd:nth-of-type(2) a").click();
@@ -57,9 +59,11 @@ $(document).ready(function () {
     $(".objectif-amount").append($("#form_desired_amount"));
     $(".objectif-amount").append($("#edit_desired_amount"));
     $(".data-details-custom").append($(".jours-restants"));
+    $(".jours-restants").append($("#form_days"));
+    $(".jours-restants").append($("#edit_days"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
-    $(".data-details-custom").append($(".ask_edit_project"));
+    // $(".data-details-custom").append($(".ask_edit_project"));
     $(".data-custom").append($(".chart-wrap"));
     $(".chart").data("color", "");
   }
