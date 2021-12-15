@@ -59,6 +59,7 @@ $(document).ready(function () {
     $("#bloc-desired-amount").append($(".objectif-amount"));
     $("#bloc-desired-amount").append($("#form_desired_amount"));
     $("#bloc-desired-amount").append($("#edit_desired_amount"));
+    $("#bloc-desired-amount").append($(".infos-money .group_edit_project"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".jours-restants").append($("#form_days"));
     $(".jours-restants").append($("#edit_days"));
