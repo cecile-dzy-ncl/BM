@@ -11,3 +11,9 @@
   display: block;
   margin: 20px auto 40px;
 }
+
+.wrapper-programmes h2 span,
+.wrapper-events h2 span {
+  background: var(--pink);
+  color: white;
+}
