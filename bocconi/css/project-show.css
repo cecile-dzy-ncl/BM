@@ -316,7 +316,7 @@ a.new-gift-button:after {
   width: 90%;
 }
 
-#block-edit {
+.block-edit {
   display: flex;
 }
 
