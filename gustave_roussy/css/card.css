@@ -66,8 +66,14 @@
   width: 50%;
 }
 
+.camp-photo,
+.camp-photo img {
+  height: 100%;
+}
+
 .camp-photo img {
   width: 100%;
+  height: 100%;
 }
 
 .camp-description {
