@@ -350,6 +350,16 @@ a.new-gift-button:after {
   list-style: none;
 }
 
+.project-custom-description {
+  position: relative;
+}
+
+.project_inner .group_edit_project {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 @media screen and (max-width: 500px) {
   .custom-first,
   #projects-show .block-share-container {
