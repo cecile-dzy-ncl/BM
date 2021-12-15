@@ -47,8 +47,8 @@ $(document).ready(function () {
       "<div class='project-custom-description'><h2></h2><div class='project-text'></div></div>"
     );
     $(".project-custom-description h2").html($("#tab-nav dd:first-of-type a"));
-    $(".project-custom-description").append($("#form_description"));
-    $(".project-custom-description h2").append($("#edit_description"));
+    // $(".project-custom-description").append($("#form_description"));
+    // $(".project-custom-description h2").append($("#edit_description"));
     $(".project-text").html($(".project_inner"));
     $(".tabs-content").before($("#tab-nav"));
     $("#tab-nav dd:nth-of-type(2) a").click();
