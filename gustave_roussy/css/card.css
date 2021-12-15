@@ -83,6 +83,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.camp-description h3 {
+  font-size: 28px;
+  text-align: left;
+}
+
 .camp-description * {
   text-align: left;
 }
