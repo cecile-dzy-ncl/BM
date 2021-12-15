@@ -26,11 +26,21 @@
   margin-left: 30px;
 }
 
+.intro-chiffres {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .intro-chiffres div {
   text-align: center;
   background: white;
   padding: 10px;
   margin: 20px 0;
+}
+
+.intro-chiffres div:nth-child(even) {
+  align-self: flex-start;
 }
 
 .intro-chiffres p {
