@@ -320,6 +320,10 @@ a.new-gift-button:after {
   display: flex;
 }
 
+.block-edit li {
+  list-style: none;
+}
+
 @media screen and (max-width: 500px) {
   .custom-first,
   #projects-show .block-share-container {
