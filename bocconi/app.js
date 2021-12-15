@@ -53,7 +53,7 @@ $(document).ready(function () {
     );
     $(".data-details-custom").prepend($(".current-amount"));
     $(".data-details-custom").append($(".objectif-amount"));
-    $(".data-details-custom").append($(".update_project"));
+    $(".objectif-amount").append($(".update_project"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
