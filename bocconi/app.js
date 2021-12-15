@@ -55,6 +55,7 @@ $(document).ready(function () {
     $(".data-details-custom").prepend($(".current-amount"));
     $(".data-details-custom").append($(".objectif-amount"));
     $(".objectif-amount").append($("#form_desired_amount"));
+    $(".objectif-amount").append($("#edit_desired_amount"));
     $(".data-details-custom").append($(".jours-restants"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
