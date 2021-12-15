@@ -248,9 +248,9 @@ ul.pagination li button.unavailable {
   opacity: 0.2;
 }
 
-p#show_days {
+/* p#show_days {
   margin-bottom: 8px;
-}
+} */
 
 form.edit_project,
 form.edit_project > .row,
@@ -312,6 +312,10 @@ a.new-gift-button:after {
   display: none;
 }
 
+.ask_edit_project {
+  filter: brightness(1) contrast(1) invert(1);
+}
+
 .jours-restants {
   width: fit-content;
 }
@@ -327,6 +331,10 @@ a.new-gift-button:after {
 
 #block-title h1#show_title {
   margin: 0;
+}
+
+#block-days {
+  margin-bottom: 8px;
 }
 
 #form_title {
