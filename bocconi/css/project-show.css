@@ -234,7 +234,7 @@ ul.pagination li button.unavailable {
   font-size: 22px;
   line-height: 38px;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 
 #show_desired_amount:after {
@@ -314,6 +314,10 @@ a.new-gift-button:after {
 
 #form_days {
   width: 90%;
+}
+
+#block-desired-amount {
+  margin-bottom: 60px;
 }
 
 .block-edit {
