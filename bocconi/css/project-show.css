@@ -312,10 +312,6 @@ a.new-gift-button:after {
   display: none;
 }
 
-#form_days {
-  width: 90%;
-}
-
 .jours-restants {
   width: fit-content;
 }
