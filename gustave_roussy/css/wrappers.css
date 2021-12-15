@@ -16,7 +16,12 @@
 #wrapper-events h2 span {
   background: var(--pink);
   color: white;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-right: 10px;
 }
