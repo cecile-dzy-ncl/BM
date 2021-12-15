@@ -93,6 +93,16 @@
   text-align: left;
 }
 
+.programme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.programme .brush {
+  font-size: 45px;
+}
+
 @media screen and (max-width: 500px) {
   .campagne,
   .campagne:nth-child(even) {
