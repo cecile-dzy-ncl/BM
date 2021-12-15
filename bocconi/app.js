@@ -70,6 +70,7 @@ $(document).ready(function () {
     $("#block-days").append($(".jours-restants"));
     $("#block-days").append($("#form_days"));
     $("#block-days").append($("#edit_days"));
+    $("#block-days").append($(".jours-restants .group_edit_project"));
     $(".data-details-custom").append($(".contributeurs"));
     $(".data-details-custom").append($(".block-infos .new-gift-button"));
     // $(".data-details-custom").append($(".ask_edit_project"));

@@ -316,6 +316,10 @@ a.new-gift-button:after {
   width: 90%;
 }
 
+.jours-restants {
+  width: fit-content;
+}
+
 #block-desired-amount {
   margin-bottom: 60px;
 }
