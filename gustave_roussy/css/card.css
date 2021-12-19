@@ -94,6 +94,7 @@
 }
 
 .programme {
+  width: 18%;
   display: flex;
   flex-direction: column;
   align-items: center;
