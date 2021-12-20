@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-.projects-list {
+.grid-projects-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
@@ -22,14 +22,14 @@
   margin-left: 0;
 }
 
-.projects-list li {
+.grid-projects-list li {
   list-style: none;
 }
 
-.projects-list .panel .columns {
+.grid-projects-list .panel .columns {
   float: none !important;
 }
 
-.projects-list .panel .infos-money-details {
+.grid-projects-list .panel .infos-money-details {
   display: flex;
 }
