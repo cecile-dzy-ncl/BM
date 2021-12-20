@@ -27,5 +27,9 @@
 }
 
 .projects-list .panel .columns {
-  float: left !important;
+  float: none !important;
+}
+
+.projects-list .panel .infos-money-details {
+  display: flex;
 }
