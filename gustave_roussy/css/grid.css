@@ -25,3 +25,7 @@
 .projects-list li {
   list-style: none;
 }
+
+.projects-list .panel .columns {
+  float: left !important;
+}
