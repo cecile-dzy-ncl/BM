@@ -30,3 +30,8 @@ button,
   display: block;
   width: fit-content;
 }
+
+#widget-new-project .button {
+  border-radius: 8px;
+  background-color: var(--green);
+}
