@@ -1,0 +1,9 @@
+.event-head > .bg-secondary-color-blurred {
+  background-color: white;
+}
+
+.event-head .intro-my-event h1 {
+  color: black;
+  text-align: left;
+  text-transform: uppercase;
+}
