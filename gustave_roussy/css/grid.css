@@ -29,6 +29,16 @@
   width: 25%;
 }
 
+.grid-projects-list .caption p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.grid-projects-list .caption h3 {
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
 .grid-projects-list .panel .columns {
   float: none !important;
 }
