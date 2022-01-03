@@ -11,6 +11,7 @@
   color: black;
   text-align: left;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .event-head .intro-my-event p {
