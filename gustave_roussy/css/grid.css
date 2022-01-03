@@ -15,15 +15,18 @@
 }
 
 .grid-projects-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
   grid-gap: 1rem;
   /* padding: 0; */
   margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .grid-projects-list li {
   list-style: none;
+  width: 25%;
 }
 
 .grid-projects-list .panel .columns {
