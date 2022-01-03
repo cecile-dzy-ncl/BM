@@ -18,3 +18,9 @@
   color: black;
   text-align: left;
 }
+
+.event-head .details-my-event .infos-money,
+#events-show .block-share-container h4,
+.event-head .infos-money .chart-wrap .percent {
+  color: var(--green);
+}
