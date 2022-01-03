@@ -24,3 +24,8 @@
 .event-head .infos-money .chart-wrap .percent {
   color: var(--green);
 }
+
+#events-show .block-share-container h4 span:after,
+#events-show .block-share-container h4 span:before {
+  background-color: var(--green);
+}
