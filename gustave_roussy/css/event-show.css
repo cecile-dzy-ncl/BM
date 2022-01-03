@@ -7,3 +7,8 @@
   text-align: left;
   text-transform: uppercase;
 }
+
+.event-head .intro-my-event p {
+  color: black;
+  text-align: left;
+}
