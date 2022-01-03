@@ -46,3 +46,7 @@
 .grid-projects-list .panel .infos-money-details {
   display: flex;
 }
+
+.grid-projects-list .panel .infos-money-details small {
+  margin-bottom: 0;
+}
