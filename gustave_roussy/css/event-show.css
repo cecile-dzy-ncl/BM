@@ -1,4 +1,5 @@
-.event-head {
+.event-head .intro-my-event,
+.event-head .details-my-event {
   padding: 40px;
 }
 
