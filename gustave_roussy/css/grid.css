@@ -30,8 +30,12 @@
 }
 
 .grid-projects-list .caption p {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 8px;
+}
+
+.grid-projects-list .caption p i {
+  font-size: 12px;
 }
 
 .grid-projects-list .caption h3 {
