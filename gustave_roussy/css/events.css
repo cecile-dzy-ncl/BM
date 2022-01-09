@@ -1,0 +1,69 @@
+#events-index .event-item .panel {
+  background: #f4f6f6;
+}
+
+#events-index .event-description a,
+#events-index .event-description p,
+#events-index .event-description h3,
+#events-index .event-description .infos * {
+  text-align: left !important;
+}
+
+#events-index .event-description .infos {
+  display: flex;
+  margin-top: 10px;
+}
+
+#events-index .event-description .infos .teamcount {
+  order: 1;
+  display: flex;
+  align-items: baseline;
+}
+
+#events-index .event-description .infos .teamcount i {
+  margin-right: 10px;
+}
+
+#events-index .event-description .infos .daysleft {
+  order: 2;
+}
+
+#events-index .event-description .infos .location {
+  order: 3;
+}
+
+#events-index .event-item ul li {
+  margin: 0;
+  border-radius: 0;
+}
+
+#events {
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .event-item .panel .event-image .wrap {
+    height: 300px;
+  }
+
+  .event-item .panel .event-image .wrap {
+    height: 300px;
+  }
+
+  .event-image img,
+  .section-events .event-item .event-details .event-goup-btn li {
+    width: 100%;
+  }
+
+  [class*="block-grid-"] > li {
+    padding: 1rem;
+  }
+
+  .section-events [class*="block-grid-"] {
+    margin: 0;
+  }
+  .section-events .event-item .event-details .event-goup-btn .page-create,
+  .section-events .event-item .event-details .event-goup-btn .page-see {
+    width: 90%;
+  }
+}
