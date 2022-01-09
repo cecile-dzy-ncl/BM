@@ -11,6 +11,7 @@ button,
   text-transform: uppercase;
   font-family: "DIN Pro";
   background-color: var(--green);
+  border-color: var(--green);
   border-radius: 8px;
 }
 
