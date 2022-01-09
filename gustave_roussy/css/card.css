@@ -8,7 +8,7 @@
 }
 
 .project-card * {
-  text-align: left;
+  text-align: center;
   color: var(--blue);
 }
 
