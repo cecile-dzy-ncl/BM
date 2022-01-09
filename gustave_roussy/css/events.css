@@ -41,6 +41,22 @@
   padding-bottom: 50px;
 }
 
+#events-index .event-description i {
+  color: grey;
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-create {
+  border: 2px solid var(--green);
+}
+
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  background-color: var(--green);
+  border: 2px solid;
+  margin-left: 10px;
+  background: transparent;
+  color: grey;
+}
+
 @media screen and (max-width: 500px) {
   .event-item .panel .event-image .wrap {
     height: 300px;
