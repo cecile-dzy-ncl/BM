@@ -50,3 +50,14 @@
 .intro .container {
   width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+  .banner {
+    flex-direction: column;
+    background: white;
+  }
+  .banner-text {
+    margin: 0 auto !important;
+    margin-bottom: 30px;
+  }
+}
