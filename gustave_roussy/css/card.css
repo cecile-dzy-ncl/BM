@@ -154,4 +154,9 @@
   .programme p {
     margin-left: 0px;
   }
+
+  .don-confiance p {
+    text-align: center;
+    margin-left: 0;
+  }
 }
