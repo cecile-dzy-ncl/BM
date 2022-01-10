@@ -61,3 +61,14 @@
 .grid-projects-list .panel .infos-money-details small {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 500px) {
+  .grid-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-projects-list li {
+    list-style: none;
+    width: 90%;
+  }
+}
