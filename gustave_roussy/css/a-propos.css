@@ -63,4 +63,9 @@
   .don-confiance {
     flex-direction: column;
   }
+
+  .intro-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
