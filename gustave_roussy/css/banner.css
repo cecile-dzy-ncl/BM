@@ -57,10 +57,10 @@
     background: white;
   }
   .banner-text {
-    width: 90% !important;
+    width: 100% !important;
     margin: 0 auto !important;
-    margin-bottom: 30px !important;
     align-items: center;
+    padding: 30px;
   }
   .banner-text * {
     text-align: center;
