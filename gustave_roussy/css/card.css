@@ -132,4 +132,18 @@
   .camp-photo {
     width: 100%;
   }
+
+  .programme {
+    width: 46%;
+  }
+
+  .programme img {
+    width: 130px;
+  }
+  .programme span {
+    margin-right: 0;
+  }
+  .programme p {
+    margin-left: 0px;
+  }
 }
