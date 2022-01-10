@@ -55,6 +55,7 @@
   .banner {
     flex-direction: column;
     background: white;
+    height: auto !important;
   }
   .banner-text {
     width: 100% !important;
