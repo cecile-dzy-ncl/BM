@@ -65,3 +65,10 @@ blockquote {
   color: #3e3643;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
