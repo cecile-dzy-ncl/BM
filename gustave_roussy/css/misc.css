@@ -6,4 +6,9 @@ html {
   .bg-grey .mobile_flex-column {
     flex-direction: column-reverse;
   }
+
+  #wrapper-ex * {
+    text-align: center !important;
+    align-items: center;
+  }
 }
