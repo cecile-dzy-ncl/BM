@@ -62,7 +62,7 @@
     align-items: center;
     padding: 30px;
   }
-  .banner-text * {
+  .banner-text *:not(a) {
     text-align: center;
     color: #3e3643;
   }
