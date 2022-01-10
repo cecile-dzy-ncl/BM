@@ -58,7 +58,11 @@
   }
   .banner-text {
     margin: 0 auto !important;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
+  }
+  .banner-text * {
+    text-align: center;
+    color: black;
   }
   .banner img {
     position: relative;
