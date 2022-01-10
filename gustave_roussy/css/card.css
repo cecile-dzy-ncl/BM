@@ -137,6 +137,10 @@
     padding: 20px !important;
   }
 
+  .camp-description h3 {
+    text-align: center;
+  }
+
   .programme {
     width: 46%;
   }
