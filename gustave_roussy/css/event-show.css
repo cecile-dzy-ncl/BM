@@ -19,6 +19,10 @@
   text-align: left;
 }
 
+.event-head .intro-my-event p {
+  color: var(--green);
+}
+
 .event-head .details-my-event .infos-money,
 #events-show .block-share-container h4,
 .event-head .infos-money .chart-wrap .percent {
