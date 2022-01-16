@@ -1,3 +1,7 @@
 .infos-money .infos-money-details .info-money.detail {
   color: var(--black);
 }
+
+.projects-list .panel {
+  border: 1px solid lightgrey;
+}
