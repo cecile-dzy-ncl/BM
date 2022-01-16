@@ -57,6 +57,10 @@
   color: grey;
 }
 
+.event-description p:last-of-type {
+  margin: -10px 0;
+}
+
 @media screen and (max-width: 500px) {
   .event-item .panel .event-image .wrap {
     height: 300px;
