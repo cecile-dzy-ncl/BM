@@ -101,7 +101,7 @@ section#project_tabs > .bg-color-light {
   background: white;
 }
 
-.block-share-container h4 {
+#projects-show .block-share-container h4 {
   font-family: "Open Sans";
 }
 
