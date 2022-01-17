@@ -88,6 +88,13 @@ section.section-projet-details .team_by {
   align-items: center;
 }
 
+#projects-show .current-amount,
+#projects-show .objectif-amount,
+#projects-show #show_days,
+#projects-show .contributeurs p {
+  color: white;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
