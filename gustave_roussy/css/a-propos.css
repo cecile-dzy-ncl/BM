@@ -43,6 +43,11 @@
   align-self: flex-start;
 }
 
+.intro-chiffres > p {
+  width: 80%;
+  margin: auto;
+}
+
 .intro-chiffres p {
   margin-bottom: 0;
   margin-top: -12px;
