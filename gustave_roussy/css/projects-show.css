@@ -1,6 +1,6 @@
 #projects-show .section-projet-details > .row:last-of-type,
 #projects-show .block-share-container {
-  background-color: #671c3d;
+  background-color: var(--green);
 }
 
 #projects-show
