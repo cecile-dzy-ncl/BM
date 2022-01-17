@@ -1,3 +1,7 @@
+.row.project-detail-data.p2p-detail-data {
+  padding-top: 2rem;
+}
+
 #projects-show .section-projet-details > .row:last-of-type,
 #projects-show .block-share-container {
   background-color: var(--green);
@@ -30,11 +34,12 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 }
 
 section.section-projet-details .project-detail-data .project_boutons_give {
-  font-weight: 500;
+  /* font-weight: 500; */
   background-color: white;
   color: var(--green);
   padding: 0.6rem 0;
   min-height: auto;
+  border-radius: 8px;
 }
 
 #show_title {
