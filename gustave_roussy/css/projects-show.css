@@ -114,6 +114,13 @@ section#project_tabs > .bg-color-light {
   background-color: white;
 }
 
+section.section-projet-details .project-detail-data .jours-restants span,
+section.section-projet-details .project-detail-data .contributeurs i,
+section.section-projet-details .project-detail-data .contributeurs span {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
