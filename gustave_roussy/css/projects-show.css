@@ -1,0 +1,105 @@
+#projects-show .section-projet-details > .row:last-of-type,
+#projects-show .block-share-container {
+  background-color: #671c3d;
+}
+
+#projects-show
+  .section-projet-details
+  > .row:last-of-type
+  .bg-secondary-color-blurred {
+  background-color: transparent;
+}
+
+#projects-show .block-share-container .social-btns {
+  filter: invert(1);
+}
+
+#projects-show .block-share-container h4,
+#projects-show section.section-projet-details .project-detail-data,
+#projects-show
+  section.section-projet-details
+  .infos-money
+  .chart-wrap
+  .percent {
+  color: white;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background-color: transparent;
+  color: white;
+}
+
+section.section-projet-details .project-detail-data .project_boutons_give {
+  font-weight: 500;
+}
+
+#show_title {
+  font-size: 2rem;
+  line-height: initial;
+  margin: 1rem 0;
+}
+
+section.section-projet-details .team_by {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+}
+
+.projet-head > .small-12.medium-9.columns {
+  width: 100%;
+}
+
+.projet-head > .columns:last-of-type {
+  display: none;
+}
+
+.projet-head > .columns:first-of-type .small-12.medium-2.large-2.columns {
+  display: flex;
+  align-items: center;
+}
+
+#projects-show .projet-head {
+  background-color: transparent;
+}
+
+.bx-wrapper .bx-viewport {
+  box-shadow: none;
+}
+
+.tabs dd.active a,
+.tabs .tab-title.active a {
+  color: #fff;
+}
+
+#projects-show .project_event_description {
+  width: 100%;
+  padding: 2rem 5rem;
+  background: #f0f0f0;
+}
+
+#projects-show section#banner_section {
+  display: none;
+}
+
+#projects-show .section-projet-details > .row:last-of-type {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  #projects-show .section-projet-details > .row:last-of-type {
+    flex-direction: column;
+  }
+
+  .projet-head > .columns:first-of-type .small-12.medium-2.large-2.columns {
+    display: none;
+  }
+
+  section.section-projet-details .team_by {
+    text-align: center;
+    float: none !important;
+  }
+
+  #projects-show .project_event_description {
+    padding: 1rem 2rem;
+  }
+}
