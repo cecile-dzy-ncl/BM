@@ -31,6 +31,8 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 section.section-projet-details .project-detail-data .project_boutons_give {
   font-weight: 500;
+  background-color: white;
+  color: var(--green);
 }
 
 #show_title {
