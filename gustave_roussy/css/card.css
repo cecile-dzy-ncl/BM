@@ -104,13 +104,22 @@
   width: 136px;
 }
 
+.programme:first-of-type p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.programme:first-of-type span {
+  margin-top: -20px;
+}
+
 .programme p {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   margin-top: -15px;
 }
 
 .programme span {
-  margin-right: -15px;
+  /* margin-right: -15px; */
   font-size: 45px;
 }
 
