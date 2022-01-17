@@ -105,6 +105,11 @@ section#project_tabs > .bg-color-light {
   font-family: "Open Sans";
 }
 
+.block-share-container h4 span:before,
+.block-share-container h4 span:after {
+  background-color: white;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
