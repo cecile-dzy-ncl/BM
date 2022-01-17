@@ -44,6 +44,10 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   text-align: left;
 }
 
+p#show_team {
+  color: white;
+}
+
 section.section-projet-details .team_by {
   margin: 0 0 1rem;
   font-size: 1rem;
