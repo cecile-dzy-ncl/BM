@@ -95,6 +95,10 @@ section.section-projet-details .team_by {
   color: white;
 }
 
+section#project_tabs > .bg-color-light {
+  background: white;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
