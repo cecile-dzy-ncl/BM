@@ -33,3 +33,10 @@
 #events-show .block-share-container h4 span:before {
   background-color: var(--green);
 }
+
+#banner_section .image_banner {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
