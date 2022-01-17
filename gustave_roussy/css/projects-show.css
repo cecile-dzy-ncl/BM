@@ -34,7 +34,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
   background-color: white;
   color: var(--green);
   padding: 0.6rem 0;
-  min-height: none;
+  min-height: auto;
 }
 
 #show_title {
@@ -99,6 +99,10 @@ section.section-projet-details .team_by {
 
 section#project_tabs > .bg-color-light {
   background: white;
+}
+
+.block-share-container h4 {
+  font-family: "Open Sans";
 }
 
 @media screen and (max-width: 500px) {
