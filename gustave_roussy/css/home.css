@@ -9,3 +9,7 @@
 .stats .nb {
   font-weight: bold;
 }
+
+.section-home-projects {
+  display: none;
+}
