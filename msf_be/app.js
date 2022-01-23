@@ -388,7 +388,8 @@ $(document).ready(function () {
         fetchData(value, $("#collectes-scroll .scrolling-wrapper"));
       });
 
-      var events = [85, 86];
+      // var events = [85, 86];
+      var events = [100];
       $("#events-scroll .scrolling-wrapper").html("");
       $.each(events, function (key, value) {
         fetchData(value, "#events-scroll .scrolling-wrapper");
