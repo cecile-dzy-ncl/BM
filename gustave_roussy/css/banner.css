@@ -28,8 +28,8 @@
 
 .homepage .banner-text {
   width: 560px;
-  margin-right: auto;
-  margin-left: 120px;
+  /* margin-right: auto;
+  margin-left: 120px; */
   /* align-items: flex-start; */
 }
 
