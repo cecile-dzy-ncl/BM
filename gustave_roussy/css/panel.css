@@ -2,6 +2,6 @@
   color: var(--black);
 }
 
-.projects-list .panel {
+.panel {
   border: 1px solid lightgrey;
 }
