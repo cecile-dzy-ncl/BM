@@ -18,7 +18,7 @@
 }
 
 .project-card h3 {
-  color: var(--blue);
+  color: var(--pink);
   font-weight: 400;
   font-size: 24px;
   margin-top: 15px;
@@ -31,6 +31,10 @@
 
 #wrapper-events .project-card a {
   text-decoration: none;
+}
+
+#wrapper-events .project-card h3 {
+  color: var(--blue);
 }
 
 .project-card img {
