@@ -45,7 +45,7 @@
 
 .grid-projects-list .panel {
   overflow: hidden;
-  border: none;
+  border: 1px solid lightgrey;
   border-radius: 8px;
   padding: 0 0 12px;
 }
