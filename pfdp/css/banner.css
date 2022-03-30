@@ -17,11 +17,20 @@
 }
 
 .banner.homepage {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 90%),
-    url("https://collecter.petitsfreresdespauvres.fr/cdn.iraiser.eu/dK+y9Y0kxwRuebwOLklx7LLsEkP8toQ69NrsP9gRopr2N8g7khIIWnSL3h0yDmW//Cecile_Dezy/origin/20200422PFP.png");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 90%);
+  /* , */
+  /* url("https://collecter.petitsfreresdespauvres.fr/cdn.iraiser.eu/dK+y9Y0kxwRuebwOLklx7LLsEkP8toQ69NrsP9gRopr2N8g7khIIWnSL3h0yDmW//Cecile_Dezy/origin/20200422PFP.png"); */
   background-size: cover;
   background-position: center;
   height: 680px;
+}
+
+.banner.homepage img:first-of-type {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 @media screen and (max-width: 500px) {
