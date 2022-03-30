@@ -25,7 +25,7 @@
   height: 680px;
 }
 
-.banner.homepage img:first-of-type {
+.banner.homepage > img:first-of-type {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -34,9 +34,10 @@
   z-index: 0;
   width: 100vw;
   height: 680px;
+  object-fit: cover;
 }
 
-.banner.homepage img:first-of-type + .container-bm {
+.banner.homepage > img:first-of-type + .container-bm {
   z-index: 1;
 }
 
