@@ -54,6 +54,7 @@ form#event-search input {
   height: 55px;
   width: 55px;
   border-radius: 50%;
+  position: relative;
   /* content: ' \25CF'; */
   /* background: red; */
 }
