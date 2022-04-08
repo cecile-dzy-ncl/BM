@@ -11,7 +11,7 @@
 }
 
 #events-show .intro-my-event * {
-  text-align: left;
+  /* text-align: left; */
 }
 
 section.event-head {
