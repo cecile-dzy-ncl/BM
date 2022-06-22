@@ -104,6 +104,10 @@ a.button.round.bordered.primary-border-color.primary-bg-color.new-gift-button.ac
   background: #254aba;
 }
 
+.custom-first img {
+  object-fit: cover;
+}
+
 .custom-first > * {
   width: 50%;
 }
