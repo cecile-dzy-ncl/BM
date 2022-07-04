@@ -1,0 +1,1764 @@
+/* ------------------- FONTS ------------------- */
+/* test */
+@font-face {
+  font-family: "LouisVuitton-Regular";
+  src: url("https://cecile-dzy-ncl.github.io/LVU/fonts/LouisVuitton-Regular.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LouisVuitton-Light";
+  src: url("https://cecile-dzy-ncl.github.io/LVU/fonts/LouisVuitton-Light.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LouisVuitton-Medium";
+  src: url("https://cecile-dzy-ncl.github.io/LVU/fonts/LouisVuitton-Medium.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ------------------- UTILITIES ------------------- */
+
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.urgence-ex {
+  display: flex;
+}
+
+.urgence-ex p {
+  font-size: 18px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+/* ------------------- STEP CHALLENGE / CHALLENGE ------------------- */
+
+.wrapper-challenges {
+  width: 960px;
+  margin: 70px auto 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper-challenges > .challenge {
+  width: 49%;
+  background-color: #f0f0f0;
+}
+
+.challenge img {
+  width: 100%;
+}
+
+.challenge-details {
+  padding: 20px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+
+.challenge-details div {
+  flex-grow: 1;
+}
+
+.details-my-event .infos-money .columns {
+  width: auto;
+}
+
+/* ------------------- STYLE ------------------- */
+
+body {
+  font-family: "LouisVuitton-Light" !important;
+  font-weight: 300 !important;
+  /*font-style: normal !important;*/
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+  font-family: "LouisVuitton-Light" !important;
+  font-weight: 300 !important;
+  /*font-style: normal !important;*/
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #000;
+  letter-spacing: 1.8px !important;
+  font-size: 53px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: 1.2px;
+  margin: 0;
+  color: #000;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 500 !important;
+  font-family: "LouisVuitton-Medium" !important;
+  margin: 0;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: 500 !important;
+  font-family: "LouisVuitton-Medium" !important;
+  margin: 0;
+}
+
+h6 {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 32px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 0.54px;
+  line-height: 24px;
+  padding: 0 0 20px 0;
+}
+
+a {
+  color: #6ed7e5;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #1cafec;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.span-blue {
+  color: #6ed7e5;
+  text-transform: uppercase;
+}
+
+/* --- OVERWRITE IRAISER --- */
+
+#projects {
+  padding-top: 20px;
+}
+
+.section-home-projects {
+  background: #f0f0f0;
+  padding-top: 0px;
+}
+
+div#wrapper {
+  background: white;
+}
+
+#indexs-index .intro {
+  padding: 0;
+  margin: 0;
+}
+
+.habillage .row {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.habillage .row .row,
+.habillage .section-projets .row,
+.habillage .section-home-projects .row,
+.section-projet-details,
+#project_tabs,
+section.project_event_description,
+section.event-head,
+section.section-my-event .row,
+.stats-event,
+#footer-collecte {
+  max-width: 71.25em;
+  margin: 0 auto;
+}
+
+.infos-money .progress .graph-bar {
+  background-color: #053c50;
+  border-radius: 0;
+}
+
+.container {
+  padding: 0 !important;
+  color: #000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  font-family: "LouisVuitton-Light";
+}
+
+.top-bar-section a:hover,
+.main-header
+  .top-bar-section
+  ul
+  li:hover:not(.has-form)
+  > a
+  .top-bar-section
+  a.active {
+  -webkit-text-stroke: 1px black;
+}
+
+.row.bg-color-light-blurred.first-section {
+  background: #fff;
+}
+
+section.top-bar-section {
+  background: #f0f0f0 !important;
+}
+
+section#header-header {
+  box-shadow: none !important;
+}
+
+.top-bar li a {
+  font-size: 15px !important;
+}
+
+.top-bar-section a {
+  color: #000 !important;
+  letter-spacing: 0.7px;
+  font-weight: 300 !important;
+}
+
+.bg-primary-color {
+  background-color: #6ed7e5 !important;
+}
+
+.bg-secondary-color-blurred {
+  background-color: rgba(240, 240, 240);
+}
+
+/* --- MENU --- */
+
+.row-1 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.row-2 {
+  height: 47px;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-2 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.line {
+  box-sizing: border-box;
+  height: 25px;
+  border: 0.5px solid #000000;
+  margin: 0 40px;
+}
+
+img.logo {
+  padding-top: 40px;
+  object-fit: contain;
+  padding-right: 20px;
+}
+
+#main-nav section.top-bar-section li:last-child {
+  background: #6ed7e5;
+}
+
+/* #main-nav section.top-bar-section li:last-child(2):after {
+  display: none;
+} */
+
+#main-nav section.top-bar-section li {
+  position: relative;
+}
+
+#main-nav section.top-bar-section li:not(:first-child):not(:last-child):before {
+  background: #000 !important;
+  content: "";
+  height: 22px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  left: 0;
+}
+
+footer section.top-bar-section li:not(:first-child):after {
+  content: none;
+}
+
+#main-nav section.top-bar-section li a.active {
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+#main-nav section.top-bar-section li:last-child a.active {
+  font-family: "LouisVuitton-Medium" !important;
+  color: #fff !important;
+}
+
+footer .bottom-bar .left li:nth-of-type(1):after {
+  display: none;
+}
+
+/* --- BOUTONS --- */
+
+.button-blue,
+.btn-next,
+#form-contact input.button,
+.top-bar-section .button.left,
+section.connexion input.button,
+#next,
+.section-home-projects .button {
+  padding: 2px 35px !important;
+  background-color: #fff0 !important;
+  color: #000 !important;
+  border: 5px solid #6ed7e5 !important;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-blue:hover,
+.btn-next:hover,
+#form-contact input.button:hover,
+.top-bar-section .button.left:hover,
+section.connexion input.button:hover,
+#next:hover {
+  background-color: #fff0 !important;
+  color: #000 !important;
+  border: 5px solid #43cbdd;
+}
+
+.button-lg,
+.btn-next {
+  padding: 2px 60px !important;
+}
+
+.button-white {
+  padding: 2px 35px;
+  background-color: #fff0;
+  color: #fff;
+  border: 5px solid #fff;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button-white a {
+  color: #fff;
+  font-weight: 300;
+}
+
+.wrapper-help .button-white {
+  margin-top: 10px;
+}
+
+.buttons-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 4% auto 0% auto;
+}
+
+.button-blue a {
+  color: #000;
+}
+
+/* --- BANNERS --- */
+
+.banner {
+  height: 412px;
+  background-size: cover;
+  background-color: grey;
+  margin-bottom: 50px;
+}
+
+.banner-homepage {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/picthome2x.jpg);
+  background-size: cover;
+  height: 707px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #fff;
+  background-position: center;
+  flex-direction: column;
+}
+
+.banner-about {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/IMAGEENFANTSABOUT.jpg);
+}
+
+.banner-step-challenge {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/CADRAGESLVRUN-1584x396.jpg);
+  background-position: right;
+}
+.banner-world-run {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/imageworldrunnew2x.jpg);
+}
+
+.banner-individual {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/pictchildrenindividualinitiatives.jpg);
+}
+
+.banner-reporters {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/NepalTuesday-44.jpg);
+  background-position: 0px 8%;
+}
+
+.banner-payroll {
+  background-image: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/pictchildrentogether.jpg);
+}
+
+.banner-homepage h1 {
+  color: #ffffff;
+  font-family: "LouisVuitton-Light" !important;
+  font-size: 96px;
+  line-height: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-text {
+  width: 900px;
+  margin: 110px auto 100px auto;
+  color: #fff;
+}
+
+.banner-text-fr {
+  margin: 95px auto 95px auto;
+}
+
+.banner-text p,
+.wrapper-help p {
+  color: #fff;
+}
+
+.banner-homepage .credits p {
+  margin-right: 20px;
+  font-size: 11px;
+}
+
+.credits {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.credits p {
+  margin-right: 20px;
+  font-size: 11px;
+  color: #fff;
+}
+
+/* --- WRAPPERS --- */
+
+.wrapper-exemples,
+.wrapper-exemples-home {
+  width: 100%;
+  padding-top: 35px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000 !important;
+}
+
+.wrapper-exemples .button-blue {
+  margin: 20px 0 30px 0;
+}
+
+.wrapper-exemples .wrapper-content,
+.wrapper-exemples-home .wrapper-content {
+  width: 1146px;
+}
+
+.wrapper-exemples h4,
+.wrapper-exemples-home h4 {
+  color: #000;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+.wrapper-exemples img {
+  height: 459px;
+  object-fit: contain;
+}
+
+.wrapper-exemples .exemple {
+  margin: 0 15px;
+}
+
+.wrapper-help {
+  width: 100%;
+  padding: 35px 0;
+  background-color: #053c50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff !important;
+  margin: 50px 0 0 0;
+}
+
+.wrapper-help h4 {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  padding: 20px 0;
+}
+
+.wrapper-description {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000 !important;
+  margin: 50px auto;
+}
+
+.wrapper-content {
+  width: 960px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper-description .wrapper-content {
+  width: 753px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.wrapper-description .wrapper-content h1 {
+  padding: 0 0 50px 0;
+}
+
+.wrapper-description .wrapper-content p {
+  text-align: justify !important;
+}
+
+.wrapper-content span {
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.wrapper-description p a {
+  color: #6ed7e5 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.wrapper-help p a {
+  color: #fff !important;
+  text-decoration: underline;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.wrapper-about {
+  height: auto;
+}
+
+.wrapper-challenge {
+  height: auto;
+}
+
+.challenge span {
+  /* text-align: right; */
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.72px;
+  line-height: 29px;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+/* --- BLOCKS --- */
+
+.block-grey {
+  height: 600px;
+  width: 753px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.block-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-item {
+  padding: 30px;
+  text-align: center;
+}
+
+.block-item img {
+  margin-bottom: 20px;
+}
+
+.block-item span,
+.block-grey h2 {
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.block-images {
+  height: 770px;
+  width: 1146px;
+  margin: auto;
+  display: flex;
+  margin-top: 110px;
+  margin-bottom: 95px;
+  justify-content: center;
+}
+
+.column-left,
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.column-left {
+  width: 366px;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.column-right {
+  width: 754px;
+  height: 100%;
+}
+
+.column-left .block-img {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.column-right .block-img {
+  height: 504px;
+  background-size: cover;
+}
+
+.column-right .block-row {
+  justify-content: space-between;
+}
+
+.column-right .block-row .block-img {
+  width: 367px;
+  height: 245px;
+}
+
+.column-left .block-img:first-child {
+  height: 504px;
+}
+
+.column-left .block-img:last-child {
+  height: 245px;
+}
+
+.bloc-pt {
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bloc-pt h2 {
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.bloc-pt.linkedin .block-img {
+  display: block;
+  margin: auto;
+}
+
+.bloc-pt .block-row {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bloc-pt h2,
+.bloc-pt .block-row {
+  margin-bottom: 30px;
+}
+
+.block-join h2 {
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+  color: #000;
+  margin-bottom: 35px;
+}
+
+.block-join {
+  height: auto;
+  width: 1146px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.block-join img {
+  object-fit: contain;
+  width: 40%;
+}
+
+.block-grey-sm {
+  height: 300px;
+}
+
+.block-sm {
+  width: 753px;
+}
+
+.block-grey-sm .block-row {
+  width: 90%;
+}
+
+.block-sm .block-row {
+  justify-content: space-between;
+}
+
+.block-sm .block-card {
+  width: 48%;
+  align-items: baseline;
+}
+
+.block-sm .block-join-line {
+  height: 270px;
+  margin: 0 50px;
+}
+
+.block-grey-sm .block-join-line {
+  height: 100px;
+  margin: 0 50px;
+}
+
+.block-sm .block-card-title {
+  color: #6ed7e5;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+.block-sm p {
+  text-align: left !important;
+}
+
+.block-sm span {
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.block-4 {
+  width: 23%;
+}
+
+.block-3 {
+  width: 32%;
+}
+
+.block-2 {
+  width: 48%;
+}
+
+.block-diff h2 {
+  margin: 40px 0 10px 0;
+}
+
+.block-diff img {
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+.block-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  padding: 15px;
+}
+
+.card-grey {
+  background-color: #f0f0f0;
+}
+
+.block-card-title {
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.block-icon {
+  background-color: #6ed7e5;
+  border-radius: 50%;
+  height: 176px;
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.block-icon img {
+  object-fit: contain;
+}
+
+.block-join p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 0.48px;
+}
+
+.block-join-line {
+  height: 390px;
+  border-left: 0.5px solid #303333;
+  background-color: rgba(0, 0, 0, 0);
+  width: 1px;
+}
+
+.block-join-line-sm {
+  height: 230px;
+  border-left: 0.5px solid #303333;
+  background-color: rgba(0, 0, 0, 0);
+  width: 1px;
+}
+
+.bloc-dates {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1170px;
+  margin: 50px auto;
+}
+
+.bloc-dates p {
+  font-size: 15px !important;
+}
+
+.worldwide .date-info,
+.worldwide .date-when .date-info {
+  text-align: center !important;
+  margin: auto;
+}
+
+.date-when,
+.date-start,
+.date-contact {
+  display: flex;
+  padding: 5px 0;
+}
+
+.date-when p,
+.date-start p,
+.date-contact p {
+  padding: 0 !important;
+}
+
+.date-start,
+.card-date {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.date-label {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  line-height: 24px;
+  width: 30%;
+  text-align: left;
+}
+
+.date-info {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "LouisVuitton-Medium" !important;
+  line-height: 24px;
+  text-align: left;
+}
+
+.label-flag {
+  width: 30px;
+  margin-left: 18px;
+}
+
+.date-start .date-info {
+  font-size: 16px;
+}
+
+.date-contact .date-info,
+.date-contact .date-info a {
+  color: #000;
+}
+
+.date-contact .date-info a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.card-grey .date-when,
+.card-grey .date-start {
+  text-align: center;
+}
+
+.worldwide .date-start {
+  padding: 10px 0px;
+  border-bottom: none;
+}
+
+.indiv-join .block-card {
+  background: #f0f0f0;
+  padding: 0;
+  margin: 0px 15px;
+}
+
+.indiv-join p {
+  padding: 0 20px;
+}
+
+.indiv-join .block-card-title {
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+.indiv-join .block-icon {
+  height: 269px;
+  width: auto;
+  background: none;
+  margin: 0;
+}
+
+.indiv-join .block-icon img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.indiv-join .button-blue {
+  margin: 30px 0;
+}
+
+/* --- HOMEPAGE --- */
+
+.section-home-projects .button {
+  margin: 0 490px 33px 490px !important;
+}
+
+.fa-play:before {
+  background: url(https://www.louisvuittonforunicef.com/cdn.iraiser.eu/36NkQyMVEe7+4KNzUOoWKBwt+yybeMOGfMe3n2LmssGp5wmsNEotxv7Vg6S6hDm8/simon_ROMAIN/origin/triangle.png);
+  display: block;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-size: contain;
+}
+
+#tag-montant {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 92px;
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+  letter-spacing: 4.6px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 26px;
+}
+
+.campagne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 573px;
+  width: 1146px;
+  margin: 0px auto 100px auto;
+}
+
+.camp-photo {
+  background-color: blue;
+  height: 100%;
+  width: 50%;
+}
+
+.camp-photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.camp-description {
+  height: 100%;
+  width: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.camp-description p {
+  padding-bottom: 0;
+}
+
+.camp-description h5 {
+  padding: 20px 0;
+  color: #000 !important;
+}
+
+.c-lvu-home .camp-description {
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 75px;
+}
+
+.cpg-video {
+  align-items: start;
+  height: 424px;
+}
+
+.cpg-video .camp-photo {
+  height: 100%;
+  background: none;
+  width: auto;
+}
+
+.cpg-video .camp-description {
+  padding: 0 45px;
+}
+
+/* --- ABOUT --- */
+
+.about-video {
+  height: 427px;
+  width: 755px;
+  margin: auto;
+}
+
+/* --- TUNNEL CREATION PAGE COLLECTE --- */
+
+dl#step_tab {
+  margin-top: 30px;
+}
+
+.tabs dd.active a,
+.tabs .tab-title.active a {
+  color: #fff;
+}
+
+#form-project .tabs a,
+#form-project .tabs .active a {
+  background-color: #000;
+  letter-spacing: 0.7px;
+  font-size: 14px;
+}
+
+.tabs-content p {
+  font-weight: 600 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+#projects-new #form-project input,
+#projects-new #form-project select,
+#contact_forms-new #form-contact input,
+#contact_forms-new #form-contact textarea {
+  border: 1px solid black;
+  background: white;
+}
+
+/* --- CONTACT --- */
+
+#contact_forms-new h1 {
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+#contact_forms-new p {
+  margin-bottom: 30px;
+}
+
+.g-recaptcha {
+  margin-bottom: 30px;
+}
+
+/* --- PAGE COLLECTE --- */
+
+.section-projet-details .row.collapse.bg-color-light,
+.row.project-detail-data.p2p-detail-data,
+.block-share-container {
+  background: #053c50;
+}
+
+.projet-head {
+  background: white;
+}
+
+.tabs dd.active a,
+.projet-tabs .content .top-bar-section ul li > a.button,
+.manage-links a,
+.fix-delete-button,
+.projet-tabs .content ul li.button,
+.projet-tabs .content .button {
+  background-color: #6ed7e5;
+}
+
+div#home {
+  padding: 0 !important;
+}
+
+#home h1 {
+  font-size: 30px;
+  line-height: 34px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+#home p {
+  text-align: left;
+}
+
+.bx-viewport {
+  box-shadow: none !important;
+}
+
+.project-detail-data p,
+.fi-clock,
+section.section-projet-details .infos-money .chart-wrap .percent {
+  color: #fff;
+}
+
+.group_edit_project {
+  float: right;
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+#project_tabs .bg-color-light {
+  background: white !important;
+}
+
+.project_event_description.columns .wrapper-description,
+.project_event_description.columns .wrapper-content {
+  background: #fff0;
+  width: 960px;
+}
+
+.fa-gift {
+  display: none;
+}
+
+.project_boutons_give {
+  text-transform: uppercase;
+  color: #000 !important;
+  font-weight: 300 !important;
+  height: 50px !important;
+  min-height: 50px !important;
+  padding: 7px !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+h1#show_title {
+  text-align: left;
+}
+
+.user.right {
+  margin-right: 10px;
+}
+
+p.current-amount {
+  font-size: 50px !important;
+  font-weight: 600 !important;
+  text-align: left !important;
+  padding: 0 !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+p#show_desired_amount {
+  text-align: left !important;
+}
+
+.project-detail-data {
+  padding-top: 20px !important;
+}
+
+.social-btns {
+  margin: 0 !important;
+}
+
+.tabs-content p {
+  font-weight: 300 !important;
+}
+
+.project_content strong {
+  font-weight: 600;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+/* --- AUTRES PAGES --- */
+
+#events-index .habillage,
+#projects-index .habillage {
+  background: white !important;
+}
+
+#events-index .event-details {
+  background: #666666;
+}
+
+.page-see,
+.page-see:hover {
+  color: #6dd7e5;
+}
+
+#events-index .event-details {
+  background: #f0f0f0;
+}
+
+.big,
+.fa-file-text-o {
+  color: #000;
+}
+
+.event-description h3,
+.event-description p,
+.event-description .infos {
+  text-align: left !important;
+}
+
+.event-details .medium-7 {
+  width: 70%;
+}
+
+.event-details .medium-4 {
+  width: 29%;
+}
+
+.daysleft,
+.location {
+  display: none;
+}
+
+.teamcount {
+  float: left;
+}
+
+.projects-show-team .projet-head .medium-2 {
+  display: none;
+}
+
+.projects-show-team .projet-head .medium-10 {
+  float: left;
+  width: 100%;
+}
+
+.block-share-container h4 span {
+  color: white;
+}
+
+.event-head .block-share-container h4 span {
+  color: black;
+}
+
+p#show_team,
+#show_team a {
+  color: #000 !important;
+}
+
+p#show_days {
+  text-align: left !important;
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+.contributeurs p {
+  padding: 0 !important;
+}
+
+.block-share-container .social-btns .social_network a .social_network_send,
+.block-share-container .social-btns .social_network a .social_network_share {
+  background-color: #6ed7e4;
+}
+
+.caption a,
+.infos-money .infos-money-details .info-money.detail {
+  color: #000;
+}
+
+#projects-index h1 {
+  text-transform: uppercase;
+  color: #000;
+  text-align: left;
+  font-size: 24px;
+}
+
+section.section-projet-details .project-detail-data .contributeurs span {
+  font-family: "LouisVuitton-Medium" !important;
+}
+
+#projects-show .notifications_intro #end {
+  text-transform: uppercase;
+}
+
+/* --- PROFILE --- */
+
+#my-profile .tabs a {
+  background-color: #6ed7e5 !important;
+}
+
+.badge {
+  color: #6ed7e5;
+}
+
+.tabs-content {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.project-thumbnails {
+  object-fit: cover;
+}
+
+#my-profile .small-9 h1,
+#my-profile .small-9 p {
+  text-align: left !important;
+}
+
+#my-profile .subhead .small-3 {
+  margin-left: 170px;
+}
+
+#my-profile .subhead .small-9 {
+  width: 60%;
+}
+
+/* --- FOOTER --- */
+
+footer {
+  background-color: #282828;
+}
+
+.bottom-bar .top-bar-section {
+  background: #fff0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .top-bar-section li:not(.has-form) a:not(.button) {
+  background-color: #282828 !important;
+  color: white !important;
+}
+
+.bottom-bar li:nth-child(1) a[href="#"],
+.bottom-bar li:nth-child(2) a[href="/contact_forms/new"] {
+  display: none !important;
+}
+
+.bottom-bar .left {
+  width: 45%;
+}
+
+.bottom-bar .right {
+  width: 23%;
+}
+
+.bottom-bar .right li {
+  background: #282828;
+}
+
+.bottom-bar img {
+  width: 52%;
+}
+
+.middle {
+  width: 36%;
+  float: left;
+}
+
+.middle p {
+  font-size: 12px;
+  color: white;
+  padding: 0;
+  font-style: italic;
+}
+
+footer .bottom-bar .left li a {
+  position: relative;
+}
+
+footer .bottom-bar .left li:not(:last-child) a:after {
+  background: #fff !important;
+  content: "";
+  height: 22px;
+  width: 1px;
+  position: absolute;
+  bottom: 11px;
+  right: 0;
+}
+
+.bottom-bar {
+  width: 1146px;
+}
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+
+@media (max-width: 770px) {
+  .bottom-bar .top-bar-section {
+    background: #282828 !important;
+    flex-direction: column;
+  }
+
+  footer .top-bar-section ul li {
+    background: #282828 !important;
+  }
+
+  footer .bottom-bar .left li:not(:last-child) a:after {
+    display: none;
+  }
+  .bottom-bar .left,
+  .bottom-bar .middle,
+  .bottom-bar .right {
+    width: 100%;
+  }
+  .bottom-bar .left li .center {
+    text-align: center;
+  }
+  .infos-money-details .columns {
+    width: 100% !important;
+  }
+  .infos-money .columns {
+    float: none !important;
+  }
+  .urgence-ex {
+    flex-direction: row;
+  }
+
+  .urgence-ex img {
+    margin-bottom: 10px;
+  }
+
+  h1#tag-montant {
+    font-size: 44px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+
+  .banner-text {
+    width: 90%;
+  }
+
+  .banner-text h1 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+
+  .campagne {
+    height: auto;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .camp-photo {
+    height: auto;
+    width: 100%;
+  }
+
+  .cpg-video .camp-photo {
+    width: 100%;
+  }
+
+  .camp-description {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px !important;
+  }
+
+  .camp-description .button-blue {
+    margin: 20px 0;
+    width: 85%;
+    line-height: 20px;
+    padding: 2px 20px !important;
+  }
+
+  .about-video,
+  .block-images,
+  .block-join,
+  .block-grey {
+    width: 80%;
+  }
+
+  .wrapper-content {
+    width: 80% !important;
+  }
+
+  .about-video,
+  .block-grey,
+  .wrapper-exemples {
+    height: auto;
+  }
+
+  .block-row {
+    flex-direction: column;
+  }
+
+  .block-images {
+    width: 90%;
+    flex-direction: column;
+    height: auto;
+    display: none;
+  }
+
+  .column-left {
+    width: 80% !important;
+    flex-direction: row;
+  }
+  .column-right {
+    width: 70%;
+    flex-direction: row;
+  }
+
+  .block-item {
+    padding: 20px 0px !important;
+  }
+
+  .block-join .block-card.block-3 {
+    width: 80%;
+  }
+
+  .block-join-line,
+  .block-join-line-sm {
+    transform: rotate(90deg);
+    height: 150px;
+  }
+
+  .buttons-flex {
+    flex-direction: column;
+  }
+
+  .buttons-flex .button-blue {
+    margin: 10px;
+  }
+
+  .bloc-dates {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .card-date.block-4 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .indiv-join img {
+    width: 100%;
+  }
+
+  .indiv-join .button-blue {
+    width: 82%;
+    line-height: 40px;
+  }
+
+  .block-join .block-card.block-3 {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .block-grey span {
+    padding: 0px 10px;
+  }
+
+  .tabs-content {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .bottom-bar {
+    width: 100%;
+  }
+
+  .banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-position-x: center;
+  }
+
+  .credits p {
+    margin-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  #projects-show .wrapper-description {
+    width: 80% !important;
+  }
+
+  #projects-show .notifications_intro {
+    width: 250px;
+    left: 15%;
+    margin-left: 0;
+    text-align: center !important;
+  }
+
+  #projects-show .wrapper-content img {
+    object-fit: contain;
+  }
+
+  .project_boutons_give {
+    font-size: 20px !important;
+    padding: 11px 0 !important;
+  }
+
+  p#show_days,
+  p#show_desired_amount,
+  p.current-amount {
+    text-align: center !important;
+  }
+
+  #projects-show .notifications_intro #next {
+    padding: 2px 20px !important;
+    width: 100%;
+  }
+
+  #projects-show .notifications_intro #end {
+    width: 100%;
+  }
+
+  .button-lg,
+  .btn-next {
+    padding: 2px 14px !important;
+  }
+
+  .block-2,
+  .block-3,
+  .block-4 {
+    width: 80%;
+  }
+
+  .cpg-video .about-video,
+  .cpg-video .campagne-description {
+    width: 100%;
+  }
+
+  .bloc-pt {
+    display: flex;
+  }
+
+  .bloc-pt img {
+    object-fit: contain;
+    height: auto !important;
+    margin: 10px 0 !important;
+  }
+
+  .bloc-pt .block-row {
+    margin-bottom: 0px;
+  }
+
+  .wrapper-ex-content {
+    width: 100%;
+  }
+
+  img.project-thumbnails {
+    object-position: top;
+  }
+
+  .wrapper-challenges {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .wrapper-challenges > .challenge {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .challenge-details {
+    height: auto;
+  }
+
+  .event-item .panel .event-details .wrap {
+    height: auto;
+    padding: 2rem 2rem 0;
+  }
+  .event-item .wrap > .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-item .wrap > .row .columns {
+    width: 100%;
+  }
+
+  .section-events .event-item .infos-money .amount {
+    margin: 0;
+  }
+}
