@@ -634,6 +634,10 @@ section.connexion input.button:hover,
   font-family: "LouisVuitton-Medium" !important;
 }
 
+section.section-my-event {
+  margin-top: 50px;
+}
+
 /* --- BLOCKS --- */
 
 .block-grey {
