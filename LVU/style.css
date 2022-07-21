@@ -1370,9 +1370,14 @@ section.section-projet-details .project-detail-data .contributeurs span {
 }
 
 .event-head .intro-my-event {
-  padding: 35px;
+  padding: 50px 35px;
 }
 
+.event-head .intro-my-event:after {
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #d0d0d0;
+}
 /* --- PROFILE --- */
 
 #my-profile .tabs a {
