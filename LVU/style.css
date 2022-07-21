@@ -1377,6 +1377,8 @@ section.section-projet-details .project-detail-data .contributeurs span {
   top: 50%;
   transform: translateY(-50%);
   background-color: #d0d0d0;
+  height: 260px;
+  width: 1px;
 }
 /* --- PROFILE --- */
 
@@ -1502,10 +1504,10 @@ footer .bottom-bar .left li:not(:last-child) a:after {
   .bottom-bar .left li .center {
     text-align: center;
   }
-  .infos-money-details .columns {
+  .details-my-event .infos-money-details .columns {
     width: 100% !important;
   }
-  .infos-money .columns {
+  .details-my-event .infos-money .columns {
     float: none !important;
   }
   .urgence-ex {
