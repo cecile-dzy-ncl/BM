@@ -1369,6 +1369,10 @@ section.section-projet-details .project-detail-data .contributeurs span {
   text-transform: uppercase;
 }
 
+.event-head .intro-my-event {
+  padding: 35px;
+}
+
 /* --- PROFILE --- */
 
 #my-profile .tabs a {
