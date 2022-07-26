@@ -1511,7 +1511,7 @@ footer .bottom-bar .left li:not(:last-child) a:after {
     float: none !important;
   }
   .urgence-ex {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .urgence-ex img {
