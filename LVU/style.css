@@ -1517,6 +1517,9 @@ footer .bottom-bar .left li:not(:last-child) a:after {
   .urgence-ex img {
     margin-bottom: 10px;
   }
+  .challenge img {
+    height: auto;
+  }
 
   h1#tag-montant {
     font-size: 44px;
