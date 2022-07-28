@@ -1058,7 +1058,7 @@ section.section-my-event {
 }
 
 div#fcplayer {
-  height: 427px;
+  height: 427px !important;
 }
 
 .camp-description {
@@ -1555,9 +1555,9 @@ footer .bottom-bar .left li:not(:last-child) a:after {
     width: 100%;
   }
 
-  div#fcplayer {
+  /* div#fcplayer {
     height: 427px !important;
-  }
+  } */
 
   .camp-description {
     width: 100%;
