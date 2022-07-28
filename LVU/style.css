@@ -1057,6 +1057,10 @@ section.section-my-event {
   object-position: bottom;
 }
 
+div#fcplayer {
+  height: 427px;
+}
+
 .camp-description {
   height: 100%;
   width: 50%;
@@ -1549,6 +1553,10 @@ footer .bottom-bar .left li:not(:last-child) a:after {
 
   .cpg-video .camp-photo {
     width: 100%;
+  }
+
+  div#fcplayer {
+    height: 427px !important;
   }
 
   .camp-description {
