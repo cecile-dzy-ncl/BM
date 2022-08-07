@@ -1007,6 +1007,16 @@ section.section-my-event {
   margin: 30px 0;
 }
 
+.wr-banner-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.wr-banner-img img {
+  width: 33%;
+}
+
 /* --- HOMEPAGE --- */
 
 .section-home-projects .button {
@@ -1488,6 +1498,15 @@ footer .bottom-bar .left li:not(:last-child) a:after {
 /* ------------------------------- RESPONSIVE ------------------------------- */
 
 @media (max-width: 770px) {
+  .wr-banner-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wr-banner-img img {
+    width: 100%;
+  }
+
   .bottom-bar .top-bar-section {
     background: #282828 !important;
     flex-direction: column;
