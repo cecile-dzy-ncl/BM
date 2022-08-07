@@ -8,16 +8,18 @@
   --darkgrey: #334146;
   --darkergrey: #1c1d33;
 
-  --pink: #d21281;
-  --blue: #003266;
-  --green: #00aba4;
+  --red: #e30613;
+  /* --pink: #d21281;
+  --blue: #003266; */
+  /* --green: #00aba4; */
+  --dark-green: #17363a;
 
   --black: #3e3643;
   /* --darkred: #af1312; */
   /* --darkblue: #00516c; */
 
   --shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-  --primary: var(--green);
+  --primary: var(--red);
 }
 
 .bg-grey {
@@ -43,6 +45,24 @@
 
 .pink {
   color: var(--pink);
+}
+
+.red {
+  color: var(--red);
+}
+
+.bg-red {
+  background: var(--red);
+  background: #e30613;
+}
+
+.dark-green {
+  color: var(--dark-green);
+}
+
+.bg-dark-green {
+  background: var(--dark-green);
+  background: #17363a;
 }
 
 .bg-pattern {
