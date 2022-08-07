@@ -1,18 +1,18 @@
 $(document).ready(function () {
-  $("body").addClass("gustave-roussy");
+  $("body").addClass("croix-rouge");
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
   // $("#tag-amount").html($("#tag-amount").text().split(",")[0]);
   // $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
 
   $(
-    "<li class='nodropdown footer-link-menu'><a href='https://www.gustaveroussy.fr/' target='_blank'>© Institut Gustave Roussy</a></li>"
+    "<li class='nodropdown footer-link-menu'><a href='https://www.croix-rouge.fr/' target='_blank'>© Croix-Rouge</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
   // AJOUT BANNER MAINTENANCE
-  // var bannerMaintenance =
-  //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
-  // $("#banner_section").before(bannerMaintenance);
+  var bannerMaintenance =
+    "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
+  $("#banner_section").before(bannerMaintenance);
 
   // $(function () {
   //   if ($("body").is("#events-show")) {
