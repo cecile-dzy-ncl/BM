@@ -23,6 +23,7 @@
 }
 
 .banner.homepage {
+  background: var(--red);
   height: 637px;
 }
 
