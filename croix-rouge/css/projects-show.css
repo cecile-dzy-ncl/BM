@@ -127,6 +127,11 @@ section.section-projet-details .project-detail-data .contributeurs span {
   line-height: 2rem;
 }
 
+.block-share-container .block-share {
+  padding: 0 80px;
+  display: flex;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
