@@ -21,16 +21,16 @@
 }
 
 .event-ex {
-  width: 23%;
+  width: 32%;
   box-shadow: var(--shadow);
   padding: 20px;
-  border-top: 2px solid;
+  border-left: 2px solid var(--blue);
   display: flex;
   flex-direction: column;
 }
 
-.event-ex p:not(.sensa) {
-  font-family: "Barlow Condensed";
+.event-ex p:not(.bitter) {
+  /* font-family: "Barlow Condensed"; */
   text-align: left;
   font-size: 18px;
 }
@@ -54,12 +54,12 @@
   margin-right: 20px;
 }
 
-.event-ex .sensa {
+.event-ex .bitter {
   position: relative;
   padding-bottom: 3px;
 }
 
-.event-ex .sensa:after {
+.event-ex .bitter:after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -73,34 +73,8 @@
   flex-grow: 1;
 }
 
-.event-ex#event-anniv {
-  border-color: var(--blue);
-}
-.event-ex#event-memoriam {
-  border-color: var(--pink);
-}
-.event-ex#event-defi {
-  border-color: var(--green);
-}
-.event-ex#event-projets {
-  border-color: var(--dark-blue);
-}
-
-.event-ex#event-anniv .sensa:after {
-  background: var(--blue);
-}
-.event-ex#event-memoriam .sensa:after {
-  background: var(--pink);
-}
-.event-ex#event-defi .sensa:after {
-  background: var(--green);
-}
-.event-ex#event-projets .sensa:after {
-  background: var(--dark-blue);
-}
-
 .event-ex .link span {
-  background: var(--yellow);
+  background: var(--red);
   height: 20px;
   width: 20px;
   border-radius: 50%;
