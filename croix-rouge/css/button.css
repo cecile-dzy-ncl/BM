@@ -9,10 +9,10 @@
 button,
 .button {
   text-transform: uppercase;
-  font-family: "DIN Pro";
   background-color: var(--red);
   border-color: var(--red);
   border-radius: 8px;
+  color: white;
 }
 
 .btn-bm:hover,
@@ -22,7 +22,9 @@ button:hover,
   border-color: var(--red);
 }
 
+.btn-bm,
 .btn-bm[class*="bg"],
+.btn-bm:hover,
 .btn-bm[class*="bg"] a:hover {
   color: #fff;
 }
