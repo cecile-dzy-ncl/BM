@@ -1,0 +1,7 @@
+section.top-bar-section {
+  background: #fff !important;
+}
+
+li.has-dropdown ul.dropdown li:after {
+  display: none;
+}

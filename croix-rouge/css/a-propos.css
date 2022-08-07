@@ -1,0 +1,77 @@
+.intro,
+.don-confiance {
+  display: flex;
+}
+
+.intro {
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.intro-text {
+  width: 60%;
+}
+
+.intro-text p,
+.don-confiance p {
+  text-align: left;
+}
+
+.don-confiance {
+  align-items: center;
+}
+
+.don-confiance p {
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.intro-chiffres {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.intro-chiffres div {
+  text-align: center;
+  background: white;
+  padding: 10px 25px;
+  margin: 10px 0;
+}
+
+.intro-chiffres div:nth-child(even) {
+  align-self: flex-start;
+}
+
+.intro-chiffres > p {
+  width: 80%;
+  margin: auto;
+}
+
+.intro-chiffres p {
+  margin-bottom: 0;
+  margin-top: -12px;
+}
+
+.intro-chiffres span {
+  font-size: 15px;
+}
+
+.intro-chiffres .brush {
+  color: var(--pink);
+  font-size: 44px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .intro,
+  .don-confiance {
+    flex-direction: column;
+  }
+
+  .intro-text {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

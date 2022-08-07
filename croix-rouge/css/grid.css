@@ -1,0 +1,74 @@
+.grid-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 35px;
+}
+
+.grid-programmes {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(5, 1fr); */
+  grid-gap: 1rem;
+  margin-bottom: 35px;
+  justify-content: center;
+}
+
+.grid-projects-list {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  grid-gap: 1rem;
+  /* padding: 0; */
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-projects-list li {
+  list-style: none;
+  width: 23%;
+}
+
+.grid-projects-list .caption p {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.grid-projects-list .caption p .fa {
+  font-size: 12px;
+}
+
+.grid-projects-list .caption h3 {
+  font-size: 18px;
+  margin: 8px 0 4px;
+}
+
+.grid-projects-list .panel {
+  overflow: hidden;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  padding: 0 0 12px;
+}
+
+.grid-projects-list .panel .columns {
+  float: none !important;
+}
+
+.grid-projects-list .panel .infos-money-details {
+  display: flex;
+}
+
+.grid-projects-list .panel .infos-money-details small {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .grid-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-projects-list li {
+    list-style: none;
+    width: 100%;
+  }
+}

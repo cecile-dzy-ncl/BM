@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "DIN Pro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/DINPro.otf")
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Medium.otf")
+    format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "brusher";
+  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/Brusher.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brush {
+  font-family: "brusher";
+}
+
+h1,
+h2 {
+  font-family: "DIN Pro";
+  text-align: center;
+}
+
+h1 {
+  font-size: 46px;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 600;
+  /* line-height: 52px; */
+}
+
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+input[type="text"],
+.top-bar-section ul li > a {
+  font-family: "Open Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+  color: #3e3643;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
