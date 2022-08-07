@@ -18,8 +18,8 @@ button,
 .btn-bm:hover,
 button:hover,
 .button:hover {
-  background-color: var(--red);
-  border-color: var(--red);
+  background-color: var(--dark-red);
+  border-color: var(--dark-red);
 }
 
 .btn-bm,
