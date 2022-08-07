@@ -103,6 +103,7 @@ section.section-projet-details .team_by {
   align-items: center;
 }
 
+#projects-show .block-share-container h4,
 #projects-show .current-amount,
 #projects-show .objectif-amount,
 #projects-show #show_days,
@@ -112,10 +113,6 @@ section.section-projet-details .team_by {
 
 section#project_tabs > .bg-color-light {
   background: white;
-}
-
-#projects-show .block-share-container h4 {
-  font-family: "Open Sans";
 }
 
 .block-share-container h4 span:before,
