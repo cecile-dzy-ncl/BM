@@ -1505,6 +1505,7 @@ footer .bottom-bar .left li:not(:last-child) a:after {
 
   .wr-banner-img img {
     width: 100%;
+    margin-bottom: 10px;
   }
 
   .bottom-bar .top-bar-section {
