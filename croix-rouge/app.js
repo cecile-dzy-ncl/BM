@@ -16,19 +16,25 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#events-show")) {
-      var id = $("#widget-new-project a")[0].href.split("event_id=")[1];
+      var eventId = $("#widget-new-project a")[0].href.split("event_id=")[1];
       console.log("ok");
+
+      var amountTag = `<tag event_id='${eventId}'>$collected_amount</tag>`;
+      var projectTag = `<tag event_id='${eventId}'>$project_count</tag>`;
+
+      console.log(amountTag);
+      console.log(projectTag);
       var compteurDiv = `<div class="wrapper">
       <div class="container-bm">
       <div class="compteur">
       <div class="w-50 px-10 ">
-      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="219">$project_count</tag></span></h2>
+      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="${eventId}">$project_count</tag></span></h2>
       
       <p class="text-center  m-0">pages de collectes créées</p>
       </div>
       
       <div class="w-50 px-10">
-      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="219">$collected_amount</tag></span></h2>
+      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="${eventId}">$collected_amount</tag></span></h2>
       <p class="text-center  m-0">ont déjà été collectés</p>
       </div>
       </div>
