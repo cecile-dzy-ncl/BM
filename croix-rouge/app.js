@@ -21,15 +21,15 @@ $(document).ready(function () {
       var compteurDiv = `<div class="wrapper">
       <div class="container-bm">
       <div class="compteur">
-      <div class="w-50 px-10 border-right border-white">
-      <h2 class="text-center white m-0"><span class="bitter"><tag event_id="219">$project_count</tag></span></h2>
+      <div class="w-50 px-10 ">
+      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="219">$project_count</tag></span></h2>
       
-      <p class="text-center white m-0">pages de collectes créées</p>
+      <p class="text-center  m-0">pages de collectes créées</p>
       </div>
       
       <div class="w-50 px-10">
-      <h2 class="text-center white m-0"><span class="bitter"><tag event_id="219">$collected_amount</tag></span></h2>
-      <p class="text-center white m-0">ont déjà été collectés</p>
+      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="219">$collected_amount</tag></span></h2>
+      <p class="text-center  m-0">ont déjà été collectés</p>
       </div>
       </div>
       </div>
