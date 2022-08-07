@@ -1,6 +1,10 @@
 .banner {
   position: relative;
   height: 511px;
+  align-items: flex-end;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 .banner img {
@@ -15,13 +19,9 @@
 .banner-text {
   width: 455px;
   z-index: 1;
-  display: flex;
-  flex-direction: column;
-  /* margin-left: auto; */
-  /* margin-right: 100px; */
-  align-items: center;
   background: white;
   color: black;
+  padding: 40px 60px;
 }
 
 .banner.homepage {
@@ -31,14 +31,11 @@
 
 .homepage .banner-text {
   width: 560px;
-  /* margin-right: auto;
-  margin-left: 120px; */
-  /* align-items: flex-start; */
 }
 
-.banner-text * {
+.banner-text *:not(.btn-bm) {
   text-align: center;
-  color: black;
+  color: var(--black);
 }
 
 .banner-text h1,

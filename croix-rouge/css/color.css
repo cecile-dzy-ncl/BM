@@ -23,6 +23,11 @@
   --primary: var(--red);
 }
 
+.black {
+  color: var(--black);
+  color: #3e3643;
+}
+
 .bg-grey {
   background: var(--lightergrey);
 }
