@@ -35,11 +35,17 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 section.section-projet-details .project-detail-data .project_boutons_give {
   /* font-weight: 500; */
-  background-color: white;
-  color: var(--green);
+  background-color: var(--red);
+  color: white;
   padding: 0.6rem 0;
   min-height: auto;
   border-radius: 8px;
+}
+
+section.section-projet-details
+  .project-detail-data
+  .project_boutons_give:hover {
+  background-color: var(--dark-red);
 }
 
 #show_title {
