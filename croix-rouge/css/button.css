@@ -10,8 +10,8 @@ button,
 .button {
   text-transform: uppercase;
   font-family: "DIN Pro";
-  background-color: var(--green);
-  border-color: var(--green);
+  background-color: var(--red);
+  border-color: var(--red);
   border-radius: 8px;
 }
 
@@ -36,7 +36,7 @@ button,
 
 #widget-new-project .button {
   border-radius: 8px;
-  background-color: var(--green);
+  background-color: var(--red);
 }
 
 @media screen and (max-width: 500px) {
