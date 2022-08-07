@@ -9,7 +9,8 @@ h6,
 p,
 blockquote,
 input[type="text"],
-.top-bar-section ul li > a {
+.top-bar-section ul li > a,
+body {
   font-family: "Roboto Condensed";
   text-align: center;
   color: #1a1d27;
