@@ -15,6 +15,13 @@ button,
   border-radius: 8px;
 }
 
+.btn-bm:hover,
+button:hover,
+.button:hover {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+
 .btn-bm[class*="bg"],
 .btn-bm[class*="bg"] a:hover {
   color: #fff;

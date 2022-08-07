@@ -9,6 +9,7 @@
   --darkergrey: #1c1d33;
 
   --red: #e30613;
+  --dark-red: #950008;
   /* --pink: #d21281;
   --blue: #003266; */
   /* --green: #00aba4; */
@@ -54,6 +55,15 @@
 .bg-red {
   background: var(--red);
   background: #e30613;
+}
+
+.dark-red {
+  color: var(--dark-red);
+}
+
+.bg-dark-red {
+  background: var(--dark-red);
+  background: #950008;
 }
 
 .dark-green {
