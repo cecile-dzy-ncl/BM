@@ -14,6 +14,29 @@ $(document).ready(function () {
     "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
   $("#banner_section").before(bannerMaintenance);
 
+  $(function () {
+    if ($("body").is("#events-show")) {
+      var id = $("#widget-new-project a")[0].href.split("event_id=")[1];
+      console.log("ok");
+      var compteurDiv = `<div class="wrapper">
+      <div class="container-bm">
+      <div class="compteur">
+      <div class="w-50 px-10 border-right border-white">
+      <h2 class="text-center white m-0"><span class="bitter"><tag event_id="219">$project_count</tag></span></h2>
+      
+      <p class="text-center white m-0">pages de collectes créées</p>
+      </div>
+      
+      <div class="w-50 px-10">
+      <h2 class="text-center white m-0"><span class="bitter"><tag event_id="219">$collected_amount</tag></span></h2>
+      <p class="text-center white m-0">ont déjà été collectés</p>
+      </div>
+      </div>
+      </div>
+      </div>`;
+      $("#widget-new-project").after(compteurDiv);
+    }
+  });
   // $(function () {
   //   if ($("body").is("#events-show")) {
   //     var eventProjectsNb = $("body#events-show").find("#projects li").length;
