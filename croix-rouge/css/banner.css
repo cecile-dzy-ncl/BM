@@ -37,8 +37,8 @@
 }
 
 .banner-text * {
-  text-align: left;
-  color: white;
+  text-align: center;
+  color: black;
 }
 
 .banner-text h1,

@@ -1,35 +1,18 @@
-@font-face {
-  font-family: "DIN Pro";
-  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/DINPro.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "DIN Pro";
-  src: url("https://cecile-dzy-ncl.github.io/BM/msf_be/fonts/DINPro-Medium.otf")
-    format("opentype");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "brusher";
-  src: url("https://cecile-dzy-ncl.github.io/BM/gustave_roussy/fonts/Brusher.ttf")
-    format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.brush {
-  font-family: "brusher";
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 
 h1,
-h2 {
-  font-family: "DIN Pro";
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+input[type="text"],
+.top-bar-section ul li > a {
+  font-family: "Roboto Condensed";
   text-align: center;
+  color: #1a1d27;
 }
 
 h1 {
@@ -41,29 +24,6 @@ h2 {
   font-size: 34px;
   font-weight: 600;
   /* line-height: 52px; */
-}
-
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-input[type="text"],
-.top-bar-section ul li > a {
-  font-family: "Open Sans";
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-  color: #3e3643;
-  text-align: center;
 }
 
 @media screen and (max-width: 500px) {
