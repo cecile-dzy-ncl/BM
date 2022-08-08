@@ -40,7 +40,7 @@ $(document).ready(function () {
       </div>
       </div>
       </div>`;
-      $("#widget-new-project").before(compteurDiv);
+      // $("#widget-new-project").before(compteurDiv);
     }
   });
   // $(function () {
