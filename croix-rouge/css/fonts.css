@@ -28,6 +28,12 @@ h2 {
   /* line-height: 52px; */
 }
 
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  /* line-height: 52px; */
+}
+
 .bitter {
   font-family: "Bitter";
 }
