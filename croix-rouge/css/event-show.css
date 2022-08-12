@@ -57,6 +57,10 @@
   color: black;
 }
 
+#events-show .projects-list .panel {
+  box-shadow: 2px 2px 10px #cbcbcb;
+}
+
 .event-head .intro-my-event p {
   color: black !important;
 }
