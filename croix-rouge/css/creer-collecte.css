@@ -1,0 +1,39 @@
+.inscription-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inscription-step span {
+  background: var(--yellow);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Sensa";
+  margin-right: 50px;
+}
+
+.inscription-step h3,
+.inscription-step p {
+  text-align: left;
+}
+
+.inscription-step a {
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .inscription-step {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inscription-step span {
+    margin-right: 0px;
+  }
+}
