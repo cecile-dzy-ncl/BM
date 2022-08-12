@@ -18,8 +18,7 @@ $(document).ready(function () {
     if ($("body").is("#events-show")) {
       var eventId = $("#widget-new-project a")[0].href.split("event_id=")[1];
 
-      var amount = $("#events-show .current-amount");
-      console.log(amount);
+      var amount = $("#events-show .current-amount").html().replace(/\s/g, "");
 
       var compteurDiv = `<div class="wrapper">
       <div class="container-bm">
