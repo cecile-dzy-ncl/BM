@@ -91,4 +91,6 @@
 
 .section-home-projects .projects-list .panel .thumbnail {
   min-width: unset;
+  line-height: inherit;
+  height: auto;
 }
