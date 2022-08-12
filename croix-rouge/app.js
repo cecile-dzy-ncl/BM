@@ -23,7 +23,7 @@ $(document).ready(function () {
       var compteurDiv = `<div class="wrapper">
       <div class="container-bm">
       <div class="compteur">
-      <div class="w-50 px-10">
+      <div class="w-50 px-10 mx-auto">
       <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
       <p class="text-center  m-0">ont déjà été collectés</p>
       </div>
