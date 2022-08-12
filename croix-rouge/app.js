@@ -17,50 +17,23 @@ $(document).ready(function () {
   $(function () {
     if ($("body").is("#events-show")) {
       var eventId = $("#widget-new-project a")[0].href.split("event_id=")[1];
-      console.log("ok");
 
-      var amountTag = `<tag event_id='${eventId}'>$collected_amount</tag>`;
-      var projectTag = `<tag event_id='${eventId}'>$project_count</tag>`;
+      var amount = $("#events-show .current-amount");
+      console.log(amount);
 
-      console.log(amountTag);
-      console.log(projectTag);
       var compteurDiv = `<div class="wrapper">
       <div class="container-bm">
       <div class="compteur">
-      <div class="w-50 px-10 ">
-      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="${eventId}">$project_count</tag></span></h2>
-      
-      <p class="text-center  m-0">pages de collectes créées</p>
-      </div>
-      
       <div class="w-50 px-10">
-      <h2 class="text-center  m-0"><span class="bitter"><tag event_id="${eventId}">$collected_amount</tag></span></h2>
+      <h2 class="text-center  m-0"><span class="bitter">${amount}</span></h2>
       <p class="text-center  m-0">ont déjà été collectés</p>
       </div>
       </div>
       </div>
       </div>`;
-      // $("#widget-new-project").before(compteurDiv);
+      $("#widget-new-project").before(compteurDiv);
     }
   });
-  // $(function () {
-  //   if ($("body").is("#events-show")) {
-  //     var eventProjectsNb = $("body#events-show").find("#projects li").length;
-  //     var amountRaised = $("body#events-show").find(".current-amount").html();
-
-  //     // just need to style the event-stats
-
-  //     if (eventProjectsNb < 2) {
-  //       $("#events-show .habillage .intro-my-event").prepend(
-  //         `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span >${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>page de collecte créée</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span >${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
-  //       );
-  //     } else {
-  //       $("#events-show .habillage .intro-my-event").prepend(
-  //         `<div class="event-stats"><div class="event-stat projects_count"><div class="stat-nb"><span >${eventProjectsNb}</span></div><p class="text-center mb-0"><strong>pages de collecte créées</strong></p></div><div class="event-stat amount_collected"><div class="stat-nb"><span >${amountRaised}</span></div><p class="text-center mb-0"><strong>ont déjà été collectés</strong></p></div></div>`
-  //       );
-  //     }
-  //   }
-  // });
 
   // --------- RESPONSIVE ---------
 
