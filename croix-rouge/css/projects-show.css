@@ -132,10 +132,6 @@ section.section-projet-details .project-detail-data .contributeurs span {
   display: flex;
 }
 
-#projects-show .projects-list .panel {
-  box-shadow: 2px 2px 10px #cbcbcb;
-}
-
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
