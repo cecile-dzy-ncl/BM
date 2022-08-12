@@ -34,6 +34,15 @@ $(document).ready(function () {
     }
   });
 
+  $(function () {
+    if ($("body").is("#indexs-index")) {
+      var fundraisingPages = $(".section-home-projects");
+      $("#exemples").html = fundraisingPages;
+    }
+  });
+
+  // section-home-projects
+
   // --------- RESPONSIVE ---------
 
   // var windowWidth = $(window).width();
