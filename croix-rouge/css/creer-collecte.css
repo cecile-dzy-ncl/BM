@@ -5,7 +5,8 @@
 }
 
 .inscription-step span {
-  background: var(--yellow);
+  /* background: var(--green); */
+  border: 1px solid;
   border-radius: 50%;
   width: 100px;
   height: 100px;
