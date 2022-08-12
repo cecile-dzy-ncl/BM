@@ -88,3 +88,7 @@
 .section-home-projects .infos-money-details {
   display: flex;
 }
+
+.section-home-projects .projects-list .panel .thumbnail {
+  min-width: unset;
+}
