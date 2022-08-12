@@ -24,7 +24,7 @@ $(document).ready(function () {
       <div class="container-bm">
       <div class="compteur">
       <div class="w-50 px-10">
-      <h2 class="text-center  m-0"><span class="bitter">${amount}</span></h2>
+      <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
       <p class="text-center  m-0">ont déjà été collectés</p>
       </div>
       </div>
