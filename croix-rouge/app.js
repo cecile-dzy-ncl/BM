@@ -107,39 +107,90 @@ $(document).ready(function () {
         var legendObjectif = "Objectif";
         var legendExpected = "attendus";
 
-        const card =
-          "<div class='card card-event " +
-          classNoAmount +
-          "'><img src='" +
-          event.banner_image +
-          "'><div class='card-event-btns'><a href='" +
-          event.url.fr +
-          "' class='btn-bm bg-black white'>" +
-          btnSee +
-          "</a><a href='https://events.msf-azg.be/projects/new?event_id=" +
-          event.id +
-          "' class='btn-bm bg-red white'>" +
-          btnCreerCard +
-          "</a></div><div class='card-event-details'><h4><a href='" +
-          event.url.fr +
-          "'>" +
-          event.title.fr +
-          "</a></h4><p>" +
-          event.description.fr +
-          "</p><div>" +
-          progressBar +
-          "<div class='event-numbers d-flex mt-20'><div class=''><h5 class='text-center'>" +
-          event.projects_count +
-          "</h5><p class='text-center'><small>" +
-          legendCollectes +
-          "</small></p></div><div class='line'></div><div class=''><h5 class='text-center amount-collected-title'>" +
-          eventAmountCollectedFormatted +
-          "</h5><p class='text-center'><small>" +
-          legendRecoltes +
-          "</small></p></div>" +
-          amountExpectedBlock +
-          remainingDays +
-          "</div></div>";
+        console.log("event", event);
+        const card = `<div class="panel radius">
+          <div class="thumbnail">
+            <a href="/projects/elisa-baptiste"><img alt="Elisa &amp;amp; Baptiste" class="project-thumbnails" data-img-0="https://macollecte.croix-rouge.fr/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project-4hziss_n/thumbnail/24026300-ukraine-russia-conflict.jpg" src="https://macollecte.croix-rouge.fr/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project-4hziss_n/thumbnail/24026300-ukraine-russia-conflict.jpg"></a>
+          </div>
+          <div class="caption">
+            <h3 class="text-center">
+              <a href="/projects/elisa-baptiste">Elisa &amp; Baptiste</a>
+            </h3>
+            <p class="link-to-user text-center truncate_html">
+                par&nbsp;Baptiste Vandecrux
+                <span class="fa fa-play"></span>
+                <a class="btn-link category" href="/events/urgence-ukraine">Urgences Ukraine 2022 - Croix-Rouge française</a>
+            </p>
+          </div>
+          <div class="caption infos-money">
+
+              <div class="progress">
+                <span class="graph-barBack">
+                  <span class="graph-bar" data-value="125" style="width: 125%;">
+                    <span class="graph-legend"></span>
+                  </span>
+                </span>
+              </div>
+            <div class="row infos-money-details">
+              <div class="small-4 columns text-center">
+                <span class="info-money detail">
+                  5 000 €
+                </span>
+                <small class="clearfix">
+                  collectés
+                </small>
+              </div>
+                <div class="small-4 columns text-center">
+                  <span class="info-money detail">
+                    4 000 €
+                  </span>
+                  <small class="clearfix">
+                    attendus
+                  </small>
+                </div>
+                <div class="small-4 columns text-center">
+                  <span class="info-money detail">
+                    135j
+                  </span>
+                  <small class="clearfix">
+                    restants
+                  </small>
+                </div>
+            </div>
+          </div>
+        </div>`;
+
+        // "<div class='card card-event " +
+        //   classNoAmount +
+        //   "'><img src='" +
+        //   event.banner_image +
+        //   "'><div class='card-event-btns'><a href='" +
+        //   event.url.fr +
+        //   "' class='btn-bm bg-black white'>" +
+        //   btnSee +
+        //   "</a><a href='https://events.msf-azg.be/projects/new?event_id=" +
+        //   event.id +
+        //   "' class='btn-bm bg-red white'>" +
+        //   btnCreerCard +
+        //   "</a></div><div class='card-event-details'><h4><a href='" +
+        //   event.url.fr +
+        //   "'>" +
+        //   event.title.fr +
+        //   "</a></h4>" +
+        //   "<div>" +
+        //   progressBar +
+        //   "<div class='event-numbers d-flex mt-20'><div class=''><h5 class='text-center'>" +
+        //   event.projects_count +
+        //   "</h5><p class='text-center'><small>" +
+        //   legendCollectes +
+        //   "</small></p></div><div class='line'></div><div class=''><h5 class='text-center amount-collected-title'>" +
+        //   eventAmountCollectedFormatted +
+        //   "</h5><p class='text-center'><small>" +
+        //   legendRecoltes +
+        //   "</small></p></div>" +
+        //   amountExpectedBlock +
+        //   remainingDays +
+        //   "</div></div>";
         return card;
         // injectCard(card, eventContainer);
       };
@@ -172,11 +223,10 @@ $(document).ready(function () {
           form.change(function () {
             var selected = $(this).find("option:selected");
             var url = selected.data("url");
-            console.log("url", url);
+
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
-                console.log(response);
                 const card = "";
                 resultSection.html("");
                 if (response.total === 0) {
