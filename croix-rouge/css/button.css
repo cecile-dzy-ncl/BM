@@ -13,6 +13,7 @@ button,
   border-color: var(--red);
   border-radius: 8px;
   color: white;
+  transition: background-color 0.3s ease;
 }
 
 .btn-bm:hover,
@@ -42,11 +43,13 @@ button:hover,
   margin: 0 auto 40px;
   display: block;
   width: fit-content;
+  transition: background-color 0.3s ease;
 }
 
 #widget-new-project .button {
   border-radius: 8px;
   background-color: var(--red);
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (max-width: 500px) {
