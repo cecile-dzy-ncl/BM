@@ -115,9 +115,13 @@ $(document).ready(function () {
                   <span class="info-money detail">
                   ${remainingDays}
                   </span>
-                  <small class="clearfix">
-                    restants
-                  </small>
+                  ${
+                    remainingDays === "" ? (
+                      ""
+                    ) : (
+                      <small class="clearfix">restants</small>
+                    )
+                  }
                 </div>
               </div>
             </div>
