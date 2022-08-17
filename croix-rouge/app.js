@@ -74,7 +74,7 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                       <h3>afficher les vignettes des projets ici</h3>
-                      ${(
+                      
                         <record
                           count="100"
                           event_id={this.value}
@@ -83,7 +83,8 @@ $(document).ready(function () {
                         >
                           $project
                         </record>
-                      )}
+                      
+                      
                     </div>`
                   );
                 }
