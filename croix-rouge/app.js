@@ -46,66 +46,66 @@ $(document).ready(function () {
       const resultSection = $("#results-departement");
 
       const buildCard = function (event) {
-        var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-        var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
-          maximumFractionDigits: 0,
-          minimumFractionDigits: 0,
-          style: "currency",
-          currency: "EUR",
-        }).format(eventAmountCollected);
+        // var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
+        // var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
+        //   maximumFractionDigits: 0,
+        //   minimumFractionDigits: 0,
+        //   style: "currency",
+        //   currency: "EUR",
+        // }).format(eventAmountCollected);
 
-        if (event.expected_amount != null) {
-          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-          var eventProgress =
-            (eventAmountCollected / eventAmountExpected) * 100;
-          var progressBar =
-            "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
-            eventProgress +
-            "%'></div></div>";
-          var classNoAmount = "";
-          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-          var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
-            maximumFractionDigits: 0,
-            minimumFractionDigits: 0,
-            style: "currency",
-            currency: "EUR",
-          }).format(eventAmountExpected);
-          var amountExpectedBlock =
-            "<div class='line'></div><div class=''><h5 class='text-center'>" +
-            eventAmountExpectedFormatted +
-            "</h5><p class='text-center'><small>" +
-            legendExpected +
-            "</small></p></div>";
-        } else {
-          var classNoAmount = "no-amount";
-          var amountExpectedBlock = "";
-          var progressBar = "";
-        }
+        // if (event.expected_amount != null) {
+        //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+        //   var eventProgress =
+        //     (eventAmountCollected / eventAmountExpected) * 100;
+        //   var progressBar =
+        //     "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
+        //     eventProgress +
+        //     "%'></div></div>";
+        //   var classNoAmount = "";
+        //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+        //   var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+        //     maximumFractionDigits: 0,
+        //     minimumFractionDigits: 0,
+        //     style: "currency",
+        //     currency: "EUR",
+        //   }).format(eventAmountExpected);
+        //   var amountExpectedBlock =
+        //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
+        //     eventAmountExpectedFormatted +
+        //     "</h5><p class='text-center'><small>" +
+        //     legendExpected +
+        //     "</small></p></div>";
+        // } else {
+        //   var classNoAmount = "no-amount";
+        //   var amountExpectedBlock = "";
+        //   var progressBar = "";
+        // }
 
-        if (eventEndDate != null) {
-          var eventEndDate = new Date(event.end);
-          var remainingDays = Math.ceil(
-            (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-          );
-          var remainingDaysBlock =
-            "<div class='line'></div><div class=''><h5 class='text-center'>" +
-            remainingDays +
-            "j</h5><p class='text-center'><small>" +
-            remainingDaysLegend +
-            "</small></p></div>";
-        } else {
-          var remainingDays = "";
-        }
+        // if (eventEndDate != null) {
+        //   var eventEndDate = new Date(event.end);
+        //   var remainingDays = Math.ceil(
+        //     (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+        //   );
+        //   var remainingDaysBlock =
+        //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
+        //     remainingDays +
+        //     "j</h5><p class='text-center'><small>" +
+        //     remainingDaysLegend +
+        //     "</small></p></div>";
+        // } else {
+        //   var remainingDays = "";
+        // }
 
-        var remainingDaysLegend = "restants";
-        var btnSoutenir = "<strong>Soutenir</strong> une collecte";
-        var btnCreer = "<strong>Créer</strong> une collecte";
-        var btnCreerCard = "Créer une collecte";
-        var btnSee = "Voir les collectes";
-        var legendCollectes = "collectes";
-        var legendRecoltes = "récoltés";
-        var legendObjectif = "Objectif";
-        var legendExpected = "attendus";
+        // var remainingDaysLegend = "restants";
+        // var btnSoutenir = "<strong>Soutenir</strong> une collecte";
+        // var btnCreer = "<strong>Créer</strong> une collecte";
+        // var btnCreerCard = "Créer une collecte";
+        // var btnSee = "Voir les collectes";
+        // var legendCollectes = "collectes";
+        // var legendRecoltes = "récoltés";
+        // var legendObjectif = "Objectif";
+        // var legendExpected = "attendus";
 
         console.log("event", event);
         const card = `
@@ -121,12 +121,9 @@ $(document).ready(function () {
             </h3>
             <p class="link-to-user text-center truncate_html">
                 par&nbsp;${event.creator}
-                <span class="fa fa-play"></span>
-                <a class="btn-link category" href="/events/urgence-ukraine">Urgences Ukraine 2022 - Croix-Rouge française</a>
             </p>
           </div>
           <div class="caption infos-money">
-
               <div class="progress">
                 <span class="graph-barBack">
                   <span class="graph-bar" data-value="125" style="width: 125%;">
@@ -163,37 +160,6 @@ $(document).ready(function () {
           </div>
         </div>`;
 
-        // "<div class='card card-event " +
-        //   classNoAmount +
-        //   "'><img src='" +
-        //   event.banner_image +
-        //   "'><div class='card-event-btns'><a href='" +
-        //   event.url.fr +
-        //   "' class='btn-bm bg-black white'>" +
-        //   btnSee +
-        //   "</a><a href='https://events.msf-azg.be/projects/new?event_id=" +
-        //   event.id +
-        //   "' class='btn-bm bg-red white'>" +
-        //   btnCreerCard +
-        //   "</a></div><div class='card-event-details'><h4><a href='" +
-        //   event.url.fr +
-        //   "'>" +
-        //   event.title.fr +
-        //   "</a></h4>" +
-        //   "<div>" +
-        //   progressBar +
-        //   "<div class='event-numbers d-flex mt-20'><div class=''><h5 class='text-center'>" +
-        //   event.projects_count +
-        //   "</h5><p class='text-center'><small>" +
-        //   legendCollectes +
-        //   "</small></p></div><div class='line'></div><div class=''><h5 class='text-center amount-collected-title'>" +
-        //   eventAmountCollectedFormatted +
-        //   "</h5><p class='text-center'><small>" +
-        //   legendRecoltes +
-        //   "</small></p></div>" +
-        //   amountExpectedBlock +
-        //   remainingDays +
-        //   "</div></div>";
         return card;
         // injectCard(card, eventContainer);
       };
