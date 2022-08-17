@@ -46,34 +46,10 @@ $(document).ready(function () {
       const resultSection = $("#results-departement");
 
       const buildCard = function (event) {
-        // var eventAmountCollected = parseInt(event.amount_collected, 10) / 100;
-        // var eventAmountCollectedFormatted = new Intl.NumberFormat("fr-FR", {
-        //   maximumFractionDigits: 0,
-        //   minimumFractionDigits: 0,
-        //   style: "currency",
-        //   currency: "EUR",
-        // }).format(eventAmountCollected);
-
         if (event.expected_amount != null) {
           var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
           var eventProgress =
             (eventAmountCollected / eventAmountExpected) * 100;
-          //   var progressBar =
-          //     "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
-          //     eventProgress +
-          //     "%'></div></div>";
-          //   var classNoAmount = "";
-          //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-          //   var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
-          //     maximumFractionDigits: 0,
-          //     minimumFractionDigits: 0,
-          //     style: "currency",
-          //     currency: "EUR",
-          //   }).format(eventAmountExpected);
-        } else {
-          //   var classNoAmount = "no-amount";
-          //   var amountExpectedBlock = "";
-          var progressBar = "";
         }
 
         if (eventEndDate != null) {
