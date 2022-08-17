@@ -46,7 +46,7 @@
 }
 
 .event-ex .link p {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .event-ex img {
@@ -57,6 +57,7 @@
 .event-ex .bitter {
   position: relative;
   padding-bottom: 3px;
+  font-weight: 600;
 }
 
 .event-ex .bitter:after {
@@ -66,6 +67,7 @@
   left: 0;
   width: 30px;
   height: 2px;
+  background-color: var(--dark-green);
 }
 
 .event-ex > p {
