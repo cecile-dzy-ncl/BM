@@ -76,30 +76,14 @@ $(document).ready(function () {
           var progressBar = "";
         }
 
-        // if (eventEndDate != null) {
-        //   var eventEndDate = new Date(event.end);
-        //   var remainingDays = Math.ceil(
-        //     (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-        //   );
-        //   var remainingDaysBlock =
-        //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
-        //     remainingDays +
-        //     "j</h5><p class='text-center'><small>" +
-        //     remainingDaysLegend +
-        //     "</small></p></div>";
-        // } else {
-        //   var remainingDays = "";
-        // }
-
-        // var remainingDaysLegend = "restants";
-        // var btnSoutenir = "<strong>Soutenir</strong> une collecte";
-        // var btnCreer = "<strong>Créer</strong> une collecte";
-        // var btnCreerCard = "Créer une collecte";
-        // var btnSee = "Voir les collectes";
-        // var legendCollectes = "collectes";
-        // var legendRecoltes = "récoltés";
-        // var legendObjectif = "Objectif";
-        // var legendExpected = "attendus";
+        if (eventEndDate != null) {
+          var eventEndDate = new Date(event.end);
+          var remainingDays = Math.ceil(
+            (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
+          );
+        } else {
+          var remainingDays = "";
+        }
 
         console.log("event", event);
         const card = `
@@ -152,7 +136,7 @@ $(document).ready(function () {
               </div>
               <div class="small-4 columns text-center">
                 <span class="info-money detail">
-                  135j
+                 ${remainingDays}
                 </span>
                 <small class="clearfix">
                   restants
@@ -165,19 +149,6 @@ $(document).ready(function () {
         return card;
         // injectCard(card, eventContainer);
       };
-
-      // const fetchUlEvents = async () => {
-      //   return await fetch(
-      //     "https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300"
-      //   )
-      //     .then((result) => result.json())
-      //     .then((data) => {
-      //       console.log("data", data);
-      //       return data.events;
-      //     });
-      // };
-
-      // console.log("test", fetchUlEvents());
 
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
@@ -208,10 +179,10 @@ $(document).ready(function () {
                       </div>`
                   );
                 } else {
-                  resultSection.append("<div id='dt-projects-list'></div>");
+                  resultSection.append("<ul class='projects-list'></ul>");
                   response.projects.map((projet) => {
                     var card = buildCard(projet);
-                    $("#dt-projects-list").append(card);
+                    $(".projects-list").append(card);
                   });
                   resultSection.append(
                     `<div>
