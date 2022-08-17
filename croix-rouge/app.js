@@ -60,8 +60,7 @@ $(document).ready(function () {
           form.change(function (event) {
             console.log("this", this);
             console.log("this.value", this.value);
-            console.log("this.url", this.url);
-            console.log("event.target", event.target);
+
             var selected = $(this).find("option:selected");
             console.log("selected", selected);
             $.get(
