@@ -48,7 +48,7 @@ $(document).ready(function () {
         )
           .then((result) => result.json())
           .then((data) => {
-            console.log("data", data);
+            console.log("dataaa", data);
             return data;
           });
       };
