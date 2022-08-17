@@ -81,7 +81,7 @@ $(document).ready(function () {
                           project_type="peer_to_peer"
                           select="top"
                         >
-                          $project
+                          ${$project}
                         </record>
                       
                       
