@@ -42,7 +42,7 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is(".projets-locaux")) {
-      const fetchUlEvents = (event) => {
+      const fetchUlEvents = () => {
         $.get(
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
           function (response) {
