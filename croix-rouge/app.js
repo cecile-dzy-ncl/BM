@@ -116,11 +116,9 @@ $(document).ready(function () {
                   ${remainingDays}
                   </span>
                   ${
-                    remainingDays === "" ? (
-                      ""
-                    ) : (
-                      <small class="clearfix">restants</small>
-                    )
+                    remainingDays === ""
+                      ? ""
+                      : `<small class="clearfix">restants</small>`
                   }
                 </div>
               </div>
