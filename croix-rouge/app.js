@@ -46,17 +46,12 @@ $(document).ready(function () {
       const resultSection = $("#results-departement");
 
       const buildCard = function (event) {
-        if (event.expected_amount != null) {
-          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-          var eventProgress =
-            (eventAmountCollected / eventAmountExpected) * 100;
-        }
-
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
           var remainingDays = `${Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
           )}j`;
+          console.log("remainingDays", remainingDays);
         } else {
           var remainingDays = "";
         }
