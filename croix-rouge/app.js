@@ -140,6 +140,14 @@ $(document).ready(function () {
           form.change(function () {
             var selected = $(this).find("option:selected");
             var url = selected.data("url");
+            var urlDonation;
+
+            $.get(
+              `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+              function (response) {
+                urlDonation = response.don_api;
+              }
+            );
 
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
@@ -160,7 +168,8 @@ $(document).ready(function () {
                   });
                   resultSection.append(
                     `<div>
-                        <a class="btn-bm" href="${url}">Donner à mon UL</a>
+                        <a class="btn-bm" href="${url}">Créer une cagnotte</a>
+                        <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don}">Donner à mon UL</a>
                      </div>`
                   );
                 }
