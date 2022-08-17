@@ -57,10 +57,11 @@ $(document).ready(function () {
               `<option value=${ulEvent.id} url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
             );
           });
-          form.change(function () {
-            console.log(this);
-            console.log(this.value);
-            console.log(this.url);
+          form.change(function (event) {
+            console.log("this", this);
+            console.log("this.value", this.value);
+            console.log("this.url", this.url);
+            console.log("event.target", event.target);
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
