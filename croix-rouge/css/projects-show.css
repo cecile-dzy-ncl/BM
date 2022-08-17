@@ -88,7 +88,7 @@ section.section-projet-details .team_by {
 }
 
 #projects-show .project_event_description {
-  display: none;
+  /* display: none; */
   width: 100%;
   padding: 2rem 5rem;
   background: #f0f0f0;
