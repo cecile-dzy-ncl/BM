@@ -36,9 +36,7 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#indexs-index")) {
-      // var fundraisingPages = $(".section-home-projects");
       $("#fundraising-ex #exemples").html = $(".section-home-projects");
-      // $("#fundraising-ex h2").after($(".section-home-projects"));
     }
   });
 
