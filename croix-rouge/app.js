@@ -169,7 +169,7 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                         <a class="btn-bm" href="${url}">Créer une cagnotte</a>
-                        <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don">Donner à mon UL</a>
+                        <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don" targer="_blank">Donner à mon UL</a>
                      </div>`
                   );
                 }
