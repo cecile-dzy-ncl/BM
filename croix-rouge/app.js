@@ -48,8 +48,8 @@ $(document).ready(function () {
         function (response) {
           const eventsList = response.events;
           console.log("eventsList : ", eventsList);
-          const eventsListFiltered = eventsList.filter((ulEvents) =>
-            ulEvents.title.fr.startsWith("Croix Rouge ")
+          const eventsListFiltered = eventsList.filter((ulEvent) =>
+            ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
           console.log("eventsListFiltered : ", eventsListFiltered);
         }
