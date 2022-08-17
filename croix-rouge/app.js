@@ -61,6 +61,7 @@ $(document).ready(function () {
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
       const eventsList = fetchUlEvents();
+      console.log("rrrrrrr");
       console.log("eventsList", eventsList);
 
       // $.get(
