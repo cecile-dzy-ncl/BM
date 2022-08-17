@@ -97,6 +97,16 @@ $(document).ready(function () {
           var remainingDays = "";
         }
 
+        var remainingDaysLegend = "restants";
+        var btnSoutenir = "<strong>Soutenir</strong> une collecte";
+        var btnCreer = "<strong>Créer</strong> une collecte";
+        var btnCreerCard = "Créer une collecte";
+        var btnSee = "Voir les collectes";
+        var legendCollectes = "collectes";
+        var legendRecoltes = "récoltés";
+        var legendObjectif = "Objectif";
+        var legendExpected = "attendus";
+
         const card =
           "<div class='card card-event " +
           classNoAmount +
@@ -134,18 +144,18 @@ $(document).ready(function () {
         // injectCard(card, eventContainer);
       };
 
-      const fetchUlEvents = async () => {
-        return await fetch(
-          "https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300"
-        )
-          .then((result) => result.json())
-          .then((data) => {
-            console.log("data", data);
-            return data.events;
-          });
-      };
+      // const fetchUlEvents = async () => {
+      //   return await fetch(
+      //     "https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300"
+      //   )
+      //     .then((result) => result.json())
+      //     .then((data) => {
+      //       console.log("data", data);
+      //       return data.events;
+      //     });
+      // };
 
-      console.log("test", fetchUlEvents());
+      // console.log("test", fetchUlEvents());
 
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
