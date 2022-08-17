@@ -132,6 +132,37 @@ section.section-projet-details .project-detail-data .contributeurs span {
   display: flex;
 }
 
+.grid-diff {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+}
+
+.block-diff {
+  padding: 50px;
+  margin-bottom: 100px;
+}
+
+.block-diff h3 {
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.block-diff img {
+  height: 60px;
+  margin-bottom: 35px;
+}
+
+.block-diff p {
+  margin-bottom: 0;
+}
+
+.block-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
