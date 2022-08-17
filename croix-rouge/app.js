@@ -42,15 +42,22 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is(".projets-locaux")) {
-      const fetchUlEvents = function () {
-        $.get(
-          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
-          function (response) {
-            console.log("inside resp", response.events);
-            return response.events;
-          }
-        );
+      const fetchUlEvents = () => {
+        return fetch(
+          "https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300"
+        )
+          .then((result) => result.json())
+          .then((data) => {
+            return data;
+          });
       };
+      // fetch(
+      //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`
+      // ).then(function (response) {
+      //   console.log("inside resp", response.events);
+      //   return response.events;
+      // });
+
       console.log("fetchUlEvents()", fetchUlEvents());
       const fetchSelectedEvent = (event) => {
         $.get(
