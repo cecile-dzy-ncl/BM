@@ -44,7 +44,7 @@ $(document).ready(function () {
     if ($("body").is(".projets-locaux")) {
       console.log("toto");
       const form = $("#form-departements select");
-      // const ulList = [];
+      const resultSection = $("#results-departement");
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
         function (response) {
@@ -63,6 +63,20 @@ $(document).ready(function () {
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
                 console.log(response);
+                const card = "";
+                if (response.total === 0) {
+                  resultSection.append(
+                    `<div>
+                      <h3>Aucun projet en cours dans ce département.</h3>
+                    </div>`
+                  );
+                } else {
+                  resultSection.append(
+                    `<div>
+                      <h3>afficher les vignettes des projets ici</h3>
+                    </div>`
+                  );
+                }
               }
             );
           });
@@ -71,9 +85,5 @@ $(document).ready(function () {
     }
   });
 
-  //   $('select').on('change', function()
-  // {
-  //     alert( this.value );
-  // });
   // https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91
 });
