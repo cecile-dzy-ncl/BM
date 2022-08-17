@@ -49,11 +49,9 @@ $(document).ready(function () {
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
         function (response) {
           const eventsList = response.events;
-          console.log("eventsList : ", eventsList);
           const eventsListFiltered = eventsList.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
-          console.log("eventsListFiltered : ", eventsListFiltered);
           eventsListFiltered.map((ulEvent) => {
             form.append(
               `<option value=${ulEvent.id}>${ulEvent.title.fr}</option>`
