@@ -17,7 +17,7 @@
 }
 
 .banner-text {
-  width: 455px;
+  width: 650px;
   z-index: 1;
   background: white;
   color: black;
@@ -38,13 +38,12 @@
   color: var(--black);
 }
 
-.banner-text h1,
-.banner-text p {
+.banner-text h1 {
   margin-bottom: 32px;
 }
 
 .banner-text .btn-bm {
-  margin: 0;
+  margin-top: 32px;
 }
 
 .intro .container {
