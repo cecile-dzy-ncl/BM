@@ -38,6 +38,10 @@
   color: var(--black);
 }
 
+.banner-text p {
+  margin-bottom: 0px;
+}
+
 .banner-text h1 {
   margin-bottom: 32px;
 }
