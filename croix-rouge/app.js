@@ -59,6 +59,10 @@ $(document).ready(function () {
               `<option value=${ulEvent.id}>${ulEvent.title.fr}</option>`
             );
           });
+          form.change(function () {
+            console.log("chang event");
+            alert("Handler for .change() called.");
+          });
         }
       );
     }
