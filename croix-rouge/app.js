@@ -72,6 +72,15 @@ $(document).ready(function () {
       const eventsList = fetchUlEvents();
       console.log("rrrrrrr");
       console.log("eventsList", eventsList);
+      const eventsListFiltered = eventsList.filter((ulEvent) =>
+        ulEvent.title.fr.startsWith("Croix-Rouge ")
+      );
+      console.log("eventsList", eventsList);
+      eventsListFiltered.map((ulEvent) => {
+        form.append(
+          `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
+        );
+      });
 
       // $.get(
       //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
