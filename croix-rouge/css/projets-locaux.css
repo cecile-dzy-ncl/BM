@@ -10,3 +10,7 @@
   width: 25%;
   list-style: none;
 }
+
+#results-departement .panel {
+  box-shadow: 0px 1px 10px #80808069;
+}
