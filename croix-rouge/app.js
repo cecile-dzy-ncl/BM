@@ -54,7 +54,7 @@ $(document).ready(function () {
           console.log("eventsList", eventsList);
           eventsListFiltered.map((ulEvent) => {
             form.append(
-              `<option value=${ulEvent.id}>${ulEvent.title.fr}</option>`
+              `<option value=${ulEvent.id} url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
             );
           });
           form.change(function () {
@@ -69,7 +69,7 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                       <h3>Aucun projet en cours dans ce département.</h3>
-                      <a class="btn-bm" href="#">Créer une cagnotte</a>
+                      <a class="btn-bm" href="${this.url}">Créer une cagnotte</a>
                     </div>`
                   );
                 } else {
