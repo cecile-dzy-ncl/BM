@@ -51,6 +51,7 @@ $(document).ready(function () {
           const eventsListFiltered = eventsList.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
+          console.log("eventsList", eventsList)
           eventsListFiltered.map((ulEvent) => {
             form.append(
               `<option value=${ulEvent.id}>${ulEvent.title.fr}</option>`
