@@ -42,7 +42,6 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is(".projets-locaux")) {
-      console.log("toto");
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
       $.get(
@@ -75,8 +74,17 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                       <h3>afficher les vignettes des projets ici</h3>
+                      ${(
+                        <record
+                          count="100"
+                          event_id={this.value}
+                          project_type="peer_to_peer"
+                          select="top"
+                        >
+                          $project
+                        </record>
+                      )}
                     </div>`
-                    // <record count="4" event_id="200" project_type="peer_to_peer" select="top">$project</record>
                   );
                 }
               }
