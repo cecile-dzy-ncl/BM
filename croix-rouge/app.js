@@ -68,7 +68,7 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                       <h3>Aucun projet en cours dans ce département.</h3>
-                      <a class="btn-bm" href="${response.}">Créer une cagnotte</a>
+                      <a class="btn-bm" href="${}">Créer une cagnotte</a>
                     </div>`
                   );
                 } else {
@@ -76,14 +76,14 @@ $(document).ready(function () {
                     `<div>
                       <h3>afficher les vignettes des projets ici</h3>
                      </div>`
-                      // <record
-                      //   count="100"
-                      //   event_id={this.value}
-                      //   project_type="peer_to_peer"
-                      //   select="top"
-                      // >
-                      //   ${$project}
-                      // </record>
+                    // <record
+                    //   count="100"
+                    //   event_id={this.value}
+                    //   project_type="peer_to_peer"
+                    //   select="top"
+                    // >
+                    //   ${$project}
+                    // </record>
                   );
                 }
               }
