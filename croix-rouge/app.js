@@ -134,10 +134,23 @@ $(document).ready(function () {
         // injectCard(card, eventContainer);
       };
 
+      const fetchUlEvents = async () => {
+        return await fetch(
+          "https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300"
+        )
+          .then((result) => result.json())
+          .then((data) => {
+            console.log("data", data);
+            return data.events;
+          });
+      };
+
+      console.log("test", fetchUlEvents());
+
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
         function (response) {
-          const eventsListFiltered = response.filter((ulEvent) =>
+          const eventsListFiltered = response.events.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
 
