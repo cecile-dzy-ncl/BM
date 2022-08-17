@@ -108,16 +108,19 @@ $(document).ready(function () {
         var legendExpected = "attendus";
 
         console.log("event", event);
-        const card = `<div class="panel radius">
+        const card = `
+        <div class="panel radius">
           <div class="thumbnail">
-            <a href="/projects/elisa-baptiste"><img alt="Elisa &amp;amp; Baptiste" class="project-thumbnails" data-img-0="https://macollecte.croix-rouge.fr/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project-4hziss_n/thumbnail/24026300-ukraine-russia-conflict.jpg" src="https://macollecte.croix-rouge.fr/cdn.iraiser.eu/akUGyCEuK4i9kWQh//Dz1A==/project-4hziss_n/thumbnail/24026300-ukraine-russia-conflict.jpg"></a>
+            <a href="${event.url.fr}">
+              <img alt="${event.title.fr}" class="project-thumbnails" data-img-0="${event.project_images[0].image}" src="${event.project_images[0].image}">
+            </a>
           </div>
           <div class="caption">
             <h3 class="text-center">
-              <a href="/projects/elisa-baptiste">Elisa &amp; Baptiste</a>
+              <a href="${event.url.fr}">${event.title.fr}</a>
             </h3>
             <p class="link-to-user text-center truncate_html">
-                par&nbsp;Baptiste Vandecrux
+                par&nbsp;${event.creator}
                 <span class="fa fa-play"></span>
                 <a class="btn-link category" href="/events/urgence-ukraine">Urgences Ukraine 2022 - Croix-Rouge française</a>
             </p>
