@@ -42,12 +42,29 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is(".projets-locaux")) {
+      const fetchUlEvents = (event) => {
+        $.get(
+          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
+          function (response) {
+            return response.events;
+          }
+        );
+      };
+      const fetchSelectedEvent = (event) => {
+        $.get(
+          `https://macollecte.croix-rouge.fr/api/events/${event}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+          function (response) {
+            return response;
+          }
+        );
+      };
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
+      const eventsList = fetchUlEvents();
+
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
         function (response) {
-          const eventsList = response.events;
           const eventsListFiltered = eventsList.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
@@ -72,21 +89,18 @@ $(document).ready(function () {
                     `<div>
                       <h3>Aucun projet en cours dans ce département.</h3>
                       <a class="btn-bm" href="${url}">Créer une cagnotte</a>
-                    </div>`
+                      </div>`
                   );
                 } else {
+                  resultSection.append("<div id='dt-projects-list'></div>");
+                  response.projects.map((projet) => {
+                    var card = ``;
+                    $("#dt-projects-list").append(card);
+                  });
                   resultSection.append(
                     `<div>
-                      <h3>afficher les vignettes des projets ici</h3>
+                        <a class="btn-bm" href="${url}">Donner à mon UL</a>
                      </div>`
-                    // <record
-                    //   count="100"
-                    //   event_id={this.value}
-                    //   project_type="peer_to_peer"
-                    //   select="top"
-                    // >
-                    //   ${$project}
-                    // </record>
                   );
                 }
               }
