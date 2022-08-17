@@ -33,6 +33,7 @@
   /* font-family: "Barlow Condensed"; */
   text-align: left;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .event-ex .link {
@@ -59,6 +60,7 @@
   position: relative;
   padding-bottom: 3px;
   font-weight: 600;
+  color: var(--dark-green);
 }
 
 .event-ex .bitter:after {
