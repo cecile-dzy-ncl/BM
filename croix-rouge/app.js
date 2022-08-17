@@ -62,6 +62,8 @@ $(document).ready(function () {
             console.log("this.value", this.value);
             console.log("this.url", this.url);
             console.log("event.target", event.target);
+            var selected = $(this).find("option:selected");
+            console.log("selected", selected);
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
