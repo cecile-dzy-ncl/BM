@@ -122,7 +122,6 @@ $(document).ready(function () {
         </li>`;
 
         return card;
-        // injectCard(card, eventContainer);
       };
 
       $.get(

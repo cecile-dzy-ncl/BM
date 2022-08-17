@@ -5,3 +5,13 @@ section.top-bar-section {
 li.has-dropdown ul.dropdown li:after {
   display: none;
 }
+
+.main-header
+  #main-nav
+  .top-bar-section
+  .dropdown
+  li:not(.has-form)
+  a:not(.button) {
+  background-color: white;
+  color: black;
+}

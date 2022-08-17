@@ -69,7 +69,7 @@ section.event-head {
   margin-bottom: 50px;
 }
 
-#events-show .infos-money {
+#events-show .details-my-event .infos-money {
   display: none;
 }
 
