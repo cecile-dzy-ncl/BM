@@ -63,64 +63,66 @@ $(document).ready(function () {
 
         console.log("event", event);
         const card = `
-        <div class="panel radius">
-          <div class="thumbnail">
-            <a href="${event.url.fr}">
-              <img alt="${
-                event.title.fr
-              }" class="project-thumbnails" data-img-0="${
+        <li>
+          <div class="panel radius">
+            <div class="thumbnail">
+              <a href="${event.url.fr}">
+                <img alt="${
+                  event.title.fr
+                }" class="project-thumbnails" data-img-0="${
           event.project_images[0].image
         }" src="${event.project_images[0].image}">
-            </a>
-          </div>
-          <div class="caption">
-            <h3 class="text-center">
-              <a href="${event.url.fr}">${event.title.fr}</a>
-            </h3>
-            <p class="link-to-user text-center truncate_html">
-                par&nbsp;${event.creator}
-            </p>
-          </div>
-          <div class="caption infos-money">
-              <div class="progress">
-                <span class="graph-barBack">
-                  <span class="graph-bar" data-value="${
-                    (event.current_amount / event.desired_amount) * 100
-                  }" style="width: ${
+              </a>
+            </div>
+            <div class="caption">
+              <h3 class="text-center">
+                <a href="${event.url.fr}">${event.title.fr}</a>
+              </h3>
+              <p class="link-to-user text-center truncate_html">
+                  par&nbsp;${event.creator}
+              </p>
+            </div>
+            <div class="caption infos-money">
+                <div class="progress">
+                  <span class="graph-barBack">
+                    <span class="graph-bar" data-value="${
+                      (event.current_amount / event.desired_amount) * 100
+                    }" style="width: ${
           (event.current_amount / event.desired_amount) * 100
         }%;">
-                    <span class="graph-legend"></span>
+                      <span class="graph-legend"></span>
+                    </span>
                   </span>
-                </span>
-              </div>
-            <div class="row infos-money-details">
-              <div class="small-4 columns text-center">
-                <span class="info-money detail">
-                  ${event.current_amount / 100} €
-                </span>
-                <small class="clearfix">
-                  collectés
-                </small>
-              </div>
-              <div class="small-4 columns text-center">
-                <span class="info-money detail">
-                  ${event.desired_amount / 100} €
-                </span>
-                <small class="clearfix">
-                  attendus
-                </small>
-              </div>
-              <div class="small-4 columns text-center">
-                <span class="info-money detail">
-                 ${remainingDays}
-                </span>
-                <small class="clearfix">
-                  restants
-                </small>
+                </div>
+              <div class="row infos-money-details">
+                <div class="small-4 columns text-center">
+                  <span class="info-money detail">
+                    ${event.current_amount / 100} €
+                  </span>
+                  <small class="clearfix">
+                    collectés
+                  </small>
+                </div>
+                <div class="small-4 columns text-center">
+                  <span class="info-money detail">
+                    ${event.desired_amount / 100} €
+                  </span>
+                  <small class="clearfix">
+                    attendus
+                  </small>
+                </div>
+                <div class="small-4 columns text-center">
+                  <span class="info-money detail">
+                  ${remainingDays}
+                  </span>
+                  <small class="clearfix">
+                    restants
+                  </small>
+                </div>
               </div>
             </div>
           </div>
-        </div>`;
+        </li>`;
 
         return card;
         // injectCard(card, eventContainer);
@@ -145,7 +147,6 @@ $(document).ready(function () {
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
-                const card = "";
                 resultSection.html("");
                 if (response.total === 0) {
                   resultSection.append(
