@@ -64,6 +64,7 @@ $(document).ready(function () {
               function (response) {
                 console.log(response);
                 const card = "";
+                resultSection.html("");
                 if (response.total === 0) {
                   resultSection.append(
                     `<div>
@@ -75,6 +76,7 @@ $(document).ready(function () {
                     `<div>
                       <h3>afficher les vignettes des projets ici</h3>
                     </div>`
+                    // <record count="4" event_id="200" project_type="peer_to_peer" select="top">$project</record>
                   );
                 }
               }
