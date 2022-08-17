@@ -40,25 +40,17 @@ $(document).ready(function () {
     }
   });
 
-  // section-home-projects
+  $(function () {
+    if ($("body").is(".projets-locaux")) {
+      console.log("toto");
+      $.get(
+        `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+        function (response) {
+          console.log(response);
+        }
+      );
+    }
+  });
 
-  // --------- RESPONSIVE ---------
-
-  // var windowWidth = $(window).width();
-
-  // if (windowWidth < 500) {
-  //   $("body").addClass("mobile");
-  //   $(".pl-370").removeClass("pl-370");
-  //   $(".banner-text h2").removeClass("white").addClass("black");
-  //   $(".banner-text p").removeClass("white");
-  //   $(".campagne > div").removeClass("w-50");
-  //   $(".compteur .border-right")
-  //     .removeClass("border-right")
-  //     .removeClass("border-white");
-  //   $(".conseils-et-outils .bg-black .container-small-bm > .d-flex").remove();
-  //   $(".a-propos .wrapper .w-20").addClass("mb-15").removeClass("w-20");
-  //   $(".a-propos .wrapper .w-30").addClass("mb-15").removeClass("w-30");
-  //   $("#events-show .event-stat").removeClass("border-right");
-  //   $("#indexs-index .compteur .border-right").removeClass("border-right");
-  // }
+  // https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91
 });
