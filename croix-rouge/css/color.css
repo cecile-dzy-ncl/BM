@@ -10,14 +10,11 @@
 
   --red: #e30613;
   --dark-red: #950008;
-  /* --pink: #d21281;
-  --blue: #003266; */
+
   --green: #075c68;
   --dark-green: #17363a;
 
   --black: #3e3643;
-  /* --darkred: #af1312; */
-  /* --darkblue: #00516c; */
 
   --shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   --primary: var(--red);
@@ -80,6 +77,6 @@
   background: #17363a;
 }
 
-.bg-pattern {
+/* .bg-pattern {
   background: url("https://collecter.gustaveroussy.fr/cdn.iraiser.eu/Dcp782shD5vxB1dJKeW8GD+0ia/vCe2vk/43cMDLn9Jf6SMzw0z7g0OpeXtFTkr//Cecile_Dezy/origin/pattern.png");
-}
+} */
