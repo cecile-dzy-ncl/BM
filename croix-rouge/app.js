@@ -58,7 +58,9 @@ $(document).ready(function () {
             );
           });
           form.change(function () {
+            console.log(this);
             console.log(this.value);
+            console.log(this.url);
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
