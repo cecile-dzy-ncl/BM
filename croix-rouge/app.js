@@ -54,33 +54,33 @@ $(document).ready(function () {
         //   currency: "EUR",
         // }).format(eventAmountCollected);
 
-        // if (event.expected_amount != null) {
-        //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-        //   var eventProgress =
-        //     (eventAmountCollected / eventAmountExpected) * 100;
-        //   var progressBar =
-        //     "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
-        //     eventProgress +
-        //     "%'></div></div>";
-        //   var classNoAmount = "";
-        //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
-        //   var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
-        //     maximumFractionDigits: 0,
-        //     minimumFractionDigits: 0,
-        //     style: "currency",
-        //     currency: "EUR",
-        //   }).format(eventAmountExpected);
-        //   var amountExpectedBlock =
-        //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
-        //     eventAmountExpectedFormatted +
-        //     "</h5><p class='text-center'><small>" +
-        //     legendExpected +
-        //     "</small></p></div>";
-        // } else {
-        //   var classNoAmount = "no-amount";
-        //   var amountExpectedBlock = "";
-        //   var progressBar = "";
-        // }
+        if (event.expected_amount != null) {
+          var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+          var eventProgress =
+            (eventAmountCollected / eventAmountExpected) * 100;
+          //   var progressBar =
+          //     "<div class='event-progressbar bg-lightgrey'><div class='event-progress-perc bg-red' style='width:" +
+          //     eventProgress +
+          //     "%'></div></div>";
+          //   var classNoAmount = "";
+          //   var eventAmountExpected = parseInt(event.expected_amount, 10) / 100;
+          //   var eventAmountExpectedFormatted = new Intl.NumberFormat("fr-FR", {
+          //     maximumFractionDigits: 0,
+          //     minimumFractionDigits: 0,
+          //     style: "currency",
+          //     currency: "EUR",
+          //   }).format(eventAmountExpected);
+          //   var amountExpectedBlock =
+          //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
+          //     eventAmountExpectedFormatted +
+          //     "</h5><p class='text-center'><small>" +
+          //     legendExpected +
+          //     "</small></p></div>";
+        } else {
+          //   var classNoAmount = "no-amount";
+          //   var amountExpectedBlock = "";
+          var progressBar = "";
+        }
 
         // if (eventEndDate != null) {
         //   var eventEndDate = new Date(event.end);
@@ -126,7 +126,7 @@ $(document).ready(function () {
           <div class="caption infos-money">
               <div class="progress">
                 <span class="graph-barBack">
-                  <span class="graph-bar" data-value="125" style="width: 125%;">
+                  <span class="graph-bar" data-value="${eventProgress}" style="width: ${eventProgress}%;">
                     <span class="graph-legend"></span>
                   </span>
                 </span>
