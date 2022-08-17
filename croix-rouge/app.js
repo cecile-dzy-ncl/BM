@@ -70,12 +70,6 @@ $(document).ready(function () {
           //     style: "currency",
           //     currency: "EUR",
           //   }).format(eventAmountExpected);
-          //   var amountExpectedBlock =
-          //     "<div class='line'></div><div class=''><h5 class='text-center'>" +
-          //     eventAmountExpectedFormatted +
-          //     "</h5><p class='text-center'><small>" +
-          //     legendExpected +
-          //     "</small></p></div>";
         } else {
           //   var classNoAmount = "no-amount";
           //   var amountExpectedBlock = "";
@@ -112,7 +106,11 @@ $(document).ready(function () {
         <div class="panel radius">
           <div class="thumbnail">
             <a href="${event.url.fr}">
-              <img alt="${event.title.fr}" class="project-thumbnails" data-img-0="${event.project_images[0].image}" src="${event.project_images[0].image}">
+              <img alt="${
+                event.title.fr
+              }" class="project-thumbnails" data-img-0="${
+          event.project_images[0].image
+        }" src="${event.project_images[0].image}">
             </a>
           </div>
           <div class="caption">
@@ -126,7 +124,11 @@ $(document).ready(function () {
           <div class="caption infos-money">
               <div class="progress">
                 <span class="graph-barBack">
-                  <span class="graph-bar" data-value="${eventProgress}" style="width: ${eventProgress}%;">
+                  <span class="graph-bar" data-value="${
+                    (event.current_amount / event.desired_amount) * 100
+                  }" style="width: ${
+          (event.current_amount / event.desired_amount) * 100
+        }%;">
                     <span class="graph-legend"></span>
                   </span>
                 </span>
@@ -134,28 +136,28 @@ $(document).ready(function () {
             <div class="row infos-money-details">
               <div class="small-4 columns text-center">
                 <span class="info-money detail">
-                  5 000 €
+                  ${event.current_amount / 100} €
                 </span>
                 <small class="clearfix">
                   collectés
                 </small>
               </div>
-                <div class="small-4 columns text-center">
-                  <span class="info-money detail">
-                    4 000 €
-                  </span>
-                  <small class="clearfix">
-                    attendus
-                  </small>
-                </div>
-                <div class="small-4 columns text-center">
-                  <span class="info-money detail">
-                    135j
-                  </span>
-                  <small class="clearfix">
-                    restants
-                  </small>
-                </div>
+              <div class="small-4 columns text-center">
+                <span class="info-money detail">
+                  ${event.desired_amount / 100} €
+                </span>
+                <small class="clearfix">
+                  attendus
+                </small>
+              </div>
+              <div class="small-4 columns text-center">
+                <span class="info-money detail">
+                  135j
+                </span>
+                <small class="clearfix">
+                  restants
+                </small>
+              </div>
             </div>
           </div>
         </div>`;
