@@ -54,15 +54,12 @@ $(document).ready(function () {
           console.log("eventsList", eventsList);
           eventsListFiltered.map((ulEvent) => {
             form.append(
-              `<option value=${ulEvent.id} url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
+              `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
             );
           });
-          form.change(function (event) {
-            console.log("this", this);
-            console.log("this.value", this.value);
-
+          form.change(function () {
             var selected = $(this).find("option:selected");
-            console.log("selected", selected);
+            var url = selected.data("url");
             $.get(
               `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
               function (response) {
@@ -73,7 +70,7 @@ $(document).ready(function () {
                   resultSection.append(
                     `<div>
                       <h3>Aucun projet en cours dans ce département.</h3>
-                      <a class="btn-bm" href="${this.url}">Créer une cagnotte</a>
+                      <a class="btn-bm" href="${url}">Créer une cagnotte</a>
                     </div>`
                   );
                 } else {
