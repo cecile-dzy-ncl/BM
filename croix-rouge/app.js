@@ -78,9 +78,9 @@ $(document).ready(function () {
 
         if (eventEndDate != null) {
           var eventEndDate = new Date(event.end);
-          var remainingDays = Math.ceil(
+          var remainingDays = `${Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
-          );
+          )}j`;
         } else {
           var remainingDays = "";
         }
