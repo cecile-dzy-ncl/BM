@@ -11,7 +11,8 @@ blockquote,
 /* input[type="text"], */
 .top-bar-section ul li > a,
 body,
-.block-share-container h4 {
+.block-share-container h4 ,
+.button {
   font-family: "Roboto Condensed";
   text-align: center;
   color: #1a1d27;
