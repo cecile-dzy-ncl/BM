@@ -11,11 +11,15 @@ blockquote,
 /* input[type="text"], */
 .top-bar-section ul li > a,
 body,
-.block-share-container h4 ,
-.button {
+.block-share-container h4 {
   font-family: "Roboto Condensed";
   text-align: center;
   color: #1a1d27;
+}
+
+.tabs dd.active a,
+.button {
+  font-family: "Roboto Condensed";
 }
 
 h1 {
