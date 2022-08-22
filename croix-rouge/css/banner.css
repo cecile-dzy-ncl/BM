@@ -28,6 +28,7 @@
   background: var(--red);
   height: 637px;
 }
+
 .banner.homepage img {
   object-position: center 72%;
 }

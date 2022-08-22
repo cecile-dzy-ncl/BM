@@ -185,4 +185,14 @@ section.section-projet-details .project-detail-data .contributeurs span {
   #projects-show .project_event_description {
     padding: 1rem 2rem;
   }
+
+  .block-diff {
+    width: 100%;
+  }
+  .block-row {
+    flex-wrap: wrap;
+  }
+  .block-item {
+    margin-bottom: 30px;
+  }
 }
