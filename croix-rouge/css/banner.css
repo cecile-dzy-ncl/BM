@@ -77,4 +77,8 @@
   .banner img {
     position: relative;
   }
+
+  .banner.homepage {
+    padding-bottom: 0;
+  }
 }
