@@ -118,7 +118,7 @@ section.event-head {
   }
 
   .social-btns {
-    margin: 0;
+    margin: 0 !important;
     display: flex;
   }
 }
