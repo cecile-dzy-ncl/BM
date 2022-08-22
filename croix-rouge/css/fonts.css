@@ -17,7 +17,7 @@ body,
   color: #1a1d27;
 }
 
-.tabs dd.active a,
+.tabs dd a,
 button,
 .button {
   font-family: "Roboto Condensed";
