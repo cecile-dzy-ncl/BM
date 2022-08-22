@@ -116,4 +116,9 @@ section.event-head {
     border-bottom: 1px solid var(--mediumgrey);
     padding-bottom: 15px;
   }
+
+  .social-btns {
+    margin: 0;
+    display: flex;
+  }
 }
