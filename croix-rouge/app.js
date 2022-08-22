@@ -130,6 +130,7 @@ $(document).ready(function () {
           const eventsListFiltered = response.events.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
           );
+          console.log("response  : ", response);
           console.log("eventsListFiltered  : ", eventsListFiltered);
           eventsListFiltered.map((ulEvent) => {
             form.append(
