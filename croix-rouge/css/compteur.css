@@ -1,3 +1,4 @@
 .compteur > div:first-of-type {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  border-right: none;
 }
