@@ -199,4 +199,8 @@ section.section-projet-details .project-detail-data .contributeurs span {
   .section-projet-details h1#show_title {
     line-height: auto !important;
   }
+
+  #projects {
+    padding: 0;
+  }
 }
