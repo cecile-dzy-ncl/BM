@@ -28,6 +28,9 @@
   background: var(--red);
   height: 637px;
 }
+.banner.homepage img {
+  object-position: center 72%;
+}
 
 .homepage .banner-text {
   width: 560px;
