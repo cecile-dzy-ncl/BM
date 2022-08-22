@@ -24,3 +24,9 @@ li.has-dropdown ul.dropdown li:after {
   a:not(.button):hover {
   color: white;
 }
+
+@media screen and (max-width: 500px) {
+  #main-nav section.top-bar-section li:not(:last-child) {
+    position: static;
+  }
+}
