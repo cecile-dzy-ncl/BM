@@ -125,7 +125,7 @@ $(document).ready(function () {
       };
 
       $.get(
-        `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
+        `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&page=2&&page=3&page=4&page=5&count=300`,
         function (response) {
           const eventsListFiltered = response.events.filter((ulEvent) =>
             ulEvent.title.fr.startsWith("Croix-Rouge ")
