@@ -8,6 +8,14 @@
   align-items: center;
 }
 
-#my-profile .tabs a span {
+#my-profile .tabs a .badge {
   margin-left: 6px;
+  background-color: white;
+  color: #818181;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
 }
