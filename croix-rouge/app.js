@@ -173,8 +173,9 @@ $(document).ready(function () {
       };
 
       const filterData = function (events) {
+        // const regex = /\d+ - ?\w*/g;
         const eventsListFiltered = events.filter((ulEvent) =>
-          ulEvent.title.fr.includes("- Croix-Rouge ")
+          ulEvent.title.fr.match(/\d+ - ?\w*/g)
         );
         console.log("events in filterData", eventsListFiltered);
         buildForm(eventsListFiltered);
