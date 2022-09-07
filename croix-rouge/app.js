@@ -127,13 +127,15 @@ $(document).ready(function () {
 
       console.log("eventsList before", eventsList);
 
-      $.get(
-        `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&count=1000`,
-        function (response) {
-          eventsList.push(response.events);
-          console.log("eventsList after", eventsList);
-        }
-      );
+      for (let index = 1; index < 10; index++) {
+        $.get(
+          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
+          function (response) {
+            eventsList.push(response.events);
+            console.log("eventsList after", eventsList);
+          }
+        );
+      }
 
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&page=2&count=300`,
