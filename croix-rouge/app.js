@@ -128,6 +128,7 @@ $(document).ready(function () {
       console.log("eventsList before", eventsList);
 
       for (let index = 1; index < 10; index++) {
+        console.log(index);
         $.get(
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
           function (response) {
