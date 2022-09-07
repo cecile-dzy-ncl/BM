@@ -176,7 +176,7 @@ $(document).ready(function () {
         // const eventsListFiltered = events.filter((ulEvent) =>
         //   ulEvent.title.fr.includes("- Croix-Rouge ")
         // );
-        console.log("events", events);
+        console.log("events in filterData", events);
         // buildForm(eventsListFiltered);
       };
 
@@ -195,7 +195,7 @@ $(document).ready(function () {
         }
         setTimeout(() => {
           console.log("eventsList in setimeout", eventsList);
-          filterData(eventsList);
+          filterData(eventsList.flat());
         }, "1000");
       };
 
