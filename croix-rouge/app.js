@@ -21,15 +21,15 @@ $(document).ready(function () {
       var amount = $("#events-show .current-amount").html().replace(/\s/g, "");
 
       var compteurDiv = `<div class="wrapper pt-0">
-      <div class="container-bm">
-      <div class="compteur">
-      <div class="w-50 px-10 mx-auto">
-      <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
-      <p class="text-center  m-0">ont déjà été collectés</p>
-      </div>
-      </div>
-      </div>
-      </div>`;
+        <div class="container-bm">
+        <div class="compteur">
+        <div class="w-50 px-10 mx-auto">
+        <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
+        <p class="text-center  m-0">ont déjà été collectés</p>
+        </div>
+        </div>
+        </div>
+        </div>`;
       $("#widget-new-project").before(compteurDiv);
     }
   });
@@ -44,6 +44,7 @@ $(document).ready(function () {
     if ($("body").is(".projets-locaux")) {
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
+      var eventsList = [];
 
       const buildCard = function (event) {
         if (eventEndDate != null) {
@@ -146,7 +147,6 @@ $(document).ready(function () {
       };
 
       const fetchData = function (index) {
-        var eventsList = [];
         for (let index = 0; index < 10; index++) {
           // const element = array[index];
           getEvents(index);
