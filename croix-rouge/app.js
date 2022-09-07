@@ -144,6 +144,7 @@ $(document).ready(function () {
                 }
               );
             }
+            console.log("eventsList : ", eventsList);
             console.log("flat in getEvents ", eventsList.flat());
           }
         );
