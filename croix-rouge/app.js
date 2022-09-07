@@ -174,9 +174,11 @@ $(document).ready(function () {
 
       const filterData = function (events) {
         // const regex = /\d+ - ?\w*/g;
-        const eventsListFiltered = events.filter((ulEvent) =>
-          ulEvent.title.fr.match(/\d+ - ?\w*/g)
-        );
+        const eventsListFiltered = events
+          .filter((ulEvent) => ulEvent.title.fr.match(/\d+ - ?\w*/g))
+          .filter((value, index, self) => {
+            self.indexOf(value) === index;
+          });
         console.log("events in filterData", eventsListFiltered);
         buildForm(eventsListFiltered);
       };
