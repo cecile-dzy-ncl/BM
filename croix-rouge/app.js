@@ -144,10 +144,9 @@ $(document).ready(function () {
                 }
               );
             }
+            console.log("flat in getEvents ", eventsList.flat());
           }
         );
-
-        console.log("flat in getEvents ", eventsList.flat());
       };
 
       getEvents();
