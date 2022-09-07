@@ -44,7 +44,6 @@ $(document).ready(function () {
     if ($("body").is(".projets-locaux")) {
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
-      var eventsList = [];
 
       const buildCard = function (event) {
         if (eventEndDate != null) {
@@ -69,44 +68,44 @@ $(document).ready(function () {
           event.project_images[0].image
         }" src="${event.project_images[0].image}">
               </a>
-            </div>
-            <div class="caption">
+              </div>
+              <div class="caption">
               <h3 class="text-center">
                 <a href="${event.url.fr}">${event.title.fr}</a>
               </h3>
               <p class="link-to-user text-center truncate_html">
                   par&nbsp;${event.creator}
-              </p>
+                  </p>
             </div>
             <div class="caption infos-money">
-                <div class="progress">
+            <div class="progress">
                   <span class="graph-barBack">
-                    <span class="graph-bar" data-value="${
-                      (event.current_amount / event.desired_amount) * 100
-                    }" style="width: ${
+                  <span class="graph-bar" data-value="${
+                    (event.current_amount / event.desired_amount) * 100
+                  }" style="width: ${
           (event.current_amount / event.desired_amount) * 100
         }%;">
-                      <span class="graph-legend"></span>
-                    </span>
-                  </span>
-                </div>
-              <div class="row infos-money-details">
-                <div class="small-4 columns text-center">
-                  <span class="info-money detail">
-                    ${event.current_amount / 100} €
-                  </span>
+        <span class="graph-legend"></span>
+        </span>
+        </span>
+        </div>
+        <div class="row infos-money-details">
+        <div class="small-4 columns text-center">
+        <span class="info-money detail">
+        ${event.current_amount / 100} €
+        </span>
                   <small class="clearfix">
                     collectés
-                  </small>
+                    </small>
                 </div>
                 <div class="small-4 columns text-center">
-                  <span class="info-money detail">
+                <span class="info-money detail">
                     ${event.desired_amount / 100} €
-                  </span>
-                  <small class="clearfix">
+                    </span>
+                    <small class="clearfix">
                     attendus
                   </small>
-                </div>
+                  </div>
                 <div class="small-4 columns text-center">
                   <span class="info-money detail">
                   ${remainingDays}
@@ -119,34 +118,43 @@ $(document).ready(function () {
                 </div>
               </div>
             </div>
-          </div>
-        </li>`;
+            </div>
+            </li>`;
 
         return card;
       };
 
-      const getEvents = function () {
+      const getEvents = function (index) {
         $.get(
-          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&count=1000`,
+          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
           function (response) {
             eventsList.push(response.events);
           }
         );
-        $.get(
-          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=2&count=1000`,
-          function (response) {
-            eventsList.push(response.events);
-          }
-        );
-        $.get(
-          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=3&count=1000`,
-          function (response) {
-            eventsList.push(response.events);
-          }
-        );
+        // $.get(
+        //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=2&count=1000`,
+        //   function (response) {
+        //     eventsList.push(response.events);
+        //   }
+        // );
+        // $.get(
+        //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=3&count=1000`,
+        //   function (response) {
+        //     eventsList.push(response.events);
+        //   }
+        // );
       };
 
-      getEvents();
+      const fetchData = function (index) {
+        var eventsList = [];
+        for (let index = 0; index < 10; index++) {
+          // const element = array[index];
+          getEvents(index);
+        }
+        console.log("eventsList", eventsList);
+      };
+
+      fetchData();
 
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&page=2&count=300`,
