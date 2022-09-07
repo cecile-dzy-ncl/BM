@@ -173,11 +173,11 @@ $(document).ready(function () {
       };
 
       const filterData = function (events) {
-        const eventsListFiltered = events.filter((ulEvent) =>
-          ulEvent.title.fr.includes("- Croix-Rouge ")
-        );
+        // const eventsListFiltered = events.filter((ulEvent) =>
+        //   ulEvent.title.fr.includes("- Croix-Rouge ")
+        // );
         console.log("eventsListFiltered", eventsListFiltered);
-        buildForm(eventsListFiltered);
+        // buildForm(eventsListFiltered);
       };
 
       const getEvents = function (index) {
