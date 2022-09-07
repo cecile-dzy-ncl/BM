@@ -176,6 +176,7 @@ $(document).ready(function () {
         const eventsListFiltered = events.filter((ulEvent) =>
           ulEvent.title.fr.includes("- Croix-Rouge ")
         );
+        console.log("eventsListFiltered", eventsListFiltered);
         buildForm(eventsListFiltered);
       };
 
@@ -190,7 +191,6 @@ $(document).ready(function () {
 
       const fetchData = function (index) {
         for (let index = 0; index < 10; index++) {
-          // const element = array[index];
           getEvents(index);
         }
         setTimeout(() => {
