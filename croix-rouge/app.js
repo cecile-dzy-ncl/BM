@@ -44,7 +44,7 @@ $(document).ready(function () {
     if ($("body").is(".projets-locaux")) {
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
-      const eventsList = [];
+      var eventsList = [];
 
       const buildCard = function (event) {
         if (eventEndDate != null) {
@@ -130,16 +130,18 @@ $(document).ready(function () {
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&count=1000`,
           function (response) {
             eventsList.push(response.events);
-            for (let index = 2; index < 10; index++) {
-              $.get(
-                `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
-                function (response) {
-                  eventsList.push(response.events);
-                }
-              );
-            }
-            console.log("eventsList : ", eventsList);
-            console.log("flat in getEvents ", eventsList.flat());
+          }
+        );
+        $.get(
+          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=2&count=1000`,
+          function (response) {
+            eventsList.push(response.events);
+          }
+        );
+        $.get(
+          `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=3&count=1000`,
+          function (response) {
+            eventsList.push(response.events);
           }
         );
       };
