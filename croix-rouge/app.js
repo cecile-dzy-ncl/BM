@@ -151,7 +151,9 @@ $(document).ready(function () {
           // const element = array[index];
           getEvents(index);
         }
-        console.log("eventsList", eventsList);
+        setTimeout(() => {
+          console.log("eventsList", eventsList);
+        }, "1000");
       };
 
       fetchData();
