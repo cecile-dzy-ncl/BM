@@ -152,7 +152,7 @@ $(document).ready(function () {
           getEvents(index);
         }
         setTimeout(() => {
-          console.log("eventsList", eventsList);
+          console.log("eventsList in setimeout", eventsList);
         }, "1000");
       };
 
