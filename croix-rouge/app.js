@@ -125,6 +125,60 @@ $(document).ready(function () {
         return card;
       };
 
+      const buildForm = function (events) {
+        events.map((ulEvent) => {
+          form.append(
+            `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
+          );
+        });
+        form.change(function () {
+          var selected = $(this).find("option:selected");
+          var url = selected.data("url");
+          var urlDonation;
+
+          $.get(
+            `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+            function (response) {
+              urlDonation = response.don_api;
+            }
+          );
+
+          $.get(
+            `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
+            function (response) {
+              resultSection.html("");
+              if (response.total === 0) {
+                resultSection.append(
+                  `<div>
+                    <h3>Aucun projet en cours dans ce département.</h3>
+                    <a class="btn-bm" href="${url}">Créer une cagnotte</a>
+                    </div>`
+                );
+              } else {
+                resultSection.append("<ul class='projects-list'></ul>");
+                response.projects.map((projet) => {
+                  var card = buildCard(projet);
+                  $(".projects-list").append(card);
+                });
+                resultSection.append(
+                  `<div>
+                      <a class="btn-bm" href="${url}">Créer une cagnotte</a>
+                      <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don" targer="_blank">Donner à mon UL</a>
+                   </div>`
+                );
+              }
+            }
+          );
+        });
+      };
+
+      const filterData = function (events) {
+        const eventsListFiltered = events.filter((ulEvent) =>
+          ulEvent.title.fr.includes("- Croix-Rouge ")
+        );
+        buildForm(eventsListFiltered);
+      };
+
       const getEvents = function (index) {
         $.get(
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
@@ -132,18 +186,6 @@ $(document).ready(function () {
             eventsList.push(response.events);
           }
         );
-        // $.get(
-        //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=2&count=1000`,
-        //   function (response) {
-        //     eventsList.push(response.events);
-        //   }
-        // );
-        // $.get(
-        //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=3&count=1000`,
-        //   function (response) {
-        //     eventsList.push(response.events);
-        //   }
-        // );
       };
 
       const fetchData = function (index) {
@@ -153,65 +195,66 @@ $(document).ready(function () {
         }
         setTimeout(() => {
           console.log("eventsList in setimeout", eventsList);
+          filterData(eventsList);
         }, "1000");
       };
 
       fetchData();
 
-      $.get(
-        `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&page=2&count=300`,
-        function (response) {
-          const eventsListFiltered = response.events.filter((ulEvent) =>
-            ulEvent.title.fr.startsWith("Croix-Rouge ")
-          );
-          // console.log("response  : ", response);
-          // console.log("eventsListFiltered  : ", eventsListFiltered);
-          eventsListFiltered.map((ulEvent) => {
-            form.append(
-              `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
-            );
-          });
-          form.change(function () {
-            var selected = $(this).find("option:selected");
-            var url = selected.data("url");
-            var urlDonation;
+      // $.get(
+      //   `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1&page=2&count=300`,
+      //   function (response) {
+      //     const eventsListFiltered = response.events.filter((ulEvent) =>
+      //       ulEvent.title.fr.startsWith("Croix-Rouge ")
+      //     );
+      //     // console.log("response  : ", response);
+      //     // console.log("eventsListFiltered  : ", eventsListFiltered);
+      //     eventsListFiltered.map((ulEvent) => {
+      //       form.append(
+      //         `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
+      //       );
+      //     });
+      //     form.change(function () {
+      //       var selected = $(this).find("option:selected");
+      //       var url = selected.data("url");
+      //       var urlDonation;
 
-            $.get(
-              `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
-              function (response) {
-                urlDonation = response.don_api;
-              }
-            );
+      //       $.get(
+      //         `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+      //         function (response) {
+      //           urlDonation = response.don_api;
+      //         }
+      //       );
 
-            $.get(
-              `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
-              function (response) {
-                resultSection.html("");
-                if (response.total === 0) {
-                  resultSection.append(
-                    `<div>
-                      <h3>Aucun projet en cours dans ce département.</h3>
-                      <a class="btn-bm" href="${url}">Créer une cagnotte</a>
-                      </div>`
-                  );
-                } else {
-                  resultSection.append("<ul class='projects-list'></ul>");
-                  response.projects.map((projet) => {
-                    var card = buildCard(projet);
-                    $(".projects-list").append(card);
-                  });
-                  resultSection.append(
-                    `<div>
-                        <a class="btn-bm" href="${url}">Créer une cagnotte</a>
-                        <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don" targer="_blank">Donner à mon UL</a>
-                     </div>`
-                  );
-                }
-              }
-            );
-          });
-        }
-      );
+      //       $.get(
+      //         `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
+      //         function (response) {
+      //           resultSection.html("");
+      //           if (response.total === 0) {
+      //             resultSection.append(
+      //               `<div>
+      //                 <h3>Aucun projet en cours dans ce département.</h3>
+      //                 <a class="btn-bm" href="${url}">Créer une cagnotte</a>
+      //                 </div>`
+      //             );
+      //           } else {
+      //             resultSection.append("<ul class='projects-list'></ul>");
+      //             response.projects.map((projet) => {
+      //               var card = buildCard(projet);
+      //               $(".projects-list").append(card);
+      //             });
+      //             resultSection.append(
+      //               `<div>
+      //                   <a class="btn-bm" href="${url}">Créer une cagnotte</a>
+      //                   <a class="btn-bm" href="https://donner.croix-rouge.fr/${urlDonation}/~mon-don" targer="_blank">Donner à mon UL</a>
+      //                </div>`
+      //             );
+      //           }
+      //         }
+      //       );
+      //     });
+      //   }
+      // );
     }
   });
 });
