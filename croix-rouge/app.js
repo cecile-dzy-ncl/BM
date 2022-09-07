@@ -173,11 +173,11 @@ $(document).ready(function () {
       };
 
       const filterData = function (events) {
-        // const eventsListFiltered = events.filter((ulEvent) =>
-        //   ulEvent.title.fr.includes("- Croix-Rouge ")
-        // );
-        console.log("events in filterData", events);
-        // buildForm(eventsListFiltered);
+        const eventsListFiltered = events.filter((ulEvent) =>
+          ulEvent.title.fr.includes("- Croix-Rouge ")
+        );
+        console.log("events in filterData", eventsListFiltered);
+        buildForm(eventsListFiltered);
       };
 
       const getEvents = function (index) {
@@ -194,7 +194,6 @@ $(document).ready(function () {
           getEvents(index);
         }
         setTimeout(() => {
-          console.log("eventsList in setimeout", eventsList);
           filterData(eventsList.flat());
         }, "1000");
       };
