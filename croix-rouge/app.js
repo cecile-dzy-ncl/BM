@@ -125,11 +125,13 @@ $(document).ready(function () {
         return card;
       };
 
+      console.log("eventsList before", eventsList);
+
       $.get(
         `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=1`,
         function (response) {
           eventsList.push(response.events);
-          console.log("eventsList", eventsList);
+          console.log("eventsList after", eventsList);
         }
       );
 
