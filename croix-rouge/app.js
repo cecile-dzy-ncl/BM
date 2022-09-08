@@ -188,6 +188,7 @@ $(document).ready(function () {
         $.get(
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
           function (response) {
+            console.log("response", response);
             eventsList.push(response.events);
           }
         );
