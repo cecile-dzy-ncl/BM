@@ -203,6 +203,7 @@ $(document).ready(function () {
         setTimeout(() => {
           console.log("eventsList in setTimeout", eventsList);
           eventsList.flat();
+          console.log("eventsList after flat", eventsList);
           filterData(eventsList);
         }, "2000");
       };
