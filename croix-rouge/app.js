@@ -178,7 +178,7 @@ $(document).ready(function () {
         const eventsFlatten = events.flat();
         console.log("events flat", eventsFlatten);
         const eventsSorted = eventsFlatten.sort(
-          (a, b) => b.title.fr - a.title.fr
+          (a, b) => a.title.fr - b.title.fr
         );
         console.log("events sorted", eventsSorted);
         const eventsListFiltered1 = eventsFlatten.filter(
