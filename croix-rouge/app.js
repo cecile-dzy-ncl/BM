@@ -175,9 +175,12 @@ $(document).ready(function () {
       const filterData = function (events) {
         console.log("events", events);
         console.log("events flat", events.flat());
-        const eventsListFiltered1 = events.filter((value, index, self) => {
-          return self.indexOf(value) && self.lastIndexOf(value);
-        });
+        const eventsFlatten = events.flat();
+        const eventsListFiltered1 = eventsFlatten.filter(
+          (value, index, self) => {
+            return self.indexOf(value) && self.lastIndexOf(value);
+          }
+        );
         console.log("eventsListFiltered1", eventsListFiltered1);
         // const eventsListFiltered2 = eventsListFiltered1.filter(
         //   (ulEvent) => console.log("ulEvent", ulEvent)
