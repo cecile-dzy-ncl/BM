@@ -198,8 +198,9 @@ $(document).ready(function () {
           getEvents(index);
         }
         setTimeout(() => {
-          filterData(eventsList.flat());
-        }, "1000");
+          eventsList.flat();
+          filterData(eventsList);
+        }, "2000");
       };
 
       fetchData();
