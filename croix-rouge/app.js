@@ -174,6 +174,7 @@ $(document).ready(function () {
 
       const filterData = function (events) {
         console.log("events", events);
+        console.log("events flat", events.flat());
         const eventsListFiltered = events.filter((ulEvent) =>
           ulEvent.title.fr.match(/\d+ - ?\w*/g)
         );
@@ -202,8 +203,6 @@ $(document).ready(function () {
         }
         setTimeout(() => {
           console.log("eventsList in setTimeout", eventsList);
-          eventsList.flat();
-          console.log("eventsList after flat", eventsList);
           filterData(eventsList);
         }, "2000");
       };
