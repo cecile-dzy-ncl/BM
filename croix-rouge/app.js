@@ -175,13 +175,14 @@ $(document).ready(function () {
       const filterData = function (events) {
         console.log("events", events);
         console.log("events flat", events.flat());
-        const eventsListFiltered = events.filter((ulEvent) =>
+        const eventsListFiltered1 = events.filter((value, index, self) => {
+          self.indexOf(value) && self.lastIndexOf(value);
+        });
+        console.log("eventsListFiltered1", eventsListFiltered1);
+        const eventsListFiltered2 = eventsListFiltered1.filter((ulEvent) =>
           ulEvent.title.fr.match(/\d+ - ?\w*/g)
         );
-        // .filter((value, index, self) => {
-        //   self.indexOf(value) === index;
-        // });
-        console.log("events in filterData", eventsListFiltered);
+        console.log("eventsListFiltered2", eventsListFiltered2);
         buildForm(eventsListFiltered);
       };
 
