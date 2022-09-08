@@ -176,7 +176,7 @@ $(document).ready(function () {
         console.log("events", events);
         console.log("events flat", events.flat());
         const eventsListFiltered1 = events.filter((value, index, self) => {
-          self.indexOf(value) && self.lastIndexOf(value);
+          return self.indexOf(value) && self.lastIndexOf(value);
         });
         console.log("eventsListFiltered1", eventsListFiltered1);
         // const eventsListFiltered2 = eventsListFiltered1.filter(
