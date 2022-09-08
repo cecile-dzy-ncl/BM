@@ -189,7 +189,9 @@ $(document).ready(function () {
           `https://macollecte.croix-rouge.fr/api/events?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&page=${index}&count=1000`,
           function (response) {
             console.log("response", response);
-            eventsList.push(response.events);
+            if (response.events.length > 0) {
+              eventsList.push(response.events);
+            }
           }
         );
       };
@@ -199,6 +201,7 @@ $(document).ready(function () {
           getEvents(index);
         }
         setTimeout(() => {
+          console.log("eventsList in setTimeout", eventsList);
           eventsList.flat();
           filterData(eventsList);
         }, "2000");
