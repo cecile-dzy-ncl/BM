@@ -174,8 +174,13 @@ $(document).ready(function () {
 
       const filterData = function (events) {
         console.log("events", events);
-        console.log("events flat", events.flat());
+
         const eventsFlatten = events.flat();
+        console.log("events flat", eventsFlatten);
+        const eventsSorted = eventsFlatten.sort(
+          (a, b) => b.title.fr - a.title.fr
+        );
+        console.log("events sorted", eventsSorted);
         const eventsListFiltered1 = eventsFlatten.filter(
           (value, index, self) => {
             return self.indexOf(value) && self.lastIndexOf(value);
