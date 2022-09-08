@@ -179,12 +179,12 @@ $(document).ready(function () {
           self.indexOf(value) && self.lastIndexOf(value);
         });
         console.log("eventsListFiltered1", eventsListFiltered1);
-        const eventsListFiltered2 = eventsListFiltered1.filter(
-          (ulEvent) => console.log("ulEvent", ulEvent)
-          // ulEvent.title.fr.match(/\d+ - ?\w*/g)
-        );
-        console.log("eventsListFiltered2", eventsListFiltered2);
-        buildForm(eventsListFiltered);
+        // const eventsListFiltered2 = eventsListFiltered1.filter(
+        //   (ulEvent) => console.log("ulEvent", ulEvent)
+        //   // ulEvent.title.fr.match(/\d+ - ?\w*/g)
+        // );
+        // console.log("eventsListFiltered2", eventsListFiltered2);
+        buildForm(eventsListFiltered2);
       };
 
       const getEvents = function (index) {
