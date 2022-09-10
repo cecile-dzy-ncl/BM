@@ -178,9 +178,16 @@ $(document).ready(function () {
         const eventsFlatten = events.flat();
         console.log("events flat", eventsFlatten);
         const eventsSorted = eventsFlatten.sort(
-          (a, b) => a.title.fr - b.title.fr
+          (a, b) => b.title.fr - a.title.fr
         );
-        console.log("events sorted", eventsSorted);
+        console.log(
+          "events sorted test 1",
+          eventsFlatten.sort((a, b) => b.title.fr - a.title.fr)
+        );
+        console.log(
+          "events sorted test 2",
+          eventsFlatten.sort((a, b) => a.title.fr - b.title.fr)
+        );
         const eventsListFiltered1 = eventsSorted.filter(
           (value, index, self) => {
             return self.indexOf(value) && self.lastIndexOf(value);
