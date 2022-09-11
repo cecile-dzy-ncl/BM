@@ -180,24 +180,18 @@ $(document).ready(function () {
         const eventsSorted = eventsFlatten.sort(
           (a, b) => b.title.fr - a.title.fr
         );
-        console.log(
-          "events sorted test locale compare",
-          eventsFlatten.sort((a, b) =>
-            a.title.fr.localeCompare(b.title.fr, undefined, { numeric: true })
-          )
-        );
 
         const eventsListFiltered1 = eventsSorted.filter(
           (value, index, self) => {
             return self.indexOf(value) && self.lastIndexOf(value);
           }
         );
-        console.log("eventsListFiltered1", eventsListFiltered1);
+        // console.log("eventsListFiltered1", eventsListFiltered1);
         const eventsListFiltered2 = eventsListFiltered1.filter((ulEvent) =>
           //  console.log("ulEvent", ulEvent)
           ulEvent.title.fr.match(/\d+ - ?\w*/g)
         );
-        console.log("eventsListFiltered2", eventsListFiltered2);
+        // console.log("eventsListFiltered2", eventsListFiltered2);
         buildForm(eventsListFiltered2);
       };
 
