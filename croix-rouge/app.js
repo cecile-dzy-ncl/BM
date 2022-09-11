@@ -188,6 +188,12 @@ $(document).ready(function () {
           "events sorted test 2",
           eventsFlatten.sort((a, b) => a.title.fr - b.title.fr)
         );
+        console.log(
+          "events sorted test locale compare",
+          eventsFlatten.sort((a, b) =>
+            a.title.fr.localeCompare(b.title.fr, undefined, { numeric: true })
+          )
+        );
         const eventsListFiltered1 = eventsSorted.filter(
           (value, index, self) => {
             return self.indexOf(value) && self.lastIndexOf(value);
