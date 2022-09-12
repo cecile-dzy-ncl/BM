@@ -175,16 +175,18 @@ $(document).ready(function () {
       const filterData = function (events) {
         const eventsFlatten = events.flat();
 
-        const eventsSorted = eventsFlatten.sort(
-          (a, b) => b.title.fr - a.title.fr
+        const eventsSorted = eventsFlatten.sort((a, b) =>
+          a.title.fr.localeCompare(b.title.fr, undefined, { numeric: true })
         );
 
-        console.log(
-          "events sorted test locale compare",
-          eventsFlatten.sort((a, b) =>
-            a.title.fr.localeCompare(b.title.fr, undefined, { numeric: true })
-          )
-        );
+        console.log("test test");
+
+        // console.log(
+        //   "events sorted test locale compare",
+        //   eventsFlatten.sort((a, b) =>
+        //     a.title.fr.localeCompare(b.title.fr, undefined, { numeric: true })
+        //   )
+        // );
         const eventsListFiltered1 = eventsSorted.filter(
           (value, index, self) => {
             return self.indexOf(value) && self.lastIndexOf(value);

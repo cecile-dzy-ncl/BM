@@ -1,3 +1,7 @@
+.main-header {
+  box-shadow: 1px 1px 13px #8080804f;
+}
+
 section.top-bar-section {
   background: #fff !important;
 }
