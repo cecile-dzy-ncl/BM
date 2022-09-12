@@ -218,7 +218,7 @@ $(document).ready(function () {
         setTimeout(() => {
           console.log("eventsList in setTimeout", eventsList);
           filterData(eventsList);
-        }, "5000");
+        }, "2000");
       };
 
       fetchData();
