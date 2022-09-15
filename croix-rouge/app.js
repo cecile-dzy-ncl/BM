@@ -185,13 +185,13 @@ $(document).ready(function () {
         // console.log("test test");
 
         console.log("eventsSorted", eventsSorted);
-        const eventsListFiltered1 = eventsSorted.filter(
-          (value, index, self) => {
-            return self.indexOf(value) && self.lastIndexOf(value);
-          }
-        );
+        // const eventsListFiltered1 = eventsSorted.filter(
+        //   (value, index, self) => {
+        //     return self.indexOf(value) && self.lastIndexOf(value);
+        //   }
+        // );
 
-        const eventsListFiltered2 = eventsListFiltered1.filter((ulEvent) =>
+        const eventsListFiltered2 = eventsSorted.filter((ulEvent) =>
           ulEvent.title.fr.match(/\d+ - ?\w*/g)
         );
 
