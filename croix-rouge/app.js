@@ -184,7 +184,7 @@ $(document).ready(function () {
 
         // console.log("test test");
 
-        console.log("eventsSorted", eventsSorted);
+        // console.log("eventsSorted", eventsSorted);
         // const eventsListFiltered1 = eventsSorted.filter(
         //   (value, index, self) => {
         //     return self.indexOf(value) && self.lastIndexOf(value);
