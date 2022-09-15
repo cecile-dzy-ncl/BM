@@ -128,6 +128,7 @@ $(document).ready(function () {
 
       const buildForm = function (events) {
         events.map((ulEvent) => {
+          console.log(ulEvent.id, ulEvent.title.fr);
           form.append(
             `<option value=${ulEvent.id} data-url=${ulEvent.url.fr}>${ulEvent.title.fr}</option>`
           );
