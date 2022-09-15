@@ -46,6 +46,7 @@ $(document).ready(function () {
       const form = $("#form-departements select");
       const resultSection = $("#results-departement");
       var eventsList = [];
+      var today = new Date();
 
       const buildCard = function (event) {
         if (event.end != null) {
