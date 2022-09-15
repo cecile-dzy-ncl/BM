@@ -36,6 +36,7 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#indexs-index")) {
+      $("#fundraising-ex #exemples").html("");
       $("#fundraising-ex #exemples").html($(".section-home-projects"));
     }
   });
@@ -47,7 +48,7 @@ $(document).ready(function () {
       var eventsList = [];
 
       const buildCard = function (event) {
-        if (eventEndDate != null) {
+        if (event.end != null) {
           var eventEndDate = new Date(event.end);
           var remainingDays = `${Math.ceil(
             (eventEndDate.getTime() - today.getTime()) / (1000 * 3600 * 24)
@@ -134,14 +135,14 @@ $(document).ready(function () {
         form.change(function () {
           var selected = $(this).find("option:selected");
           var url = selected.data("url");
-          var urlDonation;
+          // var urlDonation;
 
-          $.get(
-            `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
-            function (response) {
-              urlDonation = response.don_api;
-            }
-          );
+          // $.get(
+          //   `https://macollecte.croix-rouge.fr/api/events/${this.value}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+          //   function (response) {
+          //     urlDonation = response.don_api;
+          //   }
+          // );
 
           $.get(
             `https://macollecte.croix-rouge.fr/api/events/${this.value}/projects?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91&count=300`,
