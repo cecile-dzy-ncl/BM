@@ -45,7 +45,7 @@ button:hover,
   background-color: transparent;
   border: 2px solid var(--blue);
   color: var(--blue);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   padding: 16px 40px;
   font-weight: 600;
   font-size: 18px;
