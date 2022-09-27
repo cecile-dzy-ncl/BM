@@ -1,13 +1,15 @@
 .btn-bm {
-  border-radius: 8px;
   padding: 16px 40px;
-  font-weight: 600;
-  font-size: 18px;
+  /* border-radius: 8px; */
+  /* font-weight: 600; */
+  /* font-size: 18px; */
 }
 
 .btn-bm,
 button,
 .button {
+  font-family: "Bebas Neue";
+  font-size: 30px;
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
