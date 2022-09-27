@@ -1,5 +1,10 @@
+#events {
+  padding-bottom: 50px;
+}
+
 #events-index .event-item .panel {
-  background: #f4f6f6;
+  background: var(--lightgrey);
+  border: 0;
 }
 
 #events-index .event-description a,
@@ -9,36 +14,13 @@
   text-align: left !important;
 }
 
-#events-index .event-description .infos {
-  display: flex;
-  margin-top: 10px;
-}
-
-#events-index .event-description .infos .teamcount {
-  order: 1;
-  display: flex;
-  align-items: baseline;
-}
-
-#events-index .event-description .infos .teamcount i {
-  margin-right: 10px;
-}
-
-#events-index .event-description .infos .daysleft {
-  order: 2;
-}
-
-#events-index .event-description .infos .location {
-  order: 3;
+#events-index .infos-money {
+  display: none;
 }
 
 #events-index .event-item ul li {
   margin: 0;
   border-radius: 0;
-}
-
-#events {
-  padding-bottom: 50px;
 }
 
 #events-index .event-description i {
