@@ -5,6 +5,11 @@
   font-size: 18px;
 }
 
+.btn-bm-secondary {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
 .btn-bm,
 button,
 .button {
@@ -31,7 +36,6 @@ button:hover,
 }
 
 .section-home-projects .button {
-  /* font-family: "Roboto Condensed"; */
   float: none !important;
   background-color: transparent;
   border: 2px solid var(--blue);
