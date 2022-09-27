@@ -9,8 +9,8 @@
 button,
 .button {
   text-transform: uppercase;
-  background-color: var(--red);
-  border-color: var(--red);
+  background-color: var(--orange);
+  border-color: var(--orange);
   border-radius: 8px;
   color: white;
   transition: background-color 0.3s ease;
@@ -19,8 +19,8 @@ button,
 .btn-bm:hover,
 button:hover,
 .button:hover {
-  background-color: var(--dark-red);
-  border-color: var(--dark-red);
+  background-color: var(--dark-orange);
+  border-color: var(--dark-orange);
 }
 
 .btn-bm,
@@ -34,8 +34,8 @@ button:hover,
   font-family: "Roboto Condensed";
   float: none !important;
   background-color: transparent;
-  border: 2px solid #3e3643;
-  color: #3e3643;
+  border: 2px solid var(--blue);
+  color: var(--blue);
   border-radius: 8px;
   padding: 16px 40px;
   font-weight: 600;
