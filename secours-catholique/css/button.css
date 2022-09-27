@@ -16,7 +16,7 @@ button,
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
-  border-radius: 8px;
+  /* border-radius: 8px; */
   color: white;
   transition: background-color 0.3s ease;
 }
@@ -26,6 +26,11 @@ button:hover,
 .button:hover {
   background-color: var(--dark-orange);
   border-color: var(--dark-orange);
+}
+
+.btn-bm-secondary:hover {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
 }
 
 .btn-bm,
