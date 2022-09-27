@@ -31,7 +31,7 @@ button:hover,
 }
 
 .section-home-projects .button {
-  font-family: "Roboto Condensed";
+  /* font-family: "Roboto Condensed"; */
   float: none !important;
   background-color: transparent;
   border: 2px solid var(--blue);
