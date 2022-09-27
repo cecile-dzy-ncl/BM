@@ -12,16 +12,16 @@ blockquote,
 .top-bar-section ul li > a,
 body,
 .block-share-container h4 {
-  font-family: "Roboto Condensed";
+  /* font-family: "Roboto Condensed"; */
   text-align: center;
   color: #1a1d27;
 }
 
-.tabs dd a,
+/* .tabs dd a,
 button,
 .button {
   font-family: "Roboto Condensed";
-}
+} */
 
 h1 {
   font-size: 46px;
@@ -40,9 +40,9 @@ h3 {
   /* line-height: 52px; */
 }
 
-.bitter {
+/* .bitter {
   font-family: "Bitter";
-}
+} */
 
 @media screen and (max-width: 500px) {
   h1 {
