@@ -14,7 +14,7 @@ body,
 .block-share-container h4 {
   /* font-family: "Roboto Condensed"; */
   text-align: center;
-  color: #1a1d27;
+  color: var(--blue);
 }
 
 /* .tabs dd a,
