@@ -29,6 +29,10 @@ li.has-dropdown ul.dropdown li:after {
   color: white;
 }
 
+.main-header .top-bar-section ul li:hover:not(.has-form) > a {
+  color: var(--orange);
+}
+
 @media screen and (max-width: 500px) {
   #main-nav section.top-bar-section li:not(:last-child) {
     position: static;
