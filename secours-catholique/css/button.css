@@ -9,7 +9,7 @@
 button,
 .button {
   font-family: "Bebas Neue";
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
@@ -49,9 +49,9 @@ button:hover,
   border: 2px solid var(--blue);
   color: var(--blue);
   /* border-radius: 8px; */
-  padding: 16px 40px;
+  padding: 8px 24px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 auto 40px;
   display: block;
   width: fit-content;
@@ -66,7 +66,7 @@ button:hover,
 
 @media screen and (max-width: 500px) {
   .btn-bm {
-    padding: 16px 30px;
+    /* padding: 8px 24px; */
     font-size: 16px;
   }
 }
