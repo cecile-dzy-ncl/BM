@@ -1,0 +1,129 @@
+/*GENERAL*/
+#main-nav > section > ul {
+  display: none;
+}
+#main-nav > section {
+  height: 10px;
+  background: #e20714;
+}
+header.main-header #header-header {
+  box-shadow: none;
+}
+.top-bar {
+  height: 0;
+}
+section.section-projet-details .project-detail-data {
+  color: #fff;
+  background-color: #333743;
+}
+section.section-projet-details .project-detail-data .project_boutons_join {
+  background: #333743;
+}
+.bg-primary-color {
+  background-color: #e20714;
+}
+#project_tabs > div {
+  background: #fff;
+}
+#wrapper > div > div.habillage > section:nth-child(3) > div {
+  background-color: #fff;
+}
+#wrapper > div > div.habillage > section:nth-child(3) > div > div {
+  margin: 0;
+  width: 100%;
+}
+footer {
+}
+/*end general*/
+.block-share-container .social-btns .social_network {
+  width: 25%;
+}
+div.project_boutons_give {
+  position: relative;
+}
+.edit_project div.project_boutons_give:before {
+  background-image: url(https://macollecte.croix-rouge.fr/cdn.iraiser.eu/4XvWhIYFb5aGDg7Nst9jfw6rg6DeYm2NrLlBYm+5wOnOpo/WVS1m8h8DYqZF/cSi/Simon_Romain/origin/fleche.png);
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  left: 120px;
+  content: "";
+}
+#wrapper > div > div.habillage > section:nth-child(4) > div {
+  background-color: #efece5;
+}
+section.section-projet-details .project-detail-data .project_boutons_give i {
+  display: none;
+}
+section.section-projet-details .project-detail-data .project_boutons_give {
+  min-height: 4.5625rem;
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  line-height: 3.5rem;
+  padding-top: 0.45rem;
+  padding-left: 50px;
+}
+
+#projects-show div.habillage section:nth-child(3) div.bg-color-light {
+  /*max-width: none;*/
+}
+#homeBloc1 {
+  background-color: #efece5;
+}
+#homeBloc1 .wrap {
+  padding: 0 10%;
+}
+#homeBloc1 a {
+  color: #e20714;
+}
+#homeBloc1 p {
+  color: #000000;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+#zoomChiffres {
+  border: 2px dashed #373639;
+  padding: 40px 20px;
+}
+#zoomChiffres h3 {
+  color: #e20714;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#zoomChiffres ul {
+  margin-left: 1.1rem;
+  display: inline-block;
+  padding: 2%;
+  width: 47%;
+  line-height: 36px;
+  font-family: Arial, sans-serif;
+}
+#homeBloc1 > div > p:nth-child(4) {
+  margin-top: 45px;
+}
+
+/************ RESPONSIVE **************/
+@media only screen and (max-width: 940px) {
+  #homeBloc1 .wrap {
+    padding: 2%;
+  }
+  #zoomChiffres ul {
+    display: block;
+    padding: 2%;
+    width: 100%;
+  }
+
+  .edit_project div.project_boutons_give:before {
+    left: 21px;
+  }
+}

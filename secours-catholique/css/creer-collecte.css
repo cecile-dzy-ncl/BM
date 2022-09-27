@@ -1,0 +1,44 @@
+.inscription-step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.inscription-step span {
+  border: 4px solid;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Bitter";
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.inscription-step p {
+  margin-bottom: 0;
+}
+
+.inscription-step h3,
+.inscription-step p {
+  text-align: left;
+}
+
+.inscription-step a {
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .inscription-step {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inscription-step span {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,102 @@
+.stats p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.stats .nb {
+  font-weight: bold;
+}
+
+/* .section-home-projects {
+  display: none;
+} */
+
+.events-ex {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.event-ex {
+  width: 32%;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  border-left: 2px solid var(--dark-green);
+  display: flex;
+  flex-direction: column;
+}
+
+.event-ex p:not(.bitter) {
+  /* font-family: "Barlow Condensed"; */
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.event-ex .link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.event-ex .link a {
+  color: black;
+  display: flex;
+}
+
+.event-ex .link p {
+  /* font-weight: bold; */
+}
+
+.event-ex img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.event-ex .bitter {
+  position: relative;
+  padding-bottom: 3px;
+  font-weight: 600;
+  color: var(--dark-green);
+}
+
+.event-ex .bitter:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: var(--red);
+  /* background-color: var(--dark-green); */
+}
+
+.event-ex > p {
+  margin: 10px auto;
+  flex-grow: 1;
+}
+
+.event-ex .link span {
+  background: var(--red);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  color: white;
+}
+
+.section-home-projects .infos-money-details {
+  display: flex;
+}
+
+.section-home-projects .projects-list .panel .thumbnail {
+  min-width: unset;
+  line-height: inherit;
+  height: auto;
+}

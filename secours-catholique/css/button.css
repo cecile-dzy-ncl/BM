@@ -1,0 +1,60 @@
+.btn-bm {
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-bm,
+button,
+.button {
+  text-transform: uppercase;
+  background-color: var(--red);
+  border-color: var(--red);
+  border-radius: 8px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-bm:hover,
+button:hover,
+.button:hover {
+  background-color: var(--dark-red);
+  border-color: var(--dark-red);
+}
+
+.btn-bm,
+.btn-bm[class*="bg"],
+.btn-bm:hover,
+.btn-bm[class*="bg"] a:hover {
+  color: #fff;
+}
+
+.section-home-projects .button {
+  font-family: "Roboto Condensed";
+  float: none !important;
+  background-color: transparent;
+  border: 2px solid #3e3643;
+  color: #3e3643;
+  border-radius: 8px;
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 auto 40px;
+  display: block;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+#widget-new-project .button {
+  border-radius: 8px;
+  background-color: var(--red);
+  transition: background-color 0.3s ease;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-bm {
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+}

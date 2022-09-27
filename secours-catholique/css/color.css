@@ -1,0 +1,82 @@
+/* ------------------- COLORS ------------------- */
+
+:root {
+  --lightergrey: #f0f0f0;
+  --lightgrey: #f2f5f6;
+  --mediumgrey: #dbe4e7;
+  --grey: #f6f6f6;
+  --darkgrey: #334146;
+  --darkergrey: #1c1d33;
+
+  --red: #e30613;
+  --dark-red: #950008;
+
+  --green: #075c68;
+  --dark-green: #17363a;
+
+  --black: #3e3643;
+
+  --shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  --primary: var(--red);
+}
+
+.black {
+  color: var(--black);
+  color: #3e3643;
+}
+
+.bg-grey {
+  background: var(--lightergrey);
+}
+
+.bg-blue {
+  background: var(--blue);
+}
+
+.bg-green {
+  background: var(--green);
+}
+
+.green {
+  color: #e30614;
+}
+
+.bg-pink {
+  background: #d21281;
+  background: var(--pink);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.red {
+  color: var(--red);
+}
+
+.bg-red {
+  background: var(--red);
+  background: #e30613;
+}
+
+.dark-red {
+  color: var(--dark-red);
+}
+
+.bg-dark-red {
+  background: var(--dark-red);
+  background: #950008;
+}
+
+.dark-green {
+  color: var(--dark-green);
+}
+
+.bg-dark-green {
+  background: var(--dark-green);
+  background: #17363a;
+}
+
+/* .bg-pattern {
+  background: url("https://collecter.gustaveroussy.fr/cdn.iraiser.eu/Dcp782shD5vxB1dJKeW8GD+0ia/vCe2vk/43cMDLn9Jf6SMzw0z7g0OpeXtFTkr//Cecile_Dezy/origin/pattern.png");
+} */

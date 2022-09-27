@@ -1,0 +1,16 @@
+.infos-money .infos-money-details .info-money.detail {
+  color: var(--black);
+}
+
+.panel {
+  border: 1px solid lightgrey;
+}
+
+.panel h3 a {
+  color: var(--green);
+}
+
+.projects-list .panel .thumbnail img {
+  object-fit: cover;
+  object-position: center;
+}

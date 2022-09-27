@@ -1,0 +1,36 @@
+.main-header {
+  box-shadow: 1px 1px 13px #8080804f;
+}
+
+section.top-bar-section {
+  background: #fff !important;
+}
+
+li.has-dropdown ul.dropdown li:after {
+  display: none;
+}
+
+.main-header
+  #main-nav
+  .top-bar-section
+  .dropdown
+  li:not(.has-form)
+  a:not(.button) {
+  background-color: white;
+  color: black;
+}
+
+.main-header
+  #main-nav
+  .top-bar-section
+  .dropdown
+  li:not(.has-form)
+  a:not(.button):hover {
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  #main-nav section.top-bar-section li:not(:last-child) {
+    position: static;
+  }
+}
