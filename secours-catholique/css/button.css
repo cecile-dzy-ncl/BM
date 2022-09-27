@@ -43,6 +43,7 @@ button:hover,
 }
 
 .section-home-projects .button {
+  font-family: "Bebas Neue";
   float: none !important;
   background-color: transparent;
   border: 2px solid var(--blue);
