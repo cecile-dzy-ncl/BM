@@ -4,7 +4,7 @@
 
 #projects-show .section-projet-details > .row:last-of-type,
 #projects-show .block-share-container {
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 #projects-show
@@ -35,7 +35,7 @@ section.section-projet-details .project-detail-data .project_boutons_join {
 
 section.section-projet-details .project-detail-data .project_boutons_give {
   /* font-weight: 500; */
-  background-color: var(--red);
+  background-color: var(--orange);
   color: white;
   padding: 0.6rem 0;
   min-height: auto;
@@ -45,7 +45,7 @@ section.section-projet-details .project-detail-data .project_boutons_give {
 section.section-projet-details
   .project-detail-data
   .project_boutons_give:hover {
-  background-color: var(--dark-red);
+  background-color: var(--dark-orange);
 }
 
 #show_title {

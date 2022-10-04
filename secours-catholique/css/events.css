@@ -28,11 +28,11 @@
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-create {
-  border: 2px solid var(--green);
+  border: 2px solid var(--blue);
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-see {
-  background-color: var(--green);
+  background-color: var(--blue);
   border: 2px solid;
   margin-left: 10px;
   background: transparent;
