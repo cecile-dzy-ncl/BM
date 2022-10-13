@@ -225,8 +225,8 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#projects-show")) {
-      var eventId = $("body").className.split("event_")[1];
-      var projectId = $("body").className.split("project_")[1];
+      var eventId = $("body")[0].className.split("event_")[1];
+      var projectId = $("body")[0].className.split("project_")[1];
       console.log("eventId", eventId);
       console.log("projectId", projectId);
 
