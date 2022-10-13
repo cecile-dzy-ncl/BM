@@ -222,4 +222,11 @@ $(document).ready(function () {
       fetchData();
     }
   });
+
+  $(function () {
+    if ($("body").is("#projects-show")) {
+      var projectId = $(body).className.split("project_")[1];
+      console.log("projectId", projectId);
+    }
+  });
 });
