@@ -225,8 +225,20 @@ $(document).ready(function () {
 
   $(function () {
     if ($("body").is("#projects-show")) {
-      var projectId = $(body).className.split("project_")[1];
+      var eventId = $("body").className.split("event_")[1];
+      var projectId = $("body").className.split("project_")[1];
+      console.log("eventId", eventId);
       console.log("projectId", projectId);
+
+      $.get(
+        `https://macollecte.croix-rouge.fr/api/events/${eventId}/projects/${projectId}?api_id=995dcc6271d03903LODRUVKNHNDGRMXF&api_secret=e519ac404340b6fc322cf90dcf6d9d91`,
+        function (response) {
+          console.log("response", response);
+          // if (response.events.length > 0) {
+          //   eventsList.push(response.events);
+          // }
+        }
+      );
     }
   });
 });
