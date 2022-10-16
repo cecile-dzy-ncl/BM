@@ -24,6 +24,10 @@
   padding: 60px 32px;
 }
 
+.banner .container-bm {
+  z-index: 1;
+}
+
 /* .banner.homepage {
   background: var(--red);
   height: 637px;
