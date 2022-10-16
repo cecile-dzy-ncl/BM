@@ -34,7 +34,8 @@ form#front-search-filter .columns:last-child {
   padding: 0px;
 }
 
-#events-index .event-description h3 {
+#events-index .event-description h3,
+#events-index .event-description p {
   color: var(--blue);
 }
 
