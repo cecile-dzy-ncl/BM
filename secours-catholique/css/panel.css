@@ -6,9 +6,9 @@
   border: 1px solid lightgrey;
 }
 
-.panel h3 a {
+/* .panel h3 a {
   color: var(--green);
-}
+} */
 
 .projects-list .panel .thumbnail img {
   object-fit: cover;
