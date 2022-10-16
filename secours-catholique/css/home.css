@@ -112,3 +112,7 @@
 .camp-description {
   width: 70%;
 }
+
+.camp-description * {
+  text-align: left;
+}
