@@ -36,9 +36,9 @@ $(document).ready(function () {
 
   $(function () {
     if ($("#form#front-search-filter")) {
-      // $("form#front-search-filter .columns:last-child").text(
-      //   "Types de cagnottes"
-      // );
+      $("form#front-search-filter .columns:last-child label").text(
+        "Types de cagnottes"
+      );
     }
   });
 });
