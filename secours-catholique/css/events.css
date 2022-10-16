@@ -18,6 +18,7 @@ form#front-search-filter .columns:last-child {
 
 #events-index .event-item .panel {
   background: var(--lightergrey);
+  padding: 16px;
   border: 0;
 }
 
