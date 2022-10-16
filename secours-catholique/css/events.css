@@ -2,7 +2,9 @@
   padding-bottom: 50px;
 }
 
-form#front-search-filter .columns:not(:last-child) {
+form#front-search-filter .columns:not(:last-child),
+.event-description > div,
+.event-details .row > .medium-4 {
   display: none;
 }
 
@@ -20,10 +22,6 @@ form#front-search-filter .columns:last-child {
 #events-index .event-description h3,
 #events-index .event-description .infos * {
   text-align: left !important;
-}
-
-.event-description > div {
-  display: none;
 }
 
 /* #events-index .event-item ul li {
