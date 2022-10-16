@@ -41,6 +41,10 @@ form#front-search-filter .columns:last-child {
   color: var(--blue);
 }
 
+.first-section .panel {
+  border: 0;
+}
+
 div#events_pager {
   max-width: 71.25em;
   margin: 0 auto 50px;
