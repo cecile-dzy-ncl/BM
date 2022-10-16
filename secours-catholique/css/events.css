@@ -2,7 +2,7 @@
   padding-bottom: 50px;
 }
 
-form#front-search-filter .small-offset-0 {
+form#front-search-filter .columns:not(:last-child) {
   display: none;
 }
 
