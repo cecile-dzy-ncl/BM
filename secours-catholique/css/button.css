@@ -64,6 +64,10 @@ button:hover,
   transition: background-color 0.3s ease;
 }
 
+.section-events .event-item .event-details .event-goup-btn {
+  position: relative;
+}
+
 .section-events .event-item .event-details .event-goup-btn .page-create,
 .section-events .event-item .event-details .event-goup-btn .page-see {
   border-radius: 0px;
