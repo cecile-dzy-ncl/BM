@@ -6,6 +6,10 @@ form#front-search-filter .columns:not(:last-child) {
   display: none;
 }
 
+form#front-search-filter .columns:last-child {
+  float: none;
+}
+
 #events-index .event-item .panel {
   background: var(--lightgrey);
   border: 0;

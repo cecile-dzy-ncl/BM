@@ -21,16 +21,24 @@ $(document).ready(function () {
       var amount = $("#events-show .current-amount").html().replace(/\s/g, "");
 
       var compteurDiv = `<div class="wrapper pt-0">
-        <div class="container-bm">
-        <div class="compteur">
-        <div class="w-50 px-10 mx-auto">
-        <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
-        <p class="text-center  m-0">ont déjà été collectés</p>
-        </div>
-        </div>
-        </div>
-        </div>`;
+      <div class="container-bm">
+      <div class="compteur">
+      <div class="w-50 px-10 mx-auto">
+      <h2 class="text-center  m-0"><span class="bitter red">${amount}</span></h2>
+      <p class="text-center  m-0">ont déjà été collectés</p>
+      </div>
+      </div>
+      </div>
+      </div>`;
       $("#widget-new-project").before(compteurDiv);
+    }
+  });
+
+  $(function () {
+    if ($("#form#front-search-filter")) {
+      $("form#front-search-filter .columns:last-child").text(
+        "Types de cagnottes"
+      );
     }
   });
 });
