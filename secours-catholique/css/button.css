@@ -68,6 +68,10 @@ button:hover,
   position: relative;
 }
 
+.section-events .event-item .event-details .event-goup-btn li {
+  margin: 0;
+}
+
 .section-events .event-item .event-details .event-goup-btn .page-create,
 .section-events .event-item .event-details .event-goup-btn .page-see {
   border-radius: 0px;
