@@ -64,6 +64,12 @@ button:hover,
   transition: background-color 0.3s ease;
 }
 
+.section-events .event-item .event-details .event-goup-btn .page-create,
+.section-events .event-item .event-details .event-goup-btn .page-see {
+  border-radius: 0px;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm {
     /* padding: 8px 24px; */

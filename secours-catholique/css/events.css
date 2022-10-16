@@ -29,6 +29,11 @@ form#front-search-filter .columns:last-child {
 #events-index .event-description .infos * {
   text-align: left !important;
 }
+
+#events-index .event-details .wrap {
+  padding: 0px;
+}
+
 #events-index .event-description h3 {
   color: var(--blue);
 }
