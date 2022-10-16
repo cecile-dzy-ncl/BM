@@ -1,5 +1,5 @@
 #events {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 form#front-search-filter .columns:not(:last-child),
@@ -39,6 +39,11 @@ form#front-search-filter .columns:last-child {
 #events-index .event-description h3,
 #events-index .event-description p {
   color: var(--blue);
+}
+
+div#events_pager {
+  max-width: 71.25em;
+  margin: 0 auto 50px;
 }
 
 /* #events-index .event-item ul li {
