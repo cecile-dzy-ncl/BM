@@ -41,6 +41,15 @@ form#front-search-filter .columns:last-child {
   color: var(--blue);
 }
 
+#events-index .event-item .event-image {
+  width: 300px;
+  height: 300px;
+}
+#events-index .event-item .event-image .wrap {
+  height: 100%;
+  width: 100%;
+}
+
 .first-section .panel {
   border: 0;
 }
