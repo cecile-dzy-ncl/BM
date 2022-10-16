@@ -2,8 +2,8 @@
   position: relative;
   height: 511px;
   align-items: flex-end;
-  text-align: center;
-  justify-content: center;
+  /* text-align: center; */
+  justify-content: flex-start;
   padding-bottom: 50px;
 }
 
@@ -21,7 +21,7 @@
   z-index: 1;
   background: rgba(54, 62, 75, 0.65);
   color: white;
-  padding: 32px 60px;
+  padding: 60px 32px;
 }
 
 /* .banner.homepage {
