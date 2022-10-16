@@ -31,7 +31,7 @@ form#front-search-filter .columns:last-child {
 }
 
 #events-index .event-details .wrap {
-  padding: 0px;
+  padding: 0px 16px;
 }
 
 #events-index .event-description h3,
