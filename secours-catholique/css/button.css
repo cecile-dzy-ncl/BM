@@ -72,12 +72,13 @@ button:hover,
 .section-events .event-item .event-details .event-goup-btn .page-see {
   border-radius: 0px;
   font-size: 18px;
+  border: 1px solid inherit;
 }
 
 .section-events .event-item .event-details .event-goup-btn .page-see {
   background: transparent;
   color: var(--blue);
-  border: 1px solid var(--blue);
+  border-color: var(--blue);
 }
 
 @media screen and (max-width: 500px) {
