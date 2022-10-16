@@ -10,6 +10,7 @@ form#front-search-filter .columns:not(:last-child),
 
 form#front-search-filter .columns:last-child {
   float: none;
+  padding: 0;
 }
 
 .event-details .row > .medium-7 {
