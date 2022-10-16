@@ -2,6 +2,10 @@
   padding-bottom: 50px;
 }
 
+form#front-search-filter .small-offset-0 {
+  display: none;
+}
+
 #events-index .event-item .panel {
   background: var(--lightgrey);
   border: 0;
