@@ -11,7 +11,7 @@ form#front-search-filter .columns:last-child {
 }
 
 #events-index .event-item .panel {
-  background: var(--lightgrey);
+  background: var(--lightergrey);
   border: 0;
 }
 
