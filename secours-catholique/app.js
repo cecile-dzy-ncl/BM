@@ -33,12 +33,4 @@ $(document).ready(function () {
       $("#widget-new-project").before(compteurDiv);
     }
   });
-
-  $(function () {
-    if ($("#form#front-search-filter")) {
-      // $("form#front-search-filter .columns:last-child label").text(
-      //   "Types de cagnottes"
-      // );
-    }
-  });
 });
