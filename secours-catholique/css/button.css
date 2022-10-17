@@ -60,7 +60,7 @@ button:hover,
 
 #widget-new-project .button {
   border-radius: 8px;
-  background-color: var(--red);
+  background-color: var(--orange);
   transition: background-color 0.3s ease;
 }
 
