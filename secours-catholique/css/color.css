@@ -33,6 +33,10 @@
   background: var(--blue);
 }
 
+.orange {
+  color: var(--orange);
+}
+
 .bg-orange {
   background: var(--orange);
 }
