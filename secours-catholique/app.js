@@ -20,7 +20,7 @@ $(document).ready(function () {
 
       var amount = $("#events-show .current-amount").html().replace(/\s/g, "");
 
-      var compteurDiv = `<div class="wrapper pt-0">
+      var compteurDiv = `<div class="wrapper p-0">
       <div class="container-bm">
       <div class="compteur">
       <div class="w-50 px-10 mx-auto">
