@@ -1,8 +1,8 @@
 /* PAGE EVENT */
 
-.event-head .intro-my-event {
+/* .event-head .intro-my-event {
   color: black;
-}
+} */
 
 #events-show .event-head > .row {
   display: flex;
@@ -54,7 +54,7 @@
 
 #events-show h1 {
   margin-top: 30px;
-  color: black;
+  /* color: black; */
 }
 
 #events-show .projects-list .panel {
