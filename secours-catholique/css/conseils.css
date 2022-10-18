@@ -11,3 +11,7 @@
   font-family: "Bebas Neue";
   font-size: 150px;
 }
+
+#conseils .conseil p {
+  font-size: 16px;
+}
