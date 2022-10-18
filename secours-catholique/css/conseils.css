@@ -1,6 +1,7 @@
-#conseils {
+#conseils .conseil {
+  display: flex;
 }
 
-#conseils div span {
+#conseils .conseil span {
   color: var(--orange);
 }
