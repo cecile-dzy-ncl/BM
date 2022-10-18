@@ -31,3 +31,9 @@
 #conseils .conseil div {
   flex-grow: 1;
 }
+
+@media screen and (max-width: 500px) {
+  #conseils .conseil {
+    flex-direction: column;
+  }
+}
