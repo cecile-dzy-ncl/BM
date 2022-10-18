@@ -2,6 +2,10 @@
   display: flex;
 }
 
+#conseils .conseil * {
+  text-align: left;
+}
+
 #conseils .conseil span {
   color: var(--orange);
   font-family: "Bebas Neue";
