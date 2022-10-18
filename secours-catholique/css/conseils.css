@@ -1,5 +1,6 @@
 #conseils .conseil {
   display: flex;
+  align-items: flex-end;
 }
 
 #conseils .conseil * {
