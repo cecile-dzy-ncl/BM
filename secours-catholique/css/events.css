@@ -60,6 +60,10 @@ div#events_pager {
   margin: 0 auto 50px;
 }
 
+.section-events .event-item .event-details .event-goup-btn {
+  left: 0;
+}
+
 /* #events-index .event-item ul li {
   margin: 0;
   border-radius: 0;
@@ -69,9 +73,6 @@ div#events_pager {
   color: grey;
 }
 
-.section-events .event-item .event-details .event-goup-btn .page-create {
-  border: 2px solid var(--blue);
-}
 
 .section-events .event-item .event-details .event-goup-btn .page-see {
   background-color: var(--blue);
@@ -86,12 +87,12 @@ div#events_pager {
 } */
 
 @media screen and (max-width: 500px) {
-  .event-item .panel .event-image .wrap {
-    height: 300px;
+  #events-index .event-item .panel {
+    flex-direction: column;
   }
-
   .event-item .panel .event-image .wrap {
-    height: 300px;
+    width: 100%;
+    height: auto;
   }
 
   .event-image img,
