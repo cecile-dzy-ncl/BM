@@ -4,4 +4,6 @@
 
 #conseils .conseil span {
   color: var(--orange);
+  font-family: "Bebas Neue";
+  font-size: 150px;
 }
