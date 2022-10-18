@@ -88,6 +88,6 @@ button:hover,
 @media screen and (max-width: 500px) {
   .btn-bm {
     /* padding: 8px 24px; */
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 }
