@@ -1,6 +1,7 @@
 #conseils .conseil {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
@@ -21,4 +22,8 @@
 #conseils .conseil p {
   font-size: 16px;
   margin-bottom: 0;
+}
+
+#conseils .conseil div {
+  flex-grow: 1;
 }
