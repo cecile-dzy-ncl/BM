@@ -98,6 +98,7 @@
 .camp-description h3 {
   font-size: 28px;
   text-align: left;
+  font-family: "Raleway";
 }
 
 .camp-description * {
@@ -108,11 +109,13 @@
   display: flex;
   width: 100%;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .camp-description h2 {
   flex-shrink: 0;
   margin: 0 20px 0 0;
+  font-size: 60px;
 }
 
 .camp-title hr {
