@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  padding: 50px 0;
+}
+
 @media screen and (max-width: 500px) {
   .bg-grey .mobile_flex-column {
     flex-direction: column-reverse;
