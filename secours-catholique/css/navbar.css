@@ -11,6 +11,10 @@ li.has-dropdown ul.dropdown li:after {
   display: none;
 }
 
+.main-header #main-nav {
+  margin-top: 20px;
+}
+
 .main-header
   #main-nav
   .top-bar-section
