@@ -6,7 +6,7 @@
 button,
 .button {
   font-family: "Bebas Neue";
-  font-size: 20px;
+  font-size: 28px;
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
