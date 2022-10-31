@@ -58,6 +58,11 @@ li.has-dropdown ul.dropdown li:after {
   content: none;
 }
 
+#header-header > .row {
+  display: flex;
+  align-items: center;
+}
+
 input.icon-search.field-auto-search {
   margin-bottom: 0;
 }
