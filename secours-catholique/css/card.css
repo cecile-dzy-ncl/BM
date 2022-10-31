@@ -69,9 +69,12 @@
   /* margin: 0px auto 100px auto; */
 }
 
-.camp-description,
 .camp-photo {
-  width: 50%;
+  width: 30%;
+}
+
+.camp-description {
+  width: 70%;
 }
 
 .camp-photo,
