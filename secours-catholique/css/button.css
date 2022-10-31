@@ -57,6 +57,7 @@ button:hover,
 
 #widget-new-project .button {
   /* border-radius: 8px; */
+  padding: 4px 14px 0px;
   background-color: var(--orange);
   transition: background-color 0.3s ease;
 }
