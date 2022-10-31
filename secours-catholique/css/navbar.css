@@ -3,6 +3,10 @@
   padding: 30px 0;
 }
 
+header.main-header #header-header .header-spacer {
+  padding-top: 0;
+}
+
 section.top-bar-section {
   background: #fff !important;
 }
