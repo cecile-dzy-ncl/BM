@@ -4,7 +4,7 @@ button,
   padding: 4px 14px 0px;
   font-family: "Bebas Neue";
   letter-spacing: 1px;
-  font-size: 28px;
+  font-size: 26px;
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
@@ -46,7 +46,7 @@ button:hover,
   /* border-radius: 8px; */
   padding: 4px 14px 0px;
   font-weight: 600;
-  font-size: 28px;
+  font-size: 26px;
   margin: 0 auto 40px;
   display: block;
   width: fit-content;
@@ -71,7 +71,7 @@ button:hover,
 .section-events .event-item .event-details .event-goup-btn .page-create,
 .section-events .event-item .event-details .event-goup-btn .page-see {
   border-radius: 0px;
-  font-size: 28px;
+  font-size: 26px;
   border: 1px solid transparent;
   padding: 4px 14px 0px;
 }
