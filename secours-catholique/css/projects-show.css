@@ -168,6 +168,11 @@ section.section-projet-details .project-detail-data .contributeurs span {
   padding: 9px 20px;
 }
 
+#project_tabs dl.tabs dd:nth-of-type(3),
+#project_tabs dl.tabs dd:nth-of-type(4) {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   #projects-show .section-projet-details > .row:last-of-type {
     flex-direction: column;
