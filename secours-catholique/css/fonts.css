@@ -39,6 +39,12 @@ button,
   font-family: "Roboto Condensed";
 } */
 
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue";
+}
+
 h1 {
   font-size: 46px;
   line-height: 52px;
