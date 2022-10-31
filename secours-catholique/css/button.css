@@ -1,11 +1,9 @@
-.btn-bm {
-  padding: 4px 14px 0px;
-}
-
 .btn-bm,
 button,
 .button {
+  padding: 4px 14px 0px;
   font-family: "Bebas Neue";
+  letter-spacing: 1px;
   font-size: 28px;
   text-transform: uppercase;
   background-color: var(--orange);

@@ -12,6 +12,7 @@
 #conseils .conseil span {
   color: var(--orange);
   font-family: "Bebas Neue";
+  letter-spacing: 1px;
   /* width: 150px; */
   font-size: 150px;
   line-height: 140px;
