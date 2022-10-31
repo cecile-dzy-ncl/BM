@@ -36,6 +36,7 @@ li.has-dropdown ul.dropdown li:after {
 .main-header .top-bar-section ul li:not(.has-form) > a {
   font-family: "Bebas Neue";
   font-size: 30px;
+  position: relative;
 }
 
 .main-header .top-bar-section ul li:not(.has-form) > a:before {
@@ -45,6 +46,7 @@ li.has-dropdown ul.dropdown li:after {
   position: absolute;
   bottom: 0;
   left: 15px;
+  transition: width 0.3s ease;
 }
 
 .main-header .top-bar-section ul li:hover:not(.has-form) > a:before {
