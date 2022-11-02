@@ -24,6 +24,7 @@ form#front-search-filter .columns:last-child {
   display: flex;
 }
 
+#projects-index h1,
 #events-index h1,
 #events-index .event-description a,
 #events-index .event-description p,
