@@ -69,12 +69,9 @@
   /* margin: 0px auto 100px auto; */
 }
 
-.camp-photo {
-  width: 60%;
-}
-
+.camp-photo,
 .camp-description {
-  width: 40%;
+  width: 50%;
 }
 
 .camp-photo,
@@ -99,6 +96,10 @@
   font-size: 28px;
   text-align: left;
   font-family: "Raleway";
+}
+
+.camp-description p {
+  font-size: 18px;
 }
 
 .camp-description * {
