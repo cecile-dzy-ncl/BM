@@ -1,10 +1,12 @@
 .step {
-  width: auto;
+  width: fit-content;
   font-size: 16px;
   margin-bottom: 0px;
+  padding: 0 4px;
 }
 
 .steps h4 {
-  font-size: 33px;
+  font-size: 26px;
   line-height: 38px;
+  margin-top: 20px;
 }
