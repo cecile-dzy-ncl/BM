@@ -73,6 +73,7 @@ input.icon-search.field-auto-search {
 }
 
 footer,
+footer .top-bar-section li:not(.has-form) a:not(.button),
 footer section.top-bar-section {
   background: #b6b6b6 !important;
 }
