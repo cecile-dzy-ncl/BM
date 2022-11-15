@@ -41,7 +41,7 @@ $(document).ready(function () {
       eventsList.each(function () {
         const eventId = $(this).find(".page-create")[0].href.split("=")[1];
         console.log("this", $(this));
-        $(this).attr("id", eventId);
+        $(this).attr("id", `event_${eventId}`);
       });
     }
   });
