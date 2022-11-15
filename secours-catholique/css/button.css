@@ -82,7 +82,7 @@ button:hover,
   border-color: var(--blue);
 }
 
-.admin_button.button {
+#header-header .admin_button.button {
   padding: 6px;
 }
 
