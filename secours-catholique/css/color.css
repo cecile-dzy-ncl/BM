@@ -41,6 +41,10 @@
   background: var(--orange);
 }
 
+.secondary-color {
+  color: var(--blue);
+}
+
 /* .black {
   color: var(--black);
   color: #3e3643;
