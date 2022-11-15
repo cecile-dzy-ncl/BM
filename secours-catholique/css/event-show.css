@@ -101,6 +101,11 @@ section.event-head {
   overflow: hidden;
 }
 
+#events-show .block-share-container .social-btns {
+  display: flex;
+  margin-left: 0;
+}
+
 @media screen and (max-width: 500px) {
   .event-head .intro-my-event:after {
     content: none;
