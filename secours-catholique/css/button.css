@@ -4,7 +4,7 @@ button,
   padding: 4px 14px 0px;
   font-family: "Bebas Neue";
   letter-spacing: 1px;
-  font-size: 26px;
+  font-size: 24px;
   text-transform: uppercase;
   background-color: var(--orange);
   border-color: var(--orange);
@@ -84,6 +84,14 @@ button:hover,
 
 .admin_button.button {
   padding: 6px;
+}
+
+#header-header .button {
+  padding: 0 14px 0px;
+  font-family: "Bebas Neue";
+  letter-spacing: 1px;
+  font-size: 20px !important;
+  width: fit-content !important;
 }
 
 @media screen and (max-width: 500px) {
