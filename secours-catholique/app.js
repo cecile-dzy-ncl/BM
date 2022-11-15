@@ -33,4 +33,21 @@ $(document).ready(function () {
       $("#widget-new-project").before(compteurDiv);
     }
   });
+
+  $(function () {
+    if ($("body").is("#events-index")) {
+      var eventsList = $("#events .event-item");
+      console.log(eventsList);
+      eventsList.each(function () {
+        const eventId = $(this).find(".page-create")[0].href.split("=")[1];
+        console.log("this", $(this));
+        $(this)
+          .find(".page-see")
+          .attr(
+            "href",
+            `https://soutenir.wwf.fr/projects?search=&search_status=&search_event_id=${eventId}&search_scope=peer_to_peer`
+          );
+      });
+    }
+  });
 });
