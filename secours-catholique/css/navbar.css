@@ -37,7 +37,7 @@ li.has-dropdown ul.dropdown li:after {
   color: white;
 }
 
-.main-header .top-bar-section ul li:not(.has-form) > a {
+.main-header .top-bar-section ul li:not(.has-form).nodropdown > a {
   font-family: "Bebas Neue";
   letter-spacing: 1px;
   font-size: 24px;
