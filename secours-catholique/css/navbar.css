@@ -82,4 +82,8 @@ footer section.top-bar-section {
   #main-nav section.top-bar-section li:not(:last-child) {
     position: static;
   }
+
+  #header-header > .row {
+    flex-direction: column;
+  }
 }
