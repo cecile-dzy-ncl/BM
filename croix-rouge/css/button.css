@@ -52,6 +52,10 @@ button:hover,
   transition: background-color 0.3s ease;
 }
 
+.new-gift-button.disabled .project_boutons_give {
+  background-color: #762e32;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm {
     padding: 16px 30px;
