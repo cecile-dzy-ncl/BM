@@ -95,7 +95,7 @@ button:hover,
 }
 
 #form-contact input.button {
-  margin: 25px auto 50px;
+  margin: 50px auto;
 }
 
 @media screen and (max-width: 500px) {
