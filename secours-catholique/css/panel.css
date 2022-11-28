@@ -8,7 +8,9 @@
 .panel.radius {
   border-radius: 0px;
 }
-
+.infos-money {
+  font-family: "Raleway";
+}
 /* .panel h3 a {
   color: var(--green);
 } */
