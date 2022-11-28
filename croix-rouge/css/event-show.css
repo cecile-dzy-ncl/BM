@@ -101,6 +101,18 @@ section.event-head {
   overflow: hidden;
 }
 
+.finished_project .disabled {
+  pointer-events: none;
+}
+
+.finished_project .disabled .project_boutons_give {
+  background-color: #a32a32;
+  cursor: default;
+}
+.finished_project .disabled .project_boutons_give:hover {
+  background-color: #a32a32;
+}
+
 @media screen and (max-width: 500px) {
   .event-head .intro-my-event:after {
     content: none;

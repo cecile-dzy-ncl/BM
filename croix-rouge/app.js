@@ -239,6 +239,14 @@ $(document).ready(function () {
           // }
         }
       );
+
+      // disabled give button if fundraising page date is passed
+      if ($(".finished_project")) {
+        var btnGive = $(".finished_project").find($(".new-gift-button"));
+        btnGive.addClass("disabled");
+        btnGive.attr("href", "#");
+        btnGive.find($(".project_boutons_give")).html("Collecte terminée");
+      }
     }
   });
 });
