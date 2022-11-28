@@ -94,6 +94,10 @@ button:hover,
   width: fit-content !important;
 }
 
+#form-contact input.button {
+  margin: 25px auto 50px;
+}
+
 @media screen and (max-width: 500px) {
   .btn-bm {
     /* padding: 8px 24px; */
