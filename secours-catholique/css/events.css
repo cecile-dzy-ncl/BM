@@ -75,6 +75,10 @@ div#events_pager {
   order: -1;
 }
 
+.section-events .event-item p {
+  font-size: 16px;
+}
+
 /* #events-index .event-item ul li {
   margin: 0;
   border-radius: 0;
