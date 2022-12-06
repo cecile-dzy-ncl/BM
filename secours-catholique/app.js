@@ -9,6 +9,8 @@ $(document).ready(function () {
     "<li class='nodropdown footer-link-menu'><a href='http://www.secours-catholique.org/' target='_blank'>© Secours Catholique</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
+  $("#main-nav .top-bar-section li:nth-of-type(-1) a").attr("target", "_blank");
+
   // AJOUT BANNER MAINTENANCE
   // var bannerMaintenance =
   //   "<div class='maintenance p-5 bg-black'><p class='m-0 white text-center'>Notre plateforme est en cours d’actualisation, nous nous excusons pour le dérangement.</p></div>";
