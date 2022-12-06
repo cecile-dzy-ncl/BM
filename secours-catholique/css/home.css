@@ -110,6 +110,19 @@
   width: 150px;
 }
 
+.camp-description span {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.camp-description span:first-child {
+  margin-right: 20px;
+}
+
+.camp-description span:last-child {
+  margin-left: 20px;
+}
+
 /* .camp-photo {
   width: 30%;
 }
