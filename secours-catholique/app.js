@@ -9,7 +9,7 @@ $(document).ready(function () {
     "<li class='nodropdown footer-link-menu'><a href='http://www.secours-catholique.org/' target='_blank'>© Secours Catholique</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
-  $("#main-nav .top-bar-section li:nth-last-child(-n+2) a").attr(
+  $("#main-nav .top-bar-section li:nth-last-child(-n+1) a").attr(
     "target",
     "_blank"
   );
