@@ -1,21 +1,22 @@
-$( document ).ready(function() {
-  console.log( "ready!" );
+$(document).ready(function () {
+  console.log("ready!");
   $("body").addClass("vfl");
 
-
   // AJOUT TITRE "COLLECTES EN COURS" EN BAS DE PAGE
-  $('.section-home-projects').prepend('<h2 class="mt-60 mb-50">Exemples de défis en cours</h2>');
+  $(".section-home-projects").prepend(
+    '<h2 class="mt-60 mb-50">Exemples de défis en cours</h2>'
+  );
 
   // ENLEVER LES DÉCIMALES ET AJOUTER LE SIGLE €
-  $('#tag-amount').html($('#tag-amount').text().split(",")[0] + " €")
+  $("#tag-amount").html($("#tag-amount").text().split(",")[0] + " €");
 
+  // --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
 
-// --------- BLOC OBJECTIFS/RÉSULTATS ET BARRE DE PROGRESSION ---------
+  //
+  var creaCollecte = $("#widget-new-project");
+  $(".intro-my-event").after(creaCollecte);
 
-//
-var creaCollecte = $("#widget-new-project");
-$('.intro-my-event').after(creaCollecte);
-
+  /*
 // recuperer id
 var idCampaign = $("body").prop("classList")[1].split("_")[1];
 
@@ -53,23 +54,17 @@ $('#events-show .habillage').prepend('<div class="stats-event mobile_flex-column
     }
   });
 
+*/
 
-// --------- RESPONSIVE ---------
+  // --------- RESPONSIVE ---------
 
-  var windowWidth= $(window).width();
+  var windowWidth = $(window).width();
 
-  if(windowWidth < 500){
+  if (windowWidth < 500) {
     $("body").addClass("mobile");
     $("#indexs-index .position-absolute").removeClass("position-absolute");
     $(".mobile .h-360").removeClass("h-360");
     $(".mobile img.mln-30").removeClass("mln-30");
-    $(".mobile .bx-viewport").css('height', "auto");
+    $(".mobile .bx-viewport").css("height", "auto");
   }
-
-
-
-
-
-
-
 });
