@@ -9,8 +9,9 @@ yellow : #ECAF00;
 /* ------------------- FONTS ------------------- */
 
 @font-face {
-  font-family: 'beyond-the-mountains';
-  src: url('https://cecile-dzy-ncl.github.io/BM/viva_for_life/fonts/beyond_the_mountains.otf') format('opentype');
+  font-family: "beyond-the-mountains";
+  src: url("https://cecile-dzy-ncl.github.io/BM/viva_for_life/fonts/beyond_the_mountains.otf")
+    format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -18,37 +19,35 @@ yellow : #ECAF00;
 /* ------------------- */
 
 .blue {
-  color: #2E3092 !important;
+  color: #2e3092 !important;
 }
 
 .orange {
-  color: #EF5022;
+  color: #ef5022;
 }
 
 .yellow {
-  color: #ECAF00;
+  color: #ecaf00;
 }
 
-
 .bg-blue {
-  background-color: #2E3092;
+  background-color: #2e3092;
 }
 
 .bg-orange {
-  background-color: #EF5022;
+  background-color: #ef5022;
 }
 
 .bg-yellow {
-  background-color: #ECAF00;
+  background-color: #ecaf00;
 }
 
 .border-blue {
-  border-color: #2E3092;
+  border-color: #2e3092;
 }
 
-
 .border-yellow {
-  border-color: #FDB913 !important;
+  border-color: #fdb913 !important;
 }
 /* GENERAL */
 
@@ -80,7 +79,7 @@ h4 {
 }
 
 h5 {
-  font-size: 70px
+  font-size: 70px;
 }
 
 /*h6 {
@@ -94,8 +93,9 @@ p {
   text-align: center;
 }
 
-h2, h3 {
-  color: #2E3092;
+h2,
+h3 {
+  color: #2e3092;
 }
 
 a {
@@ -111,11 +111,11 @@ a {
   font-family: "Source Sans Pro";
 }
 
-
 /* BANNER & WRAPPERS & BOXES */
 
 .banner-homepage {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/imagefondhomevivaok.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://agir.vivaforlife.be/cdn.iraiser.eu/6idKBeqjdjVcRtnL6A9qeBCllCI4cS9vXnl62IzT33g2GL6oGHWGvWlLOZdR4Xs7/Cecile_DEZY/origin/imagefondhomevivaok.jpg);
   height: 640px;
 }
 
@@ -145,7 +145,7 @@ a {
 
 .btn-bm,
 .section-home-projects .button {
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 22px;
   text-align: center;
   width: 300px;
@@ -171,8 +171,8 @@ a {
   margin: auto;
   display: block;
   background: none;
-  border: 2px solid #2E3092;
-  color: #2E3092;
+  border: 2px solid #2e3092;
+  color: #2e3092;
   float: none !important;
   margin-bottom: 100px;
 }
@@ -202,8 +202,6 @@ section.top-bar-section {
 #banner_section {
   background: #fff;
 }
-
-
 
 /* PAGE EVENTS */
 
@@ -241,7 +239,7 @@ section.top-bar-section {
 }
 
 #events .event-item .event-details {
-  background: #2E3092;
+  background: #2e3092;
   border-radius: 0 100px 0 0;
 }
 
@@ -261,7 +259,7 @@ section.top-bar-section {
 }
 
 #events .event-description h3 a {
-  color: #ECAF00;
+  color: #ecaf00;
   font-size: 60px;
   text-transform: uppercase;
 }
@@ -275,7 +273,7 @@ section.top-bar-section {
 }
 
 #events .event-item .event-details {
-  background: #2E3092;
+  background: #2e3092;
   border-radius: 0 100px 0 0;
   display: flex;
   flex-direction: column;
@@ -299,14 +297,14 @@ section.top-bar-section {
 }
 
 .button.page-create {
-  background: #EF5022 !important;
+  background: #ef5022 !important;
   border-radius: 22px !important;
   color: white;
   width: 322px;
 }
 
 .button.page-see {
-  color: #ECAF00;
+  color: #ecaf00;
   text-transform: initial !important;
   font-weight: 400 !important;
   border: none !important;
@@ -374,7 +372,8 @@ section.top-bar-section {
   width: 80%;
 }
 
-.stats-event-m-1, .stats-event-m-2 {
+.stats-event-m-1,
+.stats-event-m-2 {
   color: #000;
   font-size: 20px;
   line-height: 48px;
@@ -430,17 +429,26 @@ section.top-bar-section {
   display: none;
 }
 
+.event-head .intro-my-event .container {
+  padding: 3rem 0 0;
+}
+
 .event-head .intro-my-event h1 {
   color: #040e8f;
 }
 
-
-.section-home-projects .progress .graph-bar {
-  background-color: #EF5022;
+.event-head .intro-my-event * {
+  text-align: center;
 }
 
-.section-home-projects .projects-list .panel h3 a, .projects-list .panel h3 a:focus, .projects-list .panel h3 a:hover {
-  color:#EF5022;
+.section-home-projects .progress .graph-bar {
+  background-color: #ef5022;
+}
+
+.section-home-projects .projects-list .panel h3 a,
+.projects-list .panel h3 a:focus,
+.projects-list .panel h3 a:hover {
+  color: #ef5022;
 }
 
 .section-home-projects .infos-money .infos-money-details .info-money.detail {
@@ -451,7 +459,7 @@ section.top-bar-section {
   background: #ef5023;
   border-radius: 50px;
   font-weight: 600;
-  margin: 15px 0 30px 0!important;
+  margin: 15px 0 3rem 0 !important;
 }
 
 /* PAGE DE COLLECTE */
@@ -470,15 +478,15 @@ section.section-projet-details .project-detail-data .current-amount {
 }
 
 .projet-head .medium-3 {
-    display: block !important;
+  display: block !important;
 }
 
 .projet-head .medium-9 {
-    width: auto !important;
+  width: auto !important;
 }
 
 .projet-head .medium-9 .medium-10 {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 section.section-projet-details .from_event {
@@ -499,8 +507,18 @@ section.section-projet-details .from_event {
   padding: 0;
 }
 
-#projects-show .block-share-container .social-btns .social_network a .social_network_send,
-#projects-show .block-share-container .social-btns .social_network a .social_network_share {
+#projects-show
+  .block-share-container
+  .social-btns
+  .social_network
+  a
+  .social_network_send,
+#projects-show
+  .block-share-container
+  .social-btns
+  .social_network
+  a
+  .social_network_share {
   background-color: #888888;
 }
 
@@ -546,20 +564,18 @@ h1#show_title {
 }
 
 .block-share-container h4 {
-    font-family: "Open Sans";
+  font-family: "Open Sans";
 }
 
-
-
 @media screen and (max-width: 500px) {
-
   h1 {
     font-size: 38px;
     line-height: 38px;
   }
 
-  .banner.banner-homepage h1, .banner.banner-homepage p {
-    color: #2E3092 !important;
+  .banner.banner-homepage h1,
+  .banner.banner-homepage p {
+    color: #2e3092 !important;
   }
 
   h5 {
@@ -570,7 +586,8 @@ h1#show_title {
     background-color: white;
   }
 
-  .btn-bm, .section-home-projects .button {
+  .btn-bm,
+  .section-home-projects .button {
     width: 260px;
     font-size: 17px;
   }
@@ -585,11 +602,11 @@ h1#show_title {
   }
 
   .top-bar.expanded .toggle-topbar a span::after {
-      box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
+    box-shadow: 0 0 0 1px #ffffff, 0 7px 0 1px #ffffff, 0 14px 0 1px #ffffff;
   }
 
   .top-bar.expanded .toggle-topbar a {
-      color: #ffffff;
+    color: #ffffff;
   }
 
   .mobile .font-50 {
@@ -603,7 +620,7 @@ h1#show_title {
   }
 
   .a-propos-de-viva-for-life.mobile iframe {
-      display: none;
+    display: none;
   }
 
   #events .event-item .panel {
@@ -629,9 +646,8 @@ h1#show_title {
     padding: 20px;
   }
 
-
   #events .event-item .panel .event-details .columns {
-      width: 100% !important;
+    width: 100% !important;
   }
 
   .event-item .panel .event-image .wrap img {
@@ -656,16 +672,12 @@ h1#show_title {
     background-color: white;
   }
 
-/*  .comment-collecter .wrapper.flex-column.bg-blue.br-trbl-100.p-60.w-auto {
+  /*  .comment-collecter .wrapper.flex-column.bg-blue.br-trbl-100.p-60.w-auto {
     padding: 20px;
   }*/
 
-
-
-/*  .card-bm {
+  /*  .card-bm {
     width: 85%;
     margin-bottom: 15px;
   }*/
-
-
 }
