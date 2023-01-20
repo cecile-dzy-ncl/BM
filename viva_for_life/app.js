@@ -32,7 +32,7 @@ $(document).ready(function () {
   $(".stats-event .graph-bar").css("width", pourcentage + "%");
 
   $(function () {
-    if ($("body").is("#events-show") || !$("body").hasClass("event_5")) {
+    if ($("body").is("#events-show") && !$("body").hasClass("event_5")) {
       var collecte = $(".current-amount").html();
       $(".stats-event-m-1 span").html(collecte);
       console.log(collecte);
