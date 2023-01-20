@@ -35,7 +35,7 @@ $(document).ready(function () {
     if ($("body").is("#events-show") && !$("body").hasClass("event_5")) {
       var collecte = $(".current-amount").html();
       $(".stats-event-m-1 span").html(collecte);
-      console.log(collecte);
+      console.log("collecte", collecte);
 
       var objectif = $(".objectif-amount").html().split("Objectif")[1];
       $(".stats-event-m-2 span").html(objectif);
