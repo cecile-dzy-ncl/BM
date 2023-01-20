@@ -430,7 +430,7 @@ section.top-bar-section {
 }
 
 .event-head .intro-my-event .container {
-  padding: 3rem 0 0;
+  padding: 3rem 0 0 !important;
 }
 
 .event-head .intro-my-event h1 {
@@ -438,7 +438,7 @@ section.top-bar-section {
 }
 
 .event-head .intro-my-event * {
-  text-align: center;
+  text-align: center !important;
 }
 
 .section-home-projects .progress .graph-bar {
