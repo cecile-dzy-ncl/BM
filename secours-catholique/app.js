@@ -9,6 +9,10 @@ $(document).ready(function () {
     "<li class='nodropdown footer-link-menu'><a href='http://www.secours-catholique.org/' target='_blank'>© Secours Catholique</a></li>"
   ).prependTo("footer .top-bar-section ul.left ul.center");
 
+  $(
+    "<img src='https://mondonadusens.secours-catholique.org/cdn.iraiser.eu/3wtabg1WeyD1S6O+ZmbFHFO3CVY1Rc/4AiyrEIZsnn5DOl2AgKKJG9hDgIlAYsIA/Victoire_Bador/origin/label-don-confiance.png' width='100px'/>"
+  ).appendTo("footer .top-bar-section ul.left ul.center");
+
   $("#main-nav .top-bar-section li:nth-last-child(-n+1) a").attr(
     "target",
     "_blank"
