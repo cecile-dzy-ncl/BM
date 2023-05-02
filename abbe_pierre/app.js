@@ -34,7 +34,7 @@ $(document).ready(function () {
       );
 
       var eventId = $("#events-show")[0]
-        .classList.value.match(/event_\d/g)[0]
+        .classList.value.match(/event_\d+/g)[0]
         .split("_")[1];
 
       $.get(
